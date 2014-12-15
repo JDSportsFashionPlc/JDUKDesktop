@@ -1,3 +1,4 @@
+
 <!--
 /***
 
@@ -10,19 +11,70 @@
  * --- --- --- --- ---
  
  -- 12th August 2014
- --- Complete clean code and organisation
+ --- Trying clean code and add some organisation
  
 
 ***/
 -->
+<script type='text/javascript'>
+    // SUBMIT THE FOOTER SEARCH BAR FORM
+    // -- Now we create the form submission
+function footersubmitSearchm(){ 
+            var flag = 0;
+            var q = jQuery(".footersearchQParameter");
+            if(
+				
+				q.val() == ""||
+				q.val() == "Enter your search here"||
+				q.val() == "test"||
+				q.val() == " "||
+				q.val() == "search"||
+				q.val() == "  "
+				
+				){
+                jQuery("#footersearchQuery").addClass("errorformapps");
+					 jQuery(".submitfooterSearchButton").addClass("errorborder");
+                flag = 1;
+            } else {
+                jQuery("#footersearchQuery").removeClass("errorformapps");
+					 jQuery(".submitfooterSearchButton").removeClass("errorborder");
+                
+            }
+			
+            if (flag == 1){} else {
+				submitSearch(document.footerSearchm);
+				}
+ }	
+</script>		  
+
+<!--
+// Section for footer search bar
+// THE FORM HTML
+-->
+<div id="footersearchBar">
+    
+<!--    <form action="http://www.jdsports.co.uk/webapp/wcs/stores/servlet/CategoryDisplay" method="post" id="fSearch" name="footerSearchm" onSubmit="return footersubmitSearchm()"> -->
+    
+	<form action="/webapp/wcs/stores/servlet/CategoryDisplay" method="post" id="fSearch" name="footerSearchm" onsubmit="return footersubmitSearchm()"> 
+                   <input style="width: 220px;" name="cm_re" value="Global-_-Header-_-Search" type="hidden">
+                    <input style="width: 220px;" name="storeId" value="10151" type="hidden">
+                    <input style="width: 220px;" name="catalogId" value="10551" type="hidden">
+                    <input style="width: 220px;" name="langId" value="-1" type="hidden">
+                    <input style="width: 220px;" name="mfpartNumber" value="" type="hidden">
+                    <input style="width: 220px;" name="langId" value="search" type="hidden">
+                    <input style="width: 220px;" name="categoryId" value="12203" type="hidden"> 
+                    <input type="text" style="width:400px;height:34px;left:0;border:1px solid #fff; font-size:15px;color:#8B8B8B;padding-left:10px" class="footersearchQParameter" id="footersearchQuery" name="freeText" value="Enter your search here" onblur="if(this.value=='')  this.value='Enter your search here';" onfocus="if(this.value='Enter your search here') this.value='';" onkeypress="javascript:if(event.keyCode==13) footersubmitSearchm('document.footerSearchm');">
+                   
+<a class="submitfooterSearchButton" href="#" onclick = "footersubmitSearchm('document.footerSearchm'); return false;" title="Search" accesskey="]"><span>search</span></a>
+     </form>
+</div>
 
 <!--
 // MAIN GLOBAL FOOTER
 -->
 
 <div id="footerMain">
-
-    <!--
+	<!--
 	// BRAND ICONS
 	// -- Uses sprites in store.css, store_product.css, store_checkout.css
 	-->
@@ -56,8 +108,7 @@
         </li>
         <div style="clear:both"></div>
     </ul>
-
-    <!--
+	 <!--
 	// FOOTER LINKS
 	// -- Credit card images
 	-->
@@ -70,44 +121,38 @@
             <img src="/images/cards.png" alt="cards" />
         </div>
     </div>
-
-    <!-- 
-	// ABOUT US
-	// -- Further support links for customer service and order tracking etc
-	-->
-    <div class="aboutUsList">
+	 <div class="aboutUsList">
         <ul>
-            <li><a href="http://www.jdsports.co.uk/page/site-map/?cm_re=Global-_-Footer-_-Sitemap" title="Site Map">Site Map</a>
+            <li><a href="/page/site-map/?cm_re=Global-_-Footer-_-Sitemap" title="Site Map">Site Map</a>
             </li>
-            <li><a onclick="openWin('/lib/cs/faqs.html?brand=JD&mode=search&action=answer&tax=JD%20Sports%20Taxonomy&answer=7da277ad-ecb4-422d-9ed4-6757e9fb5a9c&back=faq%3Faction%3Dsearch%26tax%3DJD+Sports+Taxonomy%26q%3Dsecurity%26page%3D1&cm_re=Global-_-Footer-_-Security')" href="#" title="Site Security">Site Security</a>
+            <li><a onclick="openWin('/lib/cs/faqs.html?iframeURL=Privacy and Security')" href="#" title="Site Security">Site Security</a>
             </li>
-            <li><a onclick="openWin('http://jdsports-ws.numerointeractive.com/websuite/en/faq?brand=JD&amp;mode=topic&amp;action=answer&amp;tax=JD%20Sports%20Taxonomy&amp;answer=39b48be3-3c1b-4e5e-acb5-20d44f0c5bde&amp;back=faq%3Faction%3Dtopic%26tax%3DJD+Sports+Taxonomy%26topic%3D65a94d7b-c0a8-4c8a-874d-9ca35d3b3e3b%26page%3D1&?cm_re=Global-_-Footer-_-Privacy'); return false;" title="Privacy" href="#TermsAndConditions">Privacy</a>
+            <li><a onclick="openWin('/lib/cs/faqs.html?iframeURL=Privacy and Security'); return false;" title="Privacy" href="#TermsAndConditions">Privacy</a>
             </li>
             <li><a onClick="cmCreateManualLinkClickTag('cm_re=Global-_-Footer-_-Accessibility');" href="http://www.jdplc.com/site-services/accessibility.aspx" title="Accessibility">Accessibility</a>
             </li>
-            <li><a onclick="openWin('http://jdsports-ws.numerointeractive.com/websuite/en/faq?brand=JD&mode=topic&action=answer&tax=JD%20Sports%20Taxonomy&answer=308ca626-abb3-4da8-a7e3-65229131f6ee&back=faq%3Faction%3Dtopic%26tax%3DJD+Sports+Taxonomy%26topic%3D712e3806-ca4d-4824-bffd-93259abb04e2%26page%3D1'); return false" href="#TermsAndConditions" title="Terms and Conditions">Terms &amp; Conditions</a>
+            <li><a onclick="openWin('/lib/cs/faqs.html?iframeURL=Privacy and Security'); return false" href="#TermsAndConditions" title="Terms and Conditions">Terms &amp; Conditions</a>
             </li>
             <li><a href="http://careers.jdsports.co.uk/" onClick="cmCreateManualLinkClickTag('cm_re=Global-_-Footer-_-Careers');" title="Careers">Careers</a>
             </li>
         </ul>
     </div>
-
-    <div class="custServ">
+	 <div class="custServ">
         <ul>
-            <li><a onclick="openWin('/lib/cs/contact-us.html?brand=JD&amp;action=topic&amp;tax=JD%20Sports%20Taxonomy&amp;topic=93d5fec5-8f1d-4d1c-8b00-d3176c96e8e2&cm_re=Global-_-Footer-_-Contact-Us')" href="#" title="Contact Us">Contact Us</a>
+            <li><a onclick="openWin('/lib/cs/contact-us.html')" href="#" title="Contact Us">Contact Us</a>
             </li>
-            <li><a onclick="openWin('/lib/cs/faqs.html?brand=JD&action=topic&tax=JD%20Sports%20Taxonomy&topic=cc5a4433-b041-43d4-bcec-22986ac36937&cm_re=Global-_-Footer-_-Delivery')" href="#" title="Delivery Info">Delivery Info</a>
+            <li><a onclick="openWin('/lib/cs/faqs.html?iframeURL=Delivery')" href="#" title="Delivery Info">Delivery Info</a>
             </li>
-            <li><a onclick="openWin('/lib/cs/faqs.html?brand=JD&action=topic&tax=JD%20Sports%20Taxonomy&topic=9c1bdbe1-b85e-4ff5-af02-18954727b07e&cm_re=Global-_-Footer-_-Returns')" href="#" title="Returning Items">Returning Items</a>
+            <li><a onclick="openWin('/lib/cs/faqs.html?iframeURL=Returns')" href="#" title="Returning Items">Returning Items</a>
             </li>
-            <li><a onclick="openWin('http://jdsports-ws.numerointeractive.com/websuite/en/faq?brand=JD&mode=topic&action=answer&tax=JD%20Sports%20Taxonomy&answer=7fd02440-72fb-4fef-b294-86c3e2bef7e9&back=faq%3Faction%3Dtopic%26tax%3DJD+Sports+Taxonomy%26topic%3Db704c3f7-b47e-4ab6-8b95-feb145de936c%26page%3D1&cm_re=Global-_-Footer-_-Order-Tracking')" href="#" title="Order Tracking">Order Tracking</a>
+            <li><a onclick="openWin('/lib/cs/faqs.html?iframeURL=Where is my order')" href="#" title="Order Tracking">Order Tracking</a>
             </li>
-            <li><a onclick="openWin('/lib/cs/size-guides.html?cm_re=Global-_-Footer-_-Size-Guide')" href="#" title="Size Chart">Size Guides</a>
+            <li><a onclick="openWin('/lib/cs/size-guides.html')" href="#" title="Size Chart">Size Guides</a>
             </li>
-            <li><a onclick="openWin('/lib/cs/faqs.html?tax=JD%20Sports%20Taxonomy&brand=JD&cm_re=Global-_-Footer-_-FAQs')" href="#" title="FAQs">FAQs</a>
+            <li><a onclick="openWin('/lib/cs/faqs.html')" href="#" title="FAQs">FAQs</a>
             </li>
         </ul>
-    </div>
+    </div> 
 
     <!--
 	// GLOBAL FINAL
@@ -125,16 +170,142 @@
 
 
 
+<!--
+// CHRISTMAS GIFT SHOP
+// -- Inserted into header nav via scripts.js (lines 93-95)
+-->
+
+<ul id="giftShop" style="display:none;">
+    <li><span><a class="sports" href="/page/gift-shop/" id="xmasLink" manual_cm_re="Global-_-Header-_-Gift-Shop">Christmas</a></span>
+        <ul id="xmasMenuItemsContainer">
+            <li>
+                <ul id="xmasMenuItems">
+                    <!--[if lte IE 6]><iframe src="javascript:false;"></iframe><![endif]-->
+                    <!-- sports-new-nav-starts -->
 
 
+                    <li>
+                        <!-- needed -->
+                        <dl>
+                            <dt>Gifts for Him +</dt>
+                            <dd>
+                                <ul>
+                                    <li><a href="http://www.jdsports.co.uk/featured/Gifts%20for%20Him?fredhopperUrl=fh_location=%2f%2fcatalog01%2fen_GB%2fcategories%3C%7bcatalog01_ct12201%7d%2fcampaign%3E%7bgifts%7d" manual_cm_re="global-_-header-_-dd-xmas-gifts-mens-all">Shop all gift ideas</a>
+                                    </li>
+                                    <li>&nbsp;</li>
+                                    <li><a href="http://www.jdsports.co.uk/featured/Mens%20Gifts%20under%2020?fredhopperUrl=fh_location=%2f%2fcatalog01%2fen_GB%2fcategories%3C%7bcatalog01_ct12201%7d%2fcampaign%3E%7bgifts%7d%2f0.0%3Csku_sell_price%3C20.0 " manual_cm_re="global-_-header-_-dd-xmas-gifts-mens-under-20">Gifts under &pound;20</a>
+                                    </li>
+                                    <li><a href="http://www.jdsports.co.uk/featured/Mens%20Gifts%20under%2050?fredhopperUrl=fh_location=%2f%2fcatalog01%2fen_GB%2fcategories%3C%7bcatalog01_ct12201%7d%2fcampaign%3E%7bgifts%7d%2f20.0%3Csku_sell_price%3C50.0 " manual_cm_re="global-_-header-_-dd-xmas-gifts-mens-under-50">Gifts under &pound;50</a>
+                                    </li>
+                                    <li><a href="http://www.jdsports.co.uk/featured/Mens%20Gifts%20under%20100?fredhopperUrl=fh_location=%2f%2fcatalog01%2fen_GB%2fcategories%3C%7bcatalog01_ct12201%7d%2fcampaign%3E%7bgifts%7d%2f50.0%3Csku_sell_price%3C100.0" manual_cm_re="global-_-header-_-dd-xmas-gifts-mens-under-100">Gifts under &pound;100</a>
+                                    </li>
+                                    <li><a href="http://www.jdsports.co.uk/featured/Mens%20Gifts%20From%20Nike?fredhopperUrl=fh_location=%2f%2fcatalog01%2fen_GB%2fcategories%3C{catalog01_ct12201}%2fbrand%3E{nike}%2fcampaign%3E{gifts} " manual_cm_re="global-_-header-_-dd-xmas-gifts-mens-nike">Shop Nike gift ideas</a>
+                                    </li>
+                                    <li><a href="http://www.jdsports.co.uk/featured/Mens%20Gifts%20From%20adidas?fredhopperUrl=fh_location=%2f%2fcatalog01%2fen_GB%2fcategories%3C%7bcatalog01_ct12201%7d%2fbrand%3E%7badidas%3badidas20originals%7d%2fcampaign%3E%7bgifts%7d " manual_cm_re="global-_-header-_-dd-xmas-gifts-mens-adidas">Shop adidas gift ideas</a>
+                                    </li>
 
+                                    <li><a href="http://www.jdsports.co.uk/featured/mens%20converse" manual_cm_re="global-_-header-_-dd-xmas-gifts-mens-converse">Shop Converse gift ideas</a>
+                                    </li>
+                                    <li><a href="http://www.jdsports.co.uk/featured/Stocking%20Fillers%20for%20Men?fredhopperUrl=fh_location=%2f%2fcatalog01%2fen_GB%2fcategories%3C{catalog01_ct12201}%2fcampaign%3E{stocking20fillers}" manual_cm_re="global-_-header-_-dd-xmas-gifts-mens-stocking-fillers">Shop stocking fillers</a>
+                                    </li>
+                                    <li><a href="http://www.jdsports.co.uk/men/mens-footwear/" manual_cm_re="global-_-header-_-dd-xmas-gifts-mens-footwear">Shop all Men's Footwear</a>
+                                    </li>
+
+                                    <li><a href="http://www.jdsports.co.uk/men/mens-clothing/" manual_cm_re="global-_-header-_-dd-xmas-gifts-mens-clothing">Shop all Men's Clothing</a>
+                                    </li>
+                                    <li><a href="http://www.jdsports.co.uk/men/mens-accessories/" manual_cm_re="global-_-header-_-dd-xmas-gifts-mens-Accessories">Shop all Men's Accessories</a>
+                                    </li>
+                                </ul>
+                            </dd>
+                        </dl>
+
+                        <dl>
+                            <dt>Gifts for Her +</dt>
+                            <dd>
+                                <ul>
+
+                                    <li><a href="http://www.jdsports.co.uk/featured/Gifts%20for%20Her?fredhopperUrl=fh_location=%2f%2fcatalog01%2fen_GB%2fcategories%3C%7bcatalog01_ct12202%7d%2fcampaign%3E%7bgifts%7d " manual_cm_re="global-_-header-_-dd-xmas-gifts-womens-all">Shop all gift ideas</a>
+                                    </li>
+                                    <li>&nbsp;</li>
+                                    <li><a href="http://www.jdsports.co.uk/featured/Womens%20Gifts%20under%2020?fredhopperUrl=fh_location=%2f%2fcatalog01%2fen_GB%2fcampaign%3E%7bgifts%7d%2f00.0%3Csku_sell_price%3C20.0%2fcategories%3C%7bcatalog01_ct12202%7d" manual_cm_re="global-_-header-_-dd-xmas-gifts-womens-under-20">Gifts under &pound;20</a>
+                                    </li>
+                                    <li><a href="http://www.jdsports.co.uk/featured/Womens%20Gifts%20under%2050?fredhopperUrl=fh_location=%2f%2fcatalog01%2fen_GB%2fcampaign%3E%7bgifts%7d%2f20.0%3Csku_sell_price%3C50.0%2fcategories%3C%7bcatalog01_ct12202%7d" manual_cm_re="global-_-header-_-dd-xmas-gifts-womens-under-50">Gifts under &pound;50</a>
+                                    </li>
+
+                                    <li><a href="http://www.jdsports.co.uk/featured/Womens%20Gifts%20under%20100?fredhopperUrl=fh_location=%2f%2fcatalog01%2fen_GB%2fcampaign%3E%7bgifts%7d%2f50.0%3Csku_sell_price%3C100.0%2fcategories%3C%7bcatalog01_ct12202%7d" manual_cm_re="global-_-header-_-dd-xmas-gifts-womens-under-100">Gifts under &pound;100</a>
+                                    </li>
+                                    <li><a href="http://www.jdsports.co.uk/featured/Nike%20Gifts%20For%20Her?fredhopperUrl=fh_location=%2f%2fcatalog01%2fen_GB%2fcategories%3c%7bcatalog01_ct12202%7d%2fbrand%3e%7bnike%7d%2fcampaign%3e%7bgifts%7d" manual_cm_re="global-_-header-_-dd-xmas-gifts-womens-nike">Shop Nike gift ideas</a>
+                                    </li>
+                                    <li><a href="http://www.jdsports.co.uk/featured/adidas%20Gifts%20for%20Her?fredhopperUrl=fh_location=%2f%2fcatalog01%2fen_GB%2fcategories%3C%7bcatalog01_ct12202%7d%2fbrand%3E%7badidas%3badidas20originals%7d%2fcampaign%3E%7bgifts%7d" manual_cm_re="global-_-header-_-dd-xmas-gifts-womens-adidas">Shop adidas gift ideas</a>
+                                    </li>
+
+                                    <li><a href="http://www.jdsports.co.uk/featured/Converse%20Gifts%20For%20Her?fredhopperUrl=fh_location=%2f%2fcatalog01%2fen_GB%2fcategories%3c%7bcatalog01_ct12202%7d%2fcampaign%3e%7bgifts%7d%2fbrand%3e%7bconverse%7d" manual_cm_re="global-_-header-_-dd-xmas-gifts-womens-converse">Shop Converse gift ideas</a>
+                                    </li>
+                                    <li><a href="http://www.jdsports.co.uk/featured/Stocking%20Fillers%20for%20Women?fredhopperUrl=fh_location=%2f%2fcatalog01%2fen_GB%2fcategories%3C%7bcatalog01_ct12202%7d%2fcampaign%3E%7bstocking20fillers%7d" manual_cm_re="global-_-header-_-dd-xmas-gifts-womens-stocking-fillers">Shop stocking fillers</a>
+                                    </li>
+                                    <li><a href="http://www.jdsports.co.uk/women/womens-footwear/" manual_cm_re="global-_-header-_-dd-xmas-gifts-womens-footwear">Shop all Women's Footwear</a>
+                                    </li>
+
+                                    <li><a href="http://www.jdsports.co.uk/women/womens-clothing/" manual_cm_re="global-_-header-_-dd-xmas-gifts-womens-clothing">Shop all Women's Clothing</a>
+                                    </li>
+                                    <li><a href="http://www.jdsports.co.uk/women/womens-accessories/" manual_cm_re="global-_-header-_-dd-xmas-gifts-womens-Accessories">Shop all Women's Accessories</a>
+                                    </li>
+                                </ul>
+                            </dd>
+                        </dl>
+
+                        <dl>
+                            <dt>Gifts for Kids +</dt>
+                            <dd>
+                                <ul>
+
+                                    <li><a href="http://www.jdsports.co.uk/featured/Gifts%20For%20Kids?fredhopperUrl=fh_location=%2f%2fcatalog01%2fen_GB%2fcampaign%3e%7bgifts%7d%2fcategories%3c%7bcatalog01_ct12203%7d" manual_cm_re="global-_-header-_-dd-xmas-gifts-kids-all">Shop all gift ideas</a>
+                                    </li>
+                                    <li>&nbsp;</li>
+                                    <li><a href="http://www.jdsports.co.uk/featured/Kids%20Gifts%20under%2020?fredhopperUrl=fh_location=%2f%2fcatalog01%2fen_GB%2fcampaign%3E%7bgifts%7d%2f0.0%3Csku_sell_price%3C20.0%2fcategories%3C%7bcatalog01_ct12203%7d" manual_cm_re="global-_-header-_-dd-xmas-gifts-kids-under-20">Gifts under &pound;20</a>
+                                    </li>
+                                    <li><a href="http://www.jdsports.co.uk/featured/Kids%20Gifts%20under%2050?fredhopperUrl=fh_location=%2f%2fcatalog01%2fen_GB%2fcampaign%3E%7bgifts%7d%2f20.0%3Csku_sell_price%3C50.0%2fcategories%3C%7bcatalog01_ct12203%7d" manual_cm_re="global-_-header-_-dd-xmas-gifts-kids-under-50">Gifts under &pound;50</a>
+                                    </li>
+                                    <li><a href="http://www.jdsports.co.uk/featured/Kids%20Gifts%20under%20100?fredhopperUrl=fh_location=%2f%2fcatalog01%2fen_GB%2fcampaign%3E%7bgifts%7d%2f50.0%3Csku_sell_price%3C100.0%2fcategories%3C%7bcatalog01_ct12203%7d" manual_cm_re="global-_-header-_-dd-xmas-gifts-kids-under-100">Gifts under &pound;100</a>
+                                    </li>
+                                    <li><a href="http://www.jdsports.co.uk/featured/Shop%20Junior%20Gifts?fredhopperUrl=fh_location=%2f%2fcatalog01%2fen_GB%2fcategories%3c%7bcatalog01_ct12203%7d%2fcategories%3c%7bcatalog01_ct12203_ct12212%2c+catalog01_ct12203_ct12210%7d%2fcampaign%3e%7bgifts%7d" manual_cm_re="global-_-header-_-dd-xmas-gifts-kids-junior8-15">Shop Junior (8-15)</a>
+                                    </li>
+                                    <li><a href="http://www.jdsports.co.uk/featured/Shop%20Childrens%20Gifts?fredhopperUrl=fh_location=%2f%2fcatalog01%2fen_GB%2fcategories%3c%7bcatalog01_ct12203%7d%2fcampaign%3e%7bgifts%7d%2fcategories%3c%7bcatalog01_ct12203_ct12213%2ccatalog01_ct12203_ct12211%7d" manual_cm_re="global-_-header-_-dd-xmas-gifts-kids-children4-7">Shop Childrens (4-7)</a>
+                                    </li>
+
+                                    <li><a href="http://www.jdsports.co.uk/featured/Shop%20Infants%20Gifts?fredhopperUrl=fh_location=%2f%2fcatalog01%2fen_GB%2fcategories%3c%7bcatalog01_ct12203%7d%2fcampaign%3e%7bgifts%7d%2fcategories%3c%7bcatalog01_ct12203_ct12214%2c+catalog01_ct12203_ct12218%7d" manual_cm_re="global-_-header-_-dd-xmas-gifts-kids-infant0-3">Shop Infant (0-3)</a>
+                                    </li>
+                                    <li><a href="http://www.jdsports.co.uk/featured/Stocking%20Fillers%20for%20Kids?fredhopperUrl=fh_location=%2f%2fcatalog01%2fen_GB%2fcategories%3C%7bcatalog01_ct12203%7d%2fcampaign%3E%7bstocking20fillers%7d" manual_cm_re="global-_-header-_-dd-xmas-gifts-kids-stocking-fillers">Shop stocking fillers</a>
+                                    </li>
+
+                                </ul>
+                            </dd>
+                        </dl>
+
+
+                    </li>
+
+                    <li style="clear:both">
+                        <a href="/page/gift-cards/" manual_cm_re="Global-_-Header-_-dd-xmas-gifts-xmasbanner" style="padding-left:25px">
+                            <img src="/images/library/2014/05.12.2014/GIFT_CARD_HOVER.png" />
+                        </a>
+                    </li>
+
+
+                    <!-- sports-new-nav-ends -->
+
+                </ul>
+            </li>
+        </ul>
+    </li>
+</ul>
 
 <!--
 // SPORTS AND FITNESS
 // -- Inserted into header nav via scripts.js (lines 93-95)
 -->
 
-<ul id="sportsLinks" style="display:none;">
+<ul id="sportsLinks" style="display:none">
     <li><span><a class="sports" href="/page/jdpro/%23?stop_mobi=yes" id="sportsLink" manual_cm_re="Global-_-Header-_-Tabs-Sports">Running &amp; Fitness</a></span>
         <ul id="sportsMenuItemsContainer">
             <li>
@@ -150,17 +321,12 @@
                             <dd>
                                 <ul>
 
-
-
-
                                     <li><a href="http://www.jdsports.co.uk/featured/Mens%20Running%20Shoes?fredhopperUrl=fh_location=%2f%2fcatalog01%2fen_GB%2fcategories%3C%7bcatalog01_ct12201%7d%2fcategories%3C%7bcatalog01_ct12201_ct12207%7d%2fcategories%3C%7bcatalog01_ct12201_ct12207_ct12259%7d" manual_cm_re="global-_-header-_-dd-sport-mens-Running-Shoes">Running Shoes</a>
                                     </li>
                                     <li><a href="http://www.jdsports.co.uk/featured/Mens%20Gym%20Trainers?fredhopperUrl=fh_location=%2f%2fcatalog01%2fen_GB%2fcategories%3C%7bcatalog01_ct12201%7d%2fcategories%3C%7bcatalog01_ct12201_ct12207%7d%2fcategories%3C%7bcatalog01_ct12201_ct12207_ct76242%7d" manual_cm_re="global-_-header-_-dd-sport-mens-Gym-Trainers">Gym Trainers</a>
                                     </li>
                                     <li><a href="http://www.jdsports.co.uk/featured/Mens%20Running%20Tops?fredhopperUrl=fh_location=%2f%2fcatalog01%2fen_GB%2fcategories%3C%7bcatalog01_ct12201%7d%2fcategories%3C%7bcatalog01_ct12201_ct12206%7d%2fcategories%3C%7bcatalog01_ct12201_ct12206_ct12245%7d%2fsport%3E%7brunning%7d" manual_cm_re="global-_-header-_-dd-sport-mens-Running-Tops">Running Tops</a>
                                     </li>
-
-
                                     <li><a href="http://www.jdsports.co.uk/featured/Mens%20Running%20Jackets?fredhopperUrl=fh_location=%2f%2fcatalog01%2fen_GB%2fcategories%3C%7bcatalog01_ct12201%7d%2fcategories%3C%7bcatalog01_ct12201_ct12206%7d%2fcategories%3C%7bcatalog01_ct12201_ct12206_ct12240%7d%2fsport%3E%7brunning%7d" manual_cm_re="global-_-header-_-dd-sport-mens-Running-Jackets">Running Jackets</a>
                                     </li>
                                     <li><a href="http://www.jdsports.co.uk/featured/Mens%20Running%20and%20Gym%20Shorts?fredhopperUrl=fh_location=%2f%2fcatalog01%2fen_GB%2fcategories%3C%7bcatalog01_ct12201%7d%2fcategories%3C%7bcatalog01_ct12201_ct12206%7d%2fcategories%3C%7bcatalog01_ct12201_ct12206_ct12243%7d%2fsport%3E%7brunning%3bgym%7d" manual_cm_re="global-_-header-_-dd-sport-mens-Gym-Shorts">Running &amp; Gym Shorts</a>
@@ -222,7 +388,7 @@
                             <dt><a href="http://www.jdsports.co.uk/featured/Swimming?fredhopperUrl=fh_location=%2f%2fcatalog01%2fen_GB%2fsport%3E%7bswimming%7d" manual_cm_re="global-_-header-_-dd-sport-Swimwear">Swimwear</a></dt>
                             <dd>
                                 <ul>
-                                    <li><a href="http://www.jdsports.co.uk/featured/Mens%20Swimwear?fredhopperUrl=fh_location=%2f%2fcatalog01%2fen_GB%2fsport%3E%7bswimming%7d%2fcategories%3C%7bcatalog01_ct12201%7d" manual_cm_re="global-_-header-_-dd-sport-Mens-Swimwear">Mens Swimwear</a>
+                                    <li><a href="http://www.jdsports.co.uk/featured/Mens%20Swimwear?fredhopperUrl=fh_location=%2f%2fcatalog01%2fen_GB%2fsport%3E%7bswimming%7d%2fcategories%3C%7bcatalog01_ct12201%7d" manual_cm_re="global-_-header-_-dd-xmas-gifts-mens-Swimwear">Mens Swimwear</a>
                                     </li>
                                     <li><a href=" http://www.jdsports.co.uk/search/Swimming?fredhopperUrl=fh_location=%2f%2fcatalog01%2fen_GB%2fsport%3e%7bswimming%7d" manual_cm_re="global-_-header-_-dd-sport-womens-Swimwear">Womens Swimwear</a>
                                     </li>
@@ -267,23 +433,12 @@
                         <span class="dod-product" style="clear:both;line-height: 17px;"><a style="font-weight:bold; text-decoration:none" href="http://www.jdsports.co.uk/page/nike-crosstown-running_women/" manual_cm_re="global-_-header-_-dd-sport-women-nike-crosstown-running/">SHOP WOMEN</a></span> 
                         </span>
                     </li>
-
-
-
-
-
                     <!-- sports-new-nav-ends -->
-
                 </ul>
             </li>
         </ul>
     </li>
 </ul>
-
-
-
-
-
 
 
 
@@ -295,7 +450,7 @@
 
 
     <!-- <li><span><a class="sports" href="/page/world-cup-2014/" id="footballLink" manual_cm_re="Global-_-Header-_-Tabs-worldcup">World cup</a></span> -->
-    <li><span><a class="sports" href="/page/football/" id="footballLink" manual_cm_re="global-_-header-_-Football-Page">Football</a></span>
+    <li style="display:none"><span><a class="sports" href="/page/football/" id="footballLink" manual_cm_re="global-_-header-_-Football-Page">Football</a></span>
         <ul id="footballMenuItemsContainer">
             <li>
                 <ul id="footballMenuItems">
@@ -304,21 +459,6 @@
 
 
 
-                        <!-- sports &amp;fitness START -->
-                        <!--<dl>
-				<dt>Brands</dt>
-				<dd>
-				<ul>
-					<li><a href="http://www.jdsports.co.uk/featured/adidas football?fredhopperUrl=fh_location=//catalog01/en_GB/sport&gt;{football}/brand&gt;{adidas;adidas20originals}&amp;fh_sort_by=+sale_flag" manual_cm_re="global-_-header-_-dd-football-brands-adidas">adidas</a></li>
-					<li><a href="http://www.jdsports.co.uk/featured/nike football?fredhopperUrl=fh_location=//catalog01/en_GB/sport&gt;{football}/brand&gt;{nike}&amp;fh_sort_by=+sale_flag" manual_cm_re="global-_-header-_-dd-football-brands-nike">Nike</a></li>
-					<li><a href="http://www.jdsports.co.uk/featured/puma football?fredhopperUrl=fh_location=//catalog01/en_GB/sport&gt;{football}/brand&gt;{puma}&amp;fh_sort_by=+sale_flag" manual_cm_re="global-_-header-_-dd-football-brands-puma">Puma</a></li>
-					<li><a href="http://www.jdsports.co.uk/featured/warrior football?fredhopperUrl=fh_location=//catalog01/en_GB/sport&gt;{football}/brand&gt;{warrior20sports}&amp;fh_sort_by=+sale_flag" manual_cm_re="global-_-header-_-dd-football-brands-warrior">Warrior</a></li>
-					<li><a href="http://www.jdsports.co.uk/featured/umbro football?fredhopperUrl=fh_location=//catalog01/en_GB/sport&gt;{football}/brand&gt;{under20armour}&amp;fh_sort_by=+sale_flag" manual_cm_re="global-_-header-_-dd-football-brands-umbro">UMBRO</a></li>
-					<li><a href="http://www.jdsports.co.uk/featured/diadora football?fredhopperUrl=fh_location=//catalog01/en_GB/sport&gt;{football}/brand&gt;{diadora}&amp;fh_sort_by=+sale_flag" manual_cm_re="global-_-header-_-dd-football-brands-diadora">Diadora</a></li>
-					<li><a href="http://www.jdsports.co.uk/featured/score draw football?fredhopperUrl=fh_location=//catalog01/en_GB/sport&gt;{football}/brand&gt;{score20draw}&amp;fh_sort_by=+sale_flag" manual_cm_re="global-_-header-_-dd-football-brands-scoredraw">Scoredraw</a></li>
-				</ul>
-				</dd>
-			</dl>-->
                         <dl id="teams">
                             <dt>Teams +</dt>
                             <dd>
@@ -332,7 +472,8 @@
                                             </li>
                                             <li><a href="http://www.jdsports.co.uk/featured/chelsea" manual_cm_re="global-_-header-_-dd-football-premier-chelsea">Chelsea</a>
                                             </li>
-                                            <!--<li><a href="http://www.jdsports.co.uk/featured/everton?fredhopperUrl=fh_location=//catalog01/en_GB/club_football_team&gt;{everton}&amp;fh_sort_by=+sale_flag" manual_cm_re="global-_-header-_-dd-football-premier-everton">Everton</a></li>-->
+
+
                                             <li><a href="http://www.jdsports.co.uk/featured/liverpool" manual_cm_re="global-_-header-_-dd-football-premier-liverpool">Liverpool</a>
                                             </li>
                                             <li><a href="http://www.jdsports.co.uk/featured/manchester+city" manual_cm_re="global-_-header-_-dd-football-premier-man+city">Man City</a>
@@ -356,12 +497,8 @@
                                             </li>
                                             <li><a href="http://www.jdsports.co.uk/featured/tranmere" manual_cm_re="global-_-header-_-dd-football-tranmere+rovers">Tranmere Rovers</a>
                                             </li>
-                                            <!-- <li><a href="http://www.jdsports.co.uk/featured/blackburn rovers?fredhopperUrl=fh_location=//catalog01/en_GB/club_football_team&gt;{blackburn20rovers}&amp;fh_sort_by=+sale_flag" manual_cm_re="global-_-header-_-dd-football-blackburn+rovers">Blackburn Rovers</a></li>
-						<li><a href="http://www.jdsports.co.uk/featured/notts county?fredhopperUrl=fh_location=//catalog01/en_GB/club_football_team&gt;{notts20county}&amp;fh_sort_by=+sale_flag" manual_cm_re="global-_-header-_-dd-football-notts+county">Notts County</a></li>
-						<li><a href="http://www.jdsports.co.uk/featured/leeds united?fredhopperUrl=fh_location=//catalog01/en_GB/club_football_team&gt;{leeds20united}&amp;fh_sort_by=+sale_flag" manual_cm_re="global-_-header-_-dd-football-leeds+united">Leeds United</a></li> -->
-                                            <!-- <li><a href="http://www.jdsports.co.uk/featured/luton town?fredhopperUrl=fh_location=//catalog01/en_GB/club_football_team&gt;{luton20town}&amp;fh_sort_by=+sale_flag" manual_cm_re="global-_-header-_-dd-football-luton+town">Luton Town</a></li>
-						<li><a href="http://www.jdsports.co.uk/featured/carlisle?fredhopperUrl=fh_location=//catalog01/en_GB/club_football_team&gt;{carlisle}&amp;fh_sort_by=+sale_flag" manual_cm_re="global-_-header-_-dd-football-luton+town">Carlisle</a></li>
-						<li><a href="http://www.jdsports.co.uk/featured/oldham?fredhopperUrl=fh_location=//catalog01/en_GB/club_football_team&gt;{oldham}&amp;fh_sort_by=+sale_flag" manual_cm_re="global-_-header-_-dd-football-luton+town">Oldham</a></li> -->
+
+
                                         </ul>
                                     </dd>
                                     <dt><a href="http://www.jdsports.co.uk/featured/scottish%20leagues?fredhopperUrl=fh_location=//catalog01/en_GB/football_league%3E%7bscottish20leagues%7d&fh_sort_by=+sale_flag#q_back0" manual_cm_re="global-_-header-_-dd-football-scottish+leagues">Scottish Leagues</a></dt>
@@ -371,7 +508,8 @@
                                             </li>
                                             <li><a href="http://www.jdsports.co.uk/featured/rangers?fredhopperUrl=fh_location=//catalog01/en_GB/club_football_team%3E%7brangers%7d&fh_sort_by=+sale_flag" manual_cm_re="global-_-header-_-dd-football-rangers">Rangers</a>
                                             </li>
-                                            <!-- <li><a href="http://www.jdsports.co.uk/featured/ross county?fredhopperUrl=fh_location=//catalog01/en_GB/club_football_team&gt;{ross20county}&amp;fh_sort_by=+sale_flag" manual_cm_re="global-_-header-_-dd-football-ross+county">Ross County</a></li> -->
+
+
                                             <li><a href="http://www.jdsports.co.uk/featured/st%20mirren?fredhopperUrl=fh_location=//catalog01/en_GB/club_football_team%3E%7bst20mirren%7d&fh_sort_by=+sale_flag" manual_cm_re="global-_-header-_-dd-football-st+mirren">St Mirren</a>
                                             </li>
                                         </ul>
@@ -439,23 +577,8 @@
                         <dl id="footballboots">
                             <dt><a href="http://www.jdsports.co.uk/featured/football+boots" manual_cm_re="global-_-header-_-dd-football-football+boots">Football Boots +</a></dt>
                             <dd>
-                                <!-- <dl>
-					<dt>Categories</dt>
-					<dd>
-					<ul>
-						<li><a href="http://www.jdsports.co.uk/men/mens-footwear/football-boots/" manual_cm_re="global-_-header-_-dd-football-mens+football+boots">Men&#39;s Football Boots</a></li>
-						<li><a href="http://www.jdsports.co.uk/featured/kids football boots?fredhopperUrl=fh_location=//catalog01/en_GB/categories&lt;{catalog01_ct12203}/product_type_jd&gt;{football20boots}&amp;fh_sort_by=+sale_flag" manual_cm_re="global-_-header-_-dd-football-kids+football+boots">Kids Football Boots</a></li>
-					</ul>
-					</dd>
-					<dt>Surface</dt>
-					<dd>
-					<ul>
-						<li><a href="http://www.jdsports.co.uk/featured/firm ground football boots?fredhopperUrl=fh_location=//catalog01/en_GB/product_type_jd&gt;{football20boots}/football_boot_type&gt;{firm20ground}&amp;fh_sort_by=+sale_flag" manual_cm_re="global-_-header-_-dd-football-firm+ground+boots">Firm Ground Boots</a></li>
-						<li><a href="http://www.jdsports.co.uk/featured/soft ground football boots?fredhopperUrl=fh_location=//catalog01/en_GB/product_type_jd&gt;{football20boots}/football_boot_type&gt;{soft20ground}&amp;fh_sort_by=+sale_flag" manual_cm_re="global-_-header-_-dd-football-soft+ground+boots">Soft Ground Boots</a></li>
-						<li><a href="http://www.jdsports.co.uk/featured/astro turf football boots?fredhopperUrl=fh_location=//catalog01/en_GB/product_type_jd&gt;{football20boots}/football_boot_type&gt;{astro20turf}&amp;fh_sort_by=+sale_flag" manual_cm_re="global-_-header-_-dd-football-astro+turf+boots">Astro Turf Boots</a></li>
-					</ul>
-					</dd>
-				</dl> -->
+
+
 
                                 <dl>
                                     <dt><a href="http://www.jdsports.co.uk/featured/adidas%20Football%20Boots?fredhopperUrl=fh_location=%2f%2fcatalog01%2fen_GB%2fcategories%3C%7bcatalog01_ct12201%2ccatalog01_ct12203%7d%2fcategories%3C%7bcatalog01_ct12201_ct12207%2ccatalog01_ct12203_ct12212%2ccatalog01_ct12203_ct12213%7d%2fcategories%3C%7bcatalog01_ct12201_ct12207_ct12255%2ccatalog01_ct12203_ct12212_ct70718%2ccatalog01_ct12203_ct12213_ct70733%7d%2fbrand%3E%7badidas%7d%26fh_sort_by%3D%2bage" manual_cm_re="global-_-header-_-dd-adidas-football-boots">adidas Football Boots</a></dt>
@@ -485,12 +608,8 @@
                                             </li>
                                         </ul>
                                     </dd>
-                                    <!-- <dt>Warrior Football Boots</dt>
-					<dd>
-					<ul>
-						<li><a href="http://www.jdsports.co.uk/featured/warrior%20superheat?fredhopperUrl=fh_location=%2f%2fcatalog01%2fen_GB%2fproduct_ty§	pe_jd%3E%7bfootball20boots%7d%2ffootball_boot_collection%3E%7bsuperheat%7d" manual_cm_re="global-_-header-_-dd-football-warrior+superheat+football+boots">Superheat</a></li>
-					</ul>
-					</dd> -->
+
+
                                     <dt><a href="http://www.jdsports.co.uk/featured/Puma%20Football%20Boots?fredhopperUrl=fh_location=%2f%2fcatalog01%2fen_GB%2fcategories%3C%7bcatalog01_ct12201%7d%2fcategories%3C%7bcatalog01_ct12201_ct12207%7d%2fcategories%3C%7bcatalog01_ct12201_ct12207_ct12255%7d%2fbrand%3E%7bpuma%7d" manual_cm_re="global-_-header-_-dd-puma-football-boots">Puma Football Boots</a></dt>
                                     <dd>
                                         <ul>
@@ -530,34 +649,16 @@
 
 
 
-                        <a class="meganav-rich-content" href="http://www.jdsports.co.uk/featured/manchester+united" manual_cm_re="global-_-header-_-ManhcesterUnitedHomeShirt"><span class="dod-title">Manchester United</span> <img  src="http://i1.adis.ws/t/jpl/jd_product_list?plu=jd_135193_a&amp;wid=140&amp;hei=140&amp;resmode=sharp&amp;resmode=sharp&amp;op_usm=1.1,0.5,0,0&amp;$exclusive=0" /> <span class="dod-brand"></span> <span class="dod-product">Home Shirt 2014/15</span> <span class="dod-price">Adult &pound;55<br />
-Kids from &pound;30<br />
-Add name/number &pound;10</span> <span class="dod-price-was"></span> <span class="dod-cta">Shop Now</span> </a>
+                        <a class="meganav-rich-content" href="http://www.jdsports.co.uk/men/b/england-football-kit/" manual_cm_re="global-_-header-_-Football-Nav-134757"><span class="dod-title">England</span> <img  src="http://i1.adis.ws/t/jpl/jd_product_list?plu=jd_134757_a&amp;wid=140&amp;hei=140&amp;resmode=sharp&amp;resmode=sharp&amp;op_usm=1.1,0.5,0,0&amp;$exclusive=0" /> <span class="dod-brand"></span> <span class="dod-price">Adult &pound;50<br />Kids from &pound;37<br />Free Name & Number</span> <span class="dod-price-was"></span> <span class="dod-cta">Shop Now</span> </a>
 
                     </li>
+
+
+
+
+
+
                 </ul>
-
-
-
-
-
-
-
-                <!-- New worldcup menu starts from here -->
-
-
-
-
-
-
-
-                <!-- New worldcup menu ends here -->
-
-
-
-
-
-
 
 
 
@@ -568,14 +669,16 @@ Add name/number &pound;10</span> <span class="dod-price-was"></span> <span class
 </ul>
 
 
+
+
 <!-- Football Nav Content, inserted into header nav via scripts.js. Yeh, let's cram the header nav... (lines 93-95) -->
 <ul id="clearanceLinks" style="display:none;">
 
     <li>
         <span>
-		<a class="sale" href="/page/sale-2014" id="clearanceLinkNew60" manual_cm_re="global-_-header-_-dd-Clearance">
+		<a class="sale" href="http://www.jdsports.co.uk/featured/Clearance?fredhopperUrl=fh_location=%2f%2fcatalog01%2fen_GB%2fsale%3d%7bonly20view20sale20items%7d%2f" id="clearanceLinkNew60" manual_cm_re="global-_-header-_-dd-Clearance">
 			<!-- <span  style="font-weight: bold; padding: 2px; color: #f93a3f;" >Clearance</span> -->
-        <span style="font-weight: bold; padding: 2px; color: #f93a3f;">Clearance Up to 70% off</span>
+        <span style="font-weight: bold; padding: 2px; color: #f93a3f;">Clearance - up to 70% off</span>
         </a>
         </span>
         <ul id="clearanceMenuItemsContainer">
@@ -583,15 +686,11 @@ Add name/number &pound;10</span> <span class="dod-price-was"></span> <span class
                 <ul id="clearanceMenuItems">
                     <!--[if lte IE 6]><iframe src="javascript:false;"></iframe><![endif]-->
                     <li>
-                        <!-- needed -->
-
 
                         <dl>
-                            <dt><a href="http://www.jdsports.co.uk/men/sale/" manual_cm_re="global-_-header-_-dd-clearance-mens">Men - Up to 70% Off</a></dt>
+                            <dt><a href="http://www.jdsports.co.uk/men/sale/" manual_cm_re="global-_-header-_-dd-clearance-mens">Men - Up to 70% off</a></dt>
                             <dd>
                                 <ul>
-
-
 
 
                                     <li><a href="http://www.jdsports.co.uk/men/mens-footwear/sale/" manual_cm_re="global-_-header-_-dd-clearance-mens-footwear">Men&#39;s Footwear</a>
@@ -600,6 +699,52 @@ Add name/number &pound;10</span> <span class="dod-price-was"></span> <span class
                                     </li>
                                     <li><a href="http://www.jdsports.co.uk/men/mens-accessories/sale/" manual_cm_re="global-_-header-_-dd-clearance-mens-accessories">Men&#39;s Accessories</a>
                                     </li>
+
+
+
+                                </ul>
+                            </dd>
+                            <dd>
+                                <dt>Brands</dt>
+                                <ul>
+                                    <li><a href="http://www.jdsports.co.uk/featured/Shop%20all%20mens%20nike%20clearance?fredhopperUrl=fh_location=%2f%2fcatalog01%2fen_GB%2fsale%3d%7bonly20view20sale20items%7d%2fcategories%3C%7bcatalog01_ct12201%7d%2fbrand%3E%7bnike%7d" manual_cm_re="global-_-header-_-dd-clearance-mens-nike">Men&#39;s Nike</a>
+                                    </li>
+                                    <li><a href="http://www.jdsports.co.uk/featured/Shop%20all%20Mens%20adidas%20Clearance?fredhopperUrl=fh_location=%2f%2fcatalog01%2fen_GB%2fsale%3d%7bonly20view20sale20items%7d%2fbrand%3E%7badidas%3badidas20originals%7d%2fcategories%3C%7bcatalog01_ct12201%7d" manual_cm_re="global-_-header-_-dd-clearance-mens-adidas">Men&#39;s adidas</a>
+                                    </li>
+
+
+                                    <li><a href="http://www.jdsports.co.uk/featured/Shop%20all%20mens%20converse%20clearance?fredhopperUrl=fh_location=%2f%2fcatalog01%2fen_GB%2fsale%3d%7bonly20view20sale20items%7d%2fcategories%3C%7bcatalog01_ct12201%7d%2fbrand%3E%7bconverse%7d" manual_cm_re="global-_-header-_-dd-clearance-mens-converse">Men&#39;s Converse</a>
+                                    </li>
+
+                                    <li><a href="http://www.jdsports.co.uk/featured/Shop%20all%20mens%20duffer%20clearance?fredhopperUrl=fh_location=%2f%2fcatalog01%2fen_GB%2fsale%3d%7bonly20view20sale20items%7d%2fcategories%3C%7bcatalog01_ct12201%7d%2fbrand%3E%7bduffer20of20st20george%7d" manual_cm_re="global-_-header-_-dd-clearance-mens-duffer">Men&#39;s Duffer</a>
+                                    </li>
+
+
+                                    <li><a href="http://www.jdsports.co.uk/featured/Shop%20all%20mens%20puma%20clearance?fredhopperUrl=fh_location=%2f%2fcatalog01%2fen_GB%2fsale%3d%7bonly20view20sale20items%7d%2fcategories%3C%7bcatalog01_ct12201%7d%2fbrand%3E%7bpuma%7d" manual_cm_re="global-_-header-_-dd-clearance-mens-puma">Men&#39;s Puma</a>
+                                    </li>
+
+                                    <li><a href="http://www.jdsports.co.uk/featured/Shop%20all%20mens%20fred%20perry%20clearance?fredhopperUrl=fh_location=%2f%2fcatalog01%2fen_GB%2fsale%3d%7bonly20view20sale20items%7d%2fcategories%3C%7bcatalog01_ct12201%7d%2fbrand%3E%7bfred20perry%7d" manual_cm_re="global-_-header-_-dd-clearance-mens-fred-perry">Men&#39;s Fred Perry</a>
+                                    </li>
+
+
+                                    <li><a href="http://www.jdsports.co.uk/featured/Men%27s%20Lacoste%20Sale?fredhopperUrl=fh_location=%2f%2fcatalog01%2fen_GB%2fcategories%3C{catalog01_ct12201_ct12206}%2fbrand%3E{lacoste}%2fsale%3d{only20view20sale20items}" manual_cm_re="global-_-header-_-dd-clearance-mens-fred-lacoste">Men&#39;s Lacoste</a>
+                                    </li>
+
+
+                                    <li><a href="http://www.jdsports.co.uk/featured/Shop%20all%20mens%20mckenzie%20clearance?fredhopperUrl=fh_location=%2f%2fcatalog01%2fen_GB%2fsale%3d%7bonly20view20sale20items%7d%2fcategories%3C%7bcatalog01_ct12201%7d%2fbrand%3E%7bmckenzie%7d" manual_cm_re="global-_-header-_-dd-clearance-mens-fred-mckenzie">Men&#39;s McKenzie</a>
+                                    </li>
+                                </ul>
+
+                            </dd>
+                            <dt>Offers</dt>
+                            <dd>
+                                <ul>
+                                    <li><a href="http://www.jdsports.co.uk/featured/mens%202%20for%2025?fredhopperUrl=fh_location=//catalog01/en_GB/categories%3C%7bcatalog01_ct12201%7d/offer_code_description%3E%7b220for20a325%7d/offer_code_description%3E%7b220for20a325%7d" manual_cm_re="global-_-header-_-dd-mens-offers-2+for+20+mens+clothing">2 for &pound;20 - Men's Clothing</a>
+                                    </li>
+                                    <li><a href="http://www.jdsports.co.uk/featured/men's 2 for 25?fredhopperUrl=fh_location=//catalog01/en_GB/categories&lt;{catalog01_ct12201}/offer_code_description&gt;{220for20a325}/offer_code_description&gt;{220for20a325}" manual_cm_re="global-_-header-_-dd-mens-offers-2+for+25+mens+clothing">2 for &pound;25 - Men's Clothing</a>
+                                    </li>
+
+
                                 </ul>
                             </dd>
                         </dl>
@@ -613,6 +758,34 @@ Add name/number &pound;10</span> <span class="dod-price-was"></span> <span class
                                     <li><a href="http://www.jdsports.co.uk/women/womens-clothing/sale/" manual_cm_re="global-_-header-_-dd-clearance-womens-clothing">Women&#39;s Clothing</a>
                                     </li>
                                     <li><a href="http://www.jdsports.co.uk/women/womens-accessories/sale/" manual_cm_re="global-_-header-_-dd-clearance-womens-accessories">Women&#39;s Accessories</a>
+                                    </li>
+
+
+
+                                </ul>
+                            </dd>
+                            <dt>Brands</dt>
+                            <dd>
+                                <ul>
+
+
+                                    <li><a href="http://www.jdsports.co.uk/featured/Shop%20all%20womens%20nike%20clearance?fredhopperUrl=fh_location=%2f%2fcatalog01%2fen_GB%2fsale%3d%7bonly20view20sale20items%7d%2fcategories%3C%7bcatalog01_ct12202%7d%2fbrand%3E%7bnike%7d" manual_cm_re="global-_-header-_-dd-clearance-womens-nike">Women&#39;s Nike</a>
+                                    </li>
+
+                                    <li><a href="http://www.jdsports.co.uk/featured/Shop%20all%20womens%20adidas%20clearance?fredhopperUrl=fh_location=%2f%2fcatalog01%2fen_GB%2fsale%3d%7bonly20view20sale20items%7d%2fcategories%3C%7bcatalog01_ct12202%7d%2fbrand%3E%7badidas%3badidas20originals%7d" manual_cm_re="global-_-header-_-dd-clearance-womens-adidas">Women&#39;s adidas</a>
+                                    </li>
+
+
+                                    <li><a href="http://www.jdsports.co.uk/featured/Shop%20all%20womens%20converse%20clearance?fredhopperUrl=fh_location=%2f%2fcatalog01%2fen_GB%2fsale%3d%7bonly20view20sale20items%7d%2fcategories%3C%7bcatalog01_ct12202%7d%2fbrand%3E%7bconverse%7d" manual_cm_re="global-_-header-_-dd-clearance-womens-converse">Women&#39;s Converse</a>
+                                    </li>
+
+
+
+
+                                    <li><a href="http://www.jdsports.co.uk/featured/Shop%20all%20womens%20brookhaven%20clearance?fredhopperUrl=fh_location=%2f%2fcatalog01%2fen_GB%2fsale%3d%7bonly20view20sale20items%7d%2fcategories%3C%7bcatalog01_ct12202%7d%2fbrand%3E%7bbrookhaven%7d" manual_cm_re="global-_-header-_-dd-clearance-womens-brookhaven">Women&#39;s Brookhaven</a>
+                                    </li>
+
+                                    <li><a href="http://www.jdsports.co.uk/featured/Shop%20all%20womens%20pure%20simple%20sport%20clearance?fredhopperUrl=fh_location=%2f%2fcatalog01%2fen_GB%2fsale%3d%7bonly20view20sale20items%7d%2fcategories%3C%7bcatalog01_ct12202%7d%2fbrand%3E%7bpure20simple20sport%7d" manual_cm_re="global-_-header-_-dd-clearance-womens-brookhaven">Women&#39;s Pure</a>
                                     </li>
                                 </ul>
                             </dd>
@@ -628,30 +801,37 @@ Add name/number &pound;10</span> <span class="dod-price-was"></span> <span class
                                     </li>
                                     <li><a href="http://www.jdsports.co.uk/kids/infants-footwear-(sizes-0-9)/sale/" manual_cm_re="global-_-header-_-dd-clearance-kids-infant+footwear">Infant Footwear</a>
                                     </li>
-                                    <li><a href="http://www.jdsports.co.uk/featured/boy's clothing (8 - 15 years) clearance clothing?fredhopperUrl=fh_location=//catalog01/en_GB/categories&lt;{catalog01_ct12203_ct12210}/gender&gt;{boys}/sale={only20view20sale20items}" manual_cm_re="global-_-header-_-dd-clearance-kids-junior+boys+clothing">Boys Clothing (aged 8 - 15 years)</a>
+                                    <li><a href="http://www.jdsports.co.uk/featured/boys clothing (8 - 15 years) clearance clothing?fredhopperUrl=fh_location=//catalog01/en_GB/categories&lt;{catalog01_ct12203_ct12210}/gender&gt;{boys}/sale={only20view20sale20items}" manual_cm_re="global-_-header-_-dd-clearance-kids-junior+boys+clothing">Boys Clothing (aged 8 - 15 years)</a>
                                     </li>
-                                    <li><a href="http://www.jdsports.co.uk/featured/boy's clothing (4 - 7 years) clearance clothing?fredhopperUrl=fh_location=//catalog01/en_GB/categories&lt;{catalog01_ct12203_ct12211}/gender&gt;{boys}/sale={only20view20sale20items}" manual_cm_re="global-_-header-_-dd-clearance-kids-children+boys+clothing">Boys Clothing (aged 4 - 7 years)</a>
+                                    <li><a href="http://www.jdsports.co.uk/featured/boys clothing (4 - 7 years) clearance clothing?fredhopperUrl=fh_location=//catalog01/en_GB/categories&lt;{catalog01_ct12203_ct12211}/gender&gt;{boys}/sale={only20view20sale20items}" manual_cm_re="global-_-header-_-dd-clearance-kids-children+boys+clothing">Boys Clothing (aged 4 - 7 years)</a>
                                     </li>
-                                    <li><a href="http://www.jdsports.co.uk/featured/clearance baby and toddler boy's clothing?fredhopperUrl=fh_location=//catalog01/en_GB/categories&lt;{catalog01_ct12203_ct12218}/gender&gt;{boys}/sale={only20view20sale20items}" manual_cm_re="global-_-header-_-dd-clearance-kids-infant+boys+clothing">Boys Baby &amp; Toddler Clothing<br />
+                                    <li><a href="http://www.jdsports.co.uk/featured/clearance baby and toddler boys clothing?fredhopperUrl=fh_location=//catalog01/en_GB/categories&lt;{catalog01_ct12203_ct12218}/gender&gt;{boys}/sale={only20view20sale20items}" manual_cm_re="global-_-header-_-dd-clearance-kids-infant+boys+clothing">Boys Baby &amp; Toddler Clothing<br />
 					(aged 0 - 3 years)*</a>
                                     </li>
-                                    <li><a href="http://www.jdsports.co.uk/featured/girl's clothing (8 - 15 years) clearance clothing?fredhopperUrl=fh_location=//catalog01/en_GB/categories&lt;{catalog01_ct12203_ct12210}/gender&gt;{girls}/sale={only20view20sale20items}" manual_cm_re="global-_-header-_-dd-clearance-kids-junior+girls+clothing">Girls Clothing (aged 8 - 15 years)</a>
+                                    <li><a href="http://www.jdsports.co.uk/featured/girls clothing (8 - 15 years) clearance clothing?fredhopperUrl=fh_location=//catalog01/en_GB/categories&lt;{catalog01_ct12203_ct12210}/gender&gt;{girls}/sale={only20view20sale20items}" manual_cm_re="global-_-header-_-dd-clearance-kids-junior+girls+clothing">Girls Clothing (aged 8 - 15 years)</a>
                                     </li>
-                                    <li><a href="http://www.jdsports.co.uk/featured/girl's clothing (4 - 7 years) clearance clothing?fredhopperUrl=fh_location=//catalog01/en_GB/categories&lt;{catalog01_ct12203_ct12211}/gender&gt;{girls}/sale={only20view20sale20items}" manual_cm_re="global-_-header-_-dd-clearance-kids-children+girls+clothing">Girls Clothing (aged 4 - 7 years)</a>
+                                    <li><a href="http://www.jdsports.co.uk/featured/girls clothing (4 - 7 years) clearance clothing?fredhopperUrl=fh_location=//catalog01/en_GB/categories&lt;{catalog01_ct12203_ct12211}/gender&gt;{girls}/sale={only20view20sale20items}" manual_cm_re="global-_-header-_-dd-clearance-kids-children+girls+clothing">Girls Clothing (aged 4 - 7 years)</a>
                                     </li>
-                                    <li><a href="http://www.jdsports.co.uk/featured/clearance baby and toddler girl's clothing?fredhopperUrl=fh_location=//catalog01/en_GB/categories&lt;{catalog01_ct12203_ct12218}/gender&gt;{girls}/sale={only20view20sale20items}" manual_cm_re="global-_-header-_-dd-clearance-kids-infant+girls+clothing">Girls Baby &amp; Toddler Clothing<br />
+                                    <li><a href="http://www.jdsports.co.uk/featured/clearance baby and toddler girls clothing?fredhopperUrl=fh_location=//catalog01/en_GB/categories&lt;{catalog01_ct12203_ct12218}/gender&gt;{girls}/sale={only20view20sale20items}" manual_cm_re="global-_-header-_-dd-clearance-kids-infant+girls+clothing">Girls Baby &amp; Toddler Clothing<br />
 					(aged 0 - 3 years)</a>
                                     </li>
-                                    <li><a href="http://www.jdsports.co.uk/search/kids+accessories+sale?fredhopperUrl=fh_location=//catalog01/en_GB/categories%3C%7bcatalog01_ct12203%7d/categories%3C%7bcatalog01_ct12203_ct12217%7d/sale=%7bonly20view20sale20items%7d" manual_cm_re="global-_-header-_-dd-clearance-accesories">Kid&apos;s Accessories</a>
+                                    <li><a href="http://www.jdsports.co.uk/featured/kids+accessories+sale?fredhopperUrl=fh_location=//catalog01/en_GB/categories%3C%7bcatalog01_ct12203%7d/categories%3C%7bcatalog01_ct12203_ct12217%7d/sale=%7bonly20view20sale20items%7d" manual_cm_re="global-_-header-_-dd-clearance-accesories">Kid&apos;s Accessories</a>
+                                    </li>
+                                </ul>
+                            </dd>
+
+                            <dt>Offers</dt>
+                            <dd>
+                                <ul>
+
+
+                                    <li><a href="http://www.jdsports.co.uk/featured/kids%202%20for%2020?fredhopperUrl=fh_location=//catalog01/en_GB/categories%3C{catalog01_ct12203}/offer_code_description%3E{220for20a320}/offer_code_description%3E{220for20a320}" manual_cm_re="global-_-header-_-dd-mens-offers-2+for+25+mens+clothing">2 for &pound;20 - Kids Clothing</a>
                                     </li>
                                 </ul>
                             </dd>
                         </dl>
 
-
-
-
-                        <a class="meganav-rich-content" href="http://www.jdsports.co.uk/product/converse-star-player-ox/010639/" manual_cm_re="global-_-header-_-dd-clearance-dealoftheweek-converse-star-player-ox-010639"><span class="dod-title">Deal of The Week</span> <img  src="http://i1.adis.ws/t/jpl/jd_product_list?plu=jd_010639_a&amp;wid=140&amp;hei=140&amp;resmode=sharp&amp;resmode=sharp&amp;op_usm=1.1,0.5,0,0&amp;$exclusive=0" /> <span class="dod-brand">Converse</span> <span class="dod-product">Star Player Ox</span> <span class="dod-price">Now &pound;30.00</span> <span class="dod-price-was">Was &pound;47.00</span> <span class="dod-cta">Don&#39;t miss out!</span> </a>
+                        <a class="meganav-rich-content" href="http://www.jdsports.co.uk/product/brookhaven-monroe-jacket/024908/" manual_cm_re="global-_-header-_-dd-clearance-dealoftheweek-brookhaven-monroe-jacket"><span class="dod-title">Deal of The Week</span> <img  src="http://i1.adis.ws/t/jpl/jd_product_list?plu=jd_024908_a&amp;wid=140&amp;hei=140&amp;resmode=sharp&amp;resmode=sharp&amp;op_usm=1.1,0.5,0,0&amp;$exclusive=0" /> <span class="dod-brand">Brookhaven</span> <span class="dod-product">Monroe Jacket</span> <span class="dod-price">Now &pound;30.00</span> <span class="dod-price-was">Was &pound;50.00</span> <span class="dod-cta">Don&#39;t miss out!</span> </a>
 
 
                     </li>
@@ -663,25 +843,48 @@ Add name/number &pound;10</span> <span class="dod-price-was"></span> <span class
 </ul>
 
 
-
 <!-- LOAD JQUERY IF NOT LOADED -->
-<script>
-    window.jQuery || document.write("<script src='/js/jquery.js'>\x3C/script>")
-</script>
-
+<script>window.jQuery || document.write("<script src='/js/jquery.js'>\x3C/script>")</script>
 <script language="javascript" type="text/javascript">
-    jQuery(document).ready(function($) {
+jQuery(document).ready(function($) {
 
-        $('#header').wrapAll('<div class="full-width-header" />');
-        $('#footerMain').wrapAll('<div class="full-width-footer" />');
+$('#header').wrapAll('<div class="full-width-header" />');
+$('#footersearchBar,#footerMain').wrapAll('<div class="full-width-footer" />');
 
-        // Password Page fix
-        if ($('#logonPasswordVerifyDiv').length) {
-            $('.full-width-header').css('background', '#000');
-            $('.full-width-footer').css('background', '#222');
-        }
+// Password Page fix
+if ($('#logonPasswordVerifyDiv').length) {
+$('.full-width-header').css('background', '#000');
+$('.full-width-footer').css('background', '#222');
+}
 
-    });
+});
 </script>
 <script type="text/javascript" src='/js/scripts.js' language="javascript"></script>
 <script type="text/javascript" src="/js/modernizr.js" language="javascript"></script>
+<!--
+LIVECHAT
+// SALESFORCE SALESFORCE 1 PLATFORM -- 12th Nov 2014 - KM
+-->
+<script type='text/javascript' src='https://c.la2w2.salesforceliveagent.com/content/g/js/31.0/deployment.js'></script>
+<script type='text/javascript'>liveagent.init('https://d.la2w2.salesforceliveagent.com/chat', '57220000000KzzV', '00D20000000oqHe');</script>
+
+
+
+<style>
+/* CSS FOR FOOTER SEARCH BAR*/
+/******** footer search toolbar ********/
+#footersearchBar{height:48px;background-color:#000 !important; padding-top:10px}
+.errorformappsfooter{border:3px solid #E6191D !important;height:30px !important;color:#E6191D !important}
+/*#footerSearch{left:111px !important}*/
+#fSearch {padding-left: 34%}
+#fSearch a span{color: #fff;font-size:13px;font-weight:bold;line-height:35px;position:relative;text-align: center;text-decoration:none; padding-left:13px}
+.errorborderfooter{border-top:3px solid #E6191D !important;border-bottom:3px solid #E6191D !important;border-right:3px solid #E6191D !important;border-left:none !important;height:32px !important}
+#fSearch a{text-decoration:none;background:#419c41 !important;border:1px solid #fff;cursor:pointer !important;height:36px;margin:0 !important;color:#023e04;padding:0 !important;text-indent:0 !important;position:absolute;text-transform:uppercase !important;width:80px !important}
+
+#footerSearchQuery input{color:#8B8B8B !important;border:0 !important;float:left !important;font-size:15px;height:34px;left:0;padding-left:10px;position:relative;width:243px;line-height:35px;-webkit-appearance:none;border-radius:0}
+.full-width-footer{background-position-y:58px; text-align:left}
+</style>
+
+
+
+
