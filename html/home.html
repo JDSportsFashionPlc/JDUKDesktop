@@ -1,0 +1,945 @@
+<!--
+/***
+
+ * --- --- --- --- ---
+ * JD Sports Fashion plc
+ * IBM WebSphere Commerce Platform
+ * Khaleel Mughal - 20.10.2014
+ * --- --- --- --- ---
+ * #JDHOMEPAGE
+ * --- --- --- --- ---
+ 
+	-- 20th August 2014
+	--- Made changes to core Changeout systems and pending loops
+	
+	-- 11th July 2014
+	--- Github and Bitbucket also added Nike Skins
+	
+	-- 25th June 2014
+	--- SVN Integrated subVersion
+	
+	-- 4th April 2014
+	--- KM - Major code changes and another cleanup	
+	--- Fixes for IE, adding of global spots
+	--- Better indentation and viewing of the file
+  
+
+***/
+-->
+
+
+<!--
+NIKE SKINS
+-->
+<![if !IE]>
+<style type="text/css">
+.contentContainer {position:relative;background:#fff}
+.page {overflow:visible}
+#page {background:#fff}
+.hide {display:none}
+.tTakeImgResponsive img{width:100%}
+.takeOverSpot {position:absolute;top:0}
+.lw {left:-290px}
+.rw {right:-290px}
+@media screen and (max-width: 1700px) {
+.takeOverSpot {width:255px}
+.lw {left:-250px}
+.rw {right:-250px}
+}
+@media screen and (max-width: 1400px) {
+.takeOverSpot {width:215px}
+.lw {left:-205px}
+.rw {right:-205px}
+}
+</style>
+
+<![endif]>
+
+
+<!--
+// CSS
+-->
+<link href="/css/animation.css" rel="stylesheet" type="text/css">
+<link href="/css/jd-landing.css" rel="stylesheet" type="text/css">
+<style type="text/css">
+    .ctanew {
+        display: block;
+        position: absolute;
+        text-decoration: none;
+        height: 32px;
+        line-height: 32px;
+        padding-left: 15px;
+        padding-right: 50px;
+        color: #fff;
+        background: url('/images/call-to-action-arrows.png') #fff no-repeat 100% 0;
+        font-weight: bold
+    }
+    .ctanew:hover {
+        background-position: 100% -32px !important
+    }
+    .yellowHover:hover {
+        opacity: 0.9
+    }
+    .call-to-action:hover {
+        background: url("/images/jd-master-sprite-sheet.png") no-repeat scroll 100% -525px #ccc !important;
+        color: #000 !important
+    }
+    .nocaps {
+        text-transform: none !important
+    }
+    .thirdcta {
+        display: block;
+        height: 45px;
+        width: 150px;
+        position: absolute;
+        bottom: 51px
+    }
+</style>
+
+<!--
+// CAMPAIGN FONT
+-->
+<link rel="stylesheet" type="text/css" href="//cloud.typography.com/6282092/657264/css/fonts.css">
+<link rel="stylesheet" type="text/css" href="/css/sale.css">
+<link rel="stylesheet" href="/lib/hlight/world-cup-2014/assets/js/jquery.bxslider/jquery.bxslider.css" type="text/css">
+<link rel="stylesheet" href="/lib/hlight/worldcupslidersystem/css/matches.css" type="text/css">
+<link rel="stylesheet" type="text/css" href="/lib/hlight/back-to-school/owl-carousel/2/assets/owl.carousel.css"/>
+<link rel="stylesheet" type="text/css" href="/lib/hlight/back-to-school/owl-carousel/2/assets/owl.theme.default.css"/>
+
+
+<!--
+// USP CODE BLOCK
+-->
+<style type="text/css">
+    .usp-banner {
+        width: 100%;
+        height: 181px;
+        position: relative;
+        color: #2e2e2e;
+        background: #e7e7e7
+    }
+    #delivery-banner-wrap {
+        box-shadow: none !important
+    }
+    .usp-banner a {
+        transition: ease-in-out .5s
+    }
+    .hide {
+        display: none
+    }
+    .usp-banner a:hover {
+        opacity: 0.8;
+        transition: ease-in-out .5s
+    }
+    .contentContainer {
+        position: relative;
+        width: 100%;
+        padding: 0px;
+        background:url(/images/library/2014/12.12.2014/bg.png) repeat-x 0 -19px;
+    }
+    .fix {
+        width: 976px;
+        position: relative;
+        margin: 0 auto
+    }
+    .usp-banner-section {
+        width: 115px;
+        padding-right: 5px;
+        padding-left: 13px;
+        float: left;
+        position: relative;
+        height: 175px;
+        margin-top: 23px;
+        line-height: 19px
+    }
+    .usp-banner-section-middle {
+        margin-left: 9px;
+        margin-right: 9px;
+        color: #2e2e2e;
+        text-align: center;
+        width: 335px !important
+    }
+    .usp-banner-section a {
+        text-decoration: none
+    }
+    .clear {
+        clear: both
+    }
+    .ultra {
+        font-family: 'Gotham A', 'Gotham B', sans-serif !important;
+        font-size: 19px;
+        font-weight: bold;
+    }
+    .gotham {
+        font-family: 'Gotham A', 'Gotham B', sans-serif !important;
+        font-size: 12px;
+        font-weight: 400
+    }
+    a.button-gotham span{
+        display: block;
+        background: #2e2e2e;
+        color: #fff;
+        font-size: 11px !important;
+        padding: 5px 23px;
+        text-transform: uppercase;
+        text-decoration: none;
+        transition: ease-in-out .2s;
+		  margin:-7px 0px;
+		  position:relative;
+		  z-index:10
+    }
+    .usp-pics {
+        width: 150px;
+        border: 0;
+        text-align: center
+    }
+	 .usp-pics img{
+		 position:relative;
+		  z-index:5
+	 }
+    a.gotham:hover {
+        text-decoration: underline
+    }
+	 #middle-spots-wrap img {
+		 position:absolute;
+		 top:0;
+		 left:0;
+		 z-index:1
+	 }
+	 .usptable {}
+	 .usptable tr {}
+	 .usptable td{vertical-align:middle}
+	 
+	 .proddetails {padding-top:160px; padding-left:25px; padding-bottom:15px; text-align:left; background:#f2f2f2}
+	 .owl-carousel .owl-item img {padding-left:25px; padding-top:20px; background:#f2f2f2}
+ 	 .owl-carousel .owl-item {background:#f2f2f2}
+/*	 .owl-nav {position:absolute; width:100%; margin-top:-158px;margin-left:-488px; display:inline-block} */
+	 .owl-prev {display:block !important; text-align:left; color:black; float:left; padding-left:10px; background:url(../images/left_arrow_slider.png) !important; font-size: -9999px !important; position:absolute; top:90px}
+	 .owl-next {display:block !important; text-align:right; color:black; float:right; padding-right:10px; background:url(../images/right_arrow_slider.png) !important; font-size: -9999px !important; position:absolute; top:90px; margin-left:925px !important}
+	 .owl-theme .owl-controls .owl-nav [class*='owl-'] {min-height:42px; min-width:37px; font-size:0px}
+
+</style>
+<div class="fix">
+    <div class="usp-banner" style="display:block !important">
+
+        <div class="usp-banner-section" style="width:135px" >
+            <a href="http://www.jdsports.co.uk/featured/Latest%20Footwear?fredhopperUrl=fh_location=%2f%2fcatalog01%2fen_GB%2f%24s%3dfootwear%26fh_sort_by%3D-created_date"><span style="margin-bottom:9px;display:block" class="ultra">BRANDS</span></a>
+            
+				<div>
+				
+				<table class="usptable">
+					<tr>
+						<td><a manual_cm_re="USPBar-_-TextLeft-_-nike" class="gotham" href="http://www.jdsports.co.uk/featured/Nike?fredhopperUrl=fh_location=%2f%2fcatalog01%2fen_GB%2fbrand%3e%7bnike%7d">Shop Nike</a></td>
+					</tr>
+					
+					<tr>
+						<td><a manual_cm_re="USPBar-_-TextLeft-_-adidas" class="gotham" href="http://www.jdsports.co.uk/featured/adidas?fredhopperUrl=fh_location=%2f%2fcatalog01%2fen_GB%2fbrand%3e%7badidas%3badidas20originals%7d">Shop adidas</a></td>
+					</tr>
+					
+					<tr>
+						<td><a manual_cm_re="USPBar-_-TextLeft-_-northface" class="gotham" href="http://www.jdsports.co.uk/featured/The%20North%20Face?fredhopperUrl=fh_location=%2f%2fcatalog01%2fen_GB%2fbrand%3e%7bthe20north20face%7d">Shop The North Face</a></td>
+					</tr>
+					
+					<tr>
+						<td><a manual_cm_re="USPBar-_-TextLeft-_-ea7" class="gotham" href="http://www.jdsports.co.uk/featured/EA7?fredhopperUrl=fh_location=%2f%2fcatalog01%2fen_GB%2fbrand%3e%7bemporio20armani%3bemporio20armani20ea7%7d">Shop EA7</a></td>
+					</tr>
+					
+					</table>
+				</div>
+        </div>
+
+        <div class="usp-banner-section" style="width:129px;">
+            <a href="http://www.jdsports.co.uk/featured/jackets" manual_cm_re="USPBar-_-TextLeft-_-ShopJackets"><span class="ultra" style="margin-bottom:9px;display:block" >FOOTWEAR</span></a>
+            
+            <span class="gotham">Showcasing the freshest footwear available.</span>
+        </div>
+
+        <div class="usp-banner-section usp-pics">
+            <a href="http://www.jdsports.co.uk/featured/Latest%20Mens%20Footwear?fredhopperUrl=fh_location=%2f%2fcatalog01%2fen_GB%2fcategories%3C{catalog01_ct12201}%2fcategories%3C{catalog01_ct12201_ct12207}%2fnew%3E{latest}" class="button-gotham gotham" manual_cm_re="USPBar-_-Buttons-_-ShopMens"><img src="/images/library/2014/12.12.2014/mens.png" alt="Shop Men's">
+            <span>shop men's</span></a>
+        </div>
+        <div class="usp-banner-section usp-pics">
+            <a href="http://www.jdsports.co.uk/featured/Latest%20Womens%20Footwear?fredhopperUrl=fh_location=%2f%2fcatalog01%2fen_GB%2fcategories%3C{catalog01_ct12202}%2fcategories%3C{catalog01_ct12202_ct12209}%2fnew%3E{latest}" class="button-gotham gotham" manual_cm_re="USPBar-_-Buttons-_-ShopWomens"><img src="/images/library/2014/12.12.2014/womens.png" alt="Shop Women's">
+            <span>shop women's</span></a>
+        </div>
+        <div class="usp-banner-section usp-pics">
+            <a href="http://www.jdsports.co.uk/featured/Latest%20Kids%20Footwear?fredhopperUrl=fh_location=%2f%2fcatalog01%2fen_GB%2fcategories%3C{catalog01_ct12203}%2fcategories%3C{catalog01_ct12203_ct12212}%2fnew%3E{latest}" class="button-gotham gotham" manual_cm_re="USPBar-_-Buttons-_-ShopKids"><img src="/images/library/2014/12.12.2014/kids.png" alt="Shop Kids">
+            <span>shop kids</span></a>
+        </div>
+
+        <div class="usp-banner-section usp-pics">
+		   <a href="/page/gift-cards/"><img src="/images/library/2014/10.12.2014/gift-card-spot.jpg"></a>			
+        </div>
+
+
+
+
+    </div>
+    <div class="clear"></div>
+    <br />
+
+
+
+    <!--
+// BANNERS
+ - * @param; DON'T spit regular comments in the HTML
+ - * @param; keep all inside the swipe-wrap only div, img and a (anchor)
+ - * @configure assets on banners from Gemma
+-->
+
+    <div class="section" id="banners" style="margin-bottom:10px;display:none">
+        <div id="banner-slider-wrap" class="homepage swipe">
+            <div class="banner-slider swipe-wrap">
+
+                <div id="banner-one">
+
+                    <a href="http://www.jdsports.co.uk/product/adidas-originals-zx-flux/016434/" manual_cm_re="CONTENT-_-SPLITBANNER2-_-ZX-FLUX">
+                        <img src="/images/library/2014/10.11.2014/home/banner01.jpg">
+                        <span style="bottom:30px;right:30px;color:#333;background:url('/images/call-to-action-arrows.png') no-repeat scroll 100% 0 #fff" class="ctanew">SHOP NOW</span>
+                    </a>
+
+
+
+                </div>
+                <div id="banner-two">
+
+                    <a href="http://www.jdsports.co.uk/page/gift-shop/" manual_cm_re="CONTENT-_-Slider2-_-gift-shop">
+                        <img src="/images/library/2014/28.10.2014/home/banner01.jpg">
+                    </a>
+                    <a href="http://www.jdsports.co.uk/page/gift-shop/#menu" manual_cm_re="CONTENT-_-Slider2-_-ShopMenGifts" class="ctanew" style="bottom:30px;left:30px;color:#fff;background:url('/images/call-to-action-arrows.png') no-repeat scroll 100% 0 #000">SHOP MEN</a>
+                    <a href="http://www.jdsports.co.uk/page/gift-shop-women/#menu" manual_cm_re="CONTENT-_-Slider2-_-ShopWomenGifts" class="ctanew" style="bottom:30px;left:185px;color:#fff;background:url('/images/call-to-action-arrows.png') no-repeat scroll 100% 0 #000">SHOP WOMEN</a>
+                    <a href="http://www.jdsports.co.uk/page/gift-shop-kids/#menu" manual_cm_re="CONTENT-_-Slider2-_-ShopKidsGifts" class="ctanew" style="bottom:30px;left:365px;color:#fff;background:url('/images/call-to-action-arrows.png') no-repeat scroll 100% 0 #000">SHOP KIDS</a>
+                </div>
+
+
+                <div id="banner-three">
+                    <a href="http://www.jdsports.co.uk/product/nike-air-max-90/073574/" manual_cm_re="CONTENT-_-Slider3-_-NikeAirMax90">
+                        <img src="/images/library/2014/20.11.2014/airmax90_desktop_home.jpg">
+                        <span style="bottom:30px;right:30px;color:#333;background:url('/images/call-to-action-arrows.png') no-repeat scroll 100% 0 #fff" class="ctanew">SHOP NOW</span>
+                    </a>
+                </div>
+
+            </div>
+
+
+            <div id="slider-nav"><a href="#" class="slidesjs-previous" onclick='mySwipe.prev(); return false;'>prev</a><a href="#" class="slidesjs-next" onclick='mySwipe.next(); return false;'>next</a>
+            </div>
+
+
+        </div>
+
+    </div>
+
+
+
+
+    <!--
+// MIDDLE SPOTS
+-->
+    <div class="sectionTV">
+
+            
+                <div style="width:648px;height:415px;float:left;margin-right:9px">
+               
+                    
+						  
+						  
+						  <video width="648" controls height="415" onclick="this.play();" poster="/images/library/2014/11.12.2014/latest.jpg" style="display:none" id="productVideo" class="MonetateJDTVAdVert">
+                        <source type="video/webm" src="http://i1.adis.ws/v/jpl/THROW_648x415px_1/webm_480p">
+                        <source type="video/mp4" src="http://i1.adis.ws/v/jpl/THROW_648x415px_1/mp4_480p"> 
+                    </video>
+						  
+						  
+						 <a class="vidToggleHome" href="http://www.jdsports.co.uk/featured/Save%20Up%20to%2050%20Percent%20Off%20Top%20Brands%20this%20Christmas?fredhopperUrl=fh_location=%2f%2fcatalog01%2fen_GB%2fcampaign%3E%7bgift20offers%7d%2fsale%3d%7bonly20view20sale20items%7d"><img  width="648" height="415" border="0"  src="/images/library/2014/11.12.2014/latest.jpg"  alt=""></a> 
+						  
+						  
+						  
+                </div>
+                <div class="topright toprightspecialchange" style="float:left;height:415px;width:319px;position:relative">
+                    
+                   <div>
+                   <a href="http://www.jdsports.co.uk/featured/Shop%20The%20TV%20Ad?fredhopperUrl=fh_location=%2f%2fcatalog01%2fen_GB%2fcampaign%3E%7bshop20the20tv20ad%7d"><img width="319" height="415" src="/images/library/2014/11.12.2014/split_fw_415px.jpg">
+                   </a>
+                    
+                </div>
+                    
+                   
+                </div>
+            </div>
+        
+<div class="clear" style="clear:both"></div><br />
+
+
+<!--
+GOLD BAR
+-->
+<div style="padding-bottom: 10px;"><div style="background:#9e8763 none!important; text-align:center; " id="delivery-banner"><a style="display:inline; width:25%; text-transform:uppercase; font-weight:bold;" manual_cm_re="homepage-_-USP-_-gifts-page" href="http://www.jdsports.co.uk/page/gift-shop/">SHOP UNRIVALLED GIFTS &gt;</a> <a style="display:inline; width:25%; text-transform:uppercase; font-weight:bold;" manual_cm_re="homepage-_-USP-_-gifts-20" href="http://www.jdsports.co.uk/featured/Gifts%20under%2020%20pounds?fredhopperUrl=fh_location=%2f%2fcatalog01%2fen_GB%2f0.0%3Csku_sell_price%3C20.0%2fcampaign%3E%7bgifts%7d">Gifts under &pound;20</a> <a style="display:inline; width:25%; text-transform:uppercase; font-weight:bold;" manual_cm_re="homepage-_-USP-_-gifts50" href="/featured/Gifts%20Under%2050%20Pounds?fredhopperUrl=fh_location=%2f%2fcatalog01%2fen_GB%2f20.0%3Csku_sell_price%3C50.0%2fcampaign%3E%7bgifts%7d">Gifts under &pound;50</a> <a style="display:inline; width:25%; text-transform:uppercase; font-weight:bold;" manual_cm_re="homepage-_-USP-_-gifts100" href="/featured/Gifts%20Under%20100%20Pounds?fredhopperUrl=fh_location=%2f%2fcatalog01%2fen_GB%2f50.0%3Csku_sell_price%3C100.0%2fcampaign%3E{gifts}">Gifts under &pound;100</a></div>
+</div>
+
+
+
+
+			
+        <div id="middle-spots-wrap" class="homepage">
+            <ul>
+
+                <!--
+			// 1
+			-->
+                <li class="topleft">
+                    <a manual_cm_re="CONTENT-_-SPOT1-_-GIFTSMENS" href="http://www.jdsports.co.uk/featured/Gifts%20for%20Him?fredhopperUrl=fh_location=%2f%2fcatalog01%2fen_GB%2fcategories%3C%7bcatalog01_ct12201%7d%2fcampaign%3E%7bgifts%7d">
+
+                        <img width="319" height="415" src="/images/library/2014/10.12.2014/middle01.jpg">
+                        <div class="text">
+                            <span class="spot-title">&nbsp;</span>
+                            <span>Gifts for him</span>
+                            <p class="cta" style="">SHOP NOW</p>
+                        </div>
+                    </a>
+
+                </li>
+
+                <!--
+			// 2 
+			-->
+                <li class="topmiddle ">
+
+
+
+                    <a manual_cm_re="CONTENT-_-SPOT2-_-GIFTSWOMEN" href="http://www.jdsports.co.uk/featured/Gifts%20for%20Her?fredhopperUrl=fh_location=%2f%2fcatalog01%2fen_GB%2fcategories%3C%7bcatalog01_ct12202%7d%2fcampaign%3E%7bgifts%7d">
+                        <img width="319" height="415" src="/images/library/2014/10.12.2014/middle02.jpg">
+                        <div class="text">
+                            <span class="spot-title">&nbsp;</span>
+                            <span>Gifts for her</span>
+                            <p class="cta">Shop Now</p>
+                        </div>
+                    </a>
+                </li>
+
+                <!--
+			// 3 
+			-->
+                <li class="topright">
+                    <a manual_cm_re="CONTENT-_-SPOT3-_-GIFTSKIDS" href="http://www.jdsports.co.uk/featured/Gifts%20for%20Kids?fredhopperUrl=fh_location=%2f%2fcatalog01%2fen_GB%2fcategories%3C%7bcatalog01_ct12203%7d%2fcampaign%3E%7bgifts%7d">
+                        <img width="319" height="415" src="/images/library/2014/10.12.2014/middle03.jpg">
+                        <div class="text">
+                            <span class="spot-title">&nbsp;</span>
+                            <span>Gifts for kids</span>
+                            <p class="cta">Shop Now</p>
+                        </div>
+                    </a>
+                </li>
+
+
+                <!--
+			// 4
+			-->
+
+                <li class="centreleft">
+                     <a manual_cm_re="CONTENT-_-SPOT4-_-mens-accessories" href="http://www.jdsports.co.uk/featured/Hats,%20Gloves%20and%20Scarves?fredhopperUrl=fh_location=%2f%2fcatalog01%2fen_GB%2fcampaign%3e%7bwinter20accessories%7d">
+                        <img width="319" height="415" src="/images/library/2014/11.12.2014/home/middle04.jpg">
+                        <div class="text">
+
+                            <span class="spot-title">Accessories</span>
+                            <span>hats and gloves</span>
+                            <p class="cta">Shop Now</p>
+                        </div>
+                    </a>
+                   <!--  <a manual_cm_re="CONTENT-_-SPOT7-_-ellesse" href="http://www.jdsports.co.uk/featured/ellesse">
+                        <img width="319" height="415" src="/images/library/2014/21.11.2014/spot-landing.jpg">
+                        <div class="text">
+                            <span class="spot-title">Men's Clothing </span>
+                            <span>Ellesse</span>
+                            <p class="cta">Shop Now</p>
+                        </div>
+                    </a> -->
+                </li>
+				<li class="topxmasgifts1" style="text-align:center !important">
+                        <div class="texttitle">
+                            <span>TOP GIFTS FOR CHRISTMAS</span>
+                         </div>
+                </li>
+                <li class="topxmasgifts" style="text-align:center">
+		
+		<div class="hookaccess">
+			 <div class="clear hookaccess_gallery"></div>
+		</div>
+                         
+                </li>
+                
+                <!--
+			// 5
+			-->
+
+                <li class="centremiddle  AnimationMiddleSpot8">
+                    <!-- <a manual_cm_re="CONTENT-_-SPOT8-_-wales-away" href="http://www.jdsports.co.uk/featured/wales+away">
+                        <img width="319" height="415" src="/images/library/2014/28.11.2014/wales/middle08.jpg">
+                        <div class="text">
+                            <span class="spot-title">Football </span>
+                            <span>Wales Away </span>
+                            <p class="cta">Shop Now</p>
+                        </div>
+                    </a> -->
+
+                    <div class="AnimationSlide8" style="display: block;">
+                        <a href="http://www.jdsports.co.uk/search/Wales%20Home%20Kit?fredhopperUrl=fh_location=%2f%2fcatalog01%2fen_GB|secondid=%7b119800,119890,119918,120320,120786,120846,120852%7d%26fh_sort_by%3Dnatural" manual_cm_re="CONTENT-_-SPOT5-_-wales-HOME">
+                        <img width="319" height="415" src="/lib/hlight/wales-football/images/update1/wales-home-edited.jpg">
+                            <div class="text">
+                                <span class="spot-title">Football </span>
+                                <span>Wales Home </span>
+                                <p class="cta">Shop Now</p>
+                            </div>
+                        </a>
+
+                    </div>
+
+
+
+                    <div class="AnimationSlide8" style="display: block;">
+                        <a href="http://www.jdsports.co.uk/featured/northern%20ireland%20football?fredhopperUrl=fh_location=//catalog01/en_GB/international_football_team%3E{northern20ireland}&fh_sort_by=+sale_flag" manual_cm_re="CONTENT-_-SPOT5-_-wales-away">
+                        <img width="319" height="415" src="/images/library/2014/08.12.2014/football/northern-ireland/northern-ireland-middle-banner.jpg">
+                            <div class="text">
+
+                                <span class="spot-title">Football </span>
+                                <span>Northern Ireland </span>
+                                <p class="cta">SHOP NOW</p>
+                            </div>
+                        </a>
+
+                    </div>
+
+                </li>
+
+
+
+                <!--
+			// 6
+			-->
+
+               <li class="centreright"> 
+                    <a manual_cm_re="CONTENT-_-SPOT6-_-xmas-offers" href="http://www.jdsports.co.uk/featured/Reduced%20Caps?fredhopperUrl=fh_location=%2f%2fcatalog01%2fen_GB%2fsale%3d%7bonly20view20sale20items%7d%2fproduct_type_jd%3E%7bcaps%7d">
+                        <img width="319" height="415" src="/images/library/2014/11.12.2014/home/middle06.jpg">
+                        <div class="text">
+
+                            <span class="spot-title">Merry giftmas</span>
+                            <span>Up to 50% off branded fleece pants</span>
+                            <p class="cta">Shop Now</p>
+                        </div>
+                    </a>
+                </li> 
+
+
+                <!-- 
+					 // TEMP AD BANNER
+					 // -- Remove this once happy
+					 -->
+                <style type="text/css">
+                    #middle-spots-wrap.homepage {
+                        height: 1635px;
+                    }
+                    #middle-spots-wrap.homepage ul {
+                        height: 1635px;
+                    }
+                </style><br />
+
+                <li class="adRegion" style="height:85px;width:100%;top:1127px;">
+                    <a href="/page/gift-cards">
+                        <img src="/images/library/2014/05.12.2014/gift-card-banner.png?v=15" alt="">
+                    </a>
+                </li>
+
+
+                <!--
+			// 7
+			-->
+
+
+
+                <li class="bottomleft">
+                        <a manual_cm_re="CONTENT-_-SPOT7-_-turnstyle-trainerforyear" href="http://www.turnstyle.co.uk/fashion/2014/11/24/win-free-trainers-year/">
+                        <img width="319" height="415" src="/images/library/2014/01.12.2014/home/middle01.jpg">
+                        <div class="text">
+                            <span class="spot-title">Win Free Trainers </span>
+                            <span>Win free trainers for a year</span>
+                            <p class="cta" style="left:69px !important;width:165px !important">Read at turnstyle</p>
+                        </div>
+                    </a>
+                    
+                    
+
+                </li>
+
+
+
+
+                <!--
+			// 8
+			-->
+
+
+
+                <li class="bottommiddle">
+                    <a href="http://www.jdsports.co.uk/featured/Nike%20Max%202015?fredhopperUrl=fh_location=//catalog01/en_GB/collection%3E%7Bnike20air20max202015%7D" manual_cm_re="CONTENT-_-SPOT8-_-nike-air-max-2015" title="Nike Air Max 2015.">
+                        <img src="/images/library/2014/28.11.2014/home/middle09.jpg" alt="Nike Air Max 2015." />
+                        <div class="text">
+                            <span class="spot-title">New In</span>
+                            <span>Nike Air Max 2015</span>
+                            <p class="cta">Shop Now</p>
+                        </div>
+                    </a>
+                </li>
+
+               <!--  <li class="bottommiddle">
+                    <a manual_cm_re="CONTENT-_-SPOT4-_-adidas-predator" href="http://www.jdsports.co.uk/featured/Adidas%20Messi%20Football%20Boots?fredhopperUrl=fh_location=%2f%2fcatalog01%2fen_GB|secondid={103564,103579,9235,9242,9343,9496}%26fh_sort_by%3Dnatural">
+                        <img width="319" height="415" src="/images/library/2014/26.11.2014/home/middle08.jpg">
+                        <div class="text">
+                            <span class="spot-title">Football </span>
+                            <span>MESSI BOOTS</span>
+                            <p class="cta">Shop Now</p>
+                        </div>
+                    </a>
+                </li> -->
+
+
+                <!--
+			// 9
+			-->
+                <!-- <li class="bottomright">
+                    <a manual_cm_re="CONTENT-_-SPOT9-_-nike-air-max-074814" href="http://www.jdsports.co.uk/product/nike-air-max-95/074814/">
+                        <img width="319" height="415" src="/images/library/2014/25.11.2014/01_HOME/middle04.jpg">
+                        <div class="text">
+                            <span class="spot-title">Mens Footwear </span>
+                            <span>NIKE AIR MAX 95</span>
+                            <p class="cta">Shop Now</p>
+                        </div>
+                    </a>
+                </li> -->
+                <li class="bottomright">
+                    <a manual_cm_re="CONTENT-_-SPOT9-_-clearance" href="http://www.jdsports.co.uk/featured/Clearance?fredhopperUrl=fh_location=%2f%2fcatalog01%2fen_GB%2fsale%3d%7bonly20view20sale20items%7d%2f">
+                        <img width="319" height="415" src="/images/library/2014/03.12.2014/new/middle09.jpg">
+                        <div class="text">
+                            <span class="spot-title">Clearance</span>
+                            <span>up to 70% off</span>
+                            <p class="cta">Shop Now</p>
+                        </div>
+                    </a>
+                </li> 
+            </ul>
+        </div>
+   
+
+    <!--
+	 // AD BAR
+	 --><br />
+
+    <div class="adbar">
+        <a href="http://www.turnstyle.co.uk/?utm_campaign=HompagePromo&utm_medium=JDHome&utm_source=JD&utm_term=Promotion">
+            <!--img src="/images/library/2014/21.11.2014/976x100_JD_Ad_V3.gif"-->
+            <img src="/images/library/2014/08.12.2014/976x100_JD_Ad_V3.gif">
+        </a>
+    </div>
+    <br />
+
+    <!--
+	// SOCIAL BAR AND NEWSLETTER
+	-->
+    <div id="socialBar" class="section">
+        <div class="socialBarSection find-my-nearest-store"><a class="locate" manual_cm_re="Global-_-Header-_-Store+finder" href="/store-finder">Find your nearest store</a>
+        </div>
+        <div class="socialBarSection newsletter-signup">
+            <form method="post" name="subscribeForm" action="http://cl.s6.exct.net/subscribe.aspx?lid=10188">
+                <input type="hidden" value="http://www.jdsports.co.uk/page/webcollect_et-thank-you" name="thx">
+                <input type="hidden" value="http://www.jdsports.co.uk/page/webcollect_et-sorry" name="err">
+                <input type="hidden" value="http://www.jdsports.co.uk/page/webcollect_et-unsub" name="usub">
+                <input type="hidden" value="6181814" name="MID">
+                <table width="300" cellspacing="0" cellpadding="0" border="0" style="margin-top:9px;">
+                    <tbody>
+                        <tr>
+                            <td width="268">
+                                <div style="position:absolute;top:15px;right:49px;z-index:990;background:url(/images/questionCircle.png) no-repeat scroll 0 0 rgba(0, 0, 0, 0);cursor:pointer;display:block;height:16px;margin:3px 0 0 11px;padding:0 0 4px 1px;width:16px" class="infoNewsLetterBox"></div>
+                                <input type="text" onfocus="if(this.value=='Sign up to the JD newsletter') this.value='';" onblur="if(this.value=='') this.value='Sign up to the JD newsletter';" value="Sign up to the JD newsletter" name="Email Address" class="et-newsletter-input">
+                            </td>
+                            <td width="32">
+                                <input type="submit" value="GO" class="et-newsletter-submit">
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </form>
+        </div>
+        <div class="socialBarSection social-icons">
+            <ul>
+                <li class="twitter"><a title="Follow JD Sports on Twitter" target="_blank" href="http://twitter.com/jdsportsfashion" onclick="cmCreateManualLinkClickTag('cm_re=HomeMain-_-Social-_-twitter');">Twitter</a>
+                </li>
+                <li class="facebook"><a title="Follow JD Sports on Facebook" target="_blank" href="http://www.facebook.com/JDSportsOfficial" onclick="cmCreateManualLinkClickTag('cm_re=HomeMain-_-Social-_-facebook');">Facebook</a>
+                </li>
+                <li class="instagram"><a title="Follow JD Sports on Instagram" target="_blank" href="http://instagram.com/jdsportsofficial" onclick="cmCreateManualLinkClickTag('cm_re=HomeMain-_-Social-_-instagram');">Instagram</a>
+                </li>
+                <li class="youtube"><a title="Follow JD Sports on YouTube" target="_blank" href="http://www.youtube.com/jdsportsofficial" onclick="cmCreateManualLinkClickTag('cm_re=HomeMain-_-Social-_-youtube');">YouTube</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    <!--
+// SEO FOOTER AND DESCRIPTION BOX ABOUT JDPLC
+-->
+    <div id="landing-description" class="section">
+        <ul>
+            <li class="desc">
+                <div class="seo-content">
+                    <p>Welcome to the official JD website, supplying the UK for over 30 years and now the world with the latest and greatest branded street style from the best brands around. With 1000s of JD exclusives and official stockists of top brands like <a title="adidas Originals" href="/men/brand/adidas-originals/">adidas Originals</a>, <a title="Nike" href="/page/nike/">Nike</a>, <a title="Mckenzie" href="/men/brand/mckenzie/">mckenzie</a>, <a title="Nike" href="/page/converse/">Converse</a>, <a title="Lacoste" href="/page/lacoste/">Lacoste</a>, <a title="Carbrini" href="/kids/brand/carbrini/">Carbrini</a>, <a title="Fred Perry" href="/men/brand/fred-perry/">Fred Perry</a>, <a title="Fila" href="/men/brand/fila/">Fila</a>, <a title="Duffer" href="/men/brand/duffer-of-st-george/">The Duffer of St George</a>, <a title="Reebok" href="/men/brand/reebok/">Reebok</a>, <a title="Timberland" href="/men/brand/timberland/">Timberland</a> and <a title="Gio Goi" href="/men/brand/gio-goi/">Gio Goi</a> JD leads the way - always.</p>
+                </div>
+            </li>
+            <li class="kot"></li>
+            <li class="desc">
+                <div class="seo-content">
+                    <p>Proud to be known as the King of Trainers we always bring you the Best of the Best when it comes to footwear. Find the latest trainers for <a title="Men" href="/men">men</a>, <a title="Women" href="/women">women</a> and <a title="Kids" href="/kids">kids</a> at JD; check out hundreds of exclusives from <a title="Nike" href="/page/nike/">Nike</a> and <a title="adidas Originals" href="/page/mens-adidas-originals/">adidas Originals</a>. Plus pick up the sports fashion and street styles that are in demand right now from our collection of mens, women's and kids clothing. We've got a massive selection of stylish polo shirts, t-shirts, hoodies, track pants and jackets - what else would you expect.</p>
+                </div>
+            </li>
+            <div class="clearfix"></div>
+        </ul>
+    </div>
+
+    <!--
+// JQUERY AND PAGE SPECIFIC CALLS
+-->
+    <script>
+        try {
+            Typekit.load();
+        } catch (e) {}
+    </script>
+    <script>
+        window.jQuery || document.write("<script src='/js/jquery.js'>\x3C/script>")
+    </script>
+    <script src="/js/jquery.js"></script>
+    <script src="/js/swipe.js"></script>
+    <script type="text/javascript">
+        // JD POPUP FUNCTION
+        jQuery.noConflict();
+
+        function PopUp(N) {
+            newWindow = window.open(N, 'pop', 'toolbar=no,menubar=no,resizable=no,scrollbars=yes,status=no,location=no,width=700,height=500');
+        }
+         // SLIDER
+        window.mySwipe = new Swipe(document.getElementById('banner-slider-wrap'), {
+            startSlide: 0,
+            speed: 700,
+            auto: 3000,
+            continuous: true,
+            disableScroll: false,
+            stopPropagation: false
+        });
+        jQuery(function() {
+            // NEWSLETTER SIGNUP FORM (attach JD_to ETSubscriberKey)
+            jQuery("#subscribeForm").submit(function() {
+                var emailValue = jQuery(" input[name='Email Address']").val();
+                jQuery('#subscribeForm input[name="ETSubscriberKey"]').val("JD_" + emailValue);
+                jQuery('#subscribeForm').submit();
+                return false;
+            });
+
+        });
+        
+		  
+		  jQuery(function($) {
+            var xpathname = window.location.pathname;
+            if (xpathname == '/home' || xpathname == '/home/') {
+                $('body').addClass('home');
+            }
+            
+
+        });
+		  
+		  
+		  /*
+		   var vid=document.getElementById('productVideo');
+            vid.addEventListener("ended", resetVideo, false);
+
+
+            function resetVideo() {
+                // resets the video element by resetting the source
+                // this.src = this.src;
+                $(this).attr("poster", "http://www.jdsports.co.uk/images/library/2014/21.11.2014/split_ad_01.jpg");
+            }
+
+
+            var FF = (document.getBoxObjectFor != null || window.mozInnerScreenX != null);
+
+            if (FF) {
+                // document.getElementById("divId").style.display = 'none';
+                vid.removeAttribute("controls")   
+            }*/
+/*Top Christmas Gifts Slider
+START*/
+/***
+
+ * --- --- --- --- ---
+ * JD Sports Fashion plc
+ * IBM WebSphere Commerce Platform
+ * Khaleel Mughal
+ * --- --- --- --- ---
+ * #ARSENALFOOTBALL
+ * --- --- --- --- ---
+
+**/
+
+// START
+// -- Load Program
+
+jQuery(document).ready(function ($) {
+	
+	// VARS
+	// -- Global page variables
+	$.fx.speeds._default = 250;
+	jQuery('.fademe').fadeIn(1200);
+	var fadein = '750';
+	var fadeout = '750';
+	var duration = '750'
+	
+	// KOT LATEST GALLERY
+	// -- Load the gallery and page assets through JSON
+	jQuery.getJSON("/html/home.json", function (x) {	
+		
+		// VARS
+		// -- For cleaner calls below
+		var galHTML='';
+		var agalHTML=''
+		var i=0;		
+		var proddesc
+		// BIG BOXES ACCESSORIES
+		// -- There is some animation hovers applied to this JSON below, same comment name above
+		jQuery.each(x.Page[0].TopXmasGifts, function(key, val){
+			proddesc = val.proddesc.split('-_-');
+			agalHTML+='<div class="hookaccessslide ultra gotham" id="hookAccessElement'+val.id+'" onClick=\'window.location="http://www.jdsports.co.uk/product/'+val.picplu+'"\'>';
+			agalHTML+='<img src="http://i1.adis.ws/t/jpl/jd_product_list?plu=jd_'+val.picplu+'_a&wid=138&hei=154&resmode=sharp&qlt=80"/>'
+			agalHTML+= '<div class="proddetails"><br>'+proddesc[0]+'<br>'+proddesc[1]+'<br>'+proddesc[2]+'</div>';
+//			agalHTML+='<div class="hookmehover hide"><br /><br /><a manual_cm_re="CONTENT-_-TopXmasGifts-_-'+val.picplu+'" href="http://www.jdsports.co.uk/product/'+val.picplu+'">SHOP</a></div>';
+			agalHTML+='</div>';
+		});
+		agalHTML += '';
+		jQuery('.hookaccess_gallery').append($(agalHTML));	
+			
+		
+		// MAKE GALLERIES	
+		// -- USES OWL GALLERY
+		jQuery(".hookaccess_gallery").owlCarousel({
+			loop:true,
+			items:5,
+			autoplay: false,
+			margin:10,
+			navigation:true,
+			navigationText: [
+      							"<i class='icon-chevron-left icon-white'><</i>",
+      "<i class='icon-chevron-right icon-white'>></i>"
+      									]	
+			
+		}); 
+		
+/*			jQuery("#shopbycatgallery").owlCarousel({
+			loop:true,
+			items:8,
+			autoplay: false,
+			margin:40,
+			responsive:{
+				0:{items:3,nav:true,loop:true},
+				1000:{items:6,nav:true,loop:true},
+				1200:{items:6,nav:true,loop:true},
+				1400:{items:7,nav:true,loop:true},
+				1450:{items:7,nav:true,loop:true},
+				1600:{items:8,nav:true,loop:true}
+			}
+		}); 
+		
+		// SHOES
+		// -- DONE		
+		jQuery('.slidehook').hover(function() {
+			var hookId = 'shoeAccessElement';
+			jQuery(this).find('.slidehookhidden').fadeIn(fadein);
+			var hookElement = $(this).attr('id').substring((hookId.length));
+				jQuery('.slidehook:not(#'+hookId+'' + hookElement + ')').stop().animate({"opacity": .7}), 200;
+			}, function() {
+				jQuery(this).find('.slidehookhidden').fadeOut(fadeout);
+				jQuery('.slidehook').stop().animate({"opacity": 1
+			}), 200;
+		});			
+		
+		// BIG BOXES ACCESSORIES
+		// -- DONE		
+		jQuery('.hookaccessslide').hover(function() {
+			var hookId = 'hookAccessElement';
+			jQuery(this).find('.hookmehover').fadeIn(fadein);
+			var hookElement = $(this).attr('id').substring((hookId.length));
+				jQuery('.hookaccessslide:not(#'+hookId+'' + hookElement + ')').stop().animate({"opacity": .3}), 200;
+			}, function() {
+				jQuery(this).find('.hookmehover').fadeOut(fadeout);
+				jQuery('.hookaccessslide').stop().animate({"opacity": 1
+			}), 200;
+		}); */
+		
+	});
+	
+	// PLAY ANIMATIONS 
+	// -- Fade in the Hook text
+	/*
+			setTimeout(function(){
+				jQuery('.backtoschooltoptext').fadeOut(1750);
+				jQuery('.hotspot').fadeOut("fast");
+			}, 2350);
+			setTimeout(function(){
+				jQuery('.hookicon').fadeIn(1750);
+			}, 3250);
+	
+	// PLAY ANIMATIONS
+    // -- Fade in the Hook text
+    setTimeout(function(){
+        jQuery('.backtoschooltoptext').hide();
+        jQuery('.hotspot').fadeOut("fast");
+    }, 250);
+    setTimeout(function(){
+        jQuery('.hookicon').fadeIn(250);
+    }, 250); 
+	*/
+	
+	// TOP HOVER BUTTON TARGETS
+	// -- For quick view and non-quick view (JD International usage)	
+/*	jQuery('.hookicon').hover(function() {
+		var hookId = 'hookElement';
+		jQuery(this).find('.hotspot').fadeIn(fadein);
+		var hookElement = $(this).attr('id').substring((hookId.length));
+		jQuery('.hookicon:not(#'+hookId+'' + hookElement + ')').stop().animate({"opacity": .3}), 200;
+		}, function() {
+			jQuery(this).find('.hotspot').fadeOut(fadeout);
+			jQuery('.hookicon').stop().animate({"opacity": 1
+		}), 200;
+	});*/
+	
+});
+/*Top Christmas Gifts Slider
+END*/
+
+
+
+</script>
+    <!--
+// FOR TOP CHRISTMAS GIFTS SLIDER SCRIPT
+-->
+
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js?extend=BackToSchoolApplication"></script>
+<script src="//ajax.googleapis.com/ajax/libs/jqueryui/1.10.3/jquery-ui.min.js?extend=BackToSchoolApplication"></script>
+<script src="/lib/hlight/back-to-school/owl-carousel/2/owl.carousel.js"></script>
+<script src="/lib/hlight/manchester-city/js/withinViewport.js"></script>
+<script src="/lib/hlight/manchester-city/js/jquery.withinViewport.js"></script>
+
+
+    <!--
+// KMNEWSLETTERINJECTION SCRIPT
+-->
+    <script src="/js/JD_NewsletterInjectLink.js"></script>
+    <!--
+// ANIMATIONMIDDLESPOTS SCRIPT
+-->
+    <script src="/js/animation.js"></script>
+</div>
+</div>
+<!-- // End fix div -->

@@ -1,0 +1,112 @@
+/***
+
+ * --- --- --- --- ---
+ * JD Sports Fashion plc
+ * IBM WebSphere Commerce Platform
+ * Khaleel Mughal
+ * --- --- --- --- ---
+ * #BACKTOSCHOOL
+ * --- --- --- --- ---
+
+***/
+
+/*
+REWRITES OF JD
+*/
+.contentContainer{width:100% !important;padding:0px !important}
+.full-width-header{z-index:9999 !important}
+.full-width-footer{position:relative;z-index:9000}
+
+/*
+GLOBALS
+*/
+#backtoschool{background:#000;position:relative;overflow:hidden;color:#fff;font-family:Helvetica, Arial, sans-serif;width:100%;height:100%}
+.ruh{width:976px !important;margin:0 auto;position:relative !important}
+.left{float:left}
+.right{float:right}
+.hide{display:none}
+.clear{clear:both}
+.last{margin-right:0 !important}
+.fade a:hover, .fade a img:hover, .fade img:hover, .fade:hover{opacity:0.8;transition:ease-in .5s}
+.white{background:#fff}
+.caps{text-transform:uppercase}
+.center{text-align:center}
+.halfcircle{border-radius:27px}
+.caps{text-transform:uppercase}
+.fullwidth{width:100%}
+.gray{color:#a4a3a3}
+.nicnavlink,.green{color:#3bd72e}
+div.greenbutton{width:115px;height:45px;background:#3bd72e;color:#fff;text-decoration:none;display:block;float:left;margin-right:5px}
+div.greenbutton a{display:block;text-decoration:none;height:inherit;width:inherit;text-align:center;line-height:43px;color:#fff;font-size:17px}
+div.greenbuttonsmall{width:115px;height:45px;background:#3bd72e;color:#fff;text-decoration:none;display:block;float:left;margin-right:5px;margin-bottom:21px}
+div.greenbuttonsmall a{display:block;text-decoration:none;height:inherit;width:inherit;text-align:center;line-height:43px;color:#fff;font-size:17px}
+.owl-pagination,.owl-controls{display:none}
+.shopmargin,.hookaccesstitle,.shopbycategorytitle{margin-left:23px}
+
+/*
+FONT
+*/
+.gotham{font-family:'Gotham A', 'Gotham B';font-weight:500;font-style:normal}
+div.greenbuttonsmall a,.ultra{font-family:'Gotham A', 'Gotham B';font-weight:500;font-style:normal}
+
+/*
+PAGE HEADER
+*/
+.backtoschooltop{height:815px;background:#dadbdf;position:relative;color:#a4a3a3}
+.backtoschooltopmenu{margin-top:55px;margin-left:23px;color:#a4a3a3;font-size:33px}
+.backtoschooltopmenu a{margin-right:9px !important;margin-left:9px !important}
+.backtoschooltopmenu a:first-child{margin-left:11px !important}
+.nicnav{margin-left:9px}
+.backtoschooltop a{color:#a4a3a3;text-decoration:none}
+.backtoschooltop a:hover, .backtoschooltop a.current{color:#3bd72e;text-decoration:none}
+.backtoschooltopleftmenu{top:51px;position:relative;width:159px !important;height:639px !important;background:#e2e3e8;padding:15px}
+.backtoschooltoptext{color:#3bd72e;font-size:161px;left:401px;line-height:213px;position:absolute;top:113px;z-index:5}
+.backtoschooltopleftmenu span{color:#3bd72e;font-weight:bold;font-size:17px;display:block;cursor:pointer}
+.nicnavlink{color:#3bd72e;font-weight:bold;font-size:17px;display:block;cursor:pointer}
+.backtoschooltopleftmenu ul li{line-height:23px;font-size:15px}
+.backtoschoolhookbackgrounds{z-index:1;left:195px;position:absolute;top:135px;width:900px;z-index:1}
+.hookicon{width:232px;height:601px;text-align:center;position:relative;margin-right:49px;float:left;display:none}
+.hookicon a{display:block;height:32px;width:32px;background:url(/images/library/2014/18.8.2014/new_plus.png) no-repeat center;text-indent:-9000px;position:absolute;z-index:1}
+.hookicon img{width:235px;height:605px}
+.hookright{margin-right:25px}
+.bulletGlow{-webkit-transition: opacity .4s ease;-moz-transition: opacity .4s ease;-o-transition: opacity .4s ease;ms-transition: opacity .4s ease;transition: opacity .4s ease; opacity:0.5}
+
+/*
+SHOP BY CATEGORY / HOOK BY FOOTWEAR
+*/
+.shopbycategory{background:#fff;height:469px}
+.shopbycategorylarge{background:#fff;height:925px}
+.shopbycategorytitle{color:#a4a3a3;font-size:33px;margin-top:55px;margin-bottom:55px}
+.slide a{margin:0 45px;background:#bebcbc;border-radius:50%;width:200px;height:200px;display:block;color:#fff;text-decoration:none;color:#fff;text-align:center;line-height:201px;font-size:23px;-webkit-transition:background 0.5s linear;-moz-transition:background 0.5s linear;-ms-transition:background 0.5s linear;-o-transition:background 0.5s linear;transition:background 0.5s linear}
+.slide a:hover{background:#3bd72e}
+.slidehook{width:291px;height:665px;float:left;margin:5px;font-size:25px;position:relative;opacity:1}
+.slidehookhidden{position:absolute;bottom:5px;z-index:1;display:none}
+.slidehook img{-webkit-transform:rotate(270deg);-ms-transform:rotate(270deg);transform:rotate(270deg);-webkit-transform:rotate(270deg);left:-145px;top:129px;position:relative;z-index:-1}
+
+/*
+HOOK ACCESSORIES
+*/
+.hookaccess{background:#ececea;height:721px}
+.hookaccesstitle{color:#a4a3a3;font-size:33px;margin-top:55px;margin-bottom:55px}
+.hookaccess_gallery{float:left}
+.hookaccessslide{width:215px;height:215px;float:left;margin:11px;background:#fff;display:block;position:relative;cursor:pointer}.hookaccessslide:hover{cursor:pointer}
+.hookmehover{position:absolute;z-index:1;left:51px;top:51px}
+.greenbutton span{text-transform:uppercase}
+.hooksupertitle{font-size:47px;line-height:52px;font-weight:bold}
+
+/*
+RESPONSIVE
+*/
+@media screen and (max-width:1475px){}
+@media screen and (max-width:1200px){}
+@media screen and (max-width:1024px){}
+@media screen and (max-width:800px){}
+
+/*
+ANIMATIONS
+*/
+#productsSlides, .bx-wrapper .bx-viewport{max-height:338px !important;overflow:hidden;z-index:99;position:relative;background:#fff}
+.owl-nav{top:80px;position:absolute !important;width:100% !important}
+.owl-prev{background:url(/images/library/2014/18.8.2014/l.png) no-repeat scroll top center rgba(0, 0, 0, 0) !important;text-indent:-9999px !important;left:0 ;z-index:9999;position:absolute;top:21%;height:50px;width:50px}
+.owl-next{background:url(/images/library/2014/18.8.2014/r.png) no-repeat scroll top center rgba(0, 0, 0, 0) !important;text-indent:-9999px !important;z-index:9999;position:absolute;right:0 ;top:21%;height:50px;width:50px}
+.owl-carousel .owl-item {z-index: 999 !important;}
