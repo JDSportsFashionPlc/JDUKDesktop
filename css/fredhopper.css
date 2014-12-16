@@ -21,6 +21,23 @@ GOTHAM
 .ultra{font-family:'Gotham A', 'Gotham B', sans-serif !important;font-size:19px;font-weight:700}
 .gotham{font-family:'Gotham A', 'Gotham B', sans-serif !important;font-size:13px;font-weight:400}
 
+/*
+ Created : 08th December 2014
+ Author: Luis Paz
+	- New styles for .ultra cass with the entire range on font weight paramenter
+	---
+	Please use to define font-weight across the website. Font-size parameter removed for flexibility.
+	---
+***/
+.ultra-100{font-family:'Gotham A', 'Gotham B', sans-serif !important;font-weight:100}
+.ultra-200{font-family:'Gotham A', 'Gotham B', sans-serif !important;font-weight:200}
+.ultra-300{font-family:'Gotham A', 'Gotham B', sans-serif !important;font-weight:300}
+.ultra-400{font-family:'Gotham A', 'Gotham B', sans-serif !important;font-weight:400}
+.ultra-500{font-family:'Gotham A', 'Gotham B', sans-serif !important;font-weight:500}
+.ultra-600{font-family:'Gotham A', 'Gotham B', sans-serif !important;font-weight:600}
+.ultra-800{font-family:'Gotham A', 'Gotham B', sans-serif !important;font-weight:800}
+.ultra-900{font-family:'Gotham A', 'Gotham B', sans-serif !important;font-weight:900}
+
 /***
  XMAS 2014
 ***/

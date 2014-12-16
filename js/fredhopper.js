@@ -103,7 +103,10 @@ if (jQuery('.fhNikeAirMax2015men').length > 0) {
 	
 }
 
-// NIKE PRODUCT PAGE
+
+
+
+
 if (jQuery('#productAttributesWrapper form').length ){
 		
 		if( 
