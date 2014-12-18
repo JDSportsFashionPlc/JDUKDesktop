@@ -1,0 +1,53 @@
+{
+    "Page": [
+        {
+            "Id": 0,
+            "IsActive": true,
+            "PageName": "backtoschool",
+            "PageURL": "backtoschool",
+			"ShopByAccessories": [
+				{
+                    "id": 0,
+                    "picplu": "019867",
+                    "hover": "BacktoSchool-_-ShopbyAccess-_-019867"
+                },
+				{
+                    "id": 1,
+                    "picplu": "023306",
+                    "hover": "BacktoSchool-_-ShopbyAccess-_-136082"
+                },
+				{
+                    "id": 2,
+                    "picplu": "136082",
+                    "hover": "BacktoSchool-_-ShopbyAccess-_-011790"
+                },
+				{
+                    "id": 3,
+                    "picplu": "011790",
+                    "hover": "BacktoSchool-_-ShopbyAccess-_-017389"
+                },
+				{
+                    "id": 4,
+                    "picplu": "017389",
+                    "hover": "BacktoSchool-_-ShopbyAccess-_-090446"
+                },
+				{
+                    "id": 5,
+                    "picplu": "090567",
+                    "hover": "BacktoSchool-_-ShopbyAccess-_-090446"
+                },
+				{
+                    "id": 6,
+                    "picplu": "007987",
+                    "hover": "BacktoSchool-_-ShopbyAccess-_-007987"
+                },
+				{
+                    "id": 7,
+                    "picplu": "049955",
+                    "hover": "BacktoSchool-_-ShopbyAccess-_-049955"
+                }
+				
+            ]
+        }
+    ]
+}
