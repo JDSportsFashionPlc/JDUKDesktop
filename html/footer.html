@@ -1,4 +1,3 @@
-
 <!--
 /***
 
@@ -16,65 +15,13 @@
 
 ***/
 -->
-<script type='text/javascript'>
-    // SUBMIT THE FOOTER SEARCH BAR FORM
-    // -- Now we create the form submission
-function footersubmitSearchm(){ 
-            var flag = 0;
-            var q = jQuery(".footersearchQParameter");
-            if(
-				
-				q.val() == ""||
-				q.val() == "Enter your search here"||
-				q.val() == "test"||
-				q.val() == " "||
-				q.val() == "search"||
-				q.val() == "  "
-				
-				){
-                jQuery("#footersearchQuery").addClass("errorformapps");
-					 jQuery(".submitfooterSearchButton").addClass("errorborder");
-                flag = 1;
-            } else {
-                jQuery("#footersearchQuery").removeClass("errorformapps");
-					 jQuery(".submitfooterSearchButton").removeClass("errorborder");
-                
-            }
-			
-            if (flag == 1){} else {
-				submitSearch(document.footerSearchm);
-				}
- }	
-</script>		  
-
-<!--
-// Section for footer search bar
-// THE FORM HTML
--->
-<div id="footersearchBar">
-    
-<!--    <form action="http://www.jdsports.co.uk/webapp/wcs/stores/servlet/CategoryDisplay" method="post" id="fSearch" name="footerSearchm" onSubmit="return footersubmitSearchm()"> -->
-    
-	<form action="/webapp/wcs/stores/servlet/CategoryDisplay" method="post" id="fSearch" name="footerSearchm" onsubmit="return footersubmitSearchm()"> 
-                   <input style="width: 220px;" name="cm_re" value="Global-_-Header-_-Search" type="hidden">
-                    <input style="width: 220px;" name="storeId" value="10151" type="hidden">
-                    <input style="width: 220px;" name="catalogId" value="10551" type="hidden">
-                    <input style="width: 220px;" name="langId" value="-1" type="hidden">
-                    <input style="width: 220px;" name="mfpartNumber" value="" type="hidden">
-                    <input style="width: 220px;" name="langId" value="search" type="hidden">
-                    <input style="width: 220px;" name="categoryId" value="12203" type="hidden"> 
-                    <input type="text" style="width:400px;height:34px;left:0;border:1px solid #fff; font-size:15px;color:#8B8B8B;padding-left:10px" class="footersearchQParameter" id="footersearchQuery" name="freeText" value="Enter your search here" onblur="if(this.value=='')  this.value='Enter your search here';" onfocus="if(this.value='Enter your search here') this.value='';" onkeypress="javascript:if(event.keyCode==13) footersubmitSearchm('document.footerSearchm');">
-                   
-<a class="submitfooterSearchButton" href="#" onclick = "footersubmitSearchm('document.footerSearchm'); return false;" title="Search" accesskey="]"><span>search</span></a>
-     </form>
-</div>
 
 <!--
 // MAIN GLOBAL FOOTER
 -->
 
 <div id="footerMain">
-	<!--
+    <!--
 	// BRAND ICONS
 	// -- Uses sprites in store.css, store_product.css, store_checkout.css
 	-->
@@ -83,32 +30,32 @@ function footersubmitSearchm(){
             <a href="/featured/adidas?fredhopperUrl=fh_location=%2f%2fcatalog01%2fen_GB%2fbrand%3E%7badidas%7d" title="adidas" manual_cm_re="Footer-_-Brands-_-adidas-essentials"></a>
         </li>
         <li class="adidas">
-            <a href="/page/adidas-originals/" title="adidas Originals" manual_cm_re="Footer-_-Brands-_-adidas-originals"></a>
+            <a href="/featured/Adidas%20Originals?fredhopperUrl=fh_location=%2f%2fcatalog01%2fen_GB%2fbrand%3e%7badidas20originals%7d" title="adidas Originals" manual_cm_re="Footer-_-Brands-_-adidas-originals"></a>
         </li>
         <li class="nike">
-            <a href="/page/nike" title="Nike" manual_cm_re="Footer-_-Brands-_-Nike"></a>
+            <a href="/featured/Nike?fredhopperUrl=fh_location=%2f%2fcatalog01%2fen_GB%2fbrand%3e%7bnike%7d" title="Nike" manual_cm_re="Footer-_-Brands-_-Nike"></a>
         </li>
         <li class="converse">
             <a href="/page/nike-crosstown-running/" title="Nike CrossTown Running" manual_cm_re="Footer-_-Brands-_-NikeCTR"></a>
         </li>
         <li class="fred-perry">
-            <a href="/page/converse/" title="Converse" manual_cm_re="Footer-_-Brands-_-Converse"></a>
+            <a href="/featured/Converse?fredhopperUrl=fh_location=%2f%2fcatalog01%2fen_GB%2fbrand%3e%7bconverse%7d" title="Converse" manual_cm_re="Footer-_-Brands-_-Converse"></a>
         </li>
         <li class="new-era">
             <a href="/featured/Fred%20Perry?fredhopperUrl=fh_location=%2f%2fcatalog01%2fen_GB%2fbrand%3E%7bfred20perry%7d" title="Fred Perry" manual_cm_re="Footer-_-Brands-_-Fred-Perry"></a>
         </li>
         <li class="puma">
-            <a href="/page/puma/" title="Puma" manual_cm_re="Footer-_-Brands-_-Puma"></a>
+            <a href="/featured/Puma?fredhopperUrl=fh_location=%2f%2fcatalog01%2fen_GB%2fbrand%3e%7bpuma%7d" title="Puma" manual_cm_re="Footer-_-Brands-_-Puma"></a>
         </li>
         <li class="brookhaven">
-            <a href="/page/brookhaven" title="Brookhaven" manual_cm_re="Footer-_-Brands-_-Brookhaven"></a>
+            <a href="/featured/Brookhaven?fredhopperUrl=fh_location=%2f%2fcatalog01%2fen_GB%2fbrand%3e%7bbrookhaven%7d" title="Brookhaven" manual_cm_re="Footer-_-Brands-_-Brookhaven"></a>
         </li>
         <li class="view-all last-child">
             <a href="/page/brands/" title="See all brands" manual_cm_re="Footer-_-Brands-_-See-all"></a>
         </li>
         <div style="clear:both"></div>
     </ul>
-	 <!--
+    <!--
 	// FOOTER LINKS
 	// -- Credit card images
 	-->
@@ -121,7 +68,7 @@ function footersubmitSearchm(){
             <img src="/images/cards.png" alt="cards" />
         </div>
     </div>
-	 <div class="aboutUsList">
+    <div class="aboutUsList">
         <ul>
             <li><a href="/page/site-map/?cm_re=Global-_-Footer-_-Sitemap" title="Site Map">Site Map</a>
             </li>
@@ -137,7 +84,7 @@ function footersubmitSearchm(){
             </li>
         </ul>
     </div>
-	 <div class="custServ">
+    <div class="custServ">
         <ul>
             <li><a onclick="openWin('/lib/cs/contact-us.html')" href="#" title="Contact Us">Contact Us</a>
             </li>
@@ -152,7 +99,7 @@ function footersubmitSearchm(){
             <li><a onclick="openWin('/lib/cs/faqs.html')" href="#" title="FAQs">FAQs</a>
             </li>
         </ul>
-    </div> 
+    </div>
 
     <!--
 	// GLOBAL FINAL
@@ -654,10 +601,6 @@ function footersubmitSearchm(){
                     </li>
 
 
-
-
-
-
                 </ul>
 
 
@@ -667,7 +610,6 @@ function footersubmitSearchm(){
         <!--footaball ends -->
     </li>
 </ul>
-
 
 
 
@@ -831,7 +773,7 @@ function footersubmitSearchm(){
                             </dd>
                         </dl>
 
-                        <a class="meganav-rich-content" href="http://www.jdsports.co.uk/product/brookhaven-monroe-jacket/024908/" manual_cm_re="global-_-header-_-dd-clearance-dealoftheweek-brookhaven-monroe-jacket"><span class="dod-title">Deal of The Week</span> <img  src="http://i1.adis.ws/t/jpl/jd_product_list?plu=jd_024908_a&amp;wid=140&amp;hei=140&amp;resmode=sharp&amp;resmode=sharp&amp;op_usm=1.1,0.5,0,0&amp;$exclusive=0" /> <span class="dod-brand">Brookhaven</span> <span class="dod-product">Monroe Jacket</span> <span class="dod-price">Now &pound;30.00</span> <span class="dod-price-was">Was &pound;50.00</span> <span class="dod-cta">Don&#39;t miss out!</span> </a>
+                        <a class="meganav-rich-content" href="http://www.jdsports.co.uk/product/nike-destroyer-fleece-hoody/021161/" manual_cm_re="global-_-header-_-dd-clearance-dealoftheweek-nike-destroyer-fleece-hoody"><span class="dod-title">Deal of The Week</span> <img  src="http://i1.adis.ws/t/jpl/jd_product_list?plu=jd_021161_a&amp;wid=140&amp;hei=140&amp;resmode=sharp&amp;resmode=sharp&amp;op_usm=1.1,0.5,0,0&amp;$exclusive=0" /> <span class="dod-brand">Nike</span> <span class="dod-product">Destroyer Fleece Hoody</span> <span class="dod-price">Now &pound;35.00</span> <span class="dod-price-was">Was &pound;55.00</span> <span class="dod-cta">Don&#39;t miss out!</span> </a>
 
 
                     </li>
@@ -844,20 +786,22 @@ function footersubmitSearchm(){
 
 
 <!-- LOAD JQUERY IF NOT LOADED -->
-<script>window.jQuery || document.write("<script src='/js/jquery.js'>\x3C/script>")</script>
+<script>
+    window.jQuery || document.write("<script src='/js/jquery.js'>\x3C/script>")
+</script>
 <script language="javascript" type="text/javascript">
-jQuery(document).ready(function($) {
+    jQuery(document).ready(function($) {
 
-$('#header').wrapAll('<div class="full-width-header" />');
-$('#footersearchBar,#footerMain').wrapAll('<div class="full-width-footer" />');
+        $('#header').wrapAll('<div class="full-width-header" />');
+        $('#footerMain').wrapAll('<div class="full-width-footer" />');
 
-// Password Page fix
-if ($('#logonPasswordVerifyDiv').length) {
-$('.full-width-header').css('background', '#000');
-$('.full-width-footer').css('background', '#222');
-}
+        // Password Page fix
+        if ($('#logonPasswordVerifyDiv').length) {
+            $('.full-width-header').css('background', '#000');
+            $('.full-width-footer').css('background', '#222');
+        }
 
-});
+    });
 </script>
 <script type="text/javascript" src='/js/scripts.js' language="javascript"></script>
 <script type="text/javascript" src="/js/modernizr.js" language="javascript"></script>
@@ -866,24 +810,11 @@ LIVECHAT
 // SALESFORCE SALESFORCE 1 PLATFORM -- 12th Nov 2014 - KM
 -->
 <script type='text/javascript' src='https://c.la2w2.salesforceliveagent.com/content/g/js/31.0/deployment.js'></script>
-<script type='text/javascript'>liveagent.init('https://d.la2w2.salesforceliveagent.com/chat', '57220000000KzzV', '00D20000000oqHe');</script>
+<script type='text/javascript'>
+    liveagent.init('https://d.la2w2.salesforceliveagent.com/chat', '57220000000KzzV', '00D20000000oqHe');
+</script>
 
 
-
-<style>
-/* CSS FOR FOOTER SEARCH BAR*/
-/******** footer search toolbar ********/
-#footersearchBar{height:48px;background-color:#000 !important; padding-top:10px}
-.errorformappsfooter{border:3px solid #E6191D !important;height:30px !important;color:#E6191D !important}
-/*#footerSearch{left:111px !important}*/
-#fSearch {padding-left: 34%}
-#fSearch a span{color: #fff;font-size:13px;font-weight:bold;line-height:35px;position:relative;text-align: center;text-decoration:none; padding-left:13px}
-.errorborderfooter{border-top:3px solid #E6191D !important;border-bottom:3px solid #E6191D !important;border-right:3px solid #E6191D !important;border-left:none !important;height:32px !important}
-#fSearch a{text-decoration:none;background:#419c41 !important;border:1px solid #fff;cursor:pointer !important;height:36px;margin:0 !important;color:#023e04;padding:0 !important;text-indent:0 !important;position:absolute;text-transform:uppercase !important;width:80px !important}
-
-#footerSearchQuery input{color:#8B8B8B !important;border:0 !important;float:left !important;font-size:15px;height:34px;left:0;padding-left:10px;position:relative;width:243px;line-height:35px;-webkit-appearance:none;border-radius:0}
-.full-width-footer{background-position-y:58px; text-align:left}
-</style>
 
 
 
