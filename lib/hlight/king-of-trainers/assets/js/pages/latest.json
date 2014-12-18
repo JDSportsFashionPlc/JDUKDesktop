@@ -1,0 +1,82 @@
+{
+"Page": [
+	{
+		"Id":0,
+		"IsActive":true,
+		"PageName":"kingoftrainerslatest",
+		"PageURL":"king-of-trainers_latest",
+			"kotGallery": [
+				{
+						"id":0,
+						"link":"/page/king-of-trainers_adidas-zxflux/",
+						"pic":"/lib/hlight/king-of-trainers/assets/images/library/2014/9.10.2014/01_ZX_FLUX.jpg",
+						"tag":"KOT-_-NavigationLatest-_-ProductPage-01_ZX_FLUX",
+						"brandtext":"ZX Flux",
+						"class":"link",
+						"cta":"View",
+						"brand":"/lib/hlight/king-of-trainers/tmp/q/2.png"	
+				},
+				{
+						"id":1,
+						"link":"/page/king-of-trainers_nike-roshe-run/",
+						"pic":"/lib/hlight/king-of-trainers/assets/images/library/2014/9.10.2014/02_NIKE_ROSHE.jpg",
+						"tag":"KOT-_-NavigationLatest-_-ProductPage-02_NIKE_ROSHE",
+						"brandtext":"Roshe",
+						"class":"link",
+						"cta":"View",
+						"brand":"/lib/hlight/king-of-trainers/tmp/q/1.png"			
+				},
+				{
+						"id":2,
+						"link":"/page/king-of-trainers_nike-max-95/",
+						"pic":"/lib/hlight/king-of-trainers/assets/images/library/2014/9.10.2014/03_NIKE_MAX_95.jpg",
+						"tag":"KOT-_-NavigationLatest-_-ProductPage-03_NIKE_MAX_95",
+						"brandtext":"Max 95",
+						"class":"link",
+						"cta":"View",
+						"brand":"/lib/hlight/king-of-trainers/tmp/q/1.png"			
+				},
+				{
+						"id":3,
+						"link":"/page/king-of-trainers_adidas-superstar/",
+						"pic":"/lib/hlight/king-of-trainers/assets/images/library/2014/9.10.2014/04_ADIDAS_SUPER_STAR.jpg",
+						"tag":"KOT-_-NavigationLatest-_-ProductPage-04_ADIDAS_SUPER_STAR",
+						"brandtext":"SuperStar 11",
+						"class":"link",
+						"cta":"View",
+						"brand":"/lib/hlight/king-of-trainers/tmp/q/2.png"			
+				},
+				{
+						"id":4,
+						"link":"/page/king-of-trainers_nike-air-max-90/",
+						"pic":"/lib/hlight/king-of-trainers/assets/images/library/2014/9.10.2014/05_NIKE_AM_90.jpg",
+						"tag":"KOT-_-NavigationLatest-_-ProductPage-05_NIKE_AM_90",
+						"brandtext":"Air Max 90",
+						"class":"link",
+						"cta":"View",
+						"brand":"/lib/hlight/king-of-trainers/tmp/q/1.png"			
+				},
+				{
+						"id":5,
+						"link":"/page/king-of-trainers_nike-thea/",
+						"pic":"/lib/hlight/king-of-trainers/assets/images/library/2014/9.10.2014/06_NIKE_THEA.jpg",
+						"tag":"KOT-_-NavigationLatest-_-ProductPage-06_NIKE_THEA",
+						"brandtext":"Thea",
+						"class":"link",
+						"cta":"View",
+						"brand":"/lib/hlight/king-of-trainers/tmp/q/1.png"			
+				},
+				{
+						"id":6,
+						"link":"/page/king-of-trainers_puma-suede/",
+						"pic":"/lib/hlight/king-of-trainers/assets/images/library/2014/9.10.2014/07_PUMA_SUEDE.jpg",
+						"tag":"KOT-_-NavigationLatest-_-ProductPage-07_PUMA_SUEDE",
+						"brandtext":"Suede",
+						"class":"link",
+						"cta":"View",
+						"brand":"/lib/hlight/king-of-trainers/tmp/q/pumas.png"			
+				}		
+			]
+		}
+	]
+}

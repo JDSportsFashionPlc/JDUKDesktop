@@ -1,0 +1,68 @@
+{
+"Page":[
+{
+	"Id":0,
+	"IsActive":true,
+	"PageName":"kingoftrainersproducts",
+	"PageURL":"king-of-trainers_product",
+	"NavigationChoice":"kotnav-latest",
+	"ProductTitle":"Asics Gel Lite",
+	"themeColour":"#ccc",
+	"kotPageType":"Normal",	
+	"pluTrainerId":"117681",
+	"kotGalleryNormal":[
+		{ 
+		"id":0,
+		"pic":"/lib/hlight/king-of-trainers/assets/images/library/2014/9.10.2014/02_NIKE_ROSHE.jpg",
+		"nameandprice":"Roshe<br />&pound;70",
+		"shopnowLink":"http://www.jdsports.co.uk/product/117681",
+		"shopnowTag":"KOT-_-Product-_-117681",
+		"brand":"/lib/hlight/king-of-trainers/tmp/q/1.png",
+		"linktext":"SHOP &raquo;"
+		}
+	],
+	"kotGalleryPreOrder":[
+		{
+		"id":0,
+		"pic":"/lib/hlight/king-of-trainers/assets/images/product/tmp.jpg",
+		"nameandprice":"adidas ZX630",
+		"shopnowLink":"#",
+		"shopnowTag":"KOT-_-P",
+		"countDownTime":"",
+		"launchText":"20.04.14"
+		}
+	],
+	"kotGalleryArchive":[
+		{
+		"id":0,
+		"pic":"/lib/hlight/king-of-trainers/assets/images/product/tmp.jpg",
+		"archbox":"Featured:<br />Asics Gel 03.2014"
+		}
+	],
+	"sideShotLeft":"",
+	"sideShotRight":"",
+	"ProductDescription":"<center><img class='kotAnimate360' src='/lib/hlight/king-of-trainers/assets/images/product/info.png'/></center>",
+	"ProductDescriptionText":"<p class='center'>This product is part of the Crosstown Running range. The lifestyle of running. Exclusive to JD are these men's Nike Roshe Run trainers! Coming in an armory navy and white upper for a simple yet on trend style, these statement shoes boast a anthracite breathable mesh upper to keep your feet feeling at their best and an EVA foam sole for durability and stability when you need it most.</p>",
+	"kotFactGallery":[
+		{
+		"id":0,
+		"kotFactLeftText":"AVAILABLE<br />COLOURS",
+		"kotFactRightText":"2008",
+		"kotFactIdText":"kotTxtColourWays"
+		},
+		{
+		"id":0,
+		"kotFactLeftText":"FIRST<br />SOLD",
+		"kotFactRightText":"2008",
+		"kotFactIdText":"kotTxtFirstSold"
+		},
+		{
+		"id":0,
+		"kotFactLeftText":"COUNTRIES<br />SOLD",
+		"kotFactRightText":"40",
+		"kotFactIdText":"kotTxtCountySoldTotal"
+		}
+	]
+}
+]
+}

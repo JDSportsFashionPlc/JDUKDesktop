@@ -1,0 +1,47 @@
+/***
+
+ * --- --- --- --- ---
+ * JD Sports Fashion plc
+ * IBM WebSphere Commerce Platform
+ * Khaleel Mughal
+ * --- --- --- --- ---
+ * #KOT LATEST
+ * --- --- --- --- ---
+
+***/
+
+/*
+LATEST
+*/
+html{height:100%}
+#KOT{min-height:801px}
+
+/*
+GALLERY
+*/
+.KOTApp{position:relative;width:100%;max-height:100%;height:auto !important;height:100%}
+.kotContent{position:relative;width:100%;margin:-3px 0}
+.kotContentFullWidth{width:100%}
+.kotContentimg{width:100%}
+.kotContent span{position:absolute;top:45%;text-align:center;left:11%;background:#333;opacity:0.7;line-height:39px;color:#000;padding:5px 29px;font-weight:bold;font-size:1.7em;letter-spacing:0.9px}
+.kotContent div.cta{position:absolute;top:31%;left:9%;opacity:0.9;width:11%}
+.kotContent div.brandbadge{text-transform:uppercase;position:absolute;top:16%;left:13%;opacity:0.9;font-size:25px;text-align:left;color:#000}
+.kotContent div.brandbadge a{text-transform:uppercase;font-weight:bold;color:#000;font-size:25px;text-decoration:none;opacity:0.6;transition:ease-in .2s;letter-spacing:-1px}
+.kotContent div.brandbadge a:hover{/*border-bottom:4.5px solid #000;*/opacity:1;transition:ease-in .2s}
+.kotContent div.brandbadge img{}
+.kotContent span{animation:bounce .9s infinite alternate;-webkit-animation:bounce .9s infinite alternate}
+.kotscrollMsg img{animation:bounce .7s infinite alternate;-webkit-animation:bounce .9s infinite alternate}
+.kotscrollMsg{z-index:3000;position:absolute;bottom:3%;font-size:17px;left:0;text-align:center;color:#000;width:100%;text-transform:uppercase;cursor:pointer}
+.kotscrollMsg a{color:#000;font-size:17px;text-decoration:none;font-weight:bold}
+.kotarrowscroller a{display:block;width:inherit;height:inherit;text-indent:-9000px}
+@keyframes bounce{from{transform:translateY(-3px)}to{transform:translateY(0)}}
+@-webkit-keyframes bounce{from{-webkit-transform:translateY(-3px)}to{-webkit-transform:translateY(0)}}
+
+/*
+RESPONSIVE
+*/
+@media screen and (max-width:1475px){.kotContent div.cta{width:15%}.kotContent div.brandbadge{width:35%}}
+@media screen and (max-width:1200px){.kotContent span,.kotContent div.cta{padding:3px 17px;font-size:15px}.kotContent div.cta{width:15%}.kotContent div.brandbadge{width:35%}}
+@media screen and (max-width:1024px){.kotContent span,.kotContent div.cta{padding:3px 11px;font-size:13px}}
+@media screen and (max-width:800px){.kotContent span{display:none}.kotContent div.cta{right:35%;width:25%}.kotContent div.brandbadge img{clear:both}}
+@media screen and (max-width:750px){.kotscrollMsg{display:none}}

@@ -1,0 +1,130 @@
+{
+    "Page": [{
+        "Id": 0,
+        "IsActive": true,
+        "PageName": "crosstownrunning",
+        "PageURL": "nike-crosstown-running-running",
+        "TopBannerSlider": [{
+            "id": 1,
+            "link": "",
+            "pic": "/lib/hlight/nike-crosstown-running/assets/imgs/men/top_banner.jpg"
+        }],
+        "GenderSlider": [
+
+
+            {
+                "id": 0,
+                "link": "/page/nike-crosstown-running_latest/#sliderNike-5",
+                "pic": "/lib/hlight/nike-crosstown-running/assets/imgs/men/latest_styles_01.jpg"
+            }, {
+                "id": 1,
+                "link": "/page/nike-crosstown-running_latest/#sliderNike-2",
+                "pic": "/lib/hlight/nike-crosstown-running/assets/imgs/men/latest_styles_02.jpg"
+            },
+
+
+
+            {
+                "id": 2,
+                "link": "/page/nike-crosstown-running_latest/#sliderNike-4",
+                "pic": "/lib/hlight/nike-crosstown-running/assets/imgs/men/latest_styles_03.jpg"
+            }, {
+                "id": 3,
+                "link": "/page/nike-crosstown-running_latest/#sliderNike-6",
+                "pic": "/lib/hlight/nike-crosstown-running/assets/imgs/men/latest_styles_04.jpg"
+            }
+
+
+
+        ],
+        "CaroselSlider": [{
+                "id": 1,
+                "link": "http://www.jdsports.co.uk/product/086422/",
+                "linkname": "Nike Lunarglide 6",
+                "pic": "http://i1.adis.ws/i/jpl/jd_086422_a?w=175&h=175"
+            }, {
+                "id": 2,
+                "link": "http://www.jdsports.co.uk/product/004464/",
+                "linkname": "Nike Dri Fit Tailwind Stripe Tee",
+                "pic": "http://i1.adis.ws/i/jpl/jd_004464_a?w=175&h=175"
+            }, {
+                "id": 3,
+                "link": "http://www.jdsports.co.uk/product/134784/",
+                "linkname": "Nike Free 5.0 2014",
+                "pic": "http://i1.adis.ws/i/jpl/jd_134784_a?w=175&h=175"
+            }, {
+                "id": 4,
+                "link": "http://www.jdsports.co.uk/product/048835/",
+                "linkname": "Nike Crosstown Running Tee",
+                "pic": "http://i1.adis.ws/i/jpl/jd_048835_a?w=175&h=175"
+            }, {
+                "id": 5,
+                "link": "http://www.jdsports.co.uk/product/004633/",
+                "linkname": "Nike AW 77 Zip Hoody",
+                "pic": "http://i1.adis.ws/i/jpl/jd_004633_a?w=175&h=175"
+            }, {
+                "id": 6,
+                "link": "http://www.jdsports.co.uk/product/084074/",
+                "linkname": "Nike Zoom Pegasus 31",
+                "pic": "http://i1.adis.ws/i/jpl/jd_084074_a?w=175&h=175"
+            }, {
+                "id": 7,
+                "link": "http://www.jdsports.co.uk/product/020030/",
+                "linkname": "Nike Cheyenne Vapor II Backpack",
+                "pic": "http://i1.adis.ws/i/jpl/jd_020030_a?w=175&h=175"
+            },
+
+            {
+                "id": 8,
+                "link": "http://www.jdsports.co.uk/product/085580/",
+                "linkname": "Nike Air Max Tailwind 6",
+                "pic": "http://i1.adis.ws/i/jpl/jd_085580_a?w=175&h=175"
+            },
+
+            {
+                "id": 9,
+                "link": "http://www.jdsports.co.uk/product/049263/",
+                "linkname": "Nike Elite Run Lightweight Socks",
+                "pic": "http://i1.adis.ws/i/jpl/jd_049263_a?w=175&h=175"
+            },
+
+            {
+                "id": 10,
+                "link": "http://www.jdsports.co.uk/product/093281/",
+                "linkname": "Nike Zoom Vomero 9",
+                "pic": "http://i1.adis.ws/i/jpl/jd_093281_a?w=175&h=175"
+            }
+
+
+
+
+
+
+
+
+
+        ],
+        "MainBoxTitle": "SHOP CROSSTOWN",
+        "FirstBox": "/lib/hlight/nike-crosstown-running/assets/imgs/01.08.2014/MENS/FOOTWEAR.jpg",
+        "FirstBoxTitle": "+ PRODUCT NAME",
+        "SecondBox": "/lib/hlight/nike-crosstown-running/assets/imgs/01.08.2014/MENS/CLOTHING.jpg",
+        "SecondBoxTitle": "+ PRODUCT NAME",
+        "ThirdBox": "/lib/hlight/nike-crosstown-running/assets/imgs/01.08.2014/MENS/ACCESSORIES.jpg",
+        "ThirdBoxTitle": "+ PRODUCT NAME",
+        "FirstUL": [{
+            "id": 0,
+            "link": "/page/nike-crosstown-running_men-footwear/",
+            "name": "FOOTWEAR"
+        }],
+        "SecondUL": [{
+            "id": 0,
+            "link": "/page/nike-crosstown-running_men-clothing/",
+            "name": "CLOTHING"
+        }],
+        "ThirdUL": [{
+            "id": 0,
+            "link": "/page/nike-crosstown-running_men-accessories/",
+            "name": "ACCESSORIES"
+        }]
+    }]
+}

@@ -1,0 +1,68 @@
+{
+"Page":[
+{
+	"Id":0,
+	"IsActive":true,
+	"PageName":"kingoftrainersproducts",
+	"PageURL":"king-of-trainers_product",
+	"NavigationChoice":"kotnav-latest",
+	"ProductTitle":"Asics Gel Lite",
+	"themeColour":"#ccc",
+	"kotPageType":"Normal",	
+	"pluTrainerId":"099676",
+	"kotGalleryNormal":[
+		{ 
+		"id":0,
+		"pic":"/lib/hlight/king-of-trainers/pink.jpg",
+		"nameandprice":"Air Force 1<br />&pound;72",
+		"shopnowLink":"#",
+		"shopnowTag":"KOT-_-Product-_-099676",
+		"brand":"/lib/hlight/king-of-trainers/tmp/q/1.png",
+		"linktext":"SHOP &raquo;"
+		}
+	],
+	"kotGalleryPreOrder":[
+		{
+		"id":0,
+		"pic":"/lib/hlight/king-of-trainers/assets/images/product/tmp.jpg",
+		"nameandprice":"adidas ZX630",
+		"shopnowLink":"#",
+		"shopnowTag":"KOT-_-P",
+		"countDownTime":"",
+		"launchText":"20.04.14"
+		}
+	],
+	"kotGalleryArchive":[
+		{
+		"id":0,
+		"pic":"/lib/hlight/king-of-trainers/assets/images/product/tmp.jpg",
+		"archbox":"Featured:<br />Asics Gel 03.2014"
+		}
+	],
+	"sideShotLeft":"/lib/hlight/king-of-trainers/tmp/imgs/sidep1.jpg",
+	"sideShotRight":"/lib/hlight/king-of-trainers/tmp/imgs/sidep2.jpg",
+	"ProductDescription":"<center><img class='kotAnimate360' src='/lib/hlight/king-of-trainers/assets/images/product/info.png'/></center>",
+	"ProductDescriptionText":"<p class='center'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque sagittis porta mi, eget bibendum nibh auctor sagittis. Phasellus tellus massa, lacinia in placerat et, auctor dignissim purus. In faucibus dapibus tellus non dictum. Integer iaculis gravida lorem, non consequat odio. Fusce et fringilla ipsum, vitae porttitor leo. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Proin a luctus risus. Donec vulputate aliquet aliquam. Mauris lobortis erat eros, semper convallis purus commodo non. Aliquam vitae bibendum lectus, tempus mattis eros. Nam in mattis neque, eget aliquam lacus.</p>",
+	"kotFactGallery":[
+		{
+		"id":0,
+		"kotFactLeftText":"AVAILABLE<br />COLOURS",
+		"kotFactRightText":"2008",
+		"kotFactIdText":"kotTxtColourWays"
+		},
+		{
+		"id":0,
+		"kotFactLeftText":"FIRST<br />SOLD",
+		"kotFactRightText":"2008",
+		"kotFactIdText":"kotTxtFirstSold"
+		},
+		{
+		"id":0,
+		"kotFactLeftText":"COUNTRIES<br />SOLD",
+		"kotFactRightText":"40",
+		"kotFactIdText":"kotTxtCountySoldTotal"
+		}
+	]
+}
+]
+}

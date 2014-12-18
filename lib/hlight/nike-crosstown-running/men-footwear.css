@@ -1,0 +1,31 @@
+/***
+
+ * --- --- --- --- ---
+ * JD Sports Fashion plc
+ * IBM WebSphere Commerce Platform
+ * Khaleel Mughal
+ * --- --- --- --- ---
+ * #NIKECROSSTOWN MEN SUB CATEGORY PAGE CLASS
+ * --- --- --- --- ---
+
+***/
+
+/*
+MEN OVERRIDES AND GENDER MAIN CATEGORY
+*/
+.topwidthleft{width:400px;color:#000;margin-top:65px !important}
+.regionLong{height:1635px}
+.contentuse div.left{width:251px}
+.theSubInnerPaddingPusher{padding:25px}
+.bottomItemLinkFeed{margin-top:3px;font-weight:bold;letter-spacing:0.9px;text-transform:uppercase}
+.bottomItemLinkFeed:hover{text-decoration:none}
+.CaroselSlideItem{margin-left:25px}
+.ZoneMenu{position:relative;height:auto;top:0}
+.ZoneMenu ul li{padding-left:3px;height:22px}
+.ZoneMenu ul li a{line-height:none}
+.paddingfix{padding-left:15px !important}
+.itemsub{background:#eaeaea;height:345px;margin-left:0;margin-top:25px;margin-right:25px;margin-bottom:25px;position:relative;width:290px}
+.itemsubmini{position:relative;height:215px;width:205px !important;background:#eaeaea;margin:15px !important;margin-top:0 !important}
+.itemtitle{position:absolute;left:0;bottom:-1px;height:33px;background:#fff;color:#333;opacity:0.7;width:100%;text-align:center;color:#000;letter-spacing:1px;line-height:33px;font-weight:bold}
+.norightmargin{margin-right:0}
+.itemsub a{display:block;width:inherit;height:inherit}

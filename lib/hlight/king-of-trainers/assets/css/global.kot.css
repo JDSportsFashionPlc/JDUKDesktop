@@ -1,0 +1,69 @@
+/***
+
+ * --- --- --- --- ---
+ * JD Sports Fashion plc
+ * IBM WebSphere Commerce Platform
+ * Khaleel Mughal
+ * --- --- --- --- ---
+ * #KOT
+ * --- --- --- --- ---
+
+***/
+
+
+/*
+REWRITES OF JD
+*/
+.contentContainer{width:100% !important;padding:0px !important}
+.full-width-header{z-index:9999 !important}
+.full-width-footer{position:relative;z-index:9000}
+
+/*
+GLOBALS
+*/
+#KOT{background:#000;position:relative;overflow:hidden;color:#fff;font-family:Helvetica, Arial, sans-serif;width:100%;height:100%}
+.ruh{width:976px !important;margin:0 auto;position:relative !important}
+.left{float:left}
+.right{float:right}
+.hide{display:none}
+.clear{clear:both}
+.last{margin-right:0 !important}
+.fullimg{width:100%}
+.fade a:hover, .fade a img:hover, .fade img:hover, .fade:hover{opacity:0.8;transition:ease-in .5s}
+.white{background:#fff}
+.caps{text-transform:uppercase}
+.center{text-align:center}
+.halfcircle{border-radius:27px}
+.caps{text-transform:uppercase}
+
+/*
+FONT
+*/
+.gotham{font-family:'Gotham A', 'Gotham B';font-weight:400;font-style:normal}
+.ultra{font-family:'Gotham A', 'Gotham B';font-weight:900;font-style:normal}
+
+/*
+NAV
+*/
+#KOTNav{background:#222;position:absolute;left:0;width:85px;z-index:1000;height:100%}
+#KOTNav nav ul li{display:block;width:100%;text-align:center}
+#KOTNav nav ul li a{display:block;width:inherit;color:#fff;text-align:center}
+#KOTNav nav ul li.link a{opacity:0.3}
+#KOTNav nav ul li.link a:hover{opacity:0.9;transition:ease-in-out .5s}
+#KOTNav nav ul li a img{width:100%;text-align:center}
+.KOTFixedNav{top:0;position:fixed !important}
+.kot-active-nav{opacity:0.9 !important}
+
+/*
+RESPONSIVE
+*/
+@media screen and (max-width:1475px){}
+@media screen and (max-width:1200px){#KOTNav{width:85px}}
+@media screen and (max-width:1024px){#KOTNav{width:75px}}
+@media screen and (max-width:800px){#KOTNav{width:55px}}
+
+/*
+ANIMATIONS
+*/
+#KOTNav nav ul li a img{-webkit-transition-duration: 0.8s;-moz-transition-duration: 0.8s;-o-transition-duration: 0.8s;transition-duration:0.8s;-webkit-transition-property:-webkit-transform;-moz-transition-property:-moz-transform;-o-transition-property:-o-transform;transition-property:transform;overflow:hidden}
+.kotAnimate360{-webkit-transition:all 0.5s ease-out;-moz-transition:all 0.5s ease-out;-ms-transition:all 0.5s ease-out;-o-transition:all 0.5s ease-out;transition:all 0.5s ease-out}

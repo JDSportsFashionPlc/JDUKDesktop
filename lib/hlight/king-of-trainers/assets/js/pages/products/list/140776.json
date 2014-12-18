@@ -1,0 +1,68 @@
+{
+"Page":[
+{
+	"Id":0,
+	"IsActive":true,
+	"PageName":"kingoftrainersproducts",
+	"PageURL":"king-of-trainers_product",
+	"NavigationChoice":"kotnav-latest",
+	"ProductTitle":"Asics Gel Lite",
+	"themeColour":"#ccc",
+	"kotPageType":"Normal",	
+	"pluTrainerId":"138727",
+	"kotGalleryNormal":[
+		{ 
+		"id":0,
+		"pic":"/lib/hlight/king-of-trainers/assets/images/library/2014/9.10.2014/01_ZX_FLUX.jpg",
+		"nameandprice":"ZXFLUX<br />&pound;75",
+		"shopnowLink":"http://www.jdsports.co.uk/product/138727",
+		"shopnowTag":"KOT-_-Product-_-138727",
+		"brand":"/lib/hlight/king-of-trainers/tmp/q/2.png",
+		"linktext":"SHOP &raquo;"
+		}
+	],
+	"kotGalleryPreOrder":[
+		{
+		"id":0,
+		"pic":"/lib/hlight/king-of-trainers/assets/images/product/tmp.jpg",
+		"nameandprice":"adidas ZX630",
+		"shopnowLink":"#",
+		"shopnowTag":"KOT-_-P",
+		"countDownTime":"",
+		"launchText":"20.04.14"
+		}
+	],
+	"kotGalleryArchive":[
+		{
+		"id":0,
+		"pic":"/lib/hlight/king-of-trainers/assets/images/product/tmp.jpg",
+		"archbox":"Featured:<br />Asics Gel 03.2014"
+		}
+	],
+	"sideShotLeft":"",
+	"sideShotRight":"",
+	"ProductDescription":"<center><img class='kotAnimate360' src='/lib/hlight/king-of-trainers/assets/images/product/info.png'/></center>",
+	"ProductDescriptionText":"<p class='center'>Get a retro running style on your feet, with the men's ZX Flux trainer from adidas Originals. The latest edition to the ZX family, the all black Flux features a streamlined woven upper, a moulded heel cage and Torsion technology in the midsole to provide support. The iconic 3 stripe branding features on the sides of the classic black upper.</p>",
+	"kotFactGallery":[
+		{
+		"id":0,
+		"kotFactLeftText":"AVAILABLE<br />COLOURS",
+		"kotFactRightText":"2008",
+		"kotFactIdText":"kotTxtColourWays"
+		},
+		{
+		"id":0,
+		"kotFactLeftText":"FIRST<br />SOLD",
+		"kotFactRightText":"2008",
+		"kotFactIdText":"kotTxtFirstSold"
+		},
+		{
+		"id":0,
+		"kotFactLeftText":"COUNTRIES<br />SOLD",
+		"kotFactRightText":"40",
+		"kotFactIdText":"kotTxtCountySoldTotal"
+		}
+	]
+}
+]
+}

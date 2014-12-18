@@ -1,0 +1,28 @@
+{
+	"Page": [
+	 {
+        "Id":1,
+        "IsActive":true,
+        "PageName":"kot",
+        "PageURL":"king-of-trainers",
+        "CaroselSlider": [
+            {
+                "id": 0,
+                "link": "/page/nike-crosstown-running_latest/#sliderNike-9",
+                "pic": "/lib/hlight/nike-crosstown-running/assets/imgs/latestboxes/1.jpg"
+            },
+            {
+                "id": 1,
+                "link": "/page/nike-crosstown-running_latest/#sliderNike-2",
+                "pic": "/lib/hlight/nike-crosstown-running/assets/imgs/latestboxes/3.jpg"
+            },
+            {
+                "id": 2,
+                "link": "/page/nike-crosstown-running_latest/#sliderNike-1",
+                "pic": "/lib/hlight/nike-crosstown-running/assets/imgs/latestboxes/5.jpg"
+            },
+            		
+        ]
+    }
+	]
+}

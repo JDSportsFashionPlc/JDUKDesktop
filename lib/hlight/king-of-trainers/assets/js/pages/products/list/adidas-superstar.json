@@ -1,0 +1,68 @@
+{
+"Page":[
+{
+	"Id":0,
+	"IsActive":true,
+	"PageName":"kingoftrainersproducts",
+	"PageURL":"king-of-trainers_product",
+	"NavigationChoice":"kotnav-latest",
+	"ProductTitle":"Asics Gel Lite",
+	"themeColour":"#ccc",
+	"kotPageType":"Normal",	
+	"pluTrainerId":"005921",
+	"kotGalleryNormal":[
+		{ 
+		"id":0,
+		"pic":"/lib/hlight/king-of-trainers/assets/images/library/2014/9.10.2014/04_ADIDAS_SUPER_STAR.jpg",
+		"nameandprice":"SuperStar 11<br />&pound;62",
+		"shopnowLink":"http://www.jdsports.co.uk/product/005921",
+		"shopnowTag":"KOT-_-Product-_-005921",
+		"brand":"/lib/hlight/king-of-trainers/tmp/q/2.png",
+		"linktext":"SHOP &raquo;"
+		}
+	],
+	"kotGalleryPreOrder":[
+		{
+		"id":0,
+		"pic":"/lib/hlight/king-of-trainers/assets/images/product/tmp.jpg",
+		"nameandprice":"adidas ZX630",
+		"shopnowLink":"#",
+		"shopnowTag":"KOT-_-P",
+		"countDownTime":"",
+		"launchText":"20.04.14"
+		}
+	],
+	"kotGalleryArchive":[
+		{
+		"id":0,
+		"pic":"/lib/hlight/king-of-trainers/assets/images/product/tmp.jpg",
+		"archbox":"Featured:<br />Asics Gel 03.2014"
+		}
+	],
+	"sideShotLeft":"",
+	"sideShotRight":"",
+	"ProductDescription":"<center><img class='kotAnimate360' src='/lib/hlight/king-of-trainers/assets/images/product/info.png'/></center>",
+	"ProductDescriptionText":"<p class='center'>Show off your star quality with these men's adidas Originals Superstar II trainers! Crafted with an all-white leather upper, these shoes also feature the adidas three stripe branding to the sides - perfect for those who like to keep it simple when it comes to their footwear. Other features include: Printed adidas logo on the tongue and heel piece plus a classic rubber shell toe.</p>",
+	"kotFactGallery":[
+		{
+		"id":0,
+		"kotFactLeftText":"AVAILABLE<br />COLOURS",
+		"kotFactRightText":"2008",
+		"kotFactIdText":"kotTxtColourWays"
+		},
+		{
+		"id":0,
+		"kotFactLeftText":"FIRST<br />SOLD",
+		"kotFactRightText":"2008",
+		"kotFactIdText":"kotTxtFirstSold"
+		},
+		{
+		"id":0,
+		"kotFactLeftText":"COUNTRIES<br />SOLD",
+		"kotFactRightText":"40",
+		"kotFactIdText":"kotTxtCountySoldTotal"
+		}
+	]
+}
+]
+}

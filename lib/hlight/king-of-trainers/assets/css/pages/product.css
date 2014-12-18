@@ -1,0 +1,150 @@
+/***
+
+ * --- --- --- --- ---
+ * JD Sports Fashion plc
+ * IBM WebSphere Commerce Platform
+ * Khaleel Mughal
+ * --- --- --- --- ---
+ * #KOT PRODUCT
+ * --- --- --- --- ---
+
+***/
+
+/*
+LATEST
+*/
+html{height:100%}
+#KOT{min-height:801px}
+
+/*
+GALLERY
+*/
+.KOTApp{position:relative;width:100%;max-height:100%;height:auto !important;height:100%}
+.kotContent{position:relative;width:100%;margin:-3px 0}
+.kotContentFullWidthimg{width:100%}
+.kotContent div.wishlist{position:absolute;bottom:15%;left:15%;opacity:0.9;width:11%}
+.kotContent div.nameandprice{text-transform:uppercase;width:35%;position:absolute;top:16%;left:13%;opacity:0.9;font-size:25px;text-align:left;color:#000}
+.kotContent div.nameandprice a{text-transform:uppercase;font-weight:bold;color:#000;font-size:25px;text-decoration:none;opacity:0.6;transition:ease-in .2s;letter-spacing:-1px}
+.kotContent div.nameandprice a:hover{/*border-bottom:4.5px solid #000;*/opacity:1;transition:ease-in .2s}
+.kotContent div.shopnow{position:absolute;bottom:11%;width:100%;text-align:center;opacity:0.9}
+.kotContent div.sharenow{position:absolute;bottom:15%;right:15%;opacity:0.9;width:11%}
+.kotContent div.launchbox span{clear:both;display:block;font-weight:bold;letter-spacing:-0.9px;margin:-9px;font-size:31px}
+.tip{height:35px;width:100%;background:url(/lib/hlight/king-of-trainers/assets/images/product/tip.png) center center no-repeat;background-size:cover;position:absolute;bottom:0}
+.preorderline{height:1px;width:100%;background:#fff;position:absolute;top:15%;left:0}
+.kotProductDescription{padding:19px 0;background:#fff;margin:-3px 0;position:relative;width:100%}
+.kotProductDescription p{width:75%;margin:0 auto;padding:19px 0;color:#8b8b8b;font-size:1.3em}
+.preOrder_nameandprice{position:absolute;top:5%;left:15%;text-align:left;font-size:29px;font-weight:bold}
+.launchbox{position:absolute;top:5%;right:15%;text-align:center;font-size:23px;font-weight:bold}
+.archtitle{position:absolute;text-transform:uppercase;top:5%;left:15%;text-align:left;font-size:29px;font-weight:bold}
+.archbox{position:absolute;bottom:5%;right:35%;text-align:center;font-size:23px;font-weight:bold}
+.archbox p.white{font-color:#fff}
+.owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span{background:#000}
+
+/*
+RELATED SLIDER
+*/
+.kotProductSideShots{padding:19px 0;background:#fff;margin:-3px 0;position:relative;width:100%;padding-bottom:55px !important}
+/*
+.kotProductSideShotsdiv{width:50%}
+.kotProductSideShotsdiv img{width:100%}
+*/
+.kotProductSideShotsdiv{display:block;margin:0 auto;width:75%}
+.kotProductSideShotsdiv img{width:50%;margin-top:-5px}
+
+/*
+KOT FACTS
+*/
+.kotFacts{background:#fff;padding:9px 0;width:100%;margin:0 auto;height:125px}
+.kotFactBoxInner{width:75%;margin:0 auto}
+.kotFactBox{width:33%;float:left;margin-top:35px}
+.kotFactBox table{margin:0 auto}
+.kotFactBox table td{vertical-align:middle}
+.kfbLeft{text-align:left;text-transform:uppercase;font-weight:bold;font-size:15px;padding-right:9px}
+.kfbRight{text-align:right;text-transform:uppercase;font-weight:bold;font-size:35px;padding-left:9px}
+.themecol span{font-weight:bold}
+.typed-cursor{animation:0.7s ease 0s normal none infinite blink;font-weight:100;opacity:1}
+.tipfact{height:35px;width:100% !important;margin:0 auto;position:absolute;top:-3px}
+.arrow-down-border{width:0;height:0;position:relative;border-left:22px solid transparent;border-right:22px solid transparent;border-top:22px solid transparent;top:33px;margin:0 auto}
+.arrow-down{padding:0;position:absolute;width:0;height:0;border-left:20px solid transparent;border-right:20px solid transparent;margin-left:-20px;margin-top:-21px;float:left}
+
+/*
+KOT LATEST GLOBAL FEED
+*/
+.kotLatestFeed{padding-bottom:0;width:100%;background:#b4b5b9 !important}
+.kotSingleSlide{position:relative;color:#fff}
+.kotSingleSlide span{z-index:3000;position:absolute;left:25%;bottom:0;color:#000;width:100%;text-align:left;/*background:url(/lib/hlight/king-of-trainers/assets/images/product/bglatesttip.png);*/line-height:25px}
+.kotSingleSlide img{width:100%}
+.kotSingleSlide a{color:#fff;font-size:15px}
+.kotSingleSlide a:hover,.kotSingleSlide a span:hover{text-decoration:underline}
+.kotLatestFeed h3{text-align:center;margin:25px 0;font-size:29px;display:block !important;color:#000 !important}
+.bx-pager,.owl-pagination,.owl-controls{}
+.owl-dots{display:none !important}
+.owl-item{margin:0 !important}
+.owl-prev{width:45px !important;height:45px !important;background:url(/lib/hlight/king-of-trainers/assets/images/nav/LEFT_ARROW.png) no-repeat !important;text-indent:-9000px !important;margin:0 !important;padding:0 !important;margin-right:10px !important}
+.owl-next{width:45px !important;height:45px !important;background:url(/lib/hlight/king-of-trainers/assets/images/nav/RIGHT_ARROW.png) no-repeat !important;text-indent:-9000px !important;margin:0 !important;padding:0 !important}
+.owl-theme .owl-controls{background:url(/lib/hlight/king-of-trainers/assets/images/product/bg.jpg) #cbcbcb repeat !important;margin:0 !important;padding:0 !important;height: 85px;}
+.owl-nav{padding-top: 11px}
+
+
+
+
+/*
+KOT SOCIAL STATS
+*/
+.kotSocialStats{padding:9px 0;width:100%;margin:0 auto;height:225px}
+.kotsocial{width:75%;margin:0 auto}
+.kotsocial h3{text-align:center;margin:25px 0;font-size:29px;font-weight:bold}
+.kotSocialCircle{margin-top:15px;margin-bottom:15px}
+.kotsocial table{margin:0 auto;width:400px;text-align:center}
+.circliful{position:relative}
+.circle-text{line-height:203px !important}
+.circle-text, .circle-info, .circle-text-half, .circle-info-half{width:100%;position:absolute;text-align:center;display:inline-block}
+.circle-info, .circle-info-half{color:#999}
+.circliful .fa{margin:-10px 3px 0 3px;position:relative;bottom:4px}
+.circle-text img{left:37px;position:absolute;top:37px}
+
+/*
+RESPONSIVE
+*/
+@media screen and (max-width:1475px){
+	.kotContent div.cta{width:15%}
+	.kotContent div.brandbadge{width:35%}
+	.kotContent div.shopnow{bottom:11%}
+}
+@media screen and (max-width:1200px){
+	.kotContent span,.kotContent div.cta{padding:3px 17px;font-size:15px}
+	.kotContent div.cta{width:15%}
+	.kotContent div.brandbadge{width:35%}
+	.kotContent div.shopnow{bottom:13%}
+	.preorderline{top:19%}
+}
+@media screen and (max-width:1024px){
+	.kotContent span,.kotContent div.cta{padding:3px 11px;font-size:13px}
+	.launchbox{font-size:17px}
+	.kotContent div.shopnow{bottom:13%}
+	.preorderline{top:19%}
+}
+@media screen and (max-width:800px){
+	.kotContent div.shopnow img{width:22%}
+	.kotContent div.shopnow{bottom:13%}
+	.kfbLeft{font-size:13px}
+	.kfbRight{font-size:29px}
+	.launchbox{font-size:13px}
+	.kotProductSideShotsdiv{width:100%}
+	.kotContent span{display:none}
+	.kotContent div.cta{right:35%;width:25%}
+	.kotContent div.brandbadge{right:33%;width:35%}
+	.kotTopPushResponsive{font-size:19px;top:7%}
+	.kotContent div.launchbox span{font-size:13px}
+	.kotFactBox{width:50%;margin-top:21px}
+	.preorderline{display:none}
+}
+@media screen and (max-width:750px){
+	.kotLatestFeed{display:none !important}
+}
+
+@media screen and (max-width:600px){
+	.kfbLeft{font-size:11px}
+	.kfbRight{font-size:21px}
+	.launchbox{font-size:11px}	
+}

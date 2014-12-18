@@ -1,0 +1,68 @@
+{
+"Page":[
+{
+	"Id":0,
+	"IsActive":true,
+	"PageName":"kingoftrainersproducts",
+	"PageURL":"king-of-trainers_product",
+	"NavigationChoice":"kotnav-latest",
+	"ProductTitle":"Asics Gel Lite",
+	"themeColour":"#ccc",
+	"kotPageType":"Normal",	
+	"pluTrainerId":"136811",
+	"kotGalleryNormal":[
+		{ 
+		"id":0,
+		"pic":"/lib/hlight/king-of-trainers/assets/images/library/2014/9.10.2014/03_NIKE_MAX_95.jpg",
+		"nameandprice":"Max 95<br />&pound;115",
+		"shopnowLink":"http://www.jdsports.co.uk/product/136811",
+		"shopnowTag":"KOT-_-Product-_-136811",
+		"brand":"/lib/hlight/king-of-trainers/tmp/q/1.png",
+		"linktext":"SHOP &raquo;"
+		}
+	],
+	"kotGalleryPreOrder":[
+		{
+		"id":0,
+		"pic":"/lib/hlight/king-of-trainers/assets/images/product/tmp.jpg",
+		"nameandprice":"adidas ZX630",
+		"shopnowLink":"#",
+		"shopnowTag":"KOT-_-P",
+		"countDownTime":"",
+		"launchText":"20.04.14"
+		}
+	],
+	"kotGalleryArchive":[
+		{
+		"id":0,
+		"pic":"/lib/hlight/king-of-trainers/assets/images/product/tmp.jpg",
+		"archbox":"Featured:<br />Asics Gel 03.2014"
+		}
+	],
+	"sideShotLeft":"",
+	"sideShotRight":"",
+	"ProductDescription":"<center><img class='kotAnimate360' src='/lib/hlight/king-of-trainers/assets/images/product/info.png'/></center>",
+	"ProductDescriptionText":"<p class='center'>This product is part of the Crosstown Running range. The lifestyle of running. Exclusive to JD are these mens Air Max 95 trainers from Nike that come with the classic wavy side wall and combined tonal mesh and synthetic upper along with NIKE branding at the heel in the form of a Swoosh. Other details include a graduated midsole, reflective panelling, looped lace eyelets and embroidered NIKE branding on the tongue to finish.</p>",
+	"kotFactGallery":[
+		{
+		"id":0,
+		"kotFactLeftText":"AVAILABLE<br />COLOURS",
+		"kotFactRightText":"2008",
+		"kotFactIdText":"kotTxtColourWays"
+		},
+		{
+		"id":0,
+		"kotFactLeftText":"FIRST<br />SOLD",
+		"kotFactRightText":"2008",
+		"kotFactIdText":"kotTxtFirstSold"
+		},
+		{
+		"id":0,
+		"kotFactLeftText":"COUNTRIES<br />SOLD",
+		"kotFactRightText":"40",
+		"kotFactIdText":"kotTxtCountySoldTotal"
+		}
+	]
+}
+]
+}
