@@ -1,7 +1,7 @@
-JDUK-Desktop
+JDUK-Desktop-Master-Repo
 ============
 
-The JD Sports UK Desktop Repo - IBM WebSphere Commerce 7
+The JD Sports UK Desktop Master Repo - IBM WebSphere Commerce 7
 
 Some of the technologies on the platforms
 
