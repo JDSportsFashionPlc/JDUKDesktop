@@ -4,7 +4,7 @@
 * Monetate
 * Khaleel Mughal
 * --- --- --- --- ---
-* #Add X-Mas Delivery times on Cart Page
+* #Add X-Mas Delivery times on Cart Page 
 * --- --- --- --- ---
 ***/
 
