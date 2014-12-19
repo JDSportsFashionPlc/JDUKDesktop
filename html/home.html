@@ -60,8 +60,9 @@ NIKE SKINS
 // CSS
 -->
 <link href="/css/animation.css" rel="stylesheet" type="text/css">
+<link href="/css/jd-landing.css" rel="stylesheet" type="text/css">
 <script>
-jQuery('head').append($('<link rel="stylesheet" type="text/css" />').attr('href', '/css/jd-landing.css?v=' + Math.random()));
+/*jQuery('head').append($('<link rel="stylesheet" type="text/css" />').attr('href', '/css/jd-landing.css?v=' + Math.random())); */
 </script>
 <style type="text/css">
     .ctanew {
@@ -338,27 +339,14 @@ jQuery('head').append($('<link rel="stylesheet" type="text/css" />').attr('href'
 -->
     <div class="sectionTV">
  
-                <div style="position:relative;width:648px;height:415px;float:left;margin-right:9px">
- 
-               
-                    
-                          
-                           
-                   <!--  <video width="648" controls height="415" onclick="this.play();" poster="/images/library/2014/11.12.2014/latest.jpg" style="display:none" id="productVideo" class="MonetateJDTVAdVert">
-                        <source type="video/webm" src="http://i1.adis.ws/v/jpl/THROW_648x415px_1/webm_480p">
-                        <source type="video/mp4" src="http://i1.adis.ws/v/jpl/THROW_648x415px_1/mp4_480p"> 
-                    </video> -->
-                         <!-- <a href="#"> -->
-                             <img  width="648" height="415" border="0"  src="/images/library/2014/18.12.2014/fh-sale/Homepage_Banner_Full_V2.png"  alt="">
-                         <!-- </a>  -->
-                        
-                          
-                          <a  manual_cm_re="CONTENT-_-SPLIT-_-MENS-SALE" href="http://www.jdsports.co.uk/featured/Mens%20Accessories%20Sale?fredhopperUrl=fh_location=%2f%2fcatalog01%2fen_GB%2fcategories%3C%7bcatalog01_ct12201%7d%2fcategories%3C%7bcatalog01_ct12201_ct12215%7d%2fsale%3d%7bonly20view20sale20items%7d" title="Mens" id="new-sale-link1">SHOP MENS</a>
+                <div class="leftTopBox" style="position:relative;width:648px;height:415px;float:left;margin-right:9px">
+ 			 <img  width="648" height="415" border="0"  src="/images/library/2014/18.12.2014/fh-sale/Homepage_Banner_Full_V2.png"  alt="">
+                     <a  manual_cm_re="CONTENT-_-SPLIT-_-MENS-SALE" href="http://www.jdsports.co.uk/featured/Mens%20Accessories%20Sale?fredhopperUrl=fh_location=%2f%2fcatalog01%2fen_GB%2fcategories%3C%7bcatalog01_ct12201%7d%2fcategories%3C%7bcatalog01_ct12201_ct12215%7d%2fsale%3d%7bonly20view20sale20items%7d" title="Mens" id="new-sale-link1">SHOP MENS</a>
                           <a  manual_cm_re="CONTENT-_-SPLIT-_-WOMENS-SALE" href="http://www.jdsports.co.uk/featured/Womens%20Accessories%20Sale?fredhopperUrl=fh_location=%2f%2fcatalog01%2fen_GB%2fcategories%3C%7bcatalog01_ct12202%7d%2fcategories%3C%7bcatalog01_ct12202_ct12216%7d%2fsale%3d%7bonly20view20sale20items%7d" title="Mens" id="new-sale-link2">SHOP WOMENS</a>
                           <a  manual_cm_re="CONTENT-_-SPLIT-_-KIDS-SALE" href="http://www.jdsports.co.uk/featured/Kids%20Accessories%20Sale?fredhopperUrl=fh_location=%2f%2fcatalog01%2fen_GB%2fcategories%3C%7bcatalog01_ct12203%7d%2fcategories%3C%7bcatalog01_ct12203_ct12217%7d%2fsale%3d%7bonly20view20sale20items%7d" title="Mens" id="new-sale-link3">SHOP KIDS</a> 
                           
                 </div>
-                <div class="" style="float:left;height:415px;width:319px;position:relative">
+                <div class="rightTopBox" style="float:left;height:415px;width:319px;position:relative">
                     
                    <div> 
                    <a href="http://www.jdsports.co.uk/featured/Shop%20The%20TV%20Ad?fredhopperUrl=fh_location=%2f%2fcatalog01%2fen_GB%2fcampaign%3E%7bshop20the20tv20ad%7d">
@@ -755,14 +743,23 @@ jQuery(document).ready(function ($) {
         var galHTML='';
         var agalHTML=''
         var i=0;        
-        var proddesc
+
         // BIG BOXES ACCESSORIES
         // -- There is some animation hovers applied to this JSON below, same comment name above
         jQuery.each(x.Page[0].TopXmasGifts, function(key, val){
-            proddesc = val.proddesc.split('-_-');
             agalHTML+='<div class="hookaccessslide ultra gotham" id="hookAccessElement'+val.id+'" onClick=\'window.location="http://www.jdsports.co.uk/product/'+val.picplu+'/?cm_re=Home-_-TopXmasGiftsSlider-_-'+val.picplu+'"\'>';
             agalHTML+='<img src="http://i1.adis.ws/t/jpl/jd_product_list?plu=jd_'+val.picplu+'_a&wid=134&hei=153&resmode=sharp&qlt=80"/>' 
-            agalHTML+= '<div class="proddetails"><br>'+proddesc[0]+'<br>'+proddesc[1]+'<br>'+proddesc[2]+'</div>';
+			if (val.wasprice == "") {
+				if(val.product1 == "") {
+            agalHTML+= '<div class="proddetails"><br>'+val.brand+'<br>'+val.product+'<br>&#163;'+val.currentprice+'</div>';
+				} else
+				{
+			agalHTML+= '<div class="proddetails"><br>'+val.brand+'<br>'+val.product+'<br>'+val.product1+' &#163;'+val.currentprice+'</div>';		
+				}
+			} else
+			{
+			agalHTML+= '<div class="proddetails"><br>'+val.brand+'<br>'+val.product+'<br>Was &#163;'+ val.wasprice + ' Now &#163;' + val.currentprice+'</div>';
+			}
             agalHTML+='</div>';
         });
         agalHTML += '';
