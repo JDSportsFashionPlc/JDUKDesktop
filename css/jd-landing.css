@@ -84,8 +84,8 @@ h2.sidebar a{font-weight:bold;font-size:14px}
 #banner-slider-wrap.landing .banner-arrow{top:160px}
 
 /* ---- Main Navigation Spots ---- */
-#middle-spots-wrap.homepage{position:relative;width:976px;height:1465px;overflow:hidden}
-#middle-spots-wrap.homepage ul{position:absolute;width:976px;height:1465px}
+#middle-spots-wrap.homepage{position:relative;width:976px;height:1485px;overflow:hidden}
+#middle-spots-wrap.homepage ul{position:absolute;width:976px;height:1485px}
 #middle-spots-wrap.homepage ul li{display:block;width:319px;height:415px;position:absolute;zoom:1;background:#F2F2F2;overflow:hidden}
 #middle-spots-wrap.homepage ul li.topleft{top:0;left:0}
 #middle-spots-wrap.homepage ul li.topmiddle{top:0;left:329px}
@@ -105,11 +105,11 @@ HOOK ACCESSORIES
 .hooksupertitle{font-size:47px;line-height:52px;font-weight:bold}
 
 
-#middle-spots-wrap.homepage ul li.topxmasgifts1{top:425px;left:0; width:976px !important; height:35px !important;background:#FFF !important; color:#88704c}
-#middle-spots-wrap.homepage ul li.topxmasgifts{top:450px;left:0; width:976px !important; height:221px !important; background:#FFF !important}
-#middle-spots-wrap.homepage ul li.centreleft{top:731px;left:0}
-#middle-spots-wrap.homepage ul li.centremiddle{top:731px;left:329px}
-#middle-spots-wrap.homepage ul li.centreright{top:731px;right:0}
+#middle-spots-wrap.homepage ul li.topxmasgifts1{top:418px;left:0; width:976px !important; height:35px !important;background:#FFF !important; color:#88704c}
+#middle-spots-wrap.homepage ul li.topxmasgifts{top:461px;left:0; width:976px !important; height:221px !important; background:#FFF !important}
+#middle-spots-wrap.homepage ul li.centreleft{top:737px;left:0}
+#middle-spots-wrap.homepage ul li.centremiddle{top:737px;left:329px}
+#middle-spots-wrap.homepage ul li.centreright{top:737px;right:0}
 #middle-spots-wrap.homepage ul li.bottomleft{bottom:0;left:0}
 #middle-spots-wrap.homepage ul li.bottommiddle{bottom:0;left:329px}
 #middle-spots-wrap.homepage ul li.bottomright{bottom:0;right:0}
@@ -120,7 +120,7 @@ HOOK ACCESSORIES
 #middle-spots-wrap.homepage ul li .text{display:block;position:absolute;bottom:0;left:0;width:299px;height:85px;padding:10px;text-align:left;z-index:2}
 #middle-spots-wrap.homepage ul li .text.white-overlay{background:url('/images/middle-spots-bg-white.png') repeat 0 0}
 #middle-spots-wrap.homepage ul li .text span{display:block;font-size:15px;font-weight:bold;text-transform:uppercase;text-align:center;/*text-shadow:0 0 20px #FFF;*/ -webkit-font-smoothing:antialiased}
-#middle-spots-wrap.homepage ul li .texttitle span{display:block;font-size:32px;font-weight:bold;text-transform:uppercase;text-align:center; color:#88704C; font-family:Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif/*text-shadow:0 0 20px #FFF;*/ -webkit-font-smoothing:antialiased}
+#middle-spots-wrap.homepage ul li .texttitle span{display:block; font-size:36px;font-weight:bold;text-transform:uppercase;text-align:center; color:#88704C; /*text-shadow:0 0 20px #FFF;*/ -webkit-font-smoothing:antialiased; font-family:Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif}
 #middle-spots-wrap.homepage ul li .text span.adi{display:inline !important;text-transform:lowercase}
 #middle-spots-wrap.homepage ul li .text span.spot-title{font-size:12px;font-weight:300;margin:0}
 
@@ -396,4 +396,60 @@ ul#brandIcons li a:hover{transition:ease-in .3s}
 height: 1668px;
 }
 
-.adRegion{height:85px !important;width:100% !important;top:1157px !important;}
+.adRegion{height:85px !important;width:100% !important;top:1160px !important;}
+
+
+a#new-sale-link1  {
+    background: #fff;
+    color: #ef3737;
+    display: block;
+    font-weight: bold;
+    height: 35px;
+    line-height: 35px;
+    padding: 0 1px;
+    position: absolute;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    width: 145px;
+    top: 340px;
+    left: 96px;
+    font-family: 'Gotham A';
+    font-size: 16px;
+}
+a#new-sale-link2  {
+    background: #fff;
+    color: #ef3737;
+    display: block;
+    font-weight: bold;
+    height: 35px;
+    line-height: 35px;
+    padding: 0 1px;
+    position: absolute;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    width: 145px;
+    top: 340px;
+    left: 253px;
+    font-family: 'Gotham A';
+    font-size: 16px;
+}
+a#new-sale-link3  {
+    background: #fff;
+    color: #ef3737;
+    display: block;
+    font-weight: bold;
+    height: 35px;
+    line-height: 35px;
+    padding: 0 1px;
+    position: absolute;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    width: 145px;
+    top: 340px;
+    left: 409px;
+    font-family: 'Gotham A';
+    font-size: 16px;
+}

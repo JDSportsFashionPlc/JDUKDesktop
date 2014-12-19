@@ -12,7 +12,7 @@
 	-- 20th August 2014
 	--- Made changes to core Changeout systems and pending loops
 	
-	-- 11th July 2014
+	-- 11th July 2014;
 	--- Github and Bitbucket also added Nike Skins
 	
 	-- 25th June 2014
@@ -62,12 +62,38 @@ NIKE SKINS
 <link href="/css/animation.css" rel="stylesheet" type="text/css">
 <link href="/css/jd-landing.css" rel="stylesheet" type="text/css">
 <style type="text/css">
-.ctanew{display: block;position: absolute;text-decoration: none;height: 32px;line-height: 32px;padding-left: 15px;padding-right: 50px;color: #fff;background: url('/images/call-to-action-arrows.png') #fff no-repeat 100% 0;font-weight:bold}
-.ctanew:hover {background-position:100% -32px !important}
-.yellowHover:hover {opacity: 0.9}
-.call-to-action:hover {background: url("/images/jd-master-sprite-sheet.png") no-repeat scroll 100% -525px #ccc !important;color: #000 !important}
-.nocaps {text-transform:none !important}
-.thirdcta {display:block;height:45px;width:150px;position:absolute;bottom:51px}
+    .ctanew {
+        display: block;
+        position: absolute;
+        text-decoration: none;
+        height: 32px;
+        line-height: 32px;
+        padding-left: 15px;
+        padding-right: 50px;
+        color: #fff;
+        background: url('/images/call-to-action-arrows.png') #fff no-repeat 100% 0;
+        font-weight: bold
+    }
+    .ctanew:hover {
+        background-position: 100% -32px !important
+    }
+    .yellowHover:hover {
+        opacity: 0.9
+    }
+    .call-to-action:hover {
+        background: url("/images/jd-master-sprite-sheet.png") no-repeat scroll 100% -525px #ccc !important;
+        color: #000 !important
+    }
+    .nocaps {
+        text-transform: none !important
+    }
+    .thirdcta {
+        display: block;
+        height: 45px;
+        width: 150px;
+        position: absolute;
+        bottom: 51px
+    }
 </style>
 
 <!--
@@ -184,10 +210,10 @@ NIKE SKINS
 	 .usptable tr {}
 	 .usptable td{vertical-align:middle}
 	 
-	 .proddetails {padding-top:152px; padding-left:10px; padding-bottom:15px; text-align:left; background:#f2f2f2}
-	 .owl-carousel .owl-item img {padding-left:7px; padding-top:7px; background:#f2f2f2}
+	 .proddetails {padding-top:152px; padding-left:10px; padding-bottom:15px; text-align:left; background:#f2f2f2;font-family:Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif; font-size:11.5px; font-weight:bold; line-height:1.2}
+	 .owl-carousel .owl-item img {padding-left:5px; padding-top:5px; background:#f2f2f2}
  	 .owl-carousel .owl-item {background:#f2f2f2}
-/*	 .owl-carousel .owl-item.active {margin-left:-108px !important}*/
+	 .owl-carousel .owl-item.active {margin-left:-10px} 
 /*	 .owl-nav {position:absolute; width:100%; margin-top:-158px;margin-left:-488px; display:inline-block} */
 	 .owl-prev {display:block !important; text-align:left; color:black; float:left; padding-left:10px; background:url(../images/left_arrow_slider.png) !important; font-size: -9999px !important; position:absolute; top:90px}
 	 .owl-next {display:block !important; text-align:right; color:black; float:right; padding-right:10px; background:url(../images/right_arrow_slider.png) !important; font-size: -9999px !important; position:absolute; top:90px; margin-left:925px !important}
@@ -431,9 +457,9 @@ NIKE SKINS
                     </a>
                   
                 </li>
-				<li class="topxmasgifts1" style="text-align:center !important;height:40px !important;top:423px">
+				<li class="topxmasgifts1" style="text-align:center !important;height:40px !important;top:418px">
                         <div class="texttitle">
-                            <span style='font-size:36px;font-weight:bold'> TOP GIFTS FOR CHRISTMAS</span>
+                            <span style='font-size:36px;font-weight:1000'> TOP GIFTS FOR CHRISTMAS</span>
                          </div>
                 </li>
                 <li class="topxmasgifts" style="text-align:center">
@@ -444,7 +470,7 @@ NIKE SKINS
                          
                 </li>
                 
-                 <li class="topxmasgiftsSpecial" style="z-index:1000;text-align:center;width:100%;bottom:0;height:40px;top:687px">
+                 <li class="topxmasgiftsSpecial" style="z-index:1000;text-align:center;width:100%;bottom:0;height:40px;top:690px">
                 <!--
 GOLD BAR
 -->
@@ -732,7 +758,7 @@ jQuery(document).ready(function ($) {
 		jQuery.each(x.Page[0].TopXmasGifts, function(key, val){
 			proddesc = val.proddesc.split('-_-');
 			agalHTML+='<div class="hookaccessslide ultra gotham" id="hookAccessElement'+val.id+'" onClick=\'window.location="http://www.jdsports.co.uk/product/'+val.picplu+'/?cm_re=Home-_-TopXmasGiftsSlider-_-'+val.picplu+'"\'>';
-			agalHTML+='<img src="http://i1.adis.ws/t/jpl/jd_product_list?plu=jd_'+val.picplu+'_a&wid=137&hei=153&resmode=sharp&qlt=80"/>'
+			agalHTML+='<img src="http://i1.adis.ws/t/jpl/jd_product_list?plu=jd_'+val.picplu+'_a&wid=134&hei=153&resmode=sharp&qlt=80"/>'
 			agalHTML+= '<div class="proddetails"><br>'+proddesc[0]+'<br>'+proddesc[1]+'<br>'+proddesc[2]+'</div>';
 			agalHTML+='</div>';
 		});
@@ -745,13 +771,18 @@ jQuery(document).ready(function ($) {
 			loop:true,
 			items:6,
 			autoplay: false,
-			margin:14,
+			margin:22,
 			
 			navigation:true,
 			navigationText: ["<i class='icon-chevron-left icon-white'><</i>","<i class='icon-chevron-right icon-white'>></i>"]	
 			
 		}); 
 	});
+//	var firstactiveitem = jQuery(".owl-item.active");
+//	firstactiveitem.css('margin-left','-100px');
+//	console.log('hello');
+//	console.log(firstactiveitem);
+//	console.log('hello1');
 });
 /*Top Christmas Gifts Slider
 END*/
