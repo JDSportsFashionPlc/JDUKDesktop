@@ -9,92 +9,137 @@
 				{
                     "id": 0,
                     "picplu": "073574",
-					"proddesc":"Nike-_-Air Max 90-_-£95.00",
-                    "hover": "Home-_-TopXmasGifts-_-073574"
+					"brand":"Nike",
+					"product":"Air Max 90",
+					"product1":"",
+					"wasprice":"",
+					"currentprice":"95.00"
                 },
 				{
                     "id": 1,
                     "picplu": "143079",
-					"proddesc":"adidas-_-Condivo Training Pants-_-£35.00",
-                    "hover": "Home-_-TopXmasGifts-_-136082"
+					"brand":"adidas",
+					"product":"Condivo Training Pants",
+					"product1":"",					
+					"wasprice":"",
+					"currentprice":"35.00"
                 },
 				{
                     "id": 2,
                     "picplu": "074814",
-					"proddesc":"Nike-_-Air Max 95-_-£115.00",
-                    "hover": "Home-_-TopXmasGifts-_-011790"
-                },
+					"brand":"Nike",
+					"product":"Air Max 95",
+					"product1":"",					
+					"wasprice":"",
+					"currentprice":"115.00"
+				},
 				{
                     "id": 3,
                     "picplu": "158179",
-					"proddesc":"Hype-_-Slim Jogging Pants Junior-_-£25.00",
-                    "hover": "Home-_-TopXmasGifts-_-017389"
+					"brand":"Hype",
+					"product":"Slim Jogging Pants ",
+					"product1":"Junior",					
+					"wasprice":"",
+					"currentprice":"25.00"
                 },
 				{
                     "id": 4,
                     "picplu": "091075",
-					"proddesc":"Nike-_-Air Huarache-_-£90.00",
-                    "hover": "Home-_-TopXmasGifts-_-090446"
+					"brand":"Nike",
+					"product":"Air Huarache",
+					"product1":"",										
+					"wasprice":"",
+					"currentprice":"90.00"
                 },
 				{
                     "id": 5,
                     "picplu": "121637",
-					"proddesc":"Converse-_-Chuck Patch Hoody-_-£50.00",
-                    "hover": "Home-_-TopXmasGifts-_-090446"
+					"brand":"Converse",
+					"product":"Chuck Patch Hoody",
+					"product1":"",										
+					"wasprice":"50",
+					"currentprice":"45.00"
                 },
 				{
                     "id": 6,
                     "picplu": "027536",
-					"proddesc":"Nike-_-Air Force 1 Lo Junior-_-£50.00",
-                    "hover": "Home-_-TopXmasGifts-_-007987"
+					"brand":"Nike",
+					"product":"Air Force 1 Lo Junior",
+					"product1":"",										
+					"wasprice":"",
+					"currentprice":"50.00"
                 },
 				{
                     "id": 7,
                     "picplu": "094678",
-					"proddesc":"Converse-_-Chuck Patch Hoody-_-£90.00",
-                    "hover": "Home-_-TopXmasGifts-_-007987"
+					"brand":"Converse",
+					"product":"Chuck Patch Hoody",
+					"product1":"",										
+					"wasprice":"",
+					"currentprice":"90.00"
                 },
 				{
                     "id": 8,
                     "picplu": "121654",
-					"proddesc":"Converse-_-Chuck Fleece Pants-_-£35.00",
-                    "hover": "Home-_-TopXmasGifts-_-049955"
+					"brand":"Converse",
+					"product":"Chuck Fleece Pants",
+					"product1":"",										
+					"wasprice":"35",
+					"currentprice":"25.00"
                 },
 				{
                     "id": 9,
                     "picplu": "119936",
-					"proddesc":"Nike-_-Air Max 90-_-£95.00",
-                    "hover": "Home-_-TopXmasGifts-_-049955"
+					"brand":"Nike",
+					"product":"Air Max 90",
+					"product1":"",										
+					"wasprice":"",
+					"currentprice":"95.00"
                 },
 				{
                     "id": 10,
                     "picplu": "158180",
-					"proddesc":"Hype-_-Slim Jogging Pants Junior-_-£25.00",
-                    "hover": "Home-_-TopXmasGifts-_-049955"
+					"brand":"Hype",
+					"product":"Slim Jogging Pants",
+					"product1":"Junior",										
+					"wasprice":"",
+					"currentprice":"25.00"
                 },
 				{
                     "id": 11,
                     "picplu": "091489",
-					"proddesc":"Nike-_-Air Max Thea-_-£85.00",
-                    "hover": "Home-_-TopXmasGifts-_-049955"
+					"brand":"Nike",
+					"product":"Air Max Thea",
+					"product1":"",															
+					"wasprice":"",
+					"currentprice":"85.00"
                 },
 				{
                     "id": 12,
                     "picplu": "064468",
-					"proddesc":"Nike-_-Tech Fleece Pants-_-£55.00",
-                    "hover": "Home-_-TopXmasGifts-_-049955"
+					"brand":"Nike",
+					"product":"Tech Fleece Pants",
+					"product1":"",															
+					"wasprice":"",
+					"currentprice":"55.00"
                 },
 				{
                     "id": 13,
                     "picplu": "022948",
-					"proddesc":"Nike-_-Air Max 90 Junior-_-£60.00",
-                    "hover": "Home-_-TopXmasGifts-_-049955"
+					"brand":"Nike",
+					"product":"Air Max 90 Junior",
+					"product1":"",															
+					"wasprice":"",
+					"currentprice":"60.00"
                 },
 				{
                     "id": 14,
                     "picplu": "094692",
-					"proddesc":"Converse-_-Chuck Patch Pants-_-£35.00",
-                    "hover": "Home-_-TopXmasGifts-_-049955"
+					"brand":"Converse",
+					"product":"Chuck Patch Pants",
+					"product1":"",															
+					"wasprice":"",
+					"currentprice":"35.00"
                 }
             ]
         }
