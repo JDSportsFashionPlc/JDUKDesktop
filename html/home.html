@@ -60,8 +60,9 @@ NIKE SKINS
 // CSS
 -->
 <link href="/css/animation.css" rel="stylesheet" type="text/css">
+<link href="/css/jd-landing.css" rel="stylesheet" type="text/css">
 <script>
-jQuery('head').append($('<link rel="stylesheet" type="text/css" />').attr('href', '/css/jd-landing.css?v=' + Math.random()));
+/*jQuery('head').append($('<link rel="stylesheet" type="text/css" />').attr('href', '/css/jd-landing.css?v=' + Math.random())); */
 </script>
 <style type="text/css">
     .ctanew {
@@ -755,14 +756,25 @@ jQuery(document).ready(function ($) {
         var galHTML='';
         var agalHTML=''
         var i=0;        
-        var proddesc
+//        var proddesc
         // BIG BOXES ACCESSORIES
         // -- There is some animation hovers applied to this JSON below, same comment name above
         jQuery.each(x.Page[0].TopXmasGifts, function(key, val){
-            proddesc = val.proddesc.split('-_-');
+//            proddesc = val.proddesc.split('-_-');
             agalHTML+='<div class="hookaccessslide ultra gotham" id="hookAccessElement'+val.id+'" onClick=\'window.location="http://www.jdsports.co.uk/product/'+val.picplu+'/?cm_re=Home-_-TopXmasGiftsSlider-_-'+val.picplu+'"\'>';
             agalHTML+='<img src="http://i1.adis.ws/t/jpl/jd_product_list?plu=jd_'+val.picplu+'_a&wid=134&hei=153&resmode=sharp&qlt=80"/>' 
-            agalHTML+= '<div class="proddetails"><br>'+proddesc[0]+'<br>'+proddesc[1]+'<br>'+proddesc[2]+'</div>';
+			console.log(val.waspricetext);
+			if (val.wasprice == "") {
+				if(val.product1 == "") {
+            agalHTML+= '<div class="proddetails"><br>'+val.brand+'<br>'+val.product+'<br>&#163;'+val.currentprice+'</div>';
+				} else
+				{
+			agalHTML+= '<div class="proddetails"><br>'+val.brand+'<br>'+val.product+'<br>'+val.product1+' &#163;'+val.currentprice+'</div>';		
+				}
+			} else
+			{
+			agalHTML+= '<div class="proddetails"><br>'+val.brand+'<br>'+val.product+'<br>Was &#163;'+ val.wasprice + ' Now &#163;' + val.currentprice+'</div>';
+			}
             agalHTML+='</div>';
         });
         agalHTML += '';
