@@ -347,7 +347,7 @@ NIKE SKINS
                           
                 </div>
                 <div class="rightTopBox" style="float:left;height:415px;width:319px;position:relative">
-                    
+                     
                    <div> 
                    <a href="http://www.jdsports.co.uk/featured/Shop%20The%20TV%20Ad?fredhopperUrl=fh_location=%2f%2fcatalog01%2fen_GB%2fcampaign%3E%7bshop20the20tv20ad%7d">
                         <img width="319" height="415" src="/images/library/2014/11.12.2014/split_fw_415px.jpg"> 
@@ -743,23 +743,12 @@ jQuery(document).ready(function ($) {
         var galHTML='';
         var agalHTML=''
         var i=0;        
-<<<<<<< HEAD
 
         // BIG BOXES ACCESSORIES
         // -- There is some animation hovers applied to this JSON below, same comment name above
         jQuery.each(x.Page[0].TopXmasGifts, function(key, val){
             agalHTML+='<div class="hookaccessslide ultra gotham" id="hookAccessElement'+val.id+'" onClick=\'window.location="http://www.jdsports.co.uk/product/'+val.picplu+'/?cm_re=Home-_-TopXmasGiftsSlider-_-'+val.picplu+'"\'>';
             agalHTML+='<img src="http://i1.adis.ws/t/jpl/jd_product_list?plu=jd_'+val.picplu+'_a&wid=134&hei=153&resmode=sharp&qlt=80"/>' 
-=======
-//        var proddesc
-        // BIG BOXES ACCESSORIES
-        // -- There is some animation hovers applied to this JSON below, same comment name above
-        jQuery.each(x.Page[0].TopXmasGifts, function(key, val){
-//            proddesc = val.proddesc.split('-_-');
-            agalHTML+='<div class="hookaccessslide ultra gotham" id="hookAccessElement'+val.id+'" onClick=\'window.location="http://www.jdsports.co.uk/product/'+val.picplu+'/?cm_re=Home-_-TopXmasGiftsSlider-_-'+val.picplu+'"\'>';
-            agalHTML+='<img src="http://i1.adis.ws/t/jpl/jd_product_list?plu=jd_'+val.picplu+'_a&wid=134&hei=153&resmode=sharp&qlt=80"/>' 
-			console.log(val.waspricetext);
->>>>>>> FETCH_HEAD
 			if (val.wasprice == "") {
 				if(val.product1 == "") {
             agalHTML+= '<div class="proddetails"><br>'+val.brand+'<br>'+val.product+'<br>&#163;'+val.currentprice+'</div>';
