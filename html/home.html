@@ -8,25 +8,16 @@
  * --- --- --- --- ---
  * #JDHOMEPAGE
  * --- --- --- --- ---
- 
-    -- 20th August 2014
-    --- Made changes to core Changeout systems and pending loops
-    
-    -- 11th July 2014;
-    --- Github and Bitbucket also added Nike Skins
-    
-    -- 25th June 2014
-    --- SVN Integrated subVersion
-    
-    -- 4th April 2014
-    --- KM - Major code changes and another cleanup 
-    --- Fixes for IE, adding of global spots
-    --- Better indentation and viewing of the file
- 
 
 ***/
 -->
 
+<!--
+// CSS
+-->
+<link rel="stylesheet" type="text/css" href="//cloud.typography.com/6282092/657264/css/fonts.css">
+<link rel="stylesheet" type="text/css" href="/lib/hlight/back-to-school/owl-carousel/2/assets/owl.carousel.css"/>
+<link rel="stylesheet" type="text/css" href="/lib/hlight/back-to-school/owl-carousel/2/assets/owl.theme.default.css"/>
 
 <!--
 NIKE SKINS
@@ -65,159 +56,46 @@ NIKE SKINS
 /*jQuery('head').append($('<link rel="stylesheet" type="text/css" />').attr('href', '/css/jd-landing.css?v=' + Math.random())); */
 </script>
 <style type="text/css">
-    .ctanew {
-        display: block;
-        position: absolute;
-        text-decoration: none;
-        height: 32px;
-        line-height: 32px;
-        padding-left: 15px;
-        padding-right: 50px;
-        color: #fff;
-        background: url('/images/call-to-action-arrows.png') #fff no-repeat 100% 0;
-        font-weight: bold
-    }
-    .ctanew:hover {
-        background-position: 100% -32px !important
-    }
-    .yellowHover:hover {
-        opacity: 0.9
-    }
-    .call-to-action:hover {
-        background: url("/images/jd-master-sprite-sheet.png") no-repeat scroll 100% -525px #ccc !important;
-        color: #000 !important
-    }
-    .nocaps {
-        text-transform: none !important
-    }
-    .thirdcta {
-        display: block;
-        height: 45px;
-        width: 150px;
-        position: absolute;
-        bottom: 51px
-    }
+.ctanew{display:block;position:absolute;text-decoration:none;height:32px;line-height:32px;padding-left:15px;padding-right:50px;color:#fff;background:url('/images/call-to-action-arrows.png') #fff no-repeat 100% 0;font-weight:bold}
+.ctanew:hover {background-position:100% -32px !important}
+.yellowHover:hover {opacity:0.9}
+.call-to-action:hover {background:url("/images/jd-master-sprite-sheet.png") no-repeat scroll 100% -525px #ccc !important;color:#000 !important}
+.nocaps {text-transform:none !important}
+.thirdcta {display:block;height:45px;width:150px;position:absolute;bottom:51px}
 </style>
-
-<!--
-// CAMPAIGN FONT
--->
-<link rel="stylesheet" type="text/css" href="//cloud.typography.com/6282092/657264/css/fonts.css">
-<link rel="stylesheet" type="text/css" href="/lib/hlight/back-to-school/owl-carousel/2/assets/owl.carousel.css"/>
-<link rel="stylesheet" type="text/css" href="/lib/hlight/back-to-school/owl-carousel/2/assets/owl.theme.default.css"/>
-
-
 <!--
 // USP CODE BLOCK
 -->
 <style type="text/css">
-    .usp-banner {
-        width: 100%;
-        height: 181px;
-        position: relative;
-        color: #2e2e2e;
-        background: #e7e7e7
-    }
-    #delivery-banner-wrap {
-        box-shadow: none !important
-    }
-    .usp-banner a {
-        transition: ease-in-out .5s
-    }
-    .hide {
-        display: none
-    }
-    .usp-banner a:hover {
-        opacity: 0.8;
-        transition: ease-in-out .5s
-    }
-    .contentContainer {
-        position: relative;
-        width: 100%;
-        padding: 0px;
-        background:url(/images/library/2014/12.12.2014/bg.png) repeat-x 0 -19px;
-    }
-    .fix {
-        width: 976px;
-        position: relative;
-        margin: 0 auto
-    }
-    .usp-banner-section {
-        width: 115px;
-        padding-right: 5px;
-        padding-left: 13px;
-        float: left;
-        position: relative;
-        height: 175px;
-        margin-top: 23px;
-        line-height: 19px
-    }
-    .usp-banner-section-middle {
-        margin-left: 9px;
-        margin-right: 9px;
-        color: #2e2e2e;
-        text-align: center;
-        width: 335px !important
-    }
-    .usp-banner-section a {
-        text-decoration: none
-    }
-    .clear {
-        clear: both
-    }
-    .ultra {
-        font-family: 'Gotham A', 'Gotham B', sans-serif !important;
-        font-size: 19px;
-        font-weight: bold;
-    }
-    .gotham {
-        font-family: 'Gotham A', 'Gotham B', sans-serif !important;
-        font-size: 12px;
-        font-weight: 400
-    }
-    a.button-gotham span{
-        display: block;
-        background: #2e2e2e;
-        color: #fff;
-        font-size: 11px !important;
-        padding: 5px 23px;
-        text-transform: uppercase;
-        text-decoration: none;
-        transition: ease-in-out .2s;
-          margin:-7px 0px;
-          position:relative;
-          z-index:10
-    }
-    .usp-pics {
-        width: 150px;
-        border: 0;
-        text-align: center
-    }
-     .usp-pics img{
-         position:relative;
-          z-index:5
-     }
-    a.gotham:hover {
-        text-decoration: underline
-    }
-     #middle-spots-wrap img {
-         position:absolute;
-         top:0;
-         left:0;
-         z-index:1
-     }
-     .usptable {}
-     .usptable tr {}
-     .usptable td{vertical-align:middle}
-     
-     .proddetails {padding-top:152px; padding-left:10px; padding-bottom:15px; text-align:left; background:#f2f2f2;font-family:Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif; font-size:11.5px; font-weight:bold; line-height:1.2}
-     .owl-carousel .owl-item img {padding-left:5px; padding-top:5px; background:#f2f2f2}
-     .owl-carousel .owl-item {background:#f2f2f2}
-     .owl-carousel .owl-item.active {margin-left:-10px} 
-/*   .owl-nav {position:absolute; width:100%; margin-top:-158px;margin-left:-488px; display:inline-block} */
-     .owl-prev {display:block !important; text-align:left; color:black; float:left; padding-left:10px; background:url(../images/left_arrow_slider.png) !important; font-size: -9999px !important; position:absolute; top:90px}
-     .owl-next {display:block !important; text-align:right; color:black; float:right; padding-right:10px; background:url(../images/right_arrow_slider.png) !important; font-size: -9999px !important; position:absolute; top:90px; margin-left:925px !important}
-     .owl-theme .owl-controls .owl-nav [class*='owl-'] {min-height:39px; min-width:32px; font-size:0px}
+.usp-banner{width:100%;height:181px;position:relative;color:#2e2e2e;background:#e7e7e7}
+#delivery-banner-wrap{box-shadow:none !important}
+.usp-banner a{transition:ease-in-out .5s}
+.hide{display:none}
+.usp-banner a:hover{opacity:0.8;transition:ease-in-out .5s}
+.contentContainer{position:relative;width:100%;padding:0px;background:url(/images/library/2014/12.12.2014/bg.png) repeat-x 0 -19px;}
+.fix{width:976px;position:relative;margin:0 auto}
+.usp-banner-section{width:115px;padding-right:5px;padding-left:13px;float:left;position:relative;height:175px;margin-top:23px;line-height:19px}
+.usp-banner-section-middle{margin-left:9px;margin-right:9px;color:#2e2e2e;text-align:center;width:335px !important}
+.usp-banner-section a{text-decoration:none}
+.clear{clear:both}
+.ultra{font-family:'Gotham A', 'Gotham B', sans-serif !important;font-size:19px;font-weight:bold;}
+.gotham{font-family:'Gotham A', 'Gotham B', sans-serif !important;font-size:12px;font-weight:400}
+a.button-gotham span{display:block;background:#2e2e2e;color:#fff;font-size:11px !important;padding:5px 23px;text-transform:uppercase;text-decoration:none;transition:ease-in-out .2s;margin:-7px 0px;position:relative;z-index:10}
+.usp-pics{width:150px;border:0;text-align:center}
+.usp-pics img{position:relative;z-index:5}
+a.gotham:hover{text-decoration:underline}
+#middle-spots-wrap img{position:absolute;top:0;left:0;z-index:1}
+.usptable{}
+.usptable tr{}
+.usptable td{vertical-align:middle}
+.proddetails{padding-top:152px; padding-left:10px; padding-bottom:15px; text-align:left; background:#f2f2f2;font-family:Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif; font-size:11.5px; font-weight:bold; line-height:1.2}
+.owl-carousel .owl-item img{padding-left:7px; padding-top:7px; background:#f2f2f2}
+.owl-carousel .owl-item{background:#f2f2f2; padding-right:7px}
+.owl-carousel .owl-item.active{margin-left:0px}
+ /*   .owl-nav{position:absolute; width:100%; margin-top:-158px;margin-left:-488px; display:inline-block}
+ */.owl-prev{display:block !important; text-align:left; color:black; float:left; padding-left:10px; background:url(../images/left_arrow_slider.png) !important; font-size:-9999px !important; position:absolute; top:90px}
+.owl-next{display:block !important; text-align:right; color:black; float:right; padding-right:10px; background:url(../images/right_arrow_slider.png) !important; font-size:-9999px !important; position:absolute; top:90px; margin-left:925px !important}
+.owl-theme .owl-controls .owl-nav [class*='owl-']{min-height:39px; min-width:32px; font-size:0px}
 
 </style>
 <div class="fix">
@@ -267,21 +145,13 @@ NIKE SKINS
             <a href="http://www.jdsports.co.uk/featured/Latest%20Kids%20Footwear?fredhopperUrl=fh_location=%2f%2fcatalog01%2fen_GB%2fcategories%3C{catalog01_ct12203}%2fcategories%3C{catalog01_ct12203_ct12212}%2fnew%3E{latest}" class="button-gotham gotham" manual_cm_re="USPBar-_-Buttons-_-ShopKids"><img src="/images/library/2014/12.12.2014/kids.png" alt="Shop Kids">
             <span>shop kids</span></a>
         </div>
-
         <div class="usp-banner-section usp-pics">
            <a href="/page/gift-cards/"><img src="/images/library/2014/10.12.2014/gift-card-spot.jpg"></a>           
         </div>
-
-
-
-
     </div>
     <div class="clear"></div>
-  
 
-
-
-    <!--
+<!--
 // BANNERS
  - * @param; DON'T spit regular comments in the HTML
  - * @param; keep all inside the swipe-wrap only div, img and a (anchor)
@@ -450,7 +320,7 @@ NIKE SKINS
                 </li>
                 <li class="topxmasgifts1" style="text-align:center !important;height:40px !important;top:418px">
                         <div class="texttitle">
-                            <span style='font-size:36px;font-weight:1000'> TOP GIFTS FOR CHRISTMAS</span>
+                            <span style='font:gotham ultra;font-size:36px;font-weight:1000'> TOP GIFTS FOR CHRISTMAS</span>
                          </div>
                 </li>
                 <li class="topxmasgifts" style="text-align:center">
@@ -748,16 +618,14 @@ jQuery(document).ready(function ($) {
         // -- There is some animation hovers applied to this JSON below, same comment name above
         jQuery.each(x.Page[0].TopXmasGifts, function(key, val){
             agalHTML+='<div class="hookaccessslide ultra gotham" id="hookAccessElement'+val.id+'" onClick=\'window.location="http://www.jdsports.co.uk/product/'+val.picplu+'/?cm_re=Home-_-TopXmasGiftsSlider-_-'+val.picplu+'"\'>';
-            agalHTML+='<img src="http://i1.adis.ws/t/jpl/jd_product_list?plu=jd_'+val.picplu+'_a&wid=134&hei=153&resmode=sharp&qlt=80"/>' 
+            agalHTML+='<img src="http://i1.adis.ws/t/jpl/jd_product_list?plu=jd_'+val.picplu+'_a&wid=137&hei=153&resmode=sharp&qlt=80"/>' 
 			if (val.wasprice == "") {
 				if(val.product1 == "") {
             agalHTML+= '<div class="proddetails"><br>'+val.brand+'<br>'+val.product+'<br>&#163;'+val.currentprice+'</div>';
-				} else
-				{
+				} else {
 			agalHTML+= '<div class="proddetails"><br>'+val.brand+'<br>'+val.product+'<br>'+val.product1+' &#163;'+val.currentprice+'</div>';		
 				}
-			} else
-			{
+			} else {
 			agalHTML+= '<div class="proddetails"><br>'+val.brand+'<br>'+val.product+'<br>Was &#163;'+ val.wasprice + ' Now &#163;' + val.currentprice+'</div>';
 			}
             agalHTML+='</div>';
@@ -771,11 +639,9 @@ jQuery(document).ready(function ($) {
             loop:true,
             items:6,
             autoplay: false,
-            margin:22,
-            
+            margin:14,
             navigation:true,
             navigationText: ["<i class='icon-chevron-left icon-white'><</i>","<i class='icon-chevron-right icon-white'>></i>"]  
-            
         }); 
     });    
 
