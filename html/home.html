@@ -60,7 +60,9 @@ NIKE SKINS
 // CSS
 -->
 <link href="/css/animation.css" rel="stylesheet" type="text/css">
-<link href="/css/jd-landing.css" rel="stylesheet" type="text/css">
+<script>
+jQuery('head').append($('<link rel="stylesheet" type="text/css" />').attr('href', '/css/jd-landing.css?v=' + Math.random()));
+</script>
 <style type="text/css">
     .ctanew {
         display: block;
@@ -100,9 +102,6 @@ NIKE SKINS
 // CAMPAIGN FONT
 -->
 <link rel="stylesheet" type="text/css" href="//cloud.typography.com/6282092/657264/css/fonts.css">
-<link rel="stylesheet" type="text/css" href="/css/sale.css">
-<link rel="stylesheet" href="/lib/hlight/world-cup-2014/assets/js/jquery.bxslider/jquery.bxslider.css" type="text/css">
-<link rel="stylesheet" href="/lib/hlight/worldcupslidersystem/css/matches.css" type="text/css">
 <link rel="stylesheet" type="text/css" href="/lib/hlight/back-to-school/owl-carousel/2/assets/owl.carousel.css"/>
 <link rel="stylesheet" type="text/css" href="/lib/hlight/back-to-school/owl-carousel/2/assets/owl.theme.default.css"/>
 
@@ -781,12 +780,9 @@ jQuery(document).ready(function ($) {
             navigationText: ["<i class='icon-chevron-left icon-white'><</i>","<i class='icon-chevron-right icon-white'>></i>"]  
             
         }); 
-    });
-//  var firstactiveitem = jQuery(".owl-item.active");
-//  firstactiveitem.css('margin-left','-100px');
-//  console.log('hello');
-//  console.log(firstactiveitem);
-//  console.log('hello1');
+    });    
+
+
 });
 /*Top Christmas Gifts Slider
 END*/
