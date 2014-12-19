@@ -6,7 +6,7 @@
 /* New Header 												   */
 /* ----------------------------------------------------------- */
 
-/* VERSION HISTORY	 										   */
+/* VERSION HISTORY											   */
 /* ----------------------------------------------------------- */
 /* CSS Document:NEW LANDING CSS (RJR/PC 04/04/13 - VERSION 1) */
 /* ----------------------------------------------------------- */
@@ -397,7 +397,8 @@ height: 1668px;
 }
 
 .adRegion{height:85px !important;width:100% !important;top:1160px !important;}
- 
+
+
 a#new-sale-link1  {
     background: #fff;
     color: #ef3737;
@@ -413,7 +414,7 @@ a#new-sale-link1  {
     width: 145px;
     top: 340px;
     left: 96px;
-    font-family: 'Gotham A';
+    font-family:'Gotham A', 'Gotham B', sans-serif !important;font-size:13px;font-weight:700;
     font-size: 16px;
 }
 a#new-sale-link2  {
@@ -431,7 +432,7 @@ a#new-sale-link2  {
     width: 145px;
     top: 340px;
     left: 253px;
-    font-family: 'Gotham A';
+    font-family:'Gotham A', 'Gotham B', sans-serif !important;font-size:13px;font-weight:700;
     font-size: 16px;
 }
 a#new-sale-link3  {
@@ -449,6 +450,6 @@ a#new-sale-link3  {
     width: 145px;
     top: 340px;
     left: 409px;
-    font-family: 'Gotham A';
+    font-family:'Gotham A', 'Gotham B', sans-serif !important;font-size:13px;font-weight:700;
     font-size: 16px;
 }
