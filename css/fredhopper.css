@@ -66,8 +66,7 @@ div#plpBanner.xmas2014_footwear div#plpBannerText a#plpBannerLink12{background:#
 CLEARANCE RULES
  - https://basecamp.com/1872932/projects/6311741/todos/138072454
  - http://www.jdsports.co.uk/images/library/2014/17.11.2014/fh-banner-clearance_v4.jpg
-*/ 
-
+*/
 /*
 ===
 	---
@@ -324,7 +323,7 @@ div#plpBanner.orangeyBrownFhBanners div#plpBannerText a#plpBannerLink4{backgroun
 /*
 ===
 	---
-	GENERIC IMAGE GOLD WITH LINKS (EDIT FOR ACCESSORIES PAGE 18TH DECEMBER 2014)
+	GENERIC IMAGE RED WITH LINKS (EDIT FOR ACCESSORIES PAGE 18TH DECEMBER 2014)
 	---
 ===
 */
@@ -335,4 +334,21 @@ div#plpBanner.orangeyBrownFhBanners div#plpBannerText a#plpBannerLink4{backgroun
 div#plpBanner.generic_image_with_links22 div#plpBannerText a#plpBannerLink1{background:#fff;color:#2e2e2e;display:block;font-weight:bold;height:35px;line-height:35px;padding:0 1px;position:absolute;text-align:center;text-decoration:none;text-transform:uppercase;width:145px;top:115px;left:155px}
 div#plpBanner.generic_image_with_links22 div#plpBannerText a#plpBannerLink2{background:#fff;color:#2e2e2e;display:block;font-weight:bold;height:35px;line-height:35px;padding:0 1px;position:absolute;text-align:center;text-decoration:none;text-transform:uppercase;width:145px;top:115px;left:313px}
 div#plpBanner.generic_image_with_links22 div#plpBannerText a#plpBannerLink3{background:#fff;color:#2e2e2e;display:block;font-weight:bold;height:35px;line-height:35px;padding:0 1px;position:absolute;text-align:center;text-decoration:none;text-transform:uppercase;width:145px;top:115px;left:468px} 
+
+
+
+/*
+===
+	---
+	GENERIC IMAGE RED WITH LINKS (EDIT FOR SALES PAGE WITH HUGE CAPTION 29TH DECEMBER 2014)
+	---
+===
+*/
+.generic_image_with_links33{position:relative;width:768px;height:200px;background:#eeeeee;margin-bottom:15px}
+.generic_image_with_links33 h2{font-family:'Gotham A', 'Gotham B', sans-serif !important;font-size:31px;font-weight:700;top:25px;left:30px;text-transform:uppercase;color:#fff;position:absolute}
+.generic_image_with_links33 #plpBannerText p{font-family:Arial;font-size:11px;width:685px;top:95px;left:30px;text-transform:capitalize;color:#2e2e2e;position:absolute}
+.generic_image_with_links33 #plpBanner > img, .generic_image_with_links33 img{}
+div#plpBanner.generic_image_with_links33 div#plpBannerText a#plpBannerLink1{background:#fff;color:#2e2e2e;display:block;font-weight:bold;height:35px;line-height:35px;padding:0 1px;position:absolute;text-align:center;text-decoration:none;text-transform:uppercase;width:145px;top:145px;left:155px}
+div#plpBanner.generic_image_with_links33 div#plpBannerText a#plpBannerLink2{background:#fff;color:#2e2e2e;display:block;font-weight:bold;height:35px;line-height:35px;padding:0 1px;position:absolute;text-align:center;text-decoration:none;text-transform:uppercase;width:145px;top:145px;left:313px}
+div#plpBanner.generic_image_with_links33 div#plpBannerText a#plpBannerLink3{background:#fff;color:#2e2e2e;display:block;font-weight:bold;height:35px;line-height:35px;padding:0 1px;position:absolute;text-align:center;text-decoration:none;text-transform:uppercase;width:145px;top:145px;left:468px} 
 
