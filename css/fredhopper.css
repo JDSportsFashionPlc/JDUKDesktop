@@ -129,7 +129,7 @@ div#plpBanner.clearance_home_banner_with_size_imfull div#plpBannerText a#plpBann
 GENERIC GRAY WITH LINKS
 ===
 */
-.generic_gray_with_links{position:relative;width:768px;background:#eeeeee;margin-bottom:15px}
+.generic_gray_with_links{position:relative;width:768px;background:#eee;margin-bottom:15px}
 .generic_gray_with_links h2{font-family:'Gotham A', 'Gotham B', sans-serif !important;font-size:27.9px;font-weight:700;text-transform:uppercase;color:#2e2e2e;padding:20px 20px 0px 20px}
 .generic_gray_with_links #plpBannerText p{font-family:Arial;font-size:11.9px;width:685px;color:#2e2e2e;padding:10px 20px}
 .generic_gray_with_links #plpBanner > img, .generic_gray_with_links img{display:none}
@@ -142,18 +142,16 @@ div#plpBanner.generic_gray_with_links div#plpBannerText a#plpBannerLink4{backgro
 GENERIC IMAGE GOLD WITH LINKS
 ===
 */
-.generic_image_with_links{position:relative;width:768px;height:200px;background:#eeeeee;margin-bottom:15px}
+.generic_image_with_links{position:relative;width:768px;height:200px;background:#eee;margin-bottom:15px}
 .generic_image_with_links h2{font-family:'Gotham A', 'Gotham B', sans-serif !important;font-size:31px;font-weight:700;top:25px;left:30px;text-transform:uppercase;color:#fff;position:absolute}
 .generic_image_with_links #plpBannerText p{font-family:Arial;font-size:11px;width:685px;top:95px;left:30px;text-transform:capitalize;color:#2e2e2e;position:absolute}
-.generic_image_with_links #plpBanner > img, .generic_image_with_links img{}
 div#plpBanner.generic_image_with_links div#plpBannerText a#plpBannerLink1{background:#fff;color:#2e2e2e;display:block;font-weight:bold;height:35px;line-height:35px;padding:0 1px;position:absolute;text-align:center;text-decoration:none;text-transform:uppercase;width:145px;top:115px;left:30px}
 div#plpBanner.generic_image_with_links div#plpBannerText a#plpBannerLink2{background:#fff;color:#2e2e2e;display:block;font-weight:bold;height:35px;line-height:35px;padding:0 1px;position:absolute;text-align:center;text-decoration:none;text-transform:uppercase;width:145px;top:115px;left:199px}
 div#plpBanner.generic_image_with_links div#plpBannerText a#plpBannerLink3{background:#fff;color:#2e2e2e;display:block;font-weight:bold;height:35px;line-height:35px;padding:0 1px;position:absolute;text-align:center;text-decoration:none;text-transform:uppercase;width:145px;top:115px;left:369px}
 div#plpBanner.generic_image_with_links div#plpBannerText a#plpBannerLink4{background:#fff;color:#2e2e2e;display:block;font-weight:bold;height:35px;line-height:35px;padding:0 1px;position:absolute;text-align:center;text-decoration:none;text-transform:uppercase;width:145px;top:115px;left:545px}
-.generic_image_with_links_by150{position:relative;width:768px;height:150px;background:#eeeeee;margin-bottom:15px}
+.generic_image_with_links_by150{position:relative;width:768px;height:150px;background:#eee;margin-bottom:15px}
 .generic_image_with_links_by150 h2{font-family:'Gotham A', 'Gotham B', sans-serif !important;font-size:31px;font-weight:700;top:25px;left:30px;text-transform:uppercase;color:#fff;position:absolute;display:none}
 .generic_image_with_links_by150 #plpBannerText p{font-family:Arial;font-size:11px;width:685px;top:95px;left:30px;text-transform:capitalize;color:#2e2e2e;position:absolute}
-.generic_image_with_links_by150 #plpBanner > img, .generic_image_with_links_by150 img{}
 div#plpBanner.generic_image_with_links_by150 div#plpBannerText a#plpBannerLink1{background:#fff;color:#2e2e2e;display:block;font-weight:bold;height:35px;line-height:35px;padding:0 1px;position:absolute;text-align:center;text-decoration:none;text-transform:uppercase;width:145px;top:95px;left:30px}
 div#plpBanner.generic_image_with_links_by150 div#plpBannerText a#plpBannerLink2{background:#fff;color:#2e2e2e;display:block;font-weight:bold;height:35px;line-height:35px;padding:0 1px;position:absolute;text-align:center;text-decoration:none;text-transform:uppercase;width:145px;top:95px;left:199px}
 div#plpBanner.generic_image_with_links_by150 div#plpBannerText a#plpBannerLink3{background:#fff;color:#2e2e2e;display:block;font-weight:bold;height:35px;line-height:35px;padding:0 1px;position:absolute;text-align:center;text-decoration:none;text-transform:uppercase;width:145px;top:95px;left:369px}
@@ -172,13 +170,13 @@ GENERIC GRAY WITHOUT LINKS
 GENERIC GRAY WITHOUT LINKS
 ===
 */
-.imageBannerPlainFH{position:relative;width:768px;height:200px;background:#eeeeee}
+.imageBannerPlainFH{position:relative;width:768px;height:200px;background:#eee}
 .imageBannerPlainFH h2{display:none}
 .imageBannerPlainFH #plpBannerText p{display:none}
-.imageBannerPlainFH_gray{position:relative;width:768px;height:228px;background:#eeeeee}
+.imageBannerPlainFH_gray{position:relative;width:768px;height:228px;background:#eee}
 .imageBannerPlainFH_gray h2{display:none}
 .imageBannerPlainFH_gray #plpBannerText p{display:none}
-.bannerNewFHSJackets{position:relative;width:768px;height:228px;background:#eeeeee;margin-bottom:15px}
+.bannerNewFHSJackets{position:relative;width:768px;height:228px;background:#eee;margin-bottom:15px}
 .bannerNewFHSJackets{position:relative;width:768px;height:228px}
 .bannerNewFHSJackets h2{display:none}
 .bannerNewFHSJackets #plpBannerText p{display:none}
@@ -188,7 +186,7 @@ div#plpBanner.bannerNewFHSJackets div#plpBannerText a#plpBannerLink2{background:
 div#plpBanner.bannerNewFHSJackets div#plpBannerText a#plpBannerLink3{background:#000;color:#fff;display:block;font-weight:bold;height:35px;line-height:35px;padding:0 1px;position:absolute;text-align:center;text-decoration:none;text-transform:uppercase;width:65px;top: 155px;left:214px}
 div#plpBanner.bannerNewFHSJackets div#plpBannerText a#plpBannerLink4{background:#000;color:#fff;display:block;font-weight:bold;height:35px;line-height:35px;padding:0 1px;position:absolute;text-align:center;text-decoration:none;text-transform:uppercase;width:65px;top:139px;left:305px}
 div#plpBanner.bannerNewFHSJackets div#plpBannerText a#plpBannerLink5{background:#000;color:#fff;display:block;font-weight:bold;height:35px;line-height:35px;padding:0 1px;position:absolute;text-align:center;text-decoration:none;text-transform:uppercase;width:65px;top:139px;left:377px}
-.bannerNewFHSJacketsSub{position:relative;width:768px;height:200px;background:#eeeeee;margin-bottom:15px}
+.bannerNewFHSJacketsSub{position:relative;width:768px;height:200px;background:#eee;margin-bottom:15px}
 .bannerNewFHSJacketsSub h2{display:none}
 .bannerNewFHSJacketsSub #plpBannerText p{display:none}
 div#plpBanner.bannerNewFHSJacketsSub div#plpBannerText a#hover, .bannerNewFHSJackets .fredHopperActive{background:#000 !important;color:#fff}
@@ -247,7 +245,7 @@ div#plpBanner.blackfridayCTAMainSubLists div#plpBannerText a#plpBannerLink3{back
 NIKE AIR MAX 2015 - animation is in /js/fredhopper.js
 ===
 */
-.fhNikeAirMax2015men{position:relative;width:768px;height:200px;background:#eeeeee;margin-bottom:15px}
+.fhNikeAirMax2015men{position:relative;width:768px;height:200px;background:#eee;margin-bottom:15px}
 .fhNikeAirMax2015men h2{display:none}
 .fhNikeAirMax2015men #plpBannerText p{display:none}
 .fhNikeAirMax2015men #plpBanner > img, .fhNikeAirMax2015men img{position:absolute;z-index:1}
@@ -256,7 +254,7 @@ div#plpBanner.fhNikeAirMax2015men div#plpBannerText a#plpBannerLink1{background:
 div#plpBanner.fhNikeAirMax2015men div#plpBannerText a#plpBannerLink2{background:#fff;color:#2e2e2e;display:block;font-weight:bold;height:35px;line-height:35px;padding:0 1px;position:absolute;text-align:center;text-decoration:none;text-transform:uppercase;width:145px;top:133px;left:199px;z-index:100}
 div#plpBanner.fhNikeAirMax2015men div#plpBannerText a#plpBannerLink3{background:#fff;color:#2e2e2e;display:block;font-weight:bold;height:35px;line-height:35px;padding:0 1px;position:absolute;text-align:center;text-decoration:none;text-transform:uppercase;width:145px;top:133px;left:369px;z-index:100}
 div#plpBanner.fhNikeAirMax2015men div#plpBannerText a#plpBannerLink4{background:#fff;color:#2e2e2e;display:block;font-weight:bold;height:35px;line-height:35px;padding:0 1px;position:absolute;text-align:center;text-decoration:none;text-transform:uppercase;width:145px;top:133px;left:545px;z-index:100}
-.fhNikeAirMax2015women{position:relative;width:768px;height:200px;background:#eeeeee;margin-bottom:15px}
+.fhNikeAirMax2015women{position:relative;width:768px;height:200px;background:#eee;margin-bottom:15px}
 .fhNikeAirMax2015women h2{display:none}
 .fhNikeAirMax2015women #plpBannerText p{display:none}
 .fhNikeAirMax2015women #plpBanner > img, .fhNikeAirMax2015women img{position:absolute;z-index:1}
@@ -271,7 +269,7 @@ div#plpBanner.fhNikeAirMax2015women div#plpBannerText a#plpBannerLink4{backgroun
 Speedo Banner 400px height
 ===
 */
-.fhBrandSpeedoBanner{position:relative;width:768px;height:400px;background:#eeeeee}
+.fhBrandSpeedoBanner{position:relative;width:768px;height:400px;background:#eee}
 .fhBrandSpeedoBanner h2{display:none}
 .fhBrandSpeedoBanner #plpBannerText p{display:none}
 
@@ -296,10 +294,9 @@ div#plpBanner.orangeyBrownFhBanners div#plpBannerText a#plpBannerLink4{backgroun
 GENERIC IMAGE RED WITH LINKS (EDIT FOR ACCESSORIES PAGE 18TH DECEMBER 2014)
 ===
 */
-.generic_image_with_links22{position:relative;width:768px;height:200px;background:#eeeeee;margin-bottom:15px}
+.generic_image_with_links22{position:relative;width:768px;height:200px;background:#eee;margin-bottom:15px}
 .generic_image_with_links22 h2{font-family:'Gotham A', 'Gotham B', sans-serif !important;font-size:31px;font-weight:700;top:25px;left:30px;text-transform:uppercase;color:#fff;position:absolute}
 .generic_image_with_links22 #plpBannerText p{font-family:Arial;font-size:11px;width:685px;top:95px;left:30px;text-transform:capitalize;color:#2e2e2e;position:absolute}
-.generic_image_with_links22 #plpBanner > img, .generic_image_with_links22 img{}
 div#plpBanner.generic_image_with_links22 div#plpBannerText a#plpBannerLink1{background:#fff;color:#2e2e2e;display:block;font-weight:bold;height:35px;line-height:35px;padding:0 1px;position:absolute;text-align:center;text-decoration:none;text-transform:uppercase;width:145px;top:115px;left:155px}
 div#plpBanner.generic_image_with_links22 div#plpBannerText a#plpBannerLink2{background:#fff;color:#2e2e2e;display:block;font-weight:bold;height:35px;line-height:35px;padding:0 1px;position:absolute;text-align:center;text-decoration:none;text-transform:uppercase;width:145px;top:115px;left:313px}
 div#plpBanner.generic_image_with_links22 div#plpBannerText a#plpBannerLink3{background:#fff;color:#2e2e2e;display:block;font-weight:bold;height:35px;line-height:35px;padding:0 1px;position:absolute;text-align:center;text-decoration:none;text-transform:uppercase;width:145px;top:115px;left:468px} 
@@ -308,11 +305,9 @@ div#plpBanner.generic_image_with_links22 div#plpBannerText a#plpBannerLink3{back
 GENERIC IMAGE RED WITH LINKS (EDIT FOR SALES PAGE WITH HUGE CAPTION 29TH DECEMBER 2014)
 ===
 */
-.generic_image_with_links33{position:relative;width:768px;height:200px;background:#eeeeee;margin-bottom:15px}
+.generic_image_with_links33{position:relative;width:768px;height:200px;background:#eee;margin-bottom:15px}
 .generic_image_with_links33 h2{font-family:'Gotham A', 'Gotham B', sans-serif !important;font-size:31px;font-weight:700;top:25px;left:30px;text-transform:uppercase;color:#fff;position:absolute}
 .generic_image_with_links33 #plpBannerText p{font-family:Arial;font-size:11px;width:685px;top:95px;left:30px;text-transform:capitalize;color:#2e2e2e;position:absolute}
-.generic_image_with_links33 #plpBanner > img, .generic_image_with_links33 img{}
 div#plpBanner.generic_image_with_links33 div#plpBannerText a#plpBannerLink1{background:#fff;color:#2e2e2e;display:block;font-weight:bold;height:35px;line-height:35px;padding:0 1px;position:absolute;text-align:center;text-decoration:none;text-transform:uppercase;width:145px;top:145px;left:155px}
 div#plpBanner.generic_image_with_links33 div#plpBannerText a#plpBannerLink2{background:#fff;color:#2e2e2e;display:block;font-weight:bold;height:35px;line-height:35px;padding:0 1px;position:absolute;text-align:center;text-decoration:none;text-transform:uppercase;width:145px;top:145px;left:313px}
-div#plpBanner.generic_image_with_links33 div#plpBannerText a#plpBannerLink3{background:#fff;color:#2e2e2e;display:block;font-weight:bold;height:35px;line-height:35px;padding:0 1px;position:absolute;text-align:center;text-decoration:none;text-transform:uppercase;width:145px;top:145px;left:468px} 
-
+div#plpBanner.generic_image_with_links33 div#plpBannerText a#plpBannerLink3{background:#fff;color:#2e2e2e;display:block;font-weight:bold;height:35px;line-height:35px;padding:0 1px;position:absolute;text-align:center;text-decoration:none;text-transform:uppercase;width:145px;top:145px;left:468px}
