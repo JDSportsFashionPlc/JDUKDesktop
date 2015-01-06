@@ -7,12 +7,15 @@
  * #FredHopper
  * --- --- --- --- ---
  
- Created : 12th November 2014
-	- This is the new SDL FredHopper CSS library
-	---
-	More cleaning of the code; and easy to minify, store.css is
-	no longer to be used for adding FredHopper inside it. Regards.
-	---
+Last modified: 6th Jan 2015 - Khaleel Mughal 
+- Code compression and indent
+- Removed empty and bloated code
+Created : 12th November 2014
+- This is the new SDL FredHopper CSS library
+---
+More cleaning of the code; and easy to minify, store.css is
+no longer to be used for adding FredHopper inside it. Regards.
+---
 ***/
 
 /***
@@ -22,12 +25,12 @@ GOTHAM
 .gotham{font-family:'Gotham A', 'Gotham B', sans-serif !important;font-size:13px;font-weight:400}
 
 /*
- Created : 08th December 2014
- Author: Luis Paz
-	- New styles for .ultra cass with the entire range on font weight paramenter
-	---
-	Please use to define font-weight across the website. Font-size parameter removed for flexibility.
-	---
+Created : 08th December 2014
+Author: Luis Paz
+- New styles for .ultra cass with the entire range on font weight paramenter
+---
+Please use to define font-weight across the website. Font-size parameter removed for flexibility.
+---
 ***/
 .ultra-100{font-family:'Gotham A', 'Gotham B', sans-serif !important;font-weight:100}
 .ultra-200{font-family:'Gotham A', 'Gotham B', sans-serif !important;font-weight:200}
@@ -39,7 +42,7 @@ GOTHAM
 .ultra-900{font-family:'Gotham A', 'Gotham B', sans-serif !important;font-weight:900}
 
 /***
- XMAS 2014
+XMAS 2014
 ***/
 /*
 FOOTWEAR
@@ -64,14 +67,12 @@ div#plpBanner.xmas2014_footwear div#plpBannerText a#plpBannerLink12{background:#
 .wrapfilter{height:228px;position:relative;width:768px}
 /*
 CLEARANCE RULES
- - https://basecamp.com/1872932/projects/6311741/todos/138072454
- - http://www.jdsports.co.uk/images/library/2014/17.11.2014/fh-banner-clearance_v4.jpg
+- https://basecamp.com/1872932/projects/6311741/todos/138072454
+- http://www.jdsports.co.uk/images/library/2014/17.11.2014/fh-banner-clearance_v4.jpg
 */
 /*
 ===
-	---
-	HOME
-	---
+HOME
 ===
 */
 .clearance_home_banner{position:relative;width:768px;height:200px;background:#ef3737}
@@ -86,9 +87,7 @@ div#plpBanner.clearance_home_banner div#plpBannerText a#plpBannerLink4{backgroun
 .clearance_home_banner .fredHopperActive{background:#222 !important}
 /*
 ===
-	---
-	SIZE BANNER
-	---
+SIZE BANNER
 ===
 */
 .clearance_home_banner_with_size{position:relative;width:768px;height:200px;background:#ef3737}
@@ -127,9 +126,7 @@ div#plpBanner.clearance_home_banner_with_size_imfull div#plpBannerText a#plpBann
 .clearance_home_banner_with_size_imfull .fredHopperActive{background:#222 !important}
 /*
 ===
-	---
-	GENERIC GRAY WITH LINKS
-	---
+GENERIC GRAY WITH LINKS
 ===
 */
 .generic_gray_with_links{position:relative;width:768px;background:#eeeeee;margin-bottom:15px}
@@ -142,9 +139,7 @@ div#plpBanner.generic_gray_with_links div#plpBannerText a#plpBannerLink3{backgro
 div#plpBanner.generic_gray_with_links div#plpBannerText a#plpBannerLink4{background:#fff;color:#2e2e2e;display:block;font-weight:bold;height:35px;line-height:35px;padding:0 1px;position:absolute;text-align:center;text-decoration:none;text-transform:uppercase;width:145px;top:165px;left:545px}
 /*
 ===
-	---
-	GENERIC IMAGE GOLD WITH LINKS
-	---
+GENERIC IMAGE GOLD WITH LINKS
 ===
 */
 .generic_image_with_links{position:relative;width:768px;height:200px;background:#eeeeee;margin-bottom:15px}
@@ -165,9 +160,7 @@ div#plpBanner.generic_image_with_links_by150 div#plpBannerText a#plpBannerLink3{
 div#plpBanner.generic_image_with_links_by150 div#plpBannerText a#plpBannerLink4{background:#fff;color:#2e2e2e;display:block;font-weight:bold;height:35px;line-height:35px;padding:0 1px;position:absolute;text-align:center;text-decoration:none;text-transform:uppercase;width:145px;top:95px;left:545px}
 /*
 ===
-	---
-	GENERIC GRAY WITHOUT LINKS
-	---
+GENERIC GRAY WITHOUT LINKS
 ===
 */
 .generic_gray_without_links{position:relative;width:768px;height:200px;background:#eee}
@@ -176,9 +169,7 @@ div#plpBanner.generic_image_with_links_by150 div#plpBannerText a#plpBannerLink4{
 .generic_gray_without_links #plpBanner > img, .generic_gray_without_links img{display:none}
 /*
 ===
-	---
-	GENERIC GRAY WITHOUT LINKS
-	---
+GENERIC GRAY WITHOUT LINKS
 ===
 */
 .imageBannerPlainFH{position:relative;width:768px;height:200px;background:#eeeeee}
@@ -207,9 +198,7 @@ div#plpBanner.bannerNewFHSJacketsSub div#plpBannerText a#plpBannerLink3{backgrou
 div#plpBanner.bannerNewFHSJacketsSub div#plpBannerText a#plpBannerLink4{background:#000;color:#fff;display:block;font-weight:bold;height:35px;line-height:35px;padding:0 1px;position:absolute;text-align:center;text-decoration:none;text-transform:uppercase;width:145px;top:139px;left:455px}
 /*
 ===
-	---
-	TV SHOP AD
-	---
+TV SHOP AD
 ===
 */
 .shopthetvad{position:relative;width:768px;height:200px}
@@ -221,9 +210,7 @@ div#plpBanner.shopthetvad div#plpBannerText a#plpBannerLink2{background:#fff;col
 div#plpBanner.shopthetvad div#plpBannerText a#plpBannerLink3{background:#fff;color:#222;display:block;font-weight:bold;height:35px;line-height:35px;padding:0 1px;position:absolute;text-align:center;text-decoration:none;text-transform:uppercase;width:115px;top:139px;left:303px}
 /*
 ===
-	---
-	BLACK FRIDAY 2014
-	---
+BLACK FRIDAY 2014
 ===
 */
 .blackfridayCTAMain{position:relative;width:768px;height:200px}
@@ -240,9 +227,7 @@ div#plpBanner.blackfridayCTAMain div#plpBannerText a#plpBannerLink3{background:#
 
 /*
 ===
-	---
-	BLACK FRIDAY BIG MENU eg KIDS 2014
-	---
+BLACK FRIDAY BIG MENU eg KIDS 2014
 ===
 */
 .blackfridayCTAMainSubLists{position:relative;width:768px;height:200px}
@@ -259,9 +244,7 @@ div#plpBanner.blackfridayCTAMainSubLists div#plpBannerText a#plpBannerLink3{back
 
 /*
 ===
-	---
-	NIKE AIR MAX 2015 - animation is in /js/fredhopper.js
-	---
+NIKE AIR MAX 2015 - animation is in /js/fredhopper.js
 ===
 */
 .fhNikeAirMax2015men{position:relative;width:768px;height:200px;background:#eeeeee;margin-bottom:15px}
@@ -285,25 +268,20 @@ div#plpBanner.fhNikeAirMax2015women div#plpBannerText a#plpBannerLink4{backgroun
 
 /*
 ===
-	---
-	Speedo Banner 400px height
-	---
+Speedo Banner 400px height
 ===
 */
 .fhBrandSpeedoBanner{position:relative;width:768px;height:400px;background:#eeeeee}
 .fhBrandSpeedoBanner h2{display:none}
 .fhBrandSpeedoBanner #plpBannerText p{display:none}
 
-
 /*
 ===
-	---
-	Orangey Brown Brand Banners, adidas Originals, Converse, adidas, fredperry etc
-	// https://basecamp.com/1872932/projects/6311741/todos/141504281
-	// --
-	// Amy Jennings raised and completed by dev - Khaleel Mughal 3rd December 2014
-	// --
-	---
+Orangey Brown Brand Banners, adidas Originals, Converse, adidas, fredperry etc
+// https://basecamp.com/1872932/projects/6311741/todos/141504281
+// --
+// Amy Jennings raised and completed by dev - Khaleel Mughal 3rd December 2014
+// --
 ===
 */
 .orangeyBrownFhBanners{position:relative;width:768px;height:400px;background:#88704c}
@@ -313,12 +291,9 @@ div#plpBanner.orangeyBrownFhBanners div#plpBannerText a#plpBannerLink1{backgroun
 div#plpBanner.orangeyBrownFhBanners div#plpBannerText a#plpBannerLink2{background:#fff;color:#2e2e2e;display:block;font-weight:bold;height:35px;line-height:35px;padding:0 1px;position:absolute;text-align:center;text-decoration:none;text-transform:uppercase;width:145px;top:123px;left:199px;z-index:100}
 div#plpBanner.orangeyBrownFhBanners div#plpBannerText a#plpBannerLink3{background:#fff;color:#2e2e2e;display:block;font-weight:bold;height:35px;line-height:35px;padding:0 1px;position:absolute;text-align:center;text-decoration:none;text-transform:uppercase;width:145px;top:123px;left:369px;z-index:100}
 div#plpBanner.orangeyBrownFhBanners div#plpBannerText a#plpBannerLink4{background:#fff;color:#2e2e2e;display:block;font-weight:bold;height:35px;line-height:35px;padding:0 1px;position:absolute;text-align:center;text-decoration:none;text-transform:uppercase;width:145px;top:123px;left:545px;z-index:100}
-
 /*
 ===
-	---
-	GENERIC IMAGE RED WITH LINKS (EDIT FOR ACCESSORIES PAGE 18TH DECEMBER 2014)
-	---
+GENERIC IMAGE RED WITH LINKS (EDIT FOR ACCESSORIES PAGE 18TH DECEMBER 2014)
 ===
 */
 .generic_image_with_links22{position:relative;width:768px;height:200px;background:#eeeeee;margin-bottom:15px}
@@ -328,12 +303,9 @@ div#plpBanner.orangeyBrownFhBanners div#plpBannerText a#plpBannerLink4{backgroun
 div#plpBanner.generic_image_with_links22 div#plpBannerText a#plpBannerLink1{background:#fff;color:#2e2e2e;display:block;font-weight:bold;height:35px;line-height:35px;padding:0 1px;position:absolute;text-align:center;text-decoration:none;text-transform:uppercase;width:145px;top:115px;left:155px}
 div#plpBanner.generic_image_with_links22 div#plpBannerText a#plpBannerLink2{background:#fff;color:#2e2e2e;display:block;font-weight:bold;height:35px;line-height:35px;padding:0 1px;position:absolute;text-align:center;text-decoration:none;text-transform:uppercase;width:145px;top:115px;left:313px}
 div#plpBanner.generic_image_with_links22 div#plpBannerText a#plpBannerLink3{background:#fff;color:#2e2e2e;display:block;font-weight:bold;height:35px;line-height:35px;padding:0 1px;position:absolute;text-align:center;text-decoration:none;text-transform:uppercase;width:145px;top:115px;left:468px} 
-
 /*
 ===
-	---
-	GENERIC IMAGE RED WITH LINKS (EDIT FOR SALES PAGE WITH HUGE CAPTION 29TH DECEMBER 2014)
-	---
+GENERIC IMAGE RED WITH LINKS (EDIT FOR SALES PAGE WITH HUGE CAPTION 29TH DECEMBER 2014)
 ===
 */
 .generic_image_with_links33{position:relative;width:768px;height:200px;background:#eeeeee;margin-bottom:15px}
