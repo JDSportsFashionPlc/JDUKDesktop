@@ -50,6 +50,7 @@ New Global Gotham Flat buttons for UI and UX - placed in FredHopper.css for easi
 .cta-button-white-bold{background:#fff;color:#000;display:block;height:35px;line-height:35px;padding:0 1px;position:relative;text-align:center;text-decoration:none;text-transform:uppercase;width:145px;font-weight:700;font-size:17px}
 .cta-button-black-bold{background:#000;color:#fff;display:block;height:35px;line-height:35px;padding:0 1px;position:relative;text-align:center;text-decoration:none;text-transform:uppercase;width:145px;font-weight:700;font-size:17px}
 .cta-button-red-bold{background:#ee3d43;color:#fff;display:block;height:35px;line-height:35px;padding:0 1px;position:relative;text-align:center;text-decoration:none;text-transform:uppercase;width:145px;font-weight:700;font-size:17px}
+.cta-button-whitered-bold{background:#fff;color:#ee3d43;display:block;height:35px;line-height:35px;padding:0 1px;position:relative;text-align:center;text-decoration:none;text-transform:uppercase;width:145px;font-weight:700;font-size:17px}
 .cta-middle-spot-center{margin:23px auto}
 
 
