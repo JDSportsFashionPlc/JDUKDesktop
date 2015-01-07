@@ -25,7 +25,6 @@ GOTHAM
 .gotham{font-family:'Gotham A', 'Gotham B', sans-serif !important;font-size:13px;font-weight:400}
 .plain-gotham{font-family:'Gotham A', 'Gotham B', sans-serif !important}
 .gothamss{font-family: 'Gotham SSm A', 'Gotham SSm B', sans-serif !important;font-size:13px;font-weight:400}
-
 /*
 Created : 08th December 2014
 Author: Luis Paz
@@ -53,16 +52,9 @@ New Global Gotham Flat buttons for UI and UX - placed in FredHopper.css for easi
 .cta-button-red-bold{background:#ee3d43;color:#fff;display:block;height:35px;line-height:35px;padding:0 1px;position:relative;text-align:center;text-decoration:none;text-transform:uppercase;width:145px;font-weight:700;font-size:17px}
 .cta-button-whitered-bold{background:#fff;color:#ee3d43;display:block;height:35px;line-height:35px;padding:0 1px;position:relative;text-align:center;text-decoration:none;text-transform:uppercase;width:145px;font-weight:700;font-size:17px}
 .cta-middle-spot-center{margin:23px auto}
-
-
-
-
-
-
-
-/***
+/*
 XMAS 2014
-***/
+*/
 /*
 FOOTWEAR
 Men, women kids
@@ -241,7 +233,6 @@ div#plpBanner.blackfridayCTAMain div#plpBannerText a#plpBannerLink3:hover,
 div#plpBanner.blackfridayCTAMain div#plpBannerText a#plpBannerLink1{background:#edc631;color:#000;display:block;font-weight:bold;height:35px;line-height:35px;padding:0 1px;position:absolute;text-align:center;text-decoration:none;text-transform:uppercase;width:145px;top:139px;right:339px}
 div#plpBanner.blackfridayCTAMain div#plpBannerText a#plpBannerLink2{background:#edc631;color:#000;display:block;font-weight:bold;height:35px;line-height:35px;padding:0 1px;position:absolute;text-align:center;text-decoration:none;text-transform:uppercase;width:145px;top:139px;right:187px}
 div#plpBanner.blackfridayCTAMain div#plpBannerText a#plpBannerLink3{background:#edc631;color:#000;display:block;font-weight:bold;height:35px;line-height:35px;padding:0 1px;position:absolute;text-align:center;text-decoration:none;text-transform:uppercase;width:145px;top:139px;right:35px}
-
 /*
 ===
 BLACK FRIDAY BIG MENU eg KIDS 2014
@@ -258,7 +249,6 @@ div#plpBanner.blackfridayCTAMainSubLists div#plpBannerText a#plpBannerLink3:hove
 div#plpBanner.blackfridayCTAMainSubLists div#plpBannerText a#plpBannerLink1{background:#edc631;color:#000;display:block;font-weight:bold;height:35px;line-height:35px;padding:0 1px;position:absolute;text-align:center;text-decoration:none;text-transform:uppercase;width:145px;top:139px;right:339px}
 div#plpBanner.blackfridayCTAMainSubLists div#plpBannerText a#plpBannerLink2{background:#edc631;color:#000;display:block;font-weight:bold;height:35px;line-height:35px;padding:0 1px;position:absolute;text-align:center;text-decoration:none;text-transform:uppercase;width:145px;top:139px;right:187px}
 div#plpBanner.blackfridayCTAMainSubLists div#plpBannerText a#plpBannerLink3{background:#edc631;color:#000;display:block;font-weight:bold;height:35px;line-height:35px;padding:0 1px;position:absolute;text-align:center;text-decoration:none;text-transform:uppercase;width:145px;top:139px;right:35px}
-
 /*
 ===
 NIKE AIR MAX 2015 - animation is in /js/fredhopper.js
@@ -282,7 +272,6 @@ div#plpBanner.fhNikeAirMax2015women div#plpBannerText a#plpBannerLink1{backgroun
 div#plpBanner.fhNikeAirMax2015women div#plpBannerText a#plpBannerLink2{background:#fff;color:#2e2e2e;display:block;font-weight:bold;height:35px;line-height:35px;padding:0 1px;position:absolute;text-align:center;text-decoration:none;text-transform:uppercase;width:145px;top:133px;left:199px;z-index:100}
 div#plpBanner.fhNikeAirMax2015women div#plpBannerText a#plpBannerLink3{background:#fff;color:#2e2e2e;display:block;font-weight:bold;height:35px;line-height:35px;padding:0 1px;position:absolute;text-align:center;text-decoration:none;text-transform:uppercase;width:145px;top:133px;left:369px;z-index:100}
 div#plpBanner.fhNikeAirMax2015women div#plpBannerText a#plpBannerLink4{background:#fff;color:#2e2e2e;display:block;font-weight:bold;height:35px;line-height:35px;padding:0 1px;position:absolute;text-align:center;text-decoration:none;text-transform:uppercase;width:145px;top:133px;left:545px;z-index:100}
-
 /*
 ===
 Speedo Banner 400px height
@@ -291,7 +280,6 @@ Speedo Banner 400px height
 .fhBrandSpeedoBanner{position:relative;width:768px;height:400px;background:#eee}
 .fhBrandSpeedoBanner h2{display:none}
 .fhBrandSpeedoBanner #plpBannerText p{display:none}
-
 /*
 ===
 Orangey Brown Brand Banners, adidas Originals, Converse, adidas, fredperry etc
