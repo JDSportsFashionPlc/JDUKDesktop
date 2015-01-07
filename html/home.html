@@ -459,9 +459,6 @@ NIKE SKINS
            <a href="/page/delivery/" manual_cm_re="USPBar-_-TextRight-_-FreeDelivery"><img src="/images/library/2015/05.01.2015/home/delivery.png"></a>           
         </div>
 
-
-
-
     </div>
     <div class="clear"></div>
   
@@ -484,8 +481,6 @@ NIKE SKINS
                         <span style="bottom:30px;right:30px;color:#333;background:url('/images/call-to-action-arrows.png') no-repeat scroll 100% 0 #fff" class="ctanew">SHOP NOW</span>
                     </a>
 
-
-
                 </div>
                 <div id="banner-two">
 
@@ -507,17 +502,12 @@ NIKE SKINS
 
             </div>
 
-
             <div id="slider-nav"><a href="#" class="slidesjs-previous" onclick='mySwipe.prev(); return false;'>prev</a><a href="#" class="slidesjs-next" onclick='mySwipe.next(); return false;'>next</a>
             </div>
-
 
         </div>
 
     </div>
-
-
-
 
     <!--
 // MIDDLE SPOTS
@@ -533,34 +523,17 @@ NIKE SKINS
         </div>
 
         <div style="float:left;height:415px;width:319px;position:relative">
-            <!--div>
- <a manual_cm_re="CONTENT-_-SPLIT-_-SHOP-NOW" href="http://www.jdsports.co.uk/page/jdpro/%23?stop_mobi=yes#mens" >
-                <img width="319" height="415" src="/images/library/2015/02.01.2015/01_home/fitness-gif-01.gif">
-                
-               </a>
-            </div-->
-            
-            
-            
-            
-            
             <div class="AnimationMiddleSpot1">
-            	
-               
                <div class="AnimationSlide1">
                       <a manual_cm_re="CONTENT-_-SPLIT-_-FITNESS-WOMENS" href="http://www.jdsports.co.uk/page/jdpro/%23?stop_mobi=yes#womens" >
                         <img width="319" height="415" src="/images/library/2015/02.01.2015/01_home/fitness-gif-01-slide2.gif" />
                       </a>
-                
                 </div>
-                
                 <div class="AnimationSlide1">
                    <a manual_cm_re="CONTENT-_-SPLIT-_-FITNESS-MENS" href="http://www.jdsports.co.uk/page/jdpro/%23?1" >
                      <img width="319" height="415" src="/images/library/2015/02.01.2015/01_home/fitness-gif-01-slide1.gif" />
                    </a>
                 </div>
-                
-                
             </div>
         </div>
     </div>
@@ -676,8 +649,6 @@ NIKE SKINS
                 </div>
             </li>
 
-
-
             <!--
             	// 7
             -->
@@ -718,17 +689,13 @@ NIKE SKINS
                 </a>
             </li>
 
-            
-            
             <!--
 				// 9
 			-->
             <li class="bottomright" style="top:1128px;">
                 <a manual_cm_re="CONTENT-_-SPOT9-_-latrainer-Turnstyle" href="http://www.turnstyle.co.uk/fashion/2014/12/01/adidas-la-trainer-classic-creps/?utm_campaign=LAtrainerClassicCrep&utm_medium=JDHome&utm_source=JD&utm_term=Fashion">
 
-
                     <img width="319" height="415" src="/images/library/2015/02.01.2015/01_home/middle09.jpg" />
-
                     <div class="text">
                         <span class="cta-button-black-bold caps plain-gotham cta-middle-spot-center">Read now</span>
                     </div> 
@@ -737,8 +704,6 @@ NIKE SKINS
 
         </ul>
     </div>
-
-
     <!--
      // AD BAR
     
@@ -855,14 +820,20 @@ NIKE SKINS
                 $('body').addClass('home');
             }
         });
-        /*Top Christmas Gifts Slider
-START*/
-         // START
-         // -- Load Program
+/*******
+ *******
+	Top Christmas Gifts Slider
+	Built by Raghu 
+	
+	-- Changelog ( Khaleel: Added Math.random() to URL to avoid Akamai )
+
+********/
+			
+			
         jQuery(document).ready(function($) {
             // JSON
             // -- Load the gallery and page assets through JSON
-            jQuery.getJSON("/html/home.json", function(x) {
+            jQuery.getJSON("/html/home.json?v=" + Math.random(), function(x) {
                 // VARS
                 // -- For cleaner calls below
                 var galHTML = '';
@@ -902,28 +873,28 @@ START*/
                 });
             });
         });
-        /*Top Christmas Gifts Slider
-END*/
-    </script>
-    <!--
+
+/********
+ Top Christmas Gifts Slider
+ END
+ ********/
+</script>
+<!--
 // FOR TOP CHRISTMAS GIFTS SLIDER SCRIPT
 -->
-    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
-    <script src="//ajax.googleapis.com/ajax/libs/jqueryui/1.10.3/jquery-ui.min.js"></script>
-    <script src="/lib/hlight/back-to-school/owl-carousel/2/owl.carousel.js"></script>
-    <script src="/lib/hlight/manchester-city/js/withinViewport.js"></script>
-    <script src="/lib/hlight/manchester-city/js/jquery.withinViewport.js"></script>
-    <!--
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+<script src="//ajax.googleapis.com/ajax/libs/jqueryui/1.10.3/jquery-ui.min.js"></script>
+<script src="/lib/hlight/back-to-school/owl-carousel/2/owl.carousel.js"></script>
+<script src="/lib/hlight/manchester-city/js/withinViewport.js"></script>
+<script src="/lib/hlight/manchester-city/js/jquery.withinViewport.js"></script>
+<!--
 // KMNEWSLETTERINJECTION SCRIPT
 -->
-    <script src="/js/JD_NewsletterInjectLink.js"></script>
-    <!--
+<script src="/js/JD_NewsletterInjectLink.js"></script>
+<!--
 // ANIMATIONMIDDLESPOTS SCRIPT
 -->
-    <script src="/js/animation.js"></script>
-    
-	 
+<script src="/js/animation.js"></script>	 
 </div>
 </div>
 <!-- // End fix div -->
-
