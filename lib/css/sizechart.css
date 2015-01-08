@@ -1,0 +1,164 @@
+@charset "UTF-8";
+/* CSS Document */
+
+
+.sizeTable {
+background:#fff none repeat scroll 0 0;
+border-collapse:collapse;
+font-family: Arial, Helvetica, sans-serif;
+margin-bottom:2px;
+width:570px;
+border:#fff;
+margin-bottom:5px;
+}
+
+.sizepageTable {
+background:#fff none repeat scroll 0 0;
+border-collapse:collapse;
+font-family: Arial, Helvetica, sans-serif;
+margin-bottom:2px;
+width:515px;
+border:#fff;
+margin-bottom:5px;
+}
+
+.SChiddenCaption {
+display:none;
+}
+
+.SChead{
+border-left:#fff;
+border-top:#fff;
+border-right:#fff;
+font-weight:bold;
+font-size:1.15em;
+padding-bottom:5px;
+margin-bottom:5px;
+text-decoration:none;
+color:#000000;
+}
+
+.SChead a { padding:0; }
+.SChead a:hover { padding:0; }
+
+.SCcell{
+border:1px solid #ddd;
+text-align:center;
+font-size:.8em;
+}
+
+.SCcell1 {
+border:1px solid #ddd;
+text-align:center;
+font-size:1em;
+font-weight:bold;
+}
+
+.SCrow1 {
+background-color:#f2f2f2;
+}
+.SCrow2 {
+background-color:#fff;
+}
+
+.SCgap {
+background-color:#fff;
+}
+
+.SCminihead {
+font-size:0.9em;
+color:#666666;
+}
+
+.SCcathead {
+background-color:#666; 
+color:#FFF; 
+width:500px; 
+text-align:left; 
+vertical-align:sub; 
+font-size:1.5em; 
+font-weight:bold; 
+padding:10px 10px 0px 5px;
+}
+
+.infoHead {
+font-size:1.3em;
+font-weight:bold;
+}
+
+.tabsizeLink {
+font-weight:bold;
+font-size:0.9em;
+text-decoration:none;
+}
+
+.extrapageFAQad{
+float:right;
+width:160px;
+margin-top:-12px;
+}
+
+.extrapageFAQcont{
+float:left;
+width:515px;
+top:0px;
+}
+
+.extrapageFAQ{
+width:695px;
+}
+
+.corp{
+color:#000000;
+padding:20px;
+}
+
+/* ---------- FAQ page. Headers and Accordion styles ---------- */
+
+#accordion {
+	/*margin:20px 0px;*/
+}
+#accordion h2{
+font-size:1.3em;
+font-weight:bold;
+margin:0 0 0px;
+}
+#accordion h3{
+font-size:1.3em;
+font-weight:bold;
+margin:1.3em 0 0.4em;
+}
+#accordion hr{
+visibility:hidden;
+}
+
+h4.toggler {
+	cursor: pointer;
+	font-size: 1em;
+	background: #e9e9e9;
+	color: #000000;
+	margin: 0px 0 4px 30px;
+	padding: 3px 5px 1px;
+	font-weight:normal;
+}
+h4.toggler:hover {
+	color: #555555;
+}
+div.FAQelement {
+margin: 0 0 4px 30px;
+padding: 3px 5px 20px;
+}
+div.FAQelement p, div.FAQelement h4 {
+	padding:4px;
+	display:block;
+}
+.FAQelement p {
+	margin:1em 0 1em 0;
+}
+blockquote {
+	padding:5px 20px;
+}
+#accordion div {
+margin-left:30px;
+}
+

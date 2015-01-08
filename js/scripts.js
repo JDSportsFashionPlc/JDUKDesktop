@@ -58,15 +58,15 @@ jQuery(function($) {
     // -- appendTo() reduces speed
     jQuery('head').append($('<link rel="stylesheet" type="text/css" />').attr('href', '/css/fredhopper.css?v=' + Math.random()));
     jQuery('head').append($('<link rel="stylesheet" type="text/css" />').attr('href', '//cloud.typography.com/6282092/657264/css/fonts.css?v=' + Math.random()));
-	 // FREDHOPPER HS IS WAY BELOW AT THE BOTTOM
-		
-		//jQuery(document).ready(function() {
-		var fredHopperJscript = document.createElement("script");
-		fredHopperJscript.type = "text/javascript";
-		fredHopperJscript.src = "/js/fredhopper.js?v=" + Math.random();
-		jQuery("head").append(fredHopperJscript);
-		//});
-		
+    // FREDHOPPER HS IS WAY BELOW AT THE BOTTOM
+
+    //jQuery(document).ready(function() {
+    var fredHopperJscript = document.createElement("script");
+    fredHopperJscript.type = "text/javascript";
+    fredHopperJscript.src = "/js/fredhopper.js?v=" + Math.random();
+    jQuery("head").append(fredHopperJscript);
+    //});
+
     // FREDHOPPER JS FUNCTION
     // -- Add the ActiveClass to latest current FredHopper URLs if possible.
     var fredHopperURL = window.location.href;
@@ -199,8 +199,7 @@ jQuery(function($) {
     // @PARAM store.css, store_checkout.css, store_product.css
     // CONFIG CSS TOO AS NEEDED
     // -- -- --
-    var newDeliveryBanner = '<style type="text/css">.delivery-mainlink,.loopClearanceText{display:none}#delivery-banner-new > div { postition: relative; float: left; text-align: center; width: 30%; display: block }#delivery-banner-new { background:url("/images/delivery-banner-dividers.png") no-repeat scroll 0 0 rgba(0, 0, 0, 0); margin: 0 auto; overflow: hidden; width: 976px; z-index: 1; }.delivery-mainlink,.loopClearanceText { letter-spacing: 0.75px; font-weight: bold; text-align:center;font-size:14px;color:#fff;text-transform:uppercase;text-decoration:none;line-height:39px }.delivery-mainlink:hover,.loopClearanceText:hover { text-decoration:underline }.delivery-sublink a,.delivery-sublink-extra a { margin:0 9px;font-weight:normal;text-align:center;font-size:12px;color:#fff; text-transform:uppercase; text-decoration:none; letter-spacing:0.39px }.delivery-sublink a:hover,.delivery-sublink-extra a:hover,.loopClearanceText a:hover { text-decoration:underline}.delivery-sublink,.delivery-sublink-extra{position:relative; top:-9px; display:none;}</style><div id="qd-b-w" style="height:51px;background:#004d7c !important; position:relative;display:none;width:100%;"><div id="delivery-banner-new" ><div class="deliverySpotTab" id="DeliverySpot1"><a class="delivery-mainlink" href="/featured/New%20In?fredhopperUrl=fh_location=%2f%2fcatalog01%2fen_GB%2fnew_arrival%3d1" manual_cm_re="USP-_-Delivery-Link-_-new-in">NEW IN</a><br /><span class="delivery-sublink"><a manual_cm_re="USP-_-Delivery-Link-_-NewInMen" href="/featured/Mens%20New%20In?fredhopperUrl=fh_location=%2f%2fcatalog01%2fen_GB%2fnew_arrival%3d1%2fcategories%3C{catalog01_ct12201}">Mens</a></span><span class="delivery-sublink"><a manual_cm_re="USP-_-Delivery-Link-_-NewInWomen" href="/featured/Womens New In?fredhopperUrl=fh_location=%2f%2fcatalog01%2fen_GB%2fnew_arrival%3d1%2fcategories<{catalog01_ct12202}">Womens</a></span><span class="delivery-sublink"><a manual_cm_re="USP-_-Delivery-Link-_-NewInKids" href="http://www.jdsports.co.uk/featured/Kids%20New%20In?fredhopperUrl=fh_location=%2f%2fcatalog01%2fen_GB%2fnew_arrival%3d1%2fcategories%3C{catalog01_ct12203}">Kids</a></span></div><div class="deliverySpotTab" id="DeliverySpot2" style="width:40%;height:51px;background:#1083c7 !important"><a class="delivery-mainlink" href="/page/delivery" manual_cm_re="USP-_-Delivery-Link-_-FreeStoreDel">Free Delivery on everything</a><br /><span class="delivery-sublink"><a href="/page/delivery" manual_cm_re="USP-_-Delivery-Link-_-FreeNextDay">To over 600 stores</a></span></div><div class="deliverySpotTab" id="DeliverySpot3"><a class="delivery-mainlink" href="http://www.jdsports.co.uk/featured/Clearance?fredhopperUrl=fh_location=%2f%2fcatalog01%2fen_GB%2fsale%3d%7bonly20view20sale20items%7d%2f" manual_cm_re="USP-_-Delivery-Link-_-Clearance">Merry Giftmas Offers</a><br /><span class="delivery-sublink-extra"><a href="http://www.jdsports.co.uk/featured/Men%27s%20Giftmas%20Offers?fredhopperUrl=fh_location=%2f%2fcatalog01%2fen_GB%2fcategories%3C%7bcatalog01_ct12201%7d%2fcampaign%3E%7bgift20offers%7d%2fsale%3d%7bonly20view20sale20items%7d" manual_cm_re="USP-_-Delivery-Link-_-ClearanceMen">Men</a></span><span class="delivery-sublink-extra"><a href="http://www.jdsports.co.uk/featured/Womens%20Giftmas%20Offers?fredhopperUrl=fh_location=%2f%2fcatalog01%2fen_GB%2fcampaign%3e%7bgift20offers%7d%2fcategories%3c%7bcatalog01_ct12202%7d%2fsale%3d%7bonly20view20sale20items%7d" manual_cm_re="USP-_-Delivery-Link-_-ClearanceWomen">Women</a></span><span class="delivery-sublink-extra"><a href="http://www.jdsports.co.uk/featured/Kid%27s%20Giftmas%20Offers?fredhopperUrl=fh_location=%2f%2fcatalog01%2fen_GB%2fcampaign%3E%7bgift20offers%7d%2fsale%3d%7bonly20view20sale20items%7d%2fcategories%3C%7bcatalog01_ct12203%7d" manual_cm_re="USP-_-Delivery-Link-_-ClearanceOffers">Kids</a></span></div></div></div>';
-
+    var newDeliveryBanner = '<style type="text/css">.delivery-mainlink,.loopClearanceText{display:none}#delivery-banner-new > div { postition: relative; float: left; text-align: center; width: 30%; display: block }#delivery-banner-new { background:url("/images/delivery-banner-dividers.png") no-repeat scroll 0 0 rgba(0, 0, 0, 0); margin: 0 auto; overflow: hidden; width: 976px; z-index: 1; }.delivery-mainlink,.loopClearanceText { letter-spacing: 0.75px; font-weight: bold; text-align:center;font-size:14px;color:#fff;text-transform:uppercase;text-decoration:none;line-height:39px }.delivery-mainlink:hover,.loopClearanceText:hover { text-decoration:underline }.delivery-sublink a,.delivery-sublink-extra a { margin:0 9px;font-weight:normal;text-align:center;font-size:12px;color:#fff; text-transform:uppercase; text-decoration:none; letter-spacing:0.39px }.delivery-sublink a:hover,.delivery-sublink-extra a:hover,.loopClearanceText a:hover { text-decoration:underline}.delivery-sublink,.delivery-sublink-extra{position:relative; top:-9px; display:none;}</style><div id="qd-b-w" style="height:51px;background:#004d7c; position:relative;display:none;width:100%;"><div id="delivery-banner-new" ><div class="deliverySpotTab" id="DeliverySpot1"><a class="delivery-mainlink" href="/featured/New%20In?fredhopperUrl=fh_location=%2f%2fcatalog01%2fen_GB%2fnew_arrival%3d1" manual_cm_re="USP-_-Delivery-Link-_-new-in">NEW IN</a><br /><span class="delivery-sublink"><a manual_cm_re="USP-_-Delivery-Link-_-NewInMen" href="/featured/Mens%20New%20In?fredhopperUrl=fh_location=%2f%2fcatalog01%2fen_GB%2fnew_arrival%3d1%2fcategories%3C{catalog01_ct12201}">Mens</a></span><span class="delivery-sublink"><a manual_cm_re="USP-_-Delivery-Link-_-NewInWomen" href="/featured/Womens New In?fredhopperUrl=fh_location=%2f%2fcatalog01%2fen_GB%2fnew_arrival%3d1%2fcategories<{catalog01_ct12202}">Womens</a></span><span class="delivery-sublink"><a manual_cm_re="USP-_-Delivery-Link-_-NewInKids" href="http://www.jdsports.co.uk/featured/Kids%20New%20In?fredhopperUrl=fh_location=%2f%2fcatalog01%2fen_GB%2fnew_arrival%3d1%2fcategories%3C{catalog01_ct12203}">Kids</a></span></div><div class="deliverySpotTab" id="DeliverySpot2" style="width:40%;height:51px;background:#1083c6 !important"><a class="delivery-mainlink" href="/page/delivery" manual_cm_re="USP-_-Delivery-Link-_-FreeStoreDel">Next day delivery</a><br /><span class="delivery-sublink"><a href="/page/delivery" manual_cm_re="USP-_-Delivery-Link-_-FreeNextDay">Order by 6pm</a></span></div><div class="deliverySpotTab" id="DeliverySpot3"><a class="delivery-mainlink" href="http://www.jdsports.co.uk/featured/footwear/" manual_cm_re="USP-_-Delivery-Link-_-ClearanceFootwear">FOOTWEAR</a><br /><span class="delivery-sublink-extra"><a href="http://www.jdsports.co.uk/men/mens-footwear/" manual_cm_re="USP-_-Delivery-Link-_-FootwearMen">Men</a></span><span class="delivery-sublink-extra"><a href="http://www.jdsports.co.uk/women/womens-footwear/" manual_cm_re="USP-_-Delivery-Link-_-FootwearWomen">Women</a></span><span class="delivery-sublink-extra"><a href="http://www.jdsports.co.uk/kids/junior-footwear-(sizes-3-5.5)/" manual_cm_re="USP-_-Delivery-Link-_-FootwearKids">Kids</a></span></div></div></div>';
 
     $('#header').parent().append(newDeliveryBanner);
 
@@ -246,7 +245,7 @@ jQuery(function($) {
         $(".lastItem").remove('');
         $("ul#tertiaryNavigation").prepend('<li><a manual_cm_re="Global-_-Header-_-WheresMyOrder" href="/page/tracking" style="text-transform:none">Where is my order?</a></li>');
         $("ul#tertiaryNavigation").append('<li class=""><a onclick="openWin(\'/lib/cs/home.html\')" href="#" manual_cm_re="Global-_-Header-_-Customer-Service">Customer Service</a></li><li class="lastItem"><a onclick="openWin(\'/lib/cs/faqs.html?iframeURL=Privacy and Security\')" href="#" manual_cm_re="Global-_-Header-_-Cookies">Cookies</a></li>');
-        $('#primaryNavigation > li').eq(0).remove();		  
+        $('#primaryNavigation > li').eq(0).remove();
         $('#primaryNavigation').append('<li style="float:right; margin-right:0;"><span><a manual_cm_re="Global-_-Header-_-Tabs-Blog" href="http://blog.jdsports.co.uk/" target="_blank">Blog</a></span></li>');
         $('#primaryNavigation > li:first-child').addClass('first');
         $('#primaryNavigation > li:nth-child(3)').after($('#footballLinks').html()).css('display', 'none');
@@ -254,7 +253,7 @@ jQuery(function($) {
         $('#primaryNavigation > li:nth-child(6)').remove();
         $('#primaryNavigation > li:first-child').before($('#giftShop').html()).css('display', 'block');
         $('#primaryNavigation > li:nth-child(4)').css('display', 'block');
-		  $('#primaryNavigation').append('<li><span><a manual_cm_re="Global-_-Header-_-Tabs-GiftCards" href="/page/gift-cards/">Gift Cards</a></span></li>');		  
+        $('#primaryNavigation').append('<li><span><a manual_cm_re="Global-_-Header-_-Tabs-GiftCards" href="/page/gift-cards/">Gift Cards</a></span></li>');
         $('ul#saleMenuItemsContainer').remove();
         $('ul#primaryNavigation > li > ul > li > ul').css('position', 'relative');
         $('#header #logo').attr('href', '/home');
@@ -322,7 +321,7 @@ jQuery(function($) {
         jQuery('#footballMenuItemsContainer').append('<div style="width:100%; text-align:center"><a style="margin-bottom:50px; width:130px; height:50px; display:inline-block; background:#419c41; border:1px solid #000; text-align:center; text-transform:uppercase; text-decoration:none; line-height:50px; color:#FFF;" href="#" id="close-nav">Close</a></div>'); //matt
 
         jQuery('span#viewBasket').parent().append('<a id="close-checkout" href="#">Close</a>');
-		  
+
 
         //Close Mega Navs on click
         jQuery('a#close-nav').click(function() {
@@ -482,11 +481,11 @@ jQuery(function($) {
 
     if (document.getElementById('productPage')) {
 
-			// KHALEEL MUGHAL 30TH MAY 2014
-			// Fixed size popups to NUMERO for PP pages	
-			// Swap the size guide link
-			// #NUMERO TAG
-			/*
+        // KHALEEL MUGHAL 30TH MAY 2014
+        // Fixed size popups to NUMERO for PP pages	
+        // Swap the size guide link
+        // #NUMERO TAG
+        /*
 			jQuery('#infoSizingLink').click('<a onclick="openWin(\'/lib/cs/size-guides.html\')" href="#">View our size guides</a>');	
 			jQuery('#infoSizingLink2').click('<a onclick="openWin(\'/lib/cs/size-guides.html\')" href="#">View our size guides</a>');	
 			*/
@@ -705,8 +704,7 @@ jQuery('ul#womenMenuItems').append('<li style="clear:both;display:none" class="B
 jQuery('ul#kidsMenuItems').append('<li style="clear:both;display:none" class="BannerToToggleGloballyGeneric"><a href="/kids/brand/nike/" manual_cm_re="Global-_-Header-_-dd-BigBanner-kids-nike" style="padding-left:25px"><img src="/images/library/2014/08.12.2014/kids.jpg"/></a></li>');
 
 
+// Get the year for the copyright text and print to the page
 
-
-
-			
-
+var d = new Date();
+document.getElementById("year").innerHTML = d.getFullYear();

@@ -1,4 +1,4 @@
-/*UPDATED  CSS JAN 2015*/
+
 .viewbuttons{
 	margin: 0 0 20px 0;
 }
@@ -78,6 +78,13 @@ margin: 15px 0px 0;
 	margin-bottom: 20px;
 	padding-left: 10px;
 	_padding-left: 10px;
+}
+.myAccountLogin {
+    padding-bottom: 50px;
+    text-align: left;
+    width: 43%;
+    float: left;
+    clear: left;
 }
 
 #window1 {
@@ -187,7 +194,32 @@ margin: 15px 0px 0;
 	_padding-left: 20px;
 	margin: 20px 0px 0px 0px;
 }
-
+.myAccountLogin a.createButton {
+    position: relative;
+    top: 0px;
+    left: 0px;
+    padding: 10px 15px;
+    line-height: 100%;
+    border-radius: 5px;
+    cursor: pointer;
+    width: auto;
+    overflow: visible;
+    font-weight: normal;
+    font-size: 14px;
+    text-shadow: 0px 1px 0px #FFF;
+    color: #666;
+    text-decoration: none;
+    vertical-align: middle;
+    box-sizing: border-box;
+    display: inline-block;
+    border: 1px solid #666;
+    background: #29942A; /* for non-css3 browsers */
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#6DC56E', endColorstr='#29942A'); /* for IE */
+	background: -webkit-gradient(linear, left top, left bottom, from(#6DC56E), to(#29942A)); /* for webkit browsers */
+	background: -moz-linear-gradient(top,  #6DC56E,  #29942A); /* for firefox 3.6+ */	
+    float: right;
+    margin: 0px;
+}
 
 
 
@@ -209,7 +241,15 @@ margin: 15px 0px 0;
     text-shadow: none !important;
 }
 
+
+.myAccountLogin .newsletter p {
+    margin-top: 10px;
+}
+
 .returningCustomer .frame {
+	box-shadow: none;
+border-radius: 0;
+border: none;
     color: #000;
     margin: 0px;
     clear: both;
@@ -227,6 +267,7 @@ margin: 15px 0px 0;
 	border: none;
 	background: #fff;
 	display: block;
+	width: 269px;
 }
 
  .returningCustomer input { 
@@ -256,6 +297,9 @@ border: 1px solid #c3c3c3;
 #UserRegistrationAddForm {
 	margin-top: 28px;
 }
+.loginInfo .newsletter {
+    width: 100%;
+}
 
 .signUpContentSpot {
     margin: 127px 0px 0px;
@@ -267,9 +311,15 @@ border: 1px solid #c3c3c3;
 }
 
 .myAccountLogin .newAccount { 
+	box-shadow: none;
+border-radius: 0;
+border: none;
     margin-top: 67px;
     border: none;
     background: none repeat scroll 0% 0% #E6E6E6;
+    float: left;
+    padding: 10px 25px 15px 14px !important;
+	width: 100%;
 }
 #window1 {
 position: absolute;
@@ -300,6 +350,9 @@ max-width: 100%;
     height: 22px;
 }
 
+.returningCustomer form {
+    float: none;
+}
 
 
 .newsletter input[type="checkbox"] + label, .newsletter input[type="checkbox"]:checked + label {
