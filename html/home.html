@@ -430,6 +430,25 @@ NIKE SKINS
 		padding:0;
 	}
 	#middle-spots-wrap #sliderHome2,#middle-spots-wrap #sliderHome2 .owl-item,#middle-spots-wrap #sliderHome2 img {width:648px;height:415px;}
+	
+	.topxmasgifts .owl-prev {
+		display: block !important;
+        padding: 34px 45px 16px 0 !important;
+        background: url(/images/library/2015/09.01.2015/01_home/arrow-left.png) !important;
+        font-size: 0px !important;
+        position: absolute;
+        margin-left: 10px !important;
+		z-index:999;
+	}
+	.topxmasgifts .owl-next {
+		display: block !important;
+        padding: 34px 45px 16px 0 !important;
+        background: url(/images/library/2015/09.01.2015/01_home/arrow-right.png) !important;
+        font-size: 0px !important;
+        position: absolute;
+        margin-left: 886px !important;
+		z-index:999;
+	}
 </style>
 
 <style>
@@ -954,7 +973,7 @@ what else would you expect.</p>
                     autoplay: false,
                     margin: 14,
                     navigation: true,
-                    navigationText: ["<i class='icon-chevron-left icon-white'><</i>", "<i class='icon-chevron-right icon-white'>></i>"]
+                    //navigationText: ["<i class='icon-chevron-left icon-white'><</i>", "<i class='icon-chevron-right icon-white'>></i>"]
                 });
             });
         });
@@ -975,7 +994,7 @@ what else would you expect.</p>
 <script src="/lib/hlight/manchester-city/js/jquery.withinViewport.js"></script>
 
 <script>
-	jQuery("#sliderHome1, #sliderHome2, #sliderHome3, #sliderHome4").owlCarousel({
+	jQuery("#sliderHome1, #sliderHome2").owlCarousel({
 	
 	
 		  navigation : true, // Show next and prev buttons
