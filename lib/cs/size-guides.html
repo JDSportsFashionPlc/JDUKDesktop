@@ -1,0 +1,507 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<link rel="stylesheet" href="jd-cs.css" type="text/css" />
+
+<link type="text/css" rel="stylesheet" href="http://jdsports-ws.numerointeractive.com/websuite/assets/userdir/659074993cac01d7/htdocs/assets/css/styles.css">
+<link type="text/css" rel="stylesheet" href="http://jdsports-ws.numerointeractive.com/websuite/assets/userdir/659074993cac01d7/htdocs/assets/css/JD.css">
+<title>JD Sports Customer Service</title>
+
+<script type="text/javascript" src="//libs.coremetrics.com/eluminate.js"></script> 
+
+<script language="JavaScript1.1" type="text/JavaScript">
+
+//COREMETRICS
+cmSetupOther({"cm_TrackImpressions":""}); 
+</script>
+<script language="JavaScript1.1" type="text/JavaScript" src="/wcsstore/coremetrics/cmcustom.js"></script>
+<script language="JavaScript1.1" type="text/JavaScript">
+<!--
+cmSetClientID("90154080",true,"data.coremetrics.com","jdsports.co.uk");
+cmSetupNormalization("krypto-_-krypto");
+//-->
+</script>
+<script language="JavaScript1.1" type="text/JavaScript"> 
+ <!--
+cmCreatePageviewTag("CUSTOMER SERVICE: SIZE GUIDES", "CUSTOMER SERVICE", null, null, 10151);
+//-->
+
+</script>
+
+
+<script language="javascript" src="http://www.jdsports.co.uk/js/microajax.minified.js " ></script>
+
+</head>
+
+<body id="home" onload="checkRefer();">
+
+<div>
+    <div id="head">
+        <div class="responsive">
+            <p class="logo"><a href="home.html" class="current">JD Customer Service</a></p>
+            <a href="#" class="closeWindow" id="close" onclick="self.close();">Close Window</a>
+            <ul>
+                <li><a href="home.html">Home</a></li>
+                <li><a href="faqs.html">FAQs</a></li>
+                <li><a href="contact-us.html">Contact Us</a></li>
+					  <li id="liveagent_button_online_57320000000L0nR" style="display: none;" class="liveChatTab"><a href="live-chat.html" >Live Chat</a></li>
+					 
+            </ul>
+        </div>
+    </div>
+    <div id="content-responsive">
+    	<div class="content">
+
+<!--
+<input type="hidden" value="footwear" name="attrName" id="sizecatid" />
+-->
+
+<div id="size_options_container">
+    <h1 id="page_title">Size Guides</h1>
+    <div id="size_options" class="sizeOptions">
+        <select id="gender_select" onchange="clearTable(), clearCategory(), clearBrand(), setupCategory()">
+        <option value="">Select Department</option>
+        </select>
+        
+        <select id="category_select" onchange="clearTable(), clearBrand(), setupBrand()">
+        <option value="">Select Category</option>
+        </select>
+        
+        <select id="brand_select" onchange="getFileNameParams()">
+        <option value="">Select Brand</option>
+        </select>
+    </div>
+</div>
+<div id="contentPanel"></div>
+<script type="text/javascript">
+
+preSelectCat = (document.getElementById('sizecatid')) ? document.getElementById('sizecatid').value : null; // check for sizecatid on page
+
+// All size data is stored by brand in a multidimentional array 
+// s_dataStore[0]= new Array('brand','category','men','women','junior','children','infants')
+var s_dataStore=new Array()
+//s_dataStore[0]= new Array('adidas'	,	'footwear'		,	'men'		,	'women'	,	'junior'	,	'children'	,	'infants'),
+s_dataStore[0]= new Array('47_brand'    ,    'accessories',    'men',    'women',     ''    ,     ''    ,     '' ),
+s_dataStore[1]= new Array('adidas'	,	'clothing'		,	'men'		,	'women'	,	'junior'	,	'children'	,	'infants'),
+s_dataStore[2]= new Array('adidas'	,	'footwear'		,	'men'		,	'women'	,	'junior'	,	'children'	,	'infants'),
+s_dataStore[3]= new Array('adidas'    ,    'accessories',     'men'    ,    'women',    'junior',    'children',    'infants'),
+s_dataStore[4]= new Array('atheltic_trading_co'    ,    'clothing',    'men',     ''    ,     ''    ,     ''    ,     '' ),
+s_dataStore[5]= new Array('atheltic_trading_co'    ,    'accessories',    'men',     ''    ,     ''    ,     ''    ,     '' ),
+s_dataStore[6]= new Array('asics'	,	'footwear'		,	'men'		,	'women'	,	''	,	''	,	''),
+s_dataStore[7]= new Array('bench'	,	'clothing'		,	'men'		,	''	,	'junior'	,	'children'	,	''),
+s_dataStore[8]= new Array('bench'    ,    'accessories',    'men',    '',    'junior',    'children',    'infants'),
+s_dataStore[9]= new Array('brookhaven'    ,    'clothing',    'men',    'women',     ''    ,     ''    ,     '' ),
+s_dataStore[10]= new Array('brookhaven'    ,    'footwear',     ''    ,    'women',     ''    ,     ''    ,     '' ),
+s_dataStore[11]= new Array('canterbury'	,	'clothing'		,	'men'		,	''	,	'junior'	,	''	,	'infants'),
+s_dataStore[12]= new Array('carbrini'    ,    'accessories',    'men',    'women',    'junior',    'children',    'infants'),
+s_dataStore[13]= new Array('carbrini'    ,    'clothing',    'men',    'women',     ''    ,     ''    ,    'infants'),
+s_dataStore[14]= new Array('carbrini'    ,    'footwear',    'men',     ''    ,    'junior',    'children',     '' ),
+s_dataStore[15]= new Array('carbrini'	,	'clothing'		,	'men'		,	''	,	'junior'	,	'children'	,	''),
+s_dataStore[16]= new Array('chilli_pepper'    ,    'clothing',    'men',     ''    ,    'junior',    'children',     '' ),
+s_dataStore[17]= new Array('chilli_pepper'    ,    'footwear',     ''    ,    'women',     ''    ,     ''    ,     '' ),
+s_dataStore[18]= new Array('converse'	,	'footwear'		,	'men'		,	'women'	,	'junior'	,	'children'	,	'infants'),
+s_dataStore[19]= new Array('converse'    ,    'accessories',    'men',    'women',    'junior',    'children',    'infants'),
+s_dataStore[20]= new Array('converse'    ,    'clothing',    'men',     'women'    ,    'junior',     ''    ,    'infants'),
+s_dataStore[21]= new Array('crocs'    ,    'footwear',    'men',     ''    ,     ''    ,    'children',     '' ),
+s_dataStore[22]= new Array('dc_shoes'	,	'footwear'		,	'men'		,	'women'	,	'junior'	,	'children'	,	'infants'),
+s_dataStore[23]= new Array('deakins'    ,    'footwear',    'men',     ''    ,    'junior',     ''    ,     '' ),
+s_dataStore[24]= new Array('diadora'	,	'footwear'		,	'men'		,	''	,	''	,	''	,	''),
+s_dataStore[25]= new Array('diadora'    ,    'clothing',    'men',     ''    ,    'junior',    'children',    'infants'),
+s_dataStore[26]= new Array('dickies'	,	'footwear'		,	'men'		,	''	,	''	,	''	,	''),
+s_dataStore[27]= new Array('duffer_of_st_george'    ,    'footwear',     'men'    ,     ''    ,    'junior',    'children',     '' ),
+s_dataStore[28]= new Array('duffer_of_st_george'    ,    'clothing',    'men',     ''    ,     ''    ,     ''    ,     '' ),
+s_dataStore[29]= new Array('duffer_of_st_george'    ,    'accessories',    'men',    'women',     ''    ,     ''    ,     '' ),
+s_dataStore[30]= new Array('eto'    ,    'clothing',    'men',     ''    ,     'junior'    ,    'children',    'infants'),
+s_dataStore[31]= new Array('eastpak'    ,    'accessories',    'men',    'women',    'junior',    'children',    'infants'),
+s_dataStore[32]= new Array('ecko'    ,    'clothing',     ''    ,     ''    ,    'junior',     ''    ,     '' ),
+s_dataStore[33]= new Array('ellesse'    ,    'clothing',     ''    ,    'women'		,     ''    ,     ''    ,     '' ),
+s_dataStore[34]= new Array('fila'	,	'footwear'		,	'men'		,	'women'	,	'junior'	,	'children'	,	''),
+s_dataStore[35]= new Array('fila'    ,    'clothing',    'men',     ''    ,    'junior',    'children',    'infants'),
+s_dataStore[36]= new Array('fila'    ,    'accessories',    'men',     ''    ,    'junior',    'children',    'infants'),
+s_dataStore[37]= new Array('fred_perry'	,	'footwear'		,	'men'		,	'women'	,	''	,	''	,	''),
+s_dataStore[38]= new Array('fred_perry'	,	'clothing'		,	'men'		,	''	,	'junior'	,	'children'	,	''),
+s_dataStore[39]= new Array('fred_perry'    ,    'accessories',    'men',    'women',    'junior',    'children',    'infants'),
+s_dataStore[40]= new Array('gio_goi'	,	'clothing'		,	'men'		,	''	,	''	,	''	,	''),
+s_dataStore[41]= new Array('gio_goi'    ,    'accessories',    'men',     ''    ,    'junior',    'children',    'infants'),
+s_dataStore[42]= new Array('havaianas'    ,    'footwear',    'men',    'women',     ''    ,     ''    ,     '' ),
+s_dataStore[43]= new Array('helly_hansen'    ,    'clothing',    'men',     ''    ,    'junior',     ''    ,     '' ),
+s_dataStore[44]= new Array('henleys'    ,    'accessories',    'men',     ''    ,     ''    ,     ''    ,     '' ),
+s_dataStore[45]= new Array('henri_lloyd'    ,    'footwear',    'men',     ''    ,     ''    ,     ''    ,     '' ),
+s_dataStore[46]= new Array('jd'    ,    'accessories',    'men',     ''    ,    'junior',    'children',    'infants'),
+s_dataStore[47]= new Array('jordan'    ,    'footwear',    'men',     ''    ,    'junior',     ''    ,    'infants'),
+s_dataStore[48]= new Array('kappa'    ,    'clothing',    'men',     ''    ,     ''    ,     ''    ,     '' ),
+s_dataStore[49]= new Array('kooga'    ,    'accessories',    'men',     ''    ,    'junior',    'children',    'infants'),
+s_dataStore[50]= new Array('kooga'    ,    'clothing',    'men',     ''    ,    'junior',    'children',    'infants'),
+s_dataStore[51]= new Array('kickers'	,	'footwear'		,	'men'		,	'women'	,	'junior'	,	'children'	,	'infants'),
+s_dataStore[52]= new Array('kswiss'	,	'footwear'		,	'men'		,	''	,	'junior'	,	'children'	,	''),
+s_dataStore[53]= new Array('kukri'	,	'clothing'		,	'men'		,	''	,	''	,	''	,	''),
+s_dataStore[54]= new Array('lacoste'	,	'footwear'		,	'men'		,	''	,	'junior'	,	'children'	,	'infants'),
+s_dataStore[55]= new Array('lacoste'	,	'clothing'		,	'men'		,	''	,	''	,	''	,	''),
+s_dataStore[56]= new Array('lacoste'    ,    'accessories',    'men',     ''    ,    'junior',    'children',    'infants'),
+s_dataStore[57]= new Array('london_2012'    ,    'accessories',    'men',     ''    ,    'junior',    'children',    'infants'),
+s_dataStore[58]= new Array('london_2012'    ,    'clothing',    'men',     ''    ,    'junior',    'children',    'infants'),
+s_dataStore[59]= new Array('macron'    ,    'clothing',    'men',     ''    ,    'junior',    'children',     '' ),
+s_dataStore[60]= new Array('majestic_athletic'    ,    'clothing',    'men',     ''    ,    'junior',     ''    ,     '' ),
+s_dataStore[61]= new Array('mckenzie'	,	'clothing'		,	'men'		,	'women'	,	'junior'	,	'children'	,	'infants'),
+s_dataStore[62]= new Array('mckenzie'    ,    'footwear',     ''    ,    'women',    'junior',     ''    ,     '' ),
+s_dataStore[63]= new Array('mckenzie'    ,    'accessories',    'men',    'women',    'junior',    'children',    'infants'),
+s_dataStore[64]= new Array('mitchell_&_ness'    ,    'accessories',    'men',    'women',     ''    ,     ''    ,     '' ),
+s_dataStore[65]= new Array('mitchell_&_ness'    ,    'clothing',    'men',     ''    ,     ''    ,     ''    ,     '' ),
+s_dataStore[66]= new Array('mr_lacy'    ,    'accessories',    'men',    'women',    'junior',    'children',    'infants'),
+s_dataStore[67]= new Array('new_balance'	,	'footwear'		,	'men'		,	'women'	,	''	,	''	,	''),
+s_dataStore[68]= new Array('new_era'    ,    'clothing',    'men',     ''    ,     ''    ,     ''    ,     '' ),
+s_dataStore[69]= new Array('new_era'	,	'accessories'		,	'men'		,	''	,	'junior'	,	'children'	,	'infants'),
+s_dataStore[70]= new Array('new_york_yankies'	,	'clothing'		,	''		,	''	,	'junior'	,	'children'	,	''),
+s_dataStore[71]= new Array('nickelson'    ,    'clothing',     ''    ,     ''    ,    'junior',    'children',     '' ),
+s_dataStore[72]= new Array('nike'	,	'clothing'		,	'men'		,	'women'	,	'junior'	,	'children'	,	'infants'),
+s_dataStore[73]= new Array('nike'	,	'footwear'		,	'men'		,	'women'	,	'junior'	,	'children'	,	'infants'),
+s_dataStore[74]= new Array('nike'    ,    'accessories',    'men',    'women',    'junior',    'children',    'infants'),
+s_dataStore[75]= new Array('offical_team'    ,    'accessories',    'men',    'women',    'junior',    'children',    'infants'),
+s_dataStore[76]= new Array('offical_team'    ,    'clothing',    'men',     ''    ,    'junior',    'children',     '' ),
+s_dataStore[77]= new Array('original_penguin'	,	'clothing'		,	'men'		,	''	,	''	,	'children'	,	'infants'),
+s_dataStore[78]= new Array('pointer'	,	'footwear'		,	'men'		,	''	,	''	,	''	,	''),
+s_dataStore[79]= new Array('puma'	,	'footwear'		,	'men'		,	'women'	,	'junior'	,	'children'	,	'infants'),
+s_dataStore[80]= new Array('puma'    ,    'accessories',    'men',    'women',     ''    ,     ''    ,     '' ),
+s_dataStore[81]= new Array('puma'    ,    'clothing',    'men',    'women',    'junior',    'children',    'infants'),
+s_dataStore[82]= new Array('pure_simple'    ,    'accessories',     ''    ,    'women',     ''    ,     ''    ,     '' ),
+s_dataStore[83]= new Array('pure_simple'    ,    'clothing',     ''    ,    'women',     ''    ,     ''    ,     '' ),
+s_dataStore[84]= new Array('quiksilver'    ,    'footwear',    'men',     ''    ,     ''    ,     ''    ,     '' ),
+s_dataStore[85]= new Array('reebok'	,	'footwear'		,	'men'		,	'women'	,	'junior'	,	'children'	,	''),
+s_dataStore[86]= new Array('reebok'    ,    'clothing',    'men',     ''    ,     ''    ,     ''    ,     '' ),
+s_dataStore[87]= new Array('roxy'    ,    'footwear',     ''    ,    'women',     ''    ,     ''    ,     '' ),
+s_dataStore[88]= new Array('russell_athletic'    ,    'clothing',    'men',     ''    ,     ''    ,     ''    ,     '' ),
+s_dataStore[89]= new Array('score_draw'    ,    'clothing',    'men',     ''    ,     ''    ,     ''    ,     '' ),
+s_dataStore[90]= new Array('sergio_tacchini'    ,    'footwear',    'men',     ''    ,    'junior',     ''    ,     '' ),
+s_dataStore[91]= new Array('sergio_tacchini'    ,    'clothing',    'men',     ''    ,     ''    ,     ''    ,     '' ),
+s_dataStore[92]= new Array('shock_absorber'    ,    'clothing',     ''    ,    'women',     ''    ,     ''    ,     '' ),
+s_dataStore[93]= new Array('skull_candy'    ,    'accessories',    'men',     ''    ,    'junior',    'children'  ,  'infant' ),
+s_dataStore[94]= new Array('sof_sole'    ,    'accessories',    'men',    'women',     ''    ,     ''    ,     '' ),
+s_dataStore[95]= new Array('sonneti'    ,    'clothing',    'men',     ''    ,    'junior',     ''    ,     '' ),
+s_dataStore[96]= new Array('sonneti'    ,    'footwear',    'men',     ''    ,    'junior',     ''    ,     '' ),
+s_dataStore[97]= new Array('speedo'    ,    'clothing',    'men',    'women',     ''    ,     ''    ,     '' ),
+s_dataStore[98]= new Array('speedo'    ,    'accessories',    'men',    'women',    'junior',    'children',    'infants'),
+s_dataStore[99]= new Array('timberland'    ,    'accessories',    'men',    'women',    'junior',    'children',    'infants'),
+s_dataStore[100]= new Array('timberland'    ,    'clothing',     ''    ,     ''    ,    'junior',     ''    ,     '' ),
+s_dataStore[101]= new Array('timberland'	,	'footwear',	'men',	'women'	,	'junior'	,	'children'	,	'infants'),
+s_dataStore[102]= new Array('turnstyle'    ,    'clothing',    'men',     ''    ,     ''    ,     ''    ,     '' ),
+s_dataStore[103]= new Array('umbro'	,	'clothing'		,	'men'		,	''	,	'junior'	,	'children'	,	'infants'),
+s_dataStore[104]= new Array('under_armour'	,	'clothing'		,	'men'		,	''	,	'junior'	,	'children'	,	''),
+s_dataStore[105]= new Array('under_armour_sports'    ,    'clothing',     ''    ,     ''    ,     ''    ,     ''    ,    'infants'),
+s_dataStore[106]= new Array('vans'	,	'footwear'		,	'men'		,	'women'	,	''	,	''	,	''),
+s_dataStore[107]= new Array('warrior'	,	'clothing'		,	'men'		,	''	,	'junior'	,	'children'	,	'infants'),
+s_dataStore[108]= new Array('warrior_sports'    ,    'footwear',     ''    ,     ''    ,    'junior',    'children',     '' ),
+s_dataStore[109]= new Array('warrior_sports'    ,    'accessories',    'men',     ''    ,    'junior',    'children',    'infants')
+
+
+//s_dataStore[14]= new Array('adidas'	,	'footwear'		,	'men'		,	'women'	,	'junior'	,	'children'	,	'infants'),
+
+
+
+
+var s_men;
+var s_women;
+var s_junior;	
+var s_children;	
+var s_infants;	
+var s_clothing;
+var s_footwear;
+var s_accessories;
+
+
+//Objects on page set as vars
+var size_options_container = document.getElementById("size_options_container");
+var page_title = document.getElementById("page_title");
+var size_options = document.getElementById("size_options");
+var gender_select = document.getElementById("gender_select");
+var category_select = document.getElementById("category_select");
+var brand_select = document.getElementById("brand_select");
+var myContentPanel = document.getElementById("contentPanel");
+
+function prependTitle() {  
+	page_title.innerHTML=preSelectCat+' Size Guide';
+}
+
+
+//Remove existing size chart table
+function clearTable() {
+	myContentPanel.innerHTML='';
+}
+
+//Populate gender select
+
+function init() { 
+
+	gender_select.disabled=true;
+	category_select.disabled=true;
+	brand_select.disabled=true;
+	
+	if(preSelectCat){
+		prependTitle();
+		populateGenderByCat(preSelectCat);
+		
+		size_options_container.className = "prodPageloc";
+		
+	}else{
+		
+		for(var i=0; i<s_dataStore.length; i++) {
+			if(s_dataStore[i] [2].length > 0){
+				s_men = 1;
+			}
+			if(s_dataStore[i] [3].length > 0){
+				s_women = 1;
+			}
+			if(s_dataStore[i] [4].length > 0){
+				s_junior = 1;
+			}
+			if(s_dataStore[i] [5].length > 0){
+				s_children = 1;
+			}
+			if(s_dataStore[i] [6].length > 0){
+				s_infants = 1;
+			}
+		}
+		if(s_men == 1){
+			gender_select.options[gender_select.options.length] = new Option('Men', 'men');
+		}
+		if(s_women == 1){
+			gender_select.options[gender_select.options.length] = new Option('Women', 'women');
+		}
+		if(s_junior == 1){
+			gender_select.options[gender_select.options.length] = new Option('Junior (Footwear 3-5.5 | Clothing  8-15 yrs)', 'junior');
+		}
+		if(s_children == 1){
+			gender_select.options[gender_select.options.length] = new Option('Children (Footwear 10-2 | Clothing  3-7 yrs)', 'children');
+		}
+		if(s_infants == 1){
+			gender_select.options[gender_select.options.length] = new Option('Infants (Footwear 0-9 | Clothing 0-3 yrs)', 'infants');
+		}
+		gender_select.disabled=false;
+		category_select.disabled=true;
+		brand_select.disabled=true;
+		size_options.className = "displayOptions";
+	}
+}
+
+
+//Empty the Category select box in case a gender has previously been selected
+function clearCategory(){
+	var r;
+	for(i=category_select.options.length-1;i>0;i--){
+		category_select.remove(i);
+	}
+}
+
+//Populate category select
+function setupCategory(){
+	if(preSelectCat){
+		clearBrand();
+		setupBrand();
+	}else{
+		var w=gender_select.selectedIndex;
+		var x=gender_select.options;
+		
+		
+	
+		function populateCategory(gender){
+			//Reset the category vars incase this function has been called previously
+			s_clothing=0;
+			s_footwear=0;
+			s_accessories=0;
+	
+			//Loop through the array to find valid categories that relate to the selected gender
+			for(var i=0; i<s_dataStore.length; i++) {
+				for(var x=0; x<s_dataStore[i].length; x++) {
+					if(s_dataStore[i][x] == gender){
+						if(s_dataStore[i][1] == "clothing"){
+							s_clothing = 1;
+						}
+						if(s_dataStore[i][1] == "footwear"){
+							s_footwear = 1;
+						}
+						if(s_dataStore[i][1] == "accessories"){
+							s_accessories = 1;
+						}
+					}
+				}
+			}
+			if(s_clothing == 1){
+				category_select.options[category_select.options.length] = new Option('Clothing', 'clothing');
+			}
+			if(s_footwear == 1){
+				category_select.options[category_select.options.length] = new Option('Footwear', 'footwear');
+			}
+			if(s_accessories == 1){
+				category_select.options[category_select.options.length] = new Option('Accessories', 'accessories');
+			}
+		}
+		populateCategory(x[w].value);
+		
+		category_select.disabled=false;
+		brand_select.disabled=true;
+	}
+}
+
+
+		//Empty the Brand select box in case a Category has previously been selected
+function clearBrand(){	
+	var r;
+	for(i=brand_select.options.length-1;i>0;i--){
+		brand_select.remove(i);
+	}
+}
+
+//Populate category select
+function setupBrand(){
+	var w=gender_select.selectedIndex;
+	var x=gender_select.options;
+	
+	if(preSelectCat){
+		populateBrand(x[w].value, preSelectCat)
+	}else{
+
+		var y=category_select.selectedIndex;
+		var z=category_select.options;
+
+		function populateBrand(gender, category){
+			for(var i=0; i<s_dataStore.length; i++) {
+				for(var x=0; x<s_dataStore[i].length; x++) {
+					if(s_dataStore[i][x] == gender){
+						for(var x=0; x<s_dataStore[i].length; x++) {
+							if(s_dataStore[i][x] == category){
+								var brandValue = s_dataStore[i][0].replace(/_/g," ");
+								brand_select.options[brand_select.options.length] = new Option(brandValue, s_dataStore[i][0]);
+							}
+						}
+					}
+				}
+			}
+			brand_select.disabled=false;
+		}
+		populateBrand(x[w].value, z[y].value)
+	}
+}
+
+
+
+
+
+//Populate gender based on product category value taken from page
+function populateGenderByCat(preSelectCat){
+	//Reset the gender vars incase this function has been called previously
+	s_men=0;
+	s_women=0;
+	s_junior=0;	
+	s_children=0;	
+	s_infants=0;	
+
+	//Loop through the array to find valid categories that relate to the selected gender
+	for(var i=0; i<s_dataStore.length; i++) {
+		for(var x=0; x<s_dataStore[i].length; x++) {
+			if(s_dataStore[i][x] == preSelectCat){
+				if(s_dataStore[i][2].length > 0){
+					s_men = 1;
+				}
+				if(s_dataStore[i][3].length > 0){
+					s_women = 1;
+				}
+				if(s_dataStore[i][4].length > 0){
+					s_junior = 1;
+				}
+				if(s_dataStore[i][5].length > 0){
+					s_children = 1;
+				}
+				if(s_dataStore[i][6].length > 0){
+					s_infants = 1;
+				}
+			}
+		}
+	}
+	if(s_men == 1){
+		gender_select.options[gender_select.options.length] = new Option('Men', 'men');
+	}
+	if(s_women == 1){
+		gender_select.options[gender_select.options.length] = new Option('Women', 'women');
+	}
+	if(s_junior == 1){
+		gender_select.options[gender_select.options.length] = new Option('Junior', 'junior');
+	}
+	if(s_children == 1){
+		gender_select.options[gender_select.options.length] = new Option('Children', 'children');
+	}
+	if(s_infants == 1){
+		gender_select.options[gender_select.options.length] = new Option('Infants', 'infants');
+	}
+	gender_select.disabled=false;
+	category_select.disabled=true;
+	brand_select.disabled=true;
+	size_options.className = "displayOptions";
+}
+
+
+//Display the appropriate  size chart
+
+function getFileNameParams() {
+	//gender selections
+	var w=gender_select.selectedIndex;
+	var x=gender_select.options;
+	
+	//brand selections
+	var bi=brand_select.selectedIndex;
+	var bv=brand_select.options;
+	
+	if(preSelectCat){
+		buildFileName(x[w].value, preSelectCat, bv[bi].value)
+	}else{
+	
+		//category selections
+		var y=category_select.selectedIndex;
+		var z=category_select.options;
+		
+		buildFileName(x[w].value, z[y].value, bv[bi].value)
+	}
+	
+
+	
+
+	function buildFileName(fgender, fcategory, fbrand){
+		function loadContent(fileName){
+			microAjax(fileName, function (res) {
+			  myContentPanel.innerHTML=res;
+			});
+		}
+		var fileName = 'http://www.jdsports.co.uk/html/size_chart/'+fbrand+'_'+fgender+'_'+fcategory+'.html';
+		loadContent(fileName)
+	}
+}
+init();
+
+</script>		
+
+
+        </div>
+    </div>
+</div>
+
+
+<script>
+    var checkRefer = function() {
+        if (window.opener == null) {
+            var el = document.getElementById('close');
+                el.innerHTML = 'Go to JDSports.co.uk';
+                el.href = 'http://www.jdsports.co.uk';
+                el.style.backgroundImage = 'url(images/home-icon.png)';
+                el.setAttribute('onClick', '');
+        }
+    }
+</script>
+
+<script type='text/javascript' src='https://c.la2w2.salesforceliveagent.com/content/g/js/31.0/deployment.js'></script>
+<script type='text/javascript'>
+	liveagent.init('https://d.la2w2.salesforceliveagent.com/chat', '57220000000KzzV', '00D20000000oqHe');
+</script><script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script><script src="/lib/cs/js/livechat.js"></script>
+
+
+
+</body>
+</html>

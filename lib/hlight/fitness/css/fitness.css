@@ -1,0 +1,631 @@
+/***
+
+ * --- --- --- --- ---
+ * JD Sports Fashion plc
+ * IBM WebSphere Commerce Platform
+ * TIMI ABEL
+ * --- --- --- --- ---
+ * #FITNESS
+ * --- --- --- --- ---
+
+***/
+
+
+/*
+FITNESS PAGE STYLE GOES HERE
+*/
+body {overflow-x: hidden;}
+body #mens-pane, body #womens-pane{
+	font-family: 'Gotham A', 'Gotham B', sans-serif !important; 
+}
+
+.seo-content {font-family: Helvetica, Arial, Verdana, sans-serif;}
+
+.contentContainer {
+float: none;
+width: 976px;
+height: 2130px;
+}
+
+.landing-page-container {
+	width: 980px;
+margin: 0 auto;
+}
+
+#banners .swipe { 
+visibility: visible; 
+}
+
+
+#sidebar, #sidebar2 {
+width: 160px;
+margin: 0 18px 0 0;
+float: left;
+background: #ece75f;
+padding: 15px;
+height: 1823px;
+}
+
+
+
+
+/*edited styles*/
+
+
+
+
+
+/* --- SLIDERS (resized) --- */
+#banner-slider-wrap2.landing{width:768px}
+#banner-slider-wrap2.landing .banner-slider, #banner-slider-wrap.landing .banner-slider {
+height: 357px;
+}
+#banner-slider-wrap2.landing .banner-slider ul, #banner-slider-wrap2.landing .banner-slider ul li{width:768px;height:360px;position:relative}
+#banner-slider-wrap2.landing .banner-slider ul li a{display:block;width:768px;height:360px;text-decoration:none}
+#banner-slider-wrap2.landing .banner-arrow{top:160px}
+
+/* ---- Main Navigation Spots ---- */
+#middle-spots-wrap2.homepage{position:relative;width:976px;height:1496px;overflow:hidden}
+#middle-spots-wrap2.homepage ul{position:absolute;width:976px;height:1496px}
+#middle-spots-wrap2.homepage ul li{display:block;width:319px;height:415px;position:absolute;zoom:1;background:#F2F2F2;overflow:hidden}
+#middle-spots-wrap2.homepage ul li.topleft{top:0;left:0}
+#middle-spots-wrap2.homepage ul li.topmiddle{top:0;left:329px}
+#middle-spots-wrap2.homepage ul li.topright{top:0;right:0}
+
+
+
+
+/*edited style ends*/
+
+#middle-spots-wrap.landing {
+position: relative;
+width: 100%;
+overflow: hidden;
+height: auto;
+}
+
+
+#middle-spots-wrap.landing ul {
+position: relative;
+width: 100%;
+height: auto; 
+}
+
+.toplefts, .toprights, .middlelefts, .middlerights, .lowerlefts, .lowerrights {
+
+	width: 378px !important;
+	position: relative !important;
+
+	float: left;
+}
+
+
+.toplefts, .middlelefts, .lowerlefts {
+
+	 margin-right: 10px;
+}
+
+
+
+#middle-spots-wrap.landing ul li {
+	float: left;
+	width: 378px !important;
+	position: relative !important;
+	margin-bottom: 10px;
+
+}
+
+
+#middle-spots-wrap.landing ul li .text {
+
+	width: 358px !important;
+}
+
+#middle-spots-wrap.landing ul li .text p.cta { 
+position: relative;
+margin: 0 auto;
+width: 200px;
+clear: both;
+display: block;
+left: 0;
+margin-top: 38px;
+text-align: center;
+background: #fff;
+color: #333;
+font-size: 16px;
+line-height: 25px;
+padding: 7px 15px;
+}
+
+
+#middle-spots-wrap.landing ul li img {
+width: 100%;
+display: block;
+}
+
+
+
+#banners .banner-slider div a span.call-to-action {
+text-decoration: none;
+display: inline-block;
+height: 32px;
+line-height: 32px;
+padding-left: 15px;
+padding-right: 15px;
+color: #5acdf4;
+background: #fff;
+}
+
+
+#middle-spots-wrap.landing ul li.toplefts, #middle-spots-wrap.landing ul li.toprights {
+	height: 680px; 
+}
+
+
+
+
+
+#middle-spots-wrap.landing ul li.toplefts .text p.cta, #middle-spots-wrap.landing ul li.toprights .text p.cta {
+
+line-height: 32px;
+padding-left: 15px;
+padding-right: 15px;
+color: #5acdf4;
+background: #fff;
+
+}
+
+
+
+
+#middle-spots-wrap.landing ul li.toplefts .text p.cta {
+
+line-height: 25px;
+padding: 7px 15px;
+color: #fff;
+background: #353433;
+text-align: center;
+font-size: 16px;
+/*left: 10%;*/
+width: 270px;
+
+}
+
+#middle-spots-wrap.landing ul li.toprights .text p.cta { 
+
+line-height: 25px;
+padding: 7px 15px;
+color: #fff;
+background: #353433;
+text-align: center;
+font-size: 16px;
+/*left: 10%;*/
+width: 270px;
+
+}
+
+
+#myGenders,
+#myGenders2 {
+width: 100%;
+height: 157px;
+background: #72c7d5;
+float: left;
+margin-bottom: 10px;
+overflow: hidden;
+}
+
+
+
+#myGenders a.men,
+#myGenders2 a.men {
+	float:left; 
+	background: #72c7d5;
+	height: 157px; 
+
+  -moz-transition-property: all;
+  -o-transition-property: all;
+  -webkit-transition-property: all;
+  transition-property: all;
+  -moz-transition-duration: 0.5s;
+  -o-transition-duration: 0.5s;
+  -webkit-transition-duration: 0.5s;
+  transition-duration: 0.5s;
+  -moz-transition-timing-function: easeOutExpo;
+  -o-transition-timing-function: easeOutExpo;
+  -webkit-transition-timing-function: easeOutExpo;
+  transition-timing-function: easeOutExpo;
+}
+
+
+#myGenders a.women ,
+#myGenders2 a.women {
+
+
+	background: #ece75f;
+	height: 157px;
+
+  -moz-transition-property: all;
+  -o-transition-property: all;
+  -webkit-transition-property: all;
+  transition-property: all;
+  -moz-transition-duration: 0.5s;
+  -o-transition-duration: 0.5s;
+  -webkit-transition-duration: 0.5s;
+  transition-duration: 0.5s;
+  -moz-transition-timing-function: easeOutExpo;
+  -o-transition-timing-function: easeOutExpo;
+  -webkit-transition-timing-function: easeOutExpo;
+  transition-timing-function: easeOutExpo;
+
+}
+
+#myGenders a.active,
+#myGenders2 a.active {
+		width: 75%;
+		float: left;
+}
+
+
+#myGenders a.active .titlex,
+#myGenders2 a.active .titlex  {
+	margin-top: 5px;
+	font-size: 62px; 
+}
+
+
+
+#myGenders a .titlex,
+#myGenders2 a .titlex  {
+font-size: 28px;
+clear: both;
+float: left;
+width: 100%;
+margin-top: 30px;
+
+  -moz-transition-property: all;
+  -o-transition-property: all;
+  -webkit-transition-property: all;
+  transition-property: all;
+  -moz-transition-duration: 0.5s;
+  -o-transition-duration: 0.5s;
+  -webkit-transition-duration: 0.5s;
+  transition-duration: 0.5s;
+  -moz-transition-timing-function: easeOutExpo;
+  -o-transition-timing-function: easeOutExpo;
+  -webkit-transition-timing-function: easeOutExpo;
+  transition-timing-function: easeOutExpo;
+
+	
+}
+
+
+#myGenders a .titlex-cta,
+#myGenders2 a .titlex-cta { 
+font-size: 16px;
+clear: both;
+float: left;
+width: 100%;
+font-weight: 500;
+margin-top: 10px; 
+opacity: 1;
+display: block;
+	
+}
+
+
+
+
+#myGenders a.men, 
+#myGenders2 a.women {
+	text-decoration: none;
+	text-align: center;
+	width: 25%;
+	float: left;
+
+  -moz-transition-property: all;
+  -o-transition-property: all;
+  -webkit-transition-property: all;
+  transition-property: all;
+  -moz-transition-duration: 0.5s;
+  -o-transition-duration: 0.5s;
+  -webkit-transition-duration: 0.5s;
+  transition-duration: 0.5s;
+  -moz-transition-timing-function: easeOutExpo;
+  -o-transition-timing-function: easeOutExpo;
+  -webkit-transition-timing-function: easeOutExpo;
+  transition-timing-function: easeOutExpo;
+}
+
+
+#myGenders2 a.men, 
+#myGenders a.women {
+	text-decoration: none;
+	text-align: center;
+	width: 75%;
+	float: left;
+
+  -moz-transition-property: all;
+  -o-transition-property: all;
+  -webkit-transition-property: all;
+  transition-property: all;
+  -moz-transition-duration: 0.5s;
+  -o-transition-duration: 0.5s;
+  -webkit-transition-duration: 0.5s;
+  transition-duration: 0.5s;
+  -moz-transition-timing-function: easeOutExpo;
+  -o-transition-timing-function: easeOutExpo;
+  -webkit-transition-timing-function: easeOutExpo;
+  transition-timing-function: easeOutExpo;
+}
+
+
+
+#myGenders:hover a.men,
+#myGenders2:hover a.men
+{
+    width: 25%;
+}
+#myGenders:hover a.men:hover,
+#myGenders2:hover a.men:hover
+{
+    width: 75%;
+}
+#myGenders:hover a.women,
+#myGenders2:hover a.women
+{
+    width: 25%;
+}
+#myGenders:hover a.women:hover,
+#myGenders2:hover a.women:hover
+{
+    width: 75%;
+}
+
+
+
+#myGenders:hover a.men .titlex, #myGenders:hover a.women .titlex,
+#myGenders2:hover a.men .titlex, #myGenders2:hover a.women .titlex {
+font-size: 28px;
+clear: both;
+float: left;
+width: 100%;
+margin-top: 30px;
+}
+
+#myGenders:hover a.men:hover .titlex, #myGenders:hover a.women:hover .titlex,
+#myGenders2:hover a.men:hover .titlex, #myGenders2:hover a.women:hover .titlex {
+
+	margin-top: 5px;
+	font-size: 62px; 
+} 
+
+#myGenders:hover a.men .titlex-cta, #myGenders:hover a.women .titlex-cta,
+#myGenders2:hover a.men .titlex-cta, #myGenders2:hover a.women .titlex-cta {
+font-size: 16px;
+clear: both;
+float: left;
+width: 100%;
+font-weight: 500;
+margin-top: 10px;
+opacity: 1;
+display: block;
+}
+
+#myGenders:hover a.men:hover .titlex-cta, #myGenders:hover a.women:hover .titlex-cta,
+#myGenders2:hover a.men:hover .titlex-cta, #myGenders2:hover a.women:hover .titlex-cta {
+   
+display: none;
+} 
+
+
+
+#womens-pane {
+	position: absolute;
+	left: 0;
+	height: 2130px;
+	display: block;
+	width: 100%;
+	background: url(/lib/hlight/fitness/images/womens/background-women.jpg) no-repeat;
+	background-size: 100% 100%;
+}
+
+#mens-pane {
+	position: absolute;
+	right: -100%;
+	height: 2130px;
+	display: block;
+	width: 100%;
+	background: url(/lib/hlight/fitness/images/mens/background-men.jpg) no-repeat;
+	background-size: 100% 100%;
+}
+
+
+
+
+#mens-pane #middle-spots-wrap.landing ul li.toprights .text p.cta { 
+background: #353433; 
+}
+
+
+
+#tim-tim {
+position: absolute;
+top: 2029px;
+background: #fff;
+height: 265px;
+width: 100%;
+left: 0;
+z-index: 1;
+}
+
+#socialBar, #landing-description {
+	z-index: 200; 
+	position: relative;
+	margin: 0 auto;
+	width: 980px;
+}
+
+
+.sliderMen1  .item img, .sliderMen2  .item img, .sliderWomen1 .item img, .sliderWomen2  .item img{
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+
+
+#sliderWomen1 .item, #sliderWomen2 .item, #sliderMen1 .item, #sliderMen2 .item{
+  	width: 378px;
+margin: 0;
+color: #FFF;
+-webkit-border-radius: 0;
+-moz-border-radius: 0;
+border-radius: 0;
+text-align: center;
+height: 680px;
+}
+
+
+.owl-nav{
+top: 40%;
+position: absolute;
+width: 100%;
+}
+
+.owl-prev { background: url("/lib/hlight/fitness/assets/owl/assets/arrow-left.png") no-repeat scroll top center rgba(0, 0, 0, 0) !important; text-indent: -9999px;
+    left: 0 ;z-index: 9999;
+position: absolute;top: 20%;
+height: 50px;
+opacity: 1;
+width: 50px;
+}
+
+.owl-next { background: url("/lib/hlight/fitness/assets/owl/assets/arrow-right.png") no-repeat scroll top center rgba(0, 0, 0, 0) !important; text-indent: -9999px;z-index: 9999;
+position: absolute; right: 0 ;top: 20%;
+height: 50px;
+width: 50px;
+opacity: 1;
+}
+
+
+.owl-prev:hover, .owl-next:hover {
+	opacity: 0.7;
+}
+
+
+.owl-controls .owl-nav .disabled{ opacity: 0.1; cursor: default; }
+
+
+
+.expose {
+    position:relative;
+}
+
+#overlay {
+    background:rgba(0,0,0,0.6);
+    display:none;
+    width:100%; height:2294px;
+    position:absolute; top:0; left:0; z-index:99998;
+}
+
+
+
+#womens-pane #middle-spots-wrap.landing ul li .text p.cta:hover {
+	text-decoration: none;
+	color: #fff;
+	background: #353433;
+}
+
+
+
+#mens-pane #middle-spots-wrap.landing ul li .text p.cta:hover {
+	text-decoration: none;
+	color: #fff;
+background: #353433;
+}
+
+
+
+.owl-carousel .owl-item{ 
+    z-index: 1;  /* added this*/
+}
+
+
+/*dfdfdd*/
+/*
+
+#middle-spots-wrap.landing ul li .text p.yellow {
+	text-decoration: none;
+	color: #fff;
+	background: #e8b3d1;
+}
+
+#middle-spots-wrap.landing ul li .text p.brown {
+	text-decoration: none;
+	color: #fff;
+	background: #e8b3d1;
+}
+
+
+
+#middle-spots-wrap.landing ul li .text p.red {
+	text-decoration: none;
+	color: #fff;
+	background: #e8b3d1;
+}
+
+
+
+#middle-spots-wrap.landing ul li .text p.pink {
+	text-decoration: none;
+	color: #fff;
+	background: #e8b3d1;
+}
+
+
+
+#middle-spots-wrap.landing ul li .text p.blue {
+	text-decoration: none;
+	color: #fff;
+background: #72c7d5;
+} 
+
+
+
+#middle-spots-wrap.landing ul li .text p.yellow:hover {
+	text-decoration: none;
+	color: #fff;
+	background: #e8b3d1;
+}
+
+#middle-spots-wrap.landing ul li .text p.brown:hover {
+	text-decoration: none;
+	color: #fff;
+	background: #e8b3d1;
+}
+
+
+
+#middle-spots-wrap.landing ul li .text p.red:hover {
+	text-decoration: none;
+	color: #fff;
+	background: #e8b3d1;
+}
+
+
+
+#middle-spots-wrap.landing ul li .text p.pink:hover {
+	text-decoration: none;
+	color: #fff;
+	background: #e8b3d1;
+}
+
+
+
+#middle-spots-wrap.landing ul li .text p.blue:hover {
+	text-decoration: none;
+	color: #fff;
+background: #72c7d5;
+}
+*/

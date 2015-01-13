@@ -1,0 +1,49 @@
+/***
+
+ * --- --- --- --- ---
+ * JD Sports Fashion plc
+ * IBM WebSphere Commerce Platform
+ * Khaleel Mughal
+ * --- --- --- --- ---
+ * #TEMPLATEHIGHLIGHT
+ * --- --- --- --- ---
+
+***/
+
+/*
+REWRITES OF JD
+*/
+.contentContainer{width:100% !important;padding:0px !important}
+.full-width-header{z-index:9999 !important}
+.full-width-footer{position:relative;z-index:9000}
+
+/*
+GLOBALS
+*/
+#backtoschool{background:#000;position:relative;overflow:hidden;color:#fff;font-family:Helvetica, Arial, sans-serif;width:100%;height:100%}
+.ruh{width:976px !important;margin:0 auto;position:relative !important}
+.left{float:left}
+.right{float:right}
+.hide{display:none}
+.clear{clear:both}
+.last{margin-right:0 !important}
+.caps{text-transform:uppercase}
+.center{text-align:center}
+.halfcircle{border-radius:27px}
+.caps{text-transform:uppercase}
+.fullwidth{width:100%}
+
+/*
+PAGE SPECIFICS
+*/
+.sample1{background:#3A42E8;color:#fff;height:400px;line-height:200px;font-size:21px;text-align:center}
+.sample2{background:#EE0949;color:#fff;height:400px;font-size:21px;text-align:center}
+
+
+/*
+RESPONSIVE
+*/
+@media screen and (max-width:1475px){}
+@media screen and (max-width:1200px){}
+@media screen and (max-width:1024px){}
+@media screen and (max-width:800px){}

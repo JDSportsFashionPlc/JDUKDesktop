@@ -1,0 +1,190 @@
+<!--
+/***
+
+ * --- --- --- --- ---
+ * JD Sports Fashion plc
+ * IBM WebSphere Commerce Platform
+ * Raghu Bezawada - 16.12.2014
+ * --- --- --- --- ---
+ * # CSS for JDHOMEPAGE
+ * --- --- --- --- ---
+ 
+***/
+-->
+
+<!--
+NIKE SKINS
+-->
+<![if !IE]>
+<style type="text/css">
+.contentContainer {position:relative;background:#fff}
+.page {overflow:visible}
+#page {background:#fff}
+.hide {display:none}
+.tTakeImgResponsive img{width:100%}
+.takeOverSpot {position:absolute;top:0}
+.lw {left:-290px}
+.rw {right:-290px}
+@media screen and (max-width: 1700px) {
+.takeOverSpot {width:255px}
+.lw {left:-250px}
+.rw {right:-250px}
+}
+@media screen and (max-width: 1400px) {
+.takeOverSpot {width:215px}
+.lw {left:-205px}
+.rw {right:-205px}
+}
+
+<![endif]>
+
+
+<!--
+// CSS
+-->
+
+    .ctanew {
+        display: block;
+        position: absolute;
+        text-decoration: none;
+        height: 32px;
+        line-height: 32px;
+        padding-left: 15px;
+        padding-right: 50px;
+        color: #fff;
+        background: url('/images/call-to-action-arrows.png') #fff no-repeat 100% 0;
+        font-weight: bold
+    }
+    .ctanew:hover {
+        background-position: 100% -32px !important
+    }
+    .yellowHover:hover {
+        opacity: 0.9
+    }
+    .call-to-action:hover {
+        background: url("/images/jd-master-sprite-sheet.png") no-repeat scroll 100% -525px #ccc !important;
+        color: #000 !important
+    }
+    .nocaps {
+        text-transform: none !important
+    }
+    .thirdcta {
+        display: block;
+        height: 45px;
+        width: 150px;
+        position: absolute;
+        bottom: 51px
+    }
+
+<!--
+// USP CODE BLOCK
+-->
+
+    .usp-banner {
+        width: 100%;
+        height: 181px;
+        position: relative;
+        color: #2e2e2e;
+        background: #e7e7e7
+    }
+    #delivery-banner-wrap {
+        box-shadow: none !important
+    }
+    .usp-banner a {
+        transition: ease-in-out .5s
+    }
+    .hide {
+        display: none
+    }
+    .usp-banner a:hover {
+        opacity: 0.8;
+        transition: ease-in-out .5s
+    }
+    .contentContainer {
+        position: relative;
+        width: 100%;
+        padding: 0px;
+        background:url(/images/library/2014/12.12.2014/bg.png) repeat-x 0 -19px;
+    }
+    .fix {
+        width: 976px;
+        position: relative;
+        margin: 0 auto
+    }
+    .usp-banner-section {
+        width: 115px;
+        padding-right: 5px;
+        padding-left: 13px;
+        float: left;
+        position: relative;
+        height: 175px;
+        margin-top: 23px;
+        line-height: 19px
+    }
+    .usp-banner-section-middle {
+        margin-left: 9px;
+        margin-right: 9px;
+        color: #2e2e2e;
+        text-align: center;
+        width: 335px !important
+    }
+    .usp-banner-section a {
+        text-decoration: none
+    }
+    .clear {
+        clear: both
+    }
+    .ultra {
+        font-family: 'Gotham A', 'Gotham B', sans-serif !important;
+        font-size: 19px;
+        font-weight: bold;
+    }
+    .gotham {
+        font-family: 'Gotham A', 'Gotham B', sans-serif !important;
+        font-size: 12px;
+        font-weight: 400
+    }
+    a.button-gotham span{
+        display: block;
+        background: #2e2e2e;
+        color: #fff;
+        font-size: 11px !important;
+        padding: 5px 23px;
+        text-transform: uppercase;
+        text-decoration: none;
+        transition: ease-in-out .2s;
+		  margin:-7px 0px;
+		  position:relative;
+		  z-index:10
+    }
+    .usp-pics {
+        width: 150px;
+        border: 0;
+        text-align: center
+    }
+	 .usp-pics img{
+		 position:relative;
+		  z-index:5
+	 }
+    a.gotham:hover {
+        text-decoration: underline
+    }
+	 #middle-spots-wrap img {
+		 position:absolute;
+		 top:0;
+		 left:0;
+		 z-index:1
+	 }
+	 .usptable {}
+	 .usptable tr {}
+	 .usptable td{vertical-align:middle}
+	 
+	 .proddetails {padding-top:160px; padding-left:25px; padding-bottom:15px; text-align:left; background:#f2f2f2}
+	 .owl-carousel .owl-item img {padding-left:25px; padding-top:20px; background:#f2f2f2}
+ 	 .owl-carousel .owl-item {background:#f2f2f2}
+/*	 .owl-nav {position:absolute; width:100%; margin-top:-158px;margin-left:-488px; display:inline-block} */
+	 .owl-prev {display:block !important; text-align:left; color:black; float:left; padding-left:10px; background:url(../images/left_arrow_slider.png) !important; font-size: -9999px !important; position:absolute; top:90px}
+	 .owl-next {display:block !important; text-align:right; color:black; float:right; padding-right:10px; background:url(../images/right_arrow_slider.png) !important; font-size: -9999px !important; position:absolute; top:90px; margin-left:925px !important}
+	 .owl-theme .owl-controls .owl-nav [class*='owl-'] {min-height:39px; min-width:32px; font-size:0px}
+
+</style>

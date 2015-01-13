@@ -1,0 +1,426 @@
+
+.viewbuttons{
+	margin: 0 0 20px 0;
+}
+
+
+#page {
+	text-rendering: optimizeLegibility;
+text-rendering: geometricPrecision;
+font-smoothing: antialiased;
+-moz-font-smoothing: antialiased;
+-webkit-font-smoothing: antialiased;
+-webkit-font-smoothing: subpixel-antialiased;
+
+	-webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+/* not wide */
+
+#maincontainer {
+	/*background-color: #e5e5e5;*/
+	/*width: 936px;*/ /* RJR (11/04/13) */
+	padding: 20px;
+	_padding: 20px;
+
+	/*new style TIMI*/
+	padding: 20px;
+	width: 100%;
+	height: 300px;
+	
+	/*-moz-border-radius:5px;*/
+	/*-webkit-border-radius:5px;*/
+	/*border-radius:5px;*/
+	
+	/*-moz-box-shadow:0px 0px 6px #ccc;*/
+	/*-webkit-box-shadow:0px 1px 6px #ccc;*/
+	/*box-shadow: 0px 1px 6px #ccc;*/
+	/*border:1px solid #666;*/
+	
+	/*background: rgb(242,245,246); /* Old browsers */
+	/*background: -moz-linear-gradient(top, rgba(242,245,246,1) 0%, rgba(227,234,237,1) 37%, rgba(200,215,220,1) 100%); /* FF3.6+ */
+	/*background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(242,245,246,1)), color-stop(37%,rgba(227,234,237,1)), color-stop(100%,rgba(200,215,220,1))); /* Chrome,Safari4+ */
+	/*background: -webkit-linear-gradient(top, rgba(242,245,246,1) 0%,rgba(227,234,237,1) 37%,rgba(200,215,220,1) 100%); /* Chrome10+,Safari5.1+ */
+	/*background: -o-linear-gradient(top, rgba(242,245,246,1) 0%,rgba(227,234,237,1) 37%,rgba(200,215,220,1) 100%); /* Opera 11.10+ */
+	/*background: -ms-linear-gradient(top, rgba(242,245,246,1) 0%,rgba(227,234,237,1) 37%,rgba(200,215,220,1) 100%); /* IE10+ */
+	/*background: linear-gradient(to bottom, rgba(242,245,246,1) 0%,rgba(227,234,237,1) 37%,rgba(200,215,220,1) 100%); /* W3C */
+	/*filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f2f5f6', endColorstr='#c8d7dc',GradientType=0 ); /* IE6-9 */
+}
+
+#maincontainer h1 {
+	color:#000000;
+	font-size: 1.5em;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight:bold;
+	margin: 0px 0px 20px 0px;
+}
+
+#maincontainer h2 {
+color: #000;
+font-size: 1.5em;
+font-family: Arial,Helvetica,sans-serif;
+font-weight: normal;
+text-decoration: none;
+text-transform: none;
+margin: 15px 0px 0;
+}
+
+#maincontainer p {
+	color: #000000;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+#maincontainer ul {
+	font:Arial, Helvetica, sans-serif;
+	font-size: 0.8em;
+	font-weight: bold;
+	margin-bottom: 20px;
+	padding-left: 10px;
+	_padding-left: 10px;
+}
+.myAccountLogin {
+    padding-bottom: 50px;
+    text-align: left;
+    width: 43%;
+    float: left;
+    clear: left;
+}
+
+#window1 {
+	/*background: url(/lib/images/email/signup/images/jdezine.jpg) top right no-repeat;
+	background-color: #FFFFFF;
+	border:solid 1px #cecece;
+	padding-left: 20px;
+	_padding-left: 20px;
+	margin: 20px 0px 20px 0px;*/
+	 
+	 /*new style*/
+	height: 677px;
+	border: 1px solid #CECECE;
+	padding-left: 20px;
+	margin: 20px 0px;
+	height: 674px;
+	background: url("/lib/images/email/signup/images/jdezine.jpg") no-repeat scroll 141px 250px rgb(255, 255, 255);
+	max-width: 444px;
+}
+
+#window2 {
+	background: url(/lib/images/email/signup/images/new-in.jpg) top right no-repeat;
+	background-color: #FFFFFF;
+	border:solid 1px #cecece;
+	padding-left: 20px;
+	_padding-left: 20px;
+	margin: 20px 0px 20px 0px;
+}
+
+#window3 {
+	background: url(/lib/images/email/signup/images/brand-updates.jpg) top right no-repeat;
+	background-color: #FFFFFF;
+	border:solid 1px #cecece;
+	padding-left: 20px;
+	_padding-left: 20px;
+	margin: 20px 0px 0px 0px;
+}
+
+
+/* wide */
+
+#maincontainerWide {
+	display:block;
+	position:relative;
+	background-color: #e5e5e5;
+	width: 860px;
+	padding: 20px;
+	_padding: 20px;
+}
+
+#maincontainerWide h1 {
+	color:#000000;
+	font-size: 1.5em;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight:bold;
+	margin: 0px 0px 20px 0px;
+}
+
+#maincontainerWide h2 {
+	color:#000000;
+	font-size: 1.5em;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	text-decoration: underline;
+	text-transform:uppercase ;
+	margin:15px 0;
+}
+
+#maincontainerWide p {
+	color: #000000;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+#maincontainerWide ul {
+	font:Arial, Helvetica, sans-serif;
+	font-size: 0.8em;
+	font-weight: bold;
+	margin-bottom: 20px;
+	padding-left: 10px;
+	_padding-left: 10px;
+}
+
+
+#windowWide1 {
+	background: url(/jdlib/email/signup/images/jdezine.jpg) top right no-repeat;
+	background-color: #FFFFFF;
+	border:solid 1px #cecece;
+	padding-left: 20px;
+	_padding-left: 20px;
+	margin: 20px 0px 20px 0px;
+}
+
+#windowWide2 {
+	background: url(/jdlib/email/signup/images/new-in.jpg) top right no-repeat;
+	background-color: #FFFFFF;
+	border:solid 1px #cecece;
+	padding-left: 20px;
+	_padding-left: 20px;
+	margin: 20px 0px 20px 0px;
+}
+
+#windowWide3 {
+	background: url(/jdlib/email/signup/images/brand-updates.jpg) top right no-repeat;
+	background-color: #FFFFFF;
+	border:solid 1px #cecece;
+	padding-left: 20px;
+	_padding-left: 20px;
+	margin: 20px 0px 0px 0px;
+}
+.myAccountLogin a.createButton {
+    position: relative;
+    top: 0px;
+    left: 0px;
+    padding: 10px 15px;
+    line-height: 100%;
+    border-radius: 5px;
+    cursor: pointer;
+    width: auto;
+    overflow: visible;
+    font-weight: normal;
+    font-size: 14px;
+    text-shadow: 0px 1px 0px #FFF;
+    color: #666;
+    text-decoration: none;
+    vertical-align: middle;
+    box-sizing: border-box;
+    display: inline-block;
+    border: 1px solid #666;
+    background: #29942A; /* for non-css3 browsers */
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#6DC56E', endColorstr='#29942A'); /* for IE */
+	background: -webkit-gradient(linear, left top, left bottom, from(#6DC56E), to(#29942A)); /* for webkit browsers */
+	background: -moz-linear-gradient(top,  #6DC56E,  #29942A); /* for firefox 3.6+ */	
+    float: right;
+    margin: 0px;
+}
+
+
+
+.myAccountLogin a.createButton, .returningCustomer .loginButton {
+    color: #FFF;
+    border-radius: 4px;
+    border: 1px solid #29942A;
+    cursor: pointer;
+    background: #29942A; /* for non-css3 browsers */
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#6DC56E', endColorstr='#29942A'); /* for IE */
+	background: -webkit-gradient(linear, left top, left bottom, from(#6DC56E), to(#29942A)); /* for webkit browsers */
+	background: -moz-linear-gradient(top,  #6DC56E,  #29942A); /* for firefox 3.6+ */	
+
+    display: inline-block;
+    height: 34px;
+    text-align: center;
+    padding: 9px 15px 0px;
+    font-weight: 100;
+    text-shadow: none !important;
+}
+
+
+.myAccountLogin .newsletter p {
+    margin-top: 10px;
+}
+
+.returningCustomer .frame {
+	box-shadow: none;
+border-radius: 0;
+border: none;
+    color: #000;
+    margin: 0px;
+    clear: both;
+    width: 940px;
+    padding: 15px 20px 15px 14px;
+    line-height: 28px;
+    background: none repeat scroll 0% 0% #E6E6E6;
+}
+
+
+
+.myAccountLogin .newAccount input, .myAccount input, .returningCustomer input{
+	box-shadow: none;
+	border-radius: 0px;
+	border: none;
+	background: #fff;
+	display: block;
+	width: 269px;
+}
+
+ .returningCustomer input { 
+background: none repeat scroll 0% 0% #FFF;
+margin-left: 51px;
+width: 269px;
+margin-right: 0;
+}
+#maincontainer {
+position: relative;
+padding: 20px;
+width: 100%;
+height: 162px;
+margin-top: 100px;
+border: 1px solid #c3c3c3;
+}
+#maincontainer h1 {  
+    margin: 22px 0px -10px;
+    position: absolute;
+	top: 0px;
+	z-index: 555;
+}
+.newAccount h1 { 
+    margin-top: -49px; 
+}
+
+#UserRegistrationAddForm {
+	margin-top: 28px;
+}
+.loginInfo .newsletter {
+    width: 100%;
+}
+
+.signUpContentSpot {
+    margin: 127px 0px 0px;
+    padding-bottom: 50px;
+    width: 50%;
+    float: right;
+    height: 500px;
+    overflow: hidden;
+}
+
+.myAccountLogin .newAccount { 
+	box-shadow: none;
+border-radius: 0;
+border: none;
+    margin-top: 67px;
+    border: none;
+    background: none repeat scroll 0% 0% #E6E6E6;
+    float: left;
+    padding: 10px 25px 15px 14px !important;
+	width: 100%;
+}
+#window1 {
+position: absolute;
+height: 172px;
+width: 100%;
+left: 0px;
+padding-left: 19px;
+top: 0px;
+background: url("/lib/images/email/signup/images/jdezine.jpg") no-repeat scroll 192px -59px #FFF;
+padding-top: 30px;
+margin: 0px;
+z-index: 0;
+border: 0px none;
+max-width: 100%;
+}
+
+.myAccountLogin .newAccount label, .myAccount label {
+    width: 116px !important;
+    padding-top: 1.5em;
+    display: block;
+    float: left;
+    margin-right: 33px;
+}
+
+.newsletter input[type="checkbox"] {
+    display: block;
+    width: 22px;
+    height: 22px;
+}
+
+.returningCustomer form {
+    float: none;
+}
+
+
+.newsletter input[type="checkbox"] + label, .newsletter input[type="checkbox"]:checked + label {
+    line-height: 46px;
+width: 72px !important;
+background: none repeat scroll 0% 0% transparent;
+margin-left: 13px;
+content: inherit;
+padding-left: 0;
+}
+
+#personTitle { 
+    width: 269px; 
+    border: 1px solid #e6e6e6;
+}
+
+#birth_year, #birth_month, #birth_day { 
+    border: 1px solid #e6e6e6;
+}
+
+#logonPasswordDiv {
+    width: 371px;
+    margin-right: 0px;
+    margin-left: 55px;
+}
+
+
+#emailIdDiv {
+	width: 432px !important;
+}
+
+.returningCustomer .loginButton {
+    float: left;
+    width: 65px;
+}
+.returningCustomer span { 
+clear: both;
+margin-left: 586px;
+float: left;
+}
+
+#birth_day, #birth_month, #birth_year {
+	margin-right: 11px;
+}
+
+#birth_year {
+	margin-right: 0;
+}
+
+@-moz-document url-prefix() {
+
+	.returningCustomer span {  
+	margin-left: 573px; 
+	}
+}
+
+.returningCustomer form div input#logonPassword {
+    width: 258px;
+    margin-left: 0px !important;
+}
+
+
+
+
+
+
+
+
+
+
+
