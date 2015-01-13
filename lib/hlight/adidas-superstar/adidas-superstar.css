@@ -1,0 +1,50 @@
+/***
+
+ * --- --- --- --- ---
+ * JD Sports Fashion plc
+ * IBM WebSphere Commerce Platform
+ * Khaleel Mughal
+ * --- --- --- --- ---
+ * #adidas-superstar
+ * --- --- --- --- ---
+
+***/
+
+/*
+REWRITES OF JD
+*/
+.contentContainer{width:100% !important;padding:0px !important}
+.full-width-header{z-index:9999 !important}
+.full-width-footer{position:relative;z-index:9000}
+
+/*
+GLOBALS
+*/
+#adidas-superstar{background: url(http://superstar.adidas-apps.com/assets/frontend/img/template/background.png);background: url(http://superstar.adidas-apps.com/assets/frontend/img/template/shoes.png) 50% 130px no-repeat, url(http://superstar.adidas-apps.com/assets/frontend/img/template/background.png) 0 0 repeat;position:relative;overflow:hidden;color:#fff;font-family:Helvetica, Arial, sans-serif;width:100%;height:100%}
+.ruh{width:976px !important;margin:0 auto;position:relative !important}
+.left{float:left}
+.right{float:right}
+.hide{display:none}
+.clear{clear:both}
+.last{margin-right:0 !important}
+.fade a:hover, .fade a img:hover, .fade img:hover, .fade:hover{opacity:0.8;transition:ease-in .5s}
+.white{background:#fff}
+.caps{text-transform:uppercase}
+.center{text-align:center}
+.halfcircle{border-radius:27px}
+.caps{text-transform:uppercase}
+.fullwidth{width:100%}
+.gray{color:#a4a3a3}
+
+/*
+PAGE CSS
+*/
+#superstar{height:1633px;width:100%;max-width:976px;margin:0 auto;display:block;overflow:hidden}
+
+/*
+RESPONSIVE
+*/
+@media screen and (max-width:1475px){}
+@media screen and (max-width:1200px){}
+@media screen and (max-width:1024px){}
+@media screen and (max-width:800px){}
