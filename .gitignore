@@ -19,6 +19,15 @@
 *.rar
 *.tar
 *.zip
+*.eot
+
+inc/c.php
+/inc/c.php
+config.php
+wp-config.php
+*.htaccess
+*.vhost
+*wp-config.php
 
 *.log
 *.sql
