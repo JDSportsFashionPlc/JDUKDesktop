@@ -19,6 +19,7 @@
 *.rar
 *.tar
 *.zip
+*.eot
 
 inc/c.php
 /inc/c.php
