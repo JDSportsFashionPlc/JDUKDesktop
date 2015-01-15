@@ -1,0 +1,20 @@
+﻿<!doctype>
+<html>
+    <head>
+        <meta http-equiv="cache-control" content="public">
+		<script type="text/javascript" src="/lib/cs/js/numero.iframe.js"></script>
+        <script type="text/javascript">
+			var NUMERO_IFrame = NUMERO_IFrame || {};
+			
+			window.onload = function(){
+				var h = NUMERO_IFrame.getQueryString('height');
+				try {
+					top.NUMERO_IFrame.setFrameHeight(h);
+				}
+				catch(e) { 
+					console.log('Error setting NUMERO_iframe height' + e); 
+				}	
+        	};
+        </script>
+    </head>
+</html>

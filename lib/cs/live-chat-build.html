@@ -17,10 +17,6 @@ cmSetupNormalization("krypto-_-krypto");
 cmCreatePageviewTag("CUSTOMER SERVICE: LIVE CHAT", "CUSTOMER SERVICE", null, null, 10151);
 
 </script>
-
-
-
-
 <style type="text/css">#chatBox form {
     margin-top: 10px;
 }
@@ -154,102 +150,111 @@ cmCreatePageviewTag("CUSTOMER SERVICE: LIVE CHAT", "CUSTOMER SERVICE", null, nul
                 <li><a href="home.html">Home</a></li>
                 <li><a href="faqs.html">FAQs</a></li>
                 <li><a href="contact-us.html">Contact Us</a></li>
-                 <li class="current liveChatTab" id="liveagent_button_online_57320000000L0nR" style="display: none;" ><a href="" >Live Chat</a></li>
+                <li class="liveChatTab"><h1><a href="live-chat.html" class="current">Live Chat</a></h1></li>
             </ul>
     	</div>
     </div>
     <div id="content-responsive">
     	<div class="content">
         
+				<!--
+				// LIVECHAT
+				-->
+				<!-- IF ONLINE -->
+				<div id="liveagent_button_online_57320000000L0nR" style="display:none">
 				
 <div id="chatBox">
 <form method="POST" id="prechatForm" name="prechatForm"  onsubmit="return addEmail()">
  
  
- 
- 
+<!-- Detail inputs   You can try us on LiveChat by <a href="javascript://Chat" onclick="liveagent.startChat('57320000000L0nq')">clicking here</a><br /><Br />
+
+First Name: <input type="text" name="liveagent.prechat:contactFirstName" /><br />
+Last Name: <input type="text" name="liveagent.prechat:contactLastName" /><br />
+Email: <input type="text" name="liveagent.prechat:contactEmail" /><br />
+Subject: <input type="text" name="liveagent.prechat:caseSubject" /><br />-->
+
 	
 
 	
 	
-					<table width="350">
-						<tr><td><strong>First Name: <span class="red">*</span></strong></td><td><input type='text' id="name" name="liveagent.prechat:contactFirstName" /></td></tr>
-						<tr><td><strong>Last Name: <span class="red">*</span></strong></td><td><input type="text" id="last" name="liveagent.prechat:contactLastName" /></td></tr>
-						<tr><td><strong>Email: <span class="red">*</span></strong></td><td> <input type="text" id="email" name="liveagent.prechat:contactEmail" /></td></tr>
-						<tr><td><strong>Subject:</strong></td><td><input type="text"  id="subject" name="liveagent.prechat:caseSubject" /></td></tr>
-					 </table>
-					 
-					 
-				
-				
-				
-				 
-				<!-- Set the fascia in this hidden field to one of these:
-				  Ark
-				  Bank
-				  Blacks
-				  Footpatrol
-				  JD France
-				  JD Germany
-				  JD Holland
-				  JD Ireland
-				  JD Spain
-				  JD UK
-				  Millets
-				  Open
-				  Oswald Bailey
-				  Scotts
-				  Size
-				  Tessuti
-				  Ultimate Outdoors -->
-				<input type="hidden" name="liveagent.prechat:casePriority" value="JD UK"/>
-				
-				<!-- Map the detail inputs to the Account fields
-				<input type="hidden" name="liveagent.prechat.findorcreate.map:Contact" value="FirstName,contactFirstName;LastName,contactLastName;Email,contactEmail;" /> -->
-				<input type="hidden" name="liveagent.prechat.findorcreate.map:Account" value="FirstName,contactFirstName;LastName,contactLastName;PersonEmail,contactEmail;" />
-				 
-				<!-- Try to find the Account by email (exact match)
-				<input type="hidden" name="liveagent.prechat.findorcreate.map.doFind:Contact" value="Email,true;" />
-				<input type="hidden" name="liveagent.prechat.findorcreate.map.isExactMatch:Contact" value="Email,true;" /> -->
-				<input type="hidden" name="liveagent.prechat.findorcreate.map.doFind:Account" value="PersonEmail,true;" />
-				<input type="hidden" name="liveagent.prechat.findorcreate.map.isExactMatch:Account" value="PersonEmail,true;" />
-				 
-				<!-- If the Account is not found, then create one with the following fields set
-				<input type="hidden" name="liveagent.prechat.findorcreate.map.doCreate:Contact" value="FirstName,true;LastName,true;Email,true;" /> -->
-				<input type="hidden" name="liveagent.prechat.findorcreate.map.doCreate:Account" value="FirstName,true;LastName,true;PersonEmail,true;" /> 
-				
-				<!-- Save the Account on the Live Chat Transcript's Account Loookup
-				<input type="hidden" name="liveagent.prechat.findorcreate.saveToTranscript:Contact" value="Contact" /> -->
-				<input type="hidden" name="liveagent.prechat.findorcreate.saveToTranscript:Account" value="Account" />
-				 
-				<!-- Show the Account when it is found or created
-				<input type="hidden" name="liveagent.prechat.findorcreate.showOnCreate:Contact" value="true" /> -->
-				<input type="hidden" name="liveagent.prechat.findorcreate.showOnCreate:Account" value="true" />
-				
-				<!-- Set the origin and status -->
-				<input type="hidden" name="liveagent.prechat:caseOrigin" value="Live Chat" />
-				<input type="hidden" name="liveagent.prechat:caseStatus" value="Assigned" />
-				
-				<!-- Create a Case every time -->
-				<input type="hidden" name="liveagent.prechat.findorcreate.map:Case" value="Status,caseStatus;Origin,caseOrigin;Subject,caseSubject;Priority,casePriority" />
-				<input type="hidden" name="liveagent.prechat.findorcreate.map.doCreate:Case" value="Origin,true;Status,true;Subject,true;Priority,true" />
-				<input type="hidden" name="liveagent.prechat.findorcreate.saveToTranscript:Case" value="Case" />
-				<input type="hidden" name="liveagent.prechat.findorcreate.showOnCreate:Case" value="true" />
-				 
-				<!-- Link the Account to the Case
-				<input type= "hidden" name="liveagent.prechat.findorcreate.linkToEntity:Contact" value="Case,ContactId" /> -->
-				<input type= "hidden" name="liveagent.prechat.findorcreate.linkToEntity:Account" value="Case,AccountId" />
-				 
-				 
-				<input type="button" onClick="javascript:addEmail()" id="prechat_submit" class="blockButton start arrow" value="START CHAT" style="width:275px;cursor:pointer;height:51px">
-				
-				 
-				</form> 				
+   <table width="350">
+      <tr><td><strong>First Name: <span class="red">*</span></strong></td><td><input type='text' id="name" name="liveagent.prechat:contactFirstName" /></td></tr>
+      <tr><td><strong>Last Name: <span class="red">*</span></strong></td><td><input type="text" id="last" name="liveagent.prechat:contactLastName" /></td></tr>
+      <tr><td><strong>Email: <span class="red">*</span></strong></td><td> <input type="text" id="email" name="liveagent.prechat:contactEmail" /></td></tr>
+      <tr><td><strong>Subject:</strong></td><td><input type="text"  id="subject" name="liveagent.prechat:caseSubject" /></td></tr>
+    </table>
+	 
+	 
+
+
+
+ 
+<!-- Set the fascia in this hidden field to one of these:
+  Ark
+  Bank
+  Blacks
+  Footpatrol
+  JD France
+  JD Germany
+  JD Holland
+  JD Ireland
+  JD Spain
+  JD UK
+  Millets
+  Open
+  Oswald Bailey
+  Scotts
+  Size
+  Tessuti
+  Ultimate Outdoors -->
+<input type="hidden" name="liveagent.prechat:casePriority" value="JD UK"/>
+
+<!-- Map the detail inputs to the Account fields
+<input type="hidden" name="liveagent.prechat.findorcreate.map:Contact" value="FirstName,contactFirstName;LastName,contactLastName;Email,contactEmail;" /> -->
+<input type="hidden" name="liveagent.prechat.findorcreate.map:Account" value="FirstName,contactFirstName;LastName,contactLastName;PersonEmail,contactEmail;" />
+ 
+<!-- Try to find the Account by email (exact match)
+<input type="hidden" name="liveagent.prechat.findorcreate.map.doFind:Contact" value="Email,true;" />
+<input type="hidden" name="liveagent.prechat.findorcreate.map.isExactMatch:Contact" value="Email,true;" /> -->
+<input type="hidden" name="liveagent.prechat.findorcreate.map.doFind:Account" value="PersonEmail,true;" />
+<input type="hidden" name="liveagent.prechat.findorcreate.map.isExactMatch:Account" value="PersonEmail,true;" />
+ 
+<!-- If the Account is not found, then create one with the following fields set
+<input type="hidden" name="liveagent.prechat.findorcreate.map.doCreate:Contact" value="FirstName,true;LastName,true;Email,true;" /> -->
+<input type="hidden" name="liveagent.prechat.findorcreate.map.doCreate:Account" value="FirstName,true;LastName,true;PersonEmail,true;" /> 
+
+<!-- Save the Account on the Live Chat Transcript's Account Loookup
+<input type="hidden" name="liveagent.prechat.findorcreate.saveToTranscript:Contact" value="Contact" /> -->
+<input type="hidden" name="liveagent.prechat.findorcreate.saveToTranscript:Account" value="Account" />
+ 
+<!-- Show the Account when it is found or created
+<input type="hidden" name="liveagent.prechat.findorcreate.showOnCreate:Contact" value="true" /> -->
+<input type="hidden" name="liveagent.prechat.findorcreate.showOnCreate:Account" value="true" />
+
+<!-- Set the origin and status -->
+<input type="hidden" name="liveagent.prechat:caseOrigin" value="Live Chat" />
+<input type="hidden" name="liveagent.prechat:caseStatus" value="Assigned" />
+
+<!-- Create a Case every time -->
+<input type="hidden" name="liveagent.prechat.findorcreate.map:Case" value="Status,caseStatus;Origin,caseOrigin;Subject,caseSubject;Priority,casePriority" />
+<input type="hidden" name="liveagent.prechat.findorcreate.map.doCreate:Case" value="Origin,true;Status,true;Subject,true;Priority,true" />
+<input type="hidden" name="liveagent.prechat.findorcreate.saveToTranscript:Case" value="Case" />
+<input type="hidden" name="liveagent.prechat.findorcreate.showOnCreate:Case" value="true" />
+ 
+<!-- Link the Account to the Case
+<input type= "hidden" name="liveagent.prechat.findorcreate.linkToEntity:Contact" value="Case,ContactId" /> -->
+<input type= "hidden" name="liveagent.prechat.findorcreate.linkToEntity:Account" value="Case,AccountId" />
+ 
+ 
+<input type="button" onClick="javascript:addEmail()" id="prechat_submit" class="blockButton start arrow" value="START CHAT" style="width:275px;cursor:pointer;height:51px">
+
+ 
+</form> 				
 				</div>
 				</div>
-				
-				
-		
+				<!-- IF OFFLINE -->
+				<div id="liveagent_button_offline_57320000000L0nR" style="display:none">Our LiveChat is currently offline.</div>
 
         </div>
     </div>
@@ -258,7 +263,23 @@ cmCreatePageviewTag("CUSTOMER SERVICE: LIVE CHAT", "CUSTOMER SERVICE", null, nul
 <!-- 
 // LIVECHAT JS
 -->
+<script type='text/javascript' src='https://c.la2w2.salesforceliveagent.com/content/g/js/31.0/deployment.js'></script>
 <script type='text/javascript'>
+	
+	// INIT LIVEAGENT
+	
+	liveagent.init('https://d.la2w2.salesforceliveagent.com/chat', '57220000000KzzV', '00D20000000oqHe');
+
+	// LIVECHAT
+	// -- LiveChat SalesForce
+	if (!window._laq) {
+		 window._laq = [];
+	}
+	window._laq.push(function() {
+		 liveagent.showWhenOnline('57320000000L0nR', document.getElementById('liveagent_button_online_57320000000L0nR'));
+		 liveagent.showWhenOffline('57320000000L0nR', document.getElementById('liveagent_button_offline_57320000000L0nR'));
+	});
+	
 	var checkRefer = function() {
 		if (window.opener == null) {
 			
@@ -316,9 +337,6 @@ cmCreatePageviewTag("CUSTOMER SERVICE: LIVE CHAT", "CUSTOMER SERVICE", null, nul
 			$('#00N20000009HPXF').removeClass("errorformapps")
 		}*/
 		
-		
-		
-		
 		if(flag==1){
 		} else {
 			
@@ -329,36 +347,24 @@ cmCreatePageviewTag("CUSTOMER SERVICE: LIVE CHAT", "CUSTOMER SERVICE", null, nul
 		
 	}
 	
+	
+	
+	
+	
 	(function() { 
-	function handlePageLoad() {
-	var endpointMatcher = new RegExp("[\\?\\&]endpoint=([^&#]*)");
-	document.getElementById('prechatForm').setAttribute('action',
-	decodeURIComponent(endpointMatcher.exec(document.location.search)[1]));
-	} 
-	if (window.addEventListener) {
-	window.addEventListener('load', handlePageLoad, false);
-	} else { 
-	window.attachEvent('onload', handlePageLoad, false);
-	}
-	})();
-	
-	
-	
-	
+  function handlePageLoad() {
+    var endpointMatcher = new RegExp("[\\?\\&]endpoint=([^&#]*)");
+    document.getElementById('prechatForm').setAttribute('action',
+    decodeURIComponent(endpointMatcher.exec(document.location.search)[1]));
+  } 
+  if (window.addEventListener) {
+    window.addEventListener('load', handlePageLoad, false);
+  } else { 
+    window.attachEvent('onload', handlePageLoad, false);
+  }
+})();
 	
 	
 </script>
-
-
-
-
-<script type='text/javascript' src='https://c.la2w2.salesforceliveagent.com/content/g/js/31.0/deployment.js'></script>
-<script type='text/javascript'>
-	liveagent.init('https://d.la2w2.salesforceliveagent.com/chat', '57220000000KzzV', '00D20000000oqHe');
-</script><script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script><script src="/lib/cs/js/livechat.js"></script>
-
-
-
-
 </body>
 </html>
