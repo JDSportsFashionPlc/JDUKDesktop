@@ -1,0 +1,202 @@
+
+
+select {
+	background: url('images/dropdown.png') no-repeat right #fff;
+}
+
+#chatBox form .form-row .labelgroup label .tooltip, .required {
+	color: red;
+	
+}
+
+.inline_error {
+	
+}
+
+#chatBox form #buttons {
+	margin-top: 20px;
+	-webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+#chatBox a:hover, #chatBox a, .navigation a:hover, .navigation a, .navigation:link {
+	color: #fff;
+}
+
+#chatHeader {
+	border-bottom: 1px solid #000;
+	padding-bottom: 15px;
+	margin-bottom: 30px;
+}
+
+#chatHeader img {
+	margin: 0 10px 0 0;
+}
+
+
+#chatHeader span {
+	font-weight: bold;
+	font-size: 16px;
+	text-transform: uppercase;
+	line-height: 27px;
+	display: inline-block;
+	vertical-align: top;
+}
+
+#chatBox form .blockButton {
+	border: 0px;
+	text-transform: uppercase;
+}
+
+.cancel {
+	float: left;
+	background: #9d9d9d;
+}
+
+.start {
+	float: right;
+}
+
+/* CHAT SESSION */
+#chatBox textarea {
+	margin: 20px 0 0 0;
+	-webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+	border: 1px solid #c9c9c9;
+	font-family: inherit;
+}
+#chatBox #chatDisplay {
+	height: 255px;
+	-webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+	border: 1px solid #c9c9c9;
+	font-family: inherit;
+	margin: 20px 0 20px 0;
+	background: #fff;
+}
+
+#chatBox p {
+	margin-bottom: 10px;
+}
+
+#chatBox #chatDisplay .msg {
+	-webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+	font-family: inherit;
+	padding: 10px;
+}
+
+.agent {
+	background: #e9e9e9;
+	border-bottom: 1px solid #fff;
+}
+
+.customer {
+	background: #fff;
+	border-bottom: 1px solid #e9e9e9;
+}
+
+#chatBox #chatDisplay .msg b {
+	font-weight: bold;
+	font-size: 14px;
+}
+
+#chatBox #chatDisplay .msg span {
+	color: #ccc;
+	float: right;
+}
+
+#chatBox #chatDisplay .msg p {
+	margin-top: 5px;
+	font-size: 12px;
+}
+	
+.error {
+	color: red;
+	margin: 0 0 10px 0;
+}
+
+b {
+	font-weight: bold;
+}
+
+.error ul li {
+	margin: 5px 0 0 5px;
+}
+
+#messageBox {
+	width: 100%;
+	margin: 0 0 10px 0;
+}
+
+#userStatus {
+	font-weight: bold;
+	margin: 5px 0 5px 0;
+	height: 14px;
+}
+
+/* CONTACT FORM */
+#contact h1 {
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: 18px;
+	margin: 0 0 10px 0;
+}
+#contact form {
+	width: 500px;
+}
+#contact label {
+	text-transform: uppercase;
+	margin: 20px 0 10px 0;
+	font-size: 14px;
+	display: block;
+}
+#contact input, #contact select, #contact textarea {
+	border: 1px solid #000000;
+	padding: 5px;
+	margin: 0px;
+	width: 100%;
+	-webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+	display: block;
+	font-family: inherit;
+}
+
+#contact textarea {
+	height: 120px;
+}
+
+#contact button {
+	display: block;
+	margin: 20px 0 0 0;
+}
+
+.tooltip {
+	color: red;
+	margin: 0 0 0 3px;
+}
+
+.inline_error {
+	margin: 5px 0 5px 0;
+	display: inline-block;
+}
+
+.cms-list {
+	margin: 0px;
+	padding: 0px;
+	list-style: none;
+}
+
+.t-page-loading-banner {
+	padding: 10px;
+}
+
+#displayPanel {
+	overflow: auto;
+	height: 255px;
+}

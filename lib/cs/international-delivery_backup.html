@@ -43,9 +43,7 @@ cmCreatePageviewTag("CUSTOMER SERVICE: INTERNATIONALDELIVERY", "CUSTOMER SERVICE
                 <li><a href="home.html">Home</a></li>
                 <li><a href="faqs.html">FAQs</a></li>
                 <li><a href="contact-us.html">Contact Us</a></li>
-               
-					 <li id="liveagent_button_online_57320000000L0nR" style="display: none;" class="liveChatTab"><a href="live-chat.html" >Live Chat</a></li>
-					
+                 <li id="liveagent_button_online_57320000000L0nR" style="display: none;" class="liveChatTab"><a href="live-chat.html" >Live Chat</a></li>
             </ul>
         </div>
     </div>
@@ -60,7 +58,8 @@ cmCreatePageviewTag("CUSTOMER SERVICE: INTERNATIONALDELIVERY", "CUSTOMER SERVICE
             <option value="0">Please Select a Country</option>          
 <option value="Australia">Australia</option>
 <option value="USA">USA</option>
-
+<option value="France">France</option>
+<option value="Germany">Germany</option>
 <option value="Albania">Albania</option>
 <option value="Algeria">Algeria</option>
 <option value="AmericanSamoa">American Samoa</option>
@@ -158,7 +157,7 @@ cmCreatePageviewTag("CUSTOMER SERVICE: INTERNATIONALDELIVERY", "CUSTOMER SERVICE
 <option value="Liechtenstein">Liechtenstein</option>
 <option value="Lithuania">Lithuania</option>
 <option value="Luxembourg">Luxembourg</option>
-
+<option value="Macao">Macao</option>
 <option value="Macedonia">Macedonia</option>
 <option value="Madagascar">Madagascar</option>
 <option value="Malawi">Malawi</option>
@@ -173,15 +172,14 @@ cmCreatePageviewTag("CUSTOMER SERVICE: INTERNATIONALDELIVERY", "CUSTOMER SERVICE
 <option value="Moldova">Moldova</option>
 <option value="Monaco">Monaco</option>
 <option value="Mongolia">Mongolia</option>
-
-
+<option value="Montenegro">Montenegro</option>
 <option value="Montserrat">Montserrat</option>
 <option value="Morocco">Morocco</option>
 <option value="Mozambique">Mozambique</option>
 <option value="Namibia">Namibia</option>
 <option value="Nauru">Nauru</option>
 <option value="Nepal">Nepal</option>
-
+<option value="Netherlands">Netherlands</option>
 <option value="NewCaledonia">New Caledonia</option>
 <option value="NewZealand">New Zealand</option>
 <option value="Niger">Niger</option>
@@ -224,7 +222,7 @@ cmCreatePageviewTag("CUSTOMER SERVICE: INTERNATIONALDELIVERY", "CUSTOMER SERVICE
 <option value="SolomonIslands">Solomon Islands</option>
 <option value="SouthKorea">South Korea</option>
 <option value="SouthAfrica">South Africa</option>
-
+<option value="Spain">Spain (and the Canary Islands)</option>
 <option value="SriLanka">Sri Lanka</option>
 <option value="SthGeorgia">Sth Georgia</option>
 <option value="Sudan">Sudan</option>
@@ -283,8 +281,22 @@ cmCreatePageviewTag("CUSTOMER SERVICE: INTERNATIONALDELIVERY", "CUSTOMER SERVICE
 <b>Standard Delivery</b><p>Delivery within 10 working days - &pound;4.99</p>
 <b>Express Delivery</b><p>Delivery within 5 working days - &pound;25</p>
 </div>
+<!--
+ECS-2863
+Removed by Khaleel via the JIRA of ECS-2863 from Brenton and John O'Callaghan
+Yesterday 4:25 PM 
 
+<div class="INTInfo" id="France" style="display: none;">
+<h3>France</h3>
+<b>Standard Delivery</b><p>Delivery within 4 to 5 working days - &pound;4.99</p>
+<b>Express Delivery</b><p>Delivery within 2 to 4 working days - &pound;8</p>
+</div>
 
+<div class="INTInfo" id="Germany" style="display: none;">
+<h3>Germany</h3>
+<b>Standard Delivery</b><p>Delivery within 6 working days - &pound;4.99</p>
+<b>Express Delivery</b><p>Delivery within 4 working days - &pound;8</p>
+</div>-->
 
 <div class="INTInfo" id="Albania" style="display: none;">
 <h3>Albania</h3>
@@ -917,6 +929,11 @@ cmCreatePageviewTag("CUSTOMER SERVICE: INTERNATIONALDELIVERY", "CUSTOMER SERVICE
 <b>Standard Delivery</b><p>Delivery within 6 to 10 working days - &pound;4.99</p>
 </div>
 
+<div class="INTInfo" id="Netherlands" style="display: none;">
+<h3>Netherlands</h3>
+<b>Standard Delivery</b><p>Delivery within 6 working days - &pound;4.99</p>
+<b>Express Delivery</b><p>Delivery within 4 working days - &pound;8</p>
+</div>
 
 <div class="INTInfo" id="NewCaledonia" style="display: none;">
 <h3>New Caledonia</h3>
@@ -1142,7 +1159,11 @@ cmCreatePageviewTag("CUSTOMER SERVICE: INTERNATIONALDELIVERY", "CUSTOMER SERVICE
 <b>Express Delivery</b><p>Delivery within 6 working days - &pound;20</p>
 </div>
 
-
+<div class="INTInfo" id="Spain" style="display: none;">
+<h3>Spain(and the Canary Islands)</h3>
+<b>Standard Delivery</b><p>Delivery within 6 to 8 working days - &pound;4.99</p>
+<b>Express Delivery</b><p>Delivery within 4 to 6 working days - &pound;12</p>
+</div>
 
 <div class="INTInfo" id="SriLanka" style="display: none;">
 <h3>Sri Lanka</h3>
@@ -1359,10 +1380,6 @@ cmCreatePageviewTag("CUSTOMER SERVICE: INTERNATIONALDELIVERY", "CUSTOMER SERVICE
                 el.setAttribute('onClick', '');
         }
     }
-</script><script type='text/javascript' src='https://c.la2w2.salesforceliveagent.com/content/g/js/31.0/deployment.js'></script>
-<script type='text/javascript'>
-	liveagent.init('https://d.la2w2.salesforceliveagent.com/chat', '57220000000KzzV', '00D20000000oqHe');
-</script><script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script><script src="/lib/cs/js/livechat.js"></script>
-
+</script>
 </body>
 </html>
