@@ -1,0 +1,89 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<link rel="stylesheet" href="jd-cs.css" type="text/css" />
+<title>Contact Us - JD Sports Customer Service</title>
+<script src="js/jquery.js"></script>
+<script src="js/numero.chat.js"></script>
+
+<script type="text/javascript" src="//libs.coremetrics.com/eluminate.js"></script> 
+
+<script language="JavaScript1.1" type="text/JavaScript">
+
+//COREMETRICS
+cmSetupOther({"cm_TrackImpressions":""}); 
+</script>
+<script language="JavaScript1.1" type="text/JavaScript" src="/wcsstore/coremetrics/cmcustom.js"></script>
+<script language="JavaScript1.1" type="text/JavaScript">
+<!--
+cmSetClientID("90154080",true,"data.coremetrics.com","jdsports.co.uk");
+cmSetupNormalization("krypto-_-krypto");
+//-->
+</script>
+<script language="JavaScript1.1" type="text/JavaScript"> 
+ <!--
+cmCreatePageviewTag("CUSTOMER SERVICE: LIVE CHAT", "CUSTOMER SERVICE", null, null, 10151);
+//-->
+
+</script>
+
+</head>
+
+<body id="chatPage" onload="checkRefer();">
+
+<div>
+    <div id="head">
+        <div class="responsive">
+            <p class="logo"><a href="home.html" class="current">JD Customer Service</a></p>
+            <a href="#" onclick="self.close();" id="close" class="closeWindow">Close Window</a>
+            <ul>
+                <li><a href="home.html">Home</a></li>
+                <li><a href="faqs.html">FAQs</a></li>
+                <li><a href="contact-us.html">Contact Us</a></li>
+                <li class="liveChatTab"><h1><a href="live-chat.html" class="current">Live Chat</a></h1></li>
+            </ul>
+    	</div>
+    </div>
+    <div id="content-responsive">
+    	<div class="content">
+        
+				<div id="test-chat-default">Checking the availability of the Live Chat service...</div>
+				<div id="test-chat-unavailable" style="display: none">Sorry, Live Chat is not available. <a target="_parent" href="/lib/cs/faqs.html?brand=JD%20Sport&action=topic&tax=JD%20Sports%20Taxonomy&topic=93d5fec5-8f1d-4d1c-8b00-d3176c96e8e2">Explore the other ways you can get in touch</a>.</div>
+				<div id="test-chat-iframe-container"></div>
+
+        </div>
+    </div>
+</div>
+<script>
+NUMERO_Chat.Service.defaults.lang = 'en';
+var pr = 'https:' == document.location.protocol ? 'https' : 'http';
+NUMERO_Chat.Service.defaults.websuite_url = pr + '://' + 'jdsports-ws.numerointeractive.com/websuite/' + NUMERO_Chat.Service.defaults.lang;
+ // +'&env=jd'
+
+NUMERO_Chat.serv_opts = {
+     brand: 'JD'
+};
+ 
+NUMERO_Chat.chat_opts = {
+     data:{
+           brand:   'JD',
+           source:  'JD Sports'
+     }
+}
+</script>
+<script src="js/numero.chat.control.js"></script>
+<script type="text/javascript" src="/lib/cs/js/numero.iframe.js"></script>
+<script>
+    var checkRefer = function() {
+        if (window.opener == null) {
+            var el = document.getElementById('close');
+                el.innerHTML = 'Go to JDSports.co.uk';
+                el.href = 'http://www.jdsports.co.uk';
+                el.style.backgroundImage = 'url(images/home-icon.png)';
+                el.setAttribute('onClick', '');
+        }
+    }
+</script>
+</body>
+</html>
