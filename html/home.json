@@ -8,138 +8,103 @@
 			"TopXmasGifts": [
 				{
                     "id": 0,
-                    "picplu": "073574",
-					"brand":"Nike",
-					"product":"Air Max 90",
-					"product1":"",
+                    "picplu": "161220",
+					"prodlink": " http://www.jdsports.co.uk/product/new-era-mlb-los-angeles-dodgers-9forty-h-tone-cap/161220/",
+					"brand":"New Era",
+					"product":"L.A. Dodgers 9Forty",
+					"product1":"H-Tone Cap",
 					"wasprice":"",
-					"currentprice":"95.00"
+					"currentprice":"15"
                 },
 				{
                     "id": 1,
-                    "picplu": "143079",
-					"brand":"adidas",
-					"product":"Condivo Training Pants",
+                    "picplu": "037400",
+					"prodlink": "http://www.jdsports.co.uk/product/lacoste-crossover-bag/037400/",
+					"brand":"Lacoste",
+					"product":"Lacoste Crossover Bag",
 					"product1":"",					
 					"wasprice":"",
-					"currentprice":"35.00"
+					"currentprice":"40"
                 },
 				{
                     "id": 2,
-                    "picplu": "074814",
-					"brand":"Nike",
-					"product":"Air Max 95",
+                    "picplu": "156047",
+					"prodlink": "http://www.jdsports.co.uk/product/mckenzie-seddon-2-pack-boxers/156047/",
+					"brand":"McKenzie",
+					"product":"Seddon 2 Pack Boxers",
 					"product1":"",					
 					"wasprice":"",
-					"currentprice":"115.00"
+					"currentprice":"15"
 				},
 				{
                     "id": 3,
-                    "picplu": "158179",
-					"brand":"Hype",
-					"product":"Slim Jogging Pants ",
-					"product1":"Junior",					
+                    "picplu": "078386",
+					"prodlink": "http://www.jdsports.co.uk/product/duffer-of-st-george-pinewood-backpack/078386/",
+					"brand":"Duffer of St George",
+					"product":"Pinewood Backpack",
+					"product1":"",					
 					"wasprice":"",
-					"currentprice":"25.00"
+					"currentprice":"25"
                 },
 				{
                     "id": 4,
-                    "picplu": "091075",
-					"brand":"Nike",
-					"product":"Air Huarache",
-					"product1":"",										
+                    "picplu": "161151",
+					"prodlink": "http://www.jdsports.co.uk/product/new-era-mlb-new-york-yankees-9forty-cap/161151/",
+					"brand":"New Era",
+					"product":"N.Y. Yankees",
+					"product1":"9FORTY Cap",										
 					"wasprice":"",
-					"currentprice":"90.00"
+					"currentprice":"12"
                 },
 				{
                     "id": 5,
-                    "picplu": "121637",
-					"brand":"Converse",
-					"product":"Chuck Patch Hoody",
-					"product1":"",										
-					"wasprice":"50",
-					"currentprice":"45.00"
+                    "picplu": "018215",
+					"prodlink": " http://www.jdsports.co.uk/product/nike-brasilia-small-duffle-bag/018215/",
+					"brand":"Nike",
+					"product":"Brasilia Small",
+					"product1":"Duffle Bag",										
+					"wasprice":"",
+					"currentprice":"20"
                 },
 				{
                     "id": 6,
-                    "picplu": "027536",
-					"brand":"Nike",
-					"product":"Air Force 1 Lo Junior",
+                    "picplu": "128283",
+					"prodlink": "http://www.jdsports.co.uk/product/mckenzie-zev-bobble-hat/128283/",
+					"brand":"McKenzie",
+					"product":"Zev Bobble Hat",
 					"product1":"",										
 					"wasprice":"",
-					"currentprice":"50.00"
+					"currentprice":"12"
                 },
 				{
                     "id": 7,
-                    "picplu": "094678",
-					"brand":"Converse",
-					"product":"Chuck Patch Hoody",
-					"product1":"",										
+                    "picplu": "070713",
+					"prodlink": "http://www.jdsports.co.uk/product/nike-core-small-items-bag/070713/",
+					"brand":"Nike",
+					"product":"Core Small Items",
+					"product1":"Bag",										
 					"wasprice":"",
-					"currentprice":"90.00"
+					"currentprice":"18"
                 },
 				{
                     "id": 8,
-                    "picplu": "121654",
-					"brand":"Converse",
-					"product":"Chuck Fleece Pants",
-					"product1":"",										
-					"wasprice":"35",
-					"currentprice":"25.00"
+                    "picplu": "031843",
+					"prodlink": "http://www.jdsports.co.uk/product/nike-limitless-snapback-cap/031843/",
+					"brand":"Nike",
+					"product":"Limitless Snapback",
+					"product1":"Cap",						 				
+					"wasprice":"",
+					"currentprice":"20"
                 },
 				{
                     "id": 9,
-                    "picplu": "119936",
-					"brand":"Nike",
-					"product":"Air Max 90",
+                    "picplu": "136219",
+					"prodlink": "http://www.jdsports.co.uk/product/adidas-originals-classic-adi-airliner/136219/",
+					"brand":"Adidas Originals",
+					"product":"Classic Adi Airliner",
 					"product1":"",										
 					"wasprice":"",
-					"currentprice":"95.00"
-                },
-				{
-                    "id": 10,
-                    "picplu": "158180",
-					"brand":"Hype",
-					"product":"Slim Jogging Pants",
-					"product1":"Junior",										
-					"wasprice":"",
-					"currentprice":"25.00"
-                },
-				{
-                    "id": 11,
-                    "picplu": "091489",
-					"brand":"Nike",
-					"product":"Air Max Thea",
-					"product1":"",															
-					"wasprice":"",
-					"currentprice":"85.00"
-                },
-				{
-                    "id": 12,
-                    "picplu": "064468",
-					"brand":"Nike",
-					"product":"Tech Fleece Pants",
-					"product1":"",															
-					"wasprice":"",
-					"currentprice":"55.00"
-                },
-				{
-                    "id": 13,
-                    "picplu": "022948",
-					"brand":"Nike",
-					"product":"Air Max 90 Junior",
-					"product1":"",															
-					"wasprice":"",
-					"currentprice":"60.00"
-                },
-				{
-                    "id": 14,
-                    "picplu": "094692",
-					"brand":"Converse",
-					"product":"Chuck Patch Pants",
-					"product1":"",															
-					"wasprice":"",
-					"currentprice":"35.00"
+					"currentprice":"35"
                 }
             ]
         }
