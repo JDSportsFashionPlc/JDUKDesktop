@@ -1,0 +1,2026 @@
+
+<!--
+// CSS
+-->
+<link rel="stylesheet" type="text/css" href="/lib/hlight/gift-cards/css/bootstrap.css"/>
+<link rel="stylesheet" type="text/css" href="//cloud.typography.com/6282092/657264/css/fonts.css" />
+<link href='http://fonts.googleapis.com/css?family=Roboto+Condensed:400,700' rel='stylesheet' type='text/css'>
+<link rel="stylesheet" type="text/css" href="/lib/hlight/gift-cards/css/gift-card-v2.css"/>
+<!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
+  <!--[if lt IE 9]>
+    <script src="/lib/hlight/gift-cards/js/html5shiv.js"></script>
+    <script src="http://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script>
+  <![endif]-->
+<style>
+#amount {
+display: inline;
+width: 227px;
+margin-left: 20px;
+font-size: 16px;
+margin-top: 7px;
+padding: 0;
+margin-right: 0;
+float: left;
+clear: left;
+}
+
+#qty {
+display: inline;
+width: 209px;
+padding-left: 10px;
+float: left;
+}
+
+.qtyField2 {
+position: relative;
+width: 227px;
+cursor: pointer;
+font-weight: 200;
+background: #fff;
+border: inherit;
+-webkit-user-select: none;
+-moz-user-select: none;
+user-select: none;
+height: auto;
+margin: 0 auto;
+line-height: 14px;
+margin-left: 0;
+margin-top: 38px;
+padding-left: 15px;
+}
+
+/*.qtyInput2 {
+float: right;
+padding: 0;
+text-align: right;
+border: inherit;
+}
+*/
+.middlebox {
+width: 822px;
+margin: 0 auto;
+}
+
+.btn {
+padding: 12px 63px;
+margin-top: 15px;
+}
+
+.myLabel2 {
+float: left;
+padding: 0 29px;
+display: block;
+height: 63%;
+clear: both;
+width: 227px;
+margin-top: -25px;
+text-align: left;
+margin-left: -27px;
+}
+
+.myLabel3 {
+float: left;
+padding: 0 29px;
+display: block;
+height: 63%;
+clear: both;
+margin-top: 10px;
+text-align: left;
+margin-left: -9px;
+width: 227px;
+}
+
+
+
+ul#stage { 
+position: relative;
+}
+
+
+
+</style>
+
+<div class="newGift">
+
+
+
+
+
+<div id="topp">
+	<div class="container">
+		<div class="row clearfix">
+			<div class="col-md-10s">
+				<div class="col-md-12 column titler">
+					<h3>The Ultimate Gift Card</h3>
+					<p>Choose from hundreds of top brands in over 500 stores. Treat someone with the Ultimate Gift Card now.</p>
+				</div>
+				<div class="col-md-6 column cardholder">
+					<img src="/images/library/2015/26.01.2015/gift-cards/card.png" class="card">
+				</div>
+				<div class="col-md-6 column">
+					<form role="form">
+						<div class="row clearfix">
+							<div class="col-md-12 column">
+									<label for="amount" class="myLabel3">SELECT VALUE </label>
+									<select id="amount" name="amount" tabindex="1">
+										<!-- <option value="">1. SELECT AMOUNT </option> -->
+										<!-- <option value="">&pound;0</option> -->
+										<!-- <option value="5">&pound;5</option> -->
+										<option value="10">&pound;10</option>
+										<option value="15">&pound;15</option>
+										<option value="20">&pound;20</option>
+										<option value="25">&pound;25</option>
+										<option value="30">&pound;30</option>
+										<option value="40">&pound;40</option>
+										<option value="50">&pound;50</option>
+										<option value="60">&pound;60</option>
+										<option value="70">&pound;70</option>
+										<option value="80">&pound;80</option>
+										<option value="90">&pound;90</option>
+										<option value="100">&pound;100</option>
+										<option value="125">&pound;125</option>
+										<option value="150">&pound;150</option>
+										<option value="175">&pound;175</option>
+										<option value="200">&pound;200</option>
+										<option value="225">&pound;225</option>
+										<option value="250">&pound;250</option>
+										<option value="275">&pound;275</option>
+										<option value="300">&pound;300</option>
+									</select>
+
+							</div>
+							<div class="col-md-6">
+
+
+									<div class="qtyField2">
+										<label for="qty" class="myLabel2">SELECT QUANTITY</label>
+										<!-- <span class="qtyInput2"> -->
+										<input type="text" name="qty" id="qty" tabindex="2" value="1" onblur="if (this.value=='') this.value = '1'" onfocus="if (this.value=='1') this.value = ''">
+										<!-- </span> -->
+									</div>
+
+							</div>
+							<div class="col-md-6">
+
+								 <button type="button" class="btn btn-default" onClick="javascript:addgiftcard()">ADD TO BASKET</button>
+									<input type="hidden" value="0" id="coremetric">
+									<input type="hidden" value="0" id="catentry">
+									<input type="hidden" value="0" id="pluid">
+									</div>
+
+						</div>
+					</form>
+					<div class="caveat">
+						<span class="caveatTop">Please Note</span>
+						<span class="caveatBottom">The Ultimate Giftcard can only be redeemed in store</span>
+					</div>
+
+				</div>
+
+                <div class="bankInfo">
+ 
+
+                    <p><span class="bankTitle">Usage</span> <br/><br/>
+JD Gift Cards are valid in any JD store within the UK, Northern Ireland and the Channel Islands (participating stores only). Gift Cards can also be redeemed in the following JD group stores: Scotts, Blacks, Millets, Tessuti and JD Pro. Gift Cards cannot be used to purchase goods online. <br/><br/>
+
+Bank fashion limited is no longer part of the JD Sports Fashion Group. Therefore you can no longer purchase or redeem The Ultimate Gift Card in Bank stores. If you have any queries on this please read our <a href="javascript:PopUp('/lib/hlight/gift-cards/q-a.html')"> <span class="underline">Q&amp;A's</span></a><br/><br/>
+
+Gift Cards are valid for twelve months from date of purchase. The Gift Card will expire and any remaining balance will reduce to nil if it is not used within a 12 month period. <br/><br/>
+
+For more information please read our full Terms &amp; Conditions.</p>
+                </div>
+
+			</div>
+			<div class="rightBar">
+
+				<div class="righTitle">
+					<p><strong>Spend</strong> at the following great stores</p>
+				</div>
+				<div class="branddd">
+					<img src="/lib/hlight/gift-cards/img/brands_01.png" alt="">
+				</div>
+				<div class="branddd">
+					<img src="/lib/hlight/gift-cards/img/brands_02.png" alt="">
+				</div>
+				<div class="branddd">
+					<img src="/lib/hlight/gift-cards/img/brands_03.png" alt="">
+				</div>
+				<div class="branddd">
+					<img src="/lib/hlight/gift-cards/img/brands_04.png" alt="">
+				</div>
+				<div class="branddd">
+					<img src="/lib/hlight/gift-cards/img/brands_05.png" alt="">
+				</div>
+				<div class="branddd">
+					<img src="/lib/hlight/gift-cards/img/brands_06.png" alt="">
+				</div>
+				<div class="branddd">
+					<img src="/lib/hlight/gift-cards/img/brands_07.png" alt="">
+				</div>
+				
+				<div class="branddd">
+					<img src="/lib/hlight/gift-cards/img/brands_08.png" alt="">
+				</div>
+				<div class="branddd">
+					<img src="/lib/hlight/gift-cards/img/brands_09.png" alt="">
+				</div>
+				<div class="branddd">
+					<img src="/lib/hlight/gift-cards/img/brands_10.png" alt="">
+				</div>
+			</div>
+
+
+			<div class="midx">
+
+				<div class="col-md-12 column lowerTitle">
+					<div class="lowerTitleText">
+
+						<h3 id="theToggle"><a href="#theBrand" class="theBrand current">Brands</a> <a href="#theTerm" class="theTerm">Terms &amp; Conditions</a></h3>
+						<div class="backky">
+							<img src="/lib/hlight/gift-cards/img/angled-back.png" alt="">
+						</div>
+					</div>
+
+				</div>
+				<div class="container">
+
+					<!-- thebrand starts -->
+					<div id="theBrand" class="myStageHolder tab-contents">
+					
+
+						<h3 id="theToggle2"><a href="#theBrand2" class="theBrand2 current">Top Brands</a> <a href="#brandlist" class="theTerm2">A - Z</a></h3>
+
+						<div class="row clearfix"></div>
+
+					<div id="theBrand2" class="tab-contents2">
+					<ul id="stage" class="col-md-10">
+					   <li class="smallBrands" data-tags="A">
+    <img class="scale" src="/lib/hlight/gift-cards/brands/adidas.png" alt="adidas"><span>adidas</span>
+</li>
+
+<li class="smallBrands" data-tags="A">
+    <img class="scale" src="/lib/hlight/gift-cards/brands/adidas-originals.png" alt="adidas-originals"><span>adidas Originals</span>
+</li>
+
+
+
+<li class="smallBrands" data-tags="A">
+    <img class="scale" src="/lib/hlight/gift-cards/brands/armani-jeans.png" alt="armani-jeans"><span>Armani Jeans</span>
+</li>
+
+
+<li class="smallBrands" data-tags="A">
+    <img class="scale" src="/lib/hlight/gift-cards/brands/asics.png" alt="asics"><span>Asics</span>
+</li>
+<!-- <li class="smallBrands" data-tags="A">
+    <img class="scale" src="/lib/hlight/gift-cards/brands/AX-Paris.png" alt="AX-Paris"><span>AX Paris</span>
+</li> -->
+
+
+<li class="smallBrands" data-tags="B">
+    <img class="scale" src="/lib/hlight/gift-cards/brands/barbour.png" alt="barbour"><span>Barbour</span>
+</li>
+
+
+<li class="smallBrands" data-tags="B">
+    <img class="scale" src="/lib/hlight/gift-cards/brands/bellfield.png" alt="bellfield"><span>Bellfield</span>
+</li>
+
+
+<li class="smallBrands" data-tags="B">
+    <img class="scale" src="/lib/hlight/gift-cards/brands/berghaus.png" alt="berghaus"><span>Berghaus</span>
+</li>
+
+
+
+<li class="smallBrands" data-tags="C">
+    <img class="scale" src="/lib/hlight/gift-cards/brands/coleman.png" alt="coleman"><span>Coleman</span>
+</li>
+
+
+<li class="smallBrands" data-tags="C">
+    <img class="scale" src="/lib/hlight/gift-cards/brands/converse.png" alt="converse"><span>Converse</span>
+</li>
+
+
+
+<li class="smallBrands" data-tags="E">
+    <img class="scale" src="/lib/hlight/gift-cards/brands/EA7.png" alt="EA7"><span>EA7</span>
+</li>
+
+<li class="smallBrands" data-tags="E">
+    <img class="scale" src="/lib/hlight/gift-cards/brands/eurohike.png" alt="eurohike"><span>Eurohike</span>
+</li>
+
+
+<li class="smallBrands" data-tags="F">
+    <img class="scale" src="/lib/hlight/gift-cards/brands/fly53.png" alt="fly53"><span>Fly53</span>
+</li>
+
+
+<li class="smallBrands" data-tags="F">
+    <img class="scale" src="/lib/hlight/gift-cards/brands/fred-perry.png" alt="fred-perry"><span>Fred Perry</span>
+</li>
+
+
+<li class="smallBrands" data-tags="H">
+    <img class="scale" src="/lib/hlight/gift-cards/brands/haglofs.png" alt="haglofs"><span>Haglofs</span>
+</li>
+
+
+<li class="smallBrands" data-tags="H">
+    <img class="scale" src="/lib/hlight/gift-cards/brands/hugo-boss.png" alt="hugo-boss"><span>Hugo Boss</span>
+</li>
+
+
+<li class="smallBrands" data-tags="J">
+    <img class="scale" src="/lib/hlight/gift-cards/brands/jack-wolfskin.png" alt="jack-wolfskin"><span>Jack Wolfskin</span>
+</li>
+
+
+<li class="smallBrands" data-tags="L">
+    <img class="scale" src="/lib/hlight/gift-cards/brands/low-alpine.png" alt="low-alpine"><span>Low Alpine</span>
+</li>
+
+
+<li class="smallBrands" data-tags="M">
+    <img class="scale" src="/lib/hlight/gift-cards/brands/ma-strum.png" alt="ma-strum"><span>Ma Strum</span>
+</li>
+
+
+<li class="smallBrands" data-tags="N">
+    <img class="scale" src="/lib/hlight/gift-cards/brands/new-balance.png" alt="new-balance"><span>New Balance</span>
+</li>
+
+
+<li class="smallBrands" data-tags="O">
+    <img class="scale" src="/lib/hlight/gift-cards/brands/one-true-saxon.png" alt="one-true-saxon"><span>One True Saxon</span>
+</li>
+
+
+<li class="smallBrands" data-tags="O">
+    <img class="scale" src="/lib/hlight/gift-cards/brands/original-penguin.png" alt="original-penguin"><span>Original Penguin</span>
+</li>
+
+
+<li class="smallBrands" data-tags="P">
+    <img class="scale" src="/lib/hlight/gift-cards/brands/paul-smith.png" alt="paul-smith"><span>Paul Smith</span>
+</li>
+
+
+<li class="smallBrands" data-tags="P">
+    <img class="scale" src="/lib/hlight/gift-cards/brands/polo-ralph-lauren.png" alt="polo-ralph-lauren"><span>Polo Ralph Lauren</span>
+</li>
+
+
+<li class="smallBrands" data-tags="P">
+    <img class="scale" src="/lib/hlight/gift-cards/brands/pretty-green.png" alt="pretty-green"><span>Pretty Green</span>
+</li>
+
+
+<li class="smallBrands" data-tags="S">
+    <img class="scale" src="/lib/hlight/gift-cards/brands/salomon.png" alt="salomon"><span>Salomon</span>
+</li>
+
+
+<li class="smallBrands" data-tags="speedo">
+    <img class="scale" src="/lib/hlight/gift-cards/brands/speedo.png" alt="speedo"><span>Speedo</span>
+</li>
+
+
+<li class="smallBrands" data-tags="S">
+    <img class="scale" src="/lib/hlight/gift-cards/brands/supply-and-demand.png" alt="supply-and-demand"><span>Supply and Demand</span>
+</li>
+
+
+<li class="smallBrands" data-tags="T">
+    <img class="scale" src="/lib/hlight/gift-cards/brands/the-north-face.png" alt="the-north-face"><span>The North Face</span>
+</li>
+
+
+<li class="smallBrands" data-tags="T">
+    <img class="scale" src="/lib/hlight/gift-cards/brands/timberland.png" alt="timberland"><span>Timberland</span>
+</li>
+
+
+<li class="smallBrands" data-tags="V">
+    <img class="scale" src="/lib/hlight/gift-cards/brands/vango.png" alt="vango"><span>Vango</span>
+</li>
+
+
+<li class="smallBrands" data-tags="Y">
+    <img class="scale" src="/lib/hlight/gift-cards/brands/vivienne-westwood.png" alt="vivienne-westwood"><span>Vivienne Westwood</span>
+</li>
+
+					</ul>
+				</div>
+				<!-- brandlist starts -->
+				<div id="brandlist">  
+                    <dl>
+    <dt>#</dt>
+    <dd class="smallBrands" data-tags="#"><a href="#">7 For All Mankind</a>
+    </dd>
+    <dd class="smallBrands" data-tags="#"><a href="#">66 North</a>
+    </dd>
+    <dd class="smallBrands" data-tags="#"><a href="#">1000 Mile</a>
+    </dd>
+
+</dl>
+
+
+<dl>
+    <dt>A</dt>
+    <dd class="smallBrands" data-tags="A"><a href="#">AA</a>
+    </dd>
+    <dd class="smallBrands" data-tags="A"><a href="#">Abandon Ship</a>
+    </dd>
+    <dd class="smallBrands" data-tags="A"><a href="#">adidas</a>
+    </dd>
+    <dd class="smallBrands" data-tags="A"><a href="#">adidas Originals</a>
+    </dd>
+    <dd class="smallBrands" data-tags="A"><a href="#">adidas outdoor</a>
+    </dd>
+    <dd class="smallBrands" data-tags="A"><a href="#">Agfa</a>
+    </dd>
+    <dd class="smallBrands" data-tags="A"><a href="#">AKA</a>
+    </dd>
+    <dd class="smallBrands" data-tags="A"><a href="#">Aladdin</a>
+    </dd>
+    <dd class="smallBrands" data-tags="A"><a href="#">Alpine</a>
+    </dd>
+    <dd class="smallBrands" data-tags="A"><a href="#">American Freshman</a>
+    </dd>
+    <dd class="smallBrands" data-tags="A"><a href="#">Anatom</a>
+    </dd>
+    <dd class="smallBrands" data-tags="A"><a href="#">Animal</a>
+    </dd>
+    <dd class="smallBrands" data-tags="A"><a href="#">ANTIOCH</a>
+    </dd>
+    <dd class="smallBrands" data-tags="A"><a href="#">Antony Morato</a>
+    </dd>
+    <dd class="smallBrands" data-tags="A"><a href="#">AONO</a>
+    </dd>
+    <dd class="smallBrands" data-tags="A"><a href="#">Aquapac</a>
+    </dd>
+</dl>
+
+
+<dl>
+    <dt style="color:#e5e5e5">A</dt> 
+    <dd class="smallBrands" data-tags="A"><a href="#">Aquascutum</a>
+    </dd>
+    <dd class="smallBrands" data-tags="A"><a href="#">Ark</a>
+    </dd>
+    <dd class="smallBrands" data-tags="A"><a href="#">Armani Collezioni</a>
+    </dd>
+    <dd class="smallBrands" data-tags="A"><a href="#">Armani Jeans</a>
+    </dd>
+    <dd class="smallBrands" data-tags="A"><a href="#">Asics</a>
+    </dd>
+    <dd class="smallBrands" data-tags="A"><a href="#">Asolo</a>
+    </dd>
+    <dd class="smallBrands" data-tags="A"><a href="#">Athletic Trading co</a>
+    </dd>
+    <!-- <dd class="smallBrands" data-tags="A"><a href="#">AX Paris</a>
+    </dd> -->
+</dl>
+
+
+<dl>
+    <dt>B</dt>
+    <dd class="smallBrands" data-tags="B"><a href="#">Bait-tech</a>
+    </dd>
+    <dd class="smallBrands" data-tags="B"><a href="#">Barbour</a>
+    </dd>
+    <dd class="smallBrands" data-tags="B"><a href="#">Barska</a>
+    </dd>
+    <dd class="smallBrands" data-tags="B"><a href="#">BBC</a>
+    </dd>
+    <dd class="smallBrands" data-tags="B"><a href="#">Bear Grylls</a>
+    </dd>
+    <dd class="smallBrands" data-tags="B"><a href="#">Beck &amp; Hersey</a>
+    </dd>
+    <dd class="smallBrands" data-tags="B"><a href="#">BellField</a>
+    </dd>
+    <dd class="smallBrands" data-tags="B"><a href="#">Belstaff</a>
+    </dd>
+    <dd class="smallBrands" data-tags="B"><a href="#">Bench</a>
+    </dd>
+    <dd class="smallBrands" data-tags="B"><a href="#">Bergans</a>
+    </dd>
+    <dd class="smallBrands" data-tags="B"><a href="#">Berghaus</a>
+    </dd>
+    <dd class="smallBrands" data-tags="B"><a href="#">Bjorn Borg</a>
+    </dd>
+    <dd class="smallBrands" data-tags="B"><a href="#">Black Diamond</a>
+    </dd>
+    <dd class="smallBrands" data-tags="B"><a href="#">Blacks</a>
+    </dd>
+    <dd class="smallBrands" data-tags="B"><a href="#">Bloc</a>
+    </dd>
+    <dd class="smallBrands" data-tags="B"><a href="#">BlocBlue</a>
+    </dd>
+</dl>
+
+
+<dl>
+    <dt style="color:#e5e5e5">B</dt>
+    <dd class="smallBrands" data-tags="B"><a href="#">Bobble</a>
+    </dd>
+    <dd class="smallBrands" data-tags="B"><a href="#">Bohemia</a>
+    </dd>
+    <dd class="smallBrands" data-tags="B"><a href="#">Boss Black</a>
+    </dd>
+    <dd class="smallBrands" data-tags="B"><a href="#">Boss Black Formal</a>
+    </dd>
+    <dd class="smallBrands" data-tags="B"><a href="#">Boss Green</a>
+    </dd>
+    <dd class="smallBrands" data-tags="B"><a href="#">Boss Orange</a>
+    </dd>
+    <dd class="smallBrands" data-tags="B"><a href="#">Boxfresh</a>
+    </dd>
+    <dd class="smallBrands" data-tags="B"><a href="#">Boyz-toys</a>
+    </dd>
+    <dd class="smallBrands" data-tags="B"><a href="#">Brasher</a>
+    </dd>
+    <!-- <dd class="smallBrands" data-tags="B"><a href="#">Brave Soul</a>
+    </dd>  -->
+    <dd class="smallBrands" data-tags="B"><a href="#">Breo</a>
+    </dd>
+    <dd class="smallBrands" data-tags="B"><a href="#">Bridgedale</a>
+    </dd>
+    <dd class="smallBrands" data-tags="B"><a href="#">Brookhaven</a>
+    </dd>
+    <dd class="smallBrands" data-tags="B"><a href="#">Brunton</a>
+    </dd> 
+    <dd class="smallBrands" data-tags="B"><a href="#">Buff</a>
+    </dd>
+    <dd class="smallBrands" data-tags="B"><a href="#">Burberry Brit</a>
+    </dd>
+</dl>
+
+
+<dl>
+    <dt>C</dt>
+   <!--  <dd class="smallBrands" data-tags="C"><a href="#">Calvin Klein</a>
+    </dd> -->
+    <dd class="smallBrands" data-tags="C"><a href="#">Camelbak</a>
+    </dd>
+    <dd class="smallBrands" data-tags="C"><a href="#">Campingaz</a>
+    </dd>
+    <dd class="smallBrands" data-tags="C"><a href="#">Canada Goose</a>
+    </dd>
+    <dd class="smallBrands" data-tags="C"><a href="#">Canterbury</a>
+    </dd>
+    <dd class="smallBrands" data-tags="C"><a href="#">Capo</a>
+    </dd>
+    <dd class="smallBrands" data-tags="C"><a href="#">Carbrini</a>
+    </dd>
+    <dd class="smallBrands" data-tags="C"><a href="#">Carhartt</a>
+    </dd>
+    <dd class="smallBrands" data-tags="C"><a href="#">Carhartt WIP</a>
+    </dd>
+    <dd class="smallBrands" data-tags="C"><a href="#">Carrera</a>
+    </dd>
+    <dd class="smallBrands" data-tags="C"><a href="#">Carven</a>
+    </dd>
+    <dd class="smallBrands" data-tags="C"><a href="#">Casio</a>
+    </dd>
+    <dd class="smallBrands" data-tags="C"><a href="#">Caterpillar</a>
+    </dd>
+    <dd class="smallBrands" data-tags="C"><a href="#">CATERPILLAR</a>
+    </dd>
+    <dd class="smallBrands" data-tags="C"><a href="#">Catseye</a>
+    </dd>
+</dl>
+
+
+<dl>
+    <dt style="color:#e5e5e5">C</dt>
+    <dd class="smallBrands" data-tags="C"><a href="#">CEBE</a>
+    </dd>
+    <dd class="smallBrands" data-tags="C"><a href="#">Cebe</a>
+    </dd>
+    <dd class="smallBrands" data-tags="C"><a href="#">Chapel Baits</a>
+    </dd>
+    <dd class="smallBrands" data-tags="C"><a href="#">Cheap Monday</a>
+    </dd>
+    <dd class="smallBrands" data-tags="C"><a href="#">Chunk</a>
+    </dd>
+    <dd class="smallBrands" data-tags="C"><a href="#">Chute</a>
+    </dd>
+    <dd class="smallBrands" data-tags="C"><a href="#">Cityfellaz</a>
+    </dd>
+    <dd class="smallBrands" data-tags="C"><a href="#">Clarks</a>
+    </dd>
+    <dd class="smallBrands" data-tags="C"><a href="#">Clarks Originals</a>
+    </dd>
+    <dd class="smallBrands" data-tags="C"><a href="#">Clif</a>
+    </dd>
+    <dd class="smallBrands" data-tags="C"><a href="#">Cloak</a>
+    </dd>
+    <dd class="smallBrands" data-tags="C"><a href="#">Coleman</a>
+    </dd>
+    <dd class="smallBrands" data-tags="C"><a href="#">Columbia</a>
+    </dd>
+    <dd class="smallBrands" data-tags="C"><a href="#">Connabride</a>
+    </dd>
+</dl>
+
+
+<dl>
+    <dt style="color:#e5e5e5">C</dt>
+    <dd class="smallBrands" data-tags="C"><a href="#">Converse</a>
+    </dd>
+    <dd class="smallBrands" data-tags="C"><a href="#">Cool Camping</a>
+    </dd>
+    <dd class="smallBrands" data-tags="C"><a href="#">CP Company</a>
+    </dd>
+    <dd class="smallBrands" data-tags="C"><a href="#">Craghoppers</a>
+    </dd>
+    <dd class="smallBrands" data-tags="C"><a href="#">Creative Recreation</a>
+    </dd>
+    <dd class="smallBrands" data-tags="C"><a href="#">Criminal Damage</a>
+    </dd>
+    <dd class="smallBrands" data-tags="C"><a href="#">Crocs</a>
+    </dd>
+    <dd class="smallBrands" data-tags="C"><a href="#">Crusader</a>
+    </dd>
+    <dd class="smallBrands" data-tags="C"><a href="#">Cruyff</a>
+    </dd>
+    <dd class="smallBrands" data-tags="C"><a href="#">Cuckoos Nest</a>
+    </dd>
+    <dd class="smallBrands" data-tags="C"><a href="#">Curbbz</a>
+    </dd>
+    <dd class="smallBrands" data-tags="C"><a href="#">Cyba-Lite</a>
+    </dd>
+    <dd class="smallBrands" data-tags="C"><a href="#">Cybalite</a>
+    </dd>
+</dl>
+
+
+<dl>
+    <dt>D</dt>
+    <dd class="smallBrands" data-tags="D"><a href="#">Dare2B</a>
+    </dd>
+    <dd class="smallBrands" data-tags="D"><a href="#">Dare 2b</a>
+    </dd>
+    <dd class="smallBrands" data-tags="D"><a href="#">Dare 2B</a>
+    </dd>
+    <dd class="smallBrands" data-tags="D"><a href="#">DC Shoes</a>
+    </dd>
+    <dd class="smallBrands" data-tags="D"><a href="#">Dead Legacy</a>
+    </dd>
+    <dd class="smallBrands" data-tags="D"><a href="#">Deakins</a>
+    </dd>
+    <dd class="smallBrands" data-tags="D"><a href="#">DENHAM</a>
+    </dd>
+    <dd class="smallBrands" data-tags="D"><a href="#">Descente</a>
+    </dd>
+    <dd class="smallBrands" data-tags="D"><a href="#">Design Go</a>
+    </dd>
+    <dd class="smallBrands" data-tags="D"><a href="#">Deuter</a>
+    </dd>
+    <dd class="smallBrands" data-tags="D"><a href="#">Diadora</a>
+    </dd>
+    <dd class="smallBrands" data-tags="D"><a href="#">Diamond</a>
+    </dd>
+    <dd class="smallBrands" data-tags="D"><a href="#">Dickies</a>
+    </dd>
+    <dd class="smallBrands" data-tags="D"><a href="#">Didriksons</a>
+    </dd>
+</dl>
+
+
+<dl>
+    <dt style="color:#e5e5e5">D</dt>
+    <dd class="smallBrands" data-tags="D"><a href="#">Diesel</a>
+    </dd>
+    <dd class="smallBrands" data-tags="D"><a href="#">Dirty Cash</a>
+    </dd>
+    <dd class="smallBrands" data-tags="D"><a href="#">DMM</a>
+    </dd>
+    <!-- <dd class="smallBrands" data-tags="D"><a href="#">Dr Denim</a>
+    </dd>
+    <dd class="smallBrands" data-tags="D"><a href="#">DR Denim</a>
+    </dd> -->
+    <dd class="smallBrands" data-tags="D"><a href="#">Dsquared</a>
+    </dd>
+    <!-- <dd class="smallBrands" data-tags="D"><a href="#">Duck and Cover</a>
+    </dd> -->
+    <dd class="smallBrands" data-tags="D"><a href="#">Dudes Factory</a>
+    </dd>
+    <dd class="smallBrands" data-tags="D"><a href="#">Duffer St. George</a>
+    </dd>
+    <dd class="smallBrands" data-tags="D"><a href="#">Dunlop</a>
+    </dd> 
+    <dd class="smallBrands" data-tags="D"><a href="#">Duracell</a>
+    </dd>
+</dl>
+
+
+<dl>
+    <dt>E</dt>
+    <dd class="smallBrands" data-tags="E"><a href="#">EA7</a>
+    </dd>
+    <!-- <dd class="smallBrands" data-tags="E"><a href="#">Eastpak</a>
+    </dd> -->
+    <dd class="smallBrands" data-tags="E"><a href="#">Easy Camp</a>
+    </dd>
+    <dd class="smallBrands" data-tags="E"><a href="#">Ecko</a>
+    </dd>
+    <dd class="smallBrands" data-tags="E"><a href="#">Ellesse</a>
+    </dd>
+    <dd class="smallBrands" data-tags="E"><a href="#">Emporio Armani</a>
+    </dd>
+    <dd class="smallBrands" data-tags="E"><a href="#">Emporio Armani EA7</a>
+    </dd>
+    <dd class="smallBrands" data-tags="E"><a href="#">Eto</a>
+    </dd>
+    <dd class="smallBrands" data-tags="E"><a href="#">Eureka</a>
+    </dd>
+    <dd class="smallBrands" data-tags="E"><a href="#">Eurohike</a>
+    </dd>
+    <dd class="smallBrands" data-tags="E"><a href="#">Eurokamp</a>
+    </dd>
+    <dd class="smallBrands" data-tags="E"><a href="#">Exped</a>
+    </dd> 
+    <dd class="smallBrands" data-tags="E"><a href="#">Extremities</a>
+    </dd>
+</dl>
+
+
+<dl>
+    <dt>F</dt>
+    <dd class="smallBrands" data-tags="F"><a href="#">Farah Vintage</a>
+    </dd>
+    <!-- <dd class="smallBrands" data-tags="F"><a href="#">FI5TH</a>
+    </dd> -->
+    <dd class="smallBrands" data-tags="F"><a href="#">Fila</a>
+    </dd>
+    <dd class="smallBrands" data-tags="F"><a href="#">Filling PIeces</a>
+    </dd>
+    <dd class="smallBrands" data-tags="F"><a href="#">Fjallraven</a>
+    </dd>
+    <dd class="smallBrands" data-tags="F"><a href="#">Fladen</a>
+    </dd>
+    <dd class="smallBrands" data-tags="F"><a href="#">Fly53</a>
+    </dd>
+    <!-- <dd class="smallBrands" data-tags="F"><a href="#">Franklin &amp; Marshall</a>
+    </dd> -->
+    <dd class="smallBrands" data-tags="F"><a href="#">FREAK OF NATURE</a>
+    </dd>
+    <dd class="smallBrands" data-tags="F"><a href="#">Fred Perry</a>
+    </dd>
+    <dd class="smallBrands" data-tags="F"><a href="#">Freeloader</a>
+    </dd>
+    <dd class="smallBrands" data-tags="F"><a href="#">Fresh Ego Kid</a>
+    </dd> 
+    <dd class="smallBrands" data-tags="F"><a href="#">Friend Or Faux</a>
+    </dd> 
+    <dd class="smallBrands" data-tags="F"><a href="#">Fulton</a>
+    </dd>
+</dl>
+
+
+<dl>
+    <dt>G</dt>
+   <!--  <dd class="smallBrands" data-tags="G"><a href="#">G-Star</a>
+    </dd>
+    <dd class="smallBrands" data-tags="G"><a href="#">G-STAR</a>
+    </dd> -->
+    <dd class="smallBrands" data-tags="G"><a href="#">Garmin</a>
+    </dd>
+    <dd class="smallBrands" data-tags="G"><a href="#">Gelert</a>
+    </dd>
+    <dd class="smallBrands" data-tags="G"><a href="#">Gerber</a>
+    </dd>
+    <dd class="smallBrands" data-tags="G"><a href="#">Gerber Bear Grylls</a>
+    </dd>
+    <dd class="smallBrands" data-tags="G"><a href="#">Gestuz</a>
+    </dd>
+    <dd class="smallBrands" data-tags="G"><a href="#">Ginger Fizz</a>
+    </dd>
+    <!-- <dd class="smallBrands" data-tags="G"><a href="#">Gio-Goi</a>
+    </dd> -->
+    <dd class="smallBrands" data-tags="G"><a href="#">Gloverall</a>
+    </dd>
+    <dd class="smallBrands" data-tags="G"><a href="#">Goal Zero</a>
+    </dd>
+    <dd class="smallBrands" data-tags="G"><a href="#">Good For Nothing</a>
+    </dd>
+    <dd class="smallBrands" data-tags="G"><a href="#">Grangers</a>
+    </dd>
+    <dd class="smallBrands" data-tags="G"><a href="#">Gregory</a>
+    </dd>
+</dl>
+
+
+<dl>
+    <dt style="color:#e5e5e5">G</dt>
+    <dd class="smallBrands" data-tags="G"><a href="#">Grenson</a>
+    </dd>
+    <dd class="smallBrands" data-tags="G"><a href="#">Grip Fast</a>
+    </dd>
+    <dd class="smallBrands" data-tags="G"><a href="#">Gripfast</a>
+    </dd>
+    <dd class="smallBrands" data-tags="G"><a href="#">Grower's Cup</a>
+    </dd>
+    <dd class="smallBrands" data-tags="G"><a href="#">GSI</a>
+    </dd>
+</dl>
+
+
+<dl>
+    <dt>H</dt>
+    <dd class="smallBrands" data-tags="H"><a href="#">Haglofs</a>
+    </dd>
+    <dd class="smallBrands" data-tags="H"><a href="#">Hamax</a>
+    </dd>
+    <dd class="smallBrands" data-tags="H"><a href="#">Hanwag</a>
+    </dd>
+    <dd class="smallBrands" data-tags="H"><a href="#">Happy Socks</a>
+    </dd>
+    <dd class="smallBrands" data-tags="H"><a href="#">Havaianas</a>
+    </dd>
+    <dd class="smallBrands" data-tags="H"><a href="#">Hearts and Bows</a>
+    </dd>
+    <dd class="smallBrands" data-tags="H"><a href="#">Helinox</a>
+    </dd>
+    <dd class="smallBrands" data-tags="H"><a href="#">Helly Hansen</a>
+    </dd>
+    <dd class="smallBrands" data-tags="H"><a href="#">Henri Lloyd</a>
+    </dd>
+    <dd class="smallBrands" data-tags="H"><a href="#">Hi Tec</a>
+    </dd>
+    <dd class="smallBrands" data-tags="H"><a href="#">Hi-Tec</a>
+    </dd>
+    <dd class="smallBrands" data-tags="H"><a href="#">High5</a>
+    </dd>
+     <dd class="smallBrands" data-tags="H"><a href="#">Highlander</a>
+    </dd>
+    <dd class="smallBrands" data-tags="H"><a href="#">Hot Hands</a>
+    </dd>
+</dl>
+
+
+<dl>
+    <dt style="color:#e5e5e5">H</dt>
+    <dd class="smallBrands" data-tags="H"><a href="#">HotMess</a>
+    </dd> 
+    <dd class="smallBrands" data-tags="H"><a href="#">Hugo</a>
+    </dd>
+    <dd class="smallBrands" data-tags="H"><a href="#">Hugo Boss Green</a>
+    </dd>
+    <dd class="smallBrands" data-tags="H"><a href="#">Humor</a>
+    </dd>
+    <dd class="smallBrands" data-tags="H"><a href="#">Hunter</a>
+    </dd>
+    <dd class="smallBrands" data-tags="H"><a href="#">Hype</a>
+    </dd>
+</dl>
+
+
+<dl>
+    <dt>I</dt>
+    <dd class="smallBrands" data-tags="I"><a href="#">Ice By Iceberg</a>
+    </dd>
+    <dd class="smallBrands" data-tags="I"><a href="#">Icebreaker</a>
+    </dd>
+    <dd class="smallBrands" data-tags="I"><a href="#">ICHIBAN</a>
+    </dd>
+    <dd class="smallBrands" data-tags="I"><a href="#">ICON BRAND</a>
+    </dd>
+    <dd class="smallBrands" data-tags="I"><a href="#">Implus</a>
+    </dd>
+    <!-- <dd class="smallBrands" data-tags="I"><a href="#">Impulse</a>
+    </dd> -->
+    <dd class="smallBrands" data-tags="I"><a href="#">Inov-8</a>
+    </dd>
+    <dd class="smallBrands" data-tags="I"><a href="#">Isle Jacobsen</a>
+    </dd>
+</dl>
+
+
+<dl>
+    <dt>J</dt>
+    <!-- <dd class="smallBrands" data-tags="J"><a href="#">Jack &amp; Jones</a>
+    </dd> -->
+    <dd class="smallBrands" data-tags="J"><a href="#">JACK JONES</a>
+    </dd>
+    <dd class="smallBrands" data-tags="J"><a href="#">Jack Wolfskin</a>
+    </dd>
+    <dd class="smallBrands" data-tags="J"><a href="#">Jacob Cohen</a>
+    </dd>
+    <dd class="smallBrands" data-tags="J"><a href="#">Jacqueline De Yong</a>
+    </dd>
+    <dd class="smallBrands" data-tags="J"><a href="#">Jarrold</a>
+    </dd>
+    <dd class="smallBrands" data-tags="J"><a href="#">JD</a>
+    </dd>
+    <dd class="smallBrands" data-tags="J"><a href="#">Jeep</a>
+    </dd>
+    <dd class="smallBrands" data-tags="J"><a href="#">Jetboil</a>
+    </dd>
+    <dd class="smallBrands" data-tags="J"><a href="#">Jordan</a>
+    </dd>
+    <dd class="smallBrands" data-tags="J"><a href="#">Juicy Couture</a>
+    </dd>
+    <dd class="smallBrands" data-tags="J"><a href="#">Julbo</a>
+    </dd> 
+    <dd class="smallBrands" data-tags="J"><a href="#">Just Cavalli</a>
+    </dd>
+</dl>
+
+
+<dl>
+    <dt>K</dt>
+    <dd class="smallBrands" data-tags="K"><a href="#">K-Swiss</a>
+    </dd>
+    <dd class="smallBrands" data-tags="K"><a href="#">Kamasan</a>
+    </dd>
+    <dd class="smallBrands" data-tags="K"><a href="#">Karrimor</a>
+    </dd>
+    <dd class="smallBrands" data-tags="K"><a href="#">Keen</a>
+    </dd>
+    <dd class="smallBrands" data-tags="K"><a href="#">Kelly Kettle</a>
+    </dd>
+    <dd class="smallBrands" data-tags="K"><a href="#">Kickers</a>
+    </dd>
+    <dd class="smallBrands" data-tags="K"><a href="#">Kiss the Sky</a>
+    </dd>
+    <dd class="smallBrands" data-tags="K"><a href="#">Kooga</a>
+    </dd>
+    <dd class="smallBrands" data-tags="K"><a href="#">Kozi Kids</a>
+    </dd>
+    <dd class="smallBrands" data-tags="K"><a href="#">Kuhl</a>
+    </dd>
+    <dd class="smallBrands" data-tags="K"><a href="#">Kukri</a>
+    </dd>
+    <dd class="smallBrands" data-tags="K"><a href="#">Kusan</a>
+    </dd>
+</dl>
+
+
+<dl>
+    <dt>L</dt>
+    <dd class="smallBrands" data-tags="L"><a href="#">La Sportiva</a>
+    </dd>
+    <dd class="smallBrands" data-tags="L"><a href="#">Laboratory Perfumes</a>
+    </dd>
+    <dd class="smallBrands" data-tags="L"><a href="#">Lacoste</a>
+    </dd>
+    <dd class="smallBrands" data-tags="L"><a href="#">Lagerfeld</a>
+    </dd>
+    <!-- <dd class="smallBrands" data-tags="L"><a href="#">Lavish Alice</a>
+    </dd> -->
+    <dd class="smallBrands" data-tags="L"><a href="#">Le Coq Sportif</a>
+    </dd>
+    <dd class="smallBrands" data-tags="L"><a href="#">Leatherman</a>
+    </dd>
+    <dd class="smallBrands" data-tags="L"><a href="#">Led Lenser</a>
+    </dd>
+    <dd class="smallBrands" data-tags="L"><a href="#">Lee</a>
+    </dd>
+    <dd class="smallBrands" data-tags="L"><a href="#">Leki</a>
+    </dd>
+    <dd class="smallBrands" data-tags="L"><a href="#">Levis</a>
+    </dd>
+    <dd class="smallBrands" data-tags="L"><a href="#">Life Systems</a>
+    </dd>
+    <dd class="smallBrands" data-tags="L"><a href="#">Lifesystems</a>
+    </dd>
+</dl>
+
+
+<dl>
+    <dt style="color:#e5e5e5">L</dt>
+    <dd class="smallBrands" data-tags="L"><a href="#">Lifeventure</a>
+    </dd>
+    <dd class="smallBrands" data-tags="L"><a href="#">Light My Fire</a>
+    </dd> 
+    <dd class="smallBrands" data-tags="L"><a href="#">Littlelife</a>
+    </dd>
+    <dd class="smallBrands" data-tags="L"><a href="#">Lonely Planet</a>
+    </dd>
+    <dd class="smallBrands" data-tags="L"><a href="#">Lorpen</a>
+    </dd>
+    <dd class="smallBrands" data-tags="L"><a href="#">Love Moschino</a>
+    </dd>
+    <dd class="smallBrands" data-tags="L"><a href="#">Lowe Alpine</a>
+    </dd>
+    <dd class="smallBrands" data-tags="L"><a href="#">Luke 1977</a>
+    </dd>
+    <dd class="smallBrands" data-tags="L"><a href="#">Lyle &amp; Scott</a>
+    </dd>
+</dl>
+
+
+<dl>
+    <dt>M</dt>
+    <dd class="smallBrands" data-tags="M"><a href="#">M Missoni</a>
+    </dd>
+    <dd class="smallBrands" data-tags="M"><a href="#">MA.STRUM</a>
+    </dd>
+    <dd class="smallBrands" data-tags="M"><a href="#">Mackintosh</a>
+    </dd>
+    <dd class="smallBrands" data-tags="M"><a href="#">Macpac</a>
+    </dd>
+    <dd class="smallBrands" data-tags="M"><a href="#">Macron</a>
+    </dd>
+    <dd class="smallBrands" data-tags="M"><a href="#">Maglite</a>
+    </dd>
+    <dd class="smallBrands" data-tags="M"><a href="#">Magnum</a>
+    </dd>
+    <dd class="smallBrands" data-tags="M"><a href="#">Maison Scotch</a>
+    </dd>
+    <dd class="smallBrands" data-tags="M"><a href="#">Majestic Athletic</a>
+    </dd>
+    <dd class="smallBrands" data-tags="M"><a href="#">Mammut</a>
+    </dd>
+    <dd class="smallBrands" data-tags="M"><a href="#">MANTERO</a>
+    </dd>
+    <dd class="smallBrands" data-tags="M"><a href="#">Margiela</a>
+    </dd>
+    <dd class="smallBrands" data-tags="M"><a href="#">Marmot</a>
+    </dd>
+    <dd class="smallBrands" data-tags="M"><a href="#">Marshall Artist</a>
+    </dd>
+    <dd class="smallBrands" data-tags="M"><a href="#">Mason Garments</a>
+    </dd> 
+    <dd class="smallBrands" data-tags="M"><a href="#">Masterlock</a>
+    </dd>
+    <dd class="smallBrands" data-tags="M"><a href="#">Matchless</a>
+    </dd>
+    <dd class="smallBrands" data-tags="M"><a href="#">Maypole</a>
+    </dd>
+</dl>
+
+
+<dl>
+    <dt style="color:#e5e5e5">M</dt>
+    <dd class="smallBrands" data-tags="M"><a href="#">McKenzie</a>
+    </dd>
+    <dd class="smallBrands" data-tags="M"><a href="#">McNett</a>
+    </dd>
+    <dd class="smallBrands" data-tags="M"><a href="#">Meindl</a>
+    </dd>
+    <dd class="smallBrands" data-tags="M"><a href="#">Melissa</a>
+    </dd>
+    <dd class="smallBrands" data-tags="M"><a href="#">Merrell</a>
+    </dd>
+    <dd class="smallBrands" data-tags="M"><a href="#">Michael Kors</a>
+    </dd>
+    <dd class="smallBrands" data-tags="M"><a href="#">Millets</a>
+    </dd>
+    <dd class="smallBrands" data-tags="M"><a href="#">Mio</a>
+    </dd>
+    <dd class="smallBrands" data-tags="M"><a href="#">MIPAC</a>
+    </dd>
+    <dd class="smallBrands" data-tags="M"><a href="#">Mitchell &amp; Ness</a>
+    </dd>
+    <dd class="smallBrands" data-tags="M"><a href="#">Moda</a>
+    </dd>
+    <dd class="smallBrands" data-tags="M"><a href="#">Moncler</a>
+    </dd> 
+    <dd class="smallBrands" data-tags="M"><a href="#">Money</a>
+    </dd>
+    <dd class="smallBrands" data-tags="M"><a href="#">Montane</a>
+    </dd>
+    <dd class="smallBrands" data-tags="M"><a href="#">Moonchild</a>
+    </dd>
+    <dd class="smallBrands" data-tags="M"><a href="#">Mophie</a>
+    </dd>
+    <!-- <dd class="smallBrands" data-tags="M"><a href="#">Motel</a>
+    </dd> -->
+    <dd class="smallBrands" data-tags="M"><a href="#">Mountain Equipment</a>
+    </dd>
+</dl>
+
+
+<dl>
+    <dt style="color:#e5e5e5">M</dt>
+    <dd class="smallBrands" data-tags="M"><a href="#">Mountain Hardwear</a>
+    </dd>
+    <dd class="smallBrands" data-tags="M"><a href="#">Mr Lacy</a>
+    </dd>
+    <dd class="smallBrands" data-tags="M"><a href="#">MR NATTY</a>
+    </dd> 
+    <dd class="smallBrands" data-tags="M"><a href="#">MSR</a>
+    </dd>
+    <dd class="smallBrands" data-tags="M"><a href="#">Muc Off</a>
+    </dd>
+    <dd class="smallBrands" data-tags="M"><a href="#">Mujjo</a>
+    </dd>
+    <dd class="smallBrands" data-tags="M"><a href="#">Multimat</a>
+    </dd>
+</dl>
+
+
+<dl>
+    <dt>N</dt>
+    <dd class="smallBrands" data-tags="N"><a href="#">Napapijri</a>
+    </dd>
+    <dd class="smallBrands" data-tags="N"><a href="#">Native Youth</a>
+    </dd>
+    <dd class="smallBrands" data-tags="N"><a href="#">Navitas</a>
+    </dd>
+    <dd class="smallBrands" data-tags="N"><a href="#">New Balance</a>
+    </dd>
+    <dd class="smallBrands" data-tags="N"><a href="#">New Era</a>
+    </dd>
+    <dd class="smallBrands" data-tags="N"><a href="#">NEW LOVE CLUB</a>
+    </dd>
+    <dd class="smallBrands" data-tags="N"><a href="#">Nicce</a>
+    </dd>
+    <dd class="smallBrands" data-tags="N"><a href="#">Nicholas Deakins</a>
+    </dd>
+    <dd class="smallBrands" data-tags="N"><a href="#">Nickelson</a>
+    </dd>
+    <dd class="smallBrands" data-tags="N"><a href="#">Nike</a>
+    </dd>
+    <dd class="smallBrands" data-tags="N"><a href="#">Nike Skateboarding</a>
+    </dd>
+    <dd class="smallBrands" data-tags="N"><a href="#">Nikwax</a>
+    </dd>
+    <dd class="smallBrands" data-tags="N"><a href="#">Nine In The Morning</a>
+    </dd> 
+    <dd class="smallBrands" data-tags="N"><a href="#">Niteize</a>
+    </dd>
+    <dd class="smallBrands" data-tags="N"><a href="#">Nitestik</a>
+    </dd> 
+    <dd class="smallBrands" data-tags="N"><a href="#">Nitize</a>
+    </dd>
+    <dd class="smallBrands" data-tags="N"><a href="#">Noisy May</a>
+    </dd>
+    <dd class="smallBrands" data-tags="N"><a href="#">Nordic Grip</a>
+    </dd>
+</dl>
+
+
+<dl>
+    <dt>O</dt>
+    <dd class="smallBrands" data-tags="O"><a href="#">O'Neill</a>
+    </dd>
+    <dd class="smallBrands" data-tags="O"><a href="#">Oakley</a>
+    </dd>
+    <dd class="smallBrands" data-tags="O"><a href="#">Official Team</a>
+    </dd>
+    <dd class="smallBrands" data-tags="O"><a href="#">Oh My Love</a>
+    </dd>
+    <dd class="smallBrands" data-tags="O"><a href="#">olumbia</a>
+    </dd>
+    <dd class="smallBrands" data-tags="O"><a href="#">One Earth</a>
+    </dd>
+    <dd class="smallBrands" data-tags="O"><a href="#">One True Saxon</a>
+    </dd>
+    <dd class="smallBrands" data-tags="O"><a href="#">Onitsuka Tiger</a>
+    </dd>
+    <dd class="smallBrands" data-tags="O"><a href="#">ONLY</a>
+    </dd>
+    <dd class="smallBrands" data-tags="O"><a href="#">Only and Sons</a>
+    </dd>
+    <dd class="smallBrands" data-tags="O"><a href="#">Ordnance Survey</a>
+    </dd>
+    <dd class="smallBrands" data-tags="O"><a href="#">Original Penguin</a>
+    </dd>
+    <dd class="smallBrands" data-tags="O"><a href="#">Orthosole</a>
+    </dd>
+    <dd class="smallBrands" data-tags="O"><a href="#">Ortlieb</a>
+    </dd>
+    <dd class="smallBrands" data-tags="O"><a href="#">Osprey</a>
+    </dd>  
+    <dd class="smallBrands" data-tags="O"><a href="#">Outdoor Research</a>
+    </dd>
+    <dd class="smallBrands" data-tags="O"><a href="#">Outwell</a>
+    </dd>
+</dl>
+
+
+<dl>
+    <dt>P</dt>
+    <dd class="smallBrands" data-tags="P"><a href="#">Pacsafe</a>
+    </dd>
+    <dd class="smallBrands" data-tags="P"><a href="#">Panuu</a>
+    </dd>
+    <dd class="smallBrands" data-tags="P"><a href="#">Paramo</a>
+    </dd>
+    <dd class="smallBrands" data-tags="P"><a href="#">Patagonia</a>
+    </dd>
+    <dd class="smallBrands" data-tags="P"><a href="#">Pathfinder</a>
+    </dd>
+    <dd class="smallBrands" data-tags="P"><a href="#">Patrizia Pepe</a>
+    </dd>
+    <dd class="smallBrands" data-tags="P"><a href="#">Paul &amp; Shark</a>
+    </dd>
+    <dd class="smallBrands" data-tags="P"><a href="#">Paul and Shark</a>
+    </dd>
+    <dd class="smallBrands" data-tags="P"><a href="#">Paul Smith Jeans</a>
+    </dd>
+    <dd class="smallBrands" data-tags="P"><a href="#">Paul Smith London</a>
+    </dd>
+    <dd class="smallBrands" data-tags="P"><a href="#">Peaceful Hooligan</a>
+    </dd>
+    <dd class="smallBrands" data-tags="P"><a href="#">Penfield</a>
+    </dd>
+    <dd class="smallBrands" data-tags="P"><a href="#">Peter Storm</a>
+    </dd>
+    <dd class="smallBrands" data-tags="P"><a href="#">Petzl</a>
+    </dd>
+    <dd class="smallBrands" data-tags="P"><a href="#">Phillips</a>
+    </dd> 
+    <dd class="smallBrands" data-tags="P"><a href="#">Polo Ralph Lauren</a>
+    </dd>
+    <dd class="smallBrands" data-tags="P"><a href="#">Pop</a>
+    </dd>
+</dl>
+
+
+<dl>
+    <dt style="color:#e5e5e5">P</dt>
+    <dd class="smallBrands" data-tags="P"><a href="#">Power Traveller</a>
+    </dd>
+    <dd class="smallBrands" data-tags="P"><a href="#">Powerbar</a>
+    </dd>
+    <dd class="smallBrands" data-tags="P"><a href="#">Powertraveller</a>
+    </dd>
+    <dd class="smallBrands" data-tags="P"><a href="#">Pretty Green</a>
+    </dd>
+    <!-- <dd class="smallBrands" data-tags="P"><a href="#">Pretty Polly</a>
+    </dd> -->
+    <dd class="smallBrands" data-tags="P"><a href="#">Primus</a>
+    </dd>
+    <dd class="smallBrands" data-tags="P"><a href="#">Pro Man</a>
+    </dd>
+    <dd class="smallBrands" data-tags="P"><a href="#">Protest</a>
+    </dd>
+    <dd class="smallBrands" data-tags="P"><a href="#">PS By Paul Smith</a>
+    </dd>
+    <dd class="smallBrands" data-tags="P"><a href="#">Puma</a>
+    </dd> 
+    <dd class="smallBrands" data-tags="P"><a href="#">Pure Simple Sport</a>
+    </dd>
+    <dd class="smallBrands" data-tags="P"><a href="#">Pyrenex</a>
+    </dd>
+</dl>
+
+
+<dl>
+    <dt>Q</dt>
+    <dd class="smallBrands" data-tags="Q"><a href="#">Quest</a>
+    </dd>
+    <dd class="smallBrands" data-tags="Q"><a href="#">Quiksilver</a>
+    </dd>
+</dl>
+
+
+<dl>
+    <dt>R</dt>
+    <dd class="smallBrands" data-tags="R"><a href="#">Rab</a>
+    </dd>
+    <dd class="smallBrands" data-tags="R"><a href="#">RAINS</a>
+    </dd>
+   <!--  <dd class="smallBrands" data-tags="R"><a href="#">Rare</a>
+    </dd> -->
+    <dd class="smallBrands" data-tags="R"><a href="#">Reebok</a>
+    </dd>
+    <dd class="smallBrands" data-tags="R"><a href="#">Refrigiwear</a>
+    </dd>
+    <dd class="smallBrands" data-tags="R"><a href="#">Regatta</a>
+    </dd>
+    <dd class="smallBrands" data-tags="R"><a href="#">Religion</a>
+    </dd>
+    <dd class="smallBrands" data-tags="R"><a href="#">Rhythm</a>
+    </dd>
+    <dd class="smallBrands" data-tags="R"><a href="#">Ring</a>
+    </dd>
+    <dd class="smallBrands" data-tags="R"><a href="#">Rite</a>
+    </dd>
+    <dd class="smallBrands" data-tags="R"><a href="#">Robens</a>
+    </dd>
+    <dd class="smallBrands" data-tags="R"><a href="#">Rockport</a>
+    </dd>
+    <dd class="smallBrands" data-tags="R"><a href="#">Rokform</a>
+    </dd>
+    <dd class="smallBrands" data-tags="R"><a href="#">Romney's</a>
+    </dd>
+    <dd class="smallBrands" data-tags="R"><a href="#">Romneys</a>
+    </dd> 
+</dl>
+
+
+<dl>
+    <dt style="color:#e5e5e5">R</dt>
+    <dd class="smallBrands" data-tags="R"><a href="#">Roxy</a>
+    </dd>
+    <dd class="smallBrands" data-tags="R"><a href="#">Royal Robbins</a>
+    </dd>
+    <dd class="smallBrands" data-tags="R"><a href="#">Royal Robins</a>
+    </dd>
+    <dd class="smallBrands" data-tags="R"><a href="#">Russell Athletic</a>
+    </dd>
+</dl>
+
+
+<dl>
+    <dt>S</dt>
+    <dd class="smallBrands" data-tags="S"><a href="#">Salomon</a>
+    </dd>
+    <dd class="smallBrands" data-tags="S"><a href="#">Sam Edelman</a>
+    </dd>
+    <dd class="smallBrands" data-tags="S"><a href="#">Samsoe</a>
+    </dd>
+    <dd class="smallBrands" data-tags="S"><a href="#">Saucony</a>
+    </dd>
+    <dd class="smallBrands" data-tags="S"><a href="#">Scarpa</a>
+    </dd>
+    <dd class="smallBrands" data-tags="S"><a href="#">Schott</a>
+    </dd>
+    <dd class="smallBrands" data-tags="S"><a href="#">Schwalbe</a>
+    </dd>
+    <dd class="smallBrands" data-tags="S"><a href="#">Scoredraw</a>
+    </dd>
+    <dd class="smallBrands" data-tags="S"><a href="#">Scotch &amp; Soda</a>
+    </dd>
+    <dd class="smallBrands" data-tags="S"><a href="#">Screamer</a>
+    </dd>
+    <dd class="smallBrands" data-tags="S"><a href="#">Sea To Summit</a>
+    </dd> 
+    <dd class="smallBrands" data-tags="S"><a href="#">Sealskinz</a>
+    </dd>
+    <dd class="smallBrands" data-tags="S"><a href="#">See By Chloe</a>
+    </dd>
+    <dd class="smallBrands" data-tags="S"><a href="#">Sensas</a>
+    </dd>
+    <dd class="smallBrands" data-tags="S"><a href="#">Serge Denimes</a>
+    </dd> 
+</dl>
+
+
+<dl>
+    <dt style="color:#e5e5e5">S</dt>
+    <dd class="smallBrands" data-tags="S"><a href="#">Sergio Tacchini</a>
+    </dd>
+    <dd class="smallBrands" data-tags="S"><a href="#">Sherpa</a>
+    </dd>
+    <dd class="smallBrands" data-tags="S"><a href="#">Shewee</a>
+    </dd>
+    <dd class="smallBrands" data-tags="S"><a href="#">Shock Absorber</a>
+    </dd>
+    <dd class="smallBrands" data-tags="S"><a href="#">Short Walks</a>
+    </dd>
+    <dd class="smallBrands" data-tags="S"><a href="#">Sidas</a>
+    </dd>
+    <dd class="smallBrands" data-tags="S"><a href="#">Sigg</a>
+    </dd>
+    <dd class="smallBrands" data-tags="S"><a href="#">Sik Silk</a>
+    </dd>
+    <dd class="smallBrands" data-tags="S"><a href="#">Silva</a>
+    </dd>
+    <dd class="smallBrands" data-tags="S"><a href="#">Silverpoint</a>
+    </dd>
+    <dd class="smallBrands" data-tags="S"><a href="#">Sinner</a>
+    </dd>
+    <dd class="smallBrands" data-tags="S"><a href="#">Skull and Bones Boys Club</a>
+    </dd>
+    <dd class="smallBrands" data-tags="S"><a href="#">Skullcandy</a>
+    </dd>
+    <dd class="smallBrands" data-tags="S"><a href="#">Smartwool</a>
+    </dd>
+</dl>
+
+
+<dl>
+    <dt style="color:#e5e5e5">S</dt>
+    <dd class="smallBrands" data-tags="S"><a href="#">Snugpak</a>
+    </dd> 
+    <dd class="smallBrands" data-tags="S"><a href="#">Sof Sole</a>
+    </dd>
+    <dd class="smallBrands" data-tags="S"><a href="#">Sonik</a>
+    </dd>
+    <dd class="smallBrands" data-tags="S"><a href="#">Sonneti</a>
+    </dd>
+    <dd class="smallBrands" data-tags="S"><a href="#">Sorbothane</a>
+    </dd>
+    <dd class="smallBrands" data-tags="S"><a href="#">Source</a>
+    </dd>
+    <dd class="smallBrands" data-tags="S"><a href="#">Spacecraft</a>
+    </dd>
+     <dd class="smallBrands" data-tags="S"><a href="#">Speedo</a>
+    </dd>
+    <dd class="smallBrands" data-tags="S"><a href="#">Sprayway</a>
+    </dd>
+    <dd class="smallBrands" data-tags="S"><a href="#">Stanley</a>
+    </dd>
+    <dd class="smallBrands" data-tags="S"><a href="#">Starbaits</a>
+    </dd>
+    <dd class="smallBrands" data-tags="S"><a href="#">Starter</a>
+    </dd>
+    <dd class="smallBrands" data-tags="S"><a href="#">Steripen</a>
+    </dd>
+    <dd class="smallBrands" data-tags="S"><a href="#">Sticky Baits</a>
+    </dd>
+    <dd class="smallBrands" data-tags="S"><a href="#">Stone Island</a>
+    </dd>
+</dl>
+
+
+<dl>
+    <dt style="color:#e5e5e5">S</dt>
+    <dd class="smallBrands" data-tags="S"><a href="#">Stone Monkey</a>
+    </dd> 
+    <dd class="smallBrands" data-tags="S"><a href="#">SUIT</a>
+    </dd>
+    <dd class="smallBrands" data-tags="S"><a href="#">Summit</a>
+    </dd>
+    <dd class="smallBrands" data-tags="S"><a href="#">Sunspel</a>
+    </dd>
+    <dd class="smallBrands" data-tags="S"><a href="#">Superbia</a>
+    </dd>
+    <!-- <dd class="smallBrands" data-tags="S"><a href="#">Superdry</a>
+    </dd> -->
+    <dd class="smallBrands" data-tags="S"><a href="#">Superfeet</a>
+    </dd>
+    <dd class="smallBrands" data-tags="S"><a href="#">SUPERGA</a>
+    </dd>
+    <dd class="smallBrands" data-tags="S"><a href="#">Supertrash</a>
+    </dd> 
+    <dd class="smallBrands" data-tags="S"><a href="#">Supply and Demand</a>
+    </dd>
+    <!-- <dd class="smallBrands" data-tags="S"><a href="#">Supra</a>
+    </dd> -->
+    <dd class="smallBrands" data-tags="S"><a href="#">Supremacy</a>
+    </dd>
+    <dd class="smallBrands" data-tags="S"><a href="#">Suunto</a>
+    </dd>
+    <dd class="smallBrands" data-tags="S"><a href="#">Swims</a>
+    </dd>
+</dl>
+
+
+<dl>
+    <dt>T</dt>
+    <dd class="smallBrands" data-tags="T"><a href="#">Taska</a>
+    </dd>
+    <dd class="smallBrands" data-tags="T"><a href="#">Tear Aid</a>
+    </dd>
+    <dd class="smallBrands" data-tags="T"><a href="#">Technicals</a>
+    </dd>
+    <dd class="smallBrands" data-tags="T"><a href="#">Ted Baker</a>
+    </dd>
+    <dd class="smallBrands" data-tags="T"><a href="#">Ted Baker Shoes</a>
+    </dd>
+    <dd class="smallBrands" data-tags="T"><a href="#">Terra Nova</a>
+    </dd>
+    <dd class="smallBrands" data-tags="T"><a href="#">Teva</a>
+    </dd>
+    <dd class="smallBrands" data-tags="T"><a href="#">TFGear</a>
+    </dd>
+    <!-- <dd class="smallBrands" data-tags="T"><a href="#">TFNC</a>
+    </dd> -->
+    <dd class="smallBrands" data-tags="T"><a href="#">The Kit</a>
+    </dd>
+    <dd class="smallBrands" data-tags="T"><a href="#">The North Face</a>
+    </dd>
+    <dd class="smallBrands" data-tags="T"><a href="#">The Ragged Priest</a>
+    </dd>
+     <dd class="smallBrands" data-tags="T"><a href="#">The Source</a>
+    </dd>
+    <dd class="smallBrands" data-tags="T"><a href="#">Thermarest</a>
+    </dd>
+    <dd class="smallBrands" data-tags="T"><a href="#">Thomas Black</a>
+    </dd> 
+</dl>
+
+
+<dl>
+    <dt style="color:#e5e5e5">T</dt>
+    <dd class="smallBrands" data-tags="T"><a href="#">Timberland</a>
+    </dd>
+    <dd class="smallBrands" data-tags="T"><a href="#">Timex</a>
+    </dd>
+    <dd class="smallBrands" data-tags="T"><a href="#">Topeak</a>
+    </dd>
+    <dd class="smallBrands" data-tags="T"><a href="#">Trainerspotter</a>
+    </dd>
+    <dd class="smallBrands" data-tags="T"><a href="#">Tramarossa</a>
+    </dd>
+    <dd class="smallBrands" data-tags="T"><a href="#">Trangia</a>
+    </dd>
+    <dd class="smallBrands" data-tags="T"><a href="#">Trekmates</a>
+    </dd>
+    <dd class="smallBrands" data-tags="T"><a href="#">Trespass</a>
+    </dd>
+    <dd class="smallBrands" data-tags="T"><a href="#">Troll</a>
+    </dd> 
+    <dd class="smallBrands" data-tags="T"><a href="#">True Religion</a>
+    </dd>
+    <dd class="smallBrands" data-tags="T"><a href="#">True Utility</a>
+    </dd> 
+    <dd class="smallBrands" data-tags="T"><a href="#">Turnstyle</a>
+    </dd>
+</dl>
+
+
+<dl>
+    <dt>U</dt>
+    <dd class="smallBrands" data-tags="U"><a href="#">Ugg</a>
+    </dd>
+    <dd class="smallBrands" data-tags="U"><a href="#">Ugg Australia</a>
+    </dd>
+    <dd class="smallBrands" data-tags="U"><a href="#">Umbro</a>
+    </dd>
+    <dd class="smallBrands" data-tags="U"><a href="#">Under Armour</a>
+    </dd>
+    <dd class="smallBrands" data-tags="U"><a href="#">Uni-Com</a>
+    </dd>
+    <dd class="smallBrands" data-tags="U"><a href="#">Unsung Hero</a>
+    </dd>
+    <dd class="smallBrands" data-tags="U"><a href="#">Up &amp; Running</a>
+    </dd>
+    <dd class="smallBrands" data-tags="U"><a href="#">URBAN GRAPHICS</a>
+    </dd>
+</dl>
+
+
+<dl>
+    <dt>V</dt>
+    <dd class="smallBrands" data-tags="V"><a href="#">V Wesstwood Accs</a>
+    </dd>
+    <dd class="smallBrands" data-tags="V"><a href="#">Vango</a>
+    </dd>
+    <dd class="smallBrands" data-tags="V"><a href="#">Vans</a>
+    </dd>
+    <dd class="smallBrands" data-tags="V"><a href="#">Vaude</a>
+    </dd>
+    <dd class="smallBrands" data-tags="V"><a href="#">Vavert</a>
+    </dd>
+    <dd class="smallBrands" data-tags="V"><a href="#">Veho</a>
+    </dd>
+    <dd class="smallBrands" data-tags="V"><a href="#">Vero Moda</a>
+    </dd>
+    <dd class="smallBrands" data-tags="V"><a href="#">Vestey</a>
+    </dd>
+    <dd class="smallBrands" data-tags="V"><a href="#">Victorinox</a>
+    </dd>
+    <dd class="smallBrands" data-tags="V"><a href="#">Viking</a>
+    </dd>
+    <dd class="smallBrands" data-tags="V"><a href="#">VILA</a>
+    </dd>
+    <dd class="smallBrands" data-tags="V"><a href="#">Vivienne Westood</a>
+    </dd> 
+    <dd class="smallBrands" data-tags="V"><a href="#">Voi Jeans</a>
+    </dd> 
+     <dd class="smallBrands" data-tags="V"><a href="#">Vouchers</a>
+    </dd>
+</dl>
+
+
+<dl>
+    <dt>W</dt>
+    <dd class="smallBrands" data-tags="W"><a href="#">Wal G</a>
+    </dd>
+    <dd class="smallBrands" data-tags="W"><a href="#">Walsh</a>
+    </dd>
+    <dd class="smallBrands" data-tags="W"><a href="#">Warrior Sports</a>
+    </dd>
+    <dd class="smallBrands" data-tags="W"><a href="#">Wayfarer</a>
+    </dd>
+    <dd class="smallBrands" data-tags="W"><a href="#">Weekend Offender</a>
+    </dd>
+    <dd class="smallBrands" data-tags="W"><a href="#">Weird Fish</a>
+    </dd>
+    <dd class="smallBrands" data-tags="W"><a href="#">Wemoto</a>
+    </dd>
+    <dd class="smallBrands" data-tags="W"><a href="#">Westwood Anglomania</a>
+    </dd>
+    <dd class="smallBrands" data-tags="W"><a href="#">Wild Country</a>
+    </dd>
+    <dd class="smallBrands" data-tags="W"><a href="#">Worn By</a>
+    </dd>
+</dl>
+
+
+<dl>
+    <dt>X</dt>
+    <dd class="smallBrands" data-tags="X"><a href="#">X-Bionic</a>
+    </dd>
+</dl>
+
+
+<dl>
+    <dt>Y</dt>
+    <dd class="smallBrands" data-tags="Y"><a href="#">Y3</a>
+    </dd>
+    <dd class="smallBrands" data-tags="Y"><a href="#">Yaktrax</a>
+    </dd>
+    <dd class="smallBrands" data-tags="Y"><a href="#">YMCMB</a>
+    </dd>
+    <dd class="smallBrands" data-tags="Y"><a href="#">YOKA-YO</a>
+    </dd>
+    <dd class="smallBrands" data-tags="Y"><a href="#">Your Own</a>
+    </dd>
+</dl>
+
+
+<dl>
+    <dt>Z</dt>
+    <dd class="smallBrands" data-tags="Z"><a href="#">Zegna Sport</a>
+    </dd>
+    <dd class="smallBrands" data-tags="Z"><a href="#">Zegna Underwear</a>
+    </dd>
+    <dd class="smallBrands" data-tags="Z"><a href="#">Zippo</a>
+    </dd>
+    <dd class="smallBrands" data-tags="Z"><a href="#">Zoca</a>
+    </dd>
+</dl> 
+					
+				</div>
+				<!-- end of brandlist -->
+
+					</div> <!-- end of stage holder-->
+
+				<!-- the brands ends -->
+
+
+
+				<!-- theTerm starts -->
+					<div id="theTerm" class="myStageHolder tab-contents">
+						<h1>Terms &amp; Conditions - Sale of Gift Cards Online</h1>
+
+
+						<p><strong>JD Sports Fashion PLC (JD)</strong></p>
+
+                        <p>Gift Cards are valid in any JD store within the UK, Northern Ireland and the Channel Islands (participating stores only). Gift Cards can also be redeemed in the following JD group stores: JD Sports, Scotts, Blacks, Millets, Tessuti and JD Pro. Gift Cards cannot be used to purchase goods online.</p>
+
+                        <p>Bank fashion limited is no longer part of the JD Sports Fashion Group. Therefore you can no longer purchase or redeem the ultimate gift card in bank stores. For further information please visit <a href="http://www.ultimategiftcard.co.uk"  target="_blank">www.ultimategiftcard.co.uk</a></p>
+
+                        <p>Your Gift Card can be used as full or part payment for any goods being purchased in any participating store. Remaining Gift Card balances will be shown on your till receipt following each purchase.</p>
+
+                        <p>The minimum amount that can be loaded to a Gift Card is &pound;10.00 and the maximum is &pound;300.00.</p>
+
+                        <p>The Gift Card is not a cheque guarantee or a credit card.</p>
+
+                        <p>JD cannot be held liable for any lost, damaged or stolen Gift Cards or Gift Cards used without the permission of the owner or any outstanding balances relating to such cards. Please treat your Gift Card as cash.</p>
+
+                        <p>The Gift Card cannot be refunded or exchanged for cash.</p>
+
+                        <p>The Gift Card will expire and any remaining balance will reduce to nil if it is not used within a 12 month period.</p>
+
+                        <p>JD reserves the right to amend, waive or add any further terms and conditions necessary due to legal, security or regulatory reasons. Notice of any changes to these terms and conditions will be displayed in participating stores and on the website: <a href="http://www.jdsports.co.uk/" target="_blank">www.jdsports.co.uk</a></p>
+
+                        <p>Gift Cards cannot be resold.</p>
+
+                        <p>Any discounts or promotions being offered on the website: <a href="http://www.jdsports.co.uk/" target="_blank">www.jdsports.co.uk</a> cannot be used in conjunction with your online Gift Card purchase.</p>
+
+
+					</div>
+
+				<!-- theTerm ends -->
+
+
+				</div>
+
+
+
+			</div>
+
+		</div>
+	</div>
+
+</div>
+
+
+
+
+</div>
+
+
+
+<!--
+
+    <div class="modal-overlay" id="modal_window"
+             aria-hidden="true" role="dialog"
+             aria-labelledby="modal_title">
+
+      <div class="modal-content" id="modal_holder" role="document">
+
+           -->
+
+<!--
+      </div>  end .modal-content
+
+    </div>  end .modal-overlay -->
+
+
+
+
+
+
+
+
+
+
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+<script src="//ajax.googleapis.com/ajax/libs/jqueryui/1.10.3/jquery-ui.min.js"></script>
+<script src="http://code.jquery.com/jquery-migrate-1.2.1.js"></script>
+<script src="/lib/hlight/denim/assets/js/royalslider/jquery.easing-1.3.js"></script>
+
+<script src="/lib/hlight/gift-cards/js/bootstrap.min.js"></script>
+<!-- <script src="/lib/hlight/gift-cards/js/jquery.quicksand.js"></script>
+<script src="/lib/hlight/gift-cards/js/myscript.js"></script> -->
+<!-- <script src="/lib/hlight/gift-cards/js/sale-2014.js"></script> -->
+<!-- LOAD JQUERY IF NOT LOADED -->
+<script>window.jQuery || document.write("<script src='/js/jquery.js'>\x3C/script>")</script>
+
+<!-- PAGE SPECIFIC SCRIPT -->
+<script type="text/javascript">
+
+jQuery.noConflict();
+
+jQuery(document).ready(function($) {
+	$('.newGift').css('opacity', '1');
+
+
+});
+// VARS
+var catEntryId;
+var pluID;
+var flag=0;
+var qty = jQuery('#qty').val(); //// #TURNOFFQTY
+var valueChoice;
+
+
+function PopUp(N)
+{
+newWindow = window.open(N, 'pop','toolbar=no,menubar=no,resizable=no,scrollbars=yes,status=no,location=no,width=400,height=400');
+}
+
+function NoValueSelected()
+{
+alert("Please select an amount");
+}
+
+jQuery(function()
+{
+	jQuery('body,html').contents().filter(function()
+		{
+    		return this.nodeType === 3;
+    	}).remove();
+
+    	jQuery('.contentContainer').contents().filter(function()
+		{
+    		return this.nodeType === 3;
+    	}).remove();
+    	/****************************************/
+
+	// Import amount
+	// -- Exports the selection from previous coder
+
+    jQuery(document).ready(myOpt);
+
+    jQuery('#amount').change(myOpt);
+    // -- Exports the selection from previous coder
+     
+
+function myOpt()
+	{     
+        // var fixy = jQuery('#amount');
+		valueChoice = "\u00A3"+jQuery('#amount').val();
+		var optionSelected = parseInt(jQuery('#amount').val());
+
+		switch (optionSelected)
+		{
+			case 0:
+				catEntryId = 0;
+				pluID = 0;
+				break;
+			case 5:
+				catEntryId = 1140386;
+				pluID = 43805;
+				break;
+			case 10:
+				catEntryId = 1140379;
+				pluID = 33831;
+				break;
+			case 15:
+				catEntryId = 864251;
+				pluID = 43817;
+				break;
+			case 20:
+				catEntryId = 1140380;
+				pluID = 33912;
+				break;
+			case 25:
+				catEntryId = 430155;
+				pluID = 43828;
+				break;
+			case 30:
+				catEntryId = 1140381;
+				pluID = 33926;
+				break;
+			case 40:
+				catEntryId = 1140382;
+				pluID = 33928;
+				break;
+			case 50:
+				catEntryId = 584560;
+				pluID = 34043;
+				break;
+			case 60:
+				catEntryId = 584561;
+				pluID = 34066;
+				break;
+			case 70:
+				catEntryId = 362949;
+				pluID = 34069;
+				break;
+			case 80:
+				catEntryId = 480804;
+				pluID = 34133;
+				break;
+			case 90:
+				catEntryId = 652391;
+				pluID = 34140;
+				break;
+			case 100:
+				catEntryId = 32672;
+				pluID = 34159;
+				break;
+			case 125:
+				catEntryId = 923553;
+				pluID = 34183;
+				break;
+			case 150:
+				catEntryId = 409139;
+				pluID = 34187;
+				break;
+			case 175:
+				catEntryId = 1140383;
+				pluID = 34195;
+				break;
+			case 200:
+				catEntryId = 1140384;
+				pluID = 34213;
+				break;
+			case 225:
+				catEntryId = 1140385;
+				pluID = 34236;
+				break;
+			case 250:
+				catEntryId = 500052;
+				pluID = 34282;
+				break;
+			case 275:
+				catEntryId = 435739;
+				pluID = 43904;
+				break;
+			case 300:
+				catEntryId = 453088;
+				pluID = 43915;
+				break;
+		}
+
+		jQuery('#coremetric').val(valueChoice);
+		jQuery('#catentry').val(catEntryId);
+		jQuery('#pluid').val(pluID);
+
+	}
+
+});
+
+// GIFT CARD ADDING SYSTEM
+// -- Big green button - will indent/clean more later TODO
+function addgiftcard(){
+	// VAR
+	// -- Validation class
+	var flagx=0;
+	var valuechoicexx = jQuery('#coremetric').val().replace(/\u00A3/g, '');
+
+	var qtycarry = jQuery('#qty').val(); 
+    console.log(jQuery("#amount").val());
+
+	// HIDDEN FIELD GRABBER AND AMOUNT
+	// -- Check pound option!! £money amount
+	if (
+		jQuery('#amount').val() == 0 || jQuery('#amount').val() == "" ||
+		jQuery('#coremetric').val() == 0 || jQuery('#coremetric').val() == "" ||
+		jQuery('#catentry').val() == 0 || jQuery('#catentry').val() == "" ||
+		jQuery('#pluid').val() == 0 || jQuery('#pluid').val() == ""
+	) {
+		flagx=1;
+		jQuery('#amount').addClass('errorapps');
+	} else {
+		jQuery('#amount').removeClass('errorapps');
+	}
+
+	// QUANTITY
+	// -- Check QTY - can disable in future with /* */
+	// // #TURNOFFQTY
+	if(qtycarry==0 || qtycarry=="" || qtycarry >= 100){
+		flagx=1;
+		jQuery('#qty').addClass('errorapps');
+	} else{
+		jQuery('#qty').removeClass('errorapps');
+	}
+
+	if(flagx==1){
+
+	} else {
+
+		// #TURNOFFQTY
+		// window.location="http://www.jdsports.co.uk/webapp/wcs/stores/servlet/OrderItemAdd?catEntryId="+ catEntryId +"&quantity=1&URL=/webapp/wcs/stores/servlet/OrderCalculate?URL=/webapp/wcs/stores/servlet/OrderItemDisplay&updatePrices=1&orderId=.&calculationUsageId=-1&calculationUsageId=-2&calculationUsageId=-7&cm_re=GiftCards-_-AddToBasket-_-"+valuechoicexx+"";
+
+		window.location="http://www.jdsports.co.uk/webapp/wcs/stores/servlet/OrderItemAdd?catEntryId="+ catEntryId +"&quantity="+qtycarry+"&URL=/webapp/wcs/stores/servlet/OrderCalculate?URL=/webapp/wcs/stores/servlet/OrderItemDisplay&updatePrices=1&orderId=.&calculationUsageId=-1&calculationUsageId=-2&calculationUsageId=-7&cm_re=GiftCards-_-AddToBasket-_-"+valuechoicexx+"";
+	}
+
+}
+
+
+
+
+
+
+jQuery(function($){
+
+
+
+
+    $("#theToggle a").click(function(event) {
+        event.preventDefault();
+        $(this).addClass("current");
+        $(this).siblings().removeClass("current");
+        var tab = $(this).attr("href");
+        $(".tab-contents").not(tab).css("display", "none");
+        $(tab).fadeIn();
+
+        if ($('.theTerm').hasClass('current')) {
+        	$('.newGift').css('height', '1612px');
+        	$('.backky').css('margin-left', '186px' );
+ 
+        } else {
+
+        	$('.newGift').css('height', '1612px');
+        	$('.backky').css('margin-left', '30px' );
+        };
+    });
+
+
+
+    $("#theToggle2 a").click(function(event) {
+        event.preventDefault();
+        $(this).addClass("current");
+        $(this).siblings().removeClass("current");
+        var tab = $(this).attr("href");
+        $(".tab-contents2").not(tab).css("display", "none");
+        $(tab).fadeIn();
+
+        if ($('.theTerm2').hasClass('current')) {
+        	$('.newGift').css('height', '5072px');
+        	$('.midx').css('height', '4563px');
+        } else {
+
+        	$('.newGift').css('height', '1612px');
+        	$('.midx').css('height', '1275px');
+        };
+    });
+
+
+	var $selects = $('select').val();
+
+	// $selects.easyDropDown({
+	// 	onChange: function(selected){
+	// 		// do something
+	// 	}
+	// });
+
+
+
+
+
+
+
+ 	$('#modal_open, #modal_close').click(function () {
+	 	// $('#modal_close').css('display', 'block');
+	    $('#termm').slideToggle('2000',"easeInQuart", function () {
+	        // Animation complete.
+    	});
+	});
+
+});
+function PopUp(N)
+{
+    newWindow = window.open(N, 'pop','toolbar=no,menubar=no,resizable=no,scrollbars=yes,status=no,location=no,width=720,height=600');
+}
+// Catch all events related to changes
+        jQuery('#qty').keyup(function() {
+            // Remove invalid characters
+            var sanitized = jQuery(this).val().replace(/[^0-9]/g, '');
+            // Remove non-leading minus signs
+            sanitized = sanitized.replace(/(.)-+/g, '$1');
+            // Remove the first point if there is more than one
+            sanitized = sanitized.replace(/\.(?=.*\.)/g, '');
+            // Update value
+            jQuery(this).val(sanitized);
+        });
+</script>
