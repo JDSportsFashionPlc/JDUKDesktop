@@ -6,7 +6,7 @@
 	* --- --- --- --- ---
 	* #FredHopper
 	* --- --- --- --- ---
-	
+
 	Last modified:6th Jan 2015 - Khaleel Mughal 
 	- Code compression and indent
 	- Removed empty and bloated code
@@ -15,12 +15,37 @@
 	---
 	More cleaning of the code; and easy to minify, store.css is
 	no longer to be used for adding FredHopper inside it. Regards.
-	---
+	
+	DO NOT UN MINIFY THIS FILE
+	DO NOT UN MINIFY THIS FILE
+	DO NOT UN MINIFY THIS FILE
+	DO NOT UN MINIFY THIS FILE
+	DO NOT UN MINIFY THIS FILE
+	DO NOT UN MINIFY THIS FILE
+	DO NOT UN MINIFY THIS FILE
+	DO NOT UN MINIFY THIS FILE
+	DO NOT UN MINIFY THIS FILE
+	DO NOT UN MINIFY THIS FILE
+	DO NOT UN MINIFY THIS FILE
+	DO NOT UN MINIFY THIS FILE
+	DO NOT UN MINIFY THIS FILE
+	DO NOT UN MINIFY THIS FILE
+	DO NOT UN MINIFY THIS FILE
+	DO NOT UN MINIFY THIS FILE
+	DO NOT UN MINIFY THIS FILE
+	DO NOT UN MINIFY THIS FILE
+	DO NOT UN MINIFY THIS FILE
+	DO NOT UN MINIFY THIS FILE
+	DO NOT UN MINIFY THIS FILE
+	DO NOT UN MINIFY THIS FILE
+
+---
 ***/
 
 /***
 GOTHAM
 ***/
+
 .ultra{font-family:'Gotham A', 'Gotham B', sans-serif !important;font-size:19px;font-weight:700}
 .gotham{font-family:'Gotham A', 'Gotham B', sans-serif !important;font-size:13px;font-weight:400}
 .plain-gotham{font-family:'Gotham A', 'Gotham B', sans-serif !important}
@@ -108,10 +133,10 @@ div#plpBanner.clearance_home_banner div#plpBannerText a#plpBannerLink4{backgroun
 .clearance_home_banner_img h2{font-family:'Gotham A', 'Gotham B', sans-serif !important;font-size:49px;font-weight:700;top:25px;left:30px;text-transform:uppercase;color:#fff;position:absolute}
 .clearance_home_banner_img #plpBannerText p{font-family:'Gotham A', 'Gotham B', sans-serif !important;font-size:29px;font-weight:700;top:85px;left:30px;text-transform:uppercase;color:#fff;letter-spacing:-1.5px;position:absolute}
 div#plpBanner.clearance_home_banner_img div#plpBannerText a:hover{background:#e2e2e2;color:#222}
-div#plpBanner.clearance_home_banner_img div#plpBannerText a#plpBannerLink1{background:#fff;color:#ef3737;display:block;font-weight:bold;height:35px;line-height:35px;padding:0 1px;position:absolute;text-align:center;text-decoration:none;text-transform:uppercase;width:145px;top:139px;left:30px;font-family:"Gotham A", "Gotham B", sans-serif !important}
-div#plpBanner.clearance_home_banner_img div#plpBannerText a#plpBannerLink2{background:#fff;color:#ef3737;display:block;font-weight:bold;height:35px;line-height:35px;padding:0 1px;position:absolute;text-align:center;text-decoration:none;text-transform:uppercase;width:145px;top:139px;left:199px;font-family:"Gotham A", "Gotham B", sans-serif !important}
-div#plpBanner.clearance_home_banner_img div#plpBannerText a#plpBannerLink3{background:#fff;color:#ef3737;display:block;font-weight:bold;height:35px;line-height:35px;padding:0 1px;position:absolute;text-align:center;text-decoration:none;text-transform:uppercase;width:145px;top:139px;left:369px;font-family:"Gotham A", "Gotham B", sans-serif !important}
-div#plpBanner.clearance_home_banner_img div#plpBannerText a#plpBannerLink4{background:#fff;color:#ef3737;display:block;font-weight:bold;height:35px;line-height:35px;padding:0 1px;position:absolute;text-align:center;text-decoration:none;text-transform:uppercase;width:145px;top:139px;left:545px;font-family:"Gotham A", "Gotham B", sans-serif !important}
+div#plpBanner.clearance_home_banner_img div#plpBannerText a#plpBannerLink1{background:#fff;color:#000;display:block;font-weight:bold;height:35px;line-height:35px;padding:0 1px;position:absolute;text-align:center;text-decoration:none;text-transform:uppercase;width:145px;top:139px;left:30px;font-family:"Gotham A", "Gotham B", sans-serif !important}
+div#plpBanner.clearance_home_banner_img div#plpBannerText a#plpBannerLink2{background:#fff;color:#000;display:block;font-weight:bold;height:35px;line-height:35px;padding:0 1px;position:absolute;text-align:center;text-decoration:none;text-transform:uppercase;width:145px;top:139px;left:199px;font-family:"Gotham A", "Gotham B", sans-serif !important}
+div#plpBanner.clearance_home_banner_img div#plpBannerText a#plpBannerLink3{background:#fff;color:#000;display:block;font-weight:bold;height:35px;line-height:35px;padding:0 1px;position:absolute;text-align:center;text-decoration:none;text-transform:uppercase;width:145px;top:139px;left:369px;font-family:"Gotham A", "Gotham B", sans-serif !important}
+div#plpBanner.clearance_home_banner_img div#plpBannerText a#plpBannerLink4{background:#fff;color:#000;display:block;font-weight:bold;height:35px;line-height:35px;padding:0 1px;position:absolute;text-align:center;text-decoration:none;text-transform:uppercase;width:145px;top:139px;left:545px;font-family:"Gotham A", "Gotham B", sans-serif !important}
 .clearance_home_banner_img .fredHopperActive{background:#222 !important}
 /*
 ===
@@ -119,73 +144,74 @@ SIZE BANNER
 ===
 */
 
-.clearance_home_banner_with_size{position:relative;width:768px;height:200px;background:#ef3737}
+.clearance_home_banner_with_size{position:relative;width:768px;height:200px;background:#818086}
 .clearance_home_banner_with_size h2{font-family:'Gotham A', 'Gotham B', sans-serif !important;font-size:49px;font-weight:700;top:25px;left:30px;text-transform:uppercase;color:#fff;position:absolute}
 .clearance_home_banner_with_size #plpBannerText p{font-family:'Gotham A', 'Gotham B', sans-serif !important;font-size:29px;font-weight:700;top:85px;left:30px;text-transform:uppercase;color:#fff;letter-spacing:-1.5px;position:absolute}
 .clearance_home_banner_with_size #plpBanner > img,
-.clearance_home_banner_with_size img{} div#plpBanner.clearance_home_banner_with_size div#plpBannerText a:hover{background:#e2e2e2;color:#222}
-div#plpBanner.clearance_home_banner_with_size div#plpBannerText a#plpBannerLink1{background:#fff;color:#ef3737;display:block;font-weight:bold;height:35px;line-height:35px;padding:0 1px;position:absolute;text-align:center;text-decoration:none;text-transform:uppercase;width:75px;top:139px;left:30px;font-family:"Gotham A", "Gotham B", sans-serif !important}
-div#plpBanner.clearance_home_banner_with_size div#plpBannerText a#plpBannerLink2{background:#fff;color:#ef3737;display:block;font-weight:bold;height:35px;line-height:35px;padding:0 1px;position:absolute;text-align:center;text-decoration:none;text-transform:uppercase;width:75px;top:139px;left:115px;font-family:"Gotham A", "Gotham B", sans-serif !important}
-div#plpBanner.clearance_home_banner_with_size div#plpBannerText a#plpBannerLink3{background:#fff;color:#ef3737;display:block;font-weight:bold;height:35px;line-height:35px;padding:0 1px;position:absolute;text-align:center;text-decoration:none;text-transform:uppercase;width:75px;top:139px;left:199px;font-family:"Gotham A", "Gotham B", sans-serif !important}
-div#plpBanner.clearance_home_banner_with_size div#plpBannerText a#plpBannerLink4{background:#fff;color:#ef3737;display:block;font-weight:bold;height:35px;line-height:35px;padding:0 1px;position:absolute;text-align:center;text-decoration:none;text-transform:uppercase;width:75px;top:139px;left:285px;font-family:"Gotham A", "Gotham B", sans-serif !important}
-div#plpBanner.clearance_home_banner_with_size div#plpBannerText a#plpBannerLink5{background:#fff;color:#ef3737;display:block;font-weight:bold;height:35px;line-height:35px;padding:0 1px;position:absolute;text-align:center;text-decoration:none;text-transform:uppercase;width:75px;top:139px;left:370px;font-family:"Gotham A", "Gotham B", sans-serif !important}
-div#plpBanner.clearance_home_banner_with_size div#plpBannerText a#plpBannerLink6{background:#fff;color:#ef3737;display:block;font-weight:bold;height:35px;line-height:35px;padding:0 1px;position:absolute;text-align:center;text-decoration:none;text-transform:uppercase;width:75px;top:139px;left:457px;font-family:"Gotham A", "Gotham B", sans-serif !important}
-div#plpBanner.clearance_home_banner_with_size div#plpBannerText a#plpBannerLink7{background:#fff;color:#ef3737;display:block;font-weight:bold;height:35px;line-height:35px;padding:0 1px;position:absolute;text-align:center;text-decoration:none;text-transform:uppercase;width:75px;top:139px;left:543px;font-family:"Gotham A", "Gotham B", sans-serif !important}
+.clearance_home_banner_with_size img{display:none}
+div#plpBanner.clearance_home_banner_with_size div#plpBannerText a:hover{background:#e2e2e2;color:#e79030}
+div#plpBanner.clearance_home_banner_with_size div#plpBannerText a#plpBannerLink1{background:#fff;color:#818086;display:block;font-weight:bold;height:35px;line-height:35px;padding:0 1px;position:absolute;text-align:center;text-decoration:none;text-transform:uppercase;width:75px;top:139px;left:30px;font-family:"Gotham A", "Gotham B", sans-serif !important}
+div#plpBanner.clearance_home_banner_with_size div#plpBannerText a#plpBannerLink2{background:#fff;color:#818086;display:block;font-weight:bold;height:35px;line-height:35px;padding:0 1px;position:absolute;text-align:center;text-decoration:none;text-transform:uppercase;width:75px;top:139px;left:115px;font-family:"Gotham A", "Gotham B", sans-serif !important}
+div#plpBanner.clearance_home_banner_with_size div#plpBannerText a#plpBannerLink3{background:#fff;color:#818086;display:block;font-weight:bold;height:35px;line-height:35px;padding:0 1px;position:absolute;text-align:center;text-decoration:none;text-transform:uppercase;width:75px;top:139px;left:199px;font-family:"Gotham A", "Gotham B", sans-serif !important}
+div#plpBanner.clearance_home_banner_with_size div#plpBannerText a#plpBannerLink4{background:#fff;color:#818086;display:block;font-weight:bold;height:35px;line-height:35px;padding:0 1px;position:absolute;text-align:center;text-decoration:none;text-transform:uppercase;width:75px;top:139px;left:285px;font-family:"Gotham A", "Gotham B", sans-serif !important}
+div#plpBanner.clearance_home_banner_with_size div#plpBannerText a#plpBannerLink5{background:#fff;color:#818086;display:block;font-weight:bold;height:35px;line-height:35px;padding:0 1px;position:absolute;text-align:center;text-decoration:none;text-transform:uppercase;width:75px;top:139px;left:370px;font-family:"Gotham A", "Gotham B", sans-serif !important}
+div#plpBanner.clearance_home_banner_with_size div#plpBannerText a#plpBannerLink6{background:#fff;color:#818086;display:block;font-weight:bold;height:35px;line-height:35px;padding:0 1px;position:absolute;text-align:center;text-decoration:none;text-transform:uppercase;width:75px;top:139px;left:457px;font-family:"Gotham A", "Gotham B", sans-serif !important}
+div#plpBanner.clearance_home_banner_with_size div#plpBannerText a#plpBannerLink7{background:#fff;color:#818086;display:block;font-weight:bold;height:35px;line-height:35px;padding:0 1px;position:absolute;text-align:center;text-decoration:none;text-transform:uppercase;width:75px;top:139px;left:543px;font-family:"Gotham A", "Gotham B", sans-serif !important}
 .clearance_home_banner_with_size .fredHopperActive{background:#222 !important}
-div#plpBanner.clearance_home_banner_with_size div#plpBannerText a#plpBannerLink8{background:#fff;color:#ef3737;display:block;font-weight:bold;height:35px;line-height:35px;padding:0 1px;position:absolute;text-align:center;text-decoration:none;text-transform:uppercase;width:75px;top:139px;left:630px;font-family:"Gotham A", "Gotham B", sans-serif !important}
+div#plpBanner.clearance_home_banner_with_size div#plpBannerText a#plpBannerLink8{background:#fff;color:#818086;display:block;font-weight:bold;height:35px;line-height:35px;padding:0 1px;position:absolute;text-align:center;text-decoration:none;text-transform:uppercase;width:75px;top:139px;left:630px;font-family:"Gotham A", "Gotham B", sans-serif !important}
 .clearance_home_banner_with_size .fredHopperActive{background:#222 !important}
-div#plpBanner.clearance_home_banner_with_size div#plpBannerText a#plpBannerLink9{background:#fff;color:#ef3737;display:block;font-weight:bold;height:35px;line-height:35px;padding:0 1px;position:absolute;text-align:center;text-decoration:none;text-transform:uppercase;width:75px;top:139px;left:729px;font-family:"Gotham A", "Gotham B", sans-serif !important}
+div#plpBanner.clearance_home_banner_with_size div#plpBannerText a#plpBannerLink9{background:#fff;color:#818086;display:block;font-weight:bold;height:35px;line-height:35px;padding:0 1px;position:absolute;text-align:center;text-decoration:none;text-transform:uppercase;width:75px;top:139px;left:729px;font-family:"Gotham A", "Gotham B", sans-serif !important}
 .clearance_home_banner_with_size .fredHopperActive{background:#222 !important}
-.clearance_home_banner_with_size_imfull{position:relative;width:768px;height:200px;background:#ef3737}
+.clearance_home_banner_with_size_imfull{position:relative;width:768px;height:200px;background:#818086}
 .clearance_home_banner_with_size_imfull h2{font-family:'Gotham A', 'Gotham B', sans-serif !important;font-size:49px;font-weight:700;top:25px;left:30px;text-transform:uppercase;color:#fff;position:absolute}
 .clearance_home_banner_with_size_imfull #plpBannerText p{font-family:'Gotham A', 'Gotham B', sans-serif !important;font-size:29px;font-weight:700;top:85px;left:30px;text-transform:uppercase;color:#fff;letter-spacing:-1.5px;position:absolute}
 .clearance_home_banner_with_size_imfull #plpBanner > img,
 .clearance_home_banner_with_size_imfull img{display:none}
 div#plpBanner.clearance_home_banner_with_size_imfull div#plpBannerText a:hover{background:#e2e2e2;color:#222}
-div#plpBanner.clearance_home_banner_with_size_imfull div#plpBannerText a#plpBannerLink1{background:#fff;color:#ef3737;display:block;font-weight:bold;height:35px;line-height:35px;padding:0 1px;position:absolute;text-align:center;text-decoration:none;text-transform:uppercase;width:85px;top:139px;left:30px;font-family:"Gotham A", "Gotham B", sans-serif !important}
-div#plpBanner.clearance_home_banner_with_size_imfull div#plpBannerText a#plpBannerLink2{background:#fff;color:#ef3737;display:block;font-weight:bold;height:35px;line-height:35px;padding:0 1px;position:absolute;text-align:center;text-decoration:none;text-transform:uppercase;width:85px;top:139px;left:127px;font-family:"Gotham A", "Gotham B", sans-serif !important}
-div#plpBanner.clearance_home_banner_with_size_imfull div#plpBannerText a#plpBannerLink3{background:#fff;color:#ef3737;display:block;font-weight:bold;height:35px;line-height:35px;padding:0 1px;position:absolute;text-align:center;text-decoration:none;text-transform:uppercase;width:85px;top:139px;left:225px;font-family:"Gotham A", "Gotham B", sans-serif !important}
-div#plpBanner.clearance_home_banner_with_size_imfull div#plpBannerText a#plpBannerLink4{background:#fff;color:#ef3737;display:block;font-weight:bold;height:35px;line-height:35px;padding:0 1px;position:absolute;text-align:center;text-decoration:none;text-transform:uppercase;width:85px;top:139px;left:325px;font-family:"Gotham A", "Gotham B", sans-serif !important}
-div#plpBanner.clearance_home_banner_with_size_imfull div#plpBannerText a#plpBannerLink5{background:#fff;color:#ef3737;display:block;font-weight:bold;height:35px;line-height:35px;padding:0 1px;position:absolute;text-align:center;text-decoration:none;text-transform:uppercase;width:85px;top:139px;left:423px;font-family:"Gotham A", "Gotham B", sans-serif !important}
-div#plpBanner.clearance_home_banner_with_size_imfull div#plpBannerText a#plpBannerLink6{background:#fff;color:#ef3737;display:block;font-weight:bold;height:35px;line-height:35px;padding:0 1px;position:absolute;text-align:center;text-decoration:none;text-transform:uppercase;width:85px;top:139px;left:523px;font-family:"Gotham A", "Gotham B", sans-serif !important}
-div#plpBanner.clearance_home_banner_with_size_imfull div#plpBannerText a#plpBannerLink7{background:#fff;color:#ef3737;display:block;font-weight:bold;height:35px;line-height:35px;padding:0 1px;position:absolute;text-align:center;text-decoration:none;text-transform:uppercase;width:85px;top:139px;left:623px}
+div#plpBanner.clearance_home_banner_with_size_imfull div#plpBannerText a#plpBannerLink1{background:#fff;color:#818086;display:block;font-weight:bold;height:35px;line-height:35px;padding:0 1px;position:absolute;text-align:center;text-decoration:none;text-transform:uppercase;width:85px;top:139px;left:30px;font-family:"Gotham A", "Gotham B", sans-serif !important}
+div#plpBanner.clearance_home_banner_with_size_imfull div#plpBannerText a#plpBannerLink2{background:#fff;color:#818086;display:block;font-weight:bold;height:35px;line-height:35px;padding:0 1px;position:absolute;text-align:center;text-decoration:none;text-transform:uppercase;width:85px;top:139px;left:127px;font-family:"Gotham A", "Gotham B", sans-serif !important}
+div#plpBanner.clearance_home_banner_with_size_imfull div#plpBannerText a#plpBannerLink3{background:#fff;color:#818086;display:block;font-weight:bold;height:35px;line-height:35px;padding:0 1px;position:absolute;text-align:center;text-decoration:none;text-transform:uppercase;width:85px;top:139px;left:225px;font-family:"Gotham A", "Gotham B", sans-serif !important}
+div#plpBanner.clearance_home_banner_with_size_imfull div#plpBannerText a#plpBannerLink4{background:#fff;color:#818086;display:block;font-weight:bold;height:35px;line-height:35px;padding:0 1px;position:absolute;text-align:center;text-decoration:none;text-transform:uppercase;width:85px;top:139px;left:325px;font-family:"Gotham A", "Gotham B", sans-serif !important}
+div#plpBanner.clearance_home_banner_with_size_imfull div#plpBannerText a#plpBannerLink5{background:#fff;color:#818086;display:block;font-weight:bold;height:35px;line-height:35px;padding:0 1px;position:absolute;text-align:center;text-decoration:none;text-transform:uppercase;width:85px;top:139px;left:423px;font-family:"Gotham A", "Gotham B", sans-serif !important}
+div#plpBanner.clearance_home_banner_with_size_imfull div#plpBannerText a#plpBannerLink6{background:#fff;color:#818086;display:block;font-weight:bold;height:35px;line-height:35px;padding:0 1px;position:absolute;text-align:center;text-decoration:none;text-transform:uppercase;width:85px;top:139px;left:523px;font-family:"Gotham A", "Gotham B", sans-serif !important}
+div#plpBanner.clearance_home_banner_with_size_imfull div#plpBannerText a#plpBannerLink7{background:#fff;color:#818086;display:block;font-weight:bold;height:35px;line-height:35px;padding:0 1px;position:absolute;text-align:center;text-decoration:none;text-transform:uppercase;width:85px;top:139px;left:623px}
 .clearance_home_banner_with_size_imfull .fredHopperActive{background:#222 !important;font-family:"Gotham A", "Gotham B", sans-serif !important}
-div#plpBanner.clearance_home_banner_with_size_imfull div#plpBannerText a#plpBannerLink8{background:#fff;color:#ef3737;display:block;font-weight:bold;height:35px;line-height:35px;padding:0 1px;position:absolute;text-align:center;text-decoration:none;text-transform:uppercase;width:85px;top:139px;left:723px;font-family:"Gotham A", "Gotham B", sans-serif !important}
+div#plpBanner.clearance_home_banner_with_size_imfull div#plpBannerText a#plpBannerLink8{background:#fff;color:#818086;display:block;font-weight:bold;height:35px;line-height:35px;padding:0 1px;position:absolute;text-align:center;text-decoration:none;text-transform:uppercase;width:85px;top:139px;left:723px;font-family:"Gotham A", "Gotham B", sans-serif !important}
 .clearance_home_banner_with_size_imfull .fredHopperActive{background:#222 !important;font-family:"Gotham A", "Gotham B", sans-serif !important}
-div#plpBanner.clearance_home_banner_with_size_imfull div#plpBannerText a#plpBannerLink9{background:#fff;color:#ef3737;display:block;font-weight:bold;height:35px;line-height:35px;padding:0 1px;position:absolute;text-align:center;text-decoration:none;text-transform:uppercase;width:85px;top:139px;left:823px;font-family:"Gotham A", "Gotham B", sans-serif !important}
+div#plpBanner.clearance_home_banner_with_size_imfull div#plpBannerText a#plpBannerLink9{background:#fff;color:#818086;display:block;font-weight:bold;height:35px;line-height:35px;padding:0 1px;position:absolute;text-align:center;text-decoration:none;text-transform:uppercase;width:85px;top:139px;left:823px;font-family:"Gotham A", "Gotham B", sans-serif !important}
 .clearance_home_banner_with_size_imfull .fredHopperActive{background:#222 !important}
-.clearance_home_banner_with_size_img{position:relative;width:768px;height:200px;background:#ef3737}
+.clearance_home_banner_with_size_img{position:relative;width:768px;height:200px;background:#818086}
 .clearance_home_banner_with_size_img h2{font-family:'Gotham A', 'Gotham B', sans-serif !important;font-size:49px;font-weight:700;top:25px;left:30px;text-transform:uppercase;color:#fff;position:absolute}
 .clearance_home_banner_with_size_img #plpBannerText p{font-family:'Gotham A', 'Gotham B', sans-serif !important;font-size:29px;font-weight:700;top:85px;left:30px;text-transform:uppercase;color:#fff;letter-spacing:-1.5px;position:absolute}
 .clearance_home_banner_with_size_img #plpBanner > img,
 .clearance_home_banner_with_size img_img{} div#plpBanner.clearance_home_banner_with_size_img div#plpBannerText a:hover{background:#e2e2e2;color:#222}
-div#plpBanner.clearance_home_banner_with_size_img div#plpBannerText a#plpBannerLink1{background:#fff;color:#ef3737;display:block;font-weight:bold;height:35px;line-height:35px;padding:0 1px;position:absolute;text-align:center;text-decoration:none;text-transform:uppercase;width:75px;top:139px;left:30px;font-family:"Gotham A", "Gotham B", sans-serif !important}
-div#plpBanner.clearance_home_banner_with_size_img div#plpBannerText a#plpBannerLink2{background:#fff;color:#ef3737;display:block;font-weight:bold;height:35px;line-height:35px;padding:0 1px;position:absolute;text-align:center;text-decoration:none;text-transform:uppercase;width:75px;top:139px;left:115px;font-family:"Gotham A", "Gotham B", sans-serif !important}
-div#plpBanner.clearance_home_banner_with_size_img div#plpBannerText a#plpBannerLink3{background:#fff;color:#ef3737;display:block;font-weight:bold;height:35px;line-height:35px;padding:0 1px;position:absolute;text-align:center;text-decoration:none;text-transform:uppercase;width:75px;top:139px;left:199px;font-family:"Gotham A", "Gotham B", sans-serif !important}
-div#plpBanner.clearance_home_banner_with_size_img div#plpBannerText a#plpBannerLink4{background:#fff;color:#ef3737;display:block;font-weight:bold;height:35px;line-height:35px;padding:0 1px;position:absolute;text-align:center;text-decoration:none;text-transform:uppercase;width:75px;top:139px;left:285px;font-family:"Gotham A", "Gotham B", sans-serif !important}
-div#plpBanner.clearance_home_banner_with_size_img div#plpBannerText a#plpBannerLink5{background:#fff;color:#ef3737;display:block;font-weight:bold;height:35px;line-height:35px;padding:0 1px;position:absolute;text-align:center;text-decoration:none;text-transform:uppercase;width:75px;top:139px;left:370px;font-family:"Gotham A", "Gotham B", sans-serif !important}
-div#plpBanner.clearance_home_banner_with_size_img div#plpBannerText a#plpBannerLink6{background:#fff;color:#ef3737;display:block;font-weight:bold;height:35px;line-height:35px;padding:0 1px;position:absolute;text-align:center;text-decoration:none;text-transform:uppercase;width:75px;top:139px;left:457px;font-family:"Gotham A", "Gotham B", sans-serif !important}
-div#plpBanner.clearance_home_banner_with_size_img div#plpBannerText a#plpBannerLink7{background:#fff;color:#ef3737;display:block;font-weight:bold;height:35px;line-height:35px;padding:0 1px;position:absolute;text-align:center;text-decoration:none;text-transform:uppercase;width:75px;top:139px;left:543px;font-family:"Gotham A", "Gotham B", sans-serif !important}
+div#plpBanner.clearance_home_banner_with_size_img div#plpBannerText a#plpBannerLink1{background:#fff;color:#818086;display:block;font-weight:bold;height:35px;line-height:35px;padding:0 1px;position:absolute;text-align:center;text-decoration:none;text-transform:uppercase;width:75px;top:139px;left:30px;font-family:"Gotham A", "Gotham B", sans-serif !important}
+div#plpBanner.clearance_home_banner_with_size_img div#plpBannerText a#plpBannerLink2{background:#fff;color:#818086;display:block;font-weight:bold;height:35px;line-height:35px;padding:0 1px;position:absolute;text-align:center;text-decoration:none;text-transform:uppercase;width:75px;top:139px;left:115px;font-family:"Gotham A", "Gotham B", sans-serif !important}
+div#plpBanner.clearance_home_banner_with_size_img div#plpBannerText a#plpBannerLink3{background:#fff;color:#818086;display:block;font-weight:bold;height:35px;line-height:35px;padding:0 1px;position:absolute;text-align:center;text-decoration:none;text-transform:uppercase;width:75px;top:139px;left:199px;font-family:"Gotham A", "Gotham B", sans-serif !important}
+div#plpBanner.clearance_home_banner_with_size_img div#plpBannerText a#plpBannerLink4{background:#fff;color:#818086;display:block;font-weight:bold;height:35px;line-height:35px;padding:0 1px;position:absolute;text-align:center;text-decoration:none;text-transform:uppercase;width:75px;top:139px;left:285px;font-family:"Gotham A", "Gotham B", sans-serif !important}
+div#plpBanner.clearance_home_banner_with_size_img div#plpBannerText a#plpBannerLink5{background:#fff;color:#818086;display:block;font-weight:bold;height:35px;line-height:35px;padding:0 1px;position:absolute;text-align:center;text-decoration:none;text-transform:uppercase;width:75px;top:139px;left:370px;font-family:"Gotham A", "Gotham B", sans-serif !important}
+div#plpBanner.clearance_home_banner_with_size_img div#plpBannerText a#plpBannerLink6{background:#fff;color:#818086;display:block;font-weight:bold;height:35px;line-height:35px;padding:0 1px;position:absolute;text-align:center;text-decoration:none;text-transform:uppercase;width:75px;top:139px;left:457px;font-family:"Gotham A", "Gotham B", sans-serif !important}
+div#plpBanner.clearance_home_banner_with_size_img div#plpBannerText a#plpBannerLink7{background:#fff;color:#818086;display:block;font-weight:bold;height:35px;line-height:35px;padding:0 1px;position:absolute;text-align:center;text-decoration:none;text-transform:uppercase;width:75px;top:139px;left:543px;font-family:"Gotham A", "Gotham B", sans-serif !important}
 .clearance_home_banner_with_size_img .fredHopperActive{background:#222 !important}
-div#plpBanner.clearance_home_banner_with_size_img div#plpBannerText a#plpBannerLink8{background:#fff;color:#ef3737;display:block;font-weight:bold;height:35px;line-height:35px;padding:0 1px;position:absolute;text-align:center;text-decoration:none;text-transform:uppercase;width:75px;top:139px;left:630px;font-family:"Gotham A", "Gotham B", sans-serif !important}
+div#plpBanner.clearance_home_banner_with_size_img div#plpBannerText a#plpBannerLink8{background:#fff;color:#818086;display:block;font-weight:bold;height:35px;line-height:35px;padding:0 1px;position:absolute;text-align:center;text-decoration:none;text-transform:uppercase;width:75px;top:139px;left:630px;font-family:"Gotham A", "Gotham B", sans-serif !important}
 .clearance_home_banner_with_size_img .fredHopperActive{background:#222 !important}
-div#plpBanner.clearance_home_banner_with_size_img div#plpBannerText a#plpBannerLink9{background:#fff;color:#ef3737;display:block;font-weight:bold;height:35px;line-height:35px;padding:0 1px;position:absolute;text-align:center;text-decoration:none;text-transform:uppercase;width:75px;top:139px;left:729px;font-family:"Gotham A", "Gotham B", sans-serif !important}
+div#plpBanner.clearance_home_banner_with_size_img div#plpBannerText a#plpBannerLink9{background:#fff;color:#818086;display:block;font-weight:bold;height:35px;line-height:35px;padding:0 1px;position:absolute;text-align:center;text-decoration:none;text-transform:uppercase;width:75px;top:139px;left:729px;font-family:"Gotham A", "Gotham B", sans-serif !important}
 .clearance_home_banner_with_size_img .fredHopperActive{background:#222 !important}
-.clearance_home_banner_with_size_imfull{position:relative;width:768px;height:200px;background:#ef3737}
+.clearance_home_banner_with_size_imfull{position:relative;width:768px;height:200px;background:#818086}
 .clearance_home_banner_with_size_imfull h2{font-family:'Gotham A', 'Gotham B', sans-serif !important;font-size:49px;font-weight:700;top:25px;left:30px;text-transform:uppercase;color:#fff;position:absolute}
 .clearance_home_banner_with_size_imfull #plpBannerText p{font-family:'Gotham A', 'Gotham B', sans-serif !important;font-size:29px;font-weight:700;top:85px;left:30px;text-transform:uppercase;color:#fff;letter-spacing:-1.5px;position:absolute}
 div#plpBanner.clearance_home_banner_with_size_imfull div#plpBannerText a:hover{background:#e2e2e2;color:#222}
-div#plpBanner.clearance_home_banner_with_size_imfull div#plpBannerText a#plpBannerLink1{background:#fff;color:#ef3737;display:block;font-weight:bold;height:35px;line-height:35px;padding:0 1px;position:absolute;text-align:center;text-decoration:none;text-transform:uppercase;width:85px;top:139px;left:30px;font-family:"Gotham A", "Gotham B", sans-serif !important}
-div#plpBanner.clearance_home_banner_with_size_imfull div#plpBannerText a#plpBannerLink2{background:#fff;color:#ef3737;display:block;font-weight:bold;height:35px;line-height:35px;padding:0 1px;position:absolute;text-align:center;text-decoration:none;text-transform:uppercase;width:85px;top:139px;left:127px;font-family:"Gotham A", "Gotham B", sans-serif !important}
-div#plpBanner.clearance_home_banner_with_size_imfull div#plpBannerText a#plpBannerLink3{background:#fff;color:#ef3737;display:block;font-weight:bold;height:35px;line-height:35px;padding:0 1px;position:absolute;text-align:center;text-decoration:none;text-transform:uppercase;width:85px;top:139px;left:225px;font-family:"Gotham A", "Gotham B", sans-serif !important}
-div#plpBanner.clearance_home_banner_with_size_imfull div#plpBannerText a#plpBannerLink4{background:#fff;color:#ef3737;display:block;font-weight:bold;height:35px;line-height:35px;padding:0 1px;position:absolute;text-align:center;text-decoration:none;text-transform:uppercase;width:85px;top:139px;left:325px;font-family:"Gotham A", "Gotham B", sans-serif !important}
-div#plpBanner.clearance_home_banner_with_size_imfull div#plpBannerText a#plpBannerLink5{background:#fff;color:#ef3737;display:block;font-weight:bold;height:35px;line-height:35px;padding:0 1px;position:absolute;text-align:center;text-decoration:none;text-transform:uppercase;width:85px;top:139px;left:423px;font-family:"Gotham A", "Gotham B", sans-serif !important}
-div#plpBanner.clearance_home_banner_with_size_imfull div#plpBannerText a#plpBannerLink6{background:#fff;color:#ef3737;display:block;font-weight:bold;height:35px;line-height:35px;padding:0 1px;position:absolute;text-align:center;text-decoration:none;text-transform:uppercase;width:85px;top:139px;left:523px;font-family:"Gotham A", "Gotham B", sans-serif !important}
-div#plpBanner.clearance_home_banner_with_size_imfull div#plpBannerText a#plpBannerLink7{background:#fff;color:#ef3737;display:block;font-weight:bold;height:35px;line-height:35px;padding:0 1px;position:absolute;text-align:center;text-decoration:none;text-transform:uppercase;width:85px;top:139px;left:623px}
+div#plpBanner.clearance_home_banner_with_size_imfull div#plpBannerText a#plpBannerLink1{background:#fff;color:#818086;display:block;font-weight:bold;height:35px;line-height:35px;padding:0 1px;position:absolute;text-align:center;text-decoration:none;text-transform:uppercase;width:85px;top:139px;left:30px;font-family:"Gotham A", "Gotham B", sans-serif !important}
+div#plpBanner.clearance_home_banner_with_size_imfull div#plpBannerText a#plpBannerLink2{background:#fff;color:#818086;display:block;font-weight:bold;height:35px;line-height:35px;padding:0 1px;position:absolute;text-align:center;text-decoration:none;text-transform:uppercase;width:85px;top:139px;left:127px;font-family:"Gotham A", "Gotham B", sans-serif !important}
+div#plpBanner.clearance_home_banner_with_size_imfull div#plpBannerText a#plpBannerLink3{background:#fff;color:#818086;display:block;font-weight:bold;height:35px;line-height:35px;padding:0 1px;position:absolute;text-align:center;text-decoration:none;text-transform:uppercase;width:85px;top:139px;left:225px;font-family:"Gotham A", "Gotham B", sans-serif !important}
+div#plpBanner.clearance_home_banner_with_size_imfull div#plpBannerText a#plpBannerLink4{background:#fff;color:#818086;display:block;font-weight:bold;height:35px;line-height:35px;padding:0 1px;position:absolute;text-align:center;text-decoration:none;text-transform:uppercase;width:85px;top:139px;left:325px;font-family:"Gotham A", "Gotham B", sans-serif !important}
+div#plpBanner.clearance_home_banner_with_size_imfull div#plpBannerText a#plpBannerLink5{background:#fff;color:#818086;display:block;font-weight:bold;height:35px;line-height:35px;padding:0 1px;position:absolute;text-align:center;text-decoration:none;text-transform:uppercase;width:85px;top:139px;left:423px;font-family:"Gotham A", "Gotham B", sans-serif !important}
+div#plpBanner.clearance_home_banner_with_size_imfull div#plpBannerText a#plpBannerLink6{background:#fff;color:#818086;display:block;font-weight:bold;height:35px;line-height:35px;padding:0 1px;position:absolute;text-align:center;text-decoration:none;text-transform:uppercase;width:85px;top:139px;left:523px;font-family:"Gotham A", "Gotham B", sans-serif !important}
+div#plpBanner.clearance_home_banner_with_size_imfull div#plpBannerText a#plpBannerLink7{background:#fff;color:#818086;display:block;font-weight:bold;height:35px;line-height:35px;padding:0 1px;position:absolute;text-align:center;text-decoration:none;text-transform:uppercase;width:85px;top:139px;left:623px}
 .clearance_home_banner_with_size_imfull .fredHopperActive{background:#222 !important;font-family:"Gotham A", "Gotham B", sans-serif !important}
-div#plpBanner.clearance_home_banner_with_size_imfull div#plpBannerText a#plpBannerLink8{background:#fff;color:#ef3737;display:block;font-weight:bold;height:35px;line-height:35px;padding:0 1px;position:absolute;text-align:center;text-decoration:none;text-transform:uppercase;width:85px;top:139px;left:723px;font-family:"Gotham A", "Gotham B", sans-serif !important}
+div#plpBanner.clearance_home_banner_with_size_imfull div#plpBannerText a#plpBannerLink8{background:#fff;color:#818086;display:block;font-weight:bold;height:35px;line-height:35px;padding:0 1px;position:absolute;text-align:center;text-decoration:none;text-transform:uppercase;width:85px;top:139px;left:723px;font-family:"Gotham A", "Gotham B", sans-serif !important}
 .clearance_home_banner_with_size_imfull .fredHopperActive{background:#222 !important;font-family:"Gotham A", "Gotham B", sans-serif !important}
-div#plpBanner.clearance_home_banner_with_size_imfull div#plpBannerText a#plpBannerLink9{background:#fff;color:#ef3737;display:block;font-weight:bold;height:35px;line-height:35px;padding:0 1px;position:absolute;text-align:center;text-decoration:none;text-transform:uppercase;width:85px;top:139px;left:823px;font-family:"Gotham A", "Gotham B", sans-serif !important}
+div#plpBanner.clearance_home_banner_with_size_imfull div#plpBannerText a#plpBannerLink9{background:#fff;color:#818086;display:block;font-weight:bold;height:35px;line-height:35px;padding:0 1px;position:absolute;text-align:center;text-decoration:none;text-transform:uppercase;width:85px;top:139px;left:823px;font-family:"Gotham A", "Gotham B", sans-serif !important}
 .clearance_home_banner_with_size_imfull .fredHopperActive{background:#222 !important}
 /*
 ===
@@ -388,6 +414,142 @@ GENERIC IMAGE RED WITH LINKS (EDIT FOR SALES PAGE WITH HUGE CAPTION 29TH DECEMBE
 .generic_image_with_links33{position:relative;width:768px;height:200px;background:#eee;margin-bottom:15px}
 .generic_image_with_links33 h2{font-family:'Gotham A', 'Gotham B', sans-serif !important;font-size:31px;font-weight:700;top:25px;left:30px;text-transform:uppercase;color:#fff;position:absolute}
 .generic_image_with_links33 #plpBannerText p{font-family:Arial;font-size:11px;width:685px;top:95px;left:30px;text-transform:capitalize;color:#2e2e2e;position:absolute}
-div#plpBanner.generic_image_with_links33 div#plpBannerText a#plpBannerLink1{background:#fff;color:#2e2e2e;display:block;font-weight:bold;height:35px;line-height:35px;padding:0 1px;position:absolute;text-align:center;text-decoration:none;text-transform:uppercase;width:145px;top:145px;left:155px;font-family:"Gotham A", "Gotham B", sans-serif !important}
-div#plpBanner.generic_image_with_links33 div#plpBannerText a#plpBannerLink2{background:#fff;color:#2e2e2e;display:block;font-weight:bold;height:35px;line-height:35px;padding:0 1px;position:absolute;text-align:center;text-decoration:none;text-transform:uppercase;width:145px;top:145px;left:313px;font-family:"Gotham A", "Gotham B", sans-serif !important}
-div#plpBanner.generic_image_with_links33 div#plpBannerText a#plpBannerLink3{background:#fff;color:#2e2e2e;display:block;font-weight:bold;height:35px;line-height:35px;padding:0 1px;position:absolute;text-align:center;text-decoration:none;text-transform:uppercase;width:145px;top:145px;left:468px;font-family:"Gotham A", "Gotham B", sans-serif !important}
+div#plpBanner.generic_image_with_links33 div#plpBannerText a#plpBannerLink1{background:#ed912a;color:#818086;display:block;font-weight:bold;height:35px;line-height:35px;padding:0 1px;position:absolute;text-align:center;text-decoration:none;text-transform:uppercase;width:145px;top:155px;left:155px;font-family:"Gotham A", "Gotham B", sans-serif !important}
+div#plpBanner.generic_image_with_links33 div#plpBannerText a#plpBannerLink2{background:#ed912a;color:#818086;display:block;font-weight:bold;height:35px;line-height:35px;padding:0 1px;position:absolute;text-align:center;text-decoration:none;text-transform:uppercase;width:145px;top:155px;left:313px;font-family:"Gotham A", "Gotham B", sans-serif !important}
+div#plpBanner.generic_image_with_links33 div#plpBannerText a#plpBannerLink3{background:#ed912a;color:#818086;display:block;font-weight:bold;height:35px;line-height:35px;padding:0 1px;position:absolute;text-align:center;text-decoration:none;text-transform:uppercase;width:145px;top:155px;left:468px;font-family:"Gotham A", "Gotham B", sans-serif !important}
+
+
+
+
+
+/*
+===
+GENERIC IMAGE GOLD WITH LINKS SEO AND LINKS
+===
+*/
+
+.generic_image_with_links44{position:relative;width:768px;height:200px;background:#eee;margin-bottom:15px}
+.generic_image_with_links44 h2{font-family:'Gotham A', 'Gotham B', sans-serif !important;font-size:31px;font-weight:700;top:-5px;left:30px;text-transform:uppercase;color:#fff;position:absolute}
+.generic_image_with_links44 #plpBannerText p{font-family:Arial;font-size:11px;width:554px;top:44px;left:30px;text-transform:capitalize;color:#ffffff;position:absolute}
+div#plpBanner.generic_image_with_links44 div#plpBannerText a#plpBannerLink1{background:#fff;color:#2e2e2e;display:block;font-weight:bold;height:35px;line-height:35px;padding:0 1px;position:absolute;text-align:center;text-decoration:none;text-transform:uppercase;width:145px;top:157px;left:30px;font-family:"Gotham A", "Gotham B", sans-serif !important}
+div#plpBanner.generic_image_with_links44 div#plpBannerText a#plpBannerLink2{background:#fff;color:#2e2e2e;display:block;font-weight:bold;height:35px;line-height:35px;padding:0 1px;position:absolute;text-align:center;text-decoration:none;text-transform:uppercase;width:145px;top:157px;left:199px;font-family:"Gotham A", "Gotham B", sans-serif !important}
+div#plpBanner.generic_image_with_links44 div#plpBannerText a#plpBannerLink3{background:#fff;color:#2e2e2e;display:block;font-weight:bold;height:35px;line-height:35px;padding:0 1px;position:absolute;text-align:center;text-decoration:none;text-transform:uppercase;width:145px;top:157px;left:369px;font-family:"Gotham A", "Gotham B", sans-serif !important}
+div#plpBanner.generic_image_with_links44 div#plpBannerText a#plpBannerLink4{background:#fff;color:#2e2e2e;display:block;font-weight:bold;height:35px;line-height:35px;padding:0 1px;position:absolute;text-align:center;text-decoration:none;text-transform:uppercase;width:145px;top:157px;left:545px;font-family:"Gotham A", "Gotham B", sans-serif !important} 
+
+
+
+
+
+
+
+
+
+
+/*
+===
+GENERIC IMAGE GOLD WITH LINKS SEO AND LINKS
+===
+*/
+
+.generic_image_with_links55{position:relative;width:768px;height:200px;background:#eee;margin-bottom:15px}
+.generic_image_with_links55 h2{font-family:'Gotham A', 'Gotham B', sans-serif !important;font-size:31px;font-weight:700;top:0;left:30px;text-transform:uppercase;color:#fff;position:absolute}
+.generic_image_with_links55 #plpBannerText p{font-family:Arial;font-size:11px;width:535px;top:55px;left:30px;text-transform:capitalize;color:#ffffff;position:absolute}
+div#plpBanner.generic_image_with_links55 div#plpBannerText a#plpBannerLink1{background:#fff;color:#2e2e2e;display:block;font-weight:bold;height:35px;line-height:35px;padding:0 1px;position:absolute;text-align:center;text-decoration:none;text-transform:uppercase;width:145px;top:145px;left:30px;font-family:"Gotham A", "Gotham B", sans-serif !important}
+div#plpBanner.generic_image_with_links55 div#plpBannerText a#plpBannerLink2{background:#fff;color:#2e2e2e;display:block;font-weight:bold;height:35px;line-height:35px;padding:0 1px;position:absolute;text-align:center;text-decoration:none;text-transform:uppercase;width:145px;top:145px;left:199px;font-family:"Gotham A", "Gotham B", sans-serif !important}
+div#plpBanner.generic_image_with_links55 div#plpBannerText a#plpBannerLink3{background:#fff;color:#2e2e2e;display:block;font-weight:bold;height:35px;line-height:35px;padding:0 1px;position:absolute;text-align:center;text-decoration:none;text-transform:uppercase;width:145px;top:145px;left:369px;font-family:"Gotham A", "Gotham B", sans-serif !important}
+div#plpBanner.generic_image_with_links55 div#plpBannerText a#plpBannerLink4{background:#fff;color:#2e2e2e;display:block;font-weight:bold;height:35px;line-height:35px;padding:0 1px;position:absolute;text-align:center;text-decoration:none;text-transform:uppercase;width:145px;top:145px;left:545px;font-family:"Gotham A", "Gotham B", sans-serif !important} 
+
+
+
+
+
+
+/*
+===
+WHITE TEXT GENERIC IMAGE GOLD WITH LINKS SEO AND LINKS
+===
+*/
+
+.generic_image_with_links66{position:relative;width:768px;height:200px;background:#eee;margin-bottom:15px}
+.generic_image_with_links66 h2{font-family:'Gotham A', 'Gotham B', sans-serif !important;font-size:31px;font-weight:700;top:-8px;left:30px;text-transform:uppercase;color:#2e2e2e;position:absolute}
+.generic_image_with_links66 #plpBannerText p{font-family:Arial;font-size:11px;width:420px;top:40px;left:30px;text-transform:capitalize;color:#2e2e2e;position:absolute}
+div#plpBanner.generic_image_with_links66 div#plpBannerText a#plpBannerLink1{background:#2e2e2e;color:#ffffff;display:block;font-weight:bold;height:35px;line-height:35px;padding:0 1px;position:absolute;text-align:center;text-decoration:none;text-transform:uppercase;width:145px;top:145px;left:30px;font-family:"Gotham A", "Gotham B", sans-serif !important}
+div#plpBanner.generic_image_with_links66 div#plpBannerText a#plpBannerLink2{background:#2e2e2e;color:#ffffff;display:block;font-weight:bold;height:35px;line-height:35px;padding:0 1px;position:absolute;text-align:center;text-decoration:none;text-transform:uppercase;width:145px;top:145px;left:199px;font-family:"Gotham A", "Gotham B", sans-serif !important}
+div#plpBanner.generic_image_with_links66 div#plpBannerText a#plpBannerLink3{background:#2e2e2e;color:#ffffff;display:block;font-weight:bold;height:35px;line-height:35px;padding:0 1px;position:absolute;text-align:center;text-decoration:none;text-transform:uppercase;width:145px;top:145px;left:369px;font-family:"Gotham A", "Gotham B", sans-serif !important}
+div#plpBanner.generic_image_with_links66 div#plpBannerText a#plpBannerLink4{background:#2e2e2e;color:#ffffff;display:block;font-weight:bold;height:35px;line-height:35px;padding:0 1px;position:absolute;text-align:center;text-decoration:none;text-transform:uppercase;width:145px;top:145px;left:545px;font-family:"Gotham A", "Gotham B", sans-serif !important} 
+
+
+
+
+/*
+===
+WHITE TEXT LONGER TEXT GENERIC IMAGE GOLD WITH LINKS SEO AND LINKS
+===
+*/
+
+.generic_image_with_links77{position:relative;width:768px;height:200px;background:#eee;margin-bottom:15px}
+.generic_image_with_links77 h2{font-family:'Gotham A', 'Gotham B', sans-serif !important;font-size:31px;font-weight:700;top:-8px;left:30px;text-transform:uppercase;color:#2e2e2e;position:absolute}
+.generic_image_with_links77 #plpBannerText p{font-family:Arial;font-size:11px;width:420px;top:55px;left:30px;text-transform:capitalize;color:#2e2e2e;position:absolute}
+div#plpBanner.generic_image_with_links77 div#plpBannerText a#plpBannerLink1{background:#2e2e2e;color:#ffffff;display:block;font-weight:bold;height:35px;line-height:35px;padding:0 1px;position:absolute;text-align:center;text-decoration:none;text-transform:uppercase;width:145px;top:151px;left:30px;font-family:"Gotham A", "Gotham B", sans-serif !important}
+div#plpBanner.generic_image_with_links77 div#plpBannerText a#plpBannerLink2{background:#2e2e2e;color:#ffffff;display:block;font-weight:bold;height:35px;line-height:35px;padding:0 1px;position:absolute;text-align:center;text-decoration:none;text-transform:uppercase;width:145px;top:151px;left:199px;font-family:"Gotham A", "Gotham B", sans-serif !important}
+div#plpBanner.generic_image_with_links77 div#plpBannerText a#plpBannerLink3{background:#2e2e2e;color:#ffffff;display:block;font-weight:bold;height:35px;line-height:35px;padding:0 1px;position:absolute;text-align:center;text-decoration:none;text-transform:uppercase;width:145px;top:151px;left:369px;font-family:"Gotham A", "Gotham B", sans-serif !important}
+div#plpBanner.generic_image_with_links77 div#plpBannerText a#plpBannerLink4{background:#2e2e2e;color:#ffffff;display:block;font-weight:bold;height:35px;line-height:35px;padding:0 1px;position:absolute;text-align:center;text-decoration:none;text-transform:uppercase;width:145px;top:151px;left:545px;font-family:"Gotham A", "Gotham B", sans-serif !important} 
+
+
+
+
+
+
+
+
+/*
+===
+WHITE TEXT GENERIC IMAGE GOLD WITH LINKS SEO AND LINKS
+WIDER 3RD BUTTON
+===
+*/
+
+.generic_image_with_links88{position:relative;width:768px;height:200px;background:#eee;margin-bottom:15px}
+.generic_image_with_links88 h2{font-family:'Gotham A', 'Gotham B', sans-serif !important;font-size:31px;font-weight:700;top:-8px;left:30px;text-transform:uppercase;color:#2e2e2e;position:absolute}
+.generic_image_with_links88 #plpBannerText p{font-family:Arial;font-size:11px;width:420px;top:40px;left:30px;text-transform:capitalize;color:#2e2e2e;position:absolute}
+div#plpBanner.generic_image_with_links88 div#plpBannerText a#plpBannerLink1{background:#2e2e2e;color:#ffffff;display:block;font-weight:bold;height:35px;line-height:35px;padding:0 1px;position:absolute;text-align:center;text-decoration:none;text-transform:uppercase;width:195px;top:145px;left:30px;font-family:"Gotham A", "Gotham B", sans-serif !important}
+div#plpBanner.generic_image_with_links88 div#plpBannerText a#plpBannerLink2{background:#2e2e2e;color:#ffffff;display:block;font-weight:bold;height:35px;line-height:35px;padding:0 1px;position:absolute;text-align:center;text-decoration:none;text-transform:uppercase;width:195px;top:145px;left:240px;font-family:"Gotham A", "Gotham B", sans-serif !important}
+div#plpBanner.generic_image_with_links88 div#plpBannerText a#plpBannerLink3{background:#2e2e2e;color:#ffffff;display:block;font-weight:bold;height:35px;line-height:35px;padding:0 1px;position:absolute;text-align:center;text-decoration:none;text-transform:uppercase;width:242px;top:145px;left:450px;font-family:"Gotham A", "Gotham B", sans-serif !important}
+div#plpBanner.generic_image_with_links88 div#plpBannerText a#plpBannerLink4{ 
+display:none; } 
+
+
+
+
+
+
+
+/*
+===
+WHITE TEXT GENERIC IMAGE GOLD WITH LINKS SEO AND LINKS
+WIDER 3RD BUTTON
+===
+*/
+
+.generic_image_with_links99{position:relative;width:768px;height:200px;background:#eee;margin-bottom:15px}
+.generic_image_with_links99 h2{font-family:'Gotham A', 'Gotham B', sans-serif !important;font-size:31px;font-weight:700;top:0;left:30px;text-transform:uppercase;color:#fff;position:absolute}
+.generic_image_with_links99 #plpBannerText p{font-family:Arial;font-size:11px;width:480px;top:60px;left:30px;text-transform:capitalize;color:#fff;position:absolute}
+div#plpBanner.generic_image_with_links99 div#plpBannerText a#plpBannerLink1{background:#fff;color:#2e2e2e;display:block;font-weight:bold;height:35px;line-height:35px;padding:0 1px;position:absolute;text-align:center;text-decoration:none;text-transform:uppercase;width:195px;top:145px;left:30px;font-family:"Gotham A", "Gotham B", sans-serif !important}
+div#plpBanner.generic_image_with_links99 div#plpBannerText a#plpBannerLink2{background:#fff;color:#2e2e2e;display:block;font-weight:bold;height:35px;line-height:35px;padding:0 1px;position:absolute;text-align:center;text-decoration:none;text-transform:uppercase;width:195px;top:145px;left:240px;font-family:"Gotham A", "Gotham B", sans-serif !important}
+div#plpBanner.generic_image_with_links99 div#plpBannerText a#plpBannerLink3{background:#fff;color:#2e2e2e;display:block;font-weight:bold;height:35px;line-height:35px;padding:0 1px;position:absolute;text-align:center;text-decoration:none;text-transform:uppercase;width:242px;top:145px;left:450px;font-family:"Gotham A", "Gotham B", sans-serif !important}
+div#plpBanner.generic_image_with_links99 div#plpBannerText a#plpBannerLink4{ 
+display:none; } 
+
+/**
+*
+* Style for the Account page, used here because of the Cache
+Timi Abel
+*
+**/
+.darkGreyBlock{margin:0;/* width:750px; */padding-top:20px;padding-bottom:40px;padding-left:40px;padding-right:20px;clear:both;overflow:auto;background-color:#E6E6E6;color:black}
+div.myAccount .darkGreyBlock h2, div.myAccount .darkGreyBlock a, div.myAccount .darkGreyBlock a:link, div.myAccount .darkGreyBlock a:visited{background-color:#E6E6E6;color:black}
+div.myAccount .darkGreyBlock h2{left:0;margin-left:0;border:none}
+#sendButton{background:none}
+#sendButton img{width:103px;height:33px;margin-top:-4px;position:relative}
+#sendButton img:hover{-moz-opacity:.7;-webkit-opacity:.7;-o-opacity:.7;opacity:.7;}
+.myAccountLogin .newAccount input, .myAccount input{display:inline-block;vertical-align:middle;width:auto;zoom:1;margin:10px 0 0 0;border:none;font-size:1em;padding:5px 0;text-indent:5px;-moz-border-radius:0;-webkit-border-radius:0;border-radius:0;background:#fff;-moz-box-shadow:inset 0 0 6px #ccc;-webkit-box-shadow:none;box-shadow:none;-moz-box-sizing:border-box;-webkit-box-sizing:border-box;box-sizing:border-box;clear:none;float:left;width:269px;height:33px}
