@@ -265,6 +265,7 @@ jQuery(function($) {
         $('#tertiaryNavigation').addClass('displayWhenDone');
         $('#primaryNavigation > li:nth-child(3)').css('display', 'block');
         $('#primaryNavigation > li:nth-child(8)').after($('#clearanceLinks').html()).css('display', 'block');
+		$('#primaryNavigation').prepend('<li id="mixxxx" style="display: block;" class="first"><span><a manual_cm_re="Global-_-Header-_-Tabs-NewIn" href="http://www.jdsports.co.uk/featured/New%20In?fredhopperUrl=fh_location=%2f%2fcatalog01%2fen_GB%2fnew_arrival%3d1" accesskey="0">New In</a></span><ul id="menMenuItemsContainer2" style="width: 211px;box-shadow: 0 0 12px 5px rgba(0, 0, 0, 0.5)"><li><ul style="position: relative;" id="menMenuItems"> <li><dl><dt> New In </dt><dd><ul><li><a href="http://www.jdsports.co.uk/featured/Mens%20New%20In?fredhopperUrl=fh_location%3d%2f%2fcatalog01%2fen_GB%2fnew_arrival%3d1%2fcategories%3C%7bcatalog01_ct12201%7d&fh_reftheme=40ff48e2-9104-4f3d-a41e-7898ea3751a1&fh_refview=lister&fh_view_size=80" manual_cm_re="top-nav-_-new-in-_-Men">Men</a></li> <li><a href="http://www.jdsports.co.uk/featured/Womens%20New%20In?fredhopperUrl=fh_location%3d%2f%2fcatalog01%2fen_GB%2fnew_arrival%3d1%2fcategories%3C%7bcatalog01_ct12202%7d&fh_reftheme=40ff48e2-9104-4f3d-a41e-7898ea3751a1&fh_refview=lister&fh_view_size=80" manual_cm_re="top-nav-_-new-in-_-Women">Women</a></li><li><a href="http://www.jdsports.co.uk/featured/Kids%20New%20In?fredhopperUrl=fh_location%3d%2f%2fcatalog01%2fen_GB%2fnew_arrival%3d1%2fcategories%3C%7bcatalog01_ct12203%7d&fh_reftheme=40ff48e2-9104-4f3d-a41e-7898ea3751a1&fh_refview=lister&fh_view_size=80" manual_cm_re="top-nav-_-new-in-_-Kids">Kids</a></li> </ul></dd></dl></li> <li style="clear:both;display:none" class="BannerToToggleGloballyGeneric"><a href="/men/brand/brookhaven/" manual_cm_re="Global-_-Header-_-dd-BigBanner-brookhaven" style="padding-left:25px"><img src="/images/library/2014/08.12.2014/mens.jpg"></a></li></ul></li></ul></li>');
 
     }
 
@@ -319,6 +320,9 @@ jQuery(function($) {
         // jQuery('#footballMenuItemsContainer').css('height','360px');
         //matt  jQuery('#footballMenuItemsContainer').css('height','460px');
         jQuery('#footballMenuItemsContainer').append('<div style="width:100%; text-align:center"><a style="margin-bottom:50px; width:130px; height:50px; display:inline-block; background:#419c41; border:1px solid #000; text-align:center; text-transform:uppercase; text-decoration:none; line-height:50px; color:#FFF;" href="#" id="close-nav">Close</a></div>'); //matt
+		
+		//matt  jQuery('#kidsMenuItemsContainer').css('height','410px'); //980px
+        jQuery('#mixxxx').append('<div style="width:100%; text-align:center"><a style="margin-bottom:50px; width:130px; height:50px; display:inline-block; background:#419c41; border:1px solid #000; text-align:center; text-transform:uppercase; text-decoration:none; line-height:50px; color:#FFF;" href="#" id="close-nav">Close</a></div>'); //matt
 
         jQuery('span#viewBasket').parent().append('<a id="close-checkout" href="#">Close</a>');
 
