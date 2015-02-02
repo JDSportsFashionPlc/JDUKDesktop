@@ -374,7 +374,6 @@ div#plpBanner.fhNikeAirMax2015women div#plpBannerText a#plpBannerLink4{backgroun
 Speedo Banner 400px height
 ===
 */
-
 .fhBrandSpeedoBanner{position:relative;width:768px;height:400px;background:#eee}
 .fhBrandSpeedoBanner h2{display:none}
 .fhBrandSpeedoBanner #plpBannerText p{display:none}
@@ -407,6 +406,7 @@ GENERIC IMAGE RED WITH LINKS (EDIT FOR ACCESSORIES PAGE 18TH DECEMBER 2014)
 div#plpBanner.generic_image_with_links22 div#plpBannerText a#plpBannerLink1{background:#fff;color:#2e2e2e;display:block;font-weight:bold;height:35px;line-height:35px;padding:0 1px;position:absolute;text-align:center;text-decoration:none;text-transform:uppercase;width:145px;top:115px;left:155px;font-family:"Gotham A", "Gotham B", sans-serif !important}
 div#plpBanner.generic_image_with_links22 div#plpBannerText a#plpBannerLink2{background:#fff;color:#2e2e2e;display:block;font-weight:bold;height:35px;line-height:35px;padding:0 1px;position:absolute;text-align:center;text-decoration:none;text-transform:uppercase;width:145px;top:115px;left:313px;font-family:"Gotham A", "Gotham B", sans-serif !important}
 div#plpBanner.generic_image_with_links22 div#plpBannerText a#plpBannerLink3{background:#fff;color:#2e2e2e;display:block;font-weight:bold;height:35px;line-height:35px;padding:0 1px;position:absolute;text-align:center;text-decoration:none;text-transform:uppercase;width:145px;top:115px;left:468px;font-family:"Gotham A", "Gotham B", sans-serif !important}
+
 /*
 ===
 GENERIC IMAGE RED WITH LINKS (EDIT FOR SALES PAGE WITH HUGE CAPTION 29TH DECEMBER 2014)
@@ -419,10 +419,6 @@ GENERIC IMAGE RED WITH LINKS (EDIT FOR SALES PAGE WITH HUGE CAPTION 29TH DECEMBE
 div#plpBanner.generic_image_with_links33 div#plpBannerText a#plpBannerLink1{background:#ed912a;color:#818086;display:block;font-weight:bold;height:35px;line-height:35px;padding:0 1px;position:absolute;text-align:center;text-decoration:none;text-transform:uppercase;width:145px;top:155px;left:155px;font-family:"Gotham A", "Gotham B", sans-serif !important}
 div#plpBanner.generic_image_with_links33 div#plpBannerText a#plpBannerLink2{background:#ed912a;color:#818086;display:block;font-weight:bold;height:35px;line-height:35px;padding:0 1px;position:absolute;text-align:center;text-decoration:none;text-transform:uppercase;width:145px;top:155px;left:313px;font-family:"Gotham A", "Gotham B", sans-serif !important}
 div#plpBanner.generic_image_with_links33 div#plpBannerText a#plpBannerLink3{background:#ed912a;color:#818086;display:block;font-weight:bold;height:35px;line-height:35px;padding:0 1px;position:absolute;text-align:center;text-decoration:none;text-transform:uppercase;width:145px;top:155px;left:468px;font-family:"Gotham A", "Gotham B", sans-serif !important}
-
-
-
-
 
 /*
 ===
@@ -438,15 +434,6 @@ div#plpBanner.generic_image_with_links44 div#plpBannerText a#plpBannerLink2{back
 div#plpBanner.generic_image_with_links44 div#plpBannerText a#plpBannerLink3{background:#fff;color:#2e2e2e;display:block;font-weight:bold;height:35px;line-height:35px;padding:0 1px;position:absolute;text-align:center;text-decoration:none;text-transform:uppercase;width:145px;top:157px;left:369px;font-family:"Gotham A", "Gotham B", sans-serif !important}
 div#plpBanner.generic_image_with_links44 div#plpBannerText a#plpBannerLink4{background:#fff;color:#2e2e2e;display:block;font-weight:bold;height:35px;line-height:35px;padding:0 1px;position:absolute;text-align:center;text-decoration:none;text-transform:uppercase;width:145px;top:157px;left:545px;font-family:"Gotham A", "Gotham B", sans-serif !important} 
 
-
-
-
-
-
-
-
-
-
 /*
 ===
 GENERIC IMAGE GOLD WITH LINKS SEO AND LINKS
@@ -460,8 +447,6 @@ div#plpBanner.generic_image_with_links55 div#plpBannerText a#plpBannerLink1{back
 div#plpBanner.generic_image_with_links55 div#plpBannerText a#plpBannerLink2{background:#fff;color:#2e2e2e;display:block;font-weight:bold;height:35px;line-height:35px;padding:0 1px;position:absolute;text-align:center;text-decoration:none;text-transform:uppercase;width:145px;top:145px;left:199px;font-family:"Gotham A", "Gotham B", sans-serif !important}
 div#plpBanner.generic_image_with_links55 div#plpBannerText a#plpBannerLink3{background:#fff;color:#2e2e2e;display:block;font-weight:bold;height:35px;line-height:35px;padding:0 1px;position:absolute;text-align:center;text-decoration:none;text-transform:uppercase;width:145px;top:145px;left:369px;font-family:"Gotham A", "Gotham B", sans-serif !important}
 div#plpBanner.generic_image_with_links55 div#plpBannerText a#plpBannerLink4{background:#fff;color:#2e2e2e;display:block;font-weight:bold;height:35px;line-height:35px;padding:0 1px;position:absolute;text-align:center;text-decoration:none;text-transform:uppercase;width:145px;top:145px;left:545px;font-family:"Gotham A", "Gotham B", sans-serif !important} 
-
-
 
 
 
@@ -496,13 +481,6 @@ div#plpBanner.generic_image_with_links77 div#plpBannerText a#plpBannerLink1{back
 div#plpBanner.generic_image_with_links77 div#plpBannerText a#plpBannerLink2{background:#2e2e2e;color:#ffffff;display:block;font-weight:bold;height:35px;line-height:35px;padding:0 1px;position:absolute;text-align:center;text-decoration:none;text-transform:uppercase;width:145px;top:151px;left:199px;font-family:"Gotham A", "Gotham B", sans-serif !important}
 div#plpBanner.generic_image_with_links77 div#plpBannerText a#plpBannerLink3{background:#2e2e2e;color:#ffffff;display:block;font-weight:bold;height:35px;line-height:35px;padding:0 1px;position:absolute;text-align:center;text-decoration:none;text-transform:uppercase;width:145px;top:151px;left:369px;font-family:"Gotham A", "Gotham B", sans-serif !important}
 div#plpBanner.generic_image_with_links77 div#plpBannerText a#plpBannerLink4{background:#2e2e2e;color:#ffffff;display:block;font-weight:bold;height:35px;line-height:35px;padding:0 1px;position:absolute;text-align:center;text-decoration:none;text-transform:uppercase;width:145px;top:151px;left:545px;font-family:"Gotham A", "Gotham B", sans-serif !important} 
-
-
-
-
-
-
-
 
 /*
 ===
