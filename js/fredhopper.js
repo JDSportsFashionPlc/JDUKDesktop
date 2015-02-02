@@ -56,6 +56,7 @@ var	nikeCSSWrapper = '';
 // WOMENS 
 //////////////////////////
 //////////////////////////
+
 if (jQuery('.fhNikeAirMax2015women').length > 0) {
 	jQuery('body').append(nikeCSSWrapper);
 	jQuery('.plpBanner img').remove();
@@ -76,6 +77,7 @@ if (jQuery('.fhNikeAirMax2015women').length > 0) {
 	setTimeout('FredHopperSlider()', 750);
 
 }
+
 //////////////////////////
 //////////////////////////
 // MENS AND MAIN
@@ -102,10 +104,6 @@ if (jQuery('.fhNikeAirMax2015men').length > 0) {
 	setTimeout('FredHopperSlider()', 750);
 	
 }
-
-
-
-
 
 if (jQuery('#productAttributesWrapper form').length ){
 		
@@ -134,9 +132,6 @@ if (jQuery('#productAttributesWrapper form').length ){
 
 }
 
-
-
-
 // FADE IN ELEMENTS
 
 //////////////////////////////////////////////////////////////////////////////////////////////////////////////
@@ -146,22 +141,6 @@ if (jQuery('#productAttributesWrapper form').length ){
 // *********
 //////////////////////////////////////////////////////////////////////////////////////////////////////////////
 //////////////////////////////////////////////////////////////////////////////////////////////////////////////
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 var	pumaCSSWrapper = '';
 	pumaCSSWrapper  += '<!--NIKE SKINS-->';
@@ -182,6 +161,7 @@ var	pumaCSSWrapper = '';
 // WOMENS 
 //////////////////////////
 //////////////////////////
+
 if (jQuery('.imageBannerPlainFH_pumaEvo2015').length > 0) {
 	jQuery('body').append(pumaCSSWrapper);
 	
@@ -196,19 +176,5 @@ if (jQuery('.imageBannerPlainFH_pumaEvo2015').length > 0) {
 	
 	jQuery('div#product-list').append(pumaBanners);	
 	
-	
-
 }
-
-
-
-
-
-
-
-
-
-
-
-
 
