@@ -402,7 +402,7 @@ NIKE SKINS
 		position:relative;
 		padding:0;
 	}
-	#middle-spots-wrap #sliderHome2 .owl-next {
+	#sliderHome2 .owl-next {
 		display: block !important;
         padding: 34px 45px 16px 0 !important;
         background: url(/images/library/2015/09.01.2015/01_home/arrow-right.png) !important;
@@ -432,7 +432,7 @@ NIKE SKINS
         margin-left: 10px !important;
 		z-index:999;
 	}
-	#middle-spots-wrap #sliderHome2 .owl-prev {
+	#sliderHome2 .owl-prev {
 		display: block !important;
         padding: 34px 45px 16px 0 !important;
         background: url(/images/library/2015/09.01.2015/01_home/arrow-left.png) !important;
@@ -442,11 +442,11 @@ NIKE SKINS
         margin-left: 10px !important;
 		z-index:999;
 	}
-	#middle-spots-wrap #sliderHome1 .owl-dots,#middle-spots-wrap #sliderHome2 .owl-dots {display:none;}
-	#middle-spots-wrap #sliderHome1 .owl-item,#middle-spots-wrap #sliderHome2 .owl-item {
+	#middle-spots-wrap #sliderHome1 .owl-dots,#sliderHome2 .owl-dots {display:none;}
+	#middle-spots-wrap #sliderHome1 .owl-item,#sliderHome2 .owl-item {
 		padding:0;
 	}
-	#middle-spots-wrap #sliderHome2,#middle-spots-wrap #sliderHome2 .owl-item,#middle-spots-wrap #sliderHome2 img {width:648px;height:415px;}
+	#sliderHome2,#sliderHome2 .owl-item,#sliderHome2 img {width:648px;height:415px;}
 	
 	.topxmasgifts .owl-prev {
 		display: block !important;
@@ -477,12 +477,14 @@ NIKE SKINS
 	#slides .slidesjs-pagination,#slides .slidesjs-navigation {display:none;}
 	
 	.terms-link {
-		width: 160px;
-		height: 33px;
-		display: block;
 		position: absolute;
-		left: 430px;
-		top: 477px;
+		z-index:1;
+		left: 23px;
+		width: 275px;
+		height: 22px; 
+		top: 100px;
+		border-bottom: 1px solid rgb(27, 20, 28);
+		display:block;
 	}
   </style>
   
@@ -608,17 +610,91 @@ NIKE SKINS
 
 	<div class="sectionTV">
     
-    	<div style="width:648px;height:415px;float:left;margin-right:0; position: absolute;">
-            <a href="http://www.jdsports.co.uk/featured/Adidas%20Haters%20Pack" manual_cm_re="CONTENT-_-SPLIT1-_-ADIDAS-HATERS-PACK"><img height="415" src="/images/library/2015/02.02.2015/home/banner-left-split.jpg" width="648" />
-            </a>
-            <!-- <a onclick="openWin('http://www.jdsports.co.uk/lib/hlight/terms/pure.html')" href="#" class="terms-link"></a> -->
-            <a manual_cm_re="CONTENT-_-SPLIT1-_-SALE-MAIN" href="http://www.jdsports.co.uk/featured/Adidas%20Haters%20Pack" style="position: absolute; top: 0; left:0; width: 100%; height: 100%; z-index: 0;"></a>
-        </div>
-        <div style="float:right;height:415px;width:319px;position:relative">
-            <a href="http://www.jdsports.co.uk/featured/Pure%20Offer?fredhopperUrl=fh_location=%2f%2fcatalog01%2fen_GB%2fcategories%3C%7bcatalog01_ct12202%7d%2fcategories%3C%7bcatalog01_ct12202_ct12208%7d%2fcampaign%3E%7bpure20offer%7d" manual_cm_re="CONTENT-_-SPLIT2-_-PURE"><img height="415" src="http://www.jdsports.co.uk/images/library/2015/29.01.2015/FITNESS_SPLIT_RIGHT_WOMENS_PURE_V5.jpg" width="319" /> </a>
-            <a style="left: 25px; width: 274px; height: 12px; top: 116px; border-bottom: 1px solid rgb(27, 20, 28);" onclick="openWin('http://www.jdsports.co.uk/lib/hlight/terms/pure.html')" href="#" class="terms-link"></a>
-           
+    	<!-- THE SPAN BELOW IS A STATIC TITLE FOR #sliderHome2 -->
+        <span class="spot-title" style="position:absolute;z-index:3;left:175px;top:218px;"><strong class="ultra caps" style="font-size:30px;font-weight:900 !important">Latest Footwear</strong></span>
+        
+        <div id="sliderHome2" style="top:0;left:0;height:415px;z-index:2;">
+        	
+            <div class="item">
+               <a href="http://www.jdsports.co.uk/product/nike-air-max-95/154880/" manual_cm_re="CONTENT-_-SPOTSLIDER2-_-154880">
+                    <img style="padding:0 !important;" src="/images/library/2015/03.02.2015/home/spot4b.jpg" />
+                
+                <div class="text">
+                    <span class="cta-button-black-bold caps plain-gotham cta-middle-spot-center" style="margin: -63px auto !important;width:300px;padding-left:30px;padding-right:30px;">Shop Nike Air Max 95 - &pound;115</span>
+                </div>
+              </a>
+            </div>
 
+            <div class="item">
+               <a href="http://www.jdsports.co.uk/product/adidas-originals-superstar-suede/102805/" manual_cm_re="CONTENT-_-SPOTSLIDER2-_-102805">
+                    <img style="padding:0 !important;" src="/images/library/2015/03.02.2015/home/spot4c.jpg" />
+                
+                <div class="text">
+                    <span class="cta-button-black-bold caps plain-gotham cta-middle-spot-center" style="margin: -63px auto !important;width:390px;padding-left:30px;padding-right:30px;">Shop Adidas Superstar Suede - &pound;65</span>
+                </div>
+              </a>
+            </div>
+                  
+            <div class="item">
+               <a href="http://www.jdsports.co.uk/product/adidas-originals-honey-lo-leather/041527/" manual_cm_re="CONTENT-_-SPOTSLIDER2-_-041527">
+                    <img style="padding:0 !important;" src="/images/library/2015/03.02.2015/home/spot4a.jpg" />
+                
+                <div class="text">
+                    <span class="cta-button-black-bold caps plain-gotham cta-middle-spot-center" style="margin: -63px auto !important;width:405px;padding-left:30px;padding-right:30px;">Shop Adidas Honey Lo Leather - &pound;50</span>
+                </div>
+              </a>
+            </div>
+            
+            <div class="item">
+               <a href="http://www.jdsports.co.uk/product/adidas-originals-zx-flux/028791/" manual_cm_re="CONTENT-_-SPOTSLIDER2-_-AdidasOriginalsZXFlux">
+                    <img style="padding:0 !important;" src="/images/library/2015/28.01.2015/home/adidas-originals-zx-flux.jpg" />
+                
+                <div class="text">
+                    <span class="cta-button-black-bold caps plain-gotham cta-middle-spot-center" style="margin: -63px auto !important;width:310px;padding-left:30px;padding-right:30px;">Shop adidas ZX Flux - &pound;72</span>
+                </div>
+              </a>
+            </div>
+
+            <div class="item">
+               <a href="http://www.jdsports.co.uk/product/nike-air-trainer-huarache-junior/008269/" manual_cm_re="CONTENT-_-SPOTSLIDER2-_-008269">
+                    <img style="padding:0 !important;" src="/images/library/2015/29.01.2015/home/NIKE-HUARACHE-FLIGHT.jpg" />
+                
+                <div class="text">
+                    <span class="cta-button-black-bold caps plain-gotham cta-middle-spot-center" style="margin: -63px auto !important;width:480px;padding-left:30px;padding-right:30px;">Shop Nike Air Trainer Huarache Junior - &pound;60</span>
+                </div>
+              </a>
+            </div>
+                  
+            <div class="item">
+               <a href="http://www.jdsports.co.uk/product/nike-roshe-run/028670/" manual_cm_re="CONTENT-_-SPOTSLIDER2-_-028670">
+                    <img style="padding:0 !important;" src="/images/library/2015/15.01.2015/01_home/kot_01.jpg" />
+                
+                <div class="text">
+                    <span class="cta-button-black-bold caps plain-gotham cta-middle-spot-center" style="margin: -63px auto !important;width:290px;padding-left:30px;padding-right:30px;">Shop Nike Roshe Run - &pound;70</span>
+                </div>
+              </a>
+            </div>
+            
+            <div class="item">
+               <a href="http://www.jdsports.co.uk/product/new-balance-430/023659/" manual_cm_re="CONTENT-_-SPOTSLIDER2-_-NewBalance430">
+                    <img style="padding:0 !important;" src="/images/library/2015/28.01.2015/home/new-balance-430.jpg" />
+                
+                <div class="text">
+                    <span class="cta-button-black-bold caps plain-gotham cta-middle-spot-center" style="margin: -63px auto !important;width:310px;padding-left:30px;padding-right:30px;">Shop New Balance 430 - &pound;60</span>
+                </div>
+              </a>
+            </div>
+            
+        </div>
+        
+        
+        
+        <div style="float:right;height:415px;width:319px;position:relative;margin-top:-415px;">
+            <a href="http://www.jdsports.co.uk/featured/Adidas%20Haters%20Pack" manual_cm_re="CONTENT-_-SPLIT2-_-AdidasHaters"><img height="415" src="/images/library/2015/03.02.2015/home/split-banner-right.jpg" width="319" /> </a>     
+           
+            <div class="text">
+                <span class="cta-button-black-bold caps plain-gotham cta-middle-spot-center" style="margin: -63px auto !important">Shop now</span>
+            </div>
         </div>
         
     </div>
@@ -638,11 +714,11 @@ NIKE SKINS
             // 1
             -->
             <li class="topleft">                
-                <a manual_cm_re="CONTENT-_-SPOT1-_-JACKETS-AND-COATS-WOMENS" href="http://www.jdsports.co.uk/featured/Men%27s%20adidas%20Originals%20Clothing?fredhopperUrl=fh_location=%2f%2fcatalog01%2fen_GB%2fcategories%3C%7bcatalog01_ct12201_ct12206%7d%2fbrand%3E%7badidas20originals%7d" >
-                    <img width="319" height="415" src="/images/library/2015/28.01.2015/home/middle01.jpg" />
+                <a manual_cm_re="CONTENT-_-SPOT1-_-Mens-Clothing-UCLA" href="http://www.jdsports.co.uk/search/ucla" >
+                    <img width="319" height="415" src="/images/library/2015/03.02.2015/home/middle01.jpg" />
                     
                     <div class="text">
-                        <span class="spot-title"><strong class="ultra caps" style="font-size:13px">Mens Clothing / adidas Originals</strong></span>
+                        <span class="spot-title"><strong class="ultra caps" style="font-size:13px">Men's Clothing / UCLA</strong></span>
                         <span class="cta-button-black-bold caps plain-gotham cta-middle-spot-center" style="margin: 11px auto !important">Shop now</span>
                     </div>
                 </a>                
@@ -652,15 +728,15 @@ NIKE SKINS
             // 2 
             -->
             <li class="topmiddle ">
-                <a manual_cm_re="CONTENT-_-SPOT2-_-WomensFitnessFootwear" href="http://www.jdsports.co.uk/featured/Womens%20Fitness%20Footwear?fredhopperUrl=fh_location=%2f%2fcatalog01%2fen_GB%2fcategories%3C%7bcatalog01_ct12202_ct12209_ct12273%2ccatalog01_ct12202_ct12209_ct76243%7d">
+                <a manual_cm_re="CONTENT-_-SPOT2-_-PumaSuedeS" href="http://www.jdsports.co.uk/featured/Puma%20Suede%20S?fredhopperUrl=fh_location=%2f%2fcatalog01%2fen_GB%2fcollection%3E%7bpuma20suede20s%7d">
 
-                    <img width="319" height="415" src="/images/library/2015/28.01.2015/home/middle02.jpg">
+                    <img width="319" height="415" src="/images/library/2015/03.02.2015/home/middle02.jpg">
 
                     <div class="text">
-                    	<span class="spot-title"><strong class="ultra caps" style="font-size:13px">WOMENS / FITNESS FOOTWEAR</strong></span>
+                    	<span class="spot-title"><strong class="ultra caps" style="font-size:13px">Puma / Suede S</strong></span>
                         <span class="cta-button-black-bold caps plain-gotham cta-middle-spot-center" style="margin: 11px auto !important">Shop now</span>
                     </div> 
-                </a>
+                </a> 
             </li>
 
 			<!--
@@ -680,82 +756,39 @@ NIKE SKINS
                 </a>                
             </li>
 			
-            <!-- THE SPAN BELOW IS A STATIC TITLE FOR #sliderHome2 -->
-            <span class="spot-title" style="position:absolute;z-index:9999;left:174px;top:440px;"><strong class="ultra caps" style="font-size:30px;font-weight:900 !important">Latest Footwear</strong></span>
-            
-            <li id="sliderHome2" style="top:425px;left:0;height:415px;z-index:999;">
-                
-                <div class="item">
-                   <a href="http://www.jdsports.co.uk/product/adidas-originals-zx-flux/028791/" manual_cm_re="CONTENT-_-SPOTSLIDER2-_-AdidasOriginalsZXFlux">
-                        <img style="float:left" src="/images/library/2015/28.01.2015/home/adidas-originals-zx-flux.jpg" />
+            <!--
+            	Middle Spot (4 + 5)
+            -->
+            <li style="top:425px;left:0;height:415px;z-index:999;width:648px;">
+            	<a href="http://www.jdsports.co.uk/featured/Brookhaven?fredhopperUrl=fh_location=%2f%2fcatalog01%2fen_GB%2fbrand%3E%7bbrookhaven%7d" manual_cm_re="CONTENT-_-SPOTS4+5-_-BROOKHAVEN">
+                    <img style="float:left" src="/images/library/2015/04.02.2015/home/middle04+05.jpg" />
                     
-                    <div class="text" style="left:170px;">
-                        <span class="cta-button-black-bold caps plain-gotham cta-middle-spot-center" style="margin: 30px auto !important;width:264px">Shop adidas ZX Flux</span>
-                    </div>
-                  </a>
-                </div>
-
-                <div class="item">
-                   <a href="http://www.jdsports.co.uk/product/nike-air-trainer-huarache-junior/008269/" manual_cm_re="CONTENT-_-SPOTSLIDER2-_-008269">
-                        <img style="float:left" src="/images/library/2015/29.01.2015/home/NIKE-HUARACHE-FLIGHT.jpg" />
-                    
-                    <div class="text" style="left:98px;">
-                        <span class="cta-button-black-bold caps plain-gotham cta-middle-spot-center" style="margin: 30px auto !important;width:442px">Shop Nike Air Trainer Huarache Junior</span>
-                    </div>
-                  </a>
-                </div>
-                      
-                <div class="item">
-                   <a href="http://www.jdsports.co.uk/product/nike-roshe-run/028670/" manual_cm_re="CONTENT-_-SPOTSLIDER2-_-028670">
-                        <img style="float:left" src="/images/library/2015/15.01.2015/01_home/kot_01.jpg" />
-                    
-                    <div class="text" style="left:172px;">
-                        <span class="cta-button-black-bold caps plain-gotham cta-middle-spot-center" style="margin: 30px auto !important;width:244px">Shop Nike Roshe Run</span>
-                    </div>
-                  </a>
-                </div>
-                
-                <div class="item">
-                   <a href="http://www.jdsports.co.uk/product/new-balance-430/023659/" manual_cm_re="CONTENT-_-SPOTSLIDER2-_-NewBalance430">
-                        <img style="float:left" src="/images/library/2015/28.01.2015/home/new-balance-430.jpg" />
-                    
-                    <div class="text" style="left:170px;">
-                        <span class="cta-button-black-bold caps plain-gotham cta-middle-spot-center" style="margin: 30px auto !important;width:264px">Shop New Balance 430</span>
-                    </div>
-                  </a>
-                </div>
-                
-                <div class="item">
-                   <a href="http://www.jdsports.co.uk/product/adidas-originals-superstar-ii/016611/" manual_cm_re="CONTENT-_-SPOTSLIDER2-_-016611">
-                        <img style="float:left" src="/images/library/2015/15.01.2015/01_home/kot_03.jpg" />
-                    
-                    <div class="text" style="left:127px;">
-                        <span class="cta-button-black-bold caps plain-gotham cta-middle-spot-center" style="margin: 30px auto !important;width:382px">Shop adidas originals Superstar 11</span>
+                    <div class="text" style="left:163px;">
+                        <span class="cta-button-black-bold caps plain-gotham cta-middle-spot-center" style="margin: 30px auto !important;width:280px;">Shop Brookhaven</span>
                     </div> 
-                  </a>
-                </div>
-                
+                </a>
             </li>
             
             
             <!--
             // 7
             -->
-            <li class="bottomleft" style="top:860px;">
-                <a manual_cm_re="CONTENT-_-SPOT7-_-JACKETS-AND-COATS-WOMENS" href="http://www.jdsports.co.uk/featured/Shop%20All%20Womens%20Jackets?fredhopperUrl=fh_location=%2f%2fcatalog01%2fen_GB%2fcategories%3C%7bcatalog01_ct12202%7d%2fcategories%3C%7bcatalog01_ct12202_ct12208%7d%2fcategories%3C%7bcatalog01_ct12202_ct12208_ct12268%7d" >
-                    <img width="319" height="415" src="/images/library/2015/15.01.2015/01_home/middle01b.jpg" />
+            <li class="bottomleft" style="top:853px;">
+                <a manual_cm_re="CONTENT-_-SPOT7-_-PURE-OFFER" href="http://www.jdsports.co.uk/featured/Pure%20Offer?fredhopperUrl=fh_location=%2f%2fcatalog01%2fen_GB%2fcategories%3C%7bcatalog01_ct12202%7d%2fcategories%3C%7bcatalog01_ct12202_ct12208%7d%2fcampaign%3E%7bpure20offer%7d" >
+                    <img width="319" height="415" src="/images/library/2015/04.02.2015/home/middle07.jpg" />
                     
                     <div class="text">
-                        <span class="spot-title"><strong class="ultra caps" style="font-size:13px">WRAP UP / JACKETS &amp; COATS</strong></span>
+                        <span class="spot-title"><strong class="ultra caps" style="font-size:13px">Pure / 20% Off</strong></span>
                         <span class="cta-button-black-bold caps plain-gotham cta-middle-spot-center" style="margin: 11px auto !important">Shop now</span>
                     </div>
-                </a>               
+                </a>     
+                <a onclick="openWin('http://www.jdsports.co.uk/lib/hlight/terms/pure.html')" href="#" class="terms-link"></a>          
             </li>
 
             <!--
 				// 8
 				-->
-            <li class="bottommiddle" style="top:860px;">
+            <li class="bottommiddle" style="top:853px;">
                 <a manual_cm_re="CONTENT-_-SPOT8-_-PumaFootballBoots" href="http://www.jdsports.co.uk/featured/Puma%20EVO%202015?fredhopperUrl=fh_location=%2f%2fcatalog01%2fen_GB%2fcollection%3E%7bpuma20evo202015%7d" >
                     <img width="319" height="415" src="/images/library/2015/30.01.2015/home/middle08.jpg" />
                     <div class="text">
@@ -769,15 +802,16 @@ NIKE SKINS
             <!--
 				// 9
 				-->
-            <li class="bottomright" style="top:860px;">
-            	<a manual_cm_re="CONTENT-_-SPOT9-_-AdidasSuperstar" href="http://www.jdsports.co.uk/page/adidas-superstar/">
-                    <img width="319" height="415" src="/images/library/2015/30.01.2015/home/spot09.jpg" />
+            <li class="bottomright" style="top:853px;">
+            	<a manual_cm_re="CONTENT-_-SPOT9-_-KidsNewArrivals" href="http://www.jdsports.co.uk/featured/KIDS?fredhopperUrl=fh_location=%2f%2fcatalog01%2fen_GB%2fcategories%3c%7bcatalog01_ct12203_ct12210%2ccatalog01_ct12203_ct12211%2ccatalog01_ct12203_ct12218%7d">
+
+                    <img width="319" height="415" src="/images/library/2015/03.02.2015/home/middle09.jpg">
+
                     <div class="text">
-                        <span class="spot-title"><strong class="ultra caps" style="font-size:13px">ADIDAS / SUPERSTAR</strong></span>
-                        <span class="nocaps"></span>
+                    	<span class="spot-title"><strong class="ultra caps" style="font-size:13px">New Arrivals / Kids</strong></span>
                         <span class="cta-button-black-bold caps plain-gotham cta-middle-spot-center" style="margin: 11px auto !important">Shop now</span>
                     </div> 
-                </a>               
+                </a>             
             </li>
             
             <li class="topxmasgifts1" style="text-align:center !important;height:40px !important;top:1285px">
