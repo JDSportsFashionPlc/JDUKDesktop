@@ -246,7 +246,7 @@ jQuery(function($) {
         $("ul#tertiaryNavigation").prepend('<li><a manual_cm_re="Global-_-Header-_-WheresMyOrder" href="/page/tracking" style="text-transform:none">Where is my order?</a></li>');
         $("ul#tertiaryNavigation").append('<li class=""><a onclick="openWin(\'/lib/cs/home.html\')" href="#" manual_cm_re="Global-_-Header-_-Customer-Service">Customer Service</a></li><li class="lastItem"><a onclick="openWin(\'/lib/cs/faqs.html?iframeURL=Privacy and Security\')" href="#" manual_cm_re="Global-_-Header-_-Cookies">Cookies</a></li>');
         $('#primaryNavigation > li').eq(0).remove();
-        $('#primaryNavigation').append('<li style="float:right;margin-right:0"><span><a manual_cm_re="Global-_-Header-_-Tabs-TurnStyle" href="http://www.turnstyle.co.uk/" target="_blank">TU&#1071;NSTYLE+</a></span></li>');
+        $('#primaryNavigation').append('<li style="float:right;margin-right:0"><span><a manual_cm_re="Global-_-Header-_-Tabs-TurnStyle" href="http://www.turnstyle.co.uk/" target="_blank">Blog</a></span></li>');
         $('#primaryNavigation > li:first-child').addClass('first');
         $('#primaryNavigation > li:nth-child(3)').after($('#footballLinks').html()).css('display', 'none');
         $('#primaryNavigation > li:nth-child(4)').after($('#sportsLinks').html()).css('display', 'block');
