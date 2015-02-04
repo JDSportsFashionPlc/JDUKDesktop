@@ -56,6 +56,7 @@ var	nikeCSSWrapper = '';
 // WOMENS 
 //////////////////////////
 //////////////////////////
+
 if (jQuery('.fhNikeAirMax2015women').length > 0) {
 	jQuery('body').append(nikeCSSWrapper);
 	jQuery('.plpBanner img').remove();
@@ -76,6 +77,7 @@ if (jQuery('.fhNikeAirMax2015women').length > 0) {
 	setTimeout('FredHopperSlider()', 750);
 
 }
+
 //////////////////////////
 //////////////////////////
 // MENS AND MAIN
@@ -102,10 +104,6 @@ if (jQuery('.fhNikeAirMax2015men').length > 0) {
 	setTimeout('FredHopperSlider()', 750);
 	
 }
-
-
-
-
 
 if (jQuery('#productAttributesWrapper form').length ){
 		
@@ -134,9 +132,6 @@ if (jQuery('#productAttributesWrapper form').length ){
 
 }
 
-
-
-
 // FADE IN ELEMENTS
 
 //////////////////////////////////////////////////////////////////////////////////////////////////////////////
@@ -147,32 +142,39 @@ if (jQuery('#productAttributesWrapper form').length ){
 //////////////////////////////////////////////////////////////////////////////////////////////////////////////
 //////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
+var	pumaCSSWrapper = '';
+	pumaCSSWrapper  += '<!--NIKE SKINS-->';
+	pumaCSSWrapper  += '<style>';
+		pumaCSSWrapper  += '.page{overflow:visible}';
+		pumaCSSWrapper  += 'div#product-list{position:relative;height:1800px !important}';
+		pumaCSSWrapper  += '.tTakeImgResponsive img{width:100%}';
+		pumaCSSWrapper  += '.takeOverSpot {position:absolute;top:0;width:800px}';
+		pumaCSSWrapper  += '.lw {left:-800px}';
+		pumaCSSWrapper  += '.rw {right:-800px}';
+		pumaCSSWrapper  += '@media screen and (max-width: 1700px) { .takeOverSpot{width:600px}.lw{left:-600px}.rw{right:-600px} }';
+		pumaCSSWrapper  += '@media screen and (max-width: 1400px) { .takeOverSpot{width:400px}.lw{left:-400px}.rw{right:-400px} }';
+	pumaCSSWrapper  += '</style>';
+	pumaCSSWrapper  += '';
+	
+//////////////////////////
+//////////////////////////
+// WOMENS 
+//////////////////////////
+//////////////////////////
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+if (jQuery('.imageBannerPlainFH_pumaEvo2015').length > 0) {
+	jQuery('body').append(pumaCSSWrapper);
+	
+	var 	pumaBanners = '';
+			pumaBanners += '<div class="nikeFaderFirst takeOverSpot tTakeImgResponsive takeOverSpot lw">';
+			pumaBanners += '	<img src="http://www.jdsports.co.uk/images/library/2015/02.02.2015/puma-left.jpg">';
+			pumaBanners += '</div>';
+			pumaBanners += '<div class="nikeFaderFirst takeOverSpot tTakeImgResponsive takeOverSpot rw">';
+			pumaBanners += '	<img src="http://www.jdsports.co.uk/images/library/2015/02.02.2015/puma-right.jpg">';
+			pumaBanners += '</div>';
+			pumaBanners += '';
+	
+	jQuery('div#product-list').append(pumaBanners);	
+	
+}
 
