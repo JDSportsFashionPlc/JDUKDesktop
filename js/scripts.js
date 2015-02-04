@@ -702,7 +702,7 @@ if (urlPageForTwitterTrack == '/page/nike-crosstown-running/' || urlPageForTwitt
 // == https://basecamp.com/1872932/projects/6311741/todos/141471688
 // == https://basecamp.com/1872932/projects/6311741/todos/141471621
 
-jQuery('ul#footballMenuItems').append('<li style="clear:both;display:none" class="BannerToToggleGloballyManUnited"><a href="http://www.jdsports.co.uk/featured/manchester+united" manual_cm_re="Global-_-Header-_-dd-BigBanner-ManU" style="padding-left:25px"><img src="/images/library/2014/08.12.2014/man-utd.jpg"/></a></li>');
+jQuery('ul#footballMenuItems').append('<li style="clear:both;display:none" class="BannerToToggleGloballyManUnited"><a href="http://www.jdsports.co.uk/featured/manchester+united"   manual_cm_re="Global-_-Header-_-dd-BigBanner-ManU" style="padding-left:25px"><img src="/images/library/2014/08.12.2014/man-utd.jpg"/></a></li>');
 jQuery('ul#menMenuItems').append('<li style="clear:both;display:none" class="BannerToToggleGloballyGeneric"><a href="/men/brand/brookhaven/" manual_cm_re="Global-_-Header-_-dd-BigBanner-brookhaven" style="padding-left:25px"><img src="/images/library/2014/08.12.2014/mens.jpg"/></a></li>');
 jQuery('ul#womenMenuItems').append('<li style="clear:both;display:none" class="BannerToToggleGloballyGeneric"><a href="/women/brand/brookhaven/" manual_cm_re="Global-_-Header-_-dd-BigBanner-brookhaven"  style="padding-left:25px"><img src="/images/library/2014/15.12.2014/women_top_nav_hover.jpg"/></a></li>');
 jQuery('ul#kidsMenuItems').append('<li style="clear:both;display:none" class="BannerToToggleGloballyGeneric"><a href="/kids/brand/nike/" manual_cm_re="Global-_-Header-_-dd-BigBanner-kids-nike" style="padding-left:25px"><img src="/images/library/2014/08.12.2014/kids.jpg"/></a></li>');
