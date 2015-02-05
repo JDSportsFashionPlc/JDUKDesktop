@@ -505,7 +505,8 @@ PUMA evo 2015
 .imageBannerPlainFH_pumaEvo2015{position:relative;width:768px;height:200px;background:#eee}
 .imageBannerPlainFH_pumaEvo2015 h2{display:none}
 .imageBannerPlainFH_pumaEvo2015 #plpBannerText p{display:none}
-
+.imageBannerPlainFH_pumaEvo2015 #plpBannerLink1  {position: absolute;top: 0;height: 100%;width: 128px; text-indent: -99999px;}
+.imageBannerPlainFH_pumaEvo2015 #plpBannerLink2 {position: absolute;top: 0; height: 100%; width: 128px; text-indent: -99999px; right: 0;}
 
 /*
 ===
@@ -536,3 +537,4 @@ div.myAccount .darkGreyBlock h2{left:0;margin-left:0;border:none}
 #sendButton img{width:103px;height:33px;margin-top:-4px;position:relative}
 #sendButton img:hover{-moz-opacity:.7;-webkit-opacity:.7;-o-opacity:.7;opacity:.7;}
 .myAccountLogin .newAccount input, .myAccount input{display:inline-block;vertical-align:middle;width:auto;zoom:1;margin:10px 0 0 0;border:none;font-size:1em;padding:5px 0;text-indent:5px;-moz-border-radius:0;-webkit-border-radius:0;border-radius:0;background:#fff;-moz-box-shadow:inset 0 0 6px #ccc;-webkit-box-shadow:none;box-shadow:none;-moz-box-sizing:border-box;-webkit-box-sizing:border-box;box-sizing:border-box;clear:none;float:left;width:269px;height:33px}
+#quickViewThumbs img{border:1px solid #ccc;margin-right:3px}
