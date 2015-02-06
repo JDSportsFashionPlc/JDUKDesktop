@@ -1,0 +1,194 @@
+@charset "UTF-8";
+/* ----------------------------------------------------------- */
+/* CSS Document: NEW LANDING CSS (RJR/PC 04/04/13 - VERSION 1) */
+/* ----------------------------------------------------------- */
+
+/*
+*
+*	- RESETS
+*	- SLIDERS
+*	- MIDDLE SPOTS
+*	- TWITTER BAR
+*	- SIDEBAR
+*	- FOOTER COPY
+*
+*/
+
+/* ---- Store CSS Override ---- */
+html { background:url('/lib/hlight/northern-ireland-football/images/jdpro-page-bg-long.png') repeat-x 0 120px; }
+#page { overflow:visible; width:100%; } 
+p { font-size:0.9em; line-height:1.5em; color:#000; }
+.contentContainer { float:none; width:100%; margin:0; padding:0; }
+#header, #footerMain { margin:0 auto; float:none;}
+h3 { font-size:24px; line-height:24px; font-style:italic; font-weight:bold; text-transform:uppercase; margin-bottom:10px; color:#000; }
+h4 { text-align:center; text-transform:uppercase; font-size:18px; margin-bottom:28px; font-weight:bold; }
+
+/* ---- Base Elements ---- */
+.section { position:relative; display:block; width:100%; overflow:hidden; margin-bottom:30px; }
+.bg-white { background:none; }
+.full-width-header { left:0; top:0; min-width:996px; position:relative; width:100%; background:#000; height:130px; }
+.full-width-footer { min-width:996px; width:100%; background:url('/images/footer-bg.gif') repeat scroll 0 0 #000; float:left; }
+
+ul#primaryNavigation.fixedNav { position:fixed; margin-top:-10px; top:0px; width:976px; border-top:10px solid #FFF; height:40px; line-height:40px; }
+ul#primaryNavigation.fixedNav:after { content: ""; display:block; height:3px; left:5px; position:absolute; top:35px; width:937px; }
+#nav-full-width { display:none; width:100%; background-color:#000; height:40px; }
+#nav-full-width img.nav-logo { float:left; margin:5px 20px; }
+#nav-full-width img.nav-scroll { float:right; margin:5px; }
+#nav-full-width p.nav-scroll-text { float:right; margin:12px; color:#FFF; }
+#nav-full-width.fixedNav { display:block; position:fixed; top:0; left:0; width:100%; background-color:#000; height:40px; }
+
+/* ---- Generic Elements + Fixers ---- */
+.clearfix{ clear:both; }
+.hidden-element{ display:none; }
+
+/* ---- Landing Layout (2 Columns) ---- */
+#sidebar { width:234px; margin:0 20px 0 0; float:left; }
+#sidebar span { display:block; width:234px; height:149px; margin-bottom:12px; background:url('/lib/hlight/northern-ireland-football/images/jd-pro-logo.png') no-repeat 0 0; text-indent:-9999px; }
+
+#mainContent { width:780px; float:left; }
+
+/* ---- SIDEBAR STYLES ---- */ 
+#sub-departments { width:184px; height:926px; padding:18px 25px; background:url('/lib/hlight/northern-ireland-football/images/sidebar-bg.png') repeat 0 0; text-transform:uppercase; }
+#sub-departments h2 { color:#FFF; padding:15px 0; font-family:"futura-pt-condensed", "Helvetica Neue", Helvetica, Arial, sans-serif; font-weight:500; font-size:24px; line-height:24px; letter-spacing:1px; }
+#sub-departments ul, #sub-departments li { margin:0; padding:0; }
+#sub-departments ul { margin-bottom:15px; }
+#sub-departments ul li { font-size:12px; margin-bottom:10px; } 
+#sub-departments a { color:#FFF; text-decoration:none; font-family:"futura-pt-condensed", "Helvetica Neue", Helvetica, Arial, sans-serif; font-weight:400; font-size:18px; line-height:18px; letter-spacing:1px; }
+#sub-departments a:hover { text-decoration:underline; }
+#sub-departments a.see-all { font-weight:bold; } 
+
+/* ---- BRAND LANDING PAGES SPECIFIC ELEMENTS ---- */
+#main { width:100%; }
+body { }
+#northern-ireland-footballContainer { width:976px; height:970px; margin:0 auto; }
+
+#full-width-slider { width:100%; height:1000px; overflow:hidden;  position:absolute; top:150px; z-index:-1; }
+#full-width-slider .inner-banner { position:relative; width:976px; height:400px; margin:0 auto; }
+#full-width-slider .inner-banner span { display:block; position:absolute; width:138px; height:120px; background:url('/lib/hlight/northern-ireland-football/images/slider-hex.png') no-repeat 0 0; top:135px; text-align:center; line-height:120px; font-size:2em; color:#FFF; text-transform:uppercase; }
+#full-width-slider .inner-banner span.left { left:210px; }
+#full-width-slider .inner-banner span.centre { left:419px; }
+#full-width-slider .inner-banner span.right { right:210px; }
+
+#content-spots ul li:hover img {opacity:0.6;}
+
+/* ---- NEW INTRO TEXT---- */
+#intro-text {
+position:absolute;top:570px;width:976px;height:150px;background:url('/lib/hlight/northern-ireland-football/images/title-banner.png') no-repeat center top;}
+
+#intro-text h1 {display:none;
+color:#FFF; font-size:1.8em; text-transform:uppercase; font-family:"futura-pt-condensed", "Helvetica Neue", Helvetica, Arial, sans-serif; font-weight:400; font-size:30px; line-height:24px; letter-spacing:1px;margin-left:145px;margin-right:118px;margin-top:19px;margin-bottom:11px;}
+
+#intro-text p {
+color:#FFF; font-size:1.0em; text-transform:uppercase; font-family:"futura-pt-condensed", "Helvetica Neue", Helvetica, Arial, sans-serif; font-weight:400; font-size:16px; line-height:14px; letter-spacing:1px;margin-left:145px;margin-top:39px;margin-right:118px;text-align:center;}
+
+
+#content-spots { width:976px; height:850px; margin-top:20px; margin-bottom:20px; }
+#content-spots ul { position:relative; width:976px; height:850px; }
+#content-spots ul li { position:absolute; display:block; width:319px; height:415px; background:#000; }
+#content-spots ul li.top-left { top:0; left:0; }
+#content-spots ul li.top-middle { top:0; left:328px; }
+#content-spots ul li.top-right { top:0; right:0; }
+#content-spots ul li.bottom-left { bottom:0; left:0; }
+#content-spots ul li.bottom-middle { bottom:0; left:328px; }
+#content-spots ul li.bottom-right { bottom:0; right:0; }
+
+#content-spots ul li img {
+opacity: 1;
+
+-webkit-filter:grayscale(1%) blur(0px);/* Chrome 19+, Safari 6+, Safari 6+ iOS */	
+
+transition: opacity .5s ease-out, filter .5s ease-out;
+-moz-transition: opacity .5s ease-out, -moz-filter .5s ease-out;
+-webkit-transition: opacity .5s ease-out, -webkit-filter .5s ease-out;
+-o-transition: opacity .5s ease-out, -o-filter .5s ease-out;				 
+} 
+
+#content-spots ul li:hover img {
+	
+transition: opacity .5s ease-out, filter .5s ease-out;
+-moz-transition: opacity .5s ease-out, -moz-filter .5s ease-out;
+-webkit-transition: opacity .5s ease-out, -webkit-filter .5s ease-out;
+-o-transition: opacity .5s ease-out, -o-filter .5s ease-out;	
+	
+opacity:0.5;
+		
+filter: url("data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\'><filter id=\'grayscale\'><feColorMatrix type=\'matrix\' values=\'0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0 0 0 1 0\'/></filter></svg>#grayscale"); /* Firefox 10+, Firefox on Android */
+
+filter:gray blur(2px);/* IE6-9 */
+
+-webkit-filter:grayscale(75%) blur(2px);/* Chrome 19+, Safari 6+, Safari 6+ iOS */
+
+}
+
+.thisIsIE #content-spots ul li:hover img { filter:alpha(opacity=50); /* For IE8 and earlier */ }
+
+#content-spots ul li:hover img.jdprologo {opacity:1;filter:blur (0px);-webkit-filter:blur (0px);}
+
+
+#content-spots ul li a div.hex { position:absolute; top:0; left:0; width:100%; height:100%; background:url('/lib/hlight/northern-ireland-football/images/hex.png') no-repeat center center; display:none; }
+#content-spots ul li a div.hexagon { display:none; position:absolute; top:0; left:0; width:100%; height:100%; background:url('/lib/hlight/northern-ireland-football/images/grid-hex.png') no-repeat center center; }
+#content-spots ul li a div.content-titles { display:table; position:absolute; left:0; top:0; height:100%; width:100%; }
+#content-spots ul li a div.content-titles span { display:table-cell; vertical-align:middle; text-align:center; width:100%; height:100%; color:#FFF; font-size:1.5em; text-transform:uppercase; font-family:"futura-pt-condensed", "Helvetica Neue", Helvetica, Arial, sans-serif; font-weight:400; font-size:24px; line-height:24px; letter-spacing:1px; }
+#content-spots ul li a div.content-titles span p { text-align:center; color:#FFF; font-size:1.5em; text-transform:uppercase; font-family:"futura-pt-condensed", "Helvetica Neue", Helvetica, Arial, sans-serif; font-weight:400; font-size:15px; line-height:15px; letter-spacing:1px;margin:0 auto 1.4em;}
+#content-spots ul li a div.content-titles span p.sn { opacity:0; display:block;  text-align:center; color:#FFF; font-size:12px; text-transform:uppercase; margin:0; font-family:"futura-pt-condensed", "Helvetica Neue", Helvetica, Arial, sans-serif; font-weight:400; font-size:15px; line-height:15px; letter-spacing:1px; }
+#content-spots ul li a div.content-titles span p.there { text-align:center; color:#FFF; font-size:12px; text-transform:uppercase; margin:0; font-family:"futura-pt-condensed", "Helvetica Neue", Helvetica, Arial, sans-serif; font-weight:400; font-size:15px; line-height:15px; letter-spacing:1px; }
+
+#content-spots ul li:hover a div.content-titles span p.sn {opacity:1;
+transition: opacity .5s ease-out;
+-moz-transition: opacity .5s ease-out;
+-webkit-transition: opacity .5s ease-out;
+-o-transition: opacity .5s ease-out;}
+
+
+#content-spots ul li a div.content-titles2 { display:table; position:absolute; left:25px; top:35px; height:360px; width:269px; text-align:center }
+#content-spots ul li a div.content-titles2 span { display:table-cell;  text-align:center; width:100%; height:100%; color:#FFF; font-size:1.5em; text-transform:uppercase; font-family:"futura-pt-condensed", "Helvetica Neue", Helvetica, Arial, sans-serif; font-weight:400; font-size:24px; line-height:24px; letter-spacing:1px; width:239px; }
+#content-spots ul li a div.content-titles2 span p { text-align:center; color:#FFF; font-size:1.5em; text-transform:uppercase; font-family:"futura-pt-condensed", "Helvetica Neue", Helvetica, Arial, sans-serif; font-weight:400; font-size:15px; line-height:15px; letter-spacing:1px; }
+#content-spots ul li a div.content-titles2 span p.sub {padding-left:35px; text-align:center; color:#FFF; font-size:1.3em; text-transform:uppercase; font-family:"futura-pt-condensed", "Helvetica Neue", Helvetica, Arial, sans-serif; font-weight:400; font-size:13px; line-height:17px; letter-spacing:1px; margin: -20px auto 45px;width:80%; }
+#content-spots ul li a div.content-titles2 span p.latest-tweet a {color:#FFF;text-decoration:none;}
+#content-spots ul li a div.content-titles2 span p.latest-tweet a:hover {text-decoration:underline;background:transparent;}
+
+#content-spots ul li a div.content-titles span#training {vertical-align:bottom; padding-bottom:70px; }
+.thisIsIE span#training {*padding:0;*vertical-align:middle;*margin-top:110px;}
+
+#content-spots ul li a div.content-titles2 #tweet-box {padding-left:25px;height:55px;background:url('/lib/hlight/northern-ireland-football/images/crest.png') no-repeat 10px 5px;text-align:center;}
+#content-spots ul li a div.content-titles2 span p.latest-tweet{width:239px; background:url('/lib/hlight/northern-ireland-football/images/dash.png') no-repeat center bottom;margin:0 auto 0.3em;padding-bottom:1.1em;}
+
+#content-spots ul li a div.content-titles2 #tweet-box #twitter {margin:0 auto;}
+
+
+#northern-ireland-footballSignups { width:976px; height:46px; margin-bottom:27px; }
+#northern-ireland-footballSignups form { float:left; width:482px; height:45px; background:url('/lib/hlight/northern-ireland-football/images/signup-bg.png') no-repeat 0 0; }
+#northern-ireland-footballSignups form#northern-ireland-footballSubscribeForm { margin-right:12px; }
+#northern-ireland-footballSignups form input.northern-ireland-football-newsletter-input, #northern-ireland-footballSignups form input.northern-ireland-football-store-input { width:402px; height:40px; border:0; margin-left:10px; font-family:"futura-pt-condensed", "Helvetica Neue", Helvetica, Arial, sans-serif; font-weight:400; font-size:18px; line-height:15px; letter-spacing:1px; }
+#northern-ireland-footballSignups form input.northern-ireland-football-newsletter-submit, #northern-ireland-footballSignups form input.northern-ireland-football-storeFinder-submit { width:40px; height:40px; border:0; background:none; padding:2px 6px 2px; font-family:"futura-pt-condensed", "Helvetica Neue", Helvetica, Arial, sans-serif; font-weight:400; font-size:18px; line-height:15px; letter-spacing:1px; }
+
+#social { width:722px; height:70px; background:url('/lib/hlight/northern-ireland-football/images/social-bg.jpg') no-repeat 0 0; }
+#social span { float:left; display:block; width:32px; height:32px; text-indent:-9999px; background:url('/lib/hlight/northern-ireland-football/images/jdpro-sprite-sheet.png') no-repeat 0 -7px; margin:20px 20px 0 20px; }
+#social span.ig { background-position:-43px -7px; }
+#social span.tw { background-position:-96px -7px; }
+#social span.hashtag { float:right; background:none; text-indent:0; width:125px; height:70px; margin:0; text-align:center; font-size:2em; color:#FFF; line-height:70px; font-family:"futura-pt-condensed", "Helvetica Neue", Helvetica, Arial, sans-serif; font-weight:400; letter-spacing:1px; }
+#social #twitter { position:absolute; top:0; left:235px; width:350px; height:70px; }
+
+.typekit-badge { display:none; }
+
+/* --- INPUT ELEMENTS ROUNDED CORNER RADIUS FIX FOR iOS DEVICES --- */
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 480px) {  
+	#header #search input { -webkit-appearance:none; -webkit-border-radius:0; border-radius:0; height:36px; line-height:36px; }
+	#socialBar #newsletter-form form input { -webkit-appearance:none; -webkit-border-radius:0; border-radius:0; height:27px; line-height:27px; }
+}
+
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 568px) { 
+	#header #search input { -webkit-appearance:none; -webkit-border-radius:0; border-radius:0; height:36px; line-height:36px; }
+	#socialBar #newsletter-form form input { -webkit-appearance:none; -webkit-border-radius:0; border-radius:0; height:27px; line-height:27px; }
+}
+
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px)  {
+	#header #search input { -webkit-appearance:none; -webkit-border-radius:0; border-radius:0; height:36px; line-height:36px; }
+	#socialBar #newsletter-form form input { -webkit-appearance:none; -webkit-border-radius:0; height:27px; line-height:27px; }
+}
