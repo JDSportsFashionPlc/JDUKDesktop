@@ -244,7 +244,7 @@ jQuery(function($) {
         $('ul#newLinks').remove();
         $(".lastItem").remove('');
         $("ul#tertiaryNavigation").prepend('<li><a manual_cm_re="Global-_-Header-_-WheresMyOrder" href="/page/tracking" style="text-transform:none">Where is my order?</a></li>');
-        $("ul#tertiaryNavigation").append('<li class=""><a onclick="openWin(\'/lib/cs/home.html\')" href="#" manual_cm_re="Global-_-Header-_-Customer-Service">Customer Service</a></li><li class="lastItem"><a onclick="openWin(\'/lib/cs/faqs.html?iframeURL=Privacy and Security\')" href="#" manual_cm_re="Global-_-Header-_-Cookies">Cookies</a></li>');
+        $("ul#tertiaryNavigation").append('<li class=""><a onclick="openWin(\'http://www.jdsports.co.uk/lib/cs/home.html\')" href="#" manual_cm_re="Global-_-Header-_-Customer-Service">Customer Service</a></li><li class="lastItem"><a onclick="openWin(\'http://www.jdsports.co.uk/lib/cs/faqs.html?iframeURL=Privacy and Security\')" href="#" manual_cm_re="Global-_-Header-_-Cookies">Cookies</a></li>');
         $('#primaryNavigation > li').eq(0).remove();
         $('#primaryNavigation').append('<li style="float:right;margin-right:0"><span><a manual_cm_re="Global-_-Header-_-Tabs-TurnStyle" href="http://www.turnstyle.co.uk/" target="_blank">Blog</a></span></li>');
         $('#primaryNavigation > li:first-child').addClass('first');
@@ -497,11 +497,11 @@ jQuery(function($) {
         jQuery('#infoSizingLink,.infoSizingLink2').attr('href', '#');
 
         jQuery("#infoSizingLink").click(function() {
-            openWin('/lib/cs/size-guides.html');
+            openWin('http://www.jdsports.co.uk/lib/cs/size-guides.html');
             return false;
         });
         jQuery("#infoSizingLink2").click(function() {
-            openWin('/lib/cs/size-guides.html');
+            openWin('http://www.jdsports.co.uk/lib/cs/size-guides.html');
             return false;
         });
 
