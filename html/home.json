@@ -8,138 +8,153 @@
 			"TopXmasGifts": [
 				{
                     "id": 0,
-                    "picplu": "073574",
-					"brand":"Nike",
-					"product":"Air Max 90",
-					"product1":"",
+                    "picplu": "105850",
+					"prodlink": "http://www.jdsports.co.uk/product/the-north-face-pamir-windstopper-e-tip-gloves/105850/",
+					"brand":"The North Face",
+					"product":"Pamir Windstopper",
+					"product1":"E-Tip Gloves",
 					"wasprice":"",
-					"currentprice":"95.00"
+					"currentprice":"45"
                 },
 				{
                     "id": 1,
-                    "picplu": "143079",
-					"brand":"adidas",
-					"product":"Condivo Training Pants",
+                    "picplu": "031746",
+					"prodlink": "http://www.jdsports.co.uk/product/jordan-jumpman-air-cap/031746/",
+					"brand":"Jordan",
+					"product":"Jumpman Air Cap",
 					"product1":"",					
 					"wasprice":"",
-					"currentprice":"35.00"
+					"currentprice":"30"
                 },
 				{
                     "id": 2,
-                    "picplu": "074814",
-					"brand":"Nike",
-					"product":"Air Max 95",
+                    "picplu": "078386",
+					"prodlink": "http://www.jdsports.co.uk/product/duffer-of-st-george-pinewood-backpack/078386/",
+					"brand":"Duffer of St George",
+					"product":"Pinewood Backpack",
 					"product1":"",					
 					"wasprice":"",
-					"currentprice":"115.00"
+					"currentprice":"25"
 				},
 				{
                     "id": 3,
-                    "picplu": "158179",
-					"brand":"Hype",
-					"product":"Slim Jogging Pants ",
-					"product1":"Junior",					
+                    "picplu": "027902",
+					"prodlink": "http://www.jdsports.co.uk/product/duffer-of-st-george-pinewood-backpack/078386/",
+					"brand":"Nike",
+					"product":"Heritage Small",
+					"product1":"Items Bag",					
 					"wasprice":"",
-					"currentprice":"25.00"
+					"currentprice":"20"
                 },
 				{
                     "id": 4,
-                    "picplu": "091075",
-					"brand":"Nike",
-					"product":"Air Huarache",
+                    "picplu": "155007",
+					"prodlink": "http://www.jdsports.co.uk/product/adidas-stellasport-tote-bag/155007/",
+					"brand":"adidas",
+					"product":"Stellasport Tote Bag",
 					"product1":"",										
 					"wasprice":"",
-					"currentprice":"90.00"
+					"currentprice":"37"
                 },
 				{
                     "id": 5,
-                    "picplu": "121637",
-					"brand":"Converse",
-					"product":"Chuck Patch Hoody",
-					"product1":"",										
-					"wasprice":"50",
-					"currentprice":"45.00"
+                    "picplu": "149398",
+					"prodlink": "http://www.jdsports.co.uk/product/duffer-of-st-george-robertson-2-bobble-hat/149398/",
+					"brand":"Duffer of St George",
+					"product":"Robertson 2",
+					"product1":"Bobble Hat",										
+					"wasprice":"",
+					"currentprice":"15"
                 },
 				{
                     "id": 6,
-                    "picplu": "027536",
-					"brand":"Nike",
-					"product":"Air Force 1 Lo Junior",
+                    "picplu": "155008",
+					"prodlink": "http://www.jdsports.co.uk/product/adidas-stellasport-backpack/155008/",
+					"brand":"adidas",
+					"product":"StellaSport Backpack",
 					"product1":"",										
 					"wasprice":"",
-					"currentprice":"50.00"
+					"currentprice":"37"
                 },
 				{
                     "id": 7,
-                    "picplu": "094678",
-					"brand":"Converse",
-					"product":"Chuck Patch Hoody",
-					"product1":"",										
+                    "picplu": "136241",
+					"prodlink": "http://www.jdsports.co.uk/product/adidas-originals-classic-small-items-bag/136241/",
+					"brand":"adidas Originals",
+					"product":"Classic Small",
+					"product1":"Items Bag",										
 					"wasprice":"",
-					"currentprice":"90.00"
+					"currentprice":"20"
                 },
 				{
                     "id": 8,
-                    "picplu": "121654",
-					"brand":"Converse",
-					"product":"Chuck Fleece Pants",
-					"product1":"",										
-					"wasprice":"35",
-					"currentprice":"25.00"
+                    "picplu": "156071",
+					"prodlink": "http://www.jdsports.co.uk/product/mckenzie-seddon-2-pack-boxers/156071/",
+					"brand":"McKenzie",
+					"product":"Seddon 2 Pack",
+					"product1":"Boxers",						 				
+					"wasprice":"",
+					"currentprice":"15"
                 },
 				{
                     "id": 9,
-                    "picplu": "119936",
-					"brand":"Nike",
-					"product":"Air Max 90",
-					"product1":"",										
+                    "picplu": "149394",
+					"prodlink": "http://www.jdsports.co.uk/product/duffer-of-st-george-robertson-2-bobble-hat/149394/",
+					"brand":"Duffer of St George",
+					"product":"Robertson 2",
+					"product1":"Bobble Hat",										
 					"wasprice":"",
-					"currentprice":"95.00"
+					"currentprice":"15"
                 },
 				{
                     "id": 10,
-                    "picplu": "158180",
-					"brand":"Hype",
-					"product":"Slim Jogging Pants",
-					"product1":"Junior",										
+                    "picplu": "136225",
+					"prodlink": "http://www.jdsports.co.uk/product/adidas-originals-classic-adi-airliner/136225/",
+					"brand":"adidas Originals",
+					"product":"Classic Adi Airliner",
+					"product1":"",										
 					"wasprice":"",
-					"currentprice":"25.00"
+					"currentprice":"35"
                 },
 				{
                     "id": 11,
-                    "picplu": "091489",
-					"brand":"Nike",
-					"product":"Air Max Thea",
-					"product1":"",															
+                    "picplu": "076602",
+					"prodlink": "http://www.jdsports.co.uk/product/brookhaven-ben-sunglasses/076602/",
+					"brand":"Brookhaven",
+					"product":"Ben Sunglasses",
+					"product1":"",										
 					"wasprice":"",
-					"currentprice":"85.00"
+					"currentprice":"15"
                 },
 				{
                     "id": 12,
-                    "picplu": "064468",
+                    "picplu": "018086",
+					"prodlink": "http://www.jdsports.co.uk/product/nike-brasilia-6-medium-duffel-bag/018086/",
 					"brand":"Nike",
-					"product":"Tech Fleece Pants",
-					"product1":"",															
+					"product":"Brasilia 6 Medium",
+					"product1":"Duffel Bag",										
 					"wasprice":"",
-					"currentprice":"55.00"
+					"currentprice":"25"
                 },
 				{
                     "id": 13,
-                    "picplu": "022948",
+                    "picplu": "031843",
+					"prodlink": "http://www.jdsports.co.uk/product/nike-limitless-snapback-cap/031843/",
 					"brand":"Nike",
-					"product":"Air Max 90 Junior",
-					"product1":"",															
+					"product":"Limitless Snapback",
+					"product1":"Cap",										
 					"wasprice":"",
-					"currentprice":"60.00"
+					"currentprice":"20"
                 },
 				{
                     "id": 14,
-                    "picplu": "094692",
-					"brand":"Converse",
-					"product":"Chuck Patch Pants",
-					"product1":"",															
+                    "picplu": "002704",
+					"prodlink": "http://www.jdsports.co.uk/product/nike-side-swoosh-cap/002704/",
+					"brand":"Nike",
+					"product":"Side Swoosh Cap",
+					"product1":"",										
 					"wasprice":"",
-					"currentprice":"35.00"
+					"currentprice":"12"
                 }
             ]
         }

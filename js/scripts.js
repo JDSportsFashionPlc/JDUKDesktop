@@ -244,9 +244,9 @@ jQuery(function($) {
         $('ul#newLinks').remove();
         $(".lastItem").remove('');
         $("ul#tertiaryNavigation").prepend('<li><a manual_cm_re="Global-_-Header-_-WheresMyOrder" href="/page/tracking" style="text-transform:none">Where is my order?</a></li>');
-        $("ul#tertiaryNavigation").append('<li class=""><a onclick="openWin(\'/lib/cs/home.html\')" href="#" manual_cm_re="Global-_-Header-_-Customer-Service">Customer Service</a></li><li class="lastItem"><a onclick="openWin(\'/lib/cs/faqs.html?iframeURL=Privacy and Security\')" href="#" manual_cm_re="Global-_-Header-_-Cookies">Cookies</a></li>');
+        $("ul#tertiaryNavigation").append('<li class=""><a onclick="openWin(\'http://www.jdsports.co.uk/lib/cs/home.html\')" href="#" manual_cm_re="Global-_-Header-_-Customer-Service">Customer Service</a></li><li class="lastItem"><a onclick="openWin(\'http://www.jdsports.co.uk/lib/cs/faqs.html?iframeURL=Privacy and Security\')" href="#" manual_cm_re="Global-_-Header-_-Cookies">Cookies</a></li>');
         $('#primaryNavigation > li').eq(0).remove();
-        $('#primaryNavigation').append('<li style="float:right;margin-right:0"><span><a manual_cm_re="Global-_-Header-_-Tabs-TurnStyle" href="http://www.turnstyle.co.uk/" target="_blank">TU&#1071;NSTYLE+</a></span></li>');
+        $('#primaryNavigation').append('<li style="float:right;margin-right:0"><span><a manual_cm_re="Global-_-Header-_-Tabs-TurnStyle" href="http://www.turnstyle.co.uk/" target="_blank">Blog</a></span></li>');
         $('#primaryNavigation > li:first-child').addClass('first');
         $('#primaryNavigation > li:nth-child(3)').after($('#footballLinks').html()).css('display', 'none');
         $('#primaryNavigation > li:nth-child(4)').after($('#sportsLinks').html()).css('display', 'block');
@@ -497,11 +497,11 @@ jQuery(function($) {
         jQuery('#infoSizingLink,.infoSizingLink2').attr('href', '#');
 
         jQuery("#infoSizingLink").click(function() {
-            openWin('/lib/cs/size-guides.html');
+            openWin('http://www.jdsports.co.uk/lib/cs/size-guides.html');
             return false;
         });
         jQuery("#infoSizingLink2").click(function() {
-            openWin('/lib/cs/size-guides.html');
+            openWin('http://www.jdsports.co.uk/lib/cs/size-guides.html');
             return false;
         });
 
@@ -702,7 +702,7 @@ if (urlPageForTwitterTrack == '/page/nike-crosstown-running/' || urlPageForTwitt
 // == https://basecamp.com/1872932/projects/6311741/todos/141471688
 // == https://basecamp.com/1872932/projects/6311741/todos/141471621
 
-jQuery('ul#footballMenuItems').append('<li style="clear:both;display:none" class="BannerToToggleGloballyManUnited"><a href="http://www.jdsports.co.uk/featured/manchester+united" manual_cm_re="Global-_-Header-_-dd-BigBanner-ManU" style="padding-left:25px"><img src="/images/library/2014/08.12.2014/man-utd.jpg"/></a></li>');
+jQuery('ul#footballMenuItems').append('<li style="clear:both;display:none" class="BannerToToggleGloballyManUnited"><a href="http://www.jdsports.co.uk/featured/manchester+united"   manual_cm_re="Global-_-Header-_-dd-BigBanner-ManU" style="padding-left:25px"><img src="/images/library/2014/08.12.2014/man-utd.jpg"/></a></li>');
 jQuery('ul#menMenuItems').append('<li style="clear:both;display:none" class="BannerToToggleGloballyGeneric"><a href="/men/brand/brookhaven/" manual_cm_re="Global-_-Header-_-dd-BigBanner-brookhaven" style="padding-left:25px"><img src="/images/library/2014/08.12.2014/mens.jpg"/></a></li>');
 jQuery('ul#womenMenuItems').append('<li style="clear:both;display:none" class="BannerToToggleGloballyGeneric"><a href="/women/brand/brookhaven/" manual_cm_re="Global-_-Header-_-dd-BigBanner-brookhaven"  style="padding-left:25px"><img src="/images/library/2014/15.12.2014/women_top_nav_hover.jpg"/></a></li>');
 jQuery('ul#kidsMenuItems').append('<li style="clear:both;display:none" class="BannerToToggleGloballyGeneric"><a href="/kids/brand/nike/" manual_cm_re="Global-_-Header-_-dd-BigBanner-kids-nike" style="padding-left:25px"><img src="/images/library/2014/08.12.2014/kids.jpg"/></a></li>');
