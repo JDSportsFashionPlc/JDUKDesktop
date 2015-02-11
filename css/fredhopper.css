@@ -7,7 +7,7 @@
 	* #FredHopper
 	* --- --- --- --- ---
 
-	Last modified:6th Jan 2015 - Khaleel Mughal 
+	Last modified:10th Feb 2015 - Timi Abel
 	- Code compression and indent
 	- Removed empty and bloated code
 	Created :12th November 2014
@@ -538,3 +538,17 @@ div.myAccount .darkGreyBlock h2{left:0;margin-left:0;border:none}
 #sendButton img:hover{-moz-opacity:.7;-webkit-opacity:.7;-o-opacity:.7;opacity:.7;}
 .myAccountLogin .newAccount input, .myAccount input{display:inline-block;vertical-align:middle;width:auto;zoom:1;margin:10px 0 0 0;border:none;font-size:1em;padding:5px 0;text-indent:5px;-moz-border-radius:0;-webkit-border-radius:0;border-radius:0;background:#fff;-moz-box-shadow:inset 0 0 6px #ccc;-webkit-box-shadow:none;box-shadow:none;-moz-box-sizing:border-box;-webkit-box-sizing:border-box;box-sizing:border-box;clear:none;float:left;width:269px;height:33px}
 #quickViewThumbs img{border:1px solid #ccc;margin-right:3px}
+
+/*
+===
+WHITE TEXT GENERIC IMAGE GOLD WITH LINKS SEO AND LINKS
+TWO LINKS ONLY!!!
+===
+*/
+
+.generic_image_with_links66a{position:relative;width:768px;height:200px;background:#eee;margin-bottom:15px}
+.generic_image_with_links66a h2{font-family:'Gotham A', 'Gotham B', sans-serif !important;font-size:31px;font-weight:700;top:-8px;left:30px;text-transform:uppercase;color:#2e2e2e;position:absolute}
+.generic_image_with_links66a #plpBannerText p{font-family:Arial;font-size:11px;width:420px;top:40px;left:30px;text-transform:capitalize;color:#2e2e2e;position:absolute}
+div#plpBanner.generic_image_with_links66a div#plpBannerText a#plpBannerLink1{background:#2e2e2e;color:#ffffff;display:block;font-weight:bold;height:35px;line-height:35px;padding:0 1px;position:absolute;text-align:center;text-decoration:none;text-transform:uppercase;width:145px;top:145px;left:30px;font-family:"Gotham A", "Gotham B", sans-serif !important}
+div#plpBanner.generic_image_with_links66a div#plpBannerText a#plpBannerLink2{background:#2e2e2e;color:#ffffff;display:block;font-weight:bold;height:35px;line-height:35px;padding:0 1px;position:absolute;text-align:center;text-decoration:none;text-transform:uppercase;width:145px;top:145px;right:30px;font-family:"Gotham A", "Gotham B", sans-serif !important}
+
