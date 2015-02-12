@@ -442,7 +442,7 @@ GENERIC IMAGE GOLD WITH LINKS SEO AND LINKS
 
 .generic_image_with_links55{position:relative;width:768px;height:200px;background:#eee;margin-bottom:15px}
 .generic_image_with_links55 h2{font-family:'Gotham A', 'Gotham B', sans-serif !important;font-size:31px;font-weight:700;top:0;left:30px;text-transform:uppercase;color:#fff;position:absolute}
-.generic_image_with_links55 #plpBannerText p{font-family:Arial;font-size:11px;width:535px;top:55px;left:30px;text-transform:capitalize;color:#ffffff;position:absolute}
+.generic_image_with_links55 #plpBannerText p{font-family:Arial;font-size:11px;width:535px;top:55px;left:30px;text-transform:none;color:#ffffff;position:absolute}
 div#plpBanner.generic_image_with_links55 div#plpBannerText a#plpBannerLink1{background:#fff;color:#2e2e2e;display:block;font-weight:bold;height:35px;line-height:35px;padding:0 1px;position:absolute;text-align:center;text-decoration:none;text-transform:uppercase;width:145px;top:145px;left:30px;font-family:"Gotham A", "Gotham B", sans-serif !important}
 div#plpBanner.generic_image_with_links55 div#plpBannerText a#plpBannerLink2{background:#fff;color:#2e2e2e;display:block;font-weight:bold;height:35px;line-height:35px;padding:0 1px;position:absolute;text-align:center;text-decoration:none;text-transform:uppercase;width:145px;top:145px;left:199px;font-family:"Gotham A", "Gotham B", sans-serif !important}
 div#plpBanner.generic_image_with_links55 div#plpBannerText a#plpBannerLink3{background:#fff;color:#2e2e2e;display:block;font-weight:bold;height:35px;line-height:35px;padding:0 1px;position:absolute;text-align:center;text-decoration:none;text-transform:uppercase;width:145px;top:145px;left:369px;font-family:"Gotham A", "Gotham B", sans-serif !important}
@@ -551,4 +551,32 @@ TWO LINKS ONLY!!!
 .generic_image_with_links66a #plpBannerText p{font-family:Arial;font-size:11px;width:420px;top:40px;left:30px;text-transform:capitalize;color:#2e2e2e;position:absolute}
 div#plpBanner.generic_image_with_links66a div#plpBannerText a#plpBannerLink1{background:#2e2e2e;color:#ffffff;display:block;font-weight:bold;height:35px;line-height:35px;padding:0 1px;position:absolute;text-align:center;text-decoration:none;text-transform:uppercase;width:145px;top:145px;left:30px;font-family:"Gotham A", "Gotham B", sans-serif !important}
 div#plpBanner.generic_image_with_links66a div#plpBannerText a#plpBannerLink2{background:#2e2e2e;color:#ffffff;display:block;font-weight:bold;height:35px;line-height:35px;padding:0 1px;position:absolute;text-align:center;text-decoration:none;text-transform:uppercase;width:145px;top:145px;right:30px;font-family:"Gotham A", "Gotham B", sans-serif !important}
+
+
+
+
+/*
+===
+BLACK AND YELLOW 
+LIGHT OFFER BANNERS
+===
+*/
+
+.black_yellow_offer_banners{position:relative;width:768px;height:400px;background:#868485;margin-bottom:15px}
+.black_yellow_offer_banners h2{font-family:'Gotham A', 'Gotham B', sans-serif !important;font-size:61px;letter-spacing:-4.5px;font-weight:700;text-transform:uppercase;color:#fcd6af;text-align:center;display:none}
+.black_yellow_offer_banners #plpBannerText p, .black_yellow_offer_banners img{display:block}
+
+div#plpBanner.black_yellow_offer_banners div#plpBannerText a#plpBannerLink1{display:block;font-weight:bold;height:101px;line-height:22px;padding:0 1px;position:absolute;text-align:center;text-decoration:none;text-transform:uppercase;width:230px;top:95px;left:30px;font-size:25px;letter-spacing:-2.5px;padding-top:33px;text-indent:-90000px}
+div#plpBanner.black_yellow_offer_banners div#plpBannerText a#plpBannerLink2{color:#868485;display:block;font-weight:bold;height:101px;line-height:22px;padding:0 1px;position:absolute;text-align:center;text-decoration:none;text-transform:uppercase;width:230px;top:95px;left:272px;font-size:25px;letter-spacing:-2.5px;padding-top:33px;text-indent:-90000px}
+div#plpBanner.black_yellow_offer_banners div#plpBannerText a#plpBannerLink3{display:block;font-weight:bold;height:101px;line-height:22px;padding:0 1px;position:absolute;text-align:center;text-decoration:none;text-transform:uppercase;width:230px;top:95px;left:514px;font-size:25px;letter-spacing:-2.5px;padding-top:33px;text-indent:-90000px}
+
+
+div#plpBanner.black_yellow_offer_banners div#plpBannerText a#plpBannerLink4{display:block;font-weight:bold;height:93px;line-height:22px;padding:0 1px;position:absolute;text-align:center;text-decoration:none;text-transform:uppercase;width:230px;bottom:29px;left:27px;font-size:25px;letter-spacing:-2.5px;padding-top:33px;text-indent:-90000px}
+div#plpBanner.black_yellow_offer_banners div#plpBannerText a#plpBannerLink5{display:block;font-weight:bold;height:93px;line-height:22px;padding:0 1px;position:absolute;text-align:center;text-decoration:none;text-transform:uppercase;width:230px;bottom:29px;left:269px;font-size:25px;letter-spacing:-2.5px;padding-top:33px;text-indent:-90000px}
+div#plpBanner.black_yellow_offer_banners div#plpBannerText a#plpBannerLink6{display:block;font-weight:bold;height:93px;line-height:22px;padding:0 1px;position:absolute;text-align:center;text-decoration:none;text-transform:uppercase;width:230px;bottom:29px;left:511px;font-size:25px;letter-spacing:-2.5px;padding-top:33px;text-indent:-90000px}
+
+
+
+
+
 
