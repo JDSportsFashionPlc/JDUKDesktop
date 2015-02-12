@@ -8,6 +8,9 @@
 *.class
 *.dll
 *.exe
+sftp-config.json
+/sftp-config.json
+*sftp-config.json
 *.o
 *.so
 
