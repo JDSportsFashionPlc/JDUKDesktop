@@ -84,16 +84,20 @@ END STYLES FOR SLIDER
 
 .line-break {width:930px;height:2px;border-bottom:1px solid #000;display:block;margin:20px auto;}
 
-#feed-scroller {background:#fff;width:971px;height:auto;display:block;margin:0;padding-bottom:40px;}
+#feed-scroller {background:#fff;width:971px;height:190px;display:block;margin:0;padding-bottom:40px;}
 #feed-scroller h3 {color:#000;margin:0 auto 25px auto;font-size:30px;width:400px;display:block;text-align:center;}
-#feed-scroller #instafeed {width:945px;height:auto;display:block;position:relative;margin:0 0 0 13px;}
+#feed-scroller #instafeed {position:relative;margin:0 0 0 13px;}
 
-#instafeed .owl-item img {padding:0;width:100%}
+.CaroselSlideItem{width:150px !important}
+.bx-control{display:none !important}
+
+#instafeed .owl-item img {padding:0;width:100%;-webkit-filter: grayscale(100%);filter:grayscale(100%);-webkit-transition: all .6s ease;transition: all .6s ease;}
+#instafeed .owl-item img:hover {filter: grayscale(0%);-webkit-filter: grayscale(0%);filter: none;}
 #instafeed .owl-item {padding-right: 0;z-index:1;width:119px;}
 #instafeed .owl-item.active {margin-left: 0px;width:119px;}
 #instafeed .owl-controls {margin-top:0;}
-#instafeed .owl-prev {display: block !important;background: url(../imgs/carousel/arrow-left.png) !important;font-size: 0px !important;position: absolute;top: 70px;left:-5px;width:25px;height:43px;padding:0;}
-#instafeed .owl-next {display: block !important;background: url(../imgs/carousel/arrow-right.png) !important;font-size: 0px !important;position: absolute;top: 70px;right:-5px;width:25px;height:43px;padding:0;}
+#instafeed .owl-prev {display: block !important;background: url(../imgs/carousel/arrow-left.png) !important;font-size: 0px !important;position: absolute;top: 65px;left:-5px;width:25px;height:43px;padding:0;}
+#instafeed .owl-next {display: block !important;background: url(../imgs/carousel/arrow-right.png) !important;font-size: 0px !important;position: absolute;top: 65px;right:-5px;width:25px;height:43px;padding:0;}
 
 
 footer {width:971px;height:260px;position:relative;display:block;background:url(../imgs/footer-bg.jpg) top center no-repeat #000;}

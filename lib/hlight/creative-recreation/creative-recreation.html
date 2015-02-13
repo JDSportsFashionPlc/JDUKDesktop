@@ -37,7 +37,7 @@
             
             <ul id="nav">
             	<li class="navcat"><a href="http://www.jdsports.co.uk/featured/Creative%20Recreation%20-%20Mens%20Footwear?fredhopperUrl=fh_location=%2f%2fcatalog01%2fen_GB%2fbrand%3E%7bcreative20recreation%7d%2fcategories%3C%7bcatalog01_ct12201%7d%2fcategories%3C%7bcatalog01_ct12201_ct12207%7d">Shoes</a></li>                
-                <li class="navcat"><a href="#">Clothing</a></li>
+                <li class="navcat"><a href="http://www.jdsports.co.uk/featured/Creative%20Recreation%20-%20Mens%20Clothing?fredhopperUrl=fh_location=%2f%2fcatalog01%2fen_GB%2fbrand%3E%7bcreative20recreation%7d%2fcategories%3C%7bcatalog01_ct12201%7d%2fcategories%3C%7bcatalog01_ct12201_ct12206%7d ">Clothing</a></li>
             </ul>            
         </header>
         
@@ -51,7 +51,7 @@
                 <p>Inspired by the spirit of the street art - with its bold expressive and out of bounds thinking</p>
                 
                 <span class="cta"><a href="http://www.jdsports.co.uk/featured/Creative%20Recreation%20-%20Mens%20Clothing?fredhopperUrl=fh_location=%2f%2fcatalog01%2fen_GB%2fbrand%3E%7bcreative20recreation%7d%2fcategories%3C%7bcatalog01_ct12201%7d%2fcategories%3C%7bcatalog01_ct12201_ct12206%7d">Shop Now</a></span>
-                <span class="cta2"><a href="#" id="videolink">Video</a></span>
+                <span class="cta2"><a href="#video" id="videolink">Video</a></span>
             </div>
             
             <div id="slides">
@@ -71,10 +71,10 @@
         
         <section id="feed-scroller">
         	<h3>#CRLIFESTYLE</h3>   
-        	<div id="instafeed">          
-                       
-            </div>            
+        	<ul id="instafeed"></ul>
         </section>
+        
+        <div class="clear"></div>
         
         <section id="slider2">
         	<span class="overlay-top"><img src="/lib/hlight/creative-recreation/imgs/header_03.png" alt="" /></span>
@@ -93,19 +93,20 @@
             </div>
         </section>
         
-        <section id="video">
-        	<video width="971" height="546" onclick="this.play();" poster="/lib/hlight/creative-recreation/imgs/video-poster.png"  id="productVideo" class="cr-video">
-                <!--source type="video/webm" src=""></source-->
-                <source type="video/mp4" src="/lib/hlight/creative-recreation/assets/creative-recreation-video.mp4"></source>
+        <section id="video" name="video">
+        	<video width="971" height="546" onclick="this.play();" poster="/lib/hlight/creative-recreation/imgs/video-poster.png"  id="productVideo" class="cr-video" controls>
+                 <source type="video/mp4" src="http://i1.adis.ws/v/jpl/jd-creative-recreation-video/mp4_720p"></source>
+                  <source type="video/webm" src="http://i1.adis.ws/v/jpl/jd-creative-recreation-video/webm_720p"></source>                
             </video>
         </section>
         
         <footer>
         	<a href="#" class="cr-logo-footer"><img src="/lib/hlight/creative-recreation/imgs/cr-logo-small.png" alt="Creative Recreation logo" /></a>
-            
+            <!--
             <a href="#" class="twitter-footer"><img src="/lib/hlight/creative-recreation/imgs/footer-twitter.png" alt="Follow us on Twitter" /></a>
             <a href="#" class="instagram-footer"><img src="/lib/hlight/creative-recreation/imgs/footer-instagram.png" alt="Follow us on Instagram" /></a>
             <a href="#" class="facebook-footer"><img src="/lib/hlight/creative-recreation/imgs/footer-facebook.png" alt="Join us on Facebook" /></a>
+            -->
         </footer>
     
     </div><!-- end #inner-wrapper -->
@@ -160,14 +161,13 @@ jQuery(document).ready(function($) {
 <script>
 	jQuery.noConflict();
 	
-		function scrollToAnchor(aid){
-		var aTag = $("section[id='"+ aid +"']");
-		$('html,body').animate({scrollTop: aTag.offset().top},'slow');
-		}
-		
-		jQuery("#videolink").click(function() {
-		   scrollToAnchor('video');
+	jQuery(document).ready(function($) {
+ 
+	jQuery("#videolink").click(function(event){		
+		event.preventDefault();
+		$('html,body').animate({scrollTop:$(this.hash).offset().top}, 500);
 		});
+	});
 	
 	jQuery(function(){
       jQuery("#slides,#slides2").slidesjs({
@@ -188,8 +188,63 @@ jQuery(document).ready(function($) {
 		jQuery(this).toggleClass('hover');
 	});
 </script>
-
+<link rel="stylesheet" href="/lib/hlight/nike-crosstown-running/assets/js/jquery.bxslider/jquery.bxslider.css" type="text/css">
+<script src="/lib/hlight/nike-crosstown-running/assets/js/jquery.bxslider/jquery.bxslider.min.js"></script>
 <script>
+
+
+
+
+		
+// GET INSTAGRAM FEED 
+// Get feed from Instagram based on Hashtag and filter by user
+//
+
+var username = 'jdsportsofficial';
+var hashtag = 'crlifestyle';
+var clientId = '5a79ddf3fa4147ffbea3fc0e38b22014';
+var auth_token = ''; // not needed for most
+var instaHTML;
+var divId = '#instafeed';
+
+
+jQuery.ajax({
+    type: "GET",
+    dataType: "jsonp",
+    cache: false,
+    url: "https://api.instagram.com/v1/tags/" + hashtag + "/media/recent?client_id=" + clientId,
+    success: function (x) {
+        for (var i = 0; i < x.data.length && i < 25; i++) {
+            // GET THE PICTURE
+            // -- options are thumbnail and large - see object for more
+            var instaPicture = x.data[i].images.thumbnail.url;
+            if (x.data[i].user.username == username) {
+                instaHTML += "<li class='CaroselSlideItem'><img src='" + instaPicture + "'/></li>";
+            }
+            // INSERT THE GALLERY
+            jQuery(divId).html(instaHTML);
+        }
+		  var caroselSlider = 	jQuery('#instafeed').bxSlider({
+			slideWidth:250,
+			minSlides:2,
+			maxSlides:5,
+			moveSlides:5,
+			slideMargin:15,
+			touchEnabled:true
+		});
+    }
+});
+
+
+
+	
+		
+	
+
+		
+				
+		
+		
 	// RESETS VIDEO POSTER
 	jQuery(function($) {
             //var xpathname = window.location.pathname;
@@ -211,45 +266,8 @@ jQuery(document).ready(function($) {
 	jQuery(".cta,.cta2").hover(function(){
 		jQuery(this).toggleClass("effect");
 	});
-	
-	// ACTIVATES OWL CAROUSEL
-	jQuery("#instafeed").owlCarousel({
-		  
-		  navigation : true, // Show next and prev buttons
-		  slideSpeed : 100,
-		  //paginationSpeed : 50,
-		  singleItem:true,
-		  items: 8,
-		  loop:true,
-		  navRewind:false,
-		  nav: true,
-		  dots:false,
-		  	 
-	  });
-	
-	// ACTIVATES INSTAFEED  
-    // INSTAGRAM
-	// -- Get CROSSTOWNRUNNING tag with JDSportsOfficial
-	/*var feed = new Instafeed({
-		get: 'tagged',
-		tagName: 'crosstownrunning',
-		clientId: '6ed1a5eb8c7043e1b059caecbb4b4ab2',
-		template: '<div class="item"><a href="{{link}}"><img src="{{image}}" alt=""></a></div>',
-		limit:8,
-		resolution: 'thumbnail'
-	});
-	feed.run();*/
-	
-	
-	var feed = new Instafeed({
-		get: 'tagged',
-		tagName: 'CRLIFESTYLE',
-		clientId: '6ed1a5eb8c7043e1b059caecbb4b4ab2',
-		template: '<div class="item"><a href="{{link}}"><img src="{{image}}" alt=""></a></div>',
-		limit:8,
-		resolution: 'thumbnail'
-	});
-	feed.run();
-
-	
+	 
 </script>
+
+
+

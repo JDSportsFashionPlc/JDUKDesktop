@@ -565,17 +565,16 @@ LIGHT OFFER BANNERS
 .black_yellow_offer_banners{position:relative;width:768px;height:400px;background:#868485;margin-bottom:15px}
 .black_yellow_offer_banners h2{font-family:'Gotham A', 'Gotham B', sans-serif !important;font-size:61px;letter-spacing:-4.5px;font-weight:700;text-transform:uppercase;color:#fcd6af;text-align:center;display:none}
 .black_yellow_offer_banners #plpBannerText p, .black_yellow_offer_banners img{display:block}
-
 div#plpBanner.black_yellow_offer_banners div#plpBannerText a#plpBannerLink1{display:block;font-weight:bold;height:101px;line-height:22px;padding:0 1px;position:absolute;text-align:center;text-decoration:none;text-transform:uppercase;width:230px;top:95px;left:30px;font-size:25px;letter-spacing:-2.5px;padding-top:33px;text-indent:-90000px}
 div#plpBanner.black_yellow_offer_banners div#plpBannerText a#plpBannerLink2{color:#868485;display:block;font-weight:bold;height:101px;line-height:22px;padding:0 1px;position:absolute;text-align:center;text-decoration:none;text-transform:uppercase;width:230px;top:95px;left:272px;font-size:25px;letter-spacing:-2.5px;padding-top:33px;text-indent:-90000px}
 div#plpBanner.black_yellow_offer_banners div#plpBannerText a#plpBannerLink3{display:block;font-weight:bold;height:101px;line-height:22px;padding:0 1px;position:absolute;text-align:center;text-decoration:none;text-transform:uppercase;width:230px;top:95px;left:514px;font-size:25px;letter-spacing:-2.5px;padding-top:33px;text-indent:-90000px}
-
-
 div#plpBanner.black_yellow_offer_banners div#plpBannerText a#plpBannerLink4{display:block;font-weight:bold;height:93px;line-height:22px;padding:0 1px;position:absolute;text-align:center;text-decoration:none;text-transform:uppercase;width:230px;bottom:29px;left:27px;font-size:25px;letter-spacing:-2.5px;padding-top:33px;text-indent:-90000px}
 div#plpBanner.black_yellow_offer_banners div#plpBannerText a#plpBannerLink5{display:block;font-weight:bold;height:93px;line-height:22px;padding:0 1px;position:absolute;text-align:center;text-decoration:none;text-transform:uppercase;width:230px;bottom:29px;left:269px;font-size:25px;letter-spacing:-2.5px;padding-top:33px;text-indent:-90000px}
 div#plpBanner.black_yellow_offer_banners div#plpBannerText a#plpBannerLink6{display:block;font-weight:bold;height:93px;line-height:22px;padding:0 1px;position:absolute;text-align:center;text-decoration:none;text-transform:uppercase;width:230px;bottom:29px;left:511px;font-size:25px;letter-spacing:-2.5px;padding-top:33px;text-indent:-90000px}
-
-
+.creativebannersync{position:relative;width:768px;height:360px;background:#eee;margin-bottom:15px}
+.creativebannersync img,.creativebannersync_fh img,.supplydemand_brand img{display:block}
+.creativebannersync_fh{position:relative;width:768px;height:150px;background:#eee;margin-bottom:15px}
+.supplydemand_brand{position:relative;width:768px;height:200px;background:#eee;margin-bottom:15px}
 
 
 
