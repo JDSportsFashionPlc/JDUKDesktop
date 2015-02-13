@@ -42,7 +42,7 @@
 				
 					var instaPicture = x.data[i].images.thumbnail.url;
 					if (x.data[i].user.username == username) {
-						instaHTML += "<"+instaListType+" class='CaroselSlideItem'><img src='" + instaPicture + "'/></"+instaListType+">";
+						instaHTML += "<"+instaList+" class='CaroselSlideItem'><img src='" + instaPicture + "'/></"+instaList+">";
 					}
 				
 				// INSERT THE GALLERY
