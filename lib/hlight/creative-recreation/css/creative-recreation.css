@@ -89,7 +89,7 @@ END STYLES FOR SLIDER
 #feed-scroller #instafeed {position:relative;margin:0 0 0 13px;}
 
 .CaroselSlideItem{width:150px !important}
-.bx-control{display:none !important}
+.bx-wrapper .bx-pager{display:none !important}
 
 #instafeed .owl-item img {padding:0;width:100%;-webkit-filter: grayscale(100%);filter:grayscale(100%);-webkit-transition: all .6s ease;transition: all .6s ease;}
 #instafeed .owl-item img:hover {filter: grayscale(0%);-webkit-filter: grayscale(0%);filter: none;}
