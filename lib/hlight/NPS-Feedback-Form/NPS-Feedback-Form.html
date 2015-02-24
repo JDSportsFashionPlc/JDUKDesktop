@@ -1,8 +1,9 @@
 <style type="text/css">
-	#email_address{width:940px;height:30px;margin-bottom:20px;font-size:15px;line-height:15px}
-	#feedback_data{width:940px;height:200px;margin-bottom:20px;font-size:15px}
+	#FormEmail{width:940px;height:30px;margin-bottom:20px;font-size:15px;line-height:15px}
+	#FormFeedback{width:940px;height:200px;margin-bottom:20px;font-size:15px}
 	#submit{font-size:14px;color:#2183C7;padding:10px 20px;background:#C7E0F1;-moz-border-radius:5px;-webkit-border-radius:5px;border-radius:5px;border:0}
 	.errorformapps{border:3px solid #E90003 !important;color:#E90003 !important}
+	.xhidden{height:1px;width:1px;position:absolute;left:-9000px}
 </style>
 <script type="text/javascript" src="/js/jquery.js"></script>
 <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.5.3/jquery-ui.min.js" ></script>
@@ -20,11 +21,11 @@
    <!--
    Just clone the PHP found in blog.jdsports.co.uk/apps/nps-form.php
    -->
-   <form method="post" id="feedbackSubmitFormNPS" action="http://blog.jdsports.co.uk/apps/nps-form.php" onsubmit="return submitFeedbackForm();return false">
-      <input type="text" id="email_address" value="Please enter your email address">
-      <input type="hidden" id="pageURL" value="/page/NPS-Feedback-Form/">
-      <input type="hidden" id="campaignName" value="NPS">
-      <textarea type="text" id="feedback_data"></textarea>
+   <form method="post" id="feedbackSubmitFormNPS" name="feedbackSubmitFormNPS" action="http://blog.jdsports.co.uk/apps/feedback-form.php" onsubmit="return submitFeedbackForm();return false">
+      <input type="text" id="FormEmail" name="FormEmail" value="Please enter your email address" onfocus="if (this.value=='Please enter your email address') { this.value='';}" onblur="if (this.value=='') {this.value='Please enter your email address';}">
+      <input type="text" class="xhidden" id="siteURL" name="siteURL" value="http://www.jdsports.co.uk/page/NPS-Feedback-Form/">
+      <input type="text" class="xhidden" id="FormCampaign" name="FormCampaign" value="NPS">
+      <textarea type="text" id="FormFeedback" name="FormFeedback"></textarea>
       <a href="#" onClick="javascript:submitFeedbackForm();return false" id="submit">Tell us what you think</a>
    </form>
    <br />
@@ -41,29 +42,29 @@ function submitFeedbackForm() {
 	
 	// EMAIL ADDRESS
 		if (
-		jQuery('#email_address').val() == "" ||
-		jQuery('#email_address').val() == "name@name.com" ||
-		jQuery('#email_address').val() == "Please enter your email address" ||
-		jQuery('#email_address').val() == " " ||
-		!isValidEmailAddress(jQuery('#email_address').val())
+		jQuery('#FormEmail').val() == "" ||
+		jQuery('#FormEmail').val() == "name@name.com" ||
+		jQuery('#FormEmail').val() == "Please enter your email address" ||
+		jQuery('#FormEmail').val() == " " ||
+		!isValidEmailAddress(jQuery('#FormEmail').val())
 		) {
 			flag = 1;
-			jQuery('#email_address').addClass("errorformapps");
+			jQuery('#FormEmail').addClass("errorformapps");
 		} else {
-			jQuery('#email_address').removeClass("errorformapps");
+			jQuery('#FormEmail').removeClass("errorformapps");
 		}
 	
 	// FEEDBACK FORM	
 		if (
-		jQuery('#feedback_data').val() == "" ||
-		jQuery('#feedback_data').val() == " " ||
-		jQuery('#feedback_data').val() == "test" ||
-		jQuery('#feedback_data').val() == "."
+		jQuery('#FormFeedback').val() == "" ||
+		jQuery('#FormFeedback').val() == " " ||
+		jQuery('#FormFeedback').val() == "test" ||
+		jQuery('#FormFeedback').val() == "."
 		) {
 			flag = 1;
-			jQuery('#feedback_data').addClass("errorformapps");
+			jQuery('#FormFeedback').addClass("errorformapps");
 		} else {
-			jQuery('#feedback_data').removeClass("errorformapps");
+			jQuery('#FormFeedback').removeClass("errorformapps");
 		}
 		
 	// PREVENT JUMPS AND SUBMIT FORM
