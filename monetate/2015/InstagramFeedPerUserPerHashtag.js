@@ -16,9 +16,9 @@
 
 	// VARS
 
-	var apiURL 		= 'https://api.instagram.com/v1/tags/';
+	var apiURL 	= 'https://api.instagram.com/v1/tags/';
 	var username 	= 'jdsportsofficial';
-	var hashtag 		= 'crlifestyle';
+	var hashtag 	= 'crlifestyle';
 	var clientId 	= '5a79ddf3fa4147ffbea3fc0e38b22014';
 	var auth_token	= ''; // not needed for most
 	var instaList	= 'li'; // li, div, p etc
