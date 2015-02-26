@@ -1,0 +1,89 @@
+
+
+
+
+
+
+.bg-white{background:none}
+
+/* CSS Document */
+
+/* Group - Allows floated children without overflow:hidden */
+.group:before, .group:after {content: " "; display: table;} 
+.group:after {clear: both;}
+.group {zoom: 1;}
+
+/* Global */
+#page {background:  #d9d9d9}
+#Wrapper {margin: 5px 0 0 0;}
+
+/* Navigation */
+.navigation {background: #9b8865; text-align:center; float: left;  height: 374px; margin: 0 30px 30px 0; padding: 28px; width: 125px;}
+.navigation h1 {background: url('/lib/hlight/lacoste/images/logo-lacoste.png') 0 0 no-repeat; height: 61px; margin: 0 0 20px 0; text-indent: -9999px; width: 125px;}
+.navigation .links {}
+.navigation .links .link {border-top: 1px solid #FFF; margin: 0 0 10px 0; padding: 15px 0 0 0;}
+.navigation .links .link > a {color: #FFF; display: block; font-size: 15px; font-weight: bold; text-decoration: none; text-transform: uppercase; -webkit-transition: all 180ms ease-out; transition: all 180ms ease-out;}
+.navigation .links .link > a:hover, .navigation .links .link > a:active {color: #fff; text-decoration:underline}
+.navigation .links .link > a.highlight {color: #F50A0A;}
+.navigation .links .link > a.highlight:hover, .navigation .links .link > a.highlight:active {color: #fff; text-decoration:underline}
+.navigation .links .link .sub-link {margin: 7px 0 0 0;}
+.navigation .links .link .sub-link > a {color: #FFF; display: block; font-size: 12px; text-decoration: none; -webkit-transition: all 180ms ease-out; transition: all 180ms ease-out;}
+.navigation .links .link .sub-link > a:hover, .navigation .links .link .sub-link > a:active {color: #fff; text-decoration:underline}
+
+/* Video */ 
+.video {float: left; height: 430px; margin: 0 0 30px 0; position: relative; width: 765px;}
+.video a {display: block; height: 100%; position: absolute; top: 0; left;}
+.video a .icon {display: block; height: 130px; margin: -65px 0 0 -65px; width: 130px; position: absolute; top: 50%; left: 50%}
+.video a img {-webkit-transition: all 180ms ease-out; transition: all 180ms ease-out;}
+.video a:hover img, .video a:active img {opacity: 0.6; filter: alpha(opacity =60);}
+.video .video-container {display: none; position: absolute; top: 0; left: 0;}
+
+/* Shop Options */
+
+
+
+
+.shop-options .option a img {position: absolute;  -moz-transform-origin: center; -webkit-transform-origin: center; transform-origin: center; -webkit-transition: all 180ms ease-out; transition: all 180ms ease-out; -webkit-perspective: 1000; -webkit-backface-visibility: hidden; }
+
+
+
+.shop-options .option a:hover img, .shop-options .option a:active img {-moz-transform: scale(0.9); -webkit-transform: scale(0.9); transform scale(0.9); -webkit-filter: blur(2px);}
+.shop-options .option a .shop-now {background: url('/lib/hlight/lacoste/images/icon-arrow.png') 106px 16px no-repeat #C9E0F0; color: #FFF; display: block; font-family: "Ropa Sans", Helvetica, Arial, sans-serif; height: 52px; font-size: 17px; font-weight: bold; line-height: 54px; margin: 0; padding: 0 0 0 10px; text-decoration: none; text-transform: uppercase; width: 126px; position: absolute; left: 0; bottom: 20px; z-index: 5; -webkit-transition: all 180ms ease-out; transition: all 180ms ease-out;}
+.shop-options .option a:hover .shop-now, .shop-options .option a:active .shop-now {background-color: #6FABDA;}
+.shop-options .option a h2 {background: #448CC7; background: rgba(68, 140, 199, 0.5); color: #FFF; font-family: "Ropa Sans", Helvetica, Arial, sans-serif; font-size: 25px; font-weight: bold; height: 52px; line-height: 54px; text-decoration: none; width: 100%; padding: 0 0 0 160px; position: absolute; left: 0; bottom: 20px; -webkit-transition: all 180ms ease-out; transition: all 180ms ease-out;}
+.shop-options .option-wide a h2 {padding: 0 0 0 195px;}
+.shop-options .option a:hover h2, .shop-options .option a:active h2 {}
+
+/* Banners */
+.banners {margin: 0 0 30px 0;}
+.banners .banner {float: left; height: 430px; overflow: hidden; margin: 0 30px 0 0; width: 393px;}
+.banners .banner-wide {width: 551px;}
+.banners .banner-end {border: 1px solid #CFD0D0; border-radius: 6px; margin-right: 0;}
+.banners .banner a {display: block; height: 430px; overflow: hidden; position: relative; text-decoration: none;}
+.banners .banner a .shop-now {background: url('/lib/hlight/lacoste/images/icon-arrow.png') 106px 16px no-repeat #C9E0F0; background-color: rgba(255, 255, 255, 0.5); color: #FFF; display: block; font-family: "Ropa Sans", Helvetica, Arial, sans-serif; height: 52px; font-size: 17px; font-weight: bold; line-height: 54px; margin: 0; padding: 0 0 0 10px; text-decoration: none; text-transform: uppercase; width: 126px; position: absolute; left: 0; bottom: 20px; z-index: 5; -webkit-transition: all 180ms ease-out; transition: all 180ms ease-out;}
+.banners .banner a:hover .shop-now, .shop-options .option a:active .shop-now {background-color: #6FABDA;}
+.banners .banner a h2 {background: #448CC7; background: rgba(68, 140, 199, 0.5); color: #FFF; font-family: "Ropa Sans", Helvetica, Arial, sans-serif; font-size: 25px; font-weight: bold; height: 52px; line-height: 54px; text-decoration: none; width: 100%; padding: 0 0 0 160px; position: absolute; left: 0; bottom: 20px; -webkit-transition: all 180ms ease-out; transition: all 180ms ease-out;}
+
+/* Competition */
+.competition {float: left; margin: 0 0 25px 0;}
+
+/* Dumon Comp */
+.competition-dumont{ background: url('/lib/hlight/lacoste/images/lacoste-competition-panel.jpg') no-repeat 0 0; clear: both; width: 976px; height: 330px; position: relative; margin: 0 0 25px 0; }
+.competition-dumont form#lacosteComp{ position: absolute; width: 260px; right: 15px; bottom: 15px; background: #FFF; background: rgba(255,255,255,0.9); padding: 20px; }
+.competition-dumont form#lacosteComp label{ font-size: 14px; font-weight: bold; color: #000; }
+.competition-dumont form#lacosteComp input.form-field{ width: 240px; padding: 10px; font-size: 14px; font-weight: bold; color: #000; border: none; background: #FFF; margin: 10px 0 10px 0; border: 1px solid #000; border-bottom-width: 2px; border-right-width: 2px; }
+.competition-dumont form#lacosteComp input.submit{ width: 140px; padding: 10px; font-size: 14px; font-weight: bold; color: #FFF; border: none; background: #000; cursor: pointer; margin: 0 0 10px 0; }
+.competition-dumont form#lacosteComp a.terms{ font-size: 11px; color: #000; font-weight: bold; text-decoration: underline; margin: 0 0 5px 0; }
+.competition-dumont form#lacosteComp p.legal{ font-size: 10px;  }
+
+.competition-message{ width: 976px; height: 800px; margin: 0 0 25px 0; text-align: center; }
+.competition-message h1{ font-weight: bold; color: #000; font-size: 24px; margin: 150px 0 0 0; }
+.competition-message h1 a{ font-weight: bold; color: #000; text-decoration: underline; color: #000; }
+
+/* Footer */
+.footer {border-top: 1px solid #4C4C4C; border-top: 1px solid rgba(77, 76, 76, 0.25); color: #454546; float: left; padding: 25px 0 0 0;}
+.footer h3 {font-size: 17px; font-weight: bold; margin: 0 0 10px 0;}
+.footer p {font-size: 13px; line-height: 1.4;}
+
+/* YouTube */
+.video-container {height: 430px; width: 765px;}
