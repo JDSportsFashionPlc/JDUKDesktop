@@ -33,7 +33,7 @@
 		$r=mysql_query("
 			INSERT INTO `".$dn."`.`".$dbf."`
 			(`FormEmail`, `FormFeedback`, `FormCampaign`, `Stamp`, `FormRefer`, `IP`)
-			VALUES ('".$FormEmail."', '".$FormFeedback."', '".$FormCampaign."', '".$date."', `".$FormRefer."`, '".$ip."');
+			VALUES ('".$FormEmail."', '".$FormFeedback."', '".$FormCampaign."', '".$date."', '".$FormRefer."', '".$ip."');
 		");
 		
 		// FORM
