@@ -18,17 +18,29 @@
    enter you into a free prize draw to win &pound;100 to say thanks.
    </p>
    
+   
+   
+   
    <!--
    Just clone the PHP found in blog.jdsports.co.uk/apps/nps-form.php
    -->
    <form method="post" id="feedbackSubmitFormNPS" name="feedbackSubmitFormNPS" action="http://blog.jdsports.co.uk/apps/feedback-form.php" onsubmit="return submitFeedbackForm();return false">
       <input type="text" id="FormEmail" name="FormEmail" value="Please enter your email address" onfocus="if (this.value=='Please enter your email address') { this.value='';}" onblur="if (this.value=='') {this.value='Please enter your email address';}">
+      
+      <!-- EDIT THIS -->
+      
       <input type="text" class="xhidden" id="siteURL" name="siteURL" value="http://www.jdsports.co.uk/page/NPS-Feedback-Form/">
       <input type="text" class="xhidden" id="FormCampaign" name="FormCampaign" value="NPS">
+      <input type="text" class="xhidden" id="FormRefer" name="FormRefer" value="Desktop">
+      
+      
       <textarea type="text" id="FormFeedback" name="FormFeedback"></textarea>
       <a href="#" onClick="javascript:submitFeedbackForm();return false" id="submit">Tell us what you think</a>
    </form>
    <br />
+
+
+
 
 	</div>
 </div>

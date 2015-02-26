@@ -13,6 +13,7 @@
 		$FormEmail=mysql_real_escape_string($_POST['FormEmail']);
 		$FormFeedback=mysql_real_escape_string($_POST['FormFeedback']);
 		$FormCampaign=mysql_real_escape_string($_POST['FormCampaign']);
+		$FormRefer=mysql_real_escape_string($_POST['FormRefer']);
 		$date=date("Y-m-d H:i:s");
 		$ip=$_SERVER['REMOTE_ADDR'];
 
@@ -31,8 +32,8 @@
 		// NO EMAIL EXISTS SO ADD NEW USER TO DATABASE
 		$r=mysql_query("
 			INSERT INTO `".$dn."`.`".$dbf."`
-			(`FormEmail`, `FormFeedback`, `FormCampaign`, `Stamp`, `IP`)
-			VALUES ('".$FormEmail."', '".$FormFeedback."', '".$FormCampaign."', '".$date."', '".$ip."');
+			(`FormEmail`, `FormFeedback`, `FormCampaign`, `Stamp`, `FormRefer`, `IP`)
+			VALUES ('".$FormEmail."', '".$FormFeedback."', '".$FormCampaign."', '".$date."', `".$FormRefer."`, '".$ip."');
 		");
 		
 		// FORM
