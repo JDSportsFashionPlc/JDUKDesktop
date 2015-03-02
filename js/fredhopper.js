@@ -211,8 +211,13 @@ if (jQuery('.imageBannerPlainFH_pumaEvo2015').length > 0) {
 var	creativeMainCSSWrapper = '';
 	creativeMainCSSWrapper  += '<!--CREATIVE SKINS-->';
 	creativeMainCSSWrapper  += '<style>';
-		creativeMainCSSWrapper  += '.page{overflow:visible}';
+		creativeMainCSSWrapper  += '.page{overflow:visible;background:#131210 !important}';
+		creativeMainCSSWrapper  += 'div#product-list,.contentContainer{background:#fff}';
 		creativeMainCSSWrapper  += 'div#product-list{position:relative;height:1800px !important}';
+		
+		
+		
+		
 		creativeMainCSSWrapper  += '.tTakeImgResponsive img{width:100%}';
 		creativeMainCSSWrapper  += '.takeOverSpot {position:absolute;top:0;width:800px}';
 		creativeMainCSSWrapper  += '.lw {left:-800px}';
@@ -253,7 +258,8 @@ var	creativeMainCSSWrapperClothes = '';
 	creativeMainCSSWrapperClothes  += '<!--CREATIVE SKINS-->';
 	creativeMainCSSWrapperClothes  += '<style>';
 		creativeMainCSSWrapperClothes  += '.page{overflow:visible}';
-		creativeMainCSSWrapperClothes  += 'div#product-list{position:relative;height:1800px !important}';
+		creativeMainCSSWrapperClothes  += '.page{overflow:visible;background:#131210 !important}';
+		creativeMainCSSWrapperClothes  += 'div#product-list,.contentContainer{background:#fff}';
 		creativeMainCSSWrapperClothes  += '.tTakeImgResponsive img{width:100%}';
 		creativeMainCSSWrapperClothes  += '.takeOverSpot {position:absolute;top:0;width:800px}';
 		creativeMainCSSWrapperClothes  += '.lw {left:-800px}';
@@ -294,7 +300,8 @@ if (jQuery('.creativebannersync_fh_clothes').length > 0) {
 var	creativeMainCSSWrapperShoes = '';
 	creativeMainCSSWrapperShoes  += '<!--CREATIVE SKINS-->';
 	creativeMainCSSWrapperShoes  += '<style>';
-		creativeMainCSSWrapperShoes  += '.page{overflow:visible}';
+		creativeMainCSSWrapperShoes  += '.page{overflow:visible;background:#131210 !important}';
+		creativeMainCSSWrapperShoes  += 'div#product-list,.contentContainer{background:#fff}';
 		creativeMainCSSWrapperShoes  += 'div#product-list{position:relative;height:1800px !important}';
 		creativeMainCSSWrapperShoes  += '.tTakeImgResponsive img{width:100%}';
 		creativeMainCSSWrapperShoes  += '.takeOverSpot {position:absolute;top:0;width:800px}';

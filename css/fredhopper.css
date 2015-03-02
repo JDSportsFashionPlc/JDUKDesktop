@@ -579,10 +579,13 @@ div#plpBanner.black_yellow_offer_banners div#plpBannerText a#plpBannerLink6{disp
 
 
 
-.creativebannersync_fh_shoes,.creativebannersync_fh_clothes{position:relative;width:768px;height:360px;background:#eee;margin-bottom:15px}
-.creativebannersync_fh_shoes img,.creativebannersync_fh_shoes img,    .creativebannersync_fh_clothes img,            .supplydemand_brand img{display:block}
-.creativebannersync_fh_shoes{position:relative;width:768px;height:150px;background:#eee;margin-bottom:15px}
+.creativebannersync_fh_shoes,.creativebannersync_fh_clothes{position:relative;width:768px;height:150px;background:#eee;margin-bottom:15px}
+.creativebannersync_fh_shoes img,.creativebannersync_fh_shoes img,
+.creativebannersync_fh_clothes img,
+.supplydemand_brand img{display:block}
 
+.creativebannersync_fh_clothes #plpBannerText,
+.creativebannersync_fh_shoes #plpBannerText{display:none}
 
 
 .supplydemand_brand{position:relative;width:768px;height:200px;background:#eee;margin-bottom:15px}
