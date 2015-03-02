@@ -211,8 +211,13 @@ if (jQuery('.imageBannerPlainFH_pumaEvo2015').length > 0) {
 var	creativeMainCSSWrapper = '';
 	creativeMainCSSWrapper  += '<!--CREATIVE SKINS-->';
 	creativeMainCSSWrapper  += '<style>';
-		creativeMainCSSWrapper  += '.page{overflow:visible}';
+		creativeMainCSSWrapper  += '.page{overflow:visible;background:#131210 !important}';
+		creativeMainCSSWrapper  += 'div#product-list,.contentContainer{background:#fff}';
 		creativeMainCSSWrapper  += 'div#product-list{position:relative;height:1800px !important}';
+		
+		
+		
+		
 		creativeMainCSSWrapper  += '.tTakeImgResponsive img{width:100%}';
 		creativeMainCSSWrapper  += '.takeOverSpot {position:absolute;top:0;width:800px}';
 		creativeMainCSSWrapper  += '.lw {left:-800px}';
