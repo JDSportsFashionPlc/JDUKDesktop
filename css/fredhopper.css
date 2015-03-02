@@ -230,6 +230,11 @@ div#plpBanner.generic_gray_with_links div#plpBannerText a#plpBannerLink1{backgro
 div#plpBanner.generic_gray_with_links div#plpBannerText a#plpBannerLink2{background:#fff;color:#2e2e2e;display:block;font-weight:bold;height:35px;line-height:35px;padding:0 1px;position:absolute;text-align:center;text-decoration:none;text-transform:uppercase;width:145px;top:165px;left:199px;font-family:"Gotham A", "Gotham B", sans-serif !important}
 div#plpBanner.generic_gray_with_links div#plpBannerText a#plpBannerLink3{background:#fff;color:#2e2e2e;display:block;font-weight:bold;height:35px;line-height:35px;padding:0 1px;position:absolute;text-align:center;text-decoration:none;text-transform:uppercase;width:145px;top:165px;left:369px;font-family:"Gotham A", "Gotham B", sans-serif !important}
 div#plpBanner.generic_gray_with_links div#plpBannerText a#plpBannerLink4{background:#fff;color:#2e2e2e;display:block;font-weight:bold;height:35px;line-height:35px;padding:0 1px;position:absolute;text-align:center;text-decoration:none;text-transform:uppercase;width:145px;top:165px;left:545px;font-family:"Gotham A", "Gotham B", sans-serif !important}
+
+
+
+
+
 /*
 ===
 GENERIC IMAGE GOLD WITH LINKS
@@ -681,3 +686,59 @@ NORTH FACE DEEP
 .northfacedeep #plpBannerText p{font-family:Arial;font-size:11px;width:420px;top:55px;left:30px;text-transform:capitalize;color:#2e2e2e;position:absolute}
 div#plpBanner.northfacedeep div#plpBannerText a#plpBannerLink1{background:#fff;color:#000;display:block;font-weight:bold;height:35px;line-height:35px;padding:0 1px;position:absolute;text-align:center;text-decoration:none;text-transform:uppercase;width:145px;top:151px;left:25px;font-family:"Gotham A", "Gotham B", sans-serif !important}
 div#plpBanner.northfacedeep div#plpBannerText a#plpBannerLink2{background:#fff;color:#000;display:block;font-weight:bold;height:35px;line-height:35px;padding:0 1px;position:absolute;text-align:center;text-decoration:none;text-transform:uppercase;width:145px;top:191px;left:25px;font-family:"Gotham A", "Gotham B", sans-serif !important}
+
+
+
+
+
+/*
+===
+GENERIC GREY IMAGE WITH YELLOW LINKS RIGHT ALIGNED
+===
+*/
+
+.generic_image_with_links_right{position:relative;width:768px;height:220px;background:#eee;margin-bottom:15px}
+.generic_image_with_links_right h2{font-family:'Gotham A', 'Gotham B', sans-serif !important;font-size:31px;font-weight:700;top:25px;right:30px;text-transform:uppercase;color:#FD931C;position:absolute}
+.generic_image_with_links_right #plpBannerText p{display: none;}
+div#plpBanner.generic_image_with_links_right div#plpBannerText a#plpBannerLink1{background: #FD931C;color: #2E2E2E;display:block;font-weight:bold;height:35px;line-height:35px;padding:0 1px;position:absolute;text-align:center;text-decoration:none;text-transform:uppercase;width:145px;top: 165px;left: 280px;font-family:"Gotham A", "Gotham B", sans-serif !important}
+div#plpBanner.generic_image_with_links_right div#plpBannerText a#plpBannerLink2{background: #FD931C;color:#2e2e2e;display:block;font-weight:bold;height:35px;line-height:35px;padding:0 1px;position:absolute;text-align:center;text-decoration:none;text-transform:uppercase;width:145px;top: 165px;left: 439px;font-family:"Gotham A", "Gotham B", sans-serif !important}
+div#plpBanner.generic_image_with_links_right div#plpBannerText a#plpBannerLink3{background: #FD931C;color:#2e2e2e;display:block;font-weight:bold;height:35px;line-height:35px;padding:0 1px;position:absolute;text-align:center;text-decoration:none;text-transform:uppercase;width:145px;top: 165px;left: 599px;font-family:"Gotham A", "Gotham B", sans-serif !important}
+
+
+
+
+
+
+/*
+===
+2 LINKS GENERIC GREY IMAGE WITH YELLOW LINKS RIGHT ALIGNED
+===
+*/
+
+.generic_image_with_links_right2{position:relative;width:768px;height:220px;background:#eee;margin-bottom:15px}
+.generic_image_with_links_right2 h2{font-family:'Gotham A', 'Gotham B', sans-serif !important;font-size:31px;font-weight:700;top:25px;right:30px;text-transform:uppercase;color:#FD931C;position:absolute}
+.generic_image_with_links_right2 #plpBannerText p{display: none;}
+div#plpBanner.generic_image_with_links_right2 div#plpBannerText a#plpBannerLink1{background: #FD931C;color:#2e2e2e;display:block;font-weight:bold;height:35px;line-height:35px;padding:0 1px;position:absolute;text-align:center;text-decoration:none;text-transform:uppercase;width:145px;top: 165px;left: 439px;font-family:"Gotham A", "Gotham B", sans-serif !important}
+div#plpBanner.generic_image_with_links_right2 div#plpBannerText a#plpBannerLink2{background: #FD931C;color:#2e2e2e;display:block;font-weight:bold;height:35px;line-height:35px;padding:0 1px;position:absolute;text-align:center;text-decoration:none;text-transform:uppercase;width:145px;top: 165px;left: 599px;font-family:"Gotham A", "Gotham B", sans-serif !important}
+
+
+
+
+/*
+===
+SEO CAMPAIGN 0005
+generic_gray_with_links005
+===
+*/
+
+.generic_gray_with_links005{position:relative;width:768px;background:#eee;margin-bottom:15px}
+.generic_gray_with_links005 h2{font-family:'Gotham A', 'Gotham B', sans-serif !important;font-size:27.9px;font-weight:700;text-transform:uppercase;color:#2e2e2e;padding:20px 20px 0px 20px}
+.generic_gray_with_links005 #plpBannerText p{font-family:Arial;font-size:11.9px;width:685px;color:#2e2e2e;padding:10px 20px}
+.generic_gray_with_links005 #plpBanner > img,
+.generic_gray_with_links005 img{display:none}
+div#plpBanner.generic_gray_with_links005 div#plpBannerText a#plpBannerLink1{color:#2e2e2e;display:block;font-weight:bold;height:35px;line-height:35px;padding:0 1px;position:absolute;text-align:center;text-decoration:none;text-transform:uppercase;top:165px;left:30px;font-family:"Gotham A", "Gotham B", sans-serif !important}
+div#plpBanner.generic_gray_with_links005 div#plpBannerText a#plpBannerLink2{color:#2e2e2e;display:block;font-weight:bold;height:35px;line-height:35px;padding:0 1px;position:absolute;text-align:center;text-decoration:none;text-transform:uppercase;top:165px;left:199px;font-family:"Gotham A", "Gotham B", sans-serif !important}
+div#plpBanner.generic_gray_with_links005 div#plpBannerText a#plpBannerLink3{color:#2e2e2e;display:block;font-weight:bold;height:35px;line-height:35px;padding:0 1px;position:absolute;text-align:center;text-decoration:none;text-transform:uppercase;top:165px;left:369px;font-family:"Gotham A", "Gotham B", sans-serif !important}
+div#plpBanner.generic_gray_with_links005 div#plpBannerText a#plpBannerLink4{color:#2e2e2e;display:block;font-weight:bold;height:35px;line-height:35px;padding:0 1px;position:absolute;text-align:center;text-decoration:none;text-transform:uppercase;top:165px;left:545px;font-family:"Gotham A", "Gotham B", sans-serif !important}
+
+
