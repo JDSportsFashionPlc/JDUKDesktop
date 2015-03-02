@@ -56,7 +56,6 @@ var	nikeCSSWrapper = '';
 // WOMENS 
 //////////////////////////
 //////////////////////////
-
 if (jQuery('.fhNikeAirMax2015women').length > 0) {
 	jQuery('body').append(nikeCSSWrapper);
 	jQuery('.plpBanner img').remove();
@@ -77,7 +76,6 @@ if (jQuery('.fhNikeAirMax2015women').length > 0) {
 	setTimeout('FredHopperSlider()', 750);
 
 }
-
 //////////////////////////
 //////////////////////////
 // MENS AND MAIN
@@ -104,6 +102,10 @@ if (jQuery('.fhNikeAirMax2015men').length > 0) {
 	setTimeout('FredHopperSlider()', 750);
 	
 }
+
+
+
+
 
 if (jQuery('#productAttributesWrapper form').length ){
 		
@@ -132,6 +134,9 @@ if (jQuery('#productAttributesWrapper form').length ){
 
 }
 
+
+
+
 // FADE IN ELEMENTS
 
 //////////////////////////////////////////////////////////////////////////////////////////////////////////////
@@ -141,6 +146,22 @@ if (jQuery('#productAttributesWrapper form').length ){
 // *********
 //////////////////////////////////////////////////////////////////////////////////////////////////////////////
 //////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 var	pumaCSSWrapper = '';
 	pumaCSSWrapper  += '<!--NIKE SKINS-->';
@@ -161,7 +182,6 @@ var	pumaCSSWrapper = '';
 // WOMENS 
 //////////////////////////
 //////////////////////////
-
 if (jQuery('.imageBannerPlainFH_pumaEvo2015').length > 0) {
 	jQuery('body').append(pumaCSSWrapper);
 	
@@ -176,5 +196,216 @@ if (jQuery('.imageBannerPlainFH_pumaEvo2015').length > 0) {
 	
 	jQuery('div#product-list').append(pumaBanners);	
 	
+	
+
+}
+
+
+
+
+// CREATIVE RECREATION
+// MAIN
+
+
+
+var	creativeMainCSSWrapper = '';
+	creativeMainCSSWrapper  += '<!--CREATIVE SKINS-->';
+	creativeMainCSSWrapper  += '<style>';
+		creativeMainCSSWrapper  += '.page{overflow:visible}';
+		creativeMainCSSWrapper  += 'div#product-list{position:relative;height:1800px !important}';
+		creativeMainCSSWrapper  += '.tTakeImgResponsive img{width:100%}';
+		creativeMainCSSWrapper  += '.takeOverSpot {position:absolute;top:0;width:800px}';
+		creativeMainCSSWrapper  += '.lw {left:-800px}';
+		creativeMainCSSWrapper  += '.rw {right:-800px}';
+		creativeMainCSSWrapper  += '@media screen and (max-width: 1700px) { .takeOverSpot{width:500px}.lw{left:-500px}.rw{right:-500px} }';
+		creativeMainCSSWrapper  += '@media screen and (max-width: 1400px) { .takeOverSpot{width:300px}.lw{left:-300px}.rw{right:-300px} }';
+	creativeMainCSSWrapper  += '</style>';
+	creativeMainCSSWrapper  += '';
+	
+//////////////////////////
+//////////////////////////
+// WOMENS 
+//////////////////////////
+//////////////////////////
+if (jQuery('.creativebannersync').length > 0) {
+	jQuery('body').append(creativeMainCSSWrapper);
+	
+	var 	creativeBanners = '';
+			creativeBanners += '<div class="nikeFaderFirst takeOverSpot tTakeImgResponsive takeOverSpot lw">';
+			creativeBanners += '	<img src="http://www.jdsports.co.uk/images/library/2015/02.03.2015/big-cloth.jpg">';
+			creativeBanners += '</div>';
+			creativeBanners += '<div class="nikeFaderFirst takeOverSpot tTakeImgResponsive takeOverSpot rw">';
+			creativeBanners += '	<img src="http://www.jdsports.co.uk/images/library/2015/02.03.2015/big-shoe.jpg">';
+			creativeBanners += '</div>';
+			creativeBanners += '';
+	
+	jQuery('div#product-list').append(creativeBanners);	
+	
+	
+
+}
+
+
+// CREATIVE RECREATION
+// CLOTHES
+
+var	creativeMainCSSWrapperClothes = '';
+	creativeMainCSSWrapperClothes  += '<!--CREATIVE SKINS-->';
+	creativeMainCSSWrapperClothes  += '<style>';
+		creativeMainCSSWrapperClothes  += '.page{overflow:visible}';
+		creativeMainCSSWrapperClothes  += 'div#product-list{position:relative;height:1800px !important}';
+		creativeMainCSSWrapperClothes  += '.tTakeImgResponsive img{width:100%}';
+		creativeMainCSSWrapperClothes  += '.takeOverSpot {position:absolute;top:0;width:800px}';
+		creativeMainCSSWrapperClothes  += '.lw {left:-800px}';
+		creativeMainCSSWrapperClothes  += '.rw {right:-800px}';
+		creativeMainCSSWrapperClothes  += '@media screen and (max-width: 1700px) { .takeOverSpot{width:500px}.lw{left:-500px}.rw{right:-500px} }';
+		creativeMainCSSWrapperClothes  += '@media screen and (max-width: 1400px) { .takeOverSpot{width:300px}.lw{left:-300px}.rw{right:-300px} }';
+	creativeMainCSSWrapperClothes  += '</style>';
+	creativeMainCSSWrapperClothes  += '';
+	
+//////////////////////////
+//////////////////////////
+// WOMENS 
+//////////////////////////
+//////////////////////////
+if (jQuery('.creativebannersync_fh_clothes').length > 0) {
+	jQuery('body').append(creativeMainCSSWrapperClothes);
+	
+	var 	creativeBannersscloth = '';
+			creativeBannersscloth += '<div class="nikeFaderFirst takeOverSpot tTakeImgResponsive takeOverSpot lw">';
+			creativeBannersscloth += '	<img src="http://www.jdsports.co.uk/images/library/2015/02.03.2015/big-cloth.jpg">';
+			creativeBannersscloth += '</div>';
+			creativeBannersscloth += '<div class="nikeFaderFirst takeOverSpot tTakeImgResponsive takeOverSpot rw">';
+			creativeBannersscloth += '	<img src="http://www.jdsports.co.uk/images/library/2015/02.03.2015/big-cloth.jpg">';
+			creativeBannersscloth += '</div>';
+			creativeBannersscloth += '';
+	
+	jQuery('div#product-list').append(creativeBannersscloth);	
+	
+	
+
+}
+
+
+
+// CREATIVE RECREATION
+// SHOES
+
+var	creativeMainCSSWrapperShoes = '';
+	creativeMainCSSWrapperShoes  += '<!--CREATIVE SKINS-->';
+	creativeMainCSSWrapperShoes  += '<style>';
+		creativeMainCSSWrapperShoes  += '.page{overflow:visible}';
+		creativeMainCSSWrapperShoes  += 'div#product-list{position:relative;height:1800px !important}';
+		creativeMainCSSWrapperShoes  += '.tTakeImgResponsive img{width:100%}';
+		creativeMainCSSWrapperShoes  += '.takeOverSpot {position:absolute;top:0;width:800px}';
+		creativeMainCSSWrapperShoes  += '.lw {left:-800px}';
+		creativeMainCSSWrapperShoes  += '.rw {right:-800px}';
+		creativeMainCSSWrapperShoes  += '@media screen and (max-width: 1700px) { .takeOverSpot{width:500px}.lw{left:-500px}.rw{right:-500px} }';
+		creativeMainCSSWrapperShoes  += '@media screen and (max-width: 1400px) { .takeOverSpot{width:300px}.lw{left:-300px}.rw{right:-300px} }';
+	creativeMainCSSWrapperShoes  += '</style>';
+	creativeMainCSSWrapperShoes  += '';
+	
+//////////////////////////
+//////////////////////////
+// WOMENS 
+//////////////////////////
+//////////////////////////
+if (jQuery('.creativebannersync_fh_shoes').length > 0) {
+	jQuery('body').append(creativeMainCSSWrapperShoes);
+	
+	var 	creativeBannersshoes = '';
+			creativeBannersshoes += '<div class="nikeFaderFirst takeOverSpot tTakeImgResponsive takeOverSpot lw">';
+			creativeBannersshoes += '	<img src="http://www.jdsports.co.uk/images/library/2015/02.03.2015/big-shoe.jpg">';
+			creativeBannersshoes += '</div>';
+			creativeBannersshoes += '<div class="nikeFaderFirst takeOverSpot tTakeImgResponsive takeOverSpot rw">';
+			creativeBannersshoes += '	<img src="http://www.jdsports.co.uk/images/library/2015/02.03.2015/big-shoe.jpg">';
+			creativeBannersshoes += '</div>';
+			creativeBannersshoes += '';
+	
+	jQuery('div#product-list').append(creativeBannersshoes);	
+	
+	
+
+}
+
+
+
+
+// CLOTH PP PAGES
+
+if (jQuery('#productAttributesWrapper form').length ){
+		
+		if( 
+			jQuery('input[name="manufacturerPartNumber"]').val()=="162402" ||
+			jQuery('input[name="manufacturerPartNumber"]').val()=="162544" ||
+			jQuery('input[name="manufacturerPartNumber"]').val()=="162583" ||
+			jQuery('input[name="manufacturerPartNumber"]').val()=="135051" ||
+			jQuery('input[name="manufacturerPartNumber"]').val()=="162570" ||
+			jQuery('input[name="manufacturerPartNumber"]').val()=="162404" ||
+			jQuery('input[name="manufacturerPartNumber"]').val()=="162569" ||
+			jQuery('input[name="manufacturerPartNumber"]').val()=="162577"		
+		){ 
+		
+			jQuery('body').append(creativeMainCSSWrapperClothes);
+			jQuery('.contentContainer').css("position", "relative");
+			
+			var 	ppcreativeBannersscloth = '';
+					ppcreativeBannersscloth += '<div class="nikeFaderFirst takeOverSpot tTakeImgResponsive takeOverSpot lw" style="z-index:-1">';
+					ppcreativeBannersscloth += '	<img src="http://www.jdsports.co.uk/images/library/2015/02.03.2015/big-cloth.jpg">';
+					ppcreativeBannersscloth += '</div>';
+					ppcreativeBannersscloth += '<div class="nikeFaderFirst takeOverSpot tTakeImgResponsive takeOverSpot rw" style="z-index:-1">';
+					ppcreativeBannersscloth += '	<img src="http://www.jdsports.co.uk/images/library/2015/02.03.2015/big-cloth.jpg">';
+					ppcreativeBannersscloth += '</div>';
+					ppcreativeBannersscloth += '';
+			
+			jQuery('div.contentContainer').append(ppcreativeBannersscloth);
+	
+	}
+
+}
+
+
+
+
+
+// SHOE PP PAGES
+
+if (jQuery('#productAttributesWrapper form').length ){
+		
+		
+		if( 
+				
+jQuery('input[name="manufacturerPartNumber"]').val()=="024318" ||
+jQuery('input[name="manufacturerPartNumber"]').val()=="160035" ||
+jQuery('input[name="manufacturerPartNumber"]').val()=="032390" ||
+jQuery('input[name="manufacturerPartNumber"]').val()=="160044" ||
+jQuery('input[name="manufacturerPartNumber"]').val()=="024308" ||
+jQuery('input[name="manufacturerPartNumber"]').val()=="160039" ||
+jQuery('input[name="manufacturerPartNumber"]').val()=="160149" ||
+jQuery('input[name="manufacturerPartNumber"]').val()=="160047" ||
+jQuery('input[name="manufacturerPartNumber"]').val()=="160144" ||
+jQuery('input[name="manufacturerPartNumber"]').val()=="160043" ||
+jQuery('input[name="manufacturerPartNumber"]').val()=="160041" ||
+jQuery('input[name="manufacturerPartNumber"]').val()=="160046" ||
+jQuery('input[name="manufacturerPartNumber"]').val()=="032416" ||
+jQuery('input[name="manufacturerPartNumber"]').val()=="166022"
+		){ 
+		
+			jQuery('body').append(creativeMainCSSWrapperClothes);
+			jQuery('.contentContainer').css("position", "relative");
+			
+			var 	ppcreativeBannersscshoe = '';
+					ppcreativeBannersscshoe += '<div class="nikeFaderFirst takeOverSpot tTakeImgResponsive takeOverSpot lw" style="z-index:-1">';
+					ppcreativeBannersscshoe += '	<img src="http://www.jdsports.co.uk/images/library/2015/02.03.2015/big-shoe.jpg">';
+					ppcreativeBannersscshoe += '</div>';
+					ppcreativeBannersscshoe += '<div class="nikeFaderFirst takeOverSpot tTakeImgResponsive takeOverSpot rw" style="z-index:-1">';
+					ppcreativeBannersscshoe += '	<img src="http://www.jdsports.co.uk/images/library/2015/02.03.2015/big-shoe.jpg">';
+					ppcreativeBannersscshoe += '</div>';
+					ppcreativeBannersscloth += '';
+			
+			jQuery('div.contentContainer').append(ppcreativeBannersscshoe);
+	
+	}
+
 }
 
