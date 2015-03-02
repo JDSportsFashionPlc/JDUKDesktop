@@ -212,6 +212,7 @@ var	creativeMainCSSWrapper = '';
 	creativeMainCSSWrapper  += '<!--CREATIVE SKINS-->';
 	creativeMainCSSWrapper  += '<style>';
 		creativeMainCSSWrapper  += '.page{overflow:visible;background:#131210 !important}';
+		creativeMainCSSWrapper  += '#page{background:#131210 !important}';
 		creativeMainCSSWrapper  += 'div#product-list,.contentContainer{background:#fff}';
 		creativeMainCSSWrapper  += 'div#product-list{position:relative;height:1800px !important}';
 		
