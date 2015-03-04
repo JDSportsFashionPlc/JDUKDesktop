@@ -1,0 +1,8 @@
+@charset "UTF-8";
+
+#NikeGameOnWorld-Container { width: 900px; padding-bottom:30px; }
+#NikeGameOnWorld-Container iframe { background-color:#FFF; }
+
+body { background:url(/lib/hlight/nike-game-on-world/background.jpg) no-repeat fixed center 0 #FFF; }
+
+#page, .page { padding:0px 20px 0px 20px; }

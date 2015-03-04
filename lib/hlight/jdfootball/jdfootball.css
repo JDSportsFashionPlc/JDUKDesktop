@@ -1,0 +1,405 @@
+body { background: none #000; }
+
+.bg-white { background: none repeat scroll 0 0 black; }
+.contentContainer { width: 920px; padding: 5px 0px 10px 0px; margin-top:37px; }
+ol, ul {list-style: none;}
+blockquote, q {quotes: none;}
+blockquote:before, blockquote:after, q:before, q:after {content: ''; content: none;}
+ins {text-decoration: none;}
+del {text-decoration: line-through;}
+table {border-collapse: collapse; border-spacing: 0;}
+
+/* Utility Classes */
+.clear {clear: both; font-size: 0.1px; height: 0;  width: 0;}
+.cF:after {content:"."; display: block; height: 0; clear: both; visibility: hidden;}
+.cF {display: inline-block;}
+/* Hide from IE Mac \*/
+.cF {display: block;}
+/* End hide from IE Mac */
+.fL {float: left;}
+.fR {float: right;}
+
+
+body.umbro-england {background: url(/lib/hlight/jdfootball/images/structure/background-slider-3.jpg) center top no-repeat #000;}
+body.football-shirts {background: url(/lib/hlight/jdfootball/images/structure/background-slider-5.jpg) center top no-repeat #000;}
+body.football-gear {background: url(/lib/hlight/jdfootball/images/structure/background-slider-4.jpg) center top no-repeat #000;}
+.background {position: absolute; margin: 0 0 0 -804px; left: 50%; top: 0;}
+.containerNav {background: #000; position: relative; margin: 0 auto; width: 920px;}
+.white {background: #FFF;}
+a:hover {cursor: pointer;}
+
+.breadcrumbs {background: #FFF; border-bottom: 1px solid #CCC; padding: 10px 10px 8px 10px; width:900px; }
+	.breadcrumbs li {background: url(/lib/hlight/jdfootball/images/structure/breadcrumbs-spacer.gif) right 2px no-repeat; color: #000; display: block; font-size: 1.1em; font-weight: bold; margin: 0 10px 0 0; padding: 0 15px 0 0; text-transform: capitalize;}
+	.breadcrumbs li.end {background: none;}
+		.breadcrumbs li a {border-bottom: 1px solid #000; color: #000; text-decoration: none;}
+		.breadcrumbs li a:hover {border: none;}
+
+.tabs {background: #FFF; height: 75px; position: relative; padding:10px 10px 0px; font-size:82.5%; }
+	.tabs li.primary {margin: 0 1px 0 0; width: 158px;}
+		.tabs li.primary a {-webkit-transition:all 180ms ease-in-out; -moz-transition:all 180ms ease-in-out; -o-transition:all 180ms ease-in-out; transition:all 180ms ease-in-out;}
+		.tabs li.primary a.top-level {background: url(/lib/hlight/jdfootball/images/structure/background-tabs.png) 0 0 no-repeat; color: #FFF; color: rgba(255, 255, 255, 0.7); display: block; font-size: 1.7em; font-weight: bold; height: 33px; line-height: 2em; text-align: center; text-decoration: none; text-shadow: 1px 1px 1px #32658A;}
+		.tabs li.current a.top-level {color: #FFF;}
+		.tabs li.primary a:hover {color: #FFF;}
+		.tabs li.primary ul.secondary {background: url(/lib/hlight/jdfootball/images/structure/background-tabs-options.png) 0 0 no-repeat; display: none; height: 42px; position: absolute; width: 900px; bottom: 0; left: 10px; }
+		.tabs li.current ul.secondary {display: block;}
+			.tabs li.primary ul.secondary li {}
+				.tabs li.primary ul.secondary li a {color: #9ABDD0; display: block; font-size: 1.3em; height: 42px; line-height: 3.6em; padding: 0 30px; text-align: center; text-decoration: none; text-shadow: 1px 1px 1px #32658A; text-transform: uppercase;}
+				.tabs li.primary ul.secondary li a:hover {color: #FFF;}
+				.tabs li.primary ul.secondary li.current a {background: url(/lib/hlight/jdfootball/images/structure/background-tabs-option-current.png) center bottom no-repeat; color: #FFF;}
+		.tabs li.jd-rugby a.top-level {background: url(/lib/hlight/jdfootball/images/structure/background-tabs.png) -158px 0 no-repeat;}
+		.tabs li.jd-rugby ul.secondary {background: url(/lib/hlight/jdfootball/images/structure/background-tabs-options.png) 0 -42px no-repeat;}
+
+.scroller {background: #FFF; height: 280px; padding: 5px 10px 0 ;}
+
+#FSScroll { height: 363px; }
+
+.scrollable {background: #FFF; height: 246px; position: relative; overflow: hidden; width: 900px;}
+	.scrollable .items {position: absolute; width: 20000em;}
+		.scrollable .items .post {position: relative;}
+			.scrollable .items .post a {}
+			.scrollable .items .post a:hover {}
+			.scrollable .items .post h2 {position: absolute; text-indent: -9999px;}
+
+	.navi {background: #FFF; height: 14px; margin: 10px auto; overflow: hidden; width: 200px;}
+	.navi a {background: url(/lib/hlight/jdfootball/images/structure/background-slider-dots.png) 0 0 no-repeat; display: block; height: 14px; float: left; margin: 0 8px 0 0; width: 14px; -webkit-transition:all 180ms ease-in-out; -moz-transition:all 180ms ease-in-out; -o-transition:all 180ms ease-in-out; transition:all 180ms ease-in-out;}
+	.navi a:hover {background-position: 0 -14px; cursor: pointer;}
+	.navi a.active {background-position: 0 -14px;}
+
+div.primary {background: #FFF; margin: 10px 0 0 0; padding: 10px;}
+	div.primary .module {background: #CCC; display: inline; height: 263px; overflow: hidden; margin: 0 4px 4px 0; position: relative; width: 448px;}
+	div.primary .module-narrow {width: 222px;}
+	div.primary .module-medium {width: 297px;}
+	div.primary .module-wide {margin-right: 0; width: 674px;}
+	div.primary .module-slim {height: 358px; margin: 0 0 4px 0; width: 222px;}
+	div.primary .module-slim-wide {height: 168px; margin: 0; width: 448px;}
+	div.primary .module-2, div.primary .module-5, div.primary .module-6 {margin-right: 0px;}
+	div.primary .module-umbro-england {background: url(/lib/hlight/jdfootball/images/structure/module-cheslea.jpg) 0 0 no-repeat;}
+	div.primary .module-football-shirts {background: url(/lib/hlight/jdfootball/images/content/newcastle-home-promo.jpg) 0 0 no-repeat;}
+	div.primary .module-football-offer {background: url(/lib/hlight/jdfootball/images/structure/module-city-pre-order.jpg) 0 0 no-repeat;}
+	div.primary .module-football-equipment {background: url(/lib/hlight/jdfootball/images/structure/module-lfc-home.jpg) 0 0 no-repeat;}
+	div.primary .module-football-boots {background: url(/lib/hlight/jdfootball/images/structure/module-lfc-away.jpg) 0 0 no-repeat;}
+	div.primary .module-terrace-footwear {background: url(/lib/hlight/jdfootball/images/structure/module-united-home.jpg) 0 0 no-repeat;}	
+	div.primary .module-umbro-england-video {background: url(/lib/hlight/jdfootball/images/structure/module-umbro-england-replica.gif) 0 0 no-repeat;}	
+	div.primary .module-england-away {background: url(/lib/hlight/jdfootball/images/structure/module-england-away-kit.jpg) 0 0 no-repeat;}	
+	div.primary .module-win-day {background: url(/lib/hlight/jdfootball/images/structure/module-win-england-day-comp.jpg) 0 0 no-repeat; height: 188px;}
+	div.primary .module-win-tickets-eng-bel {background: url(/lib/hlight/jdfootball/images/structure/module-win-tickets-comp.jpg) 0 0 no-repeat; height: 188px;}
+	div.primary .module-win-england-shirt {background: url(/lib/hlight/jdfootball/images/structure/module-win-england-shirt.jpg) 0 0 no-repeat; height: 188px;}
+	div.primary .module-england-promo {background: url(/lib/hlight/jdfootball/images/structure/module-umbro-england-promo.jpg) 0 0 no-repeat; height: 251px; width:900px; }
+	div.primary .module-football-boots-astros {background: url(/lib/hlight/jdfootball/images/structure/module-boots-astros.jpg) 0 0 no-repeat;}
+	div.primary .module-footballs {background: url(/lib/hlight/jdfootball/images/structure/module-footballs.jpg) 0 0 no-repeat;}
+	div.primary .module-baselayer {background: url(/lib/hlight/jdfootball/images/structure/module-baselayer.jpg) 0 0 no-repeat;}
+	div.primary .module-football-accessories {background: url(/lib/hlight/jdfootball/images/structure/module-football-accessories.jpg) 0 0 no-repeat;}
+	div.primary .module-english-teams {background: url(/lib/hlight/jdfootball/images/structure/module-english-teams.jpg) 0 0 no-repeat;}
+	div.primary .module-international-teams {background: url(/lib/hlight/jdfootball/images/structure/module-international-teams.jpg) 0 0 no-repeat;}
+	div.primary .module-european-teams {background: url(/lib/hlight/jdfootball/images/structure/module-european-teams.jpg) 0 0 no-repeat;}
+	div.primary .module-retro-teams {background: url(/lib/hlight/jdfootball/images/structure/module-retro-teams.jpg) 0 0 no-repeat;}
+	div.primary .module-team-gb {background: url(/lib/hlight/jdfootball/images/structure/module-team-gb.jpg) 0 0 no-repeat;}
+		div.primary .module a {height: 263px; position: absolute; bottom: 0; left: 0; text-indent: -9999px; width: 100%; z-index: 10;}
+			div.primary .module a span.link {background: url(/lib/hlight/jdfootball/images/structure/button-checkitouthere.png) 0 0 no-repeat; display: block; height: 26px; position: absolute; left: 20px; bottom: 20px; width: 145px;}
+			div.primary .module a:hover span.link {background-position: 0 -26px;}
+			div.module a.shop-here span.link {background: url(/lib/hlight/jdfootball/images/structure/button-shop-here.png) 0 0 no-repeat; width: 95px;}
+			div.module a.shop-here:hover span.link {background-position: 0 -26px;}
+			div.module a.shop-here2 span.link {background: url(/lib/hlight/jdfootball/images/structure/button-shop-here2.png) 0 0 no-repeat; width: 95px;}
+			div.module a.shop-here2:hover span.link {background-position: 0 -26px;}
+			
+			div.module a.preorder span.link {background: url(/lib/hlight/jdfootball/images/structure/button-preorder.png) 0 0 no-repeat; width: 126px;}
+			div.module a.preorder:hover span.link {background-position: 0 -26px;}
+			
+			
+			div.module a.shop-your-team span.link {background: url(/lib/hlight/jdfootball/images/structure/button-shop-your-team.png) 0 0 no-repeat; width: 134px;}
+			div.module a.shop-your-team:hover span.link {background-position: 0 -26px;}
+			div.module a.shop-the-collection span.link {background: url(/lib/hlight/jdfootball/images/structure/button-shop-the-collection.png) 0 0 no-repeat; width: 162px;}
+			div.module a.shop-the-collection:hover span.link {background-position: 0 -26px;}
+		div.primary .module h2 {color: #FFF; display: block; height: 68px; position: absolute; left: 20px; bottom: 56px; text-indent: -9999px;}
+		div.primary .module h3 {color: #FFF; display: block; height: 68px; position: absolute; left: 10px; bottom: 30px; text-indent: -9999px;}
+		div.primary .module-umbro-england h2 {background: url(/lib/hlight/jdfootball/images/structure/header-chelsea.png) 0 0 no-repeat; width: 172px;}
+	/*	div.primary .module-football-shirts h2 {background: url(/lib/hlight/jdfootball/images/structure/header-spurs.png) 0 0 no-repeat; width: 150px; height:172px; } */
+		div.primary .module-football-offer h2 {background: url(/lib/hlight/jdfootball/images/structure/header-eng.png) 0 0 no-repeat; width: 199px; height:145px; }
+		div.primary .module-football-equipment h2 {background: url(/lib/hlight/jdfootball/images/structure/header-football-equipment.png) 0 0 no-repeat; width: 160px}
+		div.primary .module-football-boots h2 {background: url(/lib/hlight/jdfootball/images/structure/header-football-boots.png) 0 0 no-repeat; width: 138px;}
+		div.primary .module-terrace-footwear h2 {background: url(/lib/hlight/jdfootball/images/structure/header-newcastle.png) 0 0 no-repeat; width: 186px; top:44px; height:200px; }
+		div.primary .module-umbro-england-video h2 {background: url(/lib/hlight/jdfootball/images/structure/header-new-umbro-retro.png) 0 0 no-repeat; width: 215px; height:98px; }
+		div.primary .module-england-away h2 {background: url(/lib/hlight/jdfootball/images/structure/header-england-away.png) 0 0 no-repeat; width: 213px; height:94px; }
+		div.primary .module-football-boots-astros h2 {background: url(/lib/hlight/jdfootball/images/structure/header-football-boots-astros.png) 0 0 no-repeat; width: 235px;}
+		div.primary .module-footballs h2 {background: url(/lib/hlight/jdfootball/images/structure/header-footballs.png) 0 0 no-repeat; bottom: 26px; width: 154px;}
+		div.primary .module-baselayer h2 {background: url(/lib/hlight/jdfootball/images/structure/header-baselayer.png) 0 0 no-repeat; bottom: 26px; width: 157px;}
+		div.primary .module-football-accessories h2 {background: url(/lib/hlight/jdfootball/images/structure/header-football-accessories.png) 0 0 no-repeat; width: 187px}
+		div.primary .module-english-teams h2 {background: url(/lib/hlight/jdfootball/images/structure/header-english-teams.png) 0 0 no-repeat; width: 187px}
+		div.primary .module-international-teams h2 {background: url(/lib/hlight/jdfootball/images/structure/header-international-teams.png) 0 0 no-repeat; width: 187px}
+		div.primary .module-european-teams h2 {background: url(/lib/hlight/jdfootball/images/structure/header-european-teams.png) 0 0 no-repeat; width: 187px}
+		div.primary .module-retro-teams h2 {background: url(/lib/hlight/jdfootball/images/structure/header-retro-teams.png) 0 0 no-repeat; width: 187px}
+		div.primary .module-team-gb h2 {background: url(/lib/hlight/jdfootball/images/structure/header-team-gb.png) 0 0 no-repeat; width: 187px}
+		div.primary .module-win-day h3 {background: url(/lib/hlight/jdfootball/images/structure/header-win-a-day-with-the-england-squad.png) 0 0 no-repeat; width: 220px;}
+		div.primary .module-win-tickets-eng-bel h3 {background: url(/lib/hlight/jdfootball/images/structure/header-win-tickets.png) 0 0 no-repeat; width: 220px;}
+		div.primary .module-win-england-shirt h3 {background: url(/lib/hlight/jdfootball/images/structure/header-win-england-shirt.png) 0 0 no-repeat; width: 153px;}
+		div.primary .module span.slice {background: url(/lib/hlight/jdfootball/images/structure/background-slice.png) 0 0 no-repeat; height: 437px; position: absolute; left: -690px; top: -80px; width: 690px; z-index: 5; -webkit-transition:all 300ms ease-in-out; -moz-transition:all 300ms ease-in-out; -o-transition:all 300ms ease-in-out; transition:all 300ms ease-in-out;}
+		div.primary .module span.active {left: 700px;}
+		div.primary .module-narrow span.slice {left: auto; right: -690px;}
+		div.primary .module-narrow span.active {left: auto; right: 300px;}
+	div.primary .module-wrapper {width: 448px;}
+		
+div.secondary {background: #FFF; border-bottom: 1px solid #CCC; margin: 10px 0 0 0; padding: 10px;}
+	div.secondary h2 {background: url(/lib/hlight/jdfootball/images/structure/header-get-involved.png) 0 0 no-repeat; border-bottom: 1px solid #CCC; height: 28px; padding: 0 0 5px 0; text-indent: -9999px; width: 100%;}
+	div.secondary .module {height: 188px; margin: 10px 4px 20px 0; overflow: hidden; position: relative; width: 282px;}
+		div.secondary .module a {height: 188px; position: absolute; bottom: 0; left: 0; text-indent: -9999px; width: 100%; z-index: 10;}
+			div.module a.enter-now span.link {background: url(/lib/hlight/jdfootball/images/structure/button-enter-now.png) 0 0 no-repeat; display: block; height: 26px; position: absolute; bottom: 18px; left: 247px; text-indent: -9999px; width: 95px;}
+			div.module a.enter-now:hover span.link {background-position: 0 -26px;}
+		div.secondary .module h3 {color: #FFF; display: block; height: 68px; position: absolute; left: 10px; bottom: 30px; text-indent: -9999px;}
+	div.secondary .module-1 {background: url(/lib/hlight/jdfootball/images/structure/module-win-england-day-comp.jpg) 0 0 no-repeat;}
+		div.secondary .module-1 h3 {background: url(/lib/hlight/jdfootball/images/structure/header-win-a-day-with-the-england-squad.png) 0 0 no-repeat; width: 220px;}
+	div.secondary .module-2 {background: url(/lib/hlight/jdfootball/images/structure/module-win-tickets-comp.jpg) 0 0 no-repeat;}
+		div.secondary .module-2 h3 {background: url(/lib/hlight/jdfootball/images/structure/header-win-tickets.png) 0 0 no-repeat; width: 220px;}
+	div.secondary .facebook {margin: 10px 0 0 8px;}
+	
+.social {background: #FFF; height: 40px; padding: 10px; width: 900px;}
+	.social div {float: right; margin: 0 10px 0 0;}
+	
+
+.banner {background: #FFF; height: 320px; margin: 5px 10px 0; position: relative; width: 900px;}
+.banner-tailored-by-umbro {background: url(/lib/hlight/jdfootball/images/structure/umbro-england-header.jpg) 0 5px no-repeat #FFF;}
+	.banner a.shop-here {height: 337px; position: absolute; bottom: 0; left: 0; text-indent: -9999px; width: 100%; z-index: 10;}
+		.banner a.shop-here span.link {background: url(/lib/hlight/jdfootball/images/structure/button-shop-here.png) 0 0 no-repeat; display: block; height: 26px; position: absolute; bottom: 35px; left: 21%; margin: 0 0 0 -47px; width: 95px;}
+		.banner a.shop-here:hover span.link {background-position: 0 -26px;}
+
+/* Colorbox */
+#colorbox, #cboxOverlay, #cboxWrapper {position:absolute; top:0; left:0; z-index:9999; overflow:hidden;}
+#cboxOverlay {position:fixed; width:100%; height:100%;}
+#cboxContent {position:relative; margin:28px 0;}
+#cboxLoadedContent{overflow:auto;}
+#cboxTitle{display:none;}
+#cboxLoadingOverlay, #cboxLoadingGraphic{position:absolute; top:0; left:0; width:100%; height:100%;}
+#cboxClose {cursor:pointer;}
+#cboxOverlay {background:url(/lib/hlight/jdfootball/images/structure/overlay.png) repeat 0 0;}
+#colorbox{}
+#cboxTopLeft, #cboxTopRight, #cboxBottomLeft, #cboxBottomRight,  #cboxMiddleLeft, #cboxMiddleRight, #cboxTopCenter, #cboxBottomCenter {display:none;}
+#cboxContent{background:#fff;}
+#cboxError{padding:50px; border:1px solid #ccc;}
+#cboxLoadedContent{margin-bottom:0px;}
+#cboxCurrent{position:absolute; bottom:4px; left:58px; color:#949494;}
+#cboxSlideshow{position:absolute; bottom:4px; right:30px; color:#0092ef;}
+#cboxPrevious{position:absolute; bottom:0; left:0; background:url(/lib/hlight/jdfootball/images/structure/controls.png) no-repeat -75px 0; width:25px; height:25px; text-indent:-9999px;}
+#cboxPrevious:hover{background-position:-75px -25px;}
+#cboxNext{position:absolute; bottom:0; left:27px; background:url(/lib/hlight/jdfootball/images/structure/controls.png) no-repeat -50px 0; width:25px; height:25px; text-indent:-9999px;}
+#cboxNext:hover{background-position:-50px -25px;}
+#cboxLoadingOverlay{background:url(/lib/hlight/jdfootball/images/structure/loading_background.png) no-repeat center center;}
+#cboxLoadingGraphic{background:url(/lib/hlight/jdfootball/images/structure/loading.gif) no-repeat center center;}
+#cboxClose{position:absolute; bottom:0; right:0; background:url(/lib/hlight/jdfootball/images/structure/controls.png) no-repeat -25px 0; width:25px; height:25px; text-indent:-9999px; top:-30px;}
+#cboxClose:hover{background-position:-25px -25px;}
+
+
+/* Product-Features */
+#ProductFeatures {background: #FFF; float:left; height: 283px; width: 900px; margin:10px 0 0 0; border-top:1px solid #ddd; border-bottom:1px solid #ddd;padding:10px; }
+#ProductFeatures ul {float:left; width:100%; padding:10px 0 20px 0;}
+#ProductFeatures ul li.productItem {height:18em;}
+#ProductFeatures h2 {font-size: 1.5em; font-weight: bold; padding: 5px 0 0 0;}
+/*** Product item ***/
+.productItem {
+    padding:0px 2px 5px 0px;
+    text-align:center;
+    width:173px;
+    height:23em;
+    float:left;
+    position:relative;
+}
+.productItem:hover a, .productItem:hover span span {
+	text-decoration: ;
+}
+.shoes .productItem {
+    height:18em;
+}
+.productItem span {   
+    line-height:140%;
+    padding:0;
+    font-size:15px;
+    font-weight:bold;
+}
+.productItem h2, .productItem h3 {
+    position:relative;
+    margin:180px 0 0 0;
+    height:auto!important;
+    height:4.1em;
+    padding:0 4px;
+    font-size:.95em;
+}
+.shoes .productItem h2, .shoes .productItem h3 {
+    margin:130px 0 0 0;
+}
+.productImage img{
+    position:absolute;
+    top:0;
+    left:0;
+}
+.productItem a{
+    text-decoration:none;
+    padding:2px;
+    color:#000;
+    font-size: 12px;
+    -webkit-transition:all 180ms ease-in-out; -moz-transition:all 180ms ease-in-out; -o-transition:all 180ms ease-in-out; transition:all 180ms ease-in-out;
+    line-height: 1.5;
+}
+.productItem a:hover{
+    text-decoration: none;
+    background: #000;
+    color: #FFF;
+}
+.productItem a.favourites {
+    color:silver;
+    text-decoration:none;
+    font-size:.8em;
+} 
+.productItem a.moreColours {
+	width: 171px;
+	display: block;
+}  
+.productItem .oldPrice, .productItem:hover .oldPrice {
+    font-size:.8em;
+    color:#000;
+    font-weight:normal;
+    text-decoration:line-through;
+}
+.productItem .newPrice {
+    padding-left:5px;
+    color:red;
+}
+.high .productItem {
+    border:none;
+    height:241px;
+}
+.clothing .productItem .shoes, .accessories .productItem .shoes {
+    padding:25px 0;
+}
+.crossSellItem .shoes {
+    padding:18px 0;
+}
+
+
+
+
+
+a.productImage:hover {background: none!important;}
+
+ul#crests {
+	background: url("/lib/hlight/jdfootball/images/content/team-crest-bg.gif") no-repeat scroll center center transparent;
+    float: left;
+    margin: 5px 10px;
+    padding: 0 47px;
+    width: 806px;
+}
+
+ul#crests li {
+	float:left;
+
+
+}
+
+ul#crests li a img {
+
+	/* for IE */
+  filter:alpha(opacity=50);
+    /* standard */
+  opacity:0.5;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* Euro 2012 */
+
+
+
+body.euro2012 {background: url(/lib/hlight/jdfootball/images/euro2012/background.jpg) center 142px no-repeat #000; overflow-x: hidden;}
+
+a:hover {cursor: pointer;}
+
+
+
+
+body.euro2012 .scroller {background: #FFF; height: 383px; padding: 5px 10px 10px 10px;}
+
+body.euro2012 .scrollable {background: #FFF; height: 246px; position: relative; overflow: hidden; width: 900px;}
+	body.euro2012 .scrollable .items {position: absolute; width: 20000em;}
+		body.euro2012 .scrollable .items .post {position: relative;}
+			body.euro2012 .scrollable .items .post a {position: absolute; top: 0; left: 0; height: 246px; text-decoration: none; width: 900px;}
+				body.euro2012 .scrollable .items .post a span {background: url(/lib/hlight/jdfootball/images/euro2012/structure/button-arrow.png) right center no-repeat #FFF; color: #000; display: block; font-stretch: condensed; font-family: HelveticaNeue-CondensedBold, 'Helvetica Neue', Helvetica, Arial, Verdana, sans-serif; font-weight: bold; font-size: 1.6em; padding: 5px 25px 5px 15px; position: absolute; bottom: 20px; right: 20px; text-decoration: none; text-transform: uppercase; -webkit-transition:all 180ms ease-in-out; -moz-transition:all 180ms ease-in-out; -o-transition:all 180ms ease-in-out; transition:all 180ms ease-in-out;}
+				body.euro2012 .scrollable .items .post a:hover span {background: url(/lib/hlight/jdfootball/images/euro2012/structure/button-arrow-hover.png) right center no-repeat #000; color: #FFFF37; text-decoration: none;}
+			body.euro2012 .scrollable .items .post h2 {position: absolute; text-indent: -9999em;}
+
+body.euro2012 .navi {background: #FFF; height: 80px; margin: 0 auto; width: 900px;}
+	body.euro2012 .navi li {float: left; width: 56px;}
+	body.euro2012 .navi a.icon {background: url(/lib/hlight/jdfootball/images/euro2012/teams/badges.jpg) 0 0 no-repeat; display: block; height: 66px; margin: 0; text-indent: -9999px; width: 56px; -webkit-transition:all 180ms ease-in-out; -moz-transition:all 180ms ease-in-out; -o-transition:all 180ms ease-in-out; transition:all 180ms ease-in-out;}
+	body.euro2012 .navi a#item-1 {background-position: 0 0;}
+	body.euro2012 .navi a#item-1:hover, body.euro2012 .navi li.active a#item-1 {background-position: 0 -66px;}
+	body.euro2012 .navi a#item-2 {background-position: -56px 0;}
+	body.euro2012 .navi a#item-2:hover, body.euro2012 .navi li.active a#item-2 {background-position: -56px -66px;}
+	body.euro2012 .navi a#item-3 {background-position: -112px 0;}
+	body.euro2012 .navi a#item-3:hover, body.euro2012 .navi li.active a#item-3 {background-position: -112px -66px;}
+	body.euro2012 .navi a#item-4 {background-position: -168px 0;}
+	body.euro2012 .navi a#item-4:hover, body.euro2012 .navi li.active a#item-4 {background-position: -168px -66px;}
+	body.euro2012 .navi a#item-5 {background-position: -224px 0;}
+	body.euro2012 .navi a#item-5:hover, body.euro2012 .navi li.active a#item-5 {background-position: -224px -66px;}
+	body.euro2012 .navi a#item-6 {background-position: -280px 0;}
+	body.euro2012 .navi a#item-6:hover, body.euro2012 .navi li.active a#item-6 {background-position: -280px -66px;}
+	body.euro2012 .navi a#item-7 {background-position: -336px 0;}
+	body.euro2012 .navi a#item-7:hover, body.euro2012 .navi li.active a#item-7 {background-position: -336px -66px;}
+	body.euro2012 .navi a#item-8 {background-position: -392px 0;}
+	body.euro2012 .navi a#item-8:hover, body.euro2012 .navi li.active a#item-8 {background-position: -392px -66px;}
+	body.euro2012 .navi a#item-9 {background-position: -448px 0;}
+	body.euro2012 .navi a#item-9:hover, body.euro2012 .navi li.active a#item-9 {background-position: -448px -66px;}
+	body.euro2012 .navi a#item-10 {background-position: -504px 0;}
+	body.euro2012 .navi a#item-10:hover, body.euro2012 .navi li.active a#item-10 {background-position: -504px -66px;}
+	body.euro2012 .navi a#item-11 {background-position: -560px 0;}
+	body.euro2012 .navi a#item-11:hover, body.euro2012 .navi li.active a#item-11 {background-position: -560px -66px;}
+	body.euro2012 .navi a#item-12 {background-position: -616px 0;}
+	body.euro2012 .navi a#item-12:hover, body.euro2012 .navi li.active a#item-12 {background-position: -616px -66px;}
+	body.euro2012 .navi a#item-13 {background-position: -672px 0;}
+	body.euro2012 .navi a#item-13:hover, body.euro2012 .navi li.active a#item-13 {background-position: -672px -66px;}
+	body.euro2012 .navi a#item-14 {background-position: -728px 0;}
+	body.euro2012 .navi a#item-14:hover, body.euro2012 .navi li.active a#item-14 {background-position: -728px -66px;}
+	body.euro2012 .navi a#item-15 {background-position: -784px 0;}
+	body.euro2012 .navi a#item-15:hover, body.euro2012 .navi li.active a#item-15 {background-position: -784px -66px;}
+	body.euro2012 .navi a#item-16 {background-position: -840px 0;}
+	body.euro2012 .navi a#item-16:hover, body.euro2012 .navi li.active a#item-16 {background-position: -840px -66px;}
+	body.euro2012 .navi span:hover {cursor: pointer;}
+
+.euro2012 .header h2 {background: url(/lib/hlight/jdfootball/images/euro2012/banner-shopbyteam.png) left top no-repeat; height: 57px; text-indent: -9999px;}
+	
+.euro2012 .buy-now {}
+	.euro2012 .buy-now li {width: 56px; visibility: hidden;}
+		body.euro2012 .navi li h2 {font-size: 1.2em; font-weight: bold; margin: 5px 0 5px 0; text-transform: uppercase; text-align: left;}
+		body.euro2012 .navi li span {margin: 0 auto; width: 72px;}
+
+.jd-world-cup {background: #FFF; margin: 10px 0; padding: 5px 0 10px 0;}
+	.jd-world-cup h2 {background: url(/lib/hlight/jdfootball/images/euro2012/header-competition.png) 0 0 no-repeat; height: 57px; text-indent: -9999px; width: 900px;}
+
+.secondary-wrapper {background: #FFF; padding: 5px 10px 0 10px; margin: 10px 0 0 0; width: 900px;}
+	.the-latest {background: #FFF; width: 900px;}
+		.the-latest h2 {background: url(/lib/hlight/jdfootball/images/euro2012/header-the-latest-on-euro.png) 0 0 no-repeat; height: 57px; text-indent: -9999px; width: 900px;}
+		.the-latest ul {margin: 10px 0 0 0; width: 900px;}
+			.the-latest ul li {margin: 0 0 20px 0; width: 450px; height:218px; }
+				.the-latest ul li h3 {margin: 0 0 10px 10px; width: 290px;}
+					.the-latest ul li h3 a {color: #000; font-stretch: condensed; font-family: HelveticaNeue-CondensedBold, 'Helvetica Neue', Helvetica, Arial, Verdana, sans-serif; font-weight: bold; font-size: 1.6em; text-decoration: none; text-transform: uppercase;}
+				.the-latest ul li p {font-size: 1.2em; line-height: 1.4; margin: 0 0 0 10px; width: 290px;}
+					.the-latest ul li a.read {color: #000; display: block; font-family: HelveticaNeue-CondensedBold, "Helvetica Neue", Helvetica, Arial, sans-serif; font-size: 1.2em; line-height: 1.4; font-weight: bold; margin: 5px 10px 0 0; padding: 3px 5px 3px; text-decoration: none; text-transform: uppercase; text-align: center; width: auto; -webkit-transition:all 180ms ease-in-out; -moz-transition:all 180ms ease-in-out; -o-transition:all 180ms ease-in-out; transition:all 180ms ease-in-out;}
+					.the-latest ul li:hover a.read {background: #000; color: #FFFF37;}
+					
+					.the-latest ul li:hover h3 { text-decoration:underline; }
+					
+					
+					
+		.the-latest a.join-the-conversation {background: url(/lib/hlight/jdfootball/images/euro2012/button-join-the-conversation.png) 0 0 no-repeat #FFFF37; display: block; height: 38px; margin: 0 10px 10px 0; text-indent: -9999px; width: 270px; -webkit-transition:all 180ms ease-in-out; -moz-transition:all 180ms ease-in-out; -o-transition:all 180ms ease-in-out; transition:all 180ms ease-in-out;}
+		.the-latest a.join-the-conversation:hover {background-color: #FFF;}
+		
+		
+		div.primary .module-euro-map { display:block; height: 526px; background:#f1f1f1; text-align:center; }
+		
+		div.primary .module-football-eng {background: url(/lib/hlight/jdfootball/images/structure/module-england-glory.jpg) 0 0 no-repeat;}
+		div.primary .module-football-eng h2 {background: url(/lib/hlight/jdfootball/images/structure/header-eng.png) 0 0 no-repeat; width: 199px; height:145px; }
+		
+		

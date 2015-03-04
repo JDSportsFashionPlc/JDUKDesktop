@@ -1,0 +1,139 @@
+/* CSS Document TS */
+/* Original Sale Red #F93A3F */
+
+/* Group - Allows floated children without overflow:hidden */
+.group:before, .group:after {content: " "; display: table;} 
+.group:after {clear: both;}
+.group {zoom: 1;}
+
+.contentContainer { width:100%; padding:0; margin:0; }
+
+
+    #banner { text-indent: -9999%; width: 100%; height:360px; background:#000 url('/lib/hlight/offers/images/sale-page-banner.jpg') no-repeat center center; } 
+	#banner span { display:block; /*width:976px;*/ width: 156px; height:275px; position:absolute; top:150px; left:5%; background:url('/lib/hlight/offers/images/sale-side-banner.png') no-repeat 0 0; }
+	#banner h1 { position:absolute; left:0; top:0; display:block; width:156px; height:235px; }
+    h1 .highlight {font-weight: 100;}
+
+#Wrapper {position: relative; width:976px; margin:0 auto; }
+	
+	
+	
+/* Tabs */
+#Wrapper { background:url('/lib/hlight/offers/images/sale-page-refrsh-bg.jpg') repeat-x 0 0;  width:100%; /* height:50px; background:#E71F24; position:absolute; left:0; top:500px; z-index:1; */ }
+    #Wrapper .tabs {height: 110px; margin: 0 auto; width: 468px; }
+    	#Wrapper .tabs .tab {float: left; height: 52px; width: 156px;}
+        	 #Wrapper .tabs .tab > a {/* background: #636161; */ color: #FFF; display: block; font-size: 18px; font-weight: 500; line-height: 52px; text-align: center; text-decoration: none; text-transform: uppercase; -webkit-transition: background 180ms ease-out; transition: background 180ms ease-out;}
+			 /* #selections .tabs .tab > a.mens {background: #636161; border-top-left-radius: 6px;} */
+			 /* #selections .tabs .tab > a.womens {background: #868585;} */
+			 /* #selections .tabs .tab > a.kids {background: #9F9E9E; border-top-right-radius: 6px;} */
+             #Wrapper .tabs .tab > a.active {background: #626060; } 
+             #Wrapper .tabs .tab > a:hover, #Wrapper .tabs .tab > a:active {background: #626060;}
+			 #Wrapper .tabs .tab > a.active:hover, #Wrapper .tabs .tab > a.active:focus {background: #626060;} 
+             #Wrapper .tabs .tab .categories { /* background: #626060; border-radius: 6px; */ height: 75px; padding:4px 0 0 0; /* position: absolute; left:0; top:4px; */ width: 470px; background:url('/lib/hlight/offers/images/sale-page-down-arrow.png') no-repeat 0 5px; }
+            	 #Wrapper .tabs .tab .categories .category {float: left; padding: 9px 0 0 0; width: 156px;}
+                	 #Wrapper .tabs .tab .categories .category a { /* border-right: 1px solid #FFF; border-right: 1px solid rgba(255, 255, 255, 0.5); */ color: #FFF; display: block; font-size: 15px; font-weight: 100; text-align: center; text-decoration: none; -webkit-transition: color 180ms ease-out; transition: color 180ms ease-out;}
+					 #Wrapper .tabs .tab .categories .category-end a {border-right: none;}
+                     #Wrapper .tabs .tab .categories .category a:hover, #Wrapper .tabs .tab .categories .category a:active {color: #000;}
+.full-width { position:absolute; top:550px; width:100%; height:34px; display:block; background: #626060; }
+
+/* Sections */
+	#Wrapper .section {float: left; width: 976px; }
+    #Wrapper .section-split {margin: 0 32px 0 0; width: 472px;}
+	#Wrapper .section-split-end {margin: 0;}
+    	#Wrapper .section h2 {color: #636262; font-size: 16px; font-weight: 100; margin: 20px 0 20px 0; text-align: center; text-transform: uppercase;}
+			#Wrapper .section h2 .highlight {font-weight: 500;}
+        #Wrapper .section .content-wrapper {background: #F6F5F5; padding: 0 25px 40px; -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); -moz-box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);}
+
+/* Size */
+        	#Wrapper .section .content-wrapper .sizes {float: left;}
+        	#Wrapper .section .content-wrapper .sizes.kids {width: 381px;}
+            #Wrapper .section .content-wrapper .clothing {width: 516px;}
+            #Wrapper .section .content-wrapper .footwear {float: right; width: 354px;}
+			#Wrapper .section .content-wrapper .sizes a { text-decoration:none; }
+            	#Wrapper .section .content-wrapper .sizes h2 {background:url('/lib/hlight/offers/images/sale-right-btn.png') no-repeat 230px 2px; border-bottom: 1px solid #626161; border-bottom: 1px solid rgba(98, 97, 97, 0.5); text-align: left; padding: 10px 0 20px 0;}
+					
+                	#Wrapper .section .content-wrapper .sizes h2 .highlight {}
+                	#Wrapper .section .content-wrapper .sizes .options {}
+                	#Wrapper .section .content-wrapper .sizes .options .option {float: left; height: 53px; margin: 0 11px 11px 0; text-align: center; width: 80px;}
+                    #Wrapper .section .content-wrapper .sizes .options .option-large {height: 117px; margin: 0 21px 11px 0; width: 113px;}
+                    #Wrapper .section .content-wrapper .sizes .options .option-end {margin-right: 0;}
+                    	#Wrapper .section .content-wrapper .sizes .options .option a {color: #FFF; background: #F93A3F; border-radius: 4px; display: block; font-size: 22px; font-weight: 500; height: 53px; line-height: 59px; text-decoration: none; -webkit-transition: all 180ms ease-out; transition: all 180ms ease-out;}
+						#Wrapper .section .content-wrapper .sizes .options .option-large a {height: 117px; line-height: 120px; width: 113px;}
+						#Wrapper .section .content-wrapper .sizes .options .option a:hover, #Wrapper .section .content-wrapper .sizes .options .option a:active {background: #000; font-size: 210%;}
+                /* #Wrapper .section .content-wrapper .sizes .shop-all {background: url('/lib/hlight/offers/images/icon-arrow.png') 92px 10px no-repeat #8A8888; border-radius: 6px; color: #FFF; display: block; font-size: 13px; font-weight: 500; height: 44px; line-height: 47px; margin: 20px 0 0 0; padding: 0 15px; text-decoration: none; text-transform: uppercase; width: 100px; -webkit-transition: all 180ms ease-out; transition: all 180ms ease-out;} */
+				#Wrapper .section .content-wrapper .sizes .shop-all:hover, #Wrapper .section .content-wrapper .sizes .shop-all:active {background-color: #000;}
+
+/* Brands */				
+		#Wrapper .section .brands {border-bottom: 1px solid #626161; border-bottom: 1px solid rgba(98, 97, 97, 0.5); border-top: 1px solid #626161; border-top: 1px solid rgba(98, 97, 97, 0.5); margin-bottom:40px; display:none; }
+			#Wrapper .section .brands .option {float: left; height: 93px; width: 10%;}
+				#Wrapper .section .brands  .option a {color: #FFF; display: block; height: 93px; overflow: hidden; position: relative; text-decoration: none;}
+					#Wrapper .section .brands .option a img {display: block; opacity: 1; position: relative; -webkit-transition: all 180ms ease-out; transition: all 180ms ease-out;}
+					#Wrapper .section .brands .option a:hover img, #Wrapper .section .brands .option a:active img {opacity: 0; top: -93px;}
+					#Wrapper .section .brands .option:nth-child(odd) a:hover img, #Wrapper .section .brands .option:nth-child(odd) a:active img {bottom: -93px; opacity: 0; top: auto;}
+					#Wrapper .section .brands .option a .rollover {background: #F93A3F; height: 100%; opacity: 0; width: 100%; position: absolute; left: 0; top: 93px; -webkit-transition: all 180ms ease-out; transition: all 180ms ease-out;}
+					#Wrapper .section .brands .option:nth-child(odd) a .rollover {bottom: 93px; top: auto;}
+					#Wrapper .section .brands .option a:hover .rollover, #Wrapper .section .brands .option a:active .rollover {opacity: 1; top: 0;}
+					#Wrapper .section .brands .option:nth-child(odd) a:hover .rollover, #Wrapper .section .brands .option:nth-child(odd) a:active .rollover {bottom: 0; opacity: 1; top: auto;}
+					#Wrapper .section .brands .option a p {background: url('/lib/hlight/offers/images/icon-arrow.png') 10px 59px no-repeat; font-size: 16px; font-weight: 100; height: 73px; line-height: 1; text-decoration: none; text-transform: uppercase; padding: 10px;}
+					#Wrapper .section .brands .option a p .highlight {display: block; font-weight: 500;}
+
+/* Offer/Price */
+		#Wrapper .section .content-offer {padding: 20px 0;}
+			#Wrapper .section .content-offer .options {}
+				#Wrapper .section .content-offer .options .option {border-right: 1px solid #626161; border-right: 1px solid rgba(98, 97, 97, 0.5); float: left; padding:0; width: 33%;}
+				#Wrapper .section .content-offer .options .option-end {border: none;}
+				#Wrapper .section .content-offer .options .option-single {border-left: 1px solid #626161; border-left: 1px solid rgba(98, 97, 97, 0.5); margin: 0 0 0 155px;}
+					#Wrapper .section .content-offer  .options .option a {background: url('/lib/hlight/offers/images/shop-by.png') 32px 0 no-repeat; display: block; height: 80px; text-indent: -9999px;}
+						#Wrapper .section .content-offer .options .option a span {background: url('/lib/hlight/offers/images/shop-by.png') -2px -101px no-repeat; display: block; height: 44px; margin: 20px 0 0 0; width: 157px; -webkit-transition: background 180ms ease-out; transition: background 180ms ease-out;}
+						#Wrapper .section .content-offer .options .option a:hover span, #Wrapper .section .content-offer .options .option a:active span {background-position: -2px -151px;}
+						#Wrapper .section .content-offer .options .option a.two-for-twenty span {background-position: -163px -101px;}
+						#Wrapper .section .content-offer .options .option a.two-for-twenty:hover span, #Wrapper .section .content-offer .options .option a.two-for-twenty:active span {background-position: -163px -151px;}
+						#Wrapper .section .content-offer .options .option a.two-for-twentyfive span {background-position: -323px -101px;}
+						#Wrapper .section .content-offer .options .option a.two-for-twentyfive:hover span, #Wrapper .section .content-offer .options .option a.two-for-twentyfive:active span {background-position: -323px -151px;}
+						#Wrapper .section .content-offer .options .option a.two-for-thirty span {background-position: -483px -100px;}
+						#Wrapper .section .content-offer .options .option a.two-for-thirty:hover span, #Wrapper .section .content-offer .options .option a.two-for-thirty:active span {background-position: -483px -150px;}
+					#Wrapper .section .content-price  .options .option a {background-position: -314px 53px;}
+						#Wrapper .section .content-price  .options .option a span {background-position: -640px -200px; margin: -10px 0 0 0;}
+						#Wrapper .section .content-price  .options .option a:hover span, #Wrapper .section .content-price  .options .option a:active span {background-position: -640px -250px;}
+						#Wrapper .section .content-price  .options .option a.twenty-and-under span {background-position: -163px -200px;}
+						#Wrapper .section .content-price  .options .option a.twenty-and-under:hover span, #Wrapper .section .content-price  .options .option a.twenty-and-under:active span {background-position: -163px -250px;}
+						#Wrapper .section .content-price  .options .option a.thirty-and-under span {background-position: -485px -200px;}
+						#Wrapper .section .content-price  .options .option a.thirty-and-under:hover span, #Wrapper .section .content-price  .options .option a.thirty-and-under:active span {background-position: -485px -250px;}
+
+/* CTA */
+	#Wrapper .section-split {margin-bottom: 40px;}
+		#Wrapper .section-split .cta {background: #F6F5F5; color: #F93A3F; display: block; font-size: 38px; font-weight: 500; height: 44px; line-height: 52px; padding: 25px; position: relative; text-decoration: none; text-transform: uppercase; -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); -moz-box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);}
+        	#Wrapper .section-split .cta .shop-now {background: url('/lib/hlight/offers/images/sale-right-btn.png') 92px 7px no-repeat #8A8888; border-radius: 6px; color: #FFF; display: block; font-size: 13px; font-weight: 500; height: 44px; line-height: 47px; padding: 0 15px; position: absolute; text-decoration: none; text-transform: uppercase; width: 100px; top: 25px; right: 25px; -webkit-transition: all 180ms ease-out; transition: all 180ms ease-out;}
+			#Wrapper .section-split .cta:hover .shop-now, #Wrapper .section-split .cta:active .shop-now {background-color: #000;}
+			
+#Kids {display: none;}
+#Womens {display: none;}
+.right-btn { background:url('/lib/hlight/offers/images/sale-right-btn.png') no-repeat 560px 2px; }
+.plus-btn { background:url('/lib/hlight/offers/images/sale-plus-minus-btn.png') no-repeat 560px -32px; }
+#footer-band { background:url('/lib/hlight/offers/images/sale-page-footer.png') repeat-x 0 0; width:100%; height:51px; }
+
+@media only screen 
+and (min-width : 1100px) 
+and (max-width : 1920px)  {
+	#banner span { left:20%; }
+}
+
+@media only screen 
+and (min-width : 951px) 
+and (max-width : 1099px)  {
+	#banner span { /*left:0%;*/ }
+}
+
+@media only screen 
+and (min-width : 851px) 
+and (max-width : 950px)  {
+	#banner span { /*left:4%;*/ }
+}
+
+@media only screen 
+and (min-width : 769px) 
+and (max-width : 850px)  {
+	#banner span { /*left:2%;*/ }
+}
+
+

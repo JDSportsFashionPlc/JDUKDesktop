@@ -1,0 +1,94 @@
+{
+    "Page": [{
+        "Id": 0,
+        "IsActive": true,
+        "PageName": "crosstownrunning",
+        "PageURL": "nike-crosstown-running-running",
+        "TopBannerSlider": [{
+            "id": 1,
+            "link": "",
+            "pic": "/images/library/2015/20.02.2015/ctr/home-womens-banner.jpg"
+        }],
+        "GenderSlider": [{
+                "id": 0,
+            "link": "/page/nike-crosstown-running_latest/#sliderNike-1",
+            "pic": "/images/library/2015/20.02.2015/ctr/latest_spot_02.jpg"
+        }, {
+            "id": 1,
+            "link": "/page/nike-crosstown-running_latest/#sliderNike-2",
+            "pic": "/images/library/2015/20.02.2015/ctr/latest_spot_03.jpg"
+        }, {
+            "id": 2,
+            "link": "/page/nike-crosstown-running_latest/#sliderNike-3",
+            "pic": "/images/library/2015/20.02.2015/ctr/latest_spot_04.jpg"
+        }, {
+            "id": 3,
+            "link": "/page/nike-crosstown-running_latest/#sliderNike-4",
+            "pic": "/images/library/2015/20.02.2015/ctr/latest_spot_05.jpg"
+        }
+        ],
+        "CaroselSlider": [{
+            "id": 1,
+            "link": "http://www.jdsports.co.uk/product/036162/",
+            "linkname": "Nike Air Max Thea",
+            "pic": "http://i1.adis.ws/i/jpl/jd_036162_a?w=175&h=175"
+        }, {
+            "id": 2,
+            "link": "http://www.jdsports.co.uk/product/014594/",
+            "linkname": "Nike Free Run 2",
+            "pic": "http://i1.adis.ws/i/jpl/jd_014594_a?w=175&h=175"
+        }, {
+            "id": 3,
+            "link": "http://www.jdsports.co.uk/product/015911/",
+            "linkname": "Nike Free 5.0",
+            "pic": "http://i1.adis.ws/i/jpl/jd_015911_a?w=175&h=175"
+        }, {
+            "id": 4,
+            "link": "http://www.jdsports.co.uk/product/136985/",
+            "linkname": "Nike Lunarglide 6",
+            "pic": "http://i1.adis.ws/i/jpl/jd_136985_a?w=175&h=175"
+        }, {
+            "id": 5,
+            "link": "http://www.jdsports.co.uk/product/007152/",
+            "linkname": "Nike Epic Run Lux Printed Tights",
+            "pic": "http://i1.adis.ws/i/jpl/jd_007152_a?w=175&h=175"
+        }, {
+            "id": 6,
+            "link": "http://www.jdsports.co.uk/product/004812/",
+            "linkname": "Nike Element Half Zip Top",
+            "pic": "http://i1.adis.ws/i/jpl/jd_004812_a?w=175&h=175"
+        }, {
+            "id": 7,
+            "link": "http://www.jdsports.co.uk/product/154416/",
+            "linkname": "Nike Signal T-Shirt",
+            "pic": "http://i1.adis.ws/i/jpl/jd_154416_a?w=175&h=175"
+        }, {
+            "id": 8,
+            "link": "http://www.jdsports.co.uk/product/098601/",
+            "linkname": "Nike SportWatch + GPS With Sensor",
+            "pic": "http://i1.adis.ws/i/jpl/jd_098601_a?w=175&h=175"
+        }],
+        "MainBoxTitle": "SHOP CROSSTOWN",
+        "FirstBox": "/images/library/2015/20.02.2015/ctr/women/footwear_spot_01.jpg",
+        "FirstBoxTitle": "+ PRODUCT NAME",
+        "SecondBox": "/images/library/2015/20.02.2015/ctr/women/clothing_spot_01.jpg",
+        "SecondBoxTitle": "+ PRODUCT NAME",
+        "ThirdBox": "/lib/hlight/nike-crosstown-running/assets/imgs/01.08.2014/WOMENS/ACCESSORIES.jpg",
+        "ThirdBoxTitle": "+ PRODUCT NAME",
+        "FirstUL": [{
+            "id": 0,
+            "link": "/page/nike-crosstown-running_women-footwear/",
+            "name": "FOOTWEAR"
+        }],
+        "SecondUL": [{
+            "id": 0,
+            "link": "/page/nike-crosstown-running_women-clothing/",
+            "name": "CLOTHING"
+        }],
+        "ThirdUL": [{
+            "id": 0,
+            "link": "/page/nike-crosstown-running_women-accessories/",
+            "name": "ACCESSORIES"
+        }]
+    }]
+}

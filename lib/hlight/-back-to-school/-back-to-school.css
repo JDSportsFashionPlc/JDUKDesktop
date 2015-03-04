@@ -1,0 +1,107 @@
+
+@font-face {
+    font-family: 'hammo_markerregular';
+    src: url('fonts/hammo_marker-webfont.eot');
+    src: url('fonts/hammo_marker-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/hammo_marker-webfont.woff') format('woff'),
+         url('fonts/hammo_marker-webfont.ttf') format('truetype'),
+         url('fonts/hammo_marker-webfont.svg#hammo_markerregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+h1{ font-size: 18px; font-weight: bold; }
+
+#delivery-banner, .delivery-msg{ display:none; }
+.contentContainer{ margin:0px auto; width:auto; max-width:1680px; padding:0; min-width:976px; }
+
+#social-share{ width:976px; margin:0 auto; }
+#social-share .social-col{ width: 50%; float: left; }
+
+#scroll-container{ width:100%; height:620px; margin-bottom:25px; position: relative; overflow:hidden; }
+#scroller{
+background: #98d5d1; /* Old browsers */
+
+background: -moz-linear-gradient(top,  #98d5d1 0%, #fff9c1 75%, #ffffff 76%); /* FF3.6+ */
+
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#98d5d1), color-stop(75%,#fff9c1), color-stop(76%,#ffffff)); /* Chrome,Safari4+ */
+
+background: -webkit-linear-gradient(top,  #98d5d1 0%,#fff9c1 75%,#ffffff 76%); /* Chrome10+,Safari5.1+ */
+
+background: -o-linear-gradient(top,  #98d5d1 0%,#fff9c1 75%,#ffffff 76%); /* Opera 11.10+ */
+
+background: -ms-linear-gradient(top,  #98d5d1 0%,#fff9c1 75%,#ffffff 76%); /* IE10+ */
+
+background: linear-gradient(to bottom,  #98d5d1 0%,#fff9c1 75%,#ffffff 76%); /* W3C */
+
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#98d5d1', endColorstr='#ffffff',GradientType=0 ); /* IE6-9 */
+
+
+ }
+
+ul#generic-buttons{ position: absolute; top: 158px; left: 35px; }
+
+ul#generic-buttons li{ float: left; margin-right: 10px; }
+ul#generic-buttons li a{ font-family: "hammo_markerregular", Helvetica, Arial, sans-serif; text-decoration: none; display:inline-block; line-height:0; font-size:12px; letter-spacing: 1px; color:#000; background: #FFF; padding:10px; padding-top:12px; margin:1px; border:2px solid #000; border-radius:3px; }
+ul#generic-buttons li a:hover{ color: #FFF; background: #000; }
+ul#generic-buttons li span{ font-family: "hammo_markerregular", Helvetica, Arial, sans-serif; text-decoration: none; display:inline-block; line-height:0; font-size:12px; letter-spacing: 1px; color:#000; padding:10px; padding-top:12px; margin:1px; }
+
+
+img#intro-arrow-anim{ position: absolute; top: 245px; left: 650px; }
+
+
+#scroller{ width:6268px; height:100%; position:absolute; top:0; left:0; }
+
+.section{ float:left; height:100%; }
+
+#finished-panel{ width:976px; background:#FFF; }
+
+#illustation-panel{ position:relative; }
+
+.layer{ width:6268px; height:620px; position:absolute; top:0; left:0; }
+.background{ background:url('img/background.png') no-repeat 0 0; }
+.foreground{  }
+.clouds{ width:100%; height:620px; background:url('img/clouds.png') no-repeat 0 0px; /*background-attachment:fixed;*/ }
+
+.section{ float:left; position:relative; }
+
+img.skyline-1{ position:absolute; top:122px; left:1650px; }
+img.skyline-2{ position:absolute; top:140px; left:5300px; }
+img.skyline-intro{ position: absolute; top: 72px; left: 0px; }
+img.skyline-4{ position:absolute; top:80px; left:3580px; }
+ 
+.product-detail{ position:absolute; cursor:pointer; }
+.product-detail span{ font-family: "hammo_markerregular", Helvetica, Arial, sans-serif; display:inline-block; line-height:0; font-size:9px; letter-spacing: 1px; color:#000; background: #FFF; padding:10px; padding-top:12px; margin:1px; border:1px solid #000; border-radius:3px; }
+span.only-at-jd, a.product-link:hover .product-detail span.only-at-jd{ background:#fff200; color:#000; margin-bottom:-6px; margin-left:-4px; }
+span.coming-soon, a.product-link:hover .product-detail span.coming-soon{ background:#000; color:#999; margin-bottom:-6px; margin-left:-4px;  }
+
+a.product-link{ text-decoration:none; display: none; }
+a.product-link:hover .product-detail span{ background:#000; color:#FFF; }
+
+a.coming-soon-link:hover .product-detail span{ cursor: default; background: #FFF; color: #000; }
+
+.hanging-trainers{ display: block; position: absolute; top:183px; left: 61px; }
+
+.swing{-webkit-animation-fill-mode:both;-moz-animation-fill-mode:both;-ms-animation-fill-mode:both;-o-animation-fill-mode:both;animation-fill-mode:both;-webkit-animation-duration:2s;-moz-animation-duration:2s;-ms-animation-duration:2s;-o-animation-duration:2s;animation-duration:2s;}.animated.hinge{-webkit-animation-duration:2s;-moz-animation-duration:2s;-ms-animation-duration:2s;-o-animation-duration:2s;animation-duration:2s;}
+@-webkit-keyframes swinging {
+	0% {
+        -webkit-transform: rotate(-3deg);
+    }
+
+    50% {
+        -webkit-transform: rotate(4deg);
+    }
+
+    100% {
+        -webkit-transform: rotate(-3deg);
+    }
+}
+
+.swing {
+	-webkit-transform-origin: top center;
+	-moz-transform-origin: top center;
+	-o-transform-origin: top center;
+	transform-origin: top center;
+	-webkit-animation: swinging 3s infinite ease-in-out;
+}

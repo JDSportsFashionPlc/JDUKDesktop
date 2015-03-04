@@ -1,0 +1,105 @@
+{
+    "Page": [{
+        "Id": 0,
+        "IsActive": true,
+        "PageName": "crosstownrunning",
+        "PageURL": "nike-crosstown-running-running",
+        "TopBannerSlider": [{
+            "id": 1,
+            "link": "",
+            "pic": "/images/library/2015/20.02.2015/ctr/home-mens-banner.jpg"
+        }],
+        "GenderSlider": [
+
+
+            {
+                "id": 0,
+            "link": "/page/nike-crosstown-running_latest/#sliderNike-1",
+            "pic": "/images/library/2015/20.02.2015/ctr/latest_spot_02.jpg"
+        }, {
+            "id": 1,
+            "link": "/page/nike-crosstown-running_latest/#sliderNike-2",
+            "pic": "/images/library/2015/20.02.2015/ctr/latest_spot_03.jpg"
+        }, {
+            "id": 2,
+            "link": "/page/nike-crosstown-running_latest/#sliderNike-3",
+            "pic": "/images/library/2015/20.02.2015/ctr/latest_spot_04.jpg"
+        }, {
+            "id": 3,
+            "link": "/page/nike-crosstown-running_latest/#sliderNike-4",
+            "pic": "/images/library/2015/20.02.2015/ctr/latest_spot_05.jpg"
+        }
+
+
+
+        ],
+        "CaroselSlider": [{
+                "id": 1,
+                "link": "http://www.jdsports.co.uk/product/154718/",
+                "linkname": "Nike Zoom Pegasus 31",
+                "pic": "http://i1.adis.ws/i/jpl/jd_154718_a?w=175&h=175"
+            }, {
+                "id": 2,
+                "link": "http://www.jdsports.co.uk/product/091221/",
+                "linkname": "Nike Free 4.0 Flyknit",
+                "pic": "http://i1.adis.ws/i/jpl/jd_091221_a?w=175&h=175"
+            }, {
+                "id": 3,
+                "link": "http://www.jdsports.co.uk/product/154715/",
+                "linkname": "Nike Zoom Vomero 9",
+                "pic": "http://i1.adis.ws/i/jpl/jd_154715_a?w=175&h=175"
+            }, {
+                "id": 4,
+                "link": "http://www.jdsports.co.uk/product/154665/",
+                "linkname": "NikeFree 5.0 2014",
+                "pic": "http://i1.adis.ws/i/jpl/jd_154665_a?w=175&h=175"
+            }, {
+                "id": 5,
+                "link": "http://www.jdsports.co.uk/product/010238/",
+                "linkname": "Nike Reflective Tech Running Tights",
+                "pic": "http://i1.adis.ws/i/jpl/jd_010238_a?w=175&h=175"
+            }, {
+                "id": 6,
+                "link": "http://www.jdsports.co.uk/product/009327/",
+                "linkname": "Nike Dri-FIT Knit Long Sleeve T-Shirt",
+                "pic": "http://i1.adis.ws/i/jpl/jd_009327_a?w=175&h=175"
+            }, {
+                "id": 7,
+                "link": "http://www.jdsports.co.uk/product/079613/",
+                "linkname": "Nike Vapour Jacket",
+                "pic": "http://i1.adis.ws/i/jpl/jd_079613_a?w=175&h=175"
+            }
+
+
+
+
+
+
+
+
+
+        ],
+        "MainBoxTitle": "SHOP CROSSTOWN",
+        "FirstBox": "/images/library/2015/20.02.2015/ctr/men/footwear_spot_01.jpg",
+        "FirstBoxTitle": "+ PRODUCT NAME",
+        "SecondBox": "/images/library/2015/20.02.2015/ctr/men/clothing_spot_01.jpg",
+        "SecondBoxTitle": "+ PRODUCT NAME",
+        "ThirdBox": "/lib/hlight/nike-crosstown-running/assets/imgs/01.08.2014/MENS/ACCESSORIES.jpg",
+        "ThirdBoxTitle": "+ PRODUCT NAME",
+        "FirstUL": [{
+            "id": 0,
+            "link": "/page/nike-crosstown-running_men-footwear/",
+            "name": "FOOTWEAR"
+        }],
+        "SecondUL": [{
+            "id": 0,
+            "link": "/page/nike-crosstown-running_men-clothing/",
+            "name": "CLOTHING"
+        }],
+        "ThirdUL": [{
+            "id": 0,
+            "link": "/page/nike-crosstown-running_men-accessories/",
+            "name": "ACCESSORIES"
+        }]
+    }]
+}

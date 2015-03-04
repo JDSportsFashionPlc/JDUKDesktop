@@ -1,0 +1,234 @@
+<!-- LOAD LANDING PAGE SPECIFIC STYLES -->
+<link href="/css/jd-landing.css" rel="stylesheet" type="text/css">
+
+<!-- START LANDING PAGE -->
+<div class="landing-page-container pageoffers">
+	
+	<!-- SIDEBAR QUICK LINKS SECTION -->
+	<div id="sidebar">
+		<h1>Offers</h1>
+		<div id="sub-departments">
+			<h2><a style="font-weight:bold; font-size:14px;" href="#"><!--Men's -->Men's Offers</a></h2>
+			<ul>
+				<li><a title="Trainers" href="/page/online-sale-department_mens/">All Offers</a></li>
+				<li><a title="Classic Trainers" href="/men/mens-footwear/sale/">Footwear</a></li>
+				<li><a title="Skate Shoes" href="/men/mens-clothing/sale/">Clothing</a></li>
+				<li><a title="Hi-Tops" href="/men/mens-accessories/sale/">Accessories</a></li>
+				
+				<!--<div class="hidden-content" style="display:none;">
+					<li><a title="Boots &amp; Shoes" href="/men/mens-footwear/boots-and-shoes/?cm_re=HomeMen-_-CategoryMenu-_-mens-boots-and-shoes">Boots &amp; Shoes</a></li>
+					<li><a title="Fitness Footwear" href="/men/mens-footwear/fitness-footwear/?cm_re=HomeMen-_-CategoryMenu-_-mens-fitness-footwear">Fitness Footwear</a></li>
+					<li><a title="Football Boots" href="/men/mens-footwear/football-boots/?cm_re=HomeMen-_-CategoryMenu-_-mens-football-boots">Football Boots</a></li>
+					<li><a title="Running Shoes" href="/men/mens-footwear/running-shoes/?cm_re=HomeMen-_-CategoryMenu-_-mens-running-shoes">Running Shoes</a></li>
+					<li><a title="Canvas &amp; Plimsolls" href="/men/mens-footwear/canvas-and-plimsolls/?cm_re=HomeMen-_-CategoryMenu-_-mens-canvas-and-plimsolls">Canvas &amp; Plimsolls</a></li>
+					<li><a title="Flip-Flops &amp; Sandals" href="/men/mens-footwear/flip-flops-and-sandals/?cm_re=HomeMen-_-CategoryMenu-_-mens-flip-flops-and-sandals">Flip-Flops &amp; Sandals</a></li>
+					<li><a title="Sale Footwear" class="saleDD" href="/men/mens-footwear/sale/?cm_re=HomeMen-_-CategoryMenu-_-mens-sale-footwear">Sale Footwear</a></li>
+				</div> -->
+				
+				<!-- <li><a title="See All..." href="#" class="see-all">See more&nbsp;+</a></li> -->
+				<div class="clearfix"></div>
+			</ul>
+			
+			<h2><a style="font-weight:bold; font-size:14px;" href="#"><!--Women's -->Women's Offers</a></h2>
+			<ul>
+				<li><a href="/page/online-sale-department_womens/">All Offers</a></li>
+				<li><a href="/women/womens-footwear/sale/">Footwear</a></li>
+				<li><a href="/women/womens-clothing/sale/">Clothing</a></li>
+				<li><a href="/women/womens-accessories/sale/">Accessories</a></li>
+				
+				<!-- <div class="hidden-content" style="display:none;">
+					<li><a href="/men/mens-clothing/shorts/?cm_re=HomeMen-_-CategoryMenu-_-mens-shorts">Shorts</a></li>
+					<li><a href="/men/mens-clothing/swimwear/?cm_re=HomeMen-_-CategoryMenu-_-mens-swimmer">Swimwear</a></li>
+					<li><a href="/men/mens-clothing/track-tops/?cm_re=HomeMen-_-CategoryMenu-_-mens-track-pants">Track Tops</a></li>
+					<li><a href="/men/mens-clothing/sweatshirts/?cm_re=HomeMen-_-CategoryMenu-_-mens-sweatshirts">Sweatshirts</a></li>
+					<li><a href="/men/mens-clothing/Gilets/?cm_re=HomeMen-_-CategoryMenu-_-mens-gilets">Gilets</a></li>
+					<li><a href="/men/mens-clothing/jumpers-and-cardigans/?cm_re=HomeMen-_-CategoryMenu-_-mens-jumpersandcardigans">Jumpers &amp; Cardigans</a></li>
+					<li><a href="/men/mens-clothing/jackets/?cm_re=HomeMen-_-CategoryMenu-_-mens-latest-footwea">Jackets</a></li>
+					<li><a href="/men/mens-clothing/track-pants/?cm_re=HomeMen-_-CategoryMenu-_-mens-track-pants">Track Pants</a></li>
+					<li><a href="/men/mens-clothing/jeans/?cm_re=HomeMen-_-CategoryMenu-_-mens-jeans">Jeans</a></li>
+					<li><a href="/men/mens-clothing/chinos/?cm_re=HomeMen-_-CategoryMenu-_-mens-chionos">Chinos</a></li>
+					<li><a href="/men/mens-clothing/tracksuits/?cm_re=HomeMen-_-CategoryMenu-_-mens-tracksuits">Tracksuits</a></li>
+					<li><a href="/men/mens-clothing/replica/?cm_re=HomeMen-_-CategoryMenu-_-mens-replica">Replica</a></li>
+					<li><a href="/men/mens-clothing/football-shirts/?cm_re=HomeMen-_-CategoryMenu-_-mens-football-shirts">Football Shirts</a></li>
+					<li><a href="/men/mens-clothing/performance-clothing/?cm_re=HomeMen-_-CategoryMenu-_-mens-performance">Performance Clothing</a></li>
+					<li><a class="saleDD" href="/men/mens-clothing/sale/?cm_re=HomeMen-_-CategoryMenu-_-mens-sale">Sale Clothing</a></li>
+				</div> -->
+				
+				<!-- <li><a title="See All..." href="#" class="see-all">See more&nbsp;+</a></li> -->
+				<div class="clearfix"></div>
+			</ul>
+			
+			<h2><a style="font-weight:bold; font-size:14px;" href="#"><!--Kid's -->Kids Offers</a></h2>
+			<ul>
+				<li><a href="/page/online-sale-department_kids/">All Offers</a></li>
+				<li><a href="/kids/junior-footwear-(sizes-3-5.5)/sale/">Junior Footwear</a></li>
+				<li><a href="/kids/junior-clothing-(8-15-years)/sale/">Junior Clothing</a></li>
+				<li><a href="http://www.jdsports.co.uk/kids/childrens-footwear-(sizes-10-2)/sale/">Children's Footwear</a></li>
+                <li><a href="http://www.jdsports.co.uk/kids/childrens-clothing-(3-7-years)/sale/">Children's Clothing</a></li>
+                <li><a href="http://www.jdsports.co.uk/kids/infant-footwear-(sizes-0-9)/sale/">Infant Footwear</a></li>
+                <li><a href="http://www.jdsports.co.uk/kids/infant-clothing-(0-3-years)/sale/">Infant Clothing</a></li>
+				
+				<!-- <div class="hidden-content" style="display:none;">
+					<li><a href="/men/mens-accessories/socks/?cm_re=HomeMen-_-category-_-socks">Socks</a></li>
+					<li><a href="/men/mens-accessories/underwear/?cm_re=HomeMen-_-category-_-underwear">Underwear</a></li>
+					<li><a href="/men/mens-accessories/watches/?cm_re=HomeMen-_-category-_-watches">Watches</a></li>
+					<li><a href="/men/mens-accessories/sports-equipment/?cm_re=HomeMen-_-category-_-equipment">Sports Equipment</a></li>
+					<li><a href="/men/mens-accessories/team-souvenirs/?cm_re=HomeMen-_-category-_-souvenirs">Team Souvenirs</a></li>
+					<li><a href="/men/mens-accessories/sunglasses/?cm_re=HomeMen-_-category-_-sunglasses">Sunglasses</a></li>
+					<li><a href="/men/mens-accessories/miscellaneous/?cm_re=HomeMen-_-category-_-miscellaneous">Miscellaneous</a></li>
+					<li><a class="saleDD" href="/men/mens-accessories/sale/?cm_re=HomeMen-_-category-_-sale">Sale Accessories</a></li>
+				</div> -->
+				
+				 <!-- <li><a title="See All..." href="#" class="see-all">See more&nbsp;+</a></li> -->
+				<div class="clearfix"></div>
+			</ul>
+		</div>
+	
+	<!-- END SIDEBAR -->
+	</div>
+    
+   
+	
+	<!-- MAIN CONTENT SECTION -->
+	<div id="main">
+		<!--<h1>Men's Department</h1>-->
+		<!-- SECTION 01, BANNERS -->
+		<div class="section" id="banners">		
+			<div id="banner-slider-wrap" class="landing">
+				<div class="banner-slider">
+					<!-- BANNERS -->
+					<ul>
+						<!-- BANNER 01 -->
+						<li>
+							<a href="#" rel="nofollow" manual_cm_re="OffersMain-_-Slider1-_-XXXXXXX">
+								<img src="/lib/images/landing/banner-holder.jpg" />
+								<span class="call-to-action" style="bottom:90px; left:35px; background-color: #8289cd; color:#FFF;">SHOP NOW</span>
+							</a>
+						</li>
+					
+						<!-- BANNER 02 -->
+						<li>
+							<a href="#" rel="nofollow" manual_cm_re="OffersMain-_-Slider2-_-XXXXXXX">
+								<img src="/lib/images/landing/banner-holder.jpg" />
+								<span class="call-to-action" style="bottom:70px; left:40px; background-color: #3bb44b; color:#FFF;">SHOP NOW</span>
+							</a>
+						</li>
+					
+						<!-- BANNER 03 -->
+						<li>
+							<a href="#" rel="nofollow" manual_cm_re="OffersMain-_-Slider3-_-XXXXXXX">
+								<img src="/lib/images/landing/banner-holder.jpg" />
+								<span class="call-to-action" style="bottom:50px; left:40px; background-color: #FFF; color:#000;">SHOP NOW</span>
+							</a>
+						</li>
+					</ul>
+					
+				</div>
+			
+				<!-- NAVIGATION TABS -->
+				<div class="banner-slider-nav">
+					<a href="#" style="width:33.333%;">Nike Air BW<div class="current-banner-progress"></div></a>
+					<a href="#" style="width:33.333%;">#DefineYourself<div class="current-banner-progress"></div></a>
+					<a href="#" style="width:33.333%;">adidas adi Rise 2.0<div class="current-banner-progress"></div></a>
+				</div>
+			
+				<!-- FORWARD / BACK ARROWS -->
+				<a href="#" class="banner-arrow arrow-back">Back</a>
+				<a href="#" class="banner-arrow arrow-forward">Forward</a>
+			
+			</div>
+		
+		<!-- END SECTION 01 -->
+		</div>
+					
+            
+            <div class="section" id="boxed-offers">
+            
+            <ul>
+            
+            <li class="top-left-offers">
+            <a href="#" rel="nofollow" manual_cm_re="OffersMain-_-Offer1-_-XXXX"> 
+            <!--<p>Men's</p>
+            <span>2 for &pound;20</span>-->
+            <span class="cta" style="position: absolute; bottom: 40px; left: 110px; background-color:#22A1EE; color: #FFF;">SHOP NOW</span>
+            </a>
+            </li>
+            
+            <li class="top-right-offers">
+            <a href="#" rel="nofollow" manual_cm_re="OffersMain-_-Offer2-_-XXXX"> 
+            <!--<p>Men's</p>
+            <span>2 for &pound;25</span>-->
+            <span class="cta" style="position: absolute; bottom: 40px; left: 110px; background-color: #B4D15A; color: #FFF; ">SHOP NOW</span>
+            </a>
+            </li>
+            
+            <li class="bottom-left-offers">
+            <a href="#" rel="nofollow" manual_cm_re="OffersMain-_-Offer3-_-XXXX"> 
+            <!--<p>Women's</p>
+            <span>2 for &pound;30</span>-->
+            <span class="cta" style="position: absolute; bottom: 40px; left: 110px; background-color: #C25DAE; color: #FFF;">SHOP NOW</span>
+            </a>
+            </li>
+            
+            <li class="bottom-right-offers">
+            <a href="#" rel="nofollow" manual_cm_re="OffersMain-_-Offer4-_-XXXX"> 
+            <!--<p>Kids</p>
+            <span>Offers</span>-->
+            <span class="cta" style="position: absolute; bottom: 40px; left: 110px; background-color: #FB8925; color: #FFF;">SHOP NOW</span>
+            </a>
+            </li>
+            
+            </ul>
+            
+            </div>
+			
+</div>
+<!-- END LANDING PAGE -->	
+</div>
+
+<!-- LOAD JQUERY IF NOT LOADED -->
+<script>window.jQuery || document.write("<script src='/js/jquery.js'>\x3C/script>")</script>
+
+<!-- LOAD PAGE SPECIFIC LIBRARYS (EASING, SLIDERS, SOCIAL etc.) -->
+<script src="/js/jquery.easing.1.2.js" type="text/javascript" charset="utf-8"></script>
+<script src="/js/jquery.JDSlider.js" type="text/javascript" charset="utf-8"></script>
+
+<!-- PAGE SPECIFIC SCRIPT -->
+<script type="text/javascript">
+	
+	// jQuery NO CONFLICT REQUIRED TO STOP NAMESPACE CONFLICTS
+	jQuery.noConflict();
+
+	// INIT SLIDER
+	jQuery('#banner-slider-wrap').JDSlider();
+
+	jQuery(function()
+	{
+		// SEE ALL (SIDEBAR)
+		jQuery("a.see-all").click(function()
+		{
+			var seeAllButton = jQuery(this);
+			jQuery(this).parent().prev().slideToggle("fast",function()
+			{
+				if (jQuery(this).is(':hidden'))
+        		{
+           			seeAllButton.text("See more +");
+        		}
+        		else
+        		{
+           			seeAllButton.text("See less -");						
+        		}	
+			});
+			return false;
+		});
+		
+    });
+	
+	// HIDE FREDHOPPER BAR
+	var filterMenuContainer = document.getElementById( 'verticalMenuContainerID' );
+	//Having to hide the filter menu in the following manner due to IE throwing error when using style.display='none'
+	filterMenuContainer.style.position='absolute';
+	filterMenuContainer.style.left='-9999px';
+	filterMenuContainer.style.visibility='hidden';
+	
+</script>
