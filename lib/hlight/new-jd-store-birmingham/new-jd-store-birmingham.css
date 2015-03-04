@@ -1,0 +1,81 @@
+@charset "UTF-8";
+
+#birminghamContainer {
+	padding: 0px 5px 15px 5px;
+	background-color:#FFF;
+	float:left;
+}
+
+#birmingham {
+	background: url(/lib/hlight/new-jd-store-birmingham/images/trainers.jpg) no-repeat top right #000;
+	width: 890px;
+	float:left;
+}
+
+#birmingham div {
+	width:342px;
+	padding:40px;
+}
+
+#birmingham h1 {
+	color: #fff900;
+	text-transform:uppercase;
+	font-size: 3.8em;
+	line-height:0.9em;
+	font-weight:normal;
+	margin-bottom: 20px;
+}
+
+#birmingham p {
+	color: #fff;
+	font-weight:bold;
+}
+
+#birmingham iframe {
+	width:342px;
+	height:500px;
+}
+
+#birmingham a { color:#FFF; padding:2px; font-size:0.8em; background-color:#000;}
+
+#birmingham a:hover { color:#000; background-color:#FFF;}
+
+/* TERMS & CONDITIONS */
+
+#terms {color:#FFF; font-size:0.7em; letter-spacing:0.1em; font-weight:normal; font-family:Verdana, Arial, Helvetica, sans-serif;}
+
+#terms a { color:#FFF; padding:2px; background-color:#000;}
+
+#terms a:hover { color:#000; background-color:#FFF;}
+
+/* THANK YOU FOR ENTERING PAGE */
+
+#Entered {
+	background: #000;
+	width: 890px;
+	float:left;
+}
+
+#Entered div {
+	width:810px;
+	padding:40px;
+}
+
+#Entered h1 {
+	color: #fff900;
+	text-transform:uppercase;
+	font-size: 3.8em;
+	line-height:0.9em;
+	font-weight:normal;
+	margin-bottom: 20px;
+}
+
+#Entered p {
+	color: #fff;
+	font-weight:bold;
+}
+
+
+#Entered a span.birminghamlink { color:#FFF; padding:2px; font-size:1.2em; background-color:#000; text-decoration:underline;}
+
+#Entered a:hover span.birminghamlink { color:#000; background-color:#FFF;}

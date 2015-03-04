@@ -1,0 +1,150 @@
+@charset "UTF-8";
+
+/* ----------------------------------------------------------- */
+/* CSS Document: NEW LANDING CSS (RJR/PC 04/04/13 - VERSION 1) */
+/* ----------------------------------------------------------- */
+
+/*
+*
+*	- RESETS
+*	- SLIDERS
+*	- MIDDLE SPOTS
+*	- TWITTER BAR
+*	- SIDEBAR
+*	- FOOTER COPY
+*
+*/
+
+/* ---- Store CSS Override ---- */
+html { background-size:100%; }
+#page { overflow:visible; width:100%; } 
+p { font-size:0.9em; line-height:1.5em; color:#000; }
+.contentContainer { float:none; width:100%; margin:0; padding:0; }
+#header, #footerMain { margin:0 auto; float:none; }
+h3 { font-size:24px; line-height:24px; font-style:italic; font-weight:bold; text-transform:uppercase; margin-bottom:10px; color:#000; }
+h4 { text-align:center; text-transform:uppercase; font-size:18px; margin-bottom:28px; font-weight:bold; }
+
+.contentContainer p{line-height:1.3em;}
+
+/* ---- Base Elements ---- */
+.section { position:relative; display:block; width:100%; overflow:hidden; margin-bottom:30px; }
+.bg-white { background:none; }
+.full-width-header { left:0; top:0; min-width:996px; position:relative; width:100%; background:#000; height:130px; }
+.full-width-footer { min-width:996px; width:100%; background:url('/images/footer-bg.gif') repeat scroll 0 0 #000; float:left; }
+
+/* ---- Font styles ---- */
+.ft-bold { font-weight:700; visibility:hidden;}
+
+/* ---- Generic Elements + Fixers ---- */
+.clearfix{ clear:both; }
+.hidden-element{ display:none; }
+
+/* ==== SPECIFIC PAGE STYLING ==== */
+
+#main { position:relative; width:976px; padding:0 10px 20px; margin:0 auto; height:100%; } 
+
+#top { width:100%; height:300px; }
+#top h1 { font-family:"futura-pt", "Helvetica Neue", Helvetica, Arial, sans-serif; color:#FFF; font-size:4.25em; font-weight:300; float:right; line-height:250px; padding-right:105px; text-transform:uppercase; text-shadow: 0px 0px 14px rgba(0, 0, 0, 0.5); }
+
+ul#nav { margin:50px 0 0 0; float:left; }
+ul#nav li { border-bottom:1px solid #000; padding-left:20px; width:225px; height:35px; }
+ul#nav li a { font-family:"futura-pt", "Helvetica Neue", Helvetica, Arial, sans-serif; font-weight:700; font-size:2em; text-transform:uppercase; text-decoration:none; line-height:35px; }
+ul#nav li a.active { color:#3CB7E6; }
+
+
+
+/* ---- Landing Layout (2 Columns) ---- */
+#sidebar { width:224px; margin:0 18px 0 0; float:left; clear:both; }
+
+strong {font-weight:bold;}
+
+
+/* ---- SIDEBAR STYLES ---- */ 
+#sub-departments { width:174px; height:946px; padding:18px 25px; background:url('/lib/hlight/jdpro/images/sidebar-bg.png') repeat 0 0; text-transform:uppercase; }
+#sub-departments img{margin-top:10px;}
+#sub-departments h2 { color:#FFF; padding:10px 0 0; font-family:"futura-pt-condensed", Helvetica, Arial, sans-serif; font-weight:500; font-size:15px; line-height:15px; letter-spacing:1px; }
+#sub-departments ul, #sub-departments li { margin:0; padding:0; }
+#sub-departments ul { /* margin-bottom:15px; */ }
+#sub-departments ul li { font-size:12px; /* margin-bottom:10px; */ } 
+#sub-departments a { color:#FFF; text-decoration:none; font-family:"futura-pt-condensed", Helvetica, Arial, sans-serif; font-weight:400; font-size:15px; line-height:18px; letter-spacing:1px; }
+#sub-departments a:hover { text-decoration:underline; }
+#sub-departments a.see-all { font-weight:bold; } 
+
+
+
+ul#giftsList { position:relative; width:734px; height:983px; float:left; margin-bottom:40px;}
+ul#giftsList li { position:absolute; width:244px; height:245px; overflow: hidden;}
+ul#giftsList li img { position:absolute; top:0; left:0; width:244px; height:245px; z-index:-1; }
+
+ul#giftsList li span.info {color:#000000;opacity:0; position:absolute;text-align:center;height:245px;width:244px;background:url('/lib/hlight/nike-footwear/images/circle.png') no-repeat 32px 32px; 
+transition: opacity .5s ease-out;
+-moz-transition: opacity .5s ease-out;
+-webkit-transition: opacity .5s ease-out;
+-o-transition: opacity .5s ease-out;	
+}
+ul#giftsList li:hover span.info {opacity:1;
+transition: opacity .5s ease-out;
+-moz-transition: opacity .5s ease-out;
+-webkit-transition: opacity .5s ease-out;
+-o-transition: opacity .5s ease-out;
+}
+
+ul#giftsList li span.text {position:relative;top:100px; font-family:"futura-pt-condensed", Helvetica, Arial, sans-serif;font-size:1.6em; }
+
+/* 
+ { float:right; width:204px; height:225px; background:url('/lib/hlight/nike-footwear/images/button-overlay.png') no-repeat 0 0; padding:20px 20px 0; z-index:1; } */
+
+ul#giftsList li.top-left { top:0; left:0; }
+ul#giftsList li.top-middle { top:0; left:245px;}
+ul#giftsList li.top-right { top:0; right:0; }
+
+ul#giftsList li.middle-left { top:246px; left:0; }
+ul#giftsList li.middle-middle { top:246px; left:245px;}
+ul#giftsList li.middle-right { top:246px; right:0; }
+
+ul#giftsList li.bottom-left { top:492px; left:0; }
+ul#giftsList li.bottom-middle { top:492px; left:245px; }
+ul#giftsList li.bottom-right { top:492px; right:0; }
+
+ul#giftsList li.base-left {bottom:0; left:0; }
+ul#giftsList li.base-middle {bottom:0; left:245px;}
+ul#giftsList li.base-right {bottom:0; right:0; }
+
+ul#giftsList li div.product { float:right; width:204px; height:225px; background:url('/lib/hlight/nike-footwear/images/button-overlay.png') no-repeat 0 0; padding:20px 20px 0; z-index:1; }
+ul#giftsList li.middle-left div.product, ul#giftsList li.middle-right div.product { float:left; }
+ul#giftsList li div.product span { display:block; width:100%; height:35px; margin-bottom:20px; font-family:"futura-pt", "Helvetica Neue", Helvetica, Arial, sans-serif; font-weight:700; color:#FFF; font-size:1.6em; text-transform:uppercase; border-bottom:1px solid #FFF; }
+ul#giftsList li div.product span#twolines { height:60px;  }
+ul#giftsList li div.product p { font-family:"futura-pt", "Helvetica Neue", Helvetica, Arial, sans-serif; color:#FFF; font-size:1.1em;  font-weight:200;letter-spacing:1px;}
+
+ul#giftsList li div.cta { position:absolute; bottom:0; left:244px; width:224px; height:50px; padding-left:20px; font-size:1.4em;  }
+ul#giftsList li.middle-left div.cta, ul#giftsList li.middle-right div.cta { left:0; }
+ul#giftsList li div.cta span, ul#giftsList li div.cta p { display:inline; line-height:50px; text-transform:uppercase; color:#FFF;  }
+ul#giftsList li div.cta p { font-weight:700; }
+
+ul#offerRanges { width:976px; height:202px; margin-top:50px; }
+ul#offerRanges li { float:left; width:25%; height:202px; display:inline-block; }
+ul#offerRanges li.centre { border-left:1px solid #3CB7E6; border-right:1px solid #3CB7E6; width:24.7%; }
+
+
+
+/* --- INPUT ELEMENTS ROUNDED CORNER RADIUS FIX FOR iOS DEVICES --- */
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 480px) {  
+	#header #search input { -webkit-appearance:none; -webkit-border-radius:0; border-radius:0; height:29px; line-height:29px; }
+	#socialBar #newsletter-form form input { -webkit-appearance:none; -webkit-border-radius:0; border-radius:0; height:27px; line-height:27px; }
+}
+
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 568px) { 
+	#header #search input { -webkit-appearance:none; -webkit-border-radius:0; border-radius:0; height:29px; line-height:29px; }
+	#socialBar #newsletter-form form input { -webkit-appearance:none; -webkit-border-radius:0; border-radius:0; height:27px; line-height:27px; }
+}
+
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px)  {
+	#header #search input { -webkit-appearance:none; -webkit-border-radius:0; border-radius:0; height:29px; line-height:29px; }
+	#socialBar #newsletter-form form input { -webkit-appearance:none; -webkit-border-radius:0; height:27px; line-height:27px; }
+}

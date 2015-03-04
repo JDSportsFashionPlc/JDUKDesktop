@@ -1,0 +1,43 @@
+<h1>THIS IS A TEST</h1>
+
+<div class="gift-shop-footer">
+	<p>From big gifts to stocking fillers, like exclusive footwear and headphones, </br>find something to fit your budget from our selection of industry leading brands.</p>	 
+</div>
+
+<a href="http://jdsports.co.uk/men/mens-footwear/">THIS IS A LINK</a>
+<br/><br/><br/><br/><br/><br/>
+<!-- LOAD JQUERY IF NOT LOADED -->
+<script>window.jQuery || document.write("<script src='../../js/jquery.js'>\x3C/script>")</script>
+
+<script type="text/javascript">
+jQuery.noConflict();
+	
+jQuery(function()	
+{
+	/*
+	function deleteCookie(name) {
+    document.cookie = name+'="";-1; path=/';
+}
+
+  deleteCookie("stop_mobi");
+  */
+  
+  
+  function Delete_Cookie( name, path, domain )
+  {
+  if ( Get_Cookie( name ) )
+   document.cookie=name+"="+((path) ? ";path="+path:"")+((domain)?";domain="+domain:"") +
+                                   ";expires=Thu, 01 Jan 1970 00:00:01 GMT";
+}
+	Delete_Cookie( "stop_mobi", "/", "jdsports.co.uk" );
+	
+	function Get_Cookie(name)
+	{
+		if (document.cookie.indexOf(name) > 0) { return true; }
+	}
+	
+    	        
+});
+    
+    
+</script>
