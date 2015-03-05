@@ -1,0 +1,26 @@
+/***
+
+ * --- --- --- --- ---
+ * JD Sports Fashion plc
+ * IBM WebSphere Commerce Platform
+ * --- --- --- --- ---
+ * RESPONSIVEFIX
+ * --- --- --- --- ---
+ 
+***/
+
+@media screen and (max-width:1200px){
+
+	.sample{
+		width:850px !important	
+	}
+}
+	
+@media screen and (max-width:1000px){
+
+	
+	.sample{
+		width:750px !important	
+	}
+
+}

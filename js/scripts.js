@@ -53,11 +53,28 @@ jQuery(function($) {
 
     // SDL FredHopper URL CSS
     // This stylesheet is the new dedicated FredHopper CSS 
+	 
+	 // 5th March 2015 - Added responsive.css - a semi responsive fix before MESH
     // 12th November 2014 - all FredHopper messy CSS will chucked inside this
     // 17th November 2014 - Also add the TypeKit Cloud Typography for GOTHAM for global usage
-    // -- appendTo() reduces speed
+    
+	 // -- appendTo() reduces speed
     jQuery('head').append($('<link rel="stylesheet" type="text/css" />').attr('href', '/css/fredhopper.css?v=' + Math.random()));
     jQuery('head').append($('<link rel="stylesheet" type="text/css" />').attr('href', '//cloud.typography.com/6282092/657264/css/fonts.css?v=' + Math.random()));
+	
+	
+	// RESPONSIVE TEMP
+	var staging = window.location.hostname;
+	 
+	 if(staging=='cs-ext.jdsports.co.uk'){
+		jQuery('head').append($('<link rel="stylesheet" type="text/css" />').attr('href', '/css/responsive/general-responsive.css?v=' + Math.random()));
+		jQuery('head').append($('<link rel="stylesheet" type="text/css" />').attr('href', '/css/responsive/checkout-responsive.css?v=' + Math.random()));
+		jQuery('head').append($('<link rel="stylesheet" type="text/css" />').attr('href', '/css/responsive/product-responsive.css?v=' + Math.random()));
+		jQuery('head').append($('<link rel="stylesheet" type="text/css" />').attr('href', '/css/responsive/category-responsive.css?v=' + Math.random()));		 
+	 }
+	 
+	 
+	 
     // FREDHOPPER HS IS WAY BELOW AT THE BOTTOM
 
     //jQuery(document).ready(function() {

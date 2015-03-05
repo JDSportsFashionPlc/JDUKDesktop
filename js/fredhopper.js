@@ -152,17 +152,6 @@ if (jQuery('#productAttributesWrapper form').length ){
 
 
 
-
-
-
-
-
-
-
-
-
-
-
 var	pumaCSSWrapper = '';
 	pumaCSSWrapper  += '<!--NIKE SKINS-->';
 	pumaCSSWrapper  += '<style>';
@@ -337,8 +326,6 @@ if (jQuery('.creativebannersync_fh_shoes').length > 0) {
 }
 
 
-
-
 // CLOTH PP PAGES
 
 if (jQuery('#productAttributesWrapper form').length ){
@@ -371,9 +358,6 @@ if (jQuery('#productAttributesWrapper form').length ){
 	}
 
 }
-
-
-
 
 
 // SHOE PP PAGES
@@ -417,3 +401,43 @@ jQuery('input[name="manufacturerPartNumber"]').val()=="166022"
 
 }
 
+
+// PUMA IGNITE
+
+var	pumaBannerIgnitecss = '';
+	pumaBannerIgnitecss  += ' ';
+	pumaBannerIgnitecss  += '<style>';
+		pumaBannerIgnitecss  += '#page{background:#000 !important}';
+		pumaBannerIgnitecss  += '.page{overflow:visible;position:relative}';
+		pumaBannerIgnitecss  += '.page{overflow:visible;background:#000 !important}';
+		pumaBannerIgnitecss  += 'div#product-list,.contentContainer{background:#fff}';
+		pumaBannerIgnitecss  += '.tTakeImgResponsive img{width:100%}';
+		pumaBannerIgnitecss  += '.takeOverSpot {position:absolute;top:0;width:550px}';
+		pumaBannerIgnitecss  += '.lw {left:-550px}';
+		pumaBannerIgnitecss  += '.rw {right:-550px}';
+		pumaBannerIgnitecss  += '@media screen and (max-width: 1500px) { .takeOverSpot{width:500px}.lw{left:-500px}.rw{right:-500px} }';
+		pumaBannerIgnitecss  += '@media screen and (max-width: 1400px) { .takeOverSpot{width:300px}.lw{left:-300px}.rw{right:-300px} }';
+	pumaBannerIgnitecss  += '</style>';
+	pumaBannerIgnitecss  += '';
+	
+//////////////////////////
+//////////////////////////
+// WOMENS 
+//////////////////////////
+//////////////////////////
+if (jQuery('.pumaignitebanner2015').length > 0) {
+	jQuery('body').append(pumaBannerIgnitecss);
+	
+	var 	pumaBannerIgniteHTML = '';
+			pumaBannerIgniteHTML += '<div class="pumaSkin takeOverSpot tTakeImgResponsive takeOverSpot lw">';
+			pumaBannerIgniteHTML += '	<img src="http://www.jdsports.co.uk/images/library/2015/05.03.2015/skin.jpg">';
+			pumaBannerIgniteHTML += '</div>';
+			pumaBannerIgniteHTML += '<div class="pumaSkin takeOverSpot tTakeImgResponsive takeOverSpot rw">';
+			pumaBannerIgniteHTML += '	<img src="http://www.jdsports.co.uk/images/library/2015/05.03.2015/skin.jpg">';
+			pumaBannerIgniteHTML += '</div>';
+			pumaBannerIgniteHTML += '';
+	
+	jQuery('div#product-list').append(pumaBannerIgniteHTML);	
+	
+	
+}
