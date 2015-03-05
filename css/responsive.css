@@ -1,0 +1,61 @@
+/***
+
+ * --- --- --- --- ---
+ * JD Sports Fashion plc
+ * IBM WebSphere Commerce Platform
+ * --- --- --- --- ---
+ * RESPONSIVEFIX
+ * --- --- --- --- ---
+ 
+***/
+
+@media screen and (max-width:1200px){
+
+	#header, #headerCheckout, ul#primaryNavigation,
+	ul#primaryNavigation > li > ul#sportsMenuItemsContainer,
+	ul#primaryNavigation > li > ul#footballMenuItemsContainer,
+	#delivery-banner-new,
+	#middle-spots-wrap.homepage ul,
+	#middle-spots-wrap.homepage,
+	.fix{
+		width:850px !important	
+	}
+	#header #search{left:143px}
+	ul#primaryNavigation > li{margin:0 15px 0 0 !important}
+	ul#primaryNavigation > li > ul#footballMenuItemsContainer, 
+	.full-width-header{min-width:0 !important}
+	#delivery-banner-new{background:none !important}
+	.usp-pics{width:115px !important}
+	.usp-pics img,
+	#middle-spots-wrap.homepage ul li a img,
+	.adbar img,
+	.adbar,
+	#middle-spots-wrap.homepage ul li .text{
+		width:100% !important
+	}
+	.cta-button-black-bold{
+		width:95% !important;
+		margin:0 auto !important
+	}
+	#middle-spots-wrap.homepage ul li .text{
+		padding:0px !important
+	}
+}
+	
+@media screen and (max-width:1000px){
+
+	#header, #headerCheckout, ul#primaryNavigation,
+	ul#primaryNavigation > li > ul#sportsMenuItemsContainer,
+	ul#primaryNavigation > li > ul#footballMenuItemsContainer,
+	#delivery-banner-new,
+	#middle-spots-wrap.homepage ul,
+	#middle-spots-wrap.homepage,
+	.fix{
+		width:750px !important	
+	}
+	ul#primaryNavigation > li{margin:0 11px 0 0 !important}
+	ul#primaryNavigation > li > span > a{font-size:13px !important}
+	.usp-pics{width:91px !important}
+	.gotham{font-size:11px !important}
+
+}
