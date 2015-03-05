@@ -61,15 +61,19 @@ jQuery(function($) {
 	 // -- appendTo() reduces speed
     jQuery('head').append($('<link rel="stylesheet" type="text/css" />').attr('href', '/css/fredhopper.css?v=' + Math.random()));
     jQuery('head').append($('<link rel="stylesheet" type="text/css" />').attr('href', '//cloud.typography.com/6282092/657264/css/fonts.css?v=' + Math.random()));
+	
+	
+	// RESPONSIVE TEMP
+	var staging = window.location.hostname;
 	 
-	console.log(window.location.hostname);
-	 
-	 if(staging){
-		jQuery('head').append($('<link rel="stylesheet" type="text/css" />').attr('href', '/css/responsive.css?v=' + Math.random()));
-		jQuery('head').append($('<link rel="stylesheet" type="text/css" />').attr('href', '/css/responsive.css?v=' + Math.random()));
-		jQuery('head').append($('<link rel="stylesheet" type="text/css" />').attr('href', '/css/responsive.css?v=' + Math.random()));
-		jQuery('head').append($('<link rel="stylesheet" type="text/css" />').attr('href', '/css/responsive.css?v=' + Math.random()));		 
+	 if(staging=='cs-ext.jdsports.co.uk'){
+		jQuery('head').append($('<link rel="stylesheet" type="text/css" />').attr('href', '/css/responsive/general-responsive.css?v=' + Math.random()));
+		jQuery('head').append($('<link rel="stylesheet" type="text/css" />').attr('href', '/css/responsive/checkout-responsive.css?v=' + Math.random()));
+		jQuery('head').append($('<link rel="stylesheet" type="text/css" />').attr('href', '/css/responsive/product-responsive.css?v=' + Math.random()));
+		jQuery('head').append($('<link rel="stylesheet" type="text/css" />').attr('href', '/css/responsive/category-responsive.css?v=' + Math.random()));		 
 	 }
+	 
+	 
 	 
     // FREDHOPPER HS IS WAY BELOW AT THE BOTTOM
 
