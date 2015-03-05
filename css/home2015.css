@@ -1,12 +1,7 @@
 .contentContainer{position:relative}
 .page{overflow:visible}
 #page{background:#fff}
-
-/*
-.usp-banner-section a,.usp-banner-section{color:#999}
-a.button-gotham span{background:#000 !important;color:#999}*/
 .contentContainer,#page{background:#000 !important}
-
 #socialBar{background:#666}
 .seo-content p, .seo-content, .seo-content p a, #landing-description a{color:#fff !important}
 .hide{display:none}
@@ -93,8 +88,6 @@ a.button-gotham span{display:block;background:#2e2e2e;color:#fff;font-size:11px 
 .usp-pics img{position:relative;z-index:5}
 a.gotham:hover{text-decoration:underline}
 #middle-spots-wrap img{position:absolute;top:0;left:0;z-index:1}
-.usptable{}
-.usptable tr{}
 .usptable td{vertical-align:middle}
 .proddetails{padding-top:157px;padding-left:10px;padding-bottom:15px;text-align:left;background:#e7e7e7;font-size:11.5px !important;line-height:1.2;font:gotham book;color:#000 !important;width:150px}
 .owl-carousel .owl-item img{padding-left:11px;padding-top:10px;background:#e7e7e7}
