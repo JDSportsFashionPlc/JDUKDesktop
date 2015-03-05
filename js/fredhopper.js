@@ -152,17 +152,6 @@ if (jQuery('#productAttributesWrapper form').length ){
 
 
 
-
-
-
-
-
-
-
-
-
-
-
 var	pumaCSSWrapper = '';
 	pumaCSSWrapper  += '<!--NIKE SKINS-->';
 	pumaCSSWrapper  += '<style>';
@@ -337,8 +326,6 @@ if (jQuery('.creativebannersync_fh_shoes').length > 0) {
 }
 
 
-
-
 // CLOTH PP PAGES
 
 if (jQuery('#productAttributesWrapper form').length ){
@@ -371,9 +358,6 @@ if (jQuery('#productAttributesWrapper form').length ){
 	}
 
 }
-
-
-
 
 
 // SHOE PP PAGES
@@ -418,12 +402,6 @@ jQuery('input[name="manufacturerPartNumber"]').val()=="166022"
 }
 
 
-
-
-
-
-
-
 // PUMA IGNITE
 
 var	pumaBannerIgnitecss = '';
@@ -437,7 +415,7 @@ var	pumaBannerIgnitecss = '';
 		pumaBannerIgnitecss  += '.takeOverSpot {position:absolute;top:0;width:550px}';
 		pumaBannerIgnitecss  += '.lw {left:-550px}';
 		pumaBannerIgnitecss  += '.rw {right:-550px}';
-		pumaBannerIgnitecss  += '@media screen and (max-width: 1700px) { .takeOverSpot{width:500px}.lw{left:-500px}.rw{right:-500px} }';
+		pumaBannerIgnitecss  += '@media screen and (max-width: 1500px) { .takeOverSpot{width:500px}.lw{left:-500px}.rw{right:-500px} }';
 		pumaBannerIgnitecss  += '@media screen and (max-width: 1400px) { .takeOverSpot{width:300px}.lw{left:-300px}.rw{right:-300px} }';
 	pumaBannerIgnitecss  += '</style>';
 	pumaBannerIgnitecss  += '';
@@ -462,5 +440,4 @@ if (jQuery('.pumaignitebanner2015').length > 0) {
 	jQuery('div#product-list').append(pumaBannerIgniteHTML);	
 	
 	
-
 }
