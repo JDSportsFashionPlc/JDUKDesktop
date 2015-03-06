@@ -29,15 +29,10 @@
 	#delivery-banner-new{background:none !important}
 	.usp-pics{width:115px !important}
 	.usp-pics img,
-	#middle-spots-wrap.homepage ul li a img,
 	.adbar img,
 	.adbar,
 	#middle-spots-wrap.homepage ul li .text{
 		width:100% !important
-	}
-	.cta-button-black-bold{
-		width:95% !important;
-		margin:0 auto !important
 	}
 	#middle-spots-wrap.homepage ul li .text{
 		padding:0px !important
@@ -55,9 +50,15 @@
 	.full-width-footer{
 		background:none	
 	}
-	.DoubleSpot{}
-	.SingleAdBar{}
+	.DoubleSpot,
+	.DoubleSpot img{width:548px !important}	
+	.SingleAdBar{left:559px !important}
+	.SingleAdBar img{width:100%}
+	#middle-spots-wrap.homepage ul li.SingleAdBar .text span{margin:22px 72px auto !important}	
 	.middlespotContentRegion{}
+	#sliderHome2 .owl-next{
+   	margin-left:443px !important
+	}
 	
 }
 	
@@ -93,6 +94,15 @@
 	}
 	.socialBarSection.newsletter-signup {
    	left:205px !important
+	}
+	.DoubleSpot,
+	.DoubleSpot img{width:508px !important}	
+	.SingleAdBar{left:518px !important}
+	.SingleAdBar img{width:325px;left:-45px !important}
+	#middle-spots-wrap.homepage ul li.SingleAdBar .text span{margin:22px 52px auto !important}	
+	.middlespotContentRegion{}
+	#sliderHome2 .owl-next{
+   	margin-left:443px !important
 	}
 
 }
