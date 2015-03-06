@@ -104,12 +104,12 @@ a.gotham:hover{text-decoration:underline}
 #middle-spots-wrap.homepage ul li.topright{top:0;right:0}
 #sliderHome1 img,#sliderHome2 img{position:relative;padding:0}
 #sliderHome1 img,#sliderHome2 img{position:relative;padding:0}
-#sliderHome2 .owl-next{display:block !important;padding:34px 45px 16px 0 !important;background:url(/images/library/2015/09.01.2015/01_home/arrow-right.png) !important;font-size:0px !important;position:absolute;top:190px;margin-left:565px !important;z-index:999}
+#sliderHome2 .owl-next{display:block !important;padding:34px 45px 16px 0 !important;background:url(/images/library/2015/09.01.2015/01_home/arrow-right.png) !important;font-size:0px !important;position:absolute;top:190px;margin-left:565px ;z-index:999}
 #sliderHome1 .owl-next{display:block !important;padding:34px 45px 16px 0 !important;background:url(/images/library/2015/09.01.2015/01_home/arrow-right.png) !important;font-size:0px !important;position:absolute;top:390px;margin-left:250px !important;z-index:999}
 #sliderHome1 .owl-prev{display:block !important;padding:34px 45px 16px 0 !important;background:url(/images/library/2015/09.01.2015/01_home/arrow-left.png) !important;font-size:0px !important;position:absolute;top:390px;margin-left:10px !important;z-index:999}
 #sliderHome2 .owl-prev{display:block !important;padding:34px 45px 16px 0 !important;background:url(/images/library/2015/09.01.2015/01_home/arrow-left.png) !important;font-size:0px !important;position:absolute;top:190px;margin-left:10px !important;z-index:999}
 
-#sliderHome2 .owl-next-white {display:block !important;padding:34px 45px 16px 0 !important;background:url(/images/library/2015/05.03.2015/home/arrow-right-white.png) !important;font-size:0px !important;position:absolute;top:190px;margin-left:565px !important;z-index:999}
+#sliderHome2 .owl-next-white {display:block !important;padding:34px 45px 16px 0 !important;background:url(/images/library/2015/05.03.2015/home/arrow-right-white.png) !important;font-size:0px !important;position:absolute;top:190px;margin-left:565px ;z-index:999}
 #sliderHome2 .owl-prev-white {display:block !important;padding:34px 45px 16px 0 !important;background:url(/images/library/2015/05.03.2015/home/arrow-left-white.png) !important;font-size:0px !important;position:absolute;top:190px;margin-left:10px !important;z-index:999}
 
 #sliderHome2 .item .text{width:628px !important}
