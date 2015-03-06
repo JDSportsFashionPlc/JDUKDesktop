@@ -47,7 +47,6 @@ jQuery(function($) {
     // This set of code is been adjusted so that the website loads much quicker 
     jQuery('ul#secondaryNavigation').remove();
 
-
     // 0
     // -- Calls additional librarys
 
@@ -67,29 +66,31 @@ jQuery(function($) {
 	var staging = window.location.hostname;
 	 
 	 if(staging=='cs-ext.jdsports.co.uk'){
+		// Khaleel
 		jQuery('head').append($('<link rel="stylesheet" type="text/css" />').attr('href', '/css/responsive/general-responsive.css?v=' + Math.random()));
+		// Raghu
 		jQuery('head').append($('<link rel="stylesheet" type="text/css" />').attr('href', '/css/responsive/checkout-responsive.css?v=' + Math.random()));
+		// Product
 		jQuery('head').append($('<link rel="stylesheet" type="text/css" />').attr('href', '/css/responsive/product-responsive.css?v=' + Math.random()));
+		// Category
 		jQuery('head').append($('<link rel="stylesheet" type="text/css" />').attr('href', '/css/responsive/category-responsive.css?v=' + Math.random()));		 
 	 }
-	 
-	 
-	 
+	  
     // FREDHOPPER HS IS WAY BELOW AT THE BOTTOM
 
     //jQuery(document).ready(function() {
     var fredHopperJscript = document.createElement("script");
-    fredHopperJscript.type = "text/javascript";
-    fredHopperJscript.src = "/js/fredhopper.js?v=" + Math.random();
-    jQuery("head").append(fredHopperJscript);
+		 fredHopperJscript.type = "text/javascript";
+		 fredHopperJscript.src = "/js/fredhopper.js?v=" + Math.random();
+		 jQuery("head").append(fredHopperJscript);
     //});
 
     // FREDHOPPER JS FUNCTION
     // -- Add the ActiveClass to latest current FredHopper URLs if possible.
     var fredHopperURL = window.location.href;
-    jQuery("a[href='" + fredHopperURL + "']").each(function() {
-        jQuery(this).addClass('fredHopperActive');
-    });
+		 jQuery("a[href='" + fredHopperURL + "']").each(function() {
+			  jQuery(this).addClass('fredHopperActive');
+		 });
 
     // 1
     // -- Alignment and nav building
@@ -216,7 +217,7 @@ jQuery(function($) {
     // @PARAM store.css, store_checkout.css, store_product.css
     // CONFIG CSS TOO AS NEEDED
     // -- -- --
-    var newDeliveryBanner = '<style type="text/css">.delivery-mainlink,.loopClearanceText{display:none}#delivery-banner-new > div { postition: relative; float: left; text-align: center; width: 30%; display: block }#delivery-banner-new { background:url("/images/delivery-banner-dividers.png") no-repeat scroll 0 0 rgba(0, 0, 0, 0); margin: 0 auto; overflow: hidden; width: 976px; z-index: 1; }.delivery-mainlink,.loopClearanceText { letter-spacing: 0.75px; font-weight: bold; text-align:center;font-size:14px;color:#fff;text-transform:uppercase;text-decoration:none;line-height:39px }.delivery-mainlink:hover,.loopClearanceText:hover { text-decoration:underline }.delivery-sublink a,.delivery-sublink-extra a { margin:0 9px;font-weight:normal;text-align:center;font-size:12px;color:#fff; text-transform:uppercase; text-decoration:none; letter-spacing:0.39px }.delivery-sublink a:hover,.delivery-sublink-extra a:hover,.loopClearanceText a:hover { text-decoration:underline}.delivery-sublink,.delivery-sublink-extra{position:relative; top:-9px; display:none;}</style><div id="qd-b-w" style="height:51px;background:#004d7c; position:relative;width:100%;overflow:hidden"><div id="delivery-banner-new"><div class="deliverySpotTab" id="DeliverySpot1"><a class="delivery-mainlink" href="http://www.jdsports.co.uk/page/delivery/" manual_cm_re="USP-_-Delivery-Link-_-free-click-collect" style="display: inline;">free click &amp; collect</a><br><span class="delivery-sublink" style="display: inline;"><a href="http://www.jdsports.co.uk/page/delivery/" manual_cm_re="USP-_-Delivery-Link-_-on-all-orders">on all orders</a></span></div><div class="deliverySpotTab" id="DeliverySpot2" style="width:40%;height:51px;background:#1083c6 !important"><a class="delivery-mainlink" href="/page/delivery" manual_cm_re="USP-_-Delivery-Link-_-order-by-9pm" style="display: inline;">order by 9pm</a>&nbsp;<br><span class="delivery-sublink" style="display: inline;"><a href="/page/delivery" manual_cm_re="USP-_-Delivery-Link-_-get-it-tomorrow">get it tomorrow</a></span></div><div class="deliverySpotTab" id="DeliverySpot3"><a class="delivery-mainlink" href="http://www.jdsports.co.uk/page/delivery/" manual_cm_re="USP-_-Delivery-_-returns-are-free" style="display: inline;">returns are free</a><br><span class="delivery-sublink-extra" style="display: inline;"><a href="http://www.jdsports.co.uk/page/delivery/" manual_cm_re="USP-_-Delivery-Link-_-see-more-details">see more details</a></span></div></div></div>';
+    var newDeliveryBanner = '<style type="text/css">.delivery-mainlink,.loopClearanceText{display:none}#delivery-banner-new > div{postition: relative; float: left; text-align: center; width: 30%; display: block}#delivery-banner-new{background:url("/images/delivery-banner-dividers.png") no-repeat scroll 0 0 rgba(0, 0, 0, 0); margin: 0 auto; overflow: hidden; width: 976px; z-index: 1;}.delivery-mainlink,.loopClearanceText{letter-spacing: 0.75px; font-weight: bold; text-align:center;font-size:14px;color:#fff;text-transform:uppercase;text-decoration:none;line-height:39px}.delivery-mainlink:hover,.loopClearanceText:hover{text-decoration:underline}.delivery-sublink a,.delivery-sublink-extra a{margin:0 9px;font-weight:normal;text-align:center;font-size:12px;color:#fff; text-transform:uppercase; text-decoration:none; letter-spacing:0.39px}.delivery-sublink a:hover,.delivery-sublink-extra a:hover,.loopClearanceText a:hover{text-decoration:underline}.delivery-sublink,.delivery-sublink-extra{position:relative; top:-9px; display:none;}</style><div id="qd-b-w" style="height:51px;background:#004d7c; position:relative;width:100%;overflow:hidden"><div id="delivery-banner-new"><div class="deliverySpotTab" id="DeliverySpot1"><a class="delivery-mainlink" href="http://www.jdsports.co.uk/page/delivery/" manual_cm_re="USP-_-Delivery-Link-_-free-click-collect" style="display: inline;">free click &amp; collect</a><br><span class="delivery-sublink" style="display: inline;"><a href="http://www.jdsports.co.uk/page/delivery/" manual_cm_re="USP-_-Delivery-Link-_-on-all-orders">on all orders</a></span></div><div class="deliverySpotTab" id="DeliverySpot2" style="width:40%;height:51px;background:#1083c6 !important"><a class="delivery-mainlink" href="/page/delivery" manual_cm_re="USP-_-Delivery-Link-_-order-by-9pm" style="display: inline;">order by 9pm</a>&nbsp;<br><span class="delivery-sublink" style="display: inline;"><a href="/page/delivery" manual_cm_re="USP-_-Delivery-Link-_-get-it-tomorrow">get it tomorrow</a></span></div><div class="deliverySpotTab" id="DeliverySpot3"><a class="delivery-mainlink" href="http://www.jdsports.co.uk/page/delivery/" manual_cm_re="USP-_-Delivery-_-returns-are-free" style="display: inline;">returns are free</a><br><span class="delivery-sublink-extra" style="display: inline;"><a href="http://www.jdsports.co.uk/page/delivery/" manual_cm_re="USP-_-Delivery-Link-_-see-more-details">see more details</a></span></div></div></div>';
 
     $('#header').parent().append(newDeliveryBanner);
     $('#delivery-banner-new').attr('style', 'opacity:1');
