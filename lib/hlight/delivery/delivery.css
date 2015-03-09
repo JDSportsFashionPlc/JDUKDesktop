@@ -1,9 +1,14 @@
 
+<<<<<<< HEAD
 body {	overflow-x: hidden; }
 
 #delivery-page, #delivery-page2, #delivery-page a, #delivery-page2 a, #delivery-page p, #delivery-page2 p {
     font-family: 'Gotham A', 'Gotham B', sans-serif !important;
 }
+=======
+body {	overflow-x: hidden;}
+
+>>>>>>> dc1ad65f88d87f12afab44c3f28e23b7b674088e
 input, textarea, select, a { outline: none; }
 /* #delivery-banner{ display:none; } */
 .contentContainer{ margin-top:10px; /*30px*/; position: relative; }
@@ -40,10 +45,17 @@ border-radius: 6px;}
 #delivery-dates2 .right span.box {position:relative;top:11px;font-size:15px;}
 
 
+<<<<<<< HEAD
 #delivery-page, #delivery-page p{ /*font: normal normal normal 12px/175% Helvetica, Arial, sans-serif;*/ color:#333; }
 #delivery-page p{ margin:0; padding:0; }
 
 #delivery-page2, #delivery-page2 p{ /*font: normal normal normal 12px/175% Helvetica, Arial, sans-serif;*/ color:#333; }
+=======
+#delivery-page, #delivery-page p{ font: normal normal normal 12px/175% Helvetica, Arial, sans-serif; color:#333; }
+#delivery-page p{ margin:0; padding:0; }
+
+#delivery-page2, #delivery-page2 p{ font: normal normal normal 12px/175% Helvetica, Arial, sans-serif; color:#333; }
+>>>>>>> dc1ad65f88d87f12afab44c3f28e23b7b674088e
 #delivery-page2 p{ margin:0; padding:0; }
 
 strong{ font-weight: bold; }
@@ -277,7 +289,11 @@ display: none;
 
 
 .gotham {
+<<<<<<< HEAD
     font-family: 'Gotham A', 'Gotham B', sans-serif !important;
+=======
+    font-family: "Gotham A","Gotham B";
+>>>>>>> dc1ad65f88d87f12afab44c3f28e23b7b674088e
     font-style: normal;
     font-weight: 400;
 }
@@ -287,6 +303,7 @@ display: none;
     font-weight: 800;
 }
 tab { padding-left: 25em; }
+<<<<<<< HEAD
 
 
 ul#key-messages li, ul#key-messages2 li{ width: 432px; padding-top:20px; float:left; position:relative; margin-right: 80px !important;}
@@ -498,3 +515,5 @@ width: 100%;
 }
 
 
+=======
+>>>>>>> dc1ad65f88d87f12afab44c3f28e23b7b674088e
