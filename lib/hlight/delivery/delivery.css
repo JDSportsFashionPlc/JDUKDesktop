@@ -302,13 +302,24 @@ AUTHOR: TIMI
 
 .contentContainer { 
 margin-bottom: 50px;
+padding: 0;
+width: 100%;
+}
+
+#delivery-page {
+width: 950px;
+margin: 0 auto;
+padding-right: 8px;
 }
 
 #delivery-page2 { 
 background: url('/lib/hlight/delivery/images/page-divider.png')repeat-y center;
 width: 984px;
 min-height: 990px;
+margin: 0 auto;
+position: relative;
 }
+
 .editt {
     text-align: center;
 }
@@ -371,7 +382,7 @@ height: 50px;
 
 .sat {
     
-background: url('/lib/hlight/delivery/images/sat.png') no-repeat 0 0; position:absolute; top:22px; right: 0;
+background: url('/lib/hlight/delivery/images/sat.png') no-repeat 0 0; position:absolute; top:28px; right: 0;
 width: 50px;
 height: 50px;
 }
@@ -385,9 +396,12 @@ height: 50px;
 
 .collect-plus {
     
-background: url('/lib/hlight/delivery/images/collect-plus.png') no-repeat 0 0; position:absolute; top:22px; right: 0;
-width: 110px;
-height: 50px;
+background: url('/lib/hlight/delivery/images/collect-plus.png') no-repeat 0 0;
+position: absolute;
+top: 32px;
+right: 0;
+width: 33px;
+height: 50px; 
 }
 
 .time {
@@ -399,23 +413,26 @@ height: 50px;
 
 .click {
     
-background: url('/lib/hlight/delivery/images/click.png') no-repeat 0 0; position:absolute; top:22px; right: 0;
-width: 50px;
-height: 50px;
+background: url('/lib/hlight/delivery/images/click.png') no-repeat 0 0; position:absolute; top:22px; 
+right: 0;
+width: 35px;
+height: 35px;
 }
 
 .van {
     
-background: url('/lib/hlight/delivery/images/van.png') no-repeat 0 0; position:absolute; top:22px; right: 0;
+background: url('/lib/hlight/delivery/images/van.png') no-repeat 0 0; position:absolute; top:31px; right: 0;
 width: 50px;
 height: 50px;
 }
 
 .find {
-    
-background: url('/lib/hlight/delivery/images/find.png') no-repeat 0 0; position:absolute; top:22px; right: 0;
-width: 50px;
-height: 50px;
+background: url('/lib/hlight/delivery/images/find.png') no-repeat 0 0;
+position: absolute;
+top: 5px;
+right: 22px;
+width: 35px;
+height: 35px;
 }
 #map {
 background:#FFF url('/lib/hlight/delivery/images/map.png') no-repeat 267px 120px !important;
@@ -426,7 +443,7 @@ width: 453px;
 margin-top: 17px;
 text-align: left;
 position: absolute;
-top: 557px;
+top: 437px;
 right: 0;
 }
 

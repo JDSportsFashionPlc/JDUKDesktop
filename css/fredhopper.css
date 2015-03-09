@@ -575,11 +575,8 @@ div#plpBanner.black_yellow_offer_banners div#plpBannerText a#plpBannerLink6{disp
 .creativebannersync_fh_shoes img,.creativebannersync_fh_shoes img,
 .creativebannersync_fh_clothes img,
 .supplydemand_brand img{display:block}
-
 .creativebannersync_fh_clothes #plpBannerText,
 .creativebannersync_fh_shoes #plpBannerText{display:none}
-
-
 .supplydemand_brand{position:relative;width:768px;height:200px;background:#eee;margin-bottom:15px}
 
 
@@ -800,4 +797,8 @@ TURNSTYLE SINGLE LINK GENERIC
 .generic_image_with_single #plpBannerText p{display: none;}
 div#plpBanner.generic_image_with_single div#plpBannerText a#plpBannerLink1{background: #FFFC00;color: #030300;display:block;font-weight:bold;height: 35px;line-height:35px;padding:0 1px;position:absolute;text-align:center;text-decoration:none;text-transform:uppercase;width: 180px;bottom: 30px;left: 30px;font-family:"Gotham A", "Gotham B", sans-serif !important;overflow: hidden;}
 div#plpBanner.generic_image_with_single div#plpBannerText a#plpBannerLink2{background: #FFFC00;color: #030300;display:block;font-weight:bold;height: 35px;line-height:35px;padding:0 1px;position:absolute;text-align:center;text-decoration:none;text-transform:uppercase;width: 188px;bottom: 42px;left: 418px;font-family:"Gotham A", "Gotham B", sans-serif !important;overflow: hidden;}
+ 
+ 
+ 
+ 
  
