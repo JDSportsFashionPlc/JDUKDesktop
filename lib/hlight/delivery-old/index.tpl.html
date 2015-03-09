@@ -1,0 +1,69 @@
+{capture assign="metaTitle"}{site_text page="Homepage" part="Meta: Title"}{/capture}
+{capture assign="metaDescription"}{site_text page="Homepage" part="Meta: Description"}{/capture}
+{capture assign="metaKeywords"}{site_text page="Homepage" part="Meta: Keywords"}{/capture}
+{include file="_includes/header.tpl.html" page_css_template="jdhome"}
+{strip}      
+        
+<div style="height:1000px;">
+
+<!-- SECTION 01, BANNERS -->
+    <div class="section" id="banners">      
+        <div id="banner-slider-wrap" class="homepage">
+            <div class="banner-slider">
+               <!-- BANNERS -->
+               <ul>
+               
+               <!-- BANNER 01 -->
+               <li>
+			   <a href="/featured/jordan+V+Fire+Red" manual_cm_re="HomeMain-_-Slider1-_-jordan-fire-red">
+			   <img src="/templates/{$templates_dir}/_assets/images/content/slider/demo/banner01.jpg" title="Jordan Fire Red" alt="Jordan Fire Red" />
+               <span class="call-to-action" style="bottom:30px; right:30px; background-color:#FFF; color:#000;">SHOP NOW</span>
+			   </a>
+               </li>
+                    
+               <!-- BANNER 02 -->
+               <li>
+			   <a href="/featured/max+95/" manual_cm_re="HomeMain-_-Slider2-_-air-max-95">
+			   <img src="/templates/{$templates_dir}/_assets/images/content/slider/demo/banner02.jpg" title="Air Max 95" alt="Air Max 95" />
+               <span class="call-to-action" style="bottom:30px; right:100px; background-color:#FFF; color:#000;">SHOP NOW</span>
+			   </a>
+               </li>
+ 
+               <!-- BANNER 03 -->
+               <li>
+			   <a href="/women/womens-clothing/performance-clothing/" manual_cm_re="HomeMain-_-Slider3-_-womens-fitness">
+			   <img src="/templates/{$templates_dir}/_assets/images/content/slider/demo/banner03.jpg" title="Womens Fitness" alt="Womens Fitness" />
+               <span class="call-to-action" style="bottom:30px; right:30px; background-color:#FFF; color:#000;">SHOP NOW</span>
+			   </a>
+               </li>
+                    
+               </ul>
+                    
+            </div>
+            
+            <!-- NAVIGATION TABS -->
+            <div class="banner-slider-nav">
+                <a href="#" style="width:33%;">Jordan Fire Red<div class="current-banner-progress"></div></a>
+                <a href="#" style="width:33%;">Air Max 95<div class="current-banner-progress"></div></a>
+                <a href="#" style="width:34%;">Womens Fitness<div class="current-banner-progress"></div></a>
+            </div>
+            
+            <!-- FORWARD / BACK ARROWS -->
+            <a href="#" class="banner-arrow arrow-back">Back</a>
+            <a href="#" class="banner-arrow arrow-forward">Forward</a>
+            
+        </div>
+        
+<!-- END SECTION 01 -->
+</div>
+
+
+
+
+</div>     
+
+</div>
+</div>   
+     
+{/strip}
+{include file="_includes/footer.tpl.html"}
