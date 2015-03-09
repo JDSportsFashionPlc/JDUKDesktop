@@ -1,0 +1,17 @@
+@charset "UTF-8";
+/* Offer Page Styling */
+h1, h2 > a { color:#FB8925 !important; }
+#boxed-offers { height:240px; width:768px; }
+#boxed-offers a { display:block; width:100%; height:100%; cursor:pointer; }
+.cta { text-decoration:none; height:32px; line-height: 32px; padding-left: 15px; padding-right: 50px; color:#FFF; font-size:14px; font-weight:bold; background: url('../../../images/call-to-action-arrows.png') no-repeat 100% 0; overflow:visible; border:1px solid #FFF; }
+.cta:hover { background-position: 100% -32px; }
+#boxed-offers li {width:237px; height:237px; position:absolute; color:#FFF; text-transform:uppercase; text-align:center; }
+#boxed-offers li > p { font-size:32px; margin-top:40px; }
+/* #boxed-offers li > span { font-size:58px; font-weight:bold; line-height:24px; } */ 
+.top-left-offers { top:0; left:0; background:url('images/top-left-offer.png') no-repeat 0 0; }
+.top-right-offers { top:0; right:0; background:url('images/top-right-offer.png') no-repeat 0 0; }
+.bottom-left-offers { bottom:0; left:0; background:url('images/bottom-left-offer.png') no-repeat 0 0; }
+.bottom-right-offers { bottom:0; right:0; background:url('images/bottom-right-offer.png') no-repeat 0 0; }
+.left-offers { top:0; left:0; background:url('images/mens-offers-20.jpg') no-repeat 0 0; }
+.middle-offers { top:0; left:266px; background:url('images/mens-offers-25.jpg') no-repeat 0 0; }
+.right-offers { top:0; right:0; background:url('images/womens-offers-30.jpg') no-repeat 0 0; }

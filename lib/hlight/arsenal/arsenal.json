@@ -1,0 +1,53 @@
+{
+    "Page": [
+        {
+            "Id": 0,
+            "IsActive": true,
+            "PageName": "backtoschool",
+            "PageURL": "backtoschool",
+			"ShopByAccessories": [
+				{
+                    "id": 0,
+                    "picplu": "019867",
+                    "hover": "KOT-_-Navigation-_-Latest"
+                },
+				{
+                    "id": 0,
+                    "picplu": "023306",
+                    "hover": "KOT-_-Navigation-_-Latest"
+                },
+				{
+                    "id": 0,
+                    "picplu": "136082",
+                    "hover": "KOT-_-Navigation-_-Latest"
+                },
+				{
+                    "id": 0,
+                    "picplu": "011790",
+                    "hover": "KOT-_-Navigation-_-Latest"
+                },
+				{
+                    "id": 0,
+                    "picplu": "017389",
+                    "hover": "KOT-_-Navigation-_-Latest"
+                },
+				{
+                    "id": 0,
+                    "picplu": "090446",
+                    "hover": "KOT-_-Navigation-_-Latest"
+                },
+				{
+                    "id": 0,
+                    "picplu": "007987",
+                    "hover": "KOT-_-Navigation-_-Latest"
+                },
+				{
+                    "id": 0,
+                    "picplu": "049955",
+                    "hover": "KOT-_-Navigation-_-Latest"
+                }
+				
+            ]
+        }
+    ]
+}

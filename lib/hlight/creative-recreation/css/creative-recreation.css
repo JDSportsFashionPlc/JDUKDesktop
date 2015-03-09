@@ -1,0 +1,127 @@
+/***
+
+ * --- --- --- --- ---
+ * JD Sports Fashion plc
+ * IBM WebSphere Commerce Platform
+ * LUIS PAZ
+ * --- --- --- --- ---
+
+***/
+
+/*
+REWRITES OF JD
+*/
+.contentContainer{width:100% !important;padding:0px !important}
+.full-width-header{z-index:9999 !important}
+.full-width-footer{position:relative;z-index:9000}
+
+/*
+GLOBALS
+*/
+#page-container{background:#0d0b09 url(../imgs/main-bg.jpg) top center no-repeat;position:relative;overflow:hidden;color:#fff;font-family:Helvetica, Arial, sans-serif;width:100%;height:100%}
+.ruh{width:976px !important;margin:0 auto;position:relative !important}
+.left{float:left}
+.right{float:right}
+.hide{display:none}
+.clear{clear:both}
+.last{margin-right:0 !important}
+.caps{text-transform:uppercase}
+.center{text-align:center}
+.halfcircle{border-radius:27px}
+.caps{text-transform:uppercase}
+.fullwidth{width:100%}
+
+/*
+NAVIGATION
+*/
+#nav {position:absolute;top:47px;left:45px;list-style:none;padding:0;margin:0;}
+#nav li {list-style:none;margin:0;color:#fff;font-size:12px;text-align:center;width:160px;height:20px;letter-spacing:3px;}
+#nav li.navcat {font-size:17px;border-bottom:1px solid #fff;text-transform:uppercase;letter-spacing:5px;margin:21px 0 8px 0;height:25px;}
+#nav li a:link {color:#fff;text-decoration:none;}
+#nav li a:visited {color:#fff;text-decoration:none;}
+#nav li a:hover {color:#fff;text-decoration:underline;}
+#nav li a:active {color:#fff;text-decoration:none;}
+
+/*
+PAGE SPECIFICS
+*/
+#inner-wrapper {width:971px;display:block;margin:0 auto;}
+#inner-wrapper header {width:971px;height:574px;background:url(../imgs/header_01.jpg) top center no-repeat #000;display:block;position:relative;}
+#inner-wrapper header .logo {position:absolute;top:55px;right:30px;}
+#slider,#slider2 {position:relative;width:971px;height:655px;display:block;}
+#slider .overlay-top, #slider2 .overlay-top {position:absolute;z-index:1;top:0;}
+#slider .overlay-bottom, #slider2 .overlay-bottom  {position:absolute;z-index:1;bottom:-3px;}
+
+/*
+STYLES FOR SLIDER
+*/
+#slides,#slides2 {overflow: hidden;position: relative;width:971px;height:647px;display:block;z-index:0;}
+#slider .slider-content, #slider2 .slider-content {z-index:20;position:absolute;}
+#slider .slider-content h3, #slider2 .slider-content h3 {position:absolute;top:132px;left:50px;color:#fff;font-size:38px;text-transform:uppercase;font-weight:normal;}
+#slider .slider-content h4, #slider2 .slider-content h4  {position:absolute;top:180px;left:52px;color:#fff;font-size:20px;text-transform:uppercase;font-weight:normal;}
+#slider .slider-content p, #slider2 .slider-content p {position:absolute;top:232px;left:52px;color:#fff;font-size:18px;width:380px;font-weight:normal;}
+#slider .cta, #slider2 .cta {width:119px;height:50px;background:#fff;display:block;color:#000;position:absolute;top:310px;left:52px;font-size:17px;text-align:center;line-height:50px;cursor:pointer;text-decoration:none;}
+#slider .cta a, #slider2 .cta a {width:119px;height:50px;text-decoration:none;display:block;}
+#slider .cta2, #slider2 .cta2 {width:119px;height:50px;background:#fff;display:block;color:#000;position:absolute;top:310px;left:190px;font-size:17px;text-align:center;line-height:50px;cursor:pointer;text-decoration:none;}
+#slider .cta2 a, #slider2 .cta2 a {width:119px;height:50px;text-decoration:none;display:block;}
+
+.slidesjs-next {z-index: 999;position: absolute;top: 408px;left: 85px;width:16px;height:29px;background:url(../imgs/slider/arrow-right.png);text-indent:-99999px;cursor:pointer;}
+.slidesjs-previous {z-index: 999;position: absolute;top: 408px;left: 50px;;width:16px;height:29px;background:url(../imgs/slider/arrow-left.png);text-indent:-99999px;cursor:pointer;}
+/*
+END STYLES FOR SLIDER
+*/
+
+.effect {color:#fff!important;background:#000!important;transition:all .5s ease;-webkit-transition: all .5s ease;}
+.effect a {color:#fff!important;}
+
+#product-boxes {width:971px;height:auto;display:block;background:#fff;padding:30px 0;}
+#product-boxes ul {width:1003px;margin:0 14px;padding:0;}
+#product-boxes .product-box {width:218px;height:310px;display:inline-block;margin:8px;}
+#product-boxes .product-box img {width:218px;height:218px;background:#eee;}
+#product-boxes .product-box .product-info {display:block;width:218px;margin-top:30px;}
+#product-boxes .product-box .product-info p {margin-bottom:0;}
+#product-boxes .product-box .product-info h3,#product-boxes .product-box .product-info span {font-weight:bold;} 
+
+.line-break {width:930px;height:2px;border-bottom:1px solid #000;display:block;margin:20px auto;}
+
+#feed-scroller {background:#fff;width:971px;height:190px;display:block;margin:0;padding-bottom:40px;}
+#feed-scroller h3 {color:#000;margin:0 auto 25px auto;font-size:30px;width:400px;display:block;text-align:center;}
+#feed-scroller #instafeed {position:relative;margin:0;}
+
+.CaroselSlideItem{width:150px !important;margin-right:0 !important;}
+.CaroselSlideItem img {-webkit-filter: grayscale(100%);filter:grayscale(100%);-webkit-transition: all .6s ease;transition: all .6s ease;}
+.CaroselSlideItem img:hover {filter: grayscale(0%);-webkit-filter: grayscale(0%);filter: none;}
+
+.bx-wrapper .bx-pager{display:none !important}
+.bx-wrapper .bx-viewport {width: 900px !important;overflow: hidden;position: relative;height: 150px;/*margin: -23px 0 0 -56px !important;*/margin:0 auto !important}
+.bx-wrapper .bx-controls-direction a {position: absolute;top: 47% !important;margin-top: -16px;outline: 0;width: 32px;height: 32px;text-indent: -9999px;z-index: 9999;}
+/*.bx-wrapper .bx-prev {left: 5px !important;background: url(images/controls.png?v=s) no-repeat 0 -32px;}
+.bx-wrapper .bx-next {right: 5px !important;background: url(images/controls.png?v=k) no-repeat -43px -32px;}*/
+.bx-wrapper .bx-prev {left: 9px !important;background: url(../imgs/carousel/arrow-left.png) top left no-repeat !important;width:25px !important;height:58px !important;}
+.bx-wrapper .bx-prev:hover {background: url(../imgs/carousel/arrow-left.png) -58px left no-repeat;}
+.bx-wrapper .bx-next {right: 10px !important;background: url(../imgs/carousel/arrow-right.png) top right no-repeat !important;width:25px !important;height:58px !important;}
+.bx-wrapper .bx-next:hover {background: url(../imgs/carousel/arrow-right.png) -58px right no-repeat;}
+
+/*#instafeed .owl-item img {padding:0;width:100%;-webkit-filter: grayscale(100%);filter:grayscale(100%);-webkit-transition: all .6s ease;transition: all .6s ease;}
+#instafeed .owl-item img:hover {filter: grayscale(0%);-webkit-filter: grayscale(0%);filter: none;}
+#instafeed .owl-item {padding-right: 0;z-index:1;width:119px;}
+#instafeed .owl-item.active {margin-left: 0px;width:119px;}
+#instafeed .owl-controls {margin-top:0;}
+#instafeed .owl-prev {display: block !important;background: url(../imgs/carousel/arrow-left.png) !important;font-size: 0px !important;position: absolute;top: 65px;left:-5px;width:25px;height:43px;padding:0;}
+#instafeed .owl-next {display: block !important;background: url(../imgs/carousel/arrow-right.png) !important;font-size: 0px !important;position: absolute;top: 65px;right:-5px;width:25px;height:43px;padding:0;}*/
+
+
+footer {width:971px;height:260px;position:relative;display:block;background:url(../imgs/footer-bg.jpg) top center no-repeat #000;}
+footer .cr-logo-footer {position:absolute;top:58px;left:80px;}
+footer .twitter-footer {width:36px;height:36px;overflow:hidden;display:block;position:absolute;top:61px;left:200px;}
+footer .instagram-footer {width:36px;height:36px;overflow:hidden;display:block;position:absolute;top:61px;left:244px;}
+footer .facebook-footer {width:36px;height:36px;overflow:hidden;display:block;position:absolute;top:61px;left:288px;}
+footer .hover {margin-top:-36px !important;transition: all .5s ease;-webkit-transition: all .5s ease;}
+
+/*
+RESPONSIVE
+*/
+@media screen and (max-width:1475px){}
+@media screen and (max-width:1200px){}
+@media screen and (max-width:1024px){}
+@media screen and (max-width:800px){}

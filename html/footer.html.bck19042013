@@ -1,0 +1,142 @@
+<div id="footerMain">
+
+<!-- DELIVERY MESSAGE -->
+	<!--
+	<div class="section" id="deliveryCountry">
+		<span>WE DELIVER TO OVER 65 COUNTRIES WORLDWIDE!</span>
+	</div>
+	-->
+	<!-- EO DELIVERY MESSAGE -->
+	
+	<!--
+	<div class="section" id="socialBar" style="margin-bottom:0; height:50px; display:none;">
+		<img src="images/social-bar-test.png" />
+	</div>
+	-->
+	<!-- EO SOCIAL BANNER -->
+	
+	
+	
+	
+	
+	
+
+	<!-- Brands -->
+		<ul id="brandIcons">
+		<li class="adidas-originals">
+			<a rel="nofollow" href="http://www.jdsports.co.uk/page/mens-adidas/?cm_re=HomeMain-_-Brand-Scroll-_-Adidas" title="Adidas"></a>
+		</li>
+    	<li class="adidas">
+			<a rel="nofollow" href="http://www.jdsports.co.uk/search/featured+carbrini/latest/?cm_re=HomeMain-_-Brand-Scroll-_-Carbrini" title="Carbrini"></a>
+		</li>
+    	<li class="nike">
+			<a rel="nofollow" href="http://www.jdsports.co.uk/page/mens-duffer-of-st-george/?cm_re=HomeMain-_-Brand-Scroll-_-Duffer-of-St-George" title="Duffer of St George"></a>
+		</li>
+		<li class="converse">
+			<a rel="nofollow" href="http://www.jdsports.co.uk/page/mens-duffer-of-st-george/?cm_re=HomeMain-_-Brand-Scroll-_-Duffer-of-St-George" title="Fred-Perry"></a>
+		</li>
+    	<li class="fred-perry">
+			<a rel="nofollow" href="http://www.jdsports.co.uk/search/featured+mckenzie/latest/?cm_re=HomeMain-_-Brand-Scroll-_-McKenzie" title="McKenzie"></a>
+		</li>
+    	<li class="new-era">
+			<a rel="nofollow" href="http://www.jdsports.co.uk/page/mens-nike/?cm_re=HomeMain-_-Brand-Scroll-_-Nike" title="Nike"></a>
+		</li>
+    	<li class="puma">
+			<a rel="nofollow" href="http://www.jdsports.co.uk/page/mens-adidas/?cm_re=HomeMain-_-Brand-Scroll-_-Adidas" title="Adidas"></a>
+		</li>
+    	<li class="brookhaven">
+			<a rel="nofollow" href="http://www.jdsports.co.uk/search/featured+carbrini/latest/?cm_re=HomeMain-_-Brand-Scroll-_-Carbrini" title="Carbrini"></a>
+		</li>
+    	<li class="view-all last-child">
+			<a rel="nofollow" href="http://www.jdsports.co.uk/page/mens-duffer-of-st-george/?cm_re=HomeMain-_-Brand-Scroll-_-Duffer-of-St-George" title="Fred-Perry"></a>
+		</li>	
+		<div style="clear:both"></div>		
+		</ul>
+
+	<!--
+	<div class="section" id="footerContent" style="background-color:#000;">  
+		  <img src="images/footer-option-1.png" />      
+	</div>
+    -->
+    
+    <div id="footerHeader">
+    <div class="footerHeaders aboutUs">About Us</div>
+    <div class="footerHeaders custServ">Customer Service</div>
+    
+    <div class="footerRule"></div>
+    
+    <div id="leftContainer">
+    <p class="paymentMethods" >We accept the following payment methods</p>
+    <img src="/images/cards.png" alt="cards" />
+    </div>
+    </div>
+    
+    <div class="aboutUsList" >
+    <ul>
+    <li><a href="http://www.jdsports.co.uk/page/site-map/?cm_re=Global-_-Footer-_-Sitemap" title="Site Map" target="_blank">Site Map</a></li>
+    
+    <li><a href="lib/cs/faqs.html?brand=JD%20Sports&action=topic&tax=JD%20Sports%20Taxonomy&topic=712e3806-ca4d-4824-bffd-93259abb04e2" title="Site Security" target="_blank">Site Security</a></li>
+    
+    <li><a href="/lib/cs/faqs.html?brand=JD%20Sports&amp;mode=topic&amp;action=answer&amp;tax=JD%20Sports%20Taxonomy&amp;answer=39b48be3-3c1b-4e5e-acb5-20d44f0c5bde&amp;back=faq%3Faction%3Dtopic%26tax%3DJD+Sports+Taxonomy%26topic%3D65a94d7b-c0a8-4c8a-874d-9ca35d3b3e3b%26page%3D1" title="Privacy" target="_blank">Privacy</a></li>
+    
+    <li><a href="http://www.jdplc.com/site-services/accessibility.aspx" target="_blank" title="Accessibility">Accessibility</a></li>
+    
+    <li><a href="/lib/cs/faqs.html?brand=JD%20Sports&mode=topic&action=answer&tax=JD%20Sports%20Taxonomy&answer=41f2d9f2-1d52-4d9b-93b9-a37eda9df50b&back=faq%3Faction%3Dtopic%26tax%3DJD+Sports+Taxonomy%26topic%3D65a94d7b-c0a8-4c8a-874d-9ca35d3b3e3b%26page%3D1" target="_blank" title="Terms and Conditions">Terms &amp; Conditions</a></li>
+    
+<li><a href="http://careers.jdsports.co.uk/" title="Careers" target="_blank">Careers</a></li>
+
+</ul>
+</div>
+
+<div class="custServ">
+<ul>
+<li><a onclick="openWin('/lib/cs/faqs.html?brand=JD%20Sports&amp;action=topic&amp;tax=JD%20Sports%20Taxonomy&amp;topic=93d5fec5-8f1d-4d1c-8b00-d3176c96e8e2')" href="#" title="Contact Us">Contact Us</a></li>                           
+<li><a onclick="openWin('/lib/cs/faqs.html?brand=JD%20Sports&amp;action=topic&amp;tax=JD%20Sports%20Taxonomy&amp;topic=c269526c-5cff-42b4-a025-123653f75316')" href="#" title="Delivery Info">Delivery Info</a></li>
+
+<li><a onclick="openWin('/lib/cs/faqs.html?brand=JD%20Sports&amp;action=topic&amp;tax=JD%20Sports%20Taxonomy&amp;topic=2d78567c-5f05-4db5-bb0e-3dd7e232c9c9')" href="#" title="Returning Items">Returning Items</a></li>
+
+<li><a onclick="openWin('/lib/cs/faqs.html?brand=JD%20Sports&amp;mode=topic&amp;action=answer&amp;tax=JD%20Sports%20Taxonomy&amp;answer=a9d55d10-2177-438a-bd52-e93590d82065&amp;back=faq%3Faction%3Dtopic%26tax%3DJD+Sports+Taxonomy%26topic%3D2d78567c-5f05-4db5-bb0e-3dd7e232c9c9%26page%3D2')" href="#" title="Order Tracking">Order Tracking</a></li>
+
+<li><a onclick="openWin('/lib/cs/size-guides.html')" href="#" title="Size Chart">Size Guides</a></li>
+
+<li><a onclick="openWin('/lib/cs/faqs.html')" href="#" title="FAQs">FAQs</a></li>
+
+</ul>
+</div>
+
+<p class="copyright">Copyright &copy; 2013 JD Sports Fashion Plc. All rights reserved. Visit our corporate website at <a href="http://www.jdplc.com" target="_blank" >www.jdplc.com</a></p>
+
+</div><!-- /footerContent -->	
+
+<!-- Sports Nav Content, inserted into header nav via scripts.js (lines 98-100) -->
+<ul id="sportsLinks" style="display:none;">
+<li>
+<span><a href="/page/sports/" manual_cm_re="Global-_-Header-_-TAB-sports" class="sports " id="sportsLink">Sports &amp; Fitness</a></span>
+	<ul id="sportsMenuItemsContainer">
+		<li>
+			<ul id="sportsMenuItems">
+			<!--[if lte IE 6]><iframe src="javascript:false;"></iframe><![endif]-->
+				<li>
+					<ul class="menuCol">
+						<li class="sportsMenuHeading"><span>Sports:</span></li>
+                        <li>
+                        	<ul>
+								<li><span><a href="/page/sports/" manual_cm_re="Global-_-Header-_-DD-SPORTS-sports+home">Sports Home</a></span></li>
+								<li><span><a href="/page/sports_running/" manual_cm_re="Global-_-Header-_-DD-SPORTS-running">Running</a></span></li>
+                               	<li><span><a href="/page/sports_fitness/" manual_cm_re="Global-_-Header-_-DD-SPORTS-fitness">Fitness</a></span></li>
+								<li><span><a href="/page/sports_football/" manual_cm_re="Global-_-Header-_-DD-SPORTS-football">Football</a></span></li>
+                           
+							</ul>
+                      	</li>
+					</ul><!-- menuCol -->
+				</li>
+			</ul><!-- sportsMenuItems -->
+		</li>
+	</ul><!-- sportsMenuItemsContainer -->
+</li>
+</ul>
+
+<!-- LOAD JQUERY IF NOT LOADED -->
+<script>window.jQuery || document.write("<script src='/js/jquery.js'>\x3C/script>")</script>
+<script type="text/javascript" src='/js/scripts.js'></script>
+<script type="text/javascript" src="/js/jquery.cookie.js" language="javascript"></script>

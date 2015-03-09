@@ -1,0 +1,38 @@
+/***
+
+ * --- --- --- --- ---
+ * JD Sports Fashion plc
+ * IBM WebSphere Commerce Platform
+ * Khaleel Mughal
+ * --- --- --- --- ---
+ * #NIKECROSSTOWN MEN MAIN CATEGORY PAGE CLASS
+ * --- --- --- --- ---
+
+***/
+
+/*
+MEN OVERRIDES AND GENDER MAIN CATEGORY
+*/
+.topwidthleft{width:400px;color:#000;margin-top:65px !important}
+.regionLong{height:1305px}
+.contentuse div.left{width:251px}
+.mapboxtables table strong{font-size:14px;font-weight:bold}
+.mapboxtables table{line-height:19px;margin-bottom:11px}
+.mapboxtables table tr, .mapboxtables table td{vertical-align:top;padding:3px}
+.mapboxtables table tr img, .mapboxtables table td img{height:19px;width:19px}
+.theSubInnerPaddingPusher{padding:25px}
+.ZoneMenu{top:0;width:100%;text-align:center;color:#000;background:none repeat scroll 0 0 #F0FB00 !important;height:43px}
+.ZoneMenu ul li{position:relative;width:inherit;height:inherit}
+.ZoneMenu ul li a{background:none;height:inherit;text-align:center;padding-left:0;color:#000;opacity:1;font-size:23px;line-height:47px;text-transform:uppercase}
+.ZoneMenu ul li a:hover{text-decoration:underline;background:none;opacity:1}
+.subCatLink{height:500px;width:285px;margin-right:35px}
+.off,.off tr,.off td,.off tr td{padding:0px !important;margin:0px !important;margin-right:0px !important}
+.productpicsub{border:1px solid #ccc;position:absolute;top:35px;left:55px}
+.closemelink{width:16px;height:16px;position:absolute;cursor:pointer;right:11px;top:11px}
+.closemelink:hover{opacity:0.7}
+.productsubinnercontent{font-size:10px;line-height:13px;position:absolute;right:41px;text-align:left;top:41px;width:95px}
+.productsubinnercontent a{font-weight:bold}
+.productsubinnercontent a:hover{text-decoration:none}
+.bottomItemLinkFeed{margin-top:3px;font-weight:bold;letter-spacing:0.9px;text-transform:uppercase}
+.bottomItemLinkFeed:hover{text-decoration:none}
+.CaroselSlideItem{margin-left:25px}

@@ -1,0 +1,108 @@
+/***
+
+ * --- --- --- --- ---
+ * JD Sports Fashion plc
+ * IBM WebSphere Commerce Platform
+ * --- --- --- --- ---
+ * RESPONSIVEFIX
+ * --- --- --- --- ---
+ 
+***/
+
+@media screen and (max-width:1200px){
+
+	#header, #headerCheckout, ul#primaryNavigation,
+	ul#primaryNavigation > li > ul#sportsMenuItemsContainer,
+	ul#primaryNavigation > li > ul#footballMenuItemsContainer,
+	#delivery-banner-new,
+	#middle-spots-wrap.homepage ul,
+	#middle-spots-wrap.homepage,
+	#footerMain,
+	.fix{
+		width:850px !important	
+	}
+	#header #search{left:143px}
+	ul#primaryNavigation > li{margin:0 15px 0 0 !important}
+	ul#primaryNavigation > li > ul#footballMenuItemsContainer, 
+	.full-width-footer,
+	.full-width-header{min-width:0 !important}
+	#delivery-banner-new{background:none !important}
+	.usp-pics{width:115px !important}
+	.usp-pics img,
+	.adbar img,
+	.adbar,
+	#middle-spots-wrap.homepage ul li .text{
+		width:100% !important
+	}
+	#middle-spots-wrap.homepage ul li .text{
+		padding:0px !important
+	}
+	ul#brandIcons li{width: 85px !important}
+	#landing-description ul li.kot{
+		display:none
+	}
+	#landing-description ul li.desc{
+		width:421px !important
+	}
+	.socialBarSection.newsletter-signup {
+   	left:275px !important;
+	}
+	.full-width-footer{
+		background:none	
+	}
+	.DoubleSpot,
+	.DoubleSpot img{width:548px !important}	
+	.SingleAdBar{left:559px !important}
+	.SingleAdBar img{width:100%}
+	#middle-spots-wrap.homepage ul li.SingleAdBar .text span{margin:22px 72px auto !important}	
+	.middlespotContentRegion{}
+	#sliderHome2 .owl-next{
+   	margin-left:443px !important
+	}
+	
+}
+	
+@media screen and (max-width:1000px){
+
+	#header, #headerCheckout, ul#primaryNavigation,
+	ul#primaryNavigation > li > ul#sportsMenuItemsContainer,
+	ul#primaryNavigation > li > ul#footballMenuItemsContainer,
+	#delivery-banner-new,
+	#middle-spots-wrap.homepage ul,
+	#middle-spots-wrap.homepage,
+	#footerMain,
+	.fix{
+		width:750px !important	
+	}
+	ul#primaryNavigation > li{margin:0 11px 0 0 !important}
+	ul#primaryNavigation > li > span > a{font-size:13px !important}
+	.usp-pics{width:91px !important}
+	.gotham{font-size:11px !important}
+	#brandIcons{
+		display:none !important
+	}
+	#landing-description ul li.desc{
+		width:100% !important;
+		text-align:center
+	}
+	#landing-description ul li{
+		float:none !important
+	}
+	#landing-description ul li.kot{
+		margin:-90px auto !important;
+		display:block !important
+	}
+	.socialBarSection.newsletter-signup {
+   	left:205px !important
+	}
+	.DoubleSpot,
+	.DoubleSpot img{width:508px !important}	
+	.SingleAdBar{left:518px !important}
+	.SingleAdBar img{width:325px;left:-45px !important}
+	#middle-spots-wrap.homepage ul li.SingleAdBar .text span{margin:22px 52px auto !important}	
+	.middlespotContentRegion{}
+	#sliderHome2 .owl-next{
+   	margin-left:443px !important
+	}
+
+}

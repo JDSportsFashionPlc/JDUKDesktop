@@ -1,0 +1,95 @@
+<!-- LOAD LANDING PAGE SPECIFIC STYLES -->
+<link href="new-era.css" rel="stylesheet" type="text/css">
+
+<!-- START LANDING PAGE -->
+<div class="landing-page-container new-era">
+
+<!-- MAIN CONTENT -->
+<div id="main">
+
+<!-- SIDEBAR QUICK LINKS SECTION -->
+    <div id="sidebar">
+        <h1>New Era</h1>
+        <div id="sub-departments">
+            
+            <p>Limited edition customisation kits available now. Only whilst stocks last.</p>
+            
+              <a href="/search/free+customisation"><span class="call-to-action" style="margin-top:10px; background-color:#CCC; color:#000;">SHOP NOW</span></a>
+              
+              <p>*Customisation kits will include a personalisation form and pre-paid envelope for customers to fill in and return for customisation to take place. Customisation can take up to 15 days. New Era reserves the right to refuse any requests that are deemed offensive or unsuitable.
+            
+            
+           
+        </div>
+    
+    <!-- END SIDEBAR -->
+    </div>
+    
+     <div id="mainContent">
+      <h2>Customise Your MLB Cap</h2>
+        <h4>Created by New Era, only at JD</h4>
+     
+     	<!-- SECTION, -->
+        <div class="section" id="sale-countdown">
+       
+        
+        <div class="section" id="player">
+        <img id="newEraVideoOverlay" src="/lib/hlight/new-era/images/video-placeholder.jpg" width="700" height="430" alt="" />
+        <div id="ytapiplayer2" style="display:none;">
+        <object width="700" height="430">
+        <param name="movie" value="http://www.youtube.com/v/harG6UQrVzk?fs=1&amp;hl=en_US&amp;rel=0&amp;autoplay=1&amp;theme=light&amp;color=white&amp;rel=0">
+		<param name="allowFullScreen" value="true"><param name="allowscriptaccess" value="always">
+		<embed src="http://www.youtube.com/v/harG6UQrVzk?fs=1&amp;hl=en_US&amp;rel=0&amp;autoplay=1&amp;theme=light&amp;color=white&amp;rel=0" type="application/x-shockwave-flash" allowscriptaccess="always" allowfullscreen="true" width="700" height="430"></embed>
+		</object>
+		</div>
+        </div>
+        
+       
+        </div>
+        
+        
+        </div><!-- END MAIN CONTENT -->
+        </div>
+        </div>
+        
+   
+</div>
+
+</div><!-- END LANDING PAGE --> 
+
+<!-- LOAD JQUERY IF NOT LOADED -->
+<script>window.jQuery || document.write("<script src='/js/jquery.js'>\x3C/script>")</script>
+<script src="/js/jquery.countdown.js" type="text/javascript" charset="utf-8"></script>
+<script language="javascript" type="text/javascript">
+
+jQuery.noConflict();
+jQuery(document).ready(function() {
+	jQuery('#newEraVideoOverlay').click(function() {		
+		jQuery('#newEraVideoOverlay').fadeOut("fast");
+		jQuery('#player').animate({"height":"430px"}, 400,function() {
+			jQuery('#ytapiplayer2').show();
+		});
+	});
+});
+
+jQuery(function() {
+	
+	var isTouch = (('ontouchstart' in window) || (navigator.msMaxTouchPoints > 0));
+	
+	if (isTouch) {			
+		jQuery('.overlay').remove();
+			} else {
+				jQuery('#middle-spots-wrap').find('a').hover(function() {
+					jQuery(this).find('.overlay').stop(true, true).fadeIn(180);
+					jQuery(this).find('.gender').stop(true, true).fadeOut(90);
+				}, 
+				function() {
+					jQuery(this).find('.overlay').stop(true, true).fadeOut(90);
+					jQuery(this).find('.gender').stop(true, true).fadeIn(180);
+				});
+			}
+	});
+	
+	function ReadCookie() { };
+	
+</script>

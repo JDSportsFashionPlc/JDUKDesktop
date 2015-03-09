@@ -1,0 +1,168 @@
+/***
+
+ * --- --- --- --- ---
+ * JD Sports Fashion plc
+ * IBM WebSphere Commerce Platform
+ * Khaleel Mughal
+ * --- --- --- --- ---
+ * #DENIM
+ * --- --- --- --- ---
+
+***/
+
+/*
+REWRITES OF JD
+*/
+.contentContainer{width:100% !important;padding:0px !important}
+.full-width-header{z-index:9999 !important}
+
+/*
+GLOBALS MAIN FRAME
+*/
+.pumax{position:relative;overflow:hidden;color:white;font-family:Helvetica, Arial, sans-serif;width:100%;height:100%;font-family:Helvetica, Arial, sans-serif}
+
+
+.ruh{width:976px !important;margin:0 auto;position:relative !important}
+.left{float:left}
+.right{float:right}
+.hide{display:none}
+.clear{clear:both}
+.last{margin-right:0 !important}
+.fade a:hover, .fade a img:hover, .fade img:hover, .fade:hover{opacity:0.8;transition:ease-in .5s}
+
+
+h1,h2{color:#fff !important}
+
+/*
+html { background:none; }
+#page { overflow:visible; width:100%; } 
+p { font-size:0.9em; line-height:1.5em; }
+.contentContainer { float:none; width:100%;  }
+#header, #footerMain { margin:0 auto; float:none;}
+h1 { float:none; width:190px; height:55px; margin:9px 0 10px 0; font-size:26px; color:#000; font-weight:bold; text-transform:uppercase; background:url('images/puma-whiteout.png') 0 -20px; background-repeat:no-repeat; text-indent:-999px; }
+h2 { font-size:14px; font-weight:bold; margin-bottom:5px; text-transform:uppercase; }
+*/
+
+
+
+.pumax{background-image:url(/lib/hlight/puma/bg.jpg);background-position:center;background-repeat:none;background-size:cover;display:block;width:100%;height:1600px}
+
+
+
+/* ---- Base Elements ---- */
+.section { position:relative; display:block; width:100%; overflow:hidden; margin-bottom:30px; }
+.bg-white { background:none; }
+.full-width-footer { min-width:996px; width:100%; background:url('/images/footer-bg.gif') repeat scroll 0 0 #000; float:left; }
+
+ul#primaryNavigation.fixedNav { position:fixed; margin-top:-10px; top:0px; width:976px; border-top:10px solid #FFF; height:40px; line-height:40px; }
+ul#primaryNavigation.fixedNav:after { content: ""; display:block; height:3px; left:5px; position:absolute; top:35px; width:937px; }
+#nav-full-width { display:none; width:100%; background-color:#000; height:40px; }
+#nav-full-width img.nav-logo { float:left; margin:5px 20px; }
+#nav-full-width img.nav-scroll { float:right; margin:5px; }
+#nav-full-width p.nav-scroll-text { float:right; margin:12px; color:#FFF; }
+#nav-full-width.fixedNav { display:block; position:fixed; top:0; left:0; width:100%; background-color:#000; height:40px; }
+
+/* --- Generic Elements + Fixers --- */
+.landing-page-container.pagemen, .landing-page-container.pagewomen, .landing-page-container.pagekids{ border-top:1px solid #E5E5E5; /*margin-top:10px;*/ padding-top:15px; }
+.clearfix{ clear:both; }
+.hidden-element{ display:none; }
+a.call-to-action{ text-decoration:none; height:32px; line-height: 32px; padding-left: 15px; padding-right: 50px; color:#FFF; background: url('/images/call-to-action-arrows.png') no-repeat 100% 0; font-weight:bold; }
+a.call-to-action:hover{ background-position: 100% -32px; }
+
+/* --- Landing Layout (2 Columns) --- */
+#sidebar{ width:190px; margin-right:18px; float:left; /*margin-top:35px;*/ }
+#mainContent { width:768px; float:left; }
+.shadow { background:url('images/puma-shadow.png') no-repeat 0 0; width:768px; height:30px; display:block; margin-top:-30px; }
+.shadow-extended { background:url('images/puma-shadow.png') no-repeat 0 0; width:768px; height:150px; display:block; margin-top:-30px; }
+
+/* --- SIDEBAR STYLES --- */
+#sub-departments ul, #sub-departments li{ margin:0; padding:0; }
+#sub-departments ul{ margin-bottom:15px; }
+#sub-departments ul li{ font-size:12px; margin-bottom:5px; }
+#sub-departments a{ color:#FFF; text-decoration:none; }
+#sub-departments a:hover{ text-decoration:underline; }
+#sub-departments a.see-all{ font-weight:bold; }
+
+/* --- BRAND LANDING PAGES SPECIFIC ELEMENTS --- */
+#main { width:100%; }
+#full-width-slider { position: relative; width:100%; overflow: hidden; }
+#full-width slider ul { margin: 0; padding: 0; white-space: nowrap; list-style-type: none; }
+#full-width-slider li { position:relative; width:100%; float: left; display: block; margin: 0; padding: 0; }
+#full-width-slider ul li > a, .banner-slider ul li > div { display: block; text-align: center; outline: none; }
+#full-width-slider ul li > a img { border: none; display: block; margin: 0 auto; max-width: 100%; }
+
+#full-width-slider ul li span.call-to-action { display: block; position: absolute; }
+#full-width-slider ul li span.call-to-action { text-decoration:none; display:inline-block; height:32px; line-height: 32px; padding-left: 15px; padding-right: 50px; color:#FFF; background: url('/images/call-to-action-arrows.png') no-repeat 100% 0; font-weight:bold; }
+#full-width-slider ul li span.call-to-action:hover { background-position: 100% -32px; }
+
+/* ---- Main Navigation Spots (resized for brand pages, 2 spot only) ---- */
+#middle-spots-wrap.brand { position:relative; width:768px; height:230px; overflow:hidden; }
+#middle-spots-wrap.brand ul{ position:absolute; width:100%; height:230px; }
+#middle-spots-wrap.brand img{ position:absolute; top:0; left:0; }
+
+#middle-spots-wrap.brand ul li{ display:block; width: 410px; height: 230px; position:absolute; }
+#middle-spots-wrap.brand ul li.left{ left:0; }
+#middle-spots-wrap.brand ul li.right{ right:0; }
+#middle-spots-wrap.brand ul li a{ display:block; width: 100%; height: 100%; text-decoration:none; }
+.thisIsIE #middle-spots-wrap.brand ul li a{ zoom:1; background: url('/images/transparency.gif') repeat; }
+
+#middle-spots-wrap.brand ul li span.gender { float:left; color:#FFF; text-align:center; height:100%; font-weight:bold; font-size:72px; padding-top:70px; text-shadow: 0px 0px 10px rgba(150, 150, 150, 1); }
+
+.thisIsIE #middle-spots-wrap.brand ul li .overlay { display:none; background: url('/images/overlay-brand.png') no-repeat -3px 0; width:420px; height:230px; position:absolute; }
+#middle-spots-wrap.brand ul li .overlay { display:none; background: url('/images/overlay-brand.png') no-repeat -3px 0; width:420px; height:230px; position:absolute; }
+#middle-spots-wrap.brand ul li.left .overlay {  }
+#middle-spots-wrap.brand ul li.right .overlay { background-position: 0 -230px; }
+
+#middle-spots-wrap.brand ul li .overlay .shop-now { font-size:56px; color:#FFF; font-weight: bold; display:block; position: absolute; top:80px; padding:0; text-shadow: 0px 0px 10px rgba(150, 150, 150, 1); }
+#middle-spots-wrap.brand ul li.left .overlay .shop-now { left:35px; }
+#middle-spots-wrap.brand ul li.right .overlay .shop-now { left:55px; }
+
+#middle-spots-wrap.brand ul li span.spot-title{ display:block; position:absolute; bottom:10px; font-weight:bold; font-size:14px; }
+#middle-spots-wrap.brand ul li.left span.spot-title{  }
+#middle-spots-wrap.brand ul li.right span.spot-title{ left: -30px; }
+
+#recommended { margin-top:-120px; }
+#recommended ul { width:100%; }
+#recommended ul li { width:180px; float:left; margin-right:16px; }
+#recommended ul li.last { margin-right:0; }
+#recommended ul li a { display:block; width:180px; text-decoration:none; cursor:pointer; }
+
+.recommended-thumb { width:100%; height:180px; display:table; text-align:center; }
+.thumbalign { display:table-cell; vertical-align:middle; background:#FFF;}
+#recommended ul li img { display:block; max-height:180px; width:auto; margin:0 auto; }
+
+.recommended-description { width:172px; padding:10px; height:70px;  position: relative; text-align:left; }
+/*.latestandgreatest-description-inner{ width:182px; padding:10px; display:table-cell; vertical-align:top; }*/
+.recommended-description span { font-size: 12px; font-weight: normal; color:#FFF; }
+.recommended-description span.brand { font-size:13px; font-weight:bold; }
+.recommended-description span.product {  }
+.recommended-description span.price { display:block; position: absolute; bottom: 20px; left:10px; font-size:18px;  }
+.recommended ul li a:hover .latestandgreatest-description { background:#444; }
+.recommended ul li a:hover .latestandgreatest-description span { color:#FFF; }
+
+#blurb { }
+#blurb h2 { font-weight:normal; font-size:24px; color:#FFF; }
+#blurb p { font-weight:bold; font-size:12px; color:#FFF; width:360px; float:left; margin-right:30px; }
+#blurb p.last { margin:0; }
+
+/* --- INPUT ELEMENTS ROUNDED CORNER RADIUS FIX FOR iOS DEVICES --- */
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 480px) {  
+	#header #search input { -webkit-appearance:none; -webkit-border-radius:0; border-radius:0; height:36px; line-height:36px; }
+	#socialBar #newsletter-form form input { -webkit-appearance:none; -webkit-border-radius:0; border-radius:0; height:27px; line-height:27px; }
+}
+
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 568px) { 
+	#header #search input { -webkit-appearance:none; -webkit-border-radius:0; border-radius:0; height:36px; line-height:36px; }
+	#socialBar #newsletter-form form input { -webkit-appearance:none; -webkit-border-radius:0; border-radius:0; height:27px; line-height:27px; }
+}
+
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px)  {
+	#header #search input { -webkit-appearance:none; -webkit-border-radius:0; border-radius:0; height:36px; line-height:36px; }
+	#socialBar #newsletter-form form input { -webkit-appearance:none; -webkit-border-radius:0; height:27px; line-height:27px; }
+}
