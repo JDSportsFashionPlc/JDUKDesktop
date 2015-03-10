@@ -444,9 +444,6 @@ if (jQuery('.pumaignitebanner2015').length > 0) {
 
 
 
-
-
-
 // 
 // NIKE AIR MAX GOLD
 //
@@ -459,32 +456,28 @@ var	NikeAirMaxGoldCSS = '';
 		NikeAirMaxGoldCSS  += '.page{overflow:visible;background:#000 !important}';
 		NikeAirMaxGoldCSS  += 'div#product-list,.contentContainer{background:#fff}';
 		NikeAirMaxGoldCSS  += '.tTakeImgResponsive img{width:100%}';
-		NikeAirMaxGoldCSS  += '.takeOverSpot {position:absolute;top:0;width:371px}';
-		NikeAirMaxGoldCSS  += '.lw {left:-371px}';
-		NikeAirMaxGoldCSS  += '.rw {right:-371px}';
-		NikeAirMaxGoldCSS  += '@media screen and (max-width: 1500px) { .takeOverSpot{width:371px}.lw{left:-371px}.rw{right:-371px} }';
+		NikeAirMaxGoldCSS  += '.takeOverSpot {position:absolute;top:0;width:800px}';
+		NikeAirMaxGoldCSS  += '.lw {left:-800px}';
+		NikeAirMaxGoldCSS  += '.rw {right:-800px}';
+		NikeAirMaxGoldCSS  += '@media screen and (max-width: 1500px) { .takeOverSpot{width:471px}.lw{left:-471px}.rw{right:-471px} }';
 		NikeAirMaxGoldCSS  += '@media screen and (max-width: 1400px) { .takeOverSpot{width:300px}.lw{left:-300px}.rw{right:-300px} }';
 	NikeAirMaxGoldCSS  += '</style>';
 	NikeAirMaxGoldCSS  += '';
 	
-//////////////////////////
-//////////////////////////
-// GENERIC 
-//////////////////////////
-//////////////////////////
-if (jQuery('.nikeAirMax90Gold').length > 0) {
- //	jQuery('body').append(NikeAirMaxGoldCSS);
+
+if ( jQuery('.nikeAirMax90Gold').length > 0) {
+ 	jQuery('body').append(NikeAirMaxGoldCSS);
 	
 	var 	NikeAirMaxGoldCSSBannersHTML = '';
-			NikeAirMaxGoldCSSBannersHTML += '<div  class="pumaSkin  takeOverSpot tTakeImgResponsive takeOverSpot lw">';
-			NikeAirMaxGoldCSSBannersHTML += '	<img src="http://www.jdsports.co.uk/images/library/2015/09.03.2015/skin/airmaxgold.jpg">';
+			NikeAirMaxGoldCSSBannersHTML += '<div  class="nikeSkin takeOverSpot tTakeImgResponsive takeOverSpot lw">';
+			NikeAirMaxGoldCSSBannersHTML += '	<img src="http://www.jdsports.co.uk/images/library/2015/10.03.2015/RL2623-Nike-AMD-Digital_Homepage_Skins_800x1800.jpg">';
 			NikeAirMaxGoldCSSBannersHTML += '</div>';
-			NikeAirMaxGoldCSSBannersHTML += '<div  class="pumaSkin takeOverSpot tTakeImgResponsive takeOverSpot rw">';
-			NikeAirMaxGoldCSSBannersHTML += '	<img src="http://www.jdsports.co.uk/images/library/2015/09.03.2015/skin/airmaxgold.jpg">';
+			NikeAirMaxGoldCSSBannersHTML += '<div  class="nikeSkin takeOverSpot tTakeImgResponsive takeOverSpot rw">';
+			NikeAirMaxGoldCSSBannersHTML += '	<img src="http://www.jdsports.co.uk/images/library/2015/10.03.2015/RL2623-Nike-AMD-Digital_Homepage_Skins_800x1800.jpg">';
 			NikeAirMaxGoldCSSBannersHTML += '</div>';
 			NikeAirMaxGoldCSSBannersHTML += '';
 	
-	 // jQuery('div#product-list').append(NikeAirMaxGoldCSSBannersHTML);	
+	 jQuery('div#product-list').append(NikeAirMaxGoldCSSBannersHTML);	
 	
 	
 }
