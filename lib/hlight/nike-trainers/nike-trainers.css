@@ -1,0 +1,29 @@
+/***
+
+ * --- --- --- --- ---
+ * JD Sports Fashion plc
+ * IBM WebSphere Commerce Platform
+ * TIMI ABEL
+ * --- --- --- --- ---
+ * #NIKE FOOTWEAR
+ * --- --- --- --- ---
+
+***/
+
+
+/*
+NIKE FOOTWEAR PAGE STYLE GOES HERE
+*/
+
+
+
+.contentContainer h1.sidebar {
+font-size: 1.15em !important;
+font-weight: bold !important;
+padding: 10px 0 5px 0 !important;
+margin-bottom}
+
+
+.contentContainer h1.sidebar a {
+font-weight: bold !important;
+}
