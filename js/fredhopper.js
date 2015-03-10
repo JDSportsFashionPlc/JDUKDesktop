@@ -464,11 +464,6 @@ var	NikeAirMaxGoldCSS = '';
 	NikeAirMaxGoldCSS  += '</style>';
 	NikeAirMaxGoldCSS  += '';
 	
-//////////////////////////
-//////////////////////////
-// GENERIC 
-//////////////////////////
-//////////////////////////
 
 if ( jQuery('.nikeAirMax90Gold').length > 0) {
  	jQuery('body').append(NikeAirMaxGoldCSS);
