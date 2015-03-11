@@ -456,10 +456,10 @@ var	NikeAirMaxGoldCSS = '';
 		NikeAirMaxGoldCSS  += '.page{overflow:visible;background:#000 !important}';
 		NikeAirMaxGoldCSS  += 'div#product-list,.contentContainer{background:#fff}';
 		NikeAirMaxGoldCSS  += '.tTakeImgResponsive img{width:100%}';
-		NikeAirMaxGoldCSS  += '.takeOverSpot {position:absolute;top:0;width:800px}';
-		NikeAirMaxGoldCSS  += '.lw {left:-800px}';
-		NikeAirMaxGoldCSS  += '.rw {right:-800px}';
-		NikeAirMaxGoldCSS  += '@media screen and (max-width: 1500px) { .takeOverSpot{width:471px}.lw{left:-471px}.rw{right:-471px} }';
+		NikeAirMaxGoldCSS  += '.takeOverSpot {position:absolute;top:0;width:400px}';
+		NikeAirMaxGoldCSS  += '.lw {left:-400px}';
+		NikeAirMaxGoldCSS  += '.rw {right:-400px}';
+		NikeAirMaxGoldCSS  += '@media screen and (max-width: 1700px) { .takeOverSpot{width:400px}.lw{left:-400px}.rw{right:-400px} }';
 		NikeAirMaxGoldCSS  += '@media screen and (max-width: 1400px) { .takeOverSpot{width:300px}.lw{left:-300px}.rw{right:-300px} }';
 	NikeAirMaxGoldCSS  += '</style>';
 	NikeAirMaxGoldCSS  += '';
@@ -481,8 +481,3 @@ if ( jQuery('.nikeAirMax90Gold').length > 0) {
 	
 	
 }
-
-
-
-
-
