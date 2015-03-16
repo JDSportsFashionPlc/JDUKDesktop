@@ -80,24 +80,35 @@ END STYLES FOR SLIDER
 #product-boxes .product-box img {width:218px;height:218px;background:#eee;}
 #product-boxes .product-box .product-info {display:block;width:218px;margin-top:30px;}
 #product-boxes .product-box .product-info p {margin-bottom:0;}
-#product-boxes .product-box .product-info h3,#product-boxes .product-box .product-info span {font-weight:bold;}
+#product-boxes .product-box .product-info h3,#product-boxes .product-box .product-info span {font-weight:bold;} 
 
 .line-break {width:930px;height:2px;border-bottom:1px solid #000;display:block;margin:20px auto;}
 
 #feed-scroller {background:#fff;width:971px;height:190px;display:block;margin:0;padding-bottom:40px;}
 #feed-scroller h3 {color:#000;margin:0 auto 25px auto;font-size:30px;width:400px;display:block;text-align:center;}
-#feed-scroller #instafeed {position:relative;margin:0 0 0 13px;}
+#feed-scroller #instafeed {position:relative;margin:0;}
 
-.CaroselSlideItem{width:150px !important}
+.CaroselSlideItem{width:150px !important;margin-right:0 !important;}
+.CaroselSlideItem img {-webkit-filter: grayscale(100%);filter:grayscale(100%);-webkit-transition: all .6s ease;transition: all .6s ease;}
+.CaroselSlideItem img:hover {filter: grayscale(0%);-webkit-filter: grayscale(0%);filter: none;}
+
 .bx-wrapper .bx-pager{display:none !important}
+.bx-wrapper .bx-viewport {width: 900px !important;overflow: hidden;position: relative;height: 150px;/*margin: -23px 0 0 -56px !important;*/margin:0 auto !important}
+.bx-wrapper .bx-controls-direction a {position: absolute;top: 47% !important;margin-top: -16px;outline: 0;width: 32px;height: 32px;text-indent: -9999px;z-index: 9999;}
+/*.bx-wrapper .bx-prev {left: 5px !important;background: url(images/controls.png?v=s) no-repeat 0 -32px;}
+.bx-wrapper .bx-next {right: 5px !important;background: url(images/controls.png?v=k) no-repeat -43px -32px;}*/
+.bx-wrapper .bx-prev {left: 9px !important;background: url(../imgs/carousel/arrow-left.png) top left no-repeat !important;width:25px !important;height:58px !important;}
+.bx-wrapper .bx-prev:hover {background: url(../imgs/carousel/arrow-left.png) -58px left no-repeat;}
+.bx-wrapper .bx-next {right: 10px !important;background: url(../imgs/carousel/arrow-right.png) top right no-repeat !important;width:25px !important;height:58px !important;}
+.bx-wrapper .bx-next:hover {background: url(../imgs/carousel/arrow-right.png) -58px right no-repeat;}
 
-#instafeed .owl-item img {padding:0;width:100%;-webkit-filter: grayscale(100%);filter:grayscale(100%);-webkit-transition: all .6s ease;transition: all .6s ease;}
+/*#instafeed .owl-item img {padding:0;width:100%;-webkit-filter: grayscale(100%);filter:grayscale(100%);-webkit-transition: all .6s ease;transition: all .6s ease;}
 #instafeed .owl-item img:hover {filter: grayscale(0%);-webkit-filter: grayscale(0%);filter: none;}
 #instafeed .owl-item {padding-right: 0;z-index:1;width:119px;}
 #instafeed .owl-item.active {margin-left: 0px;width:119px;}
 #instafeed .owl-controls {margin-top:0;}
 #instafeed .owl-prev {display: block !important;background: url(../imgs/carousel/arrow-left.png) !important;font-size: 0px !important;position: absolute;top: 65px;left:-5px;width:25px;height:43px;padding:0;}
-#instafeed .owl-next {display: block !important;background: url(../imgs/carousel/arrow-right.png) !important;font-size: 0px !important;position: absolute;top: 65px;right:-5px;width:25px;height:43px;padding:0;}
+#instafeed .owl-next {display: block !important;background: url(../imgs/carousel/arrow-right.png) !important;font-size: 0px !important;position: absolute;top: 65px;right:-5px;width:25px;height:43px;padding:0;}*/
 
 
 footer {width:971px;height:260px;position:relative;display:block;background:url(../imgs/footer-bg.jpg) top center no-repeat #000;}

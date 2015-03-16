@@ -22,5 +22,17 @@
 	.sample{
 		width:750px !important	
 	}
+	
+	#productPage #productRelatedWrapper {float: left;margin: 8px 0 0 20px;width: 290px;}
+	#productPage #productAttributesWrapper ul {background: url('../images/bg-texture.jpg');padding: 20px;float: left;clear: both;width: 250px;}
+	#productPage #selectSizeFieldset {width: 250px;}
+	#productAttributesWrapper #errorMessages {float: left;width: 250px;}
+	#productPage button {border: 0 none;cursor: pointer;display: block;font-size: 93%;margin: 0px;padding: 12px 117px 11px 0;width: 250px;}
+	#productPage #deliveryReturnsWrapper {margin: 20px 0;float: left;clear: both;width: 289px;}
+	#productPage #deliveryPanel, #productPage #returnsPanel, #productPage #reviewsPanel, #productPage #askPanel {clear: left;font-size: 0.9em;padding: 20px 0 0;border: 1px solid #DCDDDE;width: 249px;}
+	#productPage #recentlyViewedProductsContainer {border: 1px solid #DCDDDE;margin: 10px 0 20px 0;padding: 10px 0;background: #FFF;width: 710px;}
+	#recentlyViewedProducts {float: left;background: #FFF;padding: 10px 0;width: 709px;}
+	.jcarousel-skin-wide .jcarousel-container-horizontal {float: left;padding: 0 26px;width: 658px;}
+	.jcarousel-next-horizontal {background: url("../images/arrows-R.png") no-repeat scroll left 0 transparent;cursor: pointer;height: 15px;position: absolute;right: 15px;top: 40px;width: 12px;}
 
 }

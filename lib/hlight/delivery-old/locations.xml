@@ -1,0 +1,335 @@
+<?xml version="1.0" encoding="UTF-8"?>
+   <markers>
+   
+         <marker id="4" facia="JD" address="95 Pinstone Street" city="Sheffield" name="Sheffield, Pinstone Street" telephone="01142 756202" postal="S1 2HJ" lat="53.379198" lng="-1.470231" />
+         <marker id="5" facia="JD" address="145-146 Charlotte Way St Johns Precinct" city="Liverpool" name="Liverpool, St Johns Precinct" telephone="0151 709 2882" postal="L1 1NA" lat="53.406445" lng="-2.980835" />
+         <marker id="6" facia="JD" address="17 Victoria Square" city="Bolton" name="Bolton" telephone="01204 362621" postal="BL1 1RJ" lat="53.578372" lng="-2.429099" />
+         <marker id="8" facia="JD" address="Units 104-106 The Arndale SC" city="Luton" name="Luton" telephone="01582 457047" postal="LU1 2LJ" lat="51.879418" lng="-0.412776" />
+         <marker id="11" facia="JD" address="54 Northumberland Street" city="Newcastle Upon Tyne" name="Newcastle Upon Tyne" telephone="0191 230 3153" postal="NE1 7DF" lat="54.975861" lng="-1.612163" />
+         <marker id="15" facia="JD" address="37 Market Place" city="Bolton" name="Bolton, Market Place " telephone="01204 364248" postal="BL1 2AL" lat="53.581165" lng="-2.429792" />
+         <marker id="17" facia="JD" address="Unit 6A Inverness Retail Park" city="Inverness" name="Inverness" telephone="01463 219804" postal="IV2 7GD" lat="57.481295" lng="-4.177122" />
+         <marker id="18" facia="JD" address="83 Merseyway SC" city="Stockport" name="Stockport, Merseyway" telephone="0161 477 6742" postal="SK1 1QW" lat="53.41025" lng="-2.160775" />
+         <marker id="19" facia="JD" address="186 Trongate" city="Glasgow" name="Glasgow" telephone="0141 552 3268" postal="G1 5RY" lat="55.85759" lng="-4.248713" />
+         <marker id="20" facia="JD" address="Unit 70 The Mander SC" city="Wolverhampton" name="Wolverhampton" telephone="01902 426163" postal="WV1 3NN" lat="52.584795" lng="-2.128347" />
+         <marker id="25" facia="JD" address="268-269 Oxford Street London" city="Oxford Street" name="Oxford Street" telephone="0207 491 7677" postal="W1C 2DG" lat="51.514932" lng="-0.14288" />
+         <marker id="26" facia="JD" address="Unit 41/42 Prince Bishops Shopping Centre" city="Durham" name="Durham" telephone="0191 384 5220" postal="DH1 3UJ" lat="54.77717" lng="-1.574312" />
+         <marker id="29" facia="JD" address="213-219 Camden High Street" city="Camden" name="Camden" telephone="0207 482 0522" postal="NW1 7BT" lat="51.539236" lng="-0.14329" />
+         <marker id="33" facia="JD" address="38 Yorkshire Street" city="Rochdale" name="Rochdale" telephone="01706 712828" postal="OL16 1JN" lat="53.617805" lng="-2.15795" />
+         <marker id="38" facia="JD/NIKE" address="167-201 Argyle Street" city="Glasgow" name="Glasgow, Argyle Street" telephone="0141 226 5670" postal="G2 8BU" lat="55.85806" lng="-4.256426" />
+         <marker id="40" facia="JD" address="16-18 Barbarolli Mall Arndale Centre" city="Manchester" name="Manchester, Arndale Centre" telephone="0161 819 5221" postal="M4 3AB" lat="53.48346" lng="-2.241687" />
+         <marker id="46" facia="JD" address="Unit 30 South Mall, Lewisham SC" city="Lewisham" name="Lewisham, South Mall" telephone="0208 297 0634" postal="SE13 7EP" lat="51.461731" lng="-0.011749" />
+         <marker id="56" facia="JD" address="17-23 Murraygate" city="Dundee" name="Dundee" telephone="01382 223914" postal="DD1 2EE" lat="56.462148" lng="-2.968477" />
+         <marker id="59" facia="JD" address="14-16 Hanover Street" city="Edinburgh" name="Edinburgh, Hanover Street" telephone="0131 226 4090" postal="EH2 2EN" lat="55.95244" lng="-3.197165" />
+         <marker id="65" facia="JD" address="18 Abington Street" city="Northampton" name="Northampton, Abington Street" telephone="01604 239231" postal="NN1 2AJ" lat="52.237844" lng="-0.89449" />
+         <marker id="66" facia="JD" address="Unit 104 The Border" city="Telford" name="Telford" telephone="01952 293639" postal="TF3 4AE" lat="52.676753" lng="-2.446192" />
+         <marker id="69" facia="JD" address="40 South Street" city="Romford" name="Romford, South Street" telephone="01708 766974" postal="RM1 1RB" lat="51.576942" lng="0.181217" />
+         <marker id="70" facia="JD" address="Unit 6-7 Corporation St Caxtongate" city="Birmingham" name="Birmingham, Caxtongate" telephone="0121 632 6465" postal="B2 4RN" lat="52.479199" lng="-1.897375" />
+         <marker id="77" facia="JD" address="Unit A 158 High Street" city="Lincoln" name="Lincoln" telephone="01522 568392" postal="LN5 7TP" lat="53.225442" lng="-0.543868" />
+         <marker id="82" facia="JD" address="Units 16-17 Lower Mall The Spindles SC" city="Oldham" name="Oldham, The Spindles" telephone="0161 652 7676" postal="OL1 1HE" lat="53.541148" lng="-2.115157" />
+         <marker id="87" facia="JD" address="53 Tooting High Street" city="Tooting" name="Tooting" telephone="0208 672 5748" postal="SW17 0SP" lat="51.428324" lng="-0.16744" />
+         <marker id="90" facia="JD" address="92 Town Square" city="Basildon" name="Basildon, Town Square" telephone="01268 288987" postal="SS14 1BX" lat="51.569961" lng="0.458751" />
+         <marker id="93" facia="JD" address="75 Queensgate SC" city="Peterborough" name="Peterborough" telephone="01733 897518" postal="PE1 1NS" lat="52.573913" lng="-0.244375" />
+         <marker id="95" facia="JD" address="Unit 7 Higher Chelmer" city="Chelmsford" name="Chelmsford" telephone="01245 359141" postal="CM1 1XG" lat="51.733039" lng="0.47262" />
+         <marker id="97" facia="JD" address="Unit 309 The Victoria SC" city="Nottingham" name="Nottingham, The Victoria Centre" telephone="01159 503658" postal="NG1 3QN" lat="52.95842" lng="-1.147989" />
+         <marker id="98" facia="JD" address="173 High Street" city="Hounslow" name="Hounslow, High Street" telephone="0208 570 4277" postal="TW3 1QL" lat="51.469257" lng="-0.359179" />
+         <marker id="100" facia="JD" address="74 High Street" city="Wood Green" name="Wood Green, High Street" telephone="0208 826 0448" postal="N22 6HL" lat="51.592819" lng="-0.105936" />
+         <marker id="101" facia="JD" address="60-64 Broadgate" city="Coventry" name="Coventry, Broadgate" telephone="02476 225155" postal="CV1 1NF" lat="52.407788" lng="-1.511193" />
+         <marker id="102" facia="JD" address="146 Braehead SC" city="Glasgow" name="Glasgow" telephone="0141 885 9051" postal="G51 4BS" lat="55.875941" lng="-4.364801" />
+         <marker id="103" facia="JD" address="2-4 St Johns Road Clapham Junction" city="London" name="London" telephone="0207 350 1004" postal="SW11 1PN" lat="51.46328" lng="-0.168127" />
+         <marker id="104" facia="JD" address="26 Thistle Centre" city="Stirling" name="Stirling" telephone="01786 478961" postal="FK8 2EE" lat="56.117385" lng="-3.9359" />
+         <marker id="105" facia="JD" address="20 Church Street" city="Kingston" name="Kingston" telephone="0208 974 9978" postal="KT1 1RJ" lat="51.410183" lng="-0.305273" />
+         <marker id="106" facia="JD" address="72-74 St Anns Road" city="Harrow" name="Harrow" telephone="0208 861 2572" postal="HA1 1JX" lat="51.58166" lng="-0.336818" />
+         <marker id="107" facia="JD" address="50 The Mall Cribbs Causeway SC" city="Bristol" name="Bristol, Cribbs Causeway" telephone="01179 509569" postal="BS34 5GG" lat="51.525159" lng="-2.595357" />
+         <marker id="109" facia="JD" address="46 The Shambles" city="Worcester" name="Worcester" telephone="01905 670820" postal="WR1 2RE" lat="52.192" lng="-2.219445" />
+         <marker id="112" facia="JD" address="32 Church Street" city="St Helens" name="St Helens" telephone="01744 750244" postal="WA10 1BD" lat="53.45214" lng="-2.736462" />
+         <marker id="115" facia="JD" address="229-249 Buchanan Street" city="Glasgow" name="Glasgow, Buchanan Street" telephone="0141 332 7244" postal="G1 2NG" lat="55.864085" lng="-4.253292" />
+         <marker id="117" facia="JD" address="Unit 1 Churchill Square" city="Brighton" name="Brighton" telephone="01273 776243" postal="BN1 2EP" lat="50.876786" lng="-0.12629" />
+         <marker id="119" facia="JD" address="Unit L12 48 Regents Crescent" city="Trafford Centre" name="Trafford Centre" telephone="0161 747 5083" postal="M17 8AP" lat="53.466179" lng="-2.349005" />
+         <marker id="121" facia="JD" address="Units 18-20 Park Centre Donegall Rd" city="Belfast" name="Belfast, Park Centre" telephone="02890 243047" postal="BT12 6HN" lat="54.588647" lng="-5.963161" />
+         <marker id="123" facia="JD" address="Units 22-23 Richmond SC" city="Londonderry" name="Londonderry" telephone="02871 271784" postal="BT48 6PE" lat="54.995067" lng="-7.320574" />
+         <marker id="124" facia="JD" address="Units A12/A13 Bow Street Mall" city="Lisburn" name="Lisburn" telephone="02892 666450" postal="BT28 1AW" lat="54.5113" lng="-6.05202" />
+         <marker id="127" facia="JD" address="Unit 51 Buttercrane SC" city="Newry" name="Newry" telephone="02830 252248" postal="BT35 8HJ" lat="54.171845" lng="-6.34173" />
+         <marker id="128" facia="JD" address="14 Donegall Place" city="Belfast" name="Belfast, Donegall Place" telephone="02890 245988" postal="BT1 5BA" lat="54.598937" lng="-5.929426" />
+         <marker id="129" facia="JD" address="37 Abbey Centre Newtownabbey" city="Belfast" name="Belfast, Newtownabbey" telephone="02890 863559" postal="BT37 9UH" lat="54.654949" lng="-5.917833" />
+         <marker id="131" facia="JD" address="L071 Lower Thames Walk" city="Bluewater" name="Bluewater SC" telephone="01322 624526" postal="DA9 9SL" lat="51.439163" lng="0.270177" />
+         <marker id="133" facia="JD" address="8 North Mall Frenchgate SC" city="Doncaster" name="Doncaster, Frenchgate" telephone="01302 761342" postal="DN1 1SR" lat="53.52341" lng="-1.136652" />
+         <marker id="134" facia="JD" address="Unit 2 51-59 Kirkgate" city="Bradford" name="Bradford, Kirkgate" telephone="01274 720984" postal="BD1 1PZ" lat="53.794364" lng="-1.754525" />
+         <marker id="136" facia="JD" address="Unit 3 15-29 The Broadway" city="Wimbledon" name="Wimbledon" telephone="0208 8793209" postal="SW19 1PS" lat="51.420427" lng="-0.205711" />
+         <marker id="137" facia="JD" address="2 Ripple Road" city="Barking" name="Barking" telephone="0208 591 6083" postal="IG11 7NF" lat="51.537578" lng="0.079849" />
+         <marker id="139" facia="JD" address="131 High Street North" city="East Ham" name="East Ham" telephone="0208 470 0329" postal="E6 1HZ" lat="51.536254" lng="0.05193" />
+         <marker id="140" facia="JD/NIKE" address="Units 34-36 Silbury Arcade" city="Milton Keynes" name="Milton Keynes" telephone="01908 607798" postal="MK9 3ES" lat="52.042596" lng="-0.758011" />
+         <marker id="141" facia="JD" address="145 High Street" city="Southend" name="Southend" telephone="01702 391039" postal="SS1 1LL" lat="51.539215" lng="0.711984" />
+         <marker id="142" facia="JD" address="24 Crescent Arcade Touchwood" city="Solihull" name="Solihull" telephone="0121 704 2291" postal="B91 3GZ" lat="52.412404" lng="-1.779388" />
+         <marker id="143" facia="JD" address="Unit 21B Antonine Shopping Centre, Tryst Road" city="Cumbernauld" name="Cumbernauld" telephone="01236 803036" postal="G67 1JW" lat="55.946424" lng="-3.988358" />
+         <marker id="144" facia="JD" address="Units 221 222 &amp; 205 The Chimes" city="Uxbridge" name="Uxbridge, The Chimes" telephone="01895 258895" postal="UB8 1GB" lat="51.545538" lng="-0.477247" />
+         <marker id="145" facia="KOT" address="60 Peel Avenue Manchester" city="Trafford Centre" name="Trafford Centre King of Trainers" telephone="0161 748 4848" postal="M17 8BL" lat="53.466179" lng="-2.349005" />
+         <marker id="146" facia="JD" address="178-182 Unit 3 Grange Road" city="Birkenhead" name="Birkenhead" telephone="0151 666 1407" postal="CH41 6EA" lat="53.389884" lng="-3.027159" />
+         <marker id="147" facia="JD" address="1 New Street" city="Birmingham" name="Birmingham, New Street" telephone="0121 643 9162" postal="B2 4RF" lat="52.47882" lng="-1.895698" />
+         <marker id="149" facia="JD" address="Unit 21 West 12 SC" city="Shepherds Bush" name="Shepherds Bush" telephone="0208 150 2055" postal="W12 8PP" lat="51.503763" lng="-0.218794" />
+         <marker id="150" facia="JD" address="Unit 9B The Fort Shopping Parl Erdington" city="Birmingham" name="Birmingham, The Fort" telephone="0121 377 6489" postal="B24 9FP" lat="52.508716" lng="-1.823697" />
+         <marker id="151" facia="JD" address="Unit 8A West Quay Road" city="Southampton" name="Southampton, West Quay Road" telephone="02380 230404" postal="S015 1BA" lat="50.900628" lng="-1.407468" />
+         <marker id="152" facia="JD" address="Unit 21C Teesside Retail Park" city="Teesside" name="Teesside" telephone="01642 608767" postal="TS17 7BU" lat="54.560176" lng="-1.273824" />
+         <marker id="153" facia="JD" address="Unit 5 Parc Tawe (Phase ii) Retail Park" city="Swansea" name="Swansea" telephone="01792 467770" postal="SA1 2AL" lat="51.621756" lng="-3.938729" />
+         <marker id="154" facia="JD" address="Unit 6 Woodfields Retail Park Peelway" city="Bury" name="Bury, Woodfields Retail Park" telephone="0161 764 1384" postal="BL9 5BY" lat="53.59751" lng="-2.295057" />
+         <marker id="155" facia="JD" address="Unit 2 Middlebrook Retail Park Mansell Way" city="Bolton" name="Bolton, Middlebrook " telephone="01204 469203" postal="BL6 6JA" lat="53.583117" lng="-2.536256" />
+         <marker id="156" facia="JD" address="Unit R10 29 Coliseum Way Ellesmere Port" city="Cheshire Oaks" name="Cheshire Oaks" telephone="0151 356 4934" postal="CH65 9HD" lat="53.264226" lng="-2.886017" />
+         <marker id="158" facia="JD" address="Unit 12A Loire Valley Robin Retail Park" city="Wigan" name="Wigan, Robin Retail Park" telephone="01942 221226" postal="WN5 0UH" lat="53.545166" lng="-2.654047" />
+         <marker id="159" facia="JD" address="Unit N23 Houndshill" city="Blackpool" name="Blackpool" telephone="01253 292994 / 623142" postal="FY1 4HU" lat="53.81608" lng="-3.053336" />
+         <marker id="160" facia="JD" address="Unit 2 Tandem Centre Top of Church Rd" city="Colliers Wood" name="Colliers Wood" telephone="0208 648 4688" postal="SW19 2TY" lat="51.413675" lng="-0.1772" />
+         <marker id="161" facia="JD" address="Unit 2A Island Retail Park Plassy Rd" city="Catford" name="Catford" telephone="0208 697 4811" postal="SE6 2DE" lat="51.436207" lng="-0.017549" />
+         <marker id="163" facia="JD" address="Unit 2 Forster Square" city="Bradford" name="Bradford, Forster Square" telephone="01274 306977" postal="BD1 4HY" lat="53.7974" lng="-1.751868" />
+         <marker id="164" facia="JD" address="Unit 34 New Craig Hall Rd, Fort Kinnaird" city="Edinburgh" name="Edinburgh, Fort Kinnaird" telephone="0131 202 1234" postal="EH15 3HS" lat="55.93283" lng="-3.102232" />
+         <marker id="165" facia="JD" address="Unit 1B Stadium Retail Park" city="Wembley" name="Wembley" telephone="0208 903 4477" postal="HA9 8TS" lat="51.56124" lng="-0.280735" />
+         <marker id="166" facia="JD" address="Unit 15 Drakehouse Retail Park Waterthorpe" city="Sheffield" name="Sheffield, Drakehouse Retail Park" telephone="01142 488558" postal="S20 7JJ" lat="53.345166" lng="-1.356526" />
+         <marker id="167" facia="JD" address="Unit 79 Sylvania Way" city="Clydebank" name="Clydebank" telephone="0141 611 8030" postal="G81 2RR" lat="55.904639" lng="-4.404226" />
+         <marker id="168" facia="JD" address="Unit 6A Borehamwood Shopping Park" city="Borehamwood" name="Borehamwood" telephone="0208 207 0839" postal="WD6 4PR" lat="51.656756" lng="-0.277759" />
+         <marker id="170" facia="JD" address="Unit B Central Retail Park Gt Ancoats St" city="Manchester" name="Manchester" telephone="0161 273 5637" postal="M4 6DJ" lat="53.48225" lng="-2.225738" />
+         <marker id="171" facia="JD" address="Unit 7 New Mersey Retail Park" city="Speke" name="Liverpool, New Mersey Retail Park" telephone="0151 427 4170" postal="L24 8QB" lat="53.350705" lng="-2.879291" />
+         <marker id="172" facia="JD" address="Unit 5 Broadway Two Kent" city="Bexleyheath" name="Bexleyheath" telephone="0208 298 0750" postal="DA6 7LL" lat="51.456276" lng="0.150038" />
+         <marker id="173" facia="JD" address="52 Broad Street" city="Reading" name="Reading" telephone="01189 592083" postal="RG1 2AA" lat="51.455863" lng="-0.973023" />
+         <marker id="174" facia="JD" address="Unit 2A Westgate Park" city="Basildon" name="Basildon, Westgate Park" telephone="01268 287221" postal="SS14 1WP" lat="51.569553" lng="0.454645" />
+         <marker id="177" facia="JD" address="Unit 14 Crown Wharf Retail Park" city="Walsall" name="Walsall" telephone="01922 647060" postal="WS2 8LL" lat="52.586887" lng="-1.988577" />
+         <marker id="178" facia="JD" address="Unit 10 The Brewery" city="Romford" name="Romford, The Brewery" telephone="01708 733878" postal="RM1 1AU" lat="51.575953" lng="0.180722" />
+         <marker id="179" facia="JD" address="1A Cardiff Bay Retail Park" city="Cardiff" name="Cardiff, Cardiff Bay" telephone="02920 377161" postal="CF11 0JR" lat="51.45818" lng="-3.18588" />
+         <marker id="183" facia="JD" address="LG9 Princess Quay" city="Hull" name="Hull" telephone="01482 328634" postal="HU1 2PQ" lat="53.742099" lng="-0.339164" />
+         <marker id="186" facia="JD" address="1st Floor Mercian House Ladysmith SC" city="Ashton" name="Ashton" telephone="0161 330 6711" postal="OL6 7JQ" lat="53.488493" lng="-2.095165" />
+         <marker id="191" facia="JD" address="3-7 Parliament Row" city="Hanley" name="Hanley, Parliament Row" telephone="01782 283180" postal="ST1 1PW" lat="53.025455" lng="-2.173755" />
+         <marker id="192" facia="JD" address="Units 83-85 Lakeside Shopping Centre" city="Thurrock" name="Thurrock" telephone="01708 864438" postal="RM20 2ZG" lat="51.487062" lng="0.283086" />
+         <marker id="193" facia="JD" address="105A 106B B1-B7/9 The Gallery Metro Centre" city="Newcastle" name="Gateshead, Metro Centre" telephone="0191 460 2713" postal="NE11 9YP" lat="54.957641" lng="-1.668555" />
+         <marker id="195" facia="JD" address="Unit 8 The Lanes SC" city="Carlisle" name="Carlisle" telephone="01228 590579" postal="CA3 8NS" lat="54.89638" lng="-2.934852" />
+         <marker id="201" facia="JD" address="Unit 5 Festival Place" city="Basingstoke" name="Basingstoke" telephone="01256 473521" postal="RG21 7BE" lat="51.265563" lng="-1.08547" />
+         <marker id="202" facia="JD" address="151-153 High Street" city="Bromley" name="Bromley" telephone="0208 460 1674" postal="BR1 1JD" lat="51.404883" lng="0.015332" />
+         <marker id="203" facia="JD" address="Unit L101 Merryhill SC Brierley Hill" city="Dudley" name="Dudley" telephone="01384 572332" postal="DY5 1SY" lat="52.478615" lng="-2.11137" />
+         <marker id="204" facia="JD" address="Unit 55 Halton Lea SC" city="Runcorn" name="Runcorn" telephone="01928 797283" postal="WA7 2GZ" lat="53.327703" lng="-2.698491" />
+         <marker id="205" facia="JD" address="679-691 Eastern Avenue Newbury Park" city="Ilford" name="Ilford, Newbury Park" telephone="0208 554 7105" postal="IG2 6PF" lat="51.5737" lng="0.081007" />
+         <marker id="206" facia="JD" address="44-45 Main Street" city="Bangor" name="Bangor, Main Street" telephone="02891 478100" postal="BT20 5AG" lat="54.661854" lng="-5.667342" />
+         <marker id="208" facia="JD" address="44-48 Powis Street" city="Woolwich" name="Woolwich" telephone="0208 855 4763" postal="SE18 6LQ" lat="51.4917" lng="0.065947" />
+         <marker id="211" facia="JD" address="Unit 33 Forge Shopping Centre" city="Glasgow" name="Glasgow, Forge" telephone="0141 554 6785" postal="G31 4EB" lat="55.853441" lng="-4.199822" />
+         <marker id="213" facia="JD" address="Unit 53 Halle Square Arndale Centre" city="Manchester" name="Manchester" telephone="0161 834 3976" postal="M4 2HU" lat="53.48346" lng="-2.241687" />
+         <marker id="214" facia="JD" address="261-263 Whitechapel Road" city="London" name="Whitechapel Rd" telephone="0207 377 9134" postal="E1 1DB" lat="51.519174" lng="-0.061067" />
+         <marker id="215" facia="JD" address="Unit 2 Palace Towers SC" city="Hamilton" name="Hamilton" telephone="01698 286104" postal="ML3 6AD" lat="55.778454" lng="-4.029353" />
+         <marker id="218" facia="JD" address="Unit 3 Centre Retail Park Elk Mill" city="Oldham" name="Oldham, Centre Retail Park" telephone="0161 633 0337" postal="OL2 5HX" lat="53.558013" lng="-2.13768" />
+         <marker id="228" facia="JD" address="Unit 6 Gallions Reach SC" city="Beckton" name="Beckton, Gallions Reach" telephone="0207 474 8351" postal="E6 7ER" lat="51.516967" lng="0.080351" />
+         <marker id="229" facia="JD" address="Warren Street The Courts" city="Stockport" name="Stockport, The Courts" telephone="0161 477 0389" postal="SK1 1UD" lat="53.412672" lng="-2.157459" />
+         <marker id="231" facia="JD" address="Unit 3 Greenwich SC Bugsby Way" city="Greenwich" name="Greenwich" telephone="0208 293 9010" postal="SE7 7SR" lat="51.488861" lng="0.02455" />
+         <marker id="234" facia="JD" address="Units 1-2 Southside SC" city="Wandsworth" name="Wandsworth" telephone="0208 877 0749" postal="SW18 4TG" lat="51.455362" lng="-0.194454" />
+         <marker id="235" facia="JD" address="Unit 14 Glasgow Fort SC" city="Glasgow" name="Glasgow, Fort" telephone="0141 771 6115" postal="G34 9DL" lat="55.872975" lng="-4.136889" />
+         <marker id="236" facia="JD" address="Unit 7 Boucher Retail Park Boucher Crescent" city="Belfast" name="Belfast, Boucher Retail Park" telephone="02890 687823" postal="BT12 6HU" lat="54.580704" lng="-5.969123" />
+         <marker id="237" facia="JD" address="Unit 6A Westwood Cross Centre Broadstairs" city="Thanet" name="Thanet" telephone="01843 579952" postal="CT10 2BF" lat="51.359492" lng="1.392941" />
+         <marker id="238" facia="JD" address="Unit G2 Silverlink Retail Park" city="Newcastle" name="Newcastle" telephone="0191 406 5394" postal="NE28 9NP" lat="55.012867" lng="-1.494916" />
+         <marker id="239" facia="JD" address="Unit 18 Crown Point North Denton" city="Manchester" name="Denton" telephone="0161 337 0896" postal="M34 3JP" lat="53.459224" lng="-2.118368" />
+         <marker id="242" facia="JD" address="1 East Terrace, Union Square, Guild Square" city="Aberdeen" name="Aberdeen" telephone="01224 580142" postal="AB11 5RD" lat="57.143517" lng="-2.094867" />
+         <marker id="243" facia="JD" address="Unit 11 The Water Gardens Southgate" city="Harlow" name="Harlow" telephone="01279 430786" postal="CM20 1AB" lat="51.768156" lng="0.095606" />
+         <marker id="244" facia="JD" address="177-185 High Road" city="Ilford" name="Ilford, High Road" telephone="0208 911 8164" postal="IG1 1DG" lat="51.559392" lng="0.07389" />
+         <marker id="245" facia="JD" address="Unit C5 Eagles Meadow Shopping Centre" city="Wrexham" name="Wrexham" telephone="01978 265874" postal="LL13 8DG" lat="53.044517" lng="-2.98908" />
+         <marker id="248" facia="JD" address="Unit 15 County Mall" city="Crawley" name="Crawley" telephone="01293 618355" postal="RH10 1FF" lat="51.113589" lng="-0.185605" />
+         <marker id="250" facia="JD" address="Unit 32 Fremlin Walk" city="Maidstone" name="Maidstone" telephone="01622 672939" postal="ME14 1QP" lat="51.275056" lng="0.52057" />
+         <marker id="254" facia="JD" address="213 Merchants Hall Chapelfield Rd" city="Norwich" name="Norwich, Merchants Hall" telephone="01603 623649" postal="NR2 1SU" lat="52.625873" lng="1.289772" />
+         <marker id="255" facia="JD" address="UG7 &amp; FFUG 8 Victoria Square" city="Belfast" name="Belfast, Victoria Square" telephone="02890 438352" postal="BT1 4QB" lat="54.598937" lng="-5.924556" />
+         <marker id="257" facia="JD" address="Unit 5 Ayr Central" city="Ayr" name="Ayr" telephone="01292 291058" postal="KA7 1TN" lat="55.459857" lng="-4.62716" />
+         <marker id="258" facia="JD" address="The Cleveland SC" city="Middlesbrough" name="Middlesbrough" telephone="01642 219957" postal="TS1 2NR" lat="54.575391" lng="-1.235823" />
+         <marker id="259" facia="JD" address="LSU08 2 The Grand Arcade" city="Wigan" name="Wigan, The Grand Arcade" telephone="01942 497512" postal="WN1 1BH" lat="53.546389" lng="-2.628832" />
+         <marker id="260" facia="JD" address="UNIT 14 Newport Shopping Centre" city="Newport" name="Newport" telephone="01633 740109" postal="NP19 4QQ" lat="51.57757" lng="-2.943583" />
+         <marker id="261" facia="JD" address="SU40 Golden Square" city="Warrington" name="Warrington" telephone="01925 653385" postal="WA1 2AF" lat="53.390493" lng="-2.59312" />
+         <marker id="263" facia="JD" address="MSU4B Liverpool One 4 Paradise Street" city="Liverpool" name="Liverpool, One" telephone="0151 707 0072" postal="L1 8JF" lat="53.403819" lng="-2.98649" />
+         <marker id="264" facia="JD" address="Units 79-80 The Stratford SC" city="Stratford" name="Stratford" telephone="0208 534 9869" postal="E15 1XQ" lat="51.541511" lng="0.000596" />
+         <marker id="265" facia="JD" address="SU12 Cabot Circus" city="Bristol" name="Bristol, Cabot Circus" telephone="01179 272098" postal="BS1 3BF" lat="51.458894" lng="-2.585786" />
+         <marker id="267" facia="JD" address="SU310 &amp; 259 The Eagle Centre" city="Derby" name="Derby, The Eagle Centre" telephone="01332 346518" postal="DE1 2PL" lat="52.919416" lng="-1.473998" />
+         <marker id="268" facia="JD" address="Unit 65, Silverburn Centre, 763 Barrhead Road" city="Glasgow" name="Glasgow Silverburn" telephone="0141 881 9473" postal="G53 6AG" lat="55.822891" lng="-4.342054" />
+         <marker id="269" facia="JD" address="30-32 Clumber Street" city="Nottingham" name="Nottingham, Clumber Street" telephone="01159 582253" postal="NG1 3GB" lat="52.954802" lng="-1.147346" />
+         <marker id="270" facia="JD" address="3 Willlow Place" city="Corby" name="Corby" telephone="01536 268116" postal="NN17 1BH" lat="52.486715" lng="-0.70186" />
+         <marker id="271" facia="JD" address="Unit A1 Tottenham Hale Retail Park" city="Tottenham" name="Tottenham" telephone="0208 808 3277" postal="N15 4QD" lat="51.587601" lng="-0.062298" />
+         <marker id="272" facia="JD" address="Unit 82/85 St James Centre" city="Edinburgh" name="Edinburgh, St James Centre" telephone="0131 558 1336" postal="EH1 3SJ" lat="55.954842" lng="-3.188431" />
+         <marker id="273" facia="JD" address="MSU1 The Core Shopping Centre" city="Leeds" name="Leeds, The Core SC" telephone="01132 440584" postal="LS1 6JE" lat="53.798773" lng="-1.543817" />
+         <marker id="274" facia="JD" address="Unit 1158 Westfield SC White City" city="London" name="Westfield, London" telephone="0208 743 4391" postal="W12 7GD" lat="51.507202" lng="-0.223242" />
+         <marker id="277" facia="JD" address="Unit G1 Deepdale Retail Park" city="Preston" name="Preston, Deepdale Retail Park" telephone="01772 705471" postal="PR1 6AF" lat="53.772855" lng="-2.680585" />
+         <marker id="279" facia="JD" address="Unit 7B Parsonage Retail Park" city="Leigh" name="Leigh" telephone="01942 674848" postal="WN7 5SJ" lat="53.499517" lng="-2.527798" />
+         <marker id="280" facia="JD" address="Unit S5 Two Rivers Shopping Park" city="Staines" name="Staines" telephone="01784 453207" postal="TW18 4WB" lat="51.435805" lng="-0.511443" />
+         <marker id="283" facia="JD" address="Unit 2 The Strand SC" city="Bootle" name="Liverpool, The Strand Shopping Centre" telephone="0151 944 1944" postal="L20 4XX" lat="53.452167" lng="-2.992234" />
+         <marker id="284" facia="JD" address="Unit 19-20 The Howgate SC" city="Falkirk" name="Falkirk" telephone="01324 613765" postal="FK1 1HE" lat="55.944472" lng="-3.791865" />
+         <marker id="291" facia="JD" address="Units 42/43 Rushmere Centre" city="Craigavon" name="Craigavon" telephone="02838 347103" postal="BT64 1AA" lat="54.449483" lng="-6.391772" />
+         <marker id="293" facia="JD" address="Units B5-B6 Brent Cross SC" city="Brent Cross" name="Brent Cross" telephone="0208 203 0765" postal="NW4 3FQ" lat="51.576175" lng="-0.224523" />
+         <marker id="297" facia="JD" address="17 / 19 Fishergate" city="Preston" name="Preston" telephone="01772 259703" postal="PR1 3NN" lat="53.758066" lng="-2.699882" />
+         <marker id="305" facia="JD" address="41 Grove Street" city="Wilmslow" name="Wilmslow" telephone="01625 526227" postal="SK9 1DT" lat="53.326242" lng="-2.231909" />
+         <marker id="306" facia="JD" address="43 Mill Street" city="Macclesfield" name="Macclesfield" telephone="01625 669534" postal="SK11 6NE" lat="53.259048" lng="-2.126238" />
+         <marker id="311" facia="JD" address="9 Foregate Street" city="Chester" name="Chester" telephone="01244 401487" postal="CH1 1HD" lat="53.191333" lng="-2.887267" />
+         <marker id="313" facia="JD" address="9 Baxtergate Freshney Place" city="Grimsby" name="Grimsby" telephone="01472 352888" postal="DN31 1QL" lat="53.566309" lng="-0.086763" />
+         <marker id="315" facia="JD" address="Park Plaza Comet Way" city="Hatfield" name="Hatfield" telephone="01707 270966" postal="AL10 0XX" lat="51.761347" lng="-0.240381" />
+         <marker id="316" facia="JD" address="Octagon Centre" city="High Wycombe" name="High Wycombe" telephone="01494 536960" postal="HP11 2HU" lat="51.630284" lng="-0.753655" />
+         <marker id="319" facia="JD" address="10 Cornmarket" city="Halifax" name="Halifax" telephone="01422 320843" postal="HX1 1TH" lat="53.723062" lng="-1.860417" />
+         <marker id="322" facia="JD" address="14 The Mall Newlands Centre" city="Kettering" name="Kettering" telephone="01536 412567" postal="NN16 8JL" lat="52.401205" lng="-0.727418" />
+         <marker id="323" facia="JD" address="Unit 14 Wellington Square SC" city="Stockton on Tees" name="Stockton on Tees" telephone="01642 670220" postal="TS18 1GX" lat="54.552982" lng="-1.319343" />
+         <marker id="324" facia="JD" address="14 High Street" city="Hereford" name="Hereford" telephone="01432 276500" postal="HR4 9AA" lat="52.056297" lng="-2.717117" />
+         <marker id="326" facia="JD" address="Brunswick Pavilion" city="Scarborough" name="Scarborough" telephone="01723 500557" postal="YO11 1UE" lat="54.280888" lng="-0.402358" />
+         <marker id="328" facia="JD" address="26 Gwent Square" city="Cwmbran" name="Cwmbran" telephone="01633 870865" postal="NP44 1PS" lat="51.653295" lng="-3.021204" />
+         <marker id="329" facia="JD" address="64 High Street" city="Scunthorpe" name="Scunthorpe" telephone="01724 870368" postal="DN15 6SD" lat="53.592308" lng="-0.645693" />
+         <marker id="330" facia="JD" address="25 Guildhall SC" city="Stafford" name="Stafford" telephone="01785 227740" postal="ST16 2BB" lat="52.807129" lng="-2.118173" />
+         <marker id="333" facia="JD" address="22 Market Walk SC" city="Chorley" name="Chorley" telephone="01257 241655" postal="PR7 1DE" lat="53.653329" lng="-2.629606" />
+         <marker id="337" facia="JD" address="Unit 5 Brandon Parade" city="Motherwell" name="Motherwell" telephone="01698 230385" postal="ML1 1RB" lat="55.789872" lng="-3.991203" />
+         <marker id="338" facia="JD" address="Unit 11 Castle Court Castle Centre" city="Caerphilly" name="Caerphilly" telephone="02920 884494" postal="CF83 1NU" lat="51.576316" lng="-3.216617" />
+         <marker id="343" facia="JD" address="Unit 27 Carlton Lanes" city="Castleford" name="Castleford" telephone="01977 604764" postal="WF10 1AD" lat="53.725762" lng="-1.350595" />
+         <marker id="345" facia="JD" address="Unit SU3 Sovereign SC" city="Weston Super Mare" name="Weston Super Mare" telephone="01934 416122" postal="BS23 1HL" lat="51.34859" lng="-2.980153" />
+         <marker id="346" facia="JD" address="3 Church Street" city="Enfield" name="Enfield" telephone="0208 364 6735" postal="EN2 6AB" lat="51.652329" lng="-0.08316" />
+         <marker id="347" facia="JD" address="Unit 8 Idlewells SC" city="Sutton in Ashfield" name="Sutton in Ashfield" telephone="01623 552155" postal="NG17 1BJ" lat="53.125506" lng="-1.262539" />
+         <marker id="348" facia="JD" address="21 Queens Way Airedale SC" city="Keighley" name="Keighley" telephone="01535 610894" postal="BD21 3PX" lat="53.866259" lng="-1.907949" />
+         <marker id="350" facia="JD" address="Unit 22 Loreburne SC" city="Dumfries" name="Dumfries" telephone="01387 257990" postal="DG1 2BD" lat="55.067156" lng="-3.610195" />
+         <marker id="351" facia="JD" address="Unit 3 The Rookery" city="Newmarket" name="Newmarket" telephone="01638 662913" postal="CB8 8EQ" lat="52.244798" lng="0.405583" />
+         <marker id="353" facia="JD" address="Unit 41 Aberafan SC" city="Port Talbot" name="Port Talbot" telephone="01639 898870" postal="SA13 1PB" lat="51.596878" lng="-3.785443" />
+         <marker id="359" facia="JD" address="Unit 12 The Swan SC Eastleigh" city="Southampton" name="Southampton, Swan Centre" telephone="02380 650746" postal="SO50 5SG" lat="50.966794" lng="-1.353451" />
+         <marker id="363" facia="JD" address="28 Portland Walk" city="Barrow" name="Barrow" telephone="01229 871722" postal="LA14 1DB" lat="54.112922" lng="-3.226216" />
+         <marker id="365" facia="JD" address="8 College Walk" city="Rotherham" name="Rotherham" telephone="01709 836571" postal="S60 1QB" lat="53.433076" lng="-1.356599" />
+         <marker id="366" facia="JD" address="13 London Road" city="Bognor Regis" name="Bognor Regis" telephone="01243 830188" postal="PO21 1PQ" lat="50.784511" lng="-0.673399" />
+         <marker id="368" facia="JD" address="21 Bedford Way" city="North Shields" name="North Shields" telephone="0191 296 5832" postal="NE29 6RX" lat="55.009233" lng="-1.446443" />
+         <marker id="370" facia="JD" address="Priory Meadows" city="Hastings" name="Hastings" telephone="01424 421692" postal="TN34 1PH" lat="50.857021" lng="0.580843" />
+         <marker id="374" facia="JD" address="31 Craster Court Manor Walks" city="Cramlington" name="Cramlington" telephone="01670 715556" postal="NE23 6UT" lat="55.085204" lng="-1.590114" />
+         <marker id="380" facia="JD" address="46 High Street" city="Kings Lynn" name="Kings Lynn" telephone="01553 764445" postal="PE30 1BE" lat="52.754866" lng="0.395481" />
+         <marker id="382" facia="JD" address="1 Bridge Street" city="Worksop" name="Worksop" telephone="01909 532524" postal="S80 1DS" lat="53.305078" lng="-1.124013" />
+         <marker id="385" facia="JD" address="44-45 Arndale Centre" city="Eastbourne" name="Eastbourne" telephone="01323 720394" postal="BN21 3NW" lat="50.769202" lng="0.285082" />
+         <marker id="388" facia="JD" address="Unit 5 Spring Gardens" city="Buxton" name="Buxton" telephone="01298 74077" postal="SK17 6BJ" lat="53.259415" lng="-1.911172" />
+         <marker id="389" facia="JD" address="Unit 13 The Hildreds SC" city="Skegness" name="Skegness" telephone="01754 898903" postal="PE25 3NU" lat="53.142116" lng="0.340316" />
+         <marker id="390" facia="JD" address="Unit 17 Sovereign Centre" city="Boscombe" name="Boscombe" telephone="01202 302872" postal="BH1 4SX" lat="50.727168" lng="-1.839525" />
+         <marker id="391" facia="JD" address="73 King Street" city="South Shields" name="South Shields" telephone="0191 496 7942" postal="NE33 1DP" lat="54.99764" lng="-1.436458" />
+         <marker id="392" facia="JD" address="Unit A Butter Market" city="Bury St Edmunds" name="Bury St Edmunds" telephone="01284 762225" postal="IP33 1DB" lat="52.245347" lng="0.712808" />
+         <marker id="393" facia="JD" address="Unit 7 New Bond Street" city="Weymouth" name="Weymouth" telephone="01305 750931" postal="DT4 8LY" lat="50.610238" lng="-2.45512" />
+         <marker id="394" facia="JD" address="Unit 10-23 Vicar Lane" city="Chesterfield" name="Chesterfield" telephone="01246 271003" postal="S40 1PY" lat="53.23476" lng="-1.42611" />
+         <marker id="399" facia="JD" address="Unit 9 Marketgate" city="Great Yarmouth" name="Great Yarmouth" telephone="01493 856904" postal="NR30 2AF" lat="52.607579" lng="1.730618" />
+         <marker id="402" facia="JD" address="17 Swan Walk" city="Horsham" name="Horsham" telephone="01403 270708" postal="RH12 1HQ" lat="51.063308" lng="-0.329716" />
+         <marker id="403" facia="JD" address="Unit 50 The Mall, Charter Walk" city="Burnley" name="Burnley" telephone="01282 500737" postal="BB11 1BA" lat="53.789685" lng="-2.243552" />
+         <marker id="404" facia="JD" address="Unit 1 52 Pier Avenue" city="Clacton on Sea" name="Clacton on Sea" telephone="01255 224752" postal="CO15 1QB" lat="51.787776" lng="1.153121" />
+         <marker id="409" facia="JD" address="Unit 17 Regent Walk" city="Redcar" name="Redcar" telephone="01642 476709" postal="TS10 3FB" lat="54.618006" lng="-1.066367" />
+         <marker id="410" facia="JD" address="Unit 23 The Howard SC" city="Welwyn Garden City" name="Welwyn Garden City" telephone="01707 396528" postal="AL8 6HA" lat="51.801207" lng="-0.204572" />
+         <marker id="411" facia="JD" address="Unit 24 Castlepoint" city="Bournemouth" name="Bournemouth" telephone="01202 859718" postal="BH8 9UY" lat="50.753198" lng="-1.843618" />
+         <marker id="417" facia="JD" address="Wolsey Place, Wolsey Walk" city="Woking" name="Woking" telephone="01483 397628" postal="GU21 6GD" lat="51.319841" lng="-0.561853" />
+         <marker id="425" facia="JD" address="Units 12-13 Kingsgate SC" city="Huddersfield" name="Huddersfield" telephone="01484 450118" postal="HD1 2QB" lat="53.646029" lng="-1.779968" />
+         <marker id="503" facia="JD" address="Unit 8 The Arcadia SC" city="Ealing" name="Ealing" telephone="0208 579 6884" postal="W5 5JY" lat="51.51279" lng="-0.302995" />
+         <marker id="505" facia="JD" address="378-380 Holloway Road" city="Holloway Road" name="Holloway Road" telephone="0207 607 1480" postal="N7 0RN" lat="51.556571" lng="-0.11832" />
+         <marker id="506" facia="JD" address="Unit 60 St Enoch SC" city="Glasgow" name="Glasgow, St Enoch" telephone="0141 204 4183" postal="G1 4BW" lat="55.857405" lng="-4.254439" />
+         <marker id="507" facia="JD" address="Units 132-133 Whiteleys SC" city="Bayswater" name="Bayswater" telephone="0207 792 1139" postal="W2 4YH" lat="51.514579" lng="-0.18874" />
+         <marker id="510" facia="JD" address="Lower Mall The Bullring SC" city="Birmingham" name="Birmingham, The Bullring" telephone="0121 616 1136" postal="B5 4BA" lat="52.476815" lng="-1.895364" />
+         <marker id="511" facia="JD" address="Unit 89 The Galleries SC" city="Washington" name="Washington" telephone="0191 417 3361" postal="NE38 7RT" lat="54.900096" lng="-1.532724" />
+         <marker id="516" facia="JD" address="Unit 2 Canada Square Docklands" city="Canary Wharf" name="Canary Wharf" telephone="0207 715 9644" postal="E14 5AX" lat="51.504954" lng="-0.01945" />
+         <marker id="523" facia="JD" address="Units 214-215 The Lakeside SC" city="Thurrock" name="Thurrock" telephone="01708 868906" postal="RM20 2ZQ" lat="51.487504" lng="0.282503" />
+         <marker id="526" facia="JD" address="70 Above Bar" city="Southampton" name="Southampton, above Bar" telephone="02380 638033" postal="SO14 7DS" lat="50.904683" lng="-1.404102" />
+         <marker id="529" facia="JD" address="Unit A4 The Harlequin SC" city="Watford" name="Watford" telephone="01923 211891" postal="WD17 2TE" lat="51.656079" lng="-0.394337" />
+         <marker id="531" facia="JD" address="Unit 210 The Potteries SC" city="Hanley" name="Hanley, The Potteries" telephone="01782 213390" postal="ST1 1PS" lat="53.027304" lng="-2.175805" />
+         <marker id="533" facia="JD" address="Unit 15 The Marlowes SC" city="Hemel Hempstead" name="Hemel Hempstead" telephone="01442 260227" postal="HP1 1DX" lat="51.749158" lng="-0.47141" />
+         <marker id="542" facia="JD" address="222-224 Commercial Road" city="Portsmouth" name="Portsmouth" telephone="02392 825222" postal="PO1 1HG" lat="50.801549" lng="-1.088297" />
+         <marker id="546" facia="JD" address="Ground Floor 78-80 High Road" city="Wood Green" name="Wood Green, High Road" telephone="0208 881 8989" postal="N22 6HE" lat="51.594225" lng="-0.107813" />
+         <marker id="547" facia="JD" address="Unit 23 The Birtles SC" city="Wythenshawe" name="Wythenshawe" telephone="0161 871 8109" postal="M22 5RF" lat="53.379976" lng="-2.262252" />
+         <marker id="582" facia="JD" address="Unit 5D Kingswood Retail Park" city="Hull" name="Hull" telephone="01482 877037" postal="HU7 3DA" lat="53.795373" lng="-0.348599" />
+         <marker id="583" facia="JD" address="Unit 2 Cyfathfa Retail Park, Swansea Road" city="Merthyr Tydfil" name="Merthyr Tydfil" telephone="01685 376229" postal="CF48 1HY" lat="51.749815" lng="-3.391924" />
+         <marker id="584" facia="JD" address="42 High Street, Meadowhall Shopping Centre" city="Sheffield" name="Sheffield, Meadowhall SC" telephone="01142 568742" postal="S9 1EN" lat="53.41304" lng="-1.412461" />
+         <marker id="587" facia="JD" address="No 22 Unit SU8 Princesshay" city="Exeter" name="Exeter" telephone="01392 427824" postal="EX1 1GE" lat="50.724455" lng="-3.527401" />
+         <marker id="588" facia="JD" address="Unit 9D Parc Trostre" city="Llanelli" name="Llanelli" telephone="01554 778440" postal="SA14 9UY" lat="51.676317" lng="-4.138885" />
+         <marker id="590" facia="JD" address="Unit 325 The Elements" city="Livingston" name="Livingston" telephone="01506 530590" postal="EH54 6GS" lat="55.883075" lng="-3.517117" />
+         <marker id="591" facia="JD" address="Unit 5 53 - 57 Queen Street" city="Cardiff" name="Cardiff, Queen Street" telephone="02920 225072 " postal="CF10 2AS" lat="51.482401" lng="-3.17637" />
+         <marker id="592" facia="JD" address="UNIT 27, The Rock" city="Bury" name="Bury" telephone="0161 241 7854" postal="BL9 0ND" lat="53.595422" lng="-2.292655" />
+         <marker id="593" facia="JD" address="Units SU14, B C &amp; D, High Cross Shopping Centre " city="Leicester " name="Leicester " telephone="01162 530335" postal="LE1 4FR" lat="52.636288" lng="-1.136453" />
+         <marker id="595" facia="JD" address="Unit C3B Bentley Bridge Retail Park" city="Wednesfield" name="Wednesfield" telephone="01902 735543" postal="WV11 1BP" lat="52.596913" lng="-2.090278" />
+         <marker id="596" facia="JD" address="61 Evesham Walk &amp; 1-3 Park Walk, Kingfisher Shopping Centre" city="Redditch" name="Redditch" telephone="01527 62048" postal="B97 4ET" lat="52.306107" lng="-1.941481" />
+         <marker id="598" facia="JD" address="190 HIGH STREET" city="Slough" name="Slough" telephone="01753 362770" postal="SL1 1JS" lat="51.50773" lng="-0.589765" />
+         <marker id="599" facia="JD" address="Unit 42 The Bridges" city="Sunderland" name="Sunderland" telephone="0191 406 0822" postal="SR1 3LB" lat="54.90579" lng="-1.384668" />
+         <marker id="600" facia="JD" address="Unit 45 White Rose Shopping Centre" city="Leeds" name="Leeds" telephone="01138 878973" postal="LS11 8LU" lat="53.758636" lng="-1.574223" />
+         <marker id="603" facia="JD" address="Unit 17 Unicorn Way, The Kingdom Centre" city="Glenrothes" name="Glenrothes" telephone="01592 802412" postal="KY7 5NU" lat="56.195806" lng="-3.173777" />
+         <marker id="608" facia="JD" address="52 North End" city="Croydon" name="Croydon" telephone="0207 749 8032" postal="CR0 1UG" lat="51.37567" lng="-0.100674" />
+         <marker id="609" facia="JD" address="Units 36-38 Pentagon Centre" city="Chatham" name="Chatham" telephone="01634 567080" postal="ME4 4DP" lat="51.383734" lng="0.525618" />
+         <marker id="611" facia="JD" address="52 New George Street" city="Plymouth" name="Plymouth" telephone="01752 253807" postal="PL1 1RR" lat="50.371667" lng="-4.143661" />
+         <marker id="612" facia="JD" address="58 Kilburn High Road" city="Kilburn" name="Kilburn" telephone="0207 372 9786" postal="NW6 4HJ" lat="51.537696" lng="-0.192682" />
+         <marker id="613" facia="JD" address="281 High Street" city="Bangor" name="Bangor, High Street" telephone="01248 667079" postal="LL57 1PB" lat="53.226903" lng="-4.124769" />
+         <marker id="614" facia="JD" address="GF2 Ellesmere Shopping Centre, Walkden" city="Manchester" name="Walkden" telephone="0161 669 8661" postal="M28 3BT" lat="53.526355" lng="-2.401028" />
+         <marker id="615" facia="JD" address="57 - 59 HIGH STREET" city="SCUNTHORPE" name="SCUNTHORPE" telephone="TBC" postal="DN15 6SB" lat="53.591884" lng="-0.645571" />
+         <marker id="617" facia="JD" address="52-53 The Mall Wellington SC" city="Aldershot" name="Aldershot" telephone="01252 337597" postal="GU11 1DB" lat="51.248856" lng="-0.764293" />
+         <marker id="620" facia="JD" address="Unit 6B Cables Retail Park" city="Prescot" name="Prescot, Cables Retail Park" telephone="0151 559 1583" postal="L34 5NQ" lat="53.426807" lng="-2.801038" />
+         <marker id="621" facia="JD" address="5 East Mall Four Seasons SC" city="Mansfield" name="Mansfield" telephone="01623 423690" postal="NG18 1SN" lat="53.14482" lng="-1.197995" />
+         <marker id="622" facia="JD" address="160 Commercial Street" city="Newport" name="Newport" telephone="01633 265298" postal="NP20 1JQ" lat="51.586214" lng="-2.995449" />
+         <marker id="624" facia="JD" address="Unit 15 The Belfry SC" city="Redhill" name="Redhill" telephone="01737 760068" postal="RH1 1SA" lat="51.239455" lng="-0.169482" />
+         <marker id="625" facia="JD" address="Unit 19-17 Westbury Mall Fareham SC" city="Fareham" name="Fareham" telephone="01329 825900" postal="PO16 0PE" lat="50.852773" lng="-1.178091" />
+         <marker id="626" facia="JD" address="Unit 28/29 Treaty Centre" city="Hounslow" name="Hounslow" telephone="0203 326 3997" postal="TW3 1RH" lat="51.47039" lng="-0.354704" />
+         <marker id="628" facia="JD" address="Units 30-31 32 Lion Yard" city="Cambridge" name="Cambridge" telephone="01223 356855" postal="CB2 3NA" lat="52.204992" lng="0.12096" />
+         <marker id="633" facia="JD" address="Unit 19 The Kingsgate SC" city="Dunfermline" name="Dunfermline" telephone="01383 667010" postal="KY12 7QU" lat="56.072392" lng="-3.459579" />
+         <marker id="634" facia="JD" address="Unit 26 34 The Cornmill SC" city="Darlington" name="Darlington" telephone="01325 369633" postal="DL1 1LS" lat="54.5258" lng="-1.553939" />
+         <marker id="637" facia="JD" address="Unit 9 The Paisley SC" city="Paisley" name="Paisley, Shopping Centre" telephone="0141 889 8530" postal="PA1 2AF" lat="55.844553" lng="-4.424508" />
+         <marker id="638" facia="JD" address="Unit 19 3 Princes Mead SC" city="Farnborough" name="Farnborough" telephone="01252 544584" postal="GU14 6YA" lat="51.291952" lng="-0.757974" />
+         <marker id="641" facia="JD" address="Unit 176 Middleton Grange SC" city="Hartlepool" name="Hartlepool" telephone="01429 863844" postal="TS24 7RR" lat="54.683651" lng="-1.213783" />
+         <marker id="643" facia="JD" address="65 Montague Street" city="Worthing" name="Worthing" telephone="01903 211770" postal="BN11 3BN" lat="50.810024" lng="-0.37347" />
+         <marker id="644" facia="JD" address="Unit 22 Rivergate Centre" city="Irvine" name="Irvine" telephone="01294 440002" postal="KA12 8EH" lat="55.612904" lng="-4.671424" />
+         <marker id="648" facia="JD" address="32 Union Street" city="Torquay" name="Torquay" telephone="01803 380674" postal="TQ2 5PW" lat="50.46593" lng="-3.528693" />
+         <marker id="650" facia="JD" address="UNIT 47, THE PLAZA" city="EAST KILBRIDE" name="EAST KILBRIDE" telephone="" postal="G74 1LL" lat="55.759868" lng="-4.181988" />
+         <marker id="651" facia="JD" address="451-453 Brixton Road" city="Brixton" name="Brixton" telephone="0207 737 3728" postal="SW9 8HH" lat="51.461784" lng="-0.11462" />
+         <marker id="657" facia="JD" address="Unit 55 50 Queens Square The Sandwell SC" city="West Bromwich" name="West Bromwich" telephone="0121 525 5726" postal="B70 7NJ" lat="52.518187" lng="-1.991527" />
+         <marker id="659" facia="JD" address="Unit 1 14 Queensway" city="Crewe" name="Crewe" telephone="01270 254273" postal="CW1 2HQ" lat="53.098661" lng="-2.441707" />
+         <marker id="660" facia="JD" address="91-93 Queensway" city="Stevenage" name="Stevenage" telephone="01438 314888" postal="SG1 1EA" lat="51.903612" lng="-0.201305" />
+         <marker id="663" facia="JD" address="Unit 14 White Rose SC" city="Rhyl" name="Rhyl" telephone="01745 330367" postal="LL18 1EW" lat="53.321777" lng="-3.490258" />
+         <marker id="665" facia="JD" address="Unit 9 Broadwalk SC" city="Edgware" name="Edgware" telephone="0208 951 4361" postal="HA8 7BD" lat="51.612875" lng="-0.275968" />
+         <marker id="666" facia="JD" address="36 High Street" city="Canterbury" name="Canterbury" telephone="01227 456644" postal="CT1 2RY" lat="51.279164" lng="1.079222" />
+         <marker id="667" facia="JD" address="Unit 18A Hempstead Valley SC" city="Gillingham" name="Gillingham" telephone="01634 239907" postal="ME7 3PB" lat="51.341607" lng="0.572741" />
+         <marker id="668" facia="JD" address="Unit 2 3-7 Coney Street" city="York" name="York" telephone="01904 632 703" postal="YO1 9QL" lat="53.958966" lng="-1.084199" />
+         <marker id="671" facia="JD" address="55 Chapel Street Market" city="Islington" name="Islington" telephone="0207 837 9440" postal="N1 9EW" lat="51.533443" lng="-0.10771" />
+         <marker id="674" facia="JD" address="60 High Street" city="Epsom" name="Epsom" telephone="01372 739476" postal="KT19 8AJ" lat="51.333775" lng="-0.266662" />
+         <marker id="676" facia="JD" address="163 High Street" city="Sutton" name="Sutton" telephone="0208 770 1305" postal="SM1 1JN" lat="51.36692" lng="-0.19621" />
+         <marker id="678" facia="JD" address="Unit G 8-10 Kings Walk SC" city="Chelsea" name="Chelsea" telephone="0207 589 6290" postal="SW3 4TR" lat="51.489967" lng="-0.163312" />
+         <marker id="680" facia="JD" address="Unit 5 The Square, Tallaght" city="Dublin" name="Dublin" telephone="00353 14148933" postal="DN 24" lat="37.658355" lng="-122.397552" />
+         <marker id="681" facia="JD" address="Unit 47 Castle Quay SC" city="Banbury" name="Banbury" telephone="01295 701190" postal="OX16 5UW" lat="52.063208" lng="-1.333939" />
+         <marker id="684" facia="JD" address="15 Market Hall Street" city="Cannock" name="Cannock" telephone="01543 468220" postal="WS11 1EB" lat="52.689484" lng="-2.030108" />
+         <marker id="690" facia="JD" address="Unit 2 The Square" city="Camberley" name="Camberley" telephone="01276 683773" postal="GU15 3SL" lat="51.338091" lng="-0.746219" />
+         <marker id="691" facia="JD" address="Unit 5 The Orchards SC" city="Dartford" name="Dartford" telephone="01322 281285" postal="DA1 1AA" lat="51.4445" lng="0.209754" />
+         <marker id="698" facia="JD" address="110-112 High Street" city="Newport Isle of Wight" name="Newport , Isle of Wight" telephone="01983 533376" postal="PO30 1TJ" lat="50.699824" lng="-1.296467" />
+         <marker id="699" facia="JD" address="Unit LFU1 Surrey Quays Rotherhithe" city="Surrey Quays" name="Surrey Quays" telephone="0207 237 2662" postal="SE16 7LL" lat="51.495398" lng="-0.046964" />
+         <marker id="714" facia="JD" address="24-25 Dawson Way St Johns SC" city="Liverpool" name="Liverpool, St Johns Shopping Centre" telephone="0151 708 7070" postal="L1 1LH" lat="53.406966" lng="-2.981945" />
+         <marker id="731" facia="JD" address="Airside, John Lennon Airport" city="Liverpool" name="Liverpool, John Lennon Airport" telephone="0151 203 1286" postal="L24 1YD" lat="53.337309" lng="-2.854927" />
+         <marker id="732" facia="JD" address="Unit 5 T1 &amp; T2 Airside, Birmingham Airport" city="Birmingham" name="Birmingham" telephone="0121 270 0727" postal="B26 3QJ" lat="52.451285" lng="-1.731063" />
+         <marker id="734" facia="JD" address="Terminal 2 Airside" city="Manchester Airport" name="Manchester Airport T2" telephone="0161 437 8458 " postal="M90 1QX " lat="53.361881" lng="-2.27084" />
+         <marker id="735" facia="JD" address="ARU11 South Terminal, Airside" city="Gatwick Airport" name="Gatwick Airport" telephone="01293 567783" postal="RH6 0NP" lat="51.15599" lng="-0.163049" />
+         <marker id="736" facia="JD" address="Airport Way Airside Departure Lounge" city="Luton Airport" name="Luton Airport" telephone="01582 731895" postal="LU2 9LR" lat="51.880371" lng="-0.376537" />
+         <marker id="737" facia="JD" address="Newcastle International Airport Airside" city="Newcastle" name="Newcastle" telephone="0191 406 5399" postal="NE13 8BZ" lat="55.037024" lng="-1.710116" />
+         <marker id="739" facia="JD" address="Unit C8 Terminal 1" city="Manchester Airport T1" name="Manchester Airport T1" telephone="0161 436 3947" postal="M90 3NW" lat="53.362244" lng="-2.273202" />
+         <marker id="741" facia="JD" address="Int Departure Lounge" city="Stansted Airport" name="Stansted Airport" telephone="01279 215005 " postal="CM24 1QW" lat="51.888151" lng="0.258367" />
+         <marker id="755" facia="JD" address="Unit 49 Liverpool St Station" city="London" name="Liverpool Street Station" telephone="0207 374 0075" postal="EC2M 7QH" lat="51.518264" lng="-0.082925" />
+         <marker id="757" facia="JD" address="Unit 20 St Pancras International Station, Euston Road" city="London" name="St Pancras" telephone="0207 078 0208" postal="N1C 4QP" lat="51.531428" lng="-0.126133" />
+         <marker id="803" facia="JD" address="Unit 2/3 The Mall, Heathway Shopping, Heathway" city="Dagenham" name="Heathway Shopping" telephone="0208 595 8300" postal="RM10 8RE" lat="51.540851" lng="0.148744" />
+         <marker id="805" facia="JD" address="Unit 11 30 Culvar Street West Culver Square" city="Colchester" name="Colchester" telephone="01206 368055" postal="CO1 1WF" lat="51.888817" lng="0.897212" />
+         <marker id="807" facia="JD" address="Unit 4 Brookfields Retail" city="Cheshunt" name="Cheshunt" telephone="01992 642233" postal="EN8 0QL" lat="51.720641" lng="-0.036679" />
+         <marker id="809" facia="JD" address="Unit 5 Canal Walk Bridge Street" city="Swindon" name="Swindon" telephone="1793641111" postal="SN1 1LD" lat="51.561237" lng="-1.786425" />
+         <marker id="811" facia="JD" address="Unit 4-5 Coopers Square" city="Burton upon Trent" name="Burton upon Trent" telephone="01283 740870" postal="DE14 1HL" lat="52.801861" lng="-1.631501" />
+         <marker id="813" facia="JD Pro" address="49/52 Bow Lane" city="London" name="JD Pro" telephone="0203 640 9334" postal="EC4M 9DJ" lat="51.513462" lng="-0.09329" />
+         <marker id="814" facia="JD" address="166 Streatham High Street" city="Streatham" name="Streatham" telephone="0208 696 9620" postal="SW16 1BJ" lat="51.43277" lng="-0.129482" />
+         <marker id="816" facia="JD" address="42 King Street St Helier" city="Jersey" name="Jersey" telephone="01534 876411" postal="JE2 4WE" lat="49.178729" lng="-2.094833" />
+         <marker id="821" facia="JD" address="331 Mare Street" city="Hackney" name="Hackney" telephone="0208 525 9380" postal="E8 1HY" lat="51.548476" lng="-0.05535" />
+         <marker id="822" facia="JD" address="UNIT B4 Whiteley Shopping Park Whiteley Village" city="Fareham" name="Fareham" telephone="01489 669819" postal="PO15 7LL" lat="50.886359" lng="-1.245824" />
+         <marker id="823" facia="JD" address="9 Greatdark Gate" city="Aberystwyth" name="Aberystwyth" telephone="01970 639411" postal="SY23 1DE" lat="52.414739" lng="-4.084735" />
+         <marker id="828" facia="JD" address="Unit 3 John Allen Centre, Between Towns Road, Cowley" city="Oxford" name="Oxford" telephone="01865 595107" postal="OX4 3JP" lat="51.73381" lng="-1.218007" />
+         <marker id="831" facia="JD" address="51/53 Chapel Street" city="Southport" name="Southport" telephone="01704 549055" postal="PR8 1AL" lat="53.647568" lng="-3.0037" />
+         <marker id="832" facia="JD" address="Unit G1 Trinity Walk" city="Wakefield" name="Wakefield" telephone="01924 666092" postal="WF1 1QS" lat="53.683563" lng="-1.494492" />
+         <marker id="833" facia="JD" address="15 / 19 Westgate Street" city="Ipswich" name="Ipswich" telephone="01473 221784" postal="IP1 3DR" lat="52.058183" lng="1.151437" />
+         <marker id="836" facia="JD" address="1-3 Silver Street" city="Bedford" name="Bedford" telephone="01234 860213" postal="MK40 1SY" lat="52.13706" lng="-0.467796" />
+         <marker id="837" facia="JD" address="Unit 24 Lord Square, 12 Lord Street Mall" city="Blackburn" name="Blackburn Lord Square" telephone="01254 915550" postal="BB1 7NQ" lat="53.748145" lng="-2.482659" />
+         <marker id="838" facia="JD" address="55/56 Fairhill Shopping Centre" city="Ballymena" name="Ballymena" telephone="02825 446629" postal="BT43 6UF" lat="54.86939" lng="-6.276425" />
+         <marker id="839" facia="JD" address="UNIT 8A, MARKET WAY" city="GLOUCESTER" name="Gloucester" telephone="01452 229642" postal="GL1 1QH" lat="51.864195" lng="-2.245132" />
+         <marker id="846" facia="JD" address="Unit 12, Talbot Green Shopping Park" city="Llantrisant" name="Llantrisant" telephone="01443 801530" postal="CF72 8LW" lat="51.536372" lng="-3.380802" />
+         <marker id="848" facia="JD" address="117 - 119 Royal Victoria Place" city="Tunbridge Wells" name="Tunbridge Wells" telephone="01892 571081" postal="TN1 2SR" lat="51.134996" lng="0.265731" />
+         <marker id="849" facia="JD" address="Unit 6 Rye Lane, Aylesham SC" city="Peckham" name="Peckham" telephone="0207 993 0560" postal="SE15 5EW" lat="51.472736" lng="-0.068681" />
+         <marker id="907" facia="JD" address="Unit B1 Chelmer Village" city="Chelmsford" name="Chelmsford" telephone="01245 201081" postal="CM2 6XE" lat="51.73279" lng="0.495895" />
+         <marker id="913" facia="JD" address="Unit 8 Kingsland Shopping Centre, Dalston" city="Hackney" name="Hackney" telephone="0207 993 1316" postal="E8 2LX" lat="51.547869" lng="-0.074155" />
+         <marker id="915" facia="JD" address="Unit 3 Trinity SC" city="Aberdeen" name="Aberdeen , Trinity" telephone="01224 574311" postal="AB11 6BE" lat="57.145345" lng="-2.100656" />
+         <marker id="922" facia="JD" address="Unit 22, North Mall, Edmonton Green SC" city="Edmonton" name="Edmonton" telephone="0208 150 2384" postal="N9 0EQ" lat="51.625082" lng="-0.057422" />
+         <marker id="923" facia="JD" address="Unit 2B Bracknell Shopping Park" city="Bracknell" name="Bracknell" telephone="01344 205131" postal="RG12 1EN" lat="51.414785" lng="-0.754634" />
+         <marker id="924" facia="JD" address="130 The Arcade, Westfield Stratford City Montfichet Road, Olympic Park" city="London " name="Westfield Stratford City, London" telephone="0208 432 4302" postal="E20 1EL" lat="51.543924" lng="-0.01468" />
+         <marker id="928" facia="JD" address="5 Ivison Lane, Washington Square Shopping Centre" city="Workington" name="Workington Washington Square SC" telephone="01900 510280" postal="CA14 3DU" lat="54.643306" lng="-3.544438" />
+         <marker id="929" facia="JD" address="Unit 8A Parc Llandudno" city="Llandudno" name="Llandudno" telephone="01492 550533" postal="LL30 1PX" lat="53.321303" lng="-3.821612" />
+         <marker id="931" facia="JD" address="144 The Mall Gracechurch SC Sutton Coldfield" city="West Midlands" name="Sutton Coldfield" telephone="0121 354 2010" postal="B72 1PA" lat="52.562252" lng="-1.824722" />
+         <marker id="933" facia="JD" address="Unit 16 Faraday Retail Park" city="Coatbridge" name="Coatbridge" telephone="01236 803052" postal="ML5 3SQ" lat="55.857422" lng="-4.022348" />
+         <marker id="934" facia="JD" address="Unit 7 St Andrews Shopping Park" city="Birmingham" name="Birmingham, St Andrews" telephone="0121 270 3352" postal="B10 0XA" lat="52.473817" lng="-1.864616" />
+         <marker id="997" facia="JD" address="Unit 39 Woodside Industrial Estate Dunstable" city="Bedfordshire" name="Bedfordshire" telephone="01582 699941" postal="LU5 4TP" lat="51.896368" lng="-0.504861" />
+         <marker id="998" facia="JD" address="P10 W/H Heywood Dist Park Pilsworth Rd" city="Heywood" name="Heywood" telephone="01706 624383" postal="OL10 2TT" lat="53.581313" lng="-2.238923" />
+         <marker id="1001" facia="JD" address="91 - 93 Great Eastern Street" city="London" name="London" telephone="0207 096 2690" postal="EC2A 3HZ" lat="51.525664" lng="-0.083324" />
+         <marker id="607" facia="JD" address="91-93 Northumberland Street" city="Newcastle" name="Newcastle JD First Sport" telephone="0191 233 2359" postal="NE1 7AG" lat="54.976836" lng="-1.613622" />
+         <marker id="157" facia="JD" address="Unit 32 Whitewater Shopping Centre" city="Newbridge Co Kildare" name="Newbridge Co Kildare" telephone="00353 45446625" postal="" lat="53.177563" lng="-6.79773" />
+         <marker id="756" facia="JD" address="RT16 Dublin Airport, T2 Airside" city="Dublin" name="Dublin Airport" telephone="35319446465" postal="" lat="53.42608" lng="-6.23912" />
+         <marker id="645" facia="JD" address="47 Liffey Valley Shopping Centre" city="Dublin" name="Dublin" telephone="00353 (0) 16260711" postal="DN22" lat="53.352374" lng="-6.391867" />
+         <marker id="647" facia="JD" address="Unit 13 Level 2, Dundrum Shopping Centre, Dundrum, Dublin 14" city="Dublin" name="Dublin" telephone="00353 (0) 16852250" postal="" lat="53.287365" lng="-6.242116" />
+         <marker id="548" facia="JD" address="Unit 6X, Crescent Shopping Centre, Dooradoyle" city="Limerick" name="Limerick" telephone="00353 6130 7149" postal="" lat="52.665577" lng="-8.624542" />
+         <marker id="266" facia="JD" address="18 South Main Street" city="Wexford" name="Wexford" telephone="00353 539174138" postal="" lat="52.337828" lng="-6.461539" />
+         <marker id="230" facia="JD" address="Unit 52 Athlone Town Centre" city="Athlone" name="Athlone" telephone="00353 906484368" postal="" lat="53.427016" lng="-7.942912" />
+         <marker id="126" facia="JD" address="43-44 Mary Street" city="Dublin" name="Dublin Mega" telephone="00353 187 26393" postal="" lat="53.348526" lng="-6.268433" />
+         <marker id="227" facia="JD" address="Unit 189 Blanchardstown SC Blanchardstown" city="Dublin" name="Dublin" telephone="00353 18235003" postal="DN15" lat="53.393624" lng="-6.398088" />
+   </markers>

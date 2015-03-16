@@ -201,7 +201,7 @@ jQuery(document).ready(function($) {
 //
 
 var username = 'jdsportsofficial';
-var hashtag = 'crlifestyle';
+var hashtag = 'CRLifestyle';
 var clientId = '5a79ddf3fa4147ffbea3fc0e38b22014';
 var auth_token = ''; // not needed for most
 var instaHTML;
@@ -227,9 +227,10 @@ jQuery.ajax({
 		  var caroselSlider = 	jQuery('#instafeed').bxSlider({
 			slideWidth:250,
 			minSlides:2,
-			maxSlides:5,
+			maxSlides:16,
 			moveSlides:5,
 			slideMargin:15,
+			infiniteLoop: true,
 			touchEnabled:true
 		});
     }
@@ -237,13 +238,6 @@ jQuery.ajax({
 
 
 
-	
-		
-	
-
-		
-				
-		
 		
 	// RESETS VIDEO POSTER
 	jQuery(function($) {
