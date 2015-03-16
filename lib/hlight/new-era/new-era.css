@@ -1,0 +1,281 @@
+@charset "UTF-8";
+/* ----------------------------------------------------------- */
+/* CSS Document: NEW LANDING CSS (RJR/PC 04/04/13 - VERSION 1) */
+/* ----------------------------------------------------------- */
+
+/*
+*
+*	- RESETS
+*	- SLIDERS
+*	- MIDDLE SPOTS
+*	- TWITTER BAR
+*	- SIDEBAR
+*	- FOOTER COPY
+*
+*/
+
+/* ---- Store CSS Override ---- */
+html { background:none; }
+#page { overflow:visible; width:100%; background:url('/lib/hlight/new-era/images/new-era-bg.jpg') repeat 0 0; background-size:100%; } 
+p { font-size:0.9em; line-height:1.5em; color:#000; }
+.contentContainer { float:none; width:100%; margin:0; padding:0; }
+#header, #footerMain { margin:0 auto; float:none;}
+h3 { font-size:24px; line-height:24px; font-style:italic; font-weight:bold; text-transform:uppercase; margin-bottom:10px; color:#000; }
+h4 { text-align:center; text-transform:uppercase; font-size:18px; margin-bottom:28px; font-weight:bold; }
+
+/* ---- Base Elements ---- */
+.section { position:relative; display:block; width:100%; overflow:hidden; margin-bottom:30px; }
+.bg-white { background:none; }
+.full-width-header { left:0; top:0; min-width:996px; position:relative; width:100%; background:#000; height:130px; }
+.full-width-footer { min-width:996px; width:100%; background:url('/images/footer-bg.gif') repeat scroll 0 0 #000; float:left; }
+
+ul#primaryNavigation.fixedNav { position:fixed; margin-top:-10px; top:0px; width:976px; border-top:10px solid #FFF; height:40px; line-height:40px; }
+ul#primaryNavigation.fixedNav:after { content: ""; display:block; height:3px; left:5px; position:absolute; top:35px; width:937px; }
+#nav-full-width { display:none; width:100%; background-color:#000; height:40px; }
+#nav-full-width img.nav-logo { float:left; margin:5px 20px; }
+#nav-full-width img.nav-scroll { float:right; margin:5px; }
+#nav-full-width p.nav-scroll-text { float:right; margin:12px; color:#FFF; }
+#nav-full-width.fixedNav { display:block; position:fixed; top:0; left:0; width:100%; background-color:#000; height:40px; }
+
+#new-era-timer span.call-to-action { display: block; }
+#new-era-timer span.call-to-action { text-decoration:none; display:inline-block; height:32px; line-height: 32px; padding-left: 15px; padding-right: 50px; color:#FFF; background: url('images/call-to-action-arrows.png') no-repeat 100% 0; font-weight:bold; }
+#new-era-timer span.call-to-action:hover { background-position: 100% -32px; }
+
+.thisIsIE .ts { filter: glow(color=#14020327, strength=5)blur(strength=2); }
+
+/* ---- Generic Elements + Fixers ---- */
+.landing-page-container.pagemen, .landing-page-container.pagewomen, .landing-page-container.pagekids{ border-top:1px solid #E5E5E5; /*margin-top:10px;*/ padding-top:15px; }
+.clearfix{ clear:both; }
+.hidden-element{ display:none; }
+a.call-to-action{ text-decoration:none; height:32px; line-height: 32px; padding-left: 15px; padding-right: 50px; color:#FFF; background: url('images/call-to-action-arrows.png') no-repeat 100% 0; font-weight:bold; }
+a.call-to-action:hover{ background-position: 100% -32px; }
+
+/* ---- Landing Layout (2 Columns) ---- */
+#sidebar{ width:176px; margin-right:20px; float:left; /*margin-top:35px;*/ }
+#mainContent { width:780px; float:left; }
+.shadow { background:url('images/puma-shadow.jpg') no-repeat 0 0; width:768px; height:30px; display:block; margin-top:-30px; }
+.shadow-extended { background:url('/lib/hlight/new-era/images/feature-shadow.png') no-repeat 0 0; width:768px; height:64px; display:block; margin-top:-30px; }
+
+/* ---- SIDEBAR STYLES ---- */ 
+#sub-departments ul, #sub-departments li{ margin:0; padding:0; }
+#sub-departments ul{ margin-bottom:15px; }
+#sub-departments ul li{ font-size:12px; margin-bottom:5px; } 
+#sub-departments a{ color:#000; text-decoration:none; }
+#sub-departments a:hover{ text-decoration:underline; }
+#sub-departments a.see-all{ font-weight:bold; } 
+
+/* ---- BRAND LANDING PAGES SPECIFIC ELEMENTS ---- */
+#main { width:100%; }
+body { }
+
+#full-width-slider { width:100%; overflow: hidden; background:#FFF; }
+/*#full-width-slider h1 { position:absolute; left:10px; bottom:15px; width:111px; height:56px; background:url('/lib/hlight/new-era/images/new-era-logo-small.jpg') 0 0; background-repeat:no-repeat; text-indent:-999px; }*/
+#full-width-slider div.imageblock { position:relative; display:block; margin:0 auto; width:996px; /*height:402px*/height:490px; }
+#full-width-slider div.imageblock img { margin-left:-20%; }
+#full-width-slider span { position:absolute; bottom:13px; left:80px; width:450px; font-size:12px; line-height:16px; color:#FFF; }
+#full-width-slider span a { color: #FFF; }
+.pagedivider { width:100%; height:20px; background:#FFF; }
+.eraContainer { width:976px; margin:0 auto; padding:20px 10px; text-align:left; }
+
+.brandingBarNFL{ width: 100%; height: 85px; background: #000; position: relative; }
+
+.brandingBarNFL h1 { position:absolute; left:50%; margin-left: -488px; bottom:15px; width:280px; height:56px; background:url('/lib/hlight/new-era/images/new-era-nfl-logo-small.jpg') 0 0; background-repeat:no-repeat; text-indent:-999px; }
+
+
+#cap-styles { }
+#cap-styles h2 { float:left; font-size:36px; padding:0 15px; }
+#cap-styles span { display:block; height:1px; background:#333; }
+#cap-styles span.short { float:left; display:block; width:224px; height:1px; margin:22px 0; background:#333; }
+.thisIsIE #cap-styles span.short { width:225px; }
+
+#cap-styles p { text-align:center; font-size:14px; line-height:55px; font-weight:bold; margin:0; }
+
+#cap-styles ul { position:relative; display:block; width:780px; height:205px; margin-top:50px; }
+#cap-styles ul a { text-decoration:none; }
+#cap-styles ul li { position:relative; float:left; display:inline-block; width:170px; height:205px; margin:0 11px; }
+#cap-styles ul li img.featureCap { position:absolute; }
+#cap-styles ul li img.featureBadge { display:none; position:absolute; top:10px; left:10px; }
+#cap-styles ul li img.capShadow { position:absolute; bottom:10px; }
+
+
+
+/* ---- Main Navigation Spots (resized for brand pages, 2 spot only) ---- */
+#middle-spots-wrap.brand { position:relative; width:768px; height:230px; overflow:hidden; }
+#middle-spots-wrap.brand ul{ position:absolute; width:100%; height:230px; }
+#middle-spots-wrap.brand img{ position:absolute; top:0; left:0; }
+
+#middle-spots-wrap.brand ul li{ display:block; width: 410px; height: 230px; position:absolute; }
+#middle-spots-wrap.brand ul li.left{ left:0; }
+#middle-spots-wrap.brand ul li.right{ right:0; }
+#middle-spots-wrap.brand ul li a{ display:block; width: 100%; height: 100%; text-decoration:none; }
+.thisIsIE #middle-spots-wrap.brand ul li a{ zoom:1; background: url('/images/transparency.gif') repeat; }
+
+#middle-spots-wrap.brand ul li span.gender { float:left; color:#FFF; text-align:center; height:100%; font-weight:bold; font-size:42px; padding-top:90px; text-shadow: 0px 0px 10px rgba(150, 150, 150, 1); }
+
+.thisIsIE #middle-spots-wrap.brand ul li .overlay { display:none; background: url('/images/overlay-brand.png') no-repeat -3px 0; width:420px; height:230px; position:absolute; }
+#middle-spots-wrap.brand ul li .overlay { display:none; background: url('/images/overlay-brand.png') no-repeat -3px 0; width:420px; height:230px; position:absolute; }
+#middle-spots-wrap.brand ul li.left .overlay {  }
+#middle-spots-wrap.brand ul li.right .overlay { background-position: 0 -230px; }
+
+#middle-spots-wrap.brand ul li .overlay .shop-now { font-size:56px; color:#FFF; font-weight: bold; display:block; position: relative; top:80px; padding:0; text-shadow: 0px 0px 10px rgba(150, 150, 150, 1); }
+#middle-spots-wrap.brand ul li.left .overlay .shop-now { left:35px; }
+#middle-spots-wrap.brand ul li.right .overlay .shop-now { left:55px; }
+
+#middle-spots-wrap.brand ul li span.spot-title{ display:block; position:absolute; bottom:10px; font-weight:bold; font-size:14px; }
+#middle-spots-wrap.brand ul li.left span.spot-title{  }
+#middle-spots-wrap.brand ul li.right span.spot-title{ left: -30px; }
+
+#features-spots { position:relative; display:block; width:768px; height:540px; }
+#features-spots ul#features { position:absolute; display:block; top:0; left:0; width:768px; height:540px; overflow:hidden; }
+
+#features-spots ul#features li { position:absolute; display:block; width:232px; height:168px; }
+#features-spots ul#features li.top-left { top:0; left:0; background:url('/lib/hlight/new-era/images/new-era-feature-1.jpg') no-repeat 0 0; }
+#features-spots ul#features li.bottom-left { bottom:0; left:0; height:374px; background:url('/lib/hlight/new-era/images/new-era-feature-2.jpg') no-repeat 0 0; }
+#features-spots ul#features li.top-middle { top:0; left:233px; width:268px; height:325px; background:url('/lib/hlight/new-era/images/new-era-feature-3.jpg') no-repeat 0 0; }
+#features-spots ul#features li.top-right { top:0; right:0; width:268px; height:325px; background:url('/lib/hlight/new-era/images/new-era-feature-4.jpg') no-repeat 0 0; }
+#features-spots ul#features li.bottom { bottom:0; left:233px; width:535px; height:217px; background:url('/lib/hlight/new-era/images/new-era-feature-5.jpg') no-repeat 0 0; }
+
+#features-spots ul#features li div.fader { position:absolute; display:none; width:154px; height:154px; background:url('/lib/hlight/new-era/images/white-circle.png') no-repeat center center; } 
+#features-spots ul#features li div.fader-bg { position:absolute; display:none; top:0; left:0; width:100%; height:100%; background:url('/lib/hlight/new-era/images/new-era-50-black.png') repeat 0 0; }
+
+#features-spots ul#features li.top-left div.fader { top:6px; left:38px; }
+#features-spots ul#features li.bottom-left div.fader { top:108px; left:38px; }
+#features-spots ul#features li.top-middle div.fader { top:82px; left:55px; }
+#features-spots ul#features li.top-right div.fader { top:82px; left:58px; }
+#features-spots ul#features li.bottom div.fader { top:31px; left:190px; }
+
+#features-spots ul#features li div.fader span { display:block; width:100%; text-align:center; margin-top:40px; font-size:16px; font-weight:bold; letter-spacing:-0.075em; }
+#features-spots ul#features li div.fader p { display:block; width:100%; text-align:center; margin-bottom:12px; font-size:16px; letter-spacing:-0.075em; }
+#features-spots ul#features li div.fader div { width:80%; margin:0 auto; height:1px; background:#CCC; margin-bottom:8px; } 
+#features-spots ul#features li div.fader p.zoom { display:block; width:100%; text-align:center; font-size:12px; text-transform:uppercase; }
+
+#features-spots ul#new-era-hero-shots { position:absolute; display:block; top:0; left:0; width:5376px; height:540px; overflow:hidden; }
+#features-spots ul#new-era-hero-shots li { position:relative; float:left; display:inline-block; }
+
+#features-spots div.controls { position:absolute; top:10px; left:10px; width:50px; height:30px; display:none; z-index:1; } 
+#features-spots div.controls span.back-btn { float:left; width:25px; height:30px; display:block; background:url('/lib/hlight/new-era/images/controls-x.png') no-repeat 0 0; }
+#features-spots div.controls span.forward-btn { float:left; width:25px; height:30px; display:block; background:url('/lib/hlight/new-era/images/controls-x.png') no-repeat -20px 0; }
+#features-spots span.close { position:absolute; display:none; left:727px; top:12px; width:30px; height:30px; background:url('/lib/hlight/new-era/images/close-btn.png') no-repeat 0 0; z-index:1; }
+
+#features-spots ul#new-era-hero-shots li div.new-era-details a { text-decoration:none; } 
+#features-spots ul#new-era-hero-shots li div.new-era-details a:hover { text-decoration:underline; } 
+#features-spots ul#new-era-hero-shots li div.new-era-details { position:absolute; display:block; top:137.5px; left:251.5px; width:265px; height:245px; padding-top:20px; z-index:1; background:url('/lib/hlight/new-era/images/white-circle-large.png') no-repeat center center; }
+#features-spots ul#new-era-hero-shots li div.new-era-details span { display:block; width:100%; text-align:center; font-size:16px; font-weight:bold; letter-spacing:-0.075em; }
+#features-spots ul#new-era-hero-shots li div.new-era-details p { display:block; width:100%; text-align:center; font-size:16px; letter-spacing:-0.075em; }
+#features-spots ul#new-era-hero-shots li div.new-era-details div { width:60%; margin:0 auto; height:1px; background:#CCC; margin-bottom:8px; } 
+#features-spots ul#new-era-hero-shots li div.new-era-details p.close { display:block; width:100%; text-align:center; font-size:12px; text-transform:uppercase; }
+
+
+
+
+
+
+
+
+
+
+#recommended { background:#000; }
+#recommended span.recommendedheading { font-size:14px; font-weight:bold; display:block; margin:0 0 5px 195px; color:#FFF; }
+#recommended ul { width:768px; margin-left:196px; }
+#recommended ul li { width:180px; float:left; margin-right:16px; }
+#recommended ul li.last { margin-right:0; }
+#recommended ul li a { display:block; width:180px; text-decoration: none; }
+
+.recommended-thumb { width:100%; height:180px; display:table; text-align:center; }
+.thumbalign { display:table-cell; vertical-align:middle; background:#FFF;}
+#recommended ul li img { display:block; max-height:180px; width:auto; }
+
+.recommended-description { width:172px; padding:10px 0; height:70px;  position: relative; text-align:left; }
+/*.latestandgreatest-description-inner{ width:182px; padding:10px; display:table-cell; vertical-align:top; }*/
+.recommended-description span { font-size: 12px; font-weight: normal; color:#FFF; }
+.recommended-description span.brand { font-size:13px; font-weight:bold; }
+.recommended-description span.product {  }
+.recommended-description span.price { display:block; position:absolute; bottom:10px; font-size:18px;  }
+.recommended ul li a:hover .latestandgreatest-description { background:#444; }
+.recommended ul li a:hover .latestandgreatest-description span { color:#FFF; }
+
+#blurb { }
+#blurb h2 { font-weight:normal; font-size:24px; color:#000; background:none; text-indent:0; }
+#blurb span { display:block; height:1px; margin-top:5px; background:#333; }
+#blurb p { font-size:12px; margin:15px 0 0; color:#000; }
+
+/* --- NEW ERA --- */
+#player { cursor:pointer; }
+
+.only-at-JD { float:left; margin-right:10px; }
+.online-sale { text-transform:uppercase; font-weight:bold; font-style:italic; vertical-align:top; font-size:44px; line-height:44px; }
+.coming-soon { text-transform:uppercase; font-weight:bold; text-align:center; margin-top:10px !important; } 
+
+#new-era-timer ul { position:relative; left:227px; width:300px; margin-top:-10px; }
+#new-era-timer ul li { float:left; display:inline-block; text-transform:uppercase; font-weight:bold; margin-right:40px; }
+.disclaimer { font-size:10px; margin-top:30px; display:block; }
+
+#top-half { width:976px; margin:0 auto; padding:20px 10px 0; text-align:left; }
+#bottom-half { width:976px; margin:0 auto 30px; text-align:left; }
+.rule { height:1px; background-color:#CCC; }
+.cap-top-row, .cap-bottom-row { float:left; }
+.cap-desc { width:225px; margin-right:75px; float:left; }
+.cap { width:310px; float:left; }
+.cap span { text-transform:uppercase; font-size:18px; } 
+.cap span p { font-size:32px; }
+.cap img { margin-right:10px; float:left; } 
+.cap-image { -webkit-transition: margin 0.5s ease-out; -moz-transition: margin 0.5s ease-out; -o-transition: margin 0.5s ease-out; }
+.cap-image:hover { margin-top: -3px; }
+.cap span:hover { text-decoration:underline; }
+
+.cap-tables { float:left; width:458px; margin-right:60px; text-align:center; }
+.last { margin-right:0; }
+.cap-tables span { text-transform:uppercase; font-weight:bold; font-style:italic; font-size:15px; margin-bottom:10px; }
+
+.size-table { margin:10px 0; padding:0px; width:100%; border:1px solid #DDD; }
+.size-table table { width:100%; height:100%; margin:0px; padding:0px; }
+.size-table tr:nth-child(odd) { background-color:#DDD; }
+.size-table tr:nth-child(even) { background-color:#FFF; }
+.size-table td { width:50%; vertical-align:middle; border:1px solid #DDD; border-width:0px 1px 1px 0px; text-align:center; padding:7px; font-size:10px; color:#000; text-transform:uppercase; font-size:10px; }
+.size-table tr:last-child td { border-width:0px 1px 0px 0px; }
+.size-table tr td:last-child { border-width:0px 0px 1px 0px; }
+.size-table tr:last-child td:last-child { border-width:0px 0px 0px 0px; }
+.size-table tr:first-child td { background-color:#DDD; border:0px solid #DDD; text-align:center; border-width:0px 0px 1px 1px; font-size:14px; font-weight:bold; color:#000; }
+.size-table tr:first-child td:first-child { border-width:0px 0px 1px 0px; font-size:10px; }
+.size-table tr:first-child td:last-child { border-width:0px 0px 1px 1px; font-size:10px; }
+
+/* --- COUNTDOWN STYLES --- */
+.countdownHolder { position:relative; left:220px; bottom:10px; width:350px; font-size:25px; text-align:left; letter-spacing:-6px; }
+.position { display: inline-block; height: 1.6em; overflow: hidden; position: relative; width: 1.05em; }
+.digit { position:absolute; display:block; width:1em; background-color:#444; border-radius:0.2em; text-align:center; color:#fff; letter-spacing:-1px; }
+.digit.static { box-shadow:1px 1px 1px rgba(4, 4, 4, 0.35); background-image: linear-gradient(bottom, #3A3A3A 50%, #444444 50%); background-image: -o-linear-gradient(bottom, #3A3A3A 50%, #444444 50%); background-image: -moz-linear-gradient(bottom, #3A3A3A 50%, #444444 50%); background-image: -webkit-linear-gradient(bottom, #3A3A3A 50%, #444444 50%); background-image: -ms-linear-gradient(bottom, #3A3A3A 50%, #444444 50%); background-image: -webkit-gradient(linear, left bottom, left top, color-stop(0.5, #3A3A3A), color-stop(0.5, #444444)); }
+
+/* You can use these classes to hide parts of the countdown that you don't need. */
+.countDays { /* display:none !important;*/ }
+.countDiv0 { /* display:none !important;*/ }
+.countHours { /* display:none !important;*/ }
+.countDiv1 { /* display:none !important;*/ }
+.countMinutes { /* display:none !important;*/ }
+.countDiv2 { /* display:none !important;*/ }
+.countSeconds { /* display:none !important;*/ }
+
+.countDiv { display:inline-block; width:16px; height:1.77em; position:relative; }
+.countDiv:before, .countDiv:after { color:#000; position:absolute; width:5px; height:5px; background-color:#000; border-radius:50%; left:50%; margin-left:-3px; top:0.5em; box-shadow:1px 1px 1px rgba(4, 4, 4, 0.5); content:''; }
+.countDiv:after { top:0.9em; }
+
+/* --- INPUT ELEMENTS ROUNDED CORNER RADIUS FIX FOR iOS DEVICES --- */
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 480px) {  
+	#header #search input { -webkit-appearance:none; -webkit-border-radius:0; border-radius:0; height:36px; line-height:36px; }
+	#socialBar #newsletter-form form input { -webkit-appearance:none; -webkit-border-radius:0; border-radius:0; height:27px; line-height:27px; }
+}
+
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 568px) { 
+	#header #search input { -webkit-appearance:none; -webkit-border-radius:0; border-radius:0; height:36px; line-height:36px; }
+	#socialBar #newsletter-form form input { -webkit-appearance:none; -webkit-border-radius:0; border-radius:0; height:27px; line-height:27px; }
+}
+
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px)  {
+	#header #search input { -webkit-appearance:none; -webkit-border-radius:0; border-radius:0; height:36px; line-height:36px; }
+	#socialBar #newsletter-form form input { -webkit-appearance:none; -webkit-border-radius:0; height:27px; line-height:27px; }
+}
