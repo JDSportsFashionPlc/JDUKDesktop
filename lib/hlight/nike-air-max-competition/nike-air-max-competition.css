@@ -1,0 +1,811 @@
+/***
+
+ * --- --- --- --- ---
+ * JD Sports Fashion plc
+ * IBM WebSphere Commerce Platform
+ * Timi Abel
+ * --- --- --- --- ---
+ * #TEMPLATEHIGHLIGHT
+ * --- --- --- --- ---
+
+***/
+
+/*
+REWRITES OF JD
+*/
+
+.contentContainer {
+    width: 100% !important;
+    padding: 0px !important
+}
+.full-width-header {
+    z-index: 9999 !important
+}
+.full-width-footer {
+    position: relative;
+    z-index: 9000
+}
+/*
+GLOBALS
+*/
+
+.ruh {
+    width: 976px !important;
+    margin: 0 auto;
+    position: relative !important
+}
+.left {
+    float: left
+}
+.right {
+    float: right
+}
+.hide {
+    display: none
+}
+.clear {
+    clear: both
+}
+.last {
+    margin-right: 0 !important
+}
+.caps {
+    text-transform: uppercase
+}
+.center {
+    text-align: center
+}
+.halfcircle {
+    border-radius: 27px
+}
+.caps {
+    text-transform: uppercase
+}
+.fullwidth {
+    width: 100%
+}
+#newbalance {
+    position: relative;
+    min-width: 1012px;
+    -webkit-font-smoothing: antialiased;
+}
+.logos {
+    position: absolute;
+    top: 40px;
+    left: 17%;
+    border-bottom: 0;
+    /*border-bottom: 1px solid #fff;*/
+    width: 66%;
+    padding-bottom: 20px;
+    z-index: 999;
+}
+.logo-holder {
+    float: left;
+    width: 26%;
+}
+.logo-holder img {
+    max-width: 100%
+}
+/* .links {float: right;
+margin-top: 5%;
+width: 73%;}*/
+
+.links {
+    float: none;
+    margin-top: 0;
+    text-align: center;
+    max-width: 100%;
+    display: block;
+    position: relative;
+    height: 30px;
+    margin: 0 8% !important;
+    clear: both;
+}
+.links span {
+    /*padding: 0 5%;*/
+    padding: 0;
+    width: 33.33% !important;
+    position: relative;
+    /*height: 40px;*/
+    display: block;
+    float: left;
+}
+.links a {
+    text-decoration: none;
+    font-family: 'Gotham A', 'Gotham B';
+    font-weight: 700;
+    font-style: normal;
+    color: #fff;
+    font-size: 24px;
+    /*display: block;*/
+}
+/* bxslider */
+
+.bx-wrapper {
+    position: relative;
+    padding: 0;
+    *zoom: 1;
+    min-width: 100%;
+}
+.bx-wrapper .bx-viewport {
+    border: 0;
+    left: 0;
+}
+.bx-wrapper img {
+    max-width: 100%;
+    display: block;
+    min-width: 100%;
+}
+.mid-section {
+    width: 100%;
+    background: #e5e5e5;
+    min-height: 598px;
+}
+.mid-holder {
+    max-width: 1012px;
+    margin: 0 auto;
+    margin-top: 40px;
+}
+.homee .mid-holder {
+    max-width: 1012px;
+    margin: 0 auto;
+    margin-top: 0;
+}
+.mid-section2 {
+    width: 100%;
+    background: #959595;
+    min-height: 487px;
+    color: #fff;
+}
+.mid-holder2 {
+    max-width: 1012px;
+    margin: 0 auto;
+    padding-top: 65px;
+    font-family: 'Gotham A', 'Gotham B';
+    font-weight: 700;
+    font-style: normal;
+}
+.mid-section3 {
+    max-width: 1012px;
+    margin: 0 auto;
+    background: #fff;
+    min-height: 487px;
+    color: #fff;
+}
+.mid-section4 {
+    width: 100%;
+    background: #fff;
+    min-height: 598px;
+}
+.text-left {
+    width: 481px;
+    float: left;
+    margin-right: 39px;
+}
+.text-right {
+    width: 490px;
+    float: left;
+}
+.mid-holder2 h2 {
+    font-size: 34px;
+    width: 100%;
+    clear: both;
+}
+.text-left p {
+    font-size: 18px;
+    width: 100%
+}
+.text-right p {
+    font-size: 18px;
+}
+.iform {
+    font: 12px/26px Verdana, Geneva, sans-serif;
+    /*width:400px;*/
+    margin: 0 auto;
+}
+.iform ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.iform ul ul {
+    overflow: auto
+}
+.iform li {
+    padding-bottom: 5px;
+    float: left;
+}
+.iform label {
+    /*width:80%; */
+    display: block;
+    float: left;
+    line-height: 26px;
+    /*clear: both;*/
+    float: left;
+    font-size: 24px;
+    color: #6a6a6a;
+}
+.iform label.ilabel {
+    width: auto;
+    display: inline;
+    float: none;
+    line-height: 26px;
+    padding: 0 5px;
+}
+.iform label span {
+    color: rgb(252, 5, 5);
+    font-size: 11px;
+    margin-top: -5px;
+    position: relative;
+    float: right;
+}
+.iform .itext,
+.iform .itextarea,
+.iform .iselect,
+.iform .ibutton {
+    width: 200px;
+    border: none;
+    
+    margin: 11px 0 0 0;
+    padding: 0 5px;
+    background: #ffffff;
+    /*clear: both;*/
+    float: left;
+    height: 54px;
+    font-size: 24px;
+}
+.iform .itext:hover,
+.iform .itextarea:hover,
+.iform .iselect:hover,
+.iform .ibutton:hover,
+.iform .itext:focus,
+.iform .itextarea:focus,
+.iform .iselect:focus,
+.iform .ibutton:focus {
+    border-color: #333;
+    background: #fff;
+}
+.iform .itext {} .iform .itextarea {
+    height: 70px;
+    width: 250px;
+}
+.iform .ibutton {
+    width: 166px;
+    background: #000000;
+    color: #fff;
+    float: left;
+    margin-top: 50px;
+    font-size: 24px;
+    text-transform: uppercase;
+    font-family: 'Gotham A', 'Gotham B';
+    font-weight: 700;
+    font-style: normal;
+    cursor: pointer;
+}
+.iform .ibutton:hover,
+.iform .ibutton:focus {
+    background: #dadada;
+}
+.iform li.iheader {
+    display: block;
+    font-size: 18px;
+    border: none;
+    padding: 0;
+    text-indent: 0;
+    margin: 5px 0 15px
+}
+.iform li.iseparator {
+    display: block;
+    text-indent: -9999px;
+    height: 10px;
+    line-height: 10px;
+    border-bottom: 1px solid #999;
+    margin: 5px 0 15px
+}
+.left-col {
+    float: left;
+    display: block;
+    margin-right: 60px;
+    margin-top: 86px;
+    width: 453px;
+}
+.right-col {
+    float: right;
+    display: block;
+    margin-top: 87px;
+    width: 494px;
+}
+.fname,
+.sname {
+    width: 231px !important;
+}
+.fname {
+    clear: left;
+}
+.floater {
+    width: 243px;
+    margin-bottom: 19px;
+    margin-right: 6px;
+}
+.last {
+    width: 243px;
+    margin-right: 0;
+}
+
+.genders {
+    width: 180px !important;
+}
+.dob {
+    width: 180px !important;
+}
+
+.icheck{
+	margin-left:-20px;
+}
+.names {
+    width: 480px !important;
+}
+
+.blog {
+    width: 480px !important;
+	margin-left:35px;
+}
+.mails {
+    width: 480px !important;
+	margin-left:27px;
+}
+.date {
+    width: 88px !important;
+    margin-right: 6px !important;
+}
+.dater {
+    float: left;
+    width: 316px;
+    margin-top: 13px;
+}
+.shoe-links {
+    position: absolute;
+    width: 64%;
+    height: 77%;
+    bottom: 27px;
+    left: 18%;
+}
+.first-link,
+.second-link,
+.third-link,
+.fourth-link,
+.fifth-link {
+    position: relative;
+    height: 100%;
+    bottom: 0;
+    display: block;
+    width: 22%;
+    float: left;
+    margin: 0 5%;
+}
+/*.second-link {position: absolute; height: 80%; bottom: 0; display: block;width: 10%;}
+.third-link {position: absolute; height: 80%; bottom: 0; display: block;width: 10%;}
+.fourth-link {position: absolute; height: 80%; bottom: 0; display: block;width: 10%;}
+.fifth-link {position: absolute; height: 80%; bottom: 0; display: block;width: 10%;}*/
+
+.desc {
+    position: absolute;
+    margin-top: 37%;
+}
+.des-text {
+    margin-left: 30px;
+    display: block;
+    clear: both;
+    float: left;
+    position: relative;
+    width: auto;
+    text-align: left;
+    color: #fff;
+    line-height: 27px;
+    font-size: 18px;
+    margin-bottom: 24px;
+}
+.desc .links {
+    margin-left: 30px;
+    display: block;
+    clear: both;
+    float: left;
+    position: relative;
+    width: auto;
+    text-align: left;
+}
+a.gender-links {
+    text-decoration: none;
+    font-family: 'Gotham A', 'Gotham B';
+    font-weight: 800;
+    font-size: 23px;
+    color: #fff;
+    margin-right: 11px;
+}
+/*
+RESPONSIVE
+*/
+
+@media screen and (max-width: 1600px) {
+    .logos {
+        top: 0;
+        height: auto;
+    }
+}
+@media screen and (max-width: 1475px) {
+    .links {
+        /*float: right; margin-top: 73px; width: 500px;*/
+    }
+    .links a {
+        /*padding: 0 25px; */
+        font-size: 24px;
+    }
+    .desc {
+        position: absolute;
+        margin-top: 36%;
+    }
+    .des-text {
+        margin-left: 30px;
+        font-size: 14px;
+        line-height: 23px;
+    }
+    .desc .links {
+        margin-left: 30px;
+    }
+    a.gender-links {
+        font-size: 19px;
+        color: #fff;
+        margin-right: 7px;
+    }
+}
+@media screen and (max-width: 1024px) {
+    .desc {
+        position: absolute;
+        margin-top: 36%;
+    }
+    .des-text {
+        margin-left: 30px;
+        font-size: 12px;
+        line-height: 20px;
+    }
+    .desc .links {
+        margin-left: 30px;
+    }
+    a.gender-links {
+        font-size: 19px;
+        color: #fff;
+        margin-right: 7px;
+    }
+}
+@media screen and (max-width: 800px) {
+    .desc {
+        position: absolute;
+        margin-top: 36%;
+    }
+    .des-text {
+        margin-left: 30px;
+        font-size: 12px;
+        line-height: 20px;
+    }
+    .desc .links {
+        margin-left: 30px;
+    }
+    a.gender-links {
+        font-size: 19px;
+        color: #fff;
+        margin-right: 7px;
+    }
+}
+.links a.active {
+    /*padding: 0 25px;*/
+    font-size: 24px;
+    border-bottom: 5px solid;
+    padding-bottom: 22px;
+    display: block;
+}
+.head-image {
+    position: relative;
+    display: block;
+    clear: both;
+    width: 100%
+}
+.head-image img {
+    display: block;
+    width: 100%
+}
+.bx-wrapper .bx-viewport {
+    background: url('/lib/hlight/new-balance-v2/images/shoe-background.jpg') no-repeat top center;
+    -webkit-background-size: cover !important;
+    -moz-background-size: cover !important;
+    -o-background-size: cover !important;
+    background-size: cover !important;
+    padding: 0;
+    margin: 0;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+.intro {
+    font-weight: 100;
+    font-size: 34px;
+    color: #737373;
+    margin-bottom: 23px;
+    float: left;
+}
+.blue-text {
+    color: #00cff0
+}
+.divider {
+    width: 100%;
+    position: relative;
+    height: 30px;
+}
+.divider img {
+    width: 100%;
+    display: block;
+}
+/*.gender-holder {
+    width: 100%;
+    position: absolute;
+    margin: 0 auto;
+    z-index: 9;
+    height: 13%;
+}
+.gender {
+    position: absolute;
+    top: 40%;
+    z-index: 99;
+    right: 21%;
+    color: #fff;
+}
+.gender a {
+    font-size: 36px;
+    color: #cacaca;
+    text-decoration: none;
+    font-family: 'Gotham A', 'Gotham B';
+    font-weight: 100;
+}
+.gender span {
+    text-decoration: none;
+    font-family: 'Gotham A', 'Gotham B';
+    font-weight: 100;
+    font-size: 36px;
+    color: #00cef1;*/
+}
+.inner-logos {
+    border: none;
+}
+.inner-links {
+    float: right;
+    padding: 20px 0;
+    text-align: center;
+    width: 70%;
+    display: block;
+    position: relative;
+    border-bottom: 1px solid #fff;
+    height: 31px;
+    margin-top: 57px;
+}
+.logo-holder {
+    bottom: 0;
+    position: absolute;
+}
+.inner-left,
+.inner-right {
+    float: left;
+    width: 50%;
+    height: auto;
+}
+.inner-left img,
+.inner-right img {
+    width: 100%;
+    display: block;
+}
+/*carousel style starts*/
+
+.wrap {
+    position: relative;
+    margin: 3em 0;
+}
+/* Frame */
+
+.frame {
+    height: 278px;
+    /*line-height: 490px;*/
+    overflow: hidden;
+}
+.frame ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-size: 50px;
+}
+.frame ul li {
+    float: left;
+    width: 185px;
+    height: 100%;
+    margin: 0 1px 0 0;
+    padding: 0;
+    background: #fff;
+    color: #ddd;
+    text-align: center;
+    cursor: pointer;
+    /*opacity: 1;*/
+}
+.frame ul li a {
+    position: relative;
+    display: block;
+    height: 273px;
+}
+.frame ul li.active {
+    color: #fff;
+    background: #fff;
+    /*opacity: 1;*/
+}
+/*.frame ul li:hover{opacity: 1;}*/
+
+/* Scrollbar */
+
+.scrollbar,
+.scrollbar2 {
+    margin: 40px 0 1em 0;
+    height: 2px;
+    background: #ccc;
+    line-height: 0;
+    width: 100%;
+    position: relative;
+}
+.scrollbar .handle,
+.scrollbar2 .handle {
+    width: 100%;
+    height: 6px;
+    margin-top: -2px;
+    background: #c2c2c2;
+    cursor: pointer;
+    position: absolute;
+}
+.scrollbar .handle .mousearea,
+.scrollbar2 .handle .mousearea {
+    position: absolute;
+    top: -2px;
+    left: 0;
+    width: 100%;
+    height: 6px;
+}
+.bx-wrapper .bx-prev,
+.bx-wrapper .bx-next {
+    background: none;
+}
+.bx-wrapper .bx-next {
+    right: 14%;
+}
+.bx-wrapper .bx-prev {
+    left: 14%;
+}
+/*.mysec, .mysec1 .bx-controls {display: none;}*/
+
+li.shoe a img {
+    margin-top: 45px;
+    /*transform*/
+    -webkit-transform: rotate(270deg);
+    -moz-transform: rotate(270deg);
+    -ms-transform: rotate(270deg);
+    -o-transform: rotate(270deg);
+    transform: rotate(270deg);
+}
+.iform,
+.homecoll {
+    display: none;
+}
+/*terms and conditions style starts here*/
+
+.footsy {
+    width: 100%;
+    background: #e5e5e5;
+    padding: 30px 0;
+    margin: 0;
+}
+.footsy span {
+    color: #000;
+    font-size: 12px;
+    text-decoration: none;
+    cursor: pointer;
+}
+#modal_open {
+    cursor: pointer;
+}
+/*
+  Modal Overlay
+*/
+
+.modal-overlay {
+    background: rgba(0, 0, 0, 0.8);
+    height: 100%;
+    left: 0;
+    display: flex;
+    overflow: auto;
+    padding: 1.5em;
+    position: fixed;
+    top: 0;
+    transition: opacity .2s;
+    width: 100%;
+    z-index: -1;
+}
+.modal-overlay[aria-hidden="true"] {
+    opacity: 0;
+    visibility: hidden;
+}
+.modal-overlay[aria-hidden="false"] {
+    opacity: 1;
+    visibility: visible;
+    z-index: 9999999;
+}
+/*
+  Modal Content Area
+*/
+
+.modal-content {
+    background: #efefef;
+    margin: auto;
+    max-width: 800px;
+    overflow: auto;
+    overflow-x: hidden;
+    padding: 1.5em;
+    position: relative;
+    transform: scale(0.8);
+    transition: transform .3s;
+    width: 100%;
+}
+.modal-overlay[aria-hidden="false"] .modal-content {
+    transform: scale(1);
+}
+/*
+  General Modal Content
+*/
+
+#modal-title {
+    margin-top: 0;
+    padding-right: 1.25em;
+}
+/*
+  Close Modal Button
+*/
+
+.btn-close {
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-family: arial;
+    font-size: 2em;
+    font-weight: 800;
+    line-height: 19px;
+    padding: 0;
+    position: absolute;
+    right: .25em;
+    top: -53px;
+    z-index: 2;
+}
+.btn-close:hover {
+    color: #fff;
+}
+.btn-close:focus {
+    outline: 1px dotted;
+}
+#termm {
+    display: none;
+    margin-top: 36px;
+    position: relative;
+    border-top: 1px solid #A5A5A5;
+    padding-top: 45px;
+}
+.footsy .mid-holder2 {
+    padding-top: 0
+}
+.terrm {
+    clear: both;
+    width: 1009px;
+    text-align: right;
+    margin: 0 auto;
+    padding: 20px;
+    font-size: 11px;
+}
