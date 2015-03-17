@@ -1,14 +1,9 @@
 
-<<<<<<< HEAD
-body {	overflow-x: hidden; }
+body {  overflow-x: hidden; }
 
 #delivery-page, #delivery-page2, #delivery-page a, #delivery-page2 a, #delivery-page p, #delivery-page2 p {
     font-family: 'Gotham A', 'Gotham B', sans-serif !important;
 }
-=======
-body {	overflow-x: hidden;}
-
->>>>>>> dc1ad65f88d87f12afab44c3f28e23b7b674088e
 input, textarea, select, a { outline: none; }
 /* #delivery-banner{ display:none; } */
 .contentContainer{ margin-top:10px; /*30px*/; position: relative; }
@@ -45,17 +40,10 @@ border-radius: 6px;}
 #delivery-dates2 .right span.box {position:relative;top:11px;font-size:15px;}
 
 
-<<<<<<< HEAD
 #delivery-page, #delivery-page p{ /*font: normal normal normal 12px/175% Helvetica, Arial, sans-serif;*/ color:#333; }
 #delivery-page p{ margin:0; padding:0; }
 
 #delivery-page2, #delivery-page2 p{ /*font: normal normal normal 12px/175% Helvetica, Arial, sans-serif;*/ color:#333; }
-=======
-#delivery-page, #delivery-page p{ font: normal normal normal 12px/175% Helvetica, Arial, sans-serif; color:#333; }
-#delivery-page p{ margin:0; padding:0; }
-
-#delivery-page2, #delivery-page2 p{ font: normal normal normal 12px/175% Helvetica, Arial, sans-serif; color:#333; }
->>>>>>> dc1ad65f88d87f12afab44c3f28e23b7b674088e
 #delivery-page2 p{ margin:0; padding:0; }
 
 strong{ font-weight: bold; }
@@ -152,9 +140,9 @@ p.international-delivery{ width:100%; padding: 15px 0 !important; }
 .country-panel ul li{ width: 110px; float: left; font-size: 12px; }
 .country-panel span{ font-size: 12px; font-weight: bold; }
 
-.arrow-right { width: 0; height: 0; border-top: 10px solid transparent;	border-bottom: 10px solid transparent; border-left: 10px solid #EEE; border-left-color: #EEE; border-left-color: rgba(238,238,238,0.85); position: absolute; top: 70px; right: -10px; }
+.arrow-right { width: 0; height: 0; border-top: 10px solid transparent; border-bottom: 10px solid transparent; border-left: 10px solid #EEE; border-left-color: #EEE; border-left-color: rgba(238,238,238,0.85); position: absolute; top: 70px; right: -10px; }
 
-.arrow-left { width: 0; height: 0; border-top: 10px solid transparent;	border-bottom: 10px solid transparent; border-right: 10px solid #EEE; border-left-color: #EEE; border-left-color: rgba(238,238,238,0.85); position: absolute; top: 70px; left: -10px; }
+.arrow-left { width: 0; height: 0; border-top: 10px solid transparent;  border-bottom: 10px solid transparent; border-right: 10px solid #EEE; border-left-color: #EEE; border-left-color: rgba(238,238,238,0.85); position: absolute; top: 70px; left: -10px; }
 
 
 
@@ -196,19 +184,19 @@ span.store-info{ line-height: 8px; }
 
 /*
 *
-*	MEDIA QUERIES !WOO!
+*   MEDIA QUERIES !WOO!
 *
 */
 /*
 @media only screen and (max-width : 480px)
 {
-	ul#primaryNavigation{ display: none; }
-	.contentContainer{ width: 90%; margin: 0 auto; }
-	h1.delivery-page{ line-height: 100%; }
-	ul#key-messages li{ width: 100%; }
-	ul#key-messages li.middle-child-syndrome{ margin: 0; }
-	#header select{ position: absolute; top: 50px; left:50px; }
-	
+    ul#primaryNavigation{ display: none; }
+    .contentContainer{ width: 90%; margin: 0 auto; }
+    h1.delivery-page{ line-height: 100%; }
+    ul#key-messages li{ width: 100%; }
+    ul#key-messages li.middle-child-syndrome{ margin: 0; }
+    #header select{ position: absolute; top: 50px; left:50px; }
+    
 }
 */
 
@@ -289,11 +277,7 @@ display: none;
 
 
 .gotham {
-<<<<<<< HEAD
     font-family: 'Gotham A', 'Gotham B', sans-serif !important;
-=======
-    font-family: "Gotham A","Gotham B";
->>>>>>> dc1ad65f88d87f12afab44c3f28e23b7b674088e
     font-style: normal;
     font-weight: 400;
 }
@@ -303,7 +287,6 @@ display: none;
     font-weight: 800;
 }
 tab { padding-left: 25em; }
-<<<<<<< HEAD
 
 
 ul#key-messages li, ul#key-messages2 li{ width: 432px; padding-top:20px; float:left; position:relative; margin-right: 80px !important;}
@@ -370,9 +353,7 @@ text-transform: capitalize;
     font-weight: 500;
 }
 
-
-.mySubtitle {
-clear: both;
+.mySubtitle {clear: both;
 float: left;
 width: 100%;
 font-size: 18px;
@@ -381,11 +362,10 @@ margin-bottom: 13px;
 }
 
 span.delivery-details {
-    color: #555;
-    font-size: 13px;
+color: #555;
+font-size: 13px;
 line-height: 20px;
-font-weight: 300;
-}
+font-weight: 400}
 ul#key-messages li, ul#key-messages2 li { 
 margin-bottom: 30px;
 }
@@ -515,5 +495,3 @@ width: 100%;
 }
 
 
-=======
->>>>>>> dc1ad65f88d87f12afab44c3f28e23b7b674088e
