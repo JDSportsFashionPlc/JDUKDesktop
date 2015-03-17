@@ -361,11 +361,7 @@ font-weight: 500;
 margin-bottom: 13px;
 }
 
-span.delivery-details {
-color: #555;
-font-size: 13px;
-line-height: 20px;
-font-weight: 400}
+span.delivery-details {color: #555;font-size: 13px;line-height: 20px;font-weight: 500}
 ul#key-messages li, ul#key-messages2 li { 
 margin-bottom: 30px;
 }

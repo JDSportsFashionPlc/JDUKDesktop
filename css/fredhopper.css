@@ -799,6 +799,32 @@ div#plpBanner.generic_image_with_single div#plpBannerText a#plpBannerLink1{backg
 div#plpBanner.generic_image_with_single div#plpBannerText a#plpBannerLink2{background: #FFFC00;color: #030300;display:block;font-weight:bold;height: 35px;line-height:35px;padding:0 1px;position:absolute;text-align:center;text-decoration:none;text-transform:uppercase;width: 188px;bottom: 42px;left: 418px;font-family:"Gotham A", "Gotham B", sans-serif !important;overflow: hidden;}
  
  
+
+
+/*
+===
+PUMA SEO BANNER WHITE TEXT GENERIC IMAGE GOLD WITH LINKS SEO AND LINKS
+WIDER 3RD BUTTON
+===
+*/
+
+.generic_image_with_links_puma{position:relative;width:768px;height: 290px;background: #88704C;margin-bottom:15px}
+.generic_image_with_links_puma h2{font-family:'Gotham A', 'Gotham B', sans-serif !important;font-size:31px;font-weight:700;top:0;left:30px;text-transform:uppercase;color:#fff;position:absolute}
+.generic_image_with_links_puma #plpBannerText p{font-family:Arial;font-size:11px;width:480px;top:60px;left:30px;text-transform:capitalize;color:#fff;position:absolute}
+div#plpBanner.generic_image_with_links_puma div#plpBannerText a#plpBannerLink1{background:#fff;color:#2e2e2e;display:block;font-weight:bold;height:35px;line-height:35px;padding:0 1px;position: absolute;text-align:center;text-decoration:none;text-transform:uppercase;width:195px;top: 235px;left:30px;font-family:"Gotham A", "Gotham B", sans-serif !important}
+div#plpBanner.generic_image_with_links_puma div#plpBannerText a#plpBannerLink2{background:#fff;color:#2e2e2e;display:block;font-weight:bold;height:35px;line-height:35px;padding:0 1px;position: absolute;text-align:center;text-decoration:none;text-transform:uppercase;width:195px;top: 235px;left:240px;font-family:"Gotham A", "Gotham B", sans-serif !important}
+div#plpBanner.generic_image_with_links_puma div#plpBannerText a#plpBannerLink3{background:#fff;color:#2e2e2e;display:block;font-weight:bold;height:35px;line-height:35px;padding:0 1px;position:absolute;text-align:center;text-decoration:none;text-transform:uppercase;width:242px;top: 235px;left:450px;font-family:"Gotham A", "Gotham B", sans-serif !important}
+div#plpBanner.generic_image_with_links_puma div#plpBannerText a#plpBannerLink4{ 
+display:none; } 
  
  
+/*
+* = = = = =
+* = = = = =
+MESH 2015 FredHopper Banners
+* = = = = =
+* = = = = =
+*/
+.newFH2015MeshBanner{width:940px;height:350px;position:relative}
+.newFH2015MeshBanner img{}
  
