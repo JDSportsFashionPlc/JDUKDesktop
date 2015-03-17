@@ -63,6 +63,7 @@ jQuery(function($) {
 	
 	
 	// RESPONSIVE TEMP
+	/*
 	var staging = window.location.hostname;
 	 
 	 if(staging=='cs-ext.jdsports.co.uk'){
@@ -75,6 +76,7 @@ jQuery(function($) {
 		// Category
 		jQuery('head').append($('<link rel="stylesheet" type="text/css" />').attr('href', '/css/responsive/category-responsive.css?v=' + Math.random()));		 
 	 }
+	 */
 	  
     // FREDHOPPER HS IS WAY BELOW AT THE BOTTOM
 
