@@ -814,8 +814,7 @@ WIDER 3RD BUTTON
 div#plpBanner.generic_image_with_links_puma div#plpBannerText a#plpBannerLink1{background:#fff;color:#2e2e2e;display:block;font-weight:bold;height:35px;line-height:35px;padding:0 1px;position: absolute;text-align:center;text-decoration:none;text-transform:uppercase;width:195px;top: 235px;left:30px;font-family:"Gotham A", "Gotham B", sans-serif !important}
 div#plpBanner.generic_image_with_links_puma div#plpBannerText a#plpBannerLink2{background:#fff;color:#2e2e2e;display:block;font-weight:bold;height:35px;line-height:35px;padding:0 1px;position: absolute;text-align:center;text-decoration:none;text-transform:uppercase;width:195px;top: 235px;left:240px;font-family:"Gotham A", "Gotham B", sans-serif !important}
 div#plpBanner.generic_image_with_links_puma div#plpBannerText a#plpBannerLink3{background:#fff;color:#2e2e2e;display:block;font-weight:bold;height:35px;line-height:35px;padding:0 1px;position:absolute;text-align:center;text-decoration:none;text-transform:uppercase;width:242px;top: 235px;left:450px;font-family:"Gotham A", "Gotham B", sans-serif !important}
-div#plpBanner.generic_image_with_links_puma div#plpBannerText a#plpBannerLink4{ 
-display:none; } 
+div#plpBanner.generic_image_with_links_puma div#plpBannerText a#plpBannerLink4{ display:none; } 
  
  
 /*
@@ -825,6 +824,5 @@ MESH 2015 FredHopper Banners
 * = = = = =
 * = = = = =
 */
-.newFH2015MeshBanner{width:940px;height:350px;position:relative}
-.newFH2015MeshBanner img{}
- 
+.newFH2015MeshBanner{width:100%;height:350px;position:relative}
+.newFH2015MeshBanner img{width:100%} 
