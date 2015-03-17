@@ -1,0 +1,71 @@
+/***
+
+ * --- --- --- --- ---
+ * JD Sports Fashion plc
+ * IBM WebSphere Commerce Platform
+ * Khaleel Mughal
+ * --- --- --- --- ---
+ * #FACEOFJD
+ * --- --- --- --- ---
+
+***/
+
+/*
+REWRITES OF JD
+*/
+.contentContainer{width:100% !important;padding:0px !important}
+.full-width-header{z-index:9999 !important}
+.clear{clear:both}
+.left{float:left}
+.right{float:right}
+.hide{display:none}
+a:hover{transition:ease-in .3s}
+.ruh{width:976px !important;margin:0 auto;position:relative !important}
+
+/*
+GLOBALS MAIN FRAME
+*/
+#faceofjd{position:relative;overflow:hidden;color:white;font-family:Helvetica, Arial, sans-serif;background:#000;width:100%;font-family:Helvetica, Arial, sans-serif}
+header{position:relative;z-index:5}
+.background{background:url(/lib/hlight/face-of-jd/assets/imgs/FOJD_header_image.jpg) no-repeat center;width:100%;height:483px}
+.background_landing_text{position:absolute;top:331px;left:117px;height:175px}
+.background_landing_text p{margin-top:7px}
+
+/*
+GIRLS AND BOYS
+*/
+.faceofjdskeleton{margin-top:15px;margin-bottom:15px;height:1055px}
+.wzone{width:481px;margin-top:3px}
+.winner{margin:7px 0 7px 11px;display:block;width:235px;height:235px;float:left;position:relative}
+.winner span{opacity:0;color:#fff02a;font-size:31px;font-weight:bold;text-transform:uppercase;letter-spacing:0.5;line-height:17px;position:absolute;top:115px;left:0;width:100%;text-align:center}
+.fix{margin-left:0px}
+
+/*
+HIGHLIGHT ZONE
+*/
+.video_small,.vsm1,.vsm2,.vsm3,.vsm4,.vsm5,.vsm6,.vsm7,.vsm8,.vsm9,.vsm10,.vsm11,.vsm12,.vsm13,.vsm14,.vsm15{width:481px;height:235px;margin-top:11px;position:relative}
+.highlight, .fullvideo{height:485px;margin-bottom:7px}
+.blue{background:#00afec;width:481px;height:233px}
+.blue_header{height:33px;margin:0 auto;width:445px;margin-top:11px;border-bottom:1px solid #fff}
+.blue_header span{font-size:31px;font-weight:bold;text-transform:uppercase;letter-spacing:0.5;line-height:31px;color:#fff}
+.blue_header a:hover{opacity:0.5}
+.big_winner{width:481px;height:481px;position:relative}
+.textarea{clear:both;width:335px;height:161px;margin-top:19px;font-size:14px;line-height:21px}
+.videobox{width:976px;height:481px;position:relative}
+.rightblock{width:115px;position:absolute;top:0;right:1px;text-align:center;background:#00AFEC}
+.rightblock span{border-bottom:1px solid #fff}
+.fontforce{font-family:"nimbus-sans-condensed",sans-serif;font-style:normal;font-weight:900}
+.pink{background:#eb008d;width:481px;height:233px}
+.pink_header{height:33px;margin:0 auto;width:445px;margin-top:11px;border-bottom:1px solid #fff}
+.pink_header span{font-size:31px;font-weight:bold;text-transform:uppercase;letter-spacing:0.5;line-height:31px;color:#fff}
+.pink_header a:hover{opacity:0.5}
+span.sn,.rightblock span,.blue_header span, .pink_header span{font-family:"nimbus-sans-condensed",sans-serif;font-style:normal;font-weight:900;letter-spacing:-0.9px}
+div.pink_header div.rightblock{background:#eb008d}
+span.sn{text-shadow:1px 1px #000}
+.contentspotsZone{width:100%;height:1000px;position:relative}
+.contentspotsZoneboy{position:absolute;height:1065px;width:481px;top:0;left:0;background:#000;opacity:0.8;z-index:10}
+.contentspotsZonegirl{position:absolute;height:1065px;width:481px;top:0;right:0;background:#000;opacity:0.8;z-index:10}
+
+@media screen and (max-width:1475px){}
+@media screen and (max-width:1200px){}
+@media screen and (max-width:1475px){}
