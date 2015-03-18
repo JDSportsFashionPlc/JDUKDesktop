@@ -15,10 +15,9 @@
 // 
 
 	// VARS
-
 	var apiURL 		= 'https://api.instagram.com/v1/tags/';
 	var username 	= 'jdsportsofficial';
-	var hashtag 		= 'crlifestyle';
+	var hashtag 	= 'crlifestyle';
 	var clientId 	= '5a79ddf3fa4147ffbea3fc0e38b22014';
 	var auth_token	= ''; // not needed for most
 	var instaList	= 'li'; // li, div, p etc
@@ -27,7 +26,6 @@
 	var instaHTML;
 	
 	// JQUERY
-
 	jQuery.ajax({
 		type: "GET",
 		dataType: "jsonp",
@@ -46,21 +44,19 @@
 					}
 				
 				// INSERT THE GALLERY
-				
+				// -- Append as needed
 					jQuery(divId).html(instaHTML);
 					
 			}
 		  
-		  	// AFTER -- Can do pretty things to dom..
-			// BXSLIDER API
+		  	// AFTER -- You can fire pretty things to the DOM... example bxSlider API
 			// -- This small chunk fires to bxSlider		  
-			var caroselSlider = jQuery('#instafeed').bxSlider({
+			var caroselSlider = jQuery(divId).bxSlider({
 				slideWidth:250,
 				minSlides:2,
 				maxSlides:5,
 				moveSlides:5,
-				slideMargin:15,
-				touchEnabled:true
+				slideMargin:15
 			});
 		}
 		
