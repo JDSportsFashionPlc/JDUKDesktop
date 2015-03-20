@@ -8,22 +8,34 @@
 * --- --- --- --- ---
 ***/
 
-// VARS
-var HTML, topTxt, bottomTxt, CMTTagging;
+// TIMI LOADER
+jQuery(document).ready(function($) {   
+var everythingLoaded = setInterval(function() {
+if (/loaded|complete/.test(document.readyState)) {
 
-// BUILDER
-function insertHomePage(topTxt, bottomTxt, CMTTagging){HTML = '<a class="delivery-mainlink" href="/page/delivery" manual_cm_re="USP-_-Delivery-Link-_-'+CMTTagging+'" style="display:inline">'+topTxt+'</a>&nbsp;<br /><span class="delivery-sublink" style="display:inline"><a href="/page/delivery" manual_cm_re="USP-_-Delivery-Link-_-'+CMTTagging+'">'+bottomTxt+'</a></span>';jQuery('#DeliverySpot2').html(' ');jQuery('#DeliverySpot2').html(HTML);}
-
-if ( jQuery('#productAttributesWrapper form').length ) {
-} else if ( jQuery('form#basketForm').length ) {
-} else {
+	// START TIMI LOADER NO MORE CUSTOM CODE	
 	
-	// DESKTOP
-
-	topTxt = 'Next Day Delivery';
-	bottomTxt = 'Order by 9pm';
-	CMTTagging = 'A'
-
-	insertHomePage(topTxt, bottomTxt, CMTTagging);
+		clearInterval(everythingLoaded); 
+		
+		var HTML, topTxt, bottomTxt, CMTTagging;
+		if ( jQuery('#productAttributesWrapper form').length ) {
+		// PP
+		} else if ( jQuery('form#basketForm').length ) {
+		// CART
+		} else {
+		// DESKTOP
+		
+		topTxt = 'Next Day Delivery';
+		bottomTxt = 'Order by 9pm';
+		CMTTagging = 'A'
+		
+		HTML = '<a class="delivery-mainlink" href="/page/delivery" manual_cm_re="USP-_-SpecialDeliveryCampaign-_-'+CMTTagging+'" style="display:inline">'+topTxt+'</a>&nbsp;<br /><span class="delivery-sublink" style="display:inline"><a href="/page/delivery" manual_cm_re="USP-_-SpecialDeliveryCampaign-_-'+CMTTagging+'">'+bottomTxt+'</a></span>';jQuery('#DeliverySpot2').html(' ');jQuery('#DeliverySpot2').html(HTML);
+		
+		}
 	
+	// END TIMI LOADER NO MORE CUSTOM CODE
+
 }
+}, 10);
+
+});
