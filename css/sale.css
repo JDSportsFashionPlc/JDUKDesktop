@@ -1,0 +1,32 @@
+<!--
+/***
+
+ * --- --- --- --- ---
+ * JD Sports Fashion plc
+ * IBM WebSphere Commerce Platform
+ * KM - 17.4.2014
+ * --- --- --- --- ---
+ * #SALE FONTS
+ * --- --- --- --- ---
+ 
+ 
+ -- 4th April 2014
+ --- KM - Major code changes and another cleanup
+ --- Fixes for IE, adding of global spots
+ --- Better indentation and viewing of the file
+ 
+
+***/
+-->
+.gothamheight{height:183px !important}
+.whitegotham{color:#fff;text-align:center;font-family:'Gotham A','Gotham B',sans-serif !important;font-size:25px !important;font-weight:900 !important;line-height:23px !important;text-transform:uppercase !important;bottom:-105px !important;position:relative;text-shadow:none !important}
+.yellowgotham{color:#fef00b;font-family:'Gotham A','Gotham B',sans-serif !important;font-size:25px !important;font-weight:900 !important;line-height:23px !important;text-transform:uppercase !important;text-shadow:none !important
+bottom: -96px;position: relative}
+.gothamheightp{height:145px !important}
+.weightgothamp{color:#fff;text-align:center;font-family:'Gotham A','Gotham B',sans-serif !important;font-size:25px !important;font-weight:900 !important;line-height:23px !important;text-transform:uppercase !important;bottom:-75px !important;position:relative;text-shadow:none !important}
+.yellowgothamp{color:#fef00b;font-family:'Gotham A','Gotham B',sans-serif !important;font-size:25px !important;font-weight:900 !important;line-height:23px !important;text-transform:uppercase !important;text-shadow:none !important}/*
+#middle-spots-wrap.homepage,#middle-spots-wrap.homepage ul{height:1700px !important}
+.centreright2,.centreleft2,.centremiddle2{top:850px}
+.centremiddle2{left:329px}
+.centreright2{right:0}
+*/
