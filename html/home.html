@@ -62,12 +62,28 @@
 
 
 
+<!-- PUMA VIDEO START -->
+<div class="ruh xxxvideoSlider hide" style="position: relative;top: 105px;z-index: 1001;padding: 15px;border-radius: 27px;height: 650px;width: 1200px;background: rgb(0, 0, 0);margin: 0 auto;">
 
+<a href="/home?reload" class="gotham ultra"   style="height: 39px;padding: 15px; position: absolute;right: 0;text-align: center;top: 0;width: 39px;display:block;z-index:1000"><img src="/lib/hlight/puma/close.png" alt=""></a> 
+<<<<<<< HEAD
+
+<iframe src="http://2.player.smartzer-editor.appspot.com/video?video=55094b10b037e9761648c7ce&companyId=54e34995869825ab37bc2bf1" scrolling="no" height="635" width="100%" frameborder="0"></iframe>
+
+<!--
+<video class="topsss" controls style="width:97%;z-index:100;position:absolute"> 
+<source src="http://i1.adis.ws/v/jpl/15SS_RU_Running_IGNITE_TVC_30_unslated-1920x1080_PAL_h264/mp4_720p" type="video/mp4"> 
+<source src="http://i1.adis.ws/v/jpl/15SS_RU_Running_IGNITE_TVC_30_unslated-1920x1080_PAL_h264/webm_720p" type="video/webm">
+</video>
+-->
+
+</div>
+<!-- PUMA VIDEO END -->
 
 
 
 <div class="usp-extension"></div>
-<div class="fix" style="top:0px">  
+<div id="videoFade" class="fix" style="top:0px">  
 
 
 
@@ -191,7 +207,7 @@
                 <img style="float:left" src="/images/library/2015/23.03.2015/home/easter-portrait-banner.png" />
                 
                 <div class="text">
-                    <span class="cta-button-black-bold caps plain-gotham cta-middle-spot-center" style="margin: 30px auto !important">Shop now</span>
+                    <span class="cta-button-black-bold caps plain-gotham cta-middle-spot-center" style="margin: 30px auto !important;width:170px">Get the look</span>
                 </div> 
             </a> 
        </li>
@@ -230,18 +246,14 @@
 	   </li>
        
        <!-- MIDDLE SPOT 7 -->
-       <li class="bottomleft middlespotContentRegion" style="top:1284px"> 
-           <a manual_cm_re="CONTENT-_-SPOT7-_-Junior2forOffers" href="http://www.jdsports.co.uk/featured/Kids%20Offers?fredhopperUrl=fh_location=%2f%2fcatalog01%2fen_GB%2fcategories%3C%7bcatalog01_ct12203%7d%2foffer_code_description%3E%7b220for20a315%3b220for20a320%7d">
-               <img width="319" height="415" src="/images/library/2015/17.03.2015/home/middle07.jpg">
-               <div class="text">
-                   <span class="spot-title"><strong class="ultra caps" style="font-size:13px">Junior / '2 for' Offers</strong></span>
-                   <span class="cta-button-black-bold caps plain-gotham cta-middle-spot-center" style="margin:11px auto !important">Shop now</span>
-               </div>
+       <li class="bottomleft middlespotContentRegion" style="width:648px;top:1284px"> 
+           <a id="homeVideoOverlay" manual_cm_re="CONTENT-_-SPOT7-_-Junior2forOffers" href="#">
+               <img width="648" height="415" src="/images/library/2015/19.03.2015/home/lallana-puma.jpg">
            </a>
        </li>
        
        <!-- MIDDLE SPOT 8 -->
-       <li class="bottommiddle middlespotContentRegion" style="top:1284px"> 
+       <!--<li class="bottommiddle middlespotContentRegion" style="top:1284px"> 
            <a manual_cm_re="CONTENT-_-SPOT8-_-NikeCrossTown" href="/page/nike-crosstown-running/">
                <img width="319" height="415" src="/images/library/2015/09.03.2015/home/middle07.jpg" />
                <div class="text">
@@ -249,7 +261,7 @@
                    <span class="cta-button-black-bold caps plain-gotham cta-middle-spot-center" style="margin:11px auto !important">Shop now</span>
                </div>
            </a>
-       </li>
+       </li>-->
        
        <!-- MIDDLE SPOT 9 -->
        <li class="bottomright middlespotContentRegion" style="top:1284px">
@@ -352,5 +364,17 @@
 <script src="/js/JD_NewsletterInjectLink.js"></script>
 <script src="/js/animation.js"></script>
 <script src="/js/home2015.js"></script>	 
+<script>
+jQuery(document).ready(function() {	
+    jQuery('#homeVideoOverlay').click(function() {      
+       
+		 jQuery('#videoFade').css('opacity', 0.25);
+	 		jQuery('.xxxvideoSlider').slideDown();
+			jQuery('video').each(function(){this.play()});
+	 
+	 });
+	  
+});
+</script>
 </div>
 </div>
