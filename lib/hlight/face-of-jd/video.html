@@ -18,30 +18,26 @@
 <style>
 .overlay {z-index:9999;display:none;width:100%;height:100%;position:fixed;}
 .overlay-bg {width:100%;height:100%;position:fixed;background:#fef000;opacity:0.9;display:block;z-index:999;}
-#video {width: 853px;height: 480px;position: absolute;display: block;top: 25%;margin: -240px auto;z-index: 9999;margin-left: -449px;left: 50%;border: 19px solid #ef2c92;border-radius: 10px;-moz-border-radius: 10px;}
+iframe {border: 10px solid #ef2c92;border-radius: 10px;-moz-border-radius: 10px;margin-top: -240px;top: 43%;position: absolute;left: 50%;margin-left: -431px;}
+center {width:100%;height:100%;display:block;}
 </style>
 
 
 	
 <div id="faceofjd" class="hide fademe">
 
-<div class="overlay">
-    <div id="video">
-        <iframe width="853" height="480" src="https://www.youtube.com/embed/PfY6Wl1BmLg?rel=0" frameborder="0" allowfullscreen></iframe>
-    </div>
-    <div class="overlay-bg"></div>
-</div>
 
 <!--
 // FIXES FOR 2015
 -->
 <style type="text/css">
-.contentContainer,#faceofjd{background:#fef000 !important}
+.contentContainer,#faceofjd{height:100%;display:block;background:#fef000 !important}
 .playlink{position:relative;height:892px;width:746px}
 .playlink #trigger{position:absolute;bottom:239px;right:-18px;height:425px;width:425px;display:block;text-indent:-9000px}
 .playlink #trigger:hover{background:url(/lib/hlight/face-of-jd/assets/play_hover.jpg)}
 .playlink .android-app {display:block;width:147px;height:48px;position:absolute;top:523px;left:86px;text-indent:-999999px;}
 .playlink .apple-app {display:block;width:147px;height:48px;position:absolute;top:590px;left:86px;text-indent:-999999px;}
+.backbtn {position:absolute;border: 1px solid #fff;background: #ef2c92;color: #fff;width: 350px;height: auto;padding: 15px 30px;text-align: center;text-decoration: none;text-transform: uppercase;margin: 36px 0 0 -197px;display: block;font-size:29px;font-family:Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;left:50%;bottom:3%;}
 </style>
 
 <!--
@@ -50,16 +46,11 @@
 	<header>
     
 		<center><br /><br /><br />
-            <div class="playlink"><img src="/lib/hlight/face-of-jd/assets/play_back.jpg">
-            
-                <a href="#" id="trigger">PLAY</a>
-                <a class="android-app" href="https://play.google.com/store/apps/details?id=com.jd.jdsports&hl=en_GB">ANDROID</a>
-                <a class="apple-app" href="https://itunes.apple.com/gb/app/jd-sports/id690602681?mt=8">iOS</a>
-            
-            </div>
+            <iframe width="853" height="480" src="https://www.youtube.com/embed/PfY6Wl1BmLg?rel=0" frameborder="0" allowfullscreen></iframe>
+            <br /><br />
+            <a class="backbtn" href="/page/face-of-jd">Back to Main</a>
         </center>
         
-      <RR !ScriptRenderLinkDynamic = amazing.link = x; />
 	</header>
    
 </div>
@@ -71,25 +62,3 @@
 <script src="/lib/hlight/face-of-jd/face-of-jd.js"></script>
 <script src="//use.typekit.net/mxe0ofy.js"></script>
 <script>try{Typekit.load();}catch(e){}</script>
-<script>
-if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {
- 
-	jQuery('#trigger').click(function(){
-		window.location = "/lib/hlight/face-of-jd/video.html";
-	});
- 
-} else {
-	
-	jQuery(document).ready(function(){
-		jQuery('#trigger').click(function(){
-			jQuery('.overlay').show('fade');
-		});
-		
-		jQuery('.overlay').click(function(){
-			jQuery('.overlay').hide('fade');
-			location.reload();
-		});
-	});
-	
-}
-</script>
